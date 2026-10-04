@@ -1,0 +1,39 @@
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 8 --seed 0 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 8 --seed 1 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 8 --seed 2 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 32 --seed 0 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 32 --seed 1 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 32 --seed 2 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 8 --seed 0 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 8 --seed 1 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 8 --seed 2 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 0 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 1 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 2 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 8 --seed 0 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 8 --seed 1 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 8 --seed 2 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 32 --seed 0 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 32 --seed 1 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 32 --seed 2 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 8 --seed 0 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 8 --seed 1 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 8 --seed 2 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 0 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 1 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 2 --study development/20261003-falsification --b 0
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 0 --study development/20261003-falsification --b 0 --unsigned
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 1 --study development/20261003-falsification --b 0 --unsigned
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 2 --study development/20261003-falsification --b 0 --unsigned
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 2 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 0 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 1 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 2 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 2 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 0 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 1 --study development/20261003-falsification --device cuda:0
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 2 --study development/20261003-falsification --device cuda:0

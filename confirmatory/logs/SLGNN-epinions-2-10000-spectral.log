@@ -1,0 +1,1 @@
+SLGNN-epinions-T2-s10000-spectral: val=0.8775 test=0.8760 embD=1.6943452004174235 logitD=1.6308293590789424 total=383s record=671433b1a1e4

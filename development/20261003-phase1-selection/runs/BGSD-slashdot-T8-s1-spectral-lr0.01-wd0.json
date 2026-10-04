@@ -1,0 +1,247 @@
+{
+ "args": {
+  "T": 8,
+  "arch": "BGSD",
+  "chunk": 1,
+  "clip": 1.0,
+  "dataset": "slashdot",
+  "deterministic": false,
+  "device": "cuda:0",
+  "emb_pairs": 8,
+  "eval_every": 5,
+  "features": "spectral",
+  "flip_m": 8,
+  "flip_queries": 100,
+  "hidden": 64,
+  "lr": 0.01,
+  "max_epochs": 300,
+  "memory_efficient": true,
+  "patience": 20,
+  "seed": 1,
+  "skip_signflip": false,
+  "study": "development/20261003-phase1-selection",
+  "targets": 100,
+  "train_only": true,
+  "trunc_targets": 25,
+  "weight_decay": 0.0
+ },
+ "checkpoint": {
+  "encoder_state_hash": "60ffe5fd5580305869827d6dcf600e468eba0801534c165eada5ab6a4918a9b9",
+  "head_state_hash": "2ded9fde628f9174870bae675741f647574727b4586df5dfba365641de079f83",
+  "init_encoder_state_hash": "c69edcfa1c9a40f88a03f678c02da7ea70699c0a2a6e60fee2ab2e58e8dd3a3b",
+  "path": "$SRANGE_STORE/objects/a8833070635769e6b0a61bfe10fdcae5be9a1b3f5a1c6b611f7637097682438f.pt",
+  "sha256": "a8833070635769e6b0a61bfe10fdcae5be9a1b3f5a1c6b611f7637097682438f"
+ },
+ "created_utc": "2026-10-03T14:25:05Z",
+ "data": {
+  "E": 498532,
+  "dataset": "slashdot",
+  "feature_sha256": "9f0179f0d12a92ccc3d24b3d5590dc92e0ad3e8e7ac14d56c52ba1c71ffa49b7",
+  "features": "spectral",
+  "mp_edges": 299119,
+  "n": 82140,
+  "neg_fraction": 0.23589057472739963,
+  "preprocessing": "undirected-summed-sign-v1",
+  "processed_sha256": "2f4a50e0f992479e33dda6051fa04d18027a8b910b9f2deb3d809c0319eef6f2",
+  "raw_sha256": "55e69b402f2d40bc40e36c7c1211557a3d61927d5a45817f8d3db2d367080ca7",
+  "split_seed": 1,
+  "split_sha256": "944c59f3fad6c738dc324348b0bcc6b4479af57f4156a7c80a4161cde6336eaf",
+  "url": "https://snap.stanford.edu/data/soc-sign-Slashdot090221.txt.gz"
+ },
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-16GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "git_commit": "660326021d39300fbc8f929bc2266010e818e757",
+ "git_dirty": false,
+ "model": {
+  "arch": "BGSD",
+  "hidden": 64,
+  "knobs": {},
+  "max_skip": 8,
+  "memory_efficient": true,
+  "nominal_layers": 8,
+  "parameters": 100041,
+  "propagation_steps": 8,
+  "retention_bias": 0.0
+ },
+ "protocol_lock": null,
+ "result_sha256": "1f723e9656ad3c806815de8629ecab689a5f23f5e11315d0e7b996f2ac193335",
+ "run_id": "BGSD-slashdot-T8-s1-spectral-lr0.01-wd0",
+ "source_tree_sha256": "8f2315e65460108dcb60d22885941e2f4f6876afc12df14355faf54598eaa138",
+ "study": "development/20261003-phase1-selection",
+ "timing": {
+  "total_s": 24.470988512039185
+ },
+ "training": {
+  "best_val_auc": 0.8838681841658993,
+  "clip_events": 0,
+  "config": {
+   "clip": 1.0,
+   "eval_every": 5,
+   "lr": 0.01,
+   "max_epochs": 300,
+   "patience": 20,
+   "seed": 1,
+   "weight_decay": 0.0
+  },
+  "config_sha256": "b5ff511968246e16f7c18faaf046131c82dc7fd682c963b4f61140563a78473a",
+  "epochs_run": 135,
+  "flags": [],
+  "grad_norm": {
+   "max": 0.6473119854927063,
+   "median": 0.03376205638051033
+  },
+  "seconds": 21.757362127304077,
+  "selected_epoch": 35,
+  "trace": [
+   {
+    "epoch": 5,
+    "train_loss": 0.16900038719177246,
+    "val_auc": 0.8727664551854333
+   },
+   {
+    "epoch": 10,
+    "train_loss": 0.17518486082553864,
+    "val_auc": 0.8780812241777537
+   },
+   {
+    "epoch": 15,
+    "train_loss": 0.16138020157814026,
+    "val_auc": 0.8803776679174836
+   },
+   {
+    "epoch": 20,
+    "train_loss": 0.15632401406764984,
+    "val_auc": 0.8810477892948175
+   },
+   {
+    "epoch": 25,
+    "train_loss": 0.14505183696746826,
+    "val_auc": 0.8827276292877053
+   },
+   {
+    "epoch": 30,
+    "train_loss": 0.14342613518238068,
+    "val_auc": 0.8831666324140457
+   },
+   {
+    "epoch": 35,
+    "train_loss": 0.13691389560699463,
+    "val_auc": 0.8838681841658993
+   },
+   {
+    "epoch": 40,
+    "train_loss": 0.1320381760597229,
+    "val_auc": 0.8818273671910629
+   },
+   {
+    "epoch": 45,
+    "train_loss": 0.12909726798534393,
+    "val_auc": 0.8797460863120128
+   },
+   {
+    "epoch": 50,
+    "train_loss": 0.12681938707828522,
+    "val_auc": 0.8785381578211418
+   },
+   {
+    "epoch": 55,
+    "train_loss": 0.12531611323356628,
+    "val_auc": 0.876440290391782
+   },
+   {
+    "epoch": 60,
+    "train_loss": 0.1236446425318718,
+    "val_auc": 0.8746051114741689
+   },
+   {
+    "epoch": 65,
+    "train_loss": 0.12256814539432526,
+    "val_auc": 0.8725817131219372
+   },
+   {
+    "epoch": 70,
+    "train_loss": 0.12100398540496826,
+    "val_auc": 0.8747778272228242
+   },
+   {
+    "epoch": 75,
+    "train_loss": 0.11961652338504791,
+    "val_auc": 0.8751386264210741
+   },
+   {
+    "epoch": 80,
+    "train_loss": 0.11804303526878357,
+    "val_auc": 0.8759007606155093
+   },
+   {
+    "epoch": 85,
+    "train_loss": 0.11709827929735184,
+    "val_auc": 0.8759540943318299
+   },
+   {
+    "epoch": 90,
+    "train_loss": 0.11672844737768173,
+    "val_auc": 0.8747875799683896
+   },
+   {
+    "epoch": 95,
+    "train_loss": 0.11818961054086685,
+    "val_auc": 0.8793862643667899
+   },
+   {
+    "epoch": 100,
+    "train_loss": 0.11633813381195068,
+    "val_auc": 0.8775811030284734
+   },
+   {
+    "epoch": 105,
+    "train_loss": 0.11392515897750854,
+    "val_auc": 0.8770880491992031
+   },
+   {
+    "epoch": 110,
+    "train_loss": 0.11250065267086029,
+    "val_auc": 0.876900388194886
+   },
+   {
+    "epoch": 115,
+    "train_loss": 0.1101486012339592,
+    "val_auc": 0.8771717064611233
+   },
+   {
+    "epoch": 120,
+    "train_loss": 0.10960596799850464,
+    "val_auc": 0.8769355079991407
+   },
+   {
+    "epoch": 125,
+    "train_loss": 0.1068681851029396,
+    "val_auc": 0.87932345767737
+   },
+   {
+    "epoch": 130,
+    "train_loss": 0.10396326333284378,
+    "val_auc": 0.8788780320452497
+   },
+   {
+    "epoch": 135,
+    "train_loss": 0.10147244483232498,
+    "val_auc": 0.8807232950325942
+   }
+  ]
+ },
+ "tree": "development"
+}

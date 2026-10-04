@@ -1,0 +1,43 @@
+{
+ "integrity": {
+  "chain_runs": 120,
+  "network_runs": 320,
+  "sidnet_runs": 30,
+  "all_logits_match": true
+ },
+ "RH1": {
+  "solved_cells": 10,
+  "within": 10,
+  "decision": "holds"
+ },
+ "RH2": {
+  "solved_runs": 58,
+  "chance_runs": 62,
+  "median_ratio_solved": 1.02,
+  "median_ratio_chance": 0.29966666666666664,
+  "chance_within_1": 0.06451612903225806,
+  "p": 1.8137868355432154e-21,
+  "decision": "holds"
+ },
+ "RH3": {
+  "solved_cells": 10,
+  "mass_below_e_star": 10,
+  "decision": "holds"
+ },
+ "RH4": {
+  "a_slashdot_epinions": {
+   "cells": 16,
+   "within_bound": 16,
+   "max_cell_reach_0.1": 1.504,
+   "decision": "holds"
+  },
+  "b_random_features": {
+   "cells": 16,
+   "within_bound": 16,
+   "max_cell_reach_0.1": 1.544,
+   "decision": "holds"
+  }
+ }
+}
+SIDNET median T_func: confirmatory order 32.0 per layer 24.0 per layer, M0 = 0 2.0
+replication.json 877469012480571030a7420d2d9db10f8015e6df4c0fa3416e0dad727f5533bd

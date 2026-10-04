@@ -1,0 +1,22 @@
+relay-r8-SIDNET-planted-bitcoin_alpha-T32-s20003: r*=8 val=1.000 test=1.000 D=2.4974037546457613 R90=5.02 init_D=1.66612332067768 total=552s record=77ef46ace9f5
+exploratory/run_chain_x.py", line 221, in main
+    gs = output_influence(lambda s: head(enc(Xte, gte.with_signs(s)), qt), gte.sign_und.clone(), Q, chunk=a.chunk, fresh=a.memory_efficient)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/range/jacobian.py", line 76, in output_influence
+    for part, grads in jacobian_rows(f, Z, [(q, None) for q in range(Q)], Q, chunk, fresh):
+  File "<repo>/src/srange/range/jacobian.py", line 50, in jacobian_rows
+    (g,) = torch.autograd.grad(Y, Xg, grad_outputs=go, retain_graph=True, is_grads_batched=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/autograd/__init__.py", line 499, in grad
+    result = _vmap_internals._vmap(vjp, 0, 0, allow_none_pass_through=True)(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/_vmap_internals.py", line 231, in wrapped
+    batched_outputs = func(*batched_inputs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/autograd/__init__.py", line 489, in vjp
+    return _engine_run_backward(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 58.00 MiB. GPU 0 has a total capacity of 15.77 GiB of which 13.50 MiB is free. Including non-PyTorch memory, this process has 15.75 GiB memory in use. Of the allocated memory 15.19 GiB is allocated by PyTorch, and 142.78 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

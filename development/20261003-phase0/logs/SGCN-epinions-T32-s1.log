@@ -1,0 +1,25 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/run_native.py", line 260, in <module>
+  File "<repo>/scripts/run_native.py", line 217, in main
+    with torch.no_grad():
+  File "<repo>/src/srange/range/jacobian.py", line 51, in output_influence
+    for part, grads in jacobian_rows(f, Z, [(q, None) for q in range(Q)], Q, chunk):
+  File "<repo>/src/srange/range/jacobian.py", line 17, in jacobian_rows
+    Y = f(Xg)
+        ^^^^^
+  File "<repo>/scripts/run_native.py", line 217, in <lambda>
+    with torch.no_grad():
+                          
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/sgcn.py", line 49, in forward
+    nb = lb(torch.cat([weighted_mean(zb, g, wp), weighted_mean(zu, g, wn), zb], -1))
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/sgcn.py", line 18, in weighted_mean
+    num = scatter_sum(w.unsqueeze(-1) * x[col], row, g.n)
+                                        ~^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 104.00 MiB. GPU 0 has a total capacity of 31.73 GiB of which 89.50 MiB is free. Including non-PyTorch memory, this process has 31.64 GiB memory in use. Of the allocated memory 30.89 GiB is allocated by PyTorch, and 393.60 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

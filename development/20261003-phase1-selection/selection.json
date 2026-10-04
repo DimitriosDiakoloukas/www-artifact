@@ -1,0 +1,126 @@
+{
+ "rule": "max mean validation AUC over seeds {0,1} at T=8; ties to smaller lr, then smaller wd",
+ "selection": {
+  "BGSD/bitcoin_alpha": {
+   "lr": 0.001,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.8589443384966411
+  },
+  "BGSD/bitcoin_otc": {
+   "lr": 0.001,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8938718983929687
+  },
+  "BGSD/epinions": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.9220632406755096
+  },
+  "BGSD/slashdot": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8823844330192031
+  },
+  "BGSD/wiki_elec": {
+   "lr": 0.01,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.893010411032348
+  },
+  "BGSD/wiki_rfa": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8804352069137068
+  },
+  "SGCN/bitcoin_alpha": {
+   "lr": 0.005,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.7492738333808938
+  },
+  "SGCN/bitcoin_otc": {
+   "lr": 0.005,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8216023198011804
+  },
+  "SGCN/epinions": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8666048663809108
+  },
+  "SGCN/slashdot": {
+   "lr": 0.005,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.7650846347054288
+  },
+  "SGCN/wiki_elec": {
+   "lr": 0.005,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8607505157376983
+  },
+  "SGCN/wiki_rfa": {
+   "lr": 0.005,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8410529833968938
+  },
+  "SIDNET/bitcoin_alpha": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8254219552068423
+  },
+  "SIDNET/bitcoin_otc": {
+   "lr": 0.01,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.8672165801250924
+  },
+  "SIDNET/epinions": {
+   "lr": 0.005,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.9096940506146621
+  },
+  "SIDNET/slashdot": {
+   "lr": 0.005,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.887142193973081
+  },
+  "SIDNET/wiki_elec": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8392506628172698
+  },
+  "SIDNET/wiki_rfa": {
+   "lr": 0.005,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8421312955551566
+  },
+  "SLGNN/bitcoin_alpha": {
+   "lr": 0.001,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8726594655797649
+  },
+  "SLGNN/bitcoin_otc": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.9057227818535432
+  },
+  "SLGNN/epinions": {
+   "lr": 0.005,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.9219041286918116
+  },
+  "SLGNN/slashdot": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.9005266188406151
+  },
+  "SLGNN/wiki_elec": {
+   "lr": 0.005,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8906842854897647
+  },
+  "SLGNN/wiki_rfa": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8786124265471352
+  }
+ },
+ "sha256": "a8bbc1dd1bc75d31eb05bfaed5d404f3826559f6cf8e14f5b401e775bfbd1e60"
+}

@@ -1,0 +1,1 @@
+relay-r2-SLGNN-T8-s10000: r*=2 val=0.480 test=0.506 D=0.9464435551688151 R90=2.0 init_D=0.9793529904416138 total=173s record=b0cd1e27c871

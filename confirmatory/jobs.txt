@@ -1,0 +1,860 @@
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 32 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10000 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10000 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10001 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10001 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10002 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10002 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10003 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10003 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10004 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10004 --b 2 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 32 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 32 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 32 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 32 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10000 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10000 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10000 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10000 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10000 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10000 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10001 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10001 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10001 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10001 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10001 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10001 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10002 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10002 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10002 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10002 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10002 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10002 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10003 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10003 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10003 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10003 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10003 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10003 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10004 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10004 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10004 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10004 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10004 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10004 --b 2 --study confirmatory/chain --deterministic
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 2 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 25 --flip-m 4 --emb-pairs 2 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 32 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 2 --arch SLGNN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 4 --arch SLGNN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 8 --arch SLGNN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 16 --arch SLGNN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10000 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10001 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10002 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10003 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 32 --seed 10004 --b 0 --study confirmatory/chain --deterministic  --unsigned
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 2 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 2 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 2 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 2 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 8 --seed 10000 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 8 --seed 10001 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 8 --seed 10002 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 8 --seed 10003 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SGCN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SGCN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SGCN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SGCN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SGCN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SGCN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SGCN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SGCN --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch SIDNET --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch SIDNET --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch SIDNET --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch SIDNET --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch SIDNET --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch SIDNET --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch SIDNET --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch SIDNET --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 2 --arch BGSD --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 4 --arch BGSD --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 8 --arch BGSD --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task relay --r 16 --arch BGSD --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 4 --arch BGSD --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 8 --arch BGSD --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 16 --arch BGSD --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_chain.py --task balance --r 32 --arch BGSD --T 8 --seed 10004 --b 0 --study confirmatory/chain --deterministic
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10000 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10000 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10001 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10001 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10002 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10002 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10003 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10003 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 2 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 2 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10004 --features spectral --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 2 --seed 10004 --features random --study confirmatory/native --device cuda:0 --deterministic --flip-queries 50 --flip-m 8

@@ -1,0 +1,355 @@
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20000 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20000 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20000 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20000 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20000 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20000 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SESGFORMER --T 1 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SESGFORMER --T 1 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SESGFORMER --T 1 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SESGFORMER --T 1 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SESGFORMER --T 1 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SESGFORMER --T 1 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SESGFORMER --T 1 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SESGFORMER --T 1 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SIDNET --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SIDNET --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SIDNET --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SIDNET --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch BGSD --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch BGSD --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch BGSD --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch BGSD --T 32 --seed 20000 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_alpha --T 1 --seed 20000 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_otc --T 1 --seed 20000 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset wiki_elec --T 1 --seed 20000 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20001 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20001 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20001 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20001 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20001 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20001 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SESGFORMER --T 1 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SESGFORMER --T 1 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SESGFORMER --T 1 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SESGFORMER --T 1 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SESGFORMER --T 1 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SESGFORMER --T 1 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SESGFORMER --T 1 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SESGFORMER --T 1 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SIDNET --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SIDNET --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SIDNET --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SIDNET --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch BGSD --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch BGSD --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch BGSD --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch BGSD --T 32 --seed 20001 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_alpha --T 1 --seed 20001 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_otc --T 1 --seed 20001 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset wiki_elec --T 1 --seed 20001 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20002 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20002 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20002 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20002 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20002 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20002 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SESGFORMER --T 1 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SESGFORMER --T 1 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SESGFORMER --T 1 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SESGFORMER --T 1 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SESGFORMER --T 1 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SESGFORMER --T 1 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SESGFORMER --T 1 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SESGFORMER --T 1 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SIDNET --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SIDNET --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SIDNET --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SIDNET --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch BGSD --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch BGSD --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch BGSD --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch BGSD --T 32 --seed 20002 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_alpha --T 1 --seed 20002 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_otc --T 1 --seed 20002 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset wiki_elec --T 1 --seed 20002 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20003 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20003 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20003 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20003 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20003 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20003 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SESGFORMER --T 1 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SESGFORMER --T 1 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SESGFORMER --T 1 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SESGFORMER --T 1 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SESGFORMER --T 1 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SESGFORMER --T 1 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SESGFORMER --T 1 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SESGFORMER --T 1 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SIDNET --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SIDNET --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SIDNET --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SIDNET --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch BGSD --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch BGSD --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch BGSD --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch BGSD --T 32 --seed 20003 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_alpha --T 1 --seed 20003 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_otc --T 1 --seed 20003 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset wiki_elec --T 1 --seed 20003 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20004 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20004 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --variant signed --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20004 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20004 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --variant unsigned --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20004 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20004 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --variant noisy --study exploratory/e1-mechanism --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SESGFORMER --T 1 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SESGFORMER --T 1 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SESGFORMER --T 1 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SESGFORMER --T 1 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SESGFORMER --T 1 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SESGFORMER --T 1 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SESGFORMER --T 1 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SESGFORMER --T 1 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch SIDNET --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch SIDNET --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch SIDNET --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch SIDNET --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 2 --arch BGSD --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 4 --arch BGSD --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 16 --arch BGSD --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_chain_x.py --task balance --r 32 --arch BGSD --T 32 --seed 20004 --b 0 --M 200,100,200 --study exploratory/e2-global --deterministic
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_alpha --T 1 --seed 20004 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset bitcoin_otc --T 1 --seed 20004 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SESGFORMER --dataset wiki_elec --T 1 --seed 20004 --study exploratory/e2-global --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20000 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20000 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20000 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20000 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20000 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20000 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20000 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20000 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20000 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20000 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20000 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20000 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20000 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20000 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20000 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20000 --retention-bias 0 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20000 --retention-bias -2 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20000 --retention-bias -4 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20000 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20000 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20000 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20000 --retention-bias 0 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20000 --retention-bias -2 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20000 --retention-bias -4 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20001 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20001 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20001 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20001 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20001 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20001 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20001 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20001 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20001 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20001 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20001 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20001 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20001 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20001 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20001 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20001 --retention-bias 0 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20001 --retention-bias -2 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20001 --retention-bias -4 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20001 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20001 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20001 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20001 --retention-bias 0 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20001 --retention-bias -2 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20001 --retention-bias -4 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20002 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20002 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20002 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20002 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20002 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20002 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20002 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20002 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20002 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20002 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20002 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20002 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20002 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20002 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20002 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20002 --retention-bias 0 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20002 --retention-bias -2 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20002 --retention-bias -4 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20002 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20002 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20002 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20002 --retention-bias 0 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20002 --retention-bias -2 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20002 --retention-bias -4 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20003 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20003 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20003 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20003 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20003 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20003 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20003 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20003 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20003 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20003 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20003 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20003 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20003 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20003 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20003 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20003 --retention-bias 0 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20003 --retention-bias -2 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20003 --retention-bias -4 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20003 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20003 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20003 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20003 --retention-bias 0 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20003 --retention-bias -2 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20003 --retention-bias -4 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20004 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20004 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --variant planted-bitcoin_alpha --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch SIDNET --T 32 --seed 20004 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 4 --arch BGSD --T 32 --seed 20004 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --variant planted-wiki_elec --study exploratory/e3-planted --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch SIDNET --T 32 --seed 20004 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 8 --arch BGSD --T 32 --seed 20004 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20004 --b 0 --restart 0.05 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20004 --b 0 --restart 0.15 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch SIDNET --T 32 --seed 20004 --b 0 --restart 0.35 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20004 --b 0 --retention-bias 0 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20004 --b 0 --retention-bias -2 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_chain_x.py --task relay --r 16 --arch BGSD --T 32 --seed 20004 --b 0 --retention-bias -4 --study exploratory/e4-restart --deterministic
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20004 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20004 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset bitcoin_alpha --T 32 --seed 20004 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20004 --retention-bias 0 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20004 --retention-bias -2 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset bitcoin_alpha --T 32 --seed 20004 --retention-bias -4 --lr 0.001 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20004 --restart 0.05 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20004 --restart 0.15 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch SIDNET --dataset wiki_elec --T 32 --seed 20004 --restart 0.35 --lr 0.01 --weight-decay 0.0 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20004 --retention-bias 0 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20004 --retention-bias -2 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8
+python3 exploratory/run_native_x.py --arch BGSD --dataset wiki_elec --T 32 --seed 20004 --retention-bias -4 --lr 0.01 --weight-decay 1e-05 --memory-efficient --study exploratory/e4-restart --device cuda:0 --deterministic --flip-queries 50 --flip-m 8

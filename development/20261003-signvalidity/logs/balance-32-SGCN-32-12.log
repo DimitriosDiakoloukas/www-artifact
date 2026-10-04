@@ -1,0 +1,1 @@
+balance-r32-SGCN-T32-s12: r*=16 val=0.492 test=0.507 D=4.7763945943304655 R90=9.0 init_D=4.347775490541221 total=132s record=a5b467fd3509

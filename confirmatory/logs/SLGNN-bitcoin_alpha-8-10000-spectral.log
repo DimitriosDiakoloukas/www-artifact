@@ -1,0 +1,1 @@
+SLGNN-bitcoin_alpha-T8-s10000-spectral: val=0.8883 test=0.8621 embD=2.4460556528088304 logitD=2.3930593041765564 total=275s record=3ae514752a6c

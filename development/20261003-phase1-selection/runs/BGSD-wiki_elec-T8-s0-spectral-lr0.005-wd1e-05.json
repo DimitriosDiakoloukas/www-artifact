@@ -1,0 +1,342 @@
+{
+ "args": {
+  "T": 8,
+  "arch": "BGSD",
+  "chunk": 1,
+  "clip": 1.0,
+  "dataset": "wiki_elec",
+  "deterministic": false,
+  "device": "cuda:0",
+  "emb_pairs": 8,
+  "eval_every": 5,
+  "features": "spectral",
+  "flip_m": 8,
+  "flip_queries": 100,
+  "hidden": 64,
+  "lr": 0.005,
+  "max_epochs": 300,
+  "memory_efficient": false,
+  "patience": 20,
+  "seed": 0,
+  "skip_signflip": false,
+  "study": "development/20261003-phase1-selection",
+  "targets": 100,
+  "train_only": true,
+  "trunc_targets": 25,
+  "weight_decay": 1e-05
+ },
+ "checkpoint": {
+  "encoder_state_hash": "2c47a2d4913f9b670d6ee50060c34e9ec94b809b5b05033356d1e5087fd4ba7f",
+  "head_state_hash": "fb5c34727d040f06d2b55c58efd93b32f919e850dd33d37291f5990167f128ee",
+  "init_encoder_state_hash": "7be3cca9a4fd4ab2e88e7c6eebfea3890948d918348cf79e6de2703cf67452a6",
+  "path": "$SRANGE_STORE/objects/835147bf9f17c6a6d346a2eb9f52f15c82b88f99f042a78f41a4f57231701add.pt",
+  "sha256": "835147bf9f17c6a6d346a2eb9f52f15c82b88f99f042a78f41a4f57231701add"
+ },
+ "created_utc": "2026-10-03T13:36:46Z",
+ "data": {
+  "E": 99989,
+  "dataset": "wiki_elec",
+  "feature_sha256": "5965fa4b7dca07374dd25fd3cf659fd8858b1707cbe5411a9b9cf74abbfcb1ca",
+  "features": "spectral",
+  "mp_edges": 59993,
+  "n": 7115,
+  "neg_fraction": 0.2153136845052956,
+  "preprocessing": "undirected-summed-sign-v1",
+  "processed_sha256": "dd525f30ac3857123ce0c73b6fb177f63776fac9decfd79fb3a8728fb2e0573b",
+  "raw_sha256": "b62b9a64e8605b81632a66295cd4e01c99784ae46ea428c59d18deabca042c89",
+  "split_seed": 0,
+  "split_sha256": "bfdc30793ef4b609774b45f3fb5621adaa644c38518dfbd9dc2e0e4514805603",
+  "url": "https://snap.stanford.edu/data/wikiElec.ElecBs3.txt.gz"
+ },
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "git_commit": "660326021d39300fbc8f929bc2266010e818e757",
+ "git_dirty": false,
+ "model": {
+  "arch": "BGSD",
+  "hidden": 64,
+  "knobs": {},
+  "max_skip": 8,
+  "memory_efficient": false,
+  "nominal_layers": 8,
+  "parameters": 100041,
+  "propagation_steps": 8,
+  "retention_bias": 0.0
+ },
+ "protocol_lock": null,
+ "result_sha256": "ce9b39e1f71a9a2b7a6e31714cd332cc7b29214e59757881de0cc0bfaf102c88",
+ "run_id": "BGSD-wiki_elec-T8-s0-spectral-lr0.005-wd1e-05",
+ "source_tree_sha256": "8f2315e65460108dcb60d22885941e2f4f6876afc12df14355faf54598eaa138",
+ "study": "development/20261003-phase1-selection",
+ "timing": {
+  "total_s": 16.226433277130127
+ },
+ "training": {
+  "best_val_auc": 0.892764926197815,
+  "clip_events": 0,
+  "config": {
+   "clip": 1.0,
+   "eval_every": 5,
+   "lr": 0.005,
+   "max_epochs": 300,
+   "patience": 20,
+   "seed": 0,
+   "weight_decay": 1e-05
+  },
+  "config_sha256": "fcd27af37cdec08bb22a6cbe6895679e4e0a44fa5466562ec2884548f5734e5f",
+  "epochs_run": 230,
+  "flags": [],
+  "grad_norm": {
+   "max": 0.22688907384872437,
+   "median": 0.020355829037725925
+  },
+  "seconds": 14.898993730545044,
+  "selected_epoch": 130,
+  "trace": [
+   {
+    "epoch": 5,
+    "train_loss": 0.2688578963279724,
+    "val_auc": 0.8645916535563123
+   },
+   {
+    "epoch": 10,
+    "train_loss": 0.19222088158130646,
+    "val_auc": 0.8663401851768233
+   },
+   {
+    "epoch": 15,
+    "train_loss": 0.17787159979343414,
+    "val_auc": 0.8683169572729196
+   },
+   {
+    "epoch": 20,
+    "train_loss": 0.1673722118139267,
+    "val_auc": 0.8762469046096956
+   },
+   {
+    "epoch": 25,
+    "train_loss": 0.15993835031986237,
+    "val_auc": 0.8799162937543223
+   },
+   {
+    "epoch": 30,
+    "train_loss": 0.15638788044452667,
+    "val_auc": 0.8828669849591361
+   },
+   {
+    "epoch": 35,
+    "train_loss": 0.1526256799697876,
+    "val_auc": 0.8849313459065988
+   },
+   {
+    "epoch": 40,
+    "train_loss": 0.1499112993478775,
+    "val_auc": 0.885791081651762
+   },
+   {
+    "epoch": 45,
+    "train_loss": 0.14759047329425812,
+    "val_auc": 0.8858709246008075
+   },
+   {
+    "epoch": 50,
+    "train_loss": 0.14664018154144287,
+    "val_auc": 0.8852570005727363
+   },
+   {
+    "epoch": 55,
+    "train_loss": 0.14502787590026855,
+    "val_auc": 0.8850636277974366
+   },
+   {
+    "epoch": 60,
+    "train_loss": 0.14353348314762115,
+    "val_auc": 0.8858889711421694
+   },
+   {
+    "epoch": 65,
+    "train_loss": 0.14228004217147827,
+    "val_auc": 0.885921662860307
+   },
+   {
+    "epoch": 70,
+    "train_loss": 0.14078634977340698,
+    "val_auc": 0.8853485700603868
+   },
+   {
+    "epoch": 75,
+    "train_loss": 0.13930310308933258,
+    "val_auc": 0.8847894763265025
+   },
+   {
+    "epoch": 80,
+    "train_loss": 0.13839566707611084,
+    "val_auc": 0.8841597485782593
+   },
+   {
+    "epoch": 85,
+    "train_loss": 0.13845093548297882,
+    "val_auc": 0.8847743335701912
+   },
+   {
+    "epoch": 90,
+    "train_loss": 0.1372629553079605,
+    "val_auc": 0.8859257994543557
+   },
+   {
+    "epoch": 95,
+    "train_loss": 0.1362449675798416,
+    "val_auc": 0.8867440058747063
+   },
+   {
+    "epoch": 100,
+    "train_loss": 0.13555891811847687,
+    "val_auc": 0.8874569259506591
+   },
+   {
+    "epoch": 105,
+    "train_loss": 0.13410410284996033,
+    "val_auc": 0.8877932674369692
+   },
+   {
+    "epoch": 110,
+    "train_loss": 0.13313382863998413,
+    "val_auc": 0.8883818817477726
+   },
+   {
+    "epoch": 115,
+    "train_loss": 0.1314527839422226,
+    "val_auc": 0.8889670352815081
+   },
+   {
+    "epoch": 120,
+    "train_loss": 0.13424399495124817,
+    "val_auc": 0.8875040623284465
+   },
+   {
+    "epoch": 125,
+    "train_loss": 0.13641370832920074,
+    "val_auc": 0.8922809298409884
+   },
+   {
+    "epoch": 130,
+    "train_loss": 0.1336674988269806,
+    "val_auc": 0.892764926197815
+   },
+   {
+    "epoch": 135,
+    "train_loss": 0.13115565478801727,
+    "val_auc": 0.8913784468151345
+   },
+   {
+    "epoch": 140,
+    "train_loss": 0.12939777970314026,
+    "val_auc": 0.8907218869047762
+   },
+   {
+    "epoch": 145,
+    "train_loss": 0.1285845786333084,
+    "val_auc": 0.8905278680187363
+   },
+   {
+    "epoch": 150,
+    "train_loss": 0.1275496780872345,
+    "val_auc": 0.8900622969578434
+   },
+   {
+    "epoch": 155,
+    "train_loss": 0.12708406150341034,
+    "val_auc": 0.8894340173888453
+   },
+   {
+    "epoch": 160,
+    "train_loss": 0.12669160962104797,
+    "val_auc": 0.8890675240679965
+   },
+   {
+    "epoch": 165,
+    "train_loss": 0.12570959329605103,
+    "val_auc": 0.8896711845898281
+   },
+   {
+    "epoch": 170,
+    "train_loss": 0.12559521198272705,
+    "val_auc": 0.8898952067792019
+   },
+   {
+    "epoch": 175,
+    "train_loss": 0.1249261125922203,
+    "val_auc": 0.8896442261761889
+   },
+   {
+    "epoch": 180,
+    "train_loss": 0.1244068294763565,
+    "val_auc": 0.8897727502275498
+   },
+   {
+    "epoch": 185,
+    "train_loss": 0.12359557300806046,
+    "val_auc": 0.8896970735787939
+   },
+   {
+    "epoch": 190,
+    "train_loss": 0.12290968745946884,
+    "val_auc": 0.8895997559335246
+   },
+   {
+    "epoch": 195,
+    "train_loss": 0.12210663408041,
+    "val_auc": 0.8896705384790881
+   },
+   {
+    "epoch": 200,
+    "train_loss": 0.12157424539327621,
+    "val_auc": 0.8902112291967195
+   },
+   {
+    "epoch": 205,
+    "train_loss": 0.12067858874797821,
+    "val_auc": 0.8903487393859602
+   },
+   {
+    "epoch": 210,
+    "train_loss": 0.12019810080528259,
+    "val_auc": 0.8902768651360428
+   },
+   {
+    "epoch": 215,
+    "train_loss": 0.11948264390230179,
+    "val_auc": 0.8905827354457243
+   },
+   {
+    "epoch": 220,
+    "train_loss": 0.11838066577911377,
+    "val_auc": 0.8911573061311304
+   },
+   {
+    "epoch": 225,
+    "train_loss": 0.11778845638036728,
+    "val_auc": 0.8909801826696166
+   },
+   {
+    "epoch": 230,
+    "train_loss": 0.11710862070322037,
+    "val_auc": 0.8914471202175922
+   }
+  ]
+ },
+ "tree": "development"
+}

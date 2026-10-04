@@ -1,0 +1,13 @@
+start SIDNET-epinions-8-0 on gpu 0
+start SIDNET-epinions-8-1 on gpu 1
+start SGCN-epinions-32-0 on gpu 2
+start SGCN-epinions-32-1 on gpu 3
+done SIDNET-epinions-8-0 (510s) [1 finished]
+start SIDNET-epinions-32-0 on gpu 0
+done SIDNET-epinions-8-1 (525s) [2 finished]
+start SIDNET-epinions-32-1 on gpu 1
+done SGCN-epinions-32-1 (2905s) [3 finished]
+done SGCN-epinions-32-0 (3025s) [4 finished]
+done SIDNET-epinions-32-0 (5440s) [5 finished]
+done SIDNET-epinions-32-1 (5595s) [6 finished]
+QUEUE COMPLETE failed: none

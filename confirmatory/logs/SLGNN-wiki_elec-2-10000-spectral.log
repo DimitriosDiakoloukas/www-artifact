@@ -1,0 +1,1 @@
+SLGNN-wiki_elec-T2-s10000-spectral: val=0.8944 test=0.8906 embD=1.7287692035055162 logitD=1.6950870447573985 total=178s record=8e11274cd76a

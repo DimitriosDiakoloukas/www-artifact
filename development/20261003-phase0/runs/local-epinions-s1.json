@@ -1,0 +1,24 @@
+{
+ "args": {
+  "dataset": "epinions",
+  "seed": 1,
+  "study": "development/20261003-phase0"
+ },
+ "created_utc": "2026-10-03T13:03:58Z",
+ "data": {
+  "preprocessing": "undirected-summed-sign-v1",
+  "processed_sha256": "bc8e3ccef5cc23626aa0cac61e42dd5c73f36d3b3a21d735fae9f4348b3d7b48",
+  "raw_sha256": "214513a32f1375695ceab7d7581e463ebe44daa573492de699b0c5d1cf3dde60",
+  "split_sha256": "f99157d81b808ac69c4b4741edc91a264252c1bf60965bc754b3876f97d7beea",
+  "url": "https://snap.stanford.edu/data/soc-sign-epinions.txt.gz"
+ },
+ "git_commit": "f90e5416963143bbd0d61ec1f3d9dba54b0d9ff8",
+ "git_dirty": true,
+ "kind": "local_baseline",
+ "protocol_lock": null,
+ "result_sha256": "072ec414ca9daa14e49ba5fd829bfda1b1c5d603e2d9173a45f07b95e1f95d47",
+ "run_id": "local-epinions-s1",
+ "source_tree_sha256": "8f2315e65460108dcb60d22885941e2f4f6876afc12df14355faf54598eaa138",
+ "test_auc": 0.9371994978168863,
+ "tree": "development"
+}

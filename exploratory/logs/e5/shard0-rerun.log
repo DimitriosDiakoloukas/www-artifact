@@ -1,0 +1,5 @@
+slashdot s10000: counts {'2': 32967, '3': 48104, '4+': 9235, 'unreachable': 9401} logits match True (12 checkpoints)
+slashdot s10002: counts {'2': 33269, '3': 47993, '4+': 9316, 'unreachable': 9129} logits match True (12 checkpoints)
+slashdot s10004: counts {'2': 32884, '3': 48403, '4+': 9183, 'unreachable': 9237} logits match True (12 checkpoints)
+epinions s10001: counts {'2': 93348, '3': 25806, '4+': 4810, 'unreachable': 17738} logits match True (12 checkpoints)
+epinions s10003: counts {'2': 93598, '3': 25829, '4+': 4856, 'unreachable': 17419} logits match True (12 checkpoints)

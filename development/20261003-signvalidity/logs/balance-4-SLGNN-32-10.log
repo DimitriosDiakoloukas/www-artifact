@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/run_chain.py", line 225, in <module>
+    main()
+  File "<repo>/scripts/run_chain.py", line 124, in main
+    diag = fit({"encoder": enc, "head": head}, loss_fn, val_fn, cfg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/train.py", line 63, in fit
+    loss = loss_fn()
+           ^^^^^^^^^
+  File "<repo>/scripts/run_chain.py", line 119, in loss_fn
+    return class_weighted_bce(head(enc(Xtr, gtr), qtr), ytr)
+                                   ^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 80, in forward
+    h = self.step(self._layer, h, li, row, col, wp, wn, norm)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/base.py", line 27, in step
+    return fn(*args)
+           ^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 84, in _layer
+    return self.act(self.layers[li](h, row, col, wp, wn, norm, last=(li == self.T - 1)))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 41, in forward
+    outs = [self._head(X, row, col, wp, wn, norm, h) for h in range(self.nheads)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 33, in _head
+    gn = torch.sigmoid(self.leaky((self.mapping[h] @ torch.cat([hn[row], hn[col]], 1).t()).squeeze(0)))
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 40.00 MiB. GPU 0 has a total capacity of 15.77 GiB of which 23.50 MiB is free. Including non-PyTorch memory, this process has 15.74 GiB memory in use. Of the allocated memory 15.25 GiB is allocated by PyTorch, and 132.92 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

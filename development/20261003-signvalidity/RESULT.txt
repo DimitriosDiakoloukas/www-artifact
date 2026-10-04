@@ -1,0 +1,41 @@
+records verified: 102
+
+cell (task, arch, r, b): n, mean AUC, solved, e*, sign-flip R90, sign-grad R90, feature R90
+  ('balance', 'BGSD', 4, 0): n=3 auc=1.000 solved=True e*=1 flipR90=0.86 gradR90=0.9157264957264957 featR90=1.63
+  ('balance', 'BGSD', 8, 0): n=3 auc=0.832 solved=False e*=3 flipR90=2.6933333333333334 gradR90=2.596666666666667 featR90=3.1666666666666665
+  ('balance', 'BGSD', 16, 0): n=3 auc=0.514 solved=False e*=7 flipR90=1.6466666666666665 gradR90=1.5599999999999998 featR90=2.106666666666667
+  ('balance', 'BGSD', 32, 0): n=3 auc=0.504 solved=False e*=15 flipR90=1.6933333333333334 gradR90=1.6600000000000001 featR90=2.0500000000000003
+  ('balance', 'SGCN', 4, 0): n=3 auc=1.000 solved=True e*=1 flipR90=1.0 gradR90=0.9533333333333333 featR90=1.9666666666666668
+  ('balance', 'SGCN', 8, 0): n=3 auc=1.000 solved=True e*=3 flipR90=3.0 gradR90=2.4766666666666666 featR90=3.763333333333333
+  ('balance', 'SGCN', 16, 0): n=3 auc=0.495 solved=False e*=7 flipR90=3.8466666666666662 gradR90=3.3366666666666673 featR90=6.483333333333334
+  ('balance', 'SGCN', 32, 0): n=3 auc=0.509 solved=False e*=15 flipR90=3.793333333333333 gradR90=3.0833333333333335 featR90=8.656666666666666
+  ('balance', 'SIDNET', 4, 0): n=3 auc=1.000 solved=True e*=1 flipR90=1.0 gradR90=1.0 featR90=2.0
+  ('balance', 'SIDNET', 8, 0): n=3 auc=0.812 solved=False e*=3 flipR90=2.98 gradR90=2.6933333333333334 featR90=3.0399999999999996
+  ('balance', 'SIDNET', 16, 0): n=3 auc=0.511 solved=False e*=7 flipR90=3.2866666666666666 gradR90=2.9133333333333336 featR90=3.366666666666667
+  ('balance', 'SIDNET', 32, 0): n=3 auc=0.500 solved=False e*=15 flipR90=3.7933333333333334 gradR90=3.266666666666667 featR90=3.703333333333333
+  ('balance', 'SLGNN', 4, 0): n=3 auc=0.844 solved=False e*=1 flipR90=0.6666666666666666 gradR90=0.6666666666666666 featR90=None
+  ('balance', 'SLGNN', 8, 0): n=3 auc=0.506 solved=False e*=3 flipR90=0.42 gradR90=0.48 featR90=None
+  ('balance', 'SLGNN', 16, 0): n=3 auc=0.512 solved=False e*=7 flipR90=0.38666666666666666 gradR90=0.2866666666666667 featR90=None
+  ('balance', 'SLGNN', 32, 0): n=3 auc=0.501 solved=False e*=15 flipR90=0.26666666666666666 gradR90=0.2733333333333333 featR90=None
+  ('relay', 'BGSD', 2, 0): n=3 auc=1.000 solved=True e*=1 flipR90=0.9333333333333332 gradR90=1.0 featR90=2.0
+  ('relay', 'BGSD', 4, 0): n=3 auc=1.000 solved=True e*=3 flipR90=2.986666666666667 gradR90=3.0 featR90=3.53
+  ('relay', 'BGSD', 8, 0): n=3 auc=0.834 solved=False e*=7 flipR90=5.18 gradR90=5.233333333333333 featR90=5.1000000000000005
+  ('relay', 'BGSD', 16, 0): n=3 auc=0.499 solved=False e*=15 flipR90=2.346666666666667 gradR90=2.211245791245791 featR90=2.8800000000000003
+  ('relay', 'SGCN', 2, 0): n=3 auc=0.496 solved=False e*=1 flipR90=0.8266666666666667 gradR90=0.7233333333333333 featR90=2.0
+  ('relay', 'SGCN', 4, 0): n=3 auc=0.493 solved=False e*=3 flipR90=1.9799999999999998 gradR90=1.7933333333333332 featR90=3.7099999999999995
+  ('relay', 'SGCN', 8, 0): n=3 auc=0.493 solved=False e*=7 flipR90=2.9466666666666668 gradR90=2.4166666666666665 featR90=6.709292929292929
+  ('relay', 'SGCN', 16, 0): n=3 auc=0.509 solved=False e*=15 flipR90=3.966666666666667 gradR90=3.123333333333333 featR90=8.86037037037037
+  ('relay', 'SIDNET', 2, 0): n=3 auc=1.000 solved=True e*=1 flipR90=1.0 gradR90=1.0 featR90=2.0
+  ('relay', 'SIDNET', 4, 0): n=3 auc=1.000 solved=True e*=3 flipR90=3.0 gradR90=3.0 featR90=3.5766666666666667
+  ('relay', 'SIDNET', 4, 2): n=3 auc=0.990 solved=True e*=3 flipR90=3.0 gradR90=3.8033333333333332 featR90=3.26
+  ('relay', 'SIDNET', 8, 0): n=3 auc=1.000 solved=True e*=7 flipR90=6.953333333333333 gradR90=6.78 featR90=4.863333333333333
+  ('relay', 'SIDNET', 8, 2): n=3 auc=0.520 solved=False e*=7 flipR90=2.173333333333334 gradR90=2.23 featR90=3.0
+  ('relay', 'SIDNET', 16, 0): n=3 auc=0.496 solved=False e*=15 flipR90=3.7399999999999998 gradR90=3.376666666666667 featR90=4.023333333333333
+  ('relay', 'SLGNN', 2, 0): n=3 auc=0.491 solved=False e*=1 flipR90=0.16 gradR90=0.0 featR90=None
+  ('relay', 'SLGNN', 4, 0): n=3 auc=0.516 solved=False e*=3 flipR90=0.13333333333333333 gradR90=0.13999999999999999 featR90=None
+  ('relay', 'SLGNN', 8, 0): n=3 auc=0.506 solved=False e*=7 flipR90=0.3333333333333333 gradR90=0.3333333333333333 featR90=None
+  ('relay', 'SLGNN', 16, 0): n=3 auc=0.484 solved=False e*=15 flipR90=0.3333333333333333 gradR90=0.3333333333333333 featR90=None
+
+solved b=0 cells: 9; each within 1 of e*: True; Spearman(e*, R90) = 0.9136643851522573
+V1 tracks the requirement: True
+V2 specific: False

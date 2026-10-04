@@ -1,0 +1,1 @@
+relay-r2-SLGNN-T32-s10000: r*=2 val=0.480 test=0.501 D=None R90=None init_D=None total=696s record=592a5b3cdab0

@@ -1,0 +1,1 @@
+relay-r16-SLGNN-T8-s10001: r*=16 val=0.554 test=0.476 D=1.3934934287254908 R90=3.18 init_D=1.651422408957988 total=192s record=cdae48e40e62

@@ -1,0 +1,288 @@
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SLGNN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset slashdot --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 --memory-efficient
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_elec --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset wiki_rfa --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_otc --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch BGSD --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SIDNET --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SLGNN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.01 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.005 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0.00001 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 1 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 
+python3 scripts/run_native.py --arch SGCN --dataset bitcoin_alpha --T 8 --seed 0 --study development/20261003-phase1-selection --device cuda:0 --train-only --lr 0.001 --weight-decay 0 

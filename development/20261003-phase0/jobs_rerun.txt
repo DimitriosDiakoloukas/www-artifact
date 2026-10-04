@@ -1,0 +1,6 @@
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 0 --study development/20261003-phase0 --device cuda:0 --flip-queries 25 --flip-m 4 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 8 --seed 1 --study development/20261003-phase0 --device cuda:0 --flip-queries 25 --flip-m 4 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 32 --seed 0 --study development/20261003-phase0 --device cuda:0 --flip-queries 25 --flip-m 4 --memory-efficient
+python3 scripts/run_native.py --arch SGCN --dataset epinions --T 32 --seed 1 --study development/20261003-phase0 --device cuda:0 --flip-queries 25 --flip-m 4 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 32 --seed 0 --study development/20261003-phase0 --device cuda:0 --flip-queries 25 --flip-m 4 --memory-efficient
+python3 scripts/run_native.py --arch SIDNET --dataset epinions --T 32 --seed 1 --study development/20261003-phase0 --device cuda:0 --flip-queries 25 --flip-m 4 --memory-efficient

@@ -1,0 +1,1 @@
+SLGNN-slashdot-T32-s10000-spectral: val=0.8939 test=0.8977 embD=3.3238224503720053 logitD=3.315081361013017 total=6040s record=659e08ad86eb

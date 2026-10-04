@@ -1,0 +1,30 @@
+{
+ "args": {
+  "dataset": "wiki_rfa",
+  "seed": 10004,
+  "study": "confirmatory/native"
+ },
+ "created_utc": "2026-10-03T16:29:01Z",
+ "data": {
+  "preprocessing": "undirected-summed-sign-v1",
+  "processed_sha256": "5b1e915cd252f6f7d537c1e8dea752f9256846e0c25b8e2b20700df3417fb1dc",
+  "raw_sha256": "88d53196fb2564a2e20286dbba818832f718cc352bb181a2101d23d2556f0862",
+  "split_sha256": "e4e994e097163de0b8ba4400174ce9ae1015d3d6b23666f67a1c01921d5484d2",
+  "url": "https://snap.stanford.edu/data/wiki-RfA.txt.gz"
+ },
+ "git_commit": "ec66e81aa71779017f4733daab91399dfd875635",
+ "git_dirty": false,
+ "kind": "local_baseline",
+ "protocol_lock": {
+  "commit": "bef7282ea4186ef091dc12b34475963c7259895f",
+  "locked_utc": "2026-10-03T16:26:15Z",
+  "protocol_sha256": "ca071a0bf4c30ca09508566dad2f8c43af25a848b0118881b30f07143a8bd65e",
+  "selection_file": "development/20261003-phase1-selection/selection.json",
+  "selection_sha256": "a8bbc1dd1bc75d31eb05bfaed5d404f3826559f6cf8e14f5b401e775bfbd1e60"
+ },
+ "result_sha256": "a7f1a0510316036060b0307a441d8540ef7844c05b2e6dae7e630d8115654cfb",
+ "run_id": "local-wiki_rfa-s10004",
+ "source_tree_sha256": "b5097a0cf480f0600d3920aedc65ad1d620b88385776c5564fa90baa9731c786",
+ "test_auc": 0.8734950931324525,
+ "tree": "confirmatory"
+}

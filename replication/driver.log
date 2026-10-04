@@ -1,0 +1,6 @@
+2026-10-04T09:29Z queue start
+2026-10-04T19:24Z queue done: 159 done, 2 failed
+2026-10-04T19:24Z chain measurements
+2026-10-04T19:56Z measurement reruns on gpus 0-3 (only items without an output)
+2026-10-04T20:12Z counts: planted 120/120, chains 120/120, native 320/320, sidnet 30/30
+2026-10-04T20:12Z analysis written: replication/analysis/replication.json

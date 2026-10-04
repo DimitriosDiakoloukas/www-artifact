@@ -1,0 +1,1 @@
+balance-r32-SLGNN-T8-s10001: r*=16 val=0.501 test=0.523 D=1.6030956360015214 R90=3.63 init_D=1.6154773674997225 total=334s record=f275d51bce27

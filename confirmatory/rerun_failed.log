@@ -1,0 +1,13 @@
+rerun relay-4-SIDNET-32-10000-2 on gpu 1 at 03:14 with --memory-efficient --chunk 1
+  -> ok
+rerun relay-4-SIDNET-32-10001-2 on gpu 1 at 03:47 with --memory-efficient --chunk 1
+  -> ok
+rerun relay-4-SIDNET-32-10003-2 on gpu 0 at 04:21 with --memory-efficient --chunk 1
+  -> ok
+rerun relay-8-SIDNET-32-10003-2 on gpu 0 at 04:48 with --memory-efficient --chunk 1
+  -> ok
+rerun relay-8-SIDNET-32-10004-2 on gpu 0 at 05:24 with --memory-efficient --chunk 1
+  -> ok
+rerun relay-4-SIDNET-32-10004-2 on gpu 0 at 05:55 with --memory-efficient --chunk 1
+  -> ok
+no failed run left without a record; exiting

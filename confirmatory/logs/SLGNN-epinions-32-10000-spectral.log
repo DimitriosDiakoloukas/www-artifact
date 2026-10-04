@@ -1,0 +1,1 @@
+SLGNN-epinions-T32-s10000-spectral: val=0.9324 test=0.9313 embD=None logitD=None total=9596s record=29e70dc304d2

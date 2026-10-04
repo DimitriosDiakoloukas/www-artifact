@@ -1,0 +1,79 @@
+{
+ "generator": "scripts/make_dataset_table.py",
+ "bfs_sources": 200,
+ "seed": 0,
+ "rows": [
+  {
+   "dataset": "bitcoin_alpha",
+   "nodes": 3783,
+   "edges": 14081,
+   "neg_pct": 9.31752006249556,
+   "giant_component": 0.9970922548242136,
+   "mean_dist": 3.578355076422851,
+   "p90_dist": 5.0,
+   "pairs_within_4": 0.8836693628986048,
+   "pairs_beyond_8": 0.0,
+   "processed_sha256": "c6b2648b58f956f6f07128f9110d5018af147d617fc77ef05a3b0869686603ff"
+  },
+  {
+   "dataset": "bitcoin_otc",
+   "nodes": 5881,
+   "edges": 21434,
+   "neg_pct": 14.71027339740599,
+   "giant_component": 0.9984696480190444,
+   "mean_dist": 3.5778828138306933,
+   "p90_dist": 5.0,
+   "pairs_within_4": 0.89013030148186,
+   "pairs_beyond_8": 8.516436722875149e-07,
+   "processed_sha256": "ac7cb945a28dcc4dbe5f35dc8a136e231555f38fec68274b0e0bbba0afd7b36a"
+  },
+  {
+   "dataset": "wiki_rfa",
+   "nodes": 11256,
+   "edges": 169076,
+   "neg_pct": 21.923277106153446,
+   "giant_component": 0.9996446339729922,
+   "mean_dist": 3.3489538707670428,
+   "p90_dist": 4.0,
+   "pairs_within_4": 0.9713274375611057,
+   "pairs_beyond_8": 0.0,
+   "processed_sha256": "5b1e915cd252f6f7d537c1e8dea752f9256846e0c25b8e2b20700df3417fb1dc"
+  },
+  {
+   "dataset": "wiki_elec",
+   "nodes": 7115,
+   "edges": 99989,
+   "neg_pct": 21.53136845052956,
+   "giant_component": 0.9929725931131412,
+   "mean_dist": 3.235018356918826,
+   "p90_dist": 4.0,
+   "pairs_within_4": 0.9780527936591269,
+   "pairs_beyond_8": 0.0,
+   "processed_sha256": "dd525f30ac3857123ce0c73b6fb177f63776fac9decfd79fb3a8728fb2e0573b"
+  },
+  {
+   "dataset": "slashdot",
+   "nodes": 82140,
+   "edges": 498532,
+   "neg_pct": 23.589057472739963,
+   "giant_component": 0.9989286583881178,
+   "mean_dist": 4.101347332756457,
+   "p90_dist": 5.0,
+   "pairs_within_4": 0.723147310818881,
+   "pairs_beyond_8": 2.7543844681966093e-05,
+   "processed_sha256": "2f4a50e0f992479e33dda6051fa04d18027a8b910b9f2deb3d809c0319eef6f2"
+  },
+  {
+   "dataset": "epinions",
+   "nodes": 131580,
+   "edges": 708507,
+   "neg_pct": 16.74210699400288,
+   "giant_component": 0.9049247606019152,
+   "mean_dist": 4.237017604056952,
+   "p90_dist": 5.0,
+   "pairs_within_4": 0.6686132791376215,
+   "pairs_beyond_8": 0.005825559994412211,
+   "processed_sha256": "bc8e3ccef5cc23626aa0cac61e42dd5c73f36d3b3a21d735fae9f4348b3d7b48"
+  }
+ ]
+}

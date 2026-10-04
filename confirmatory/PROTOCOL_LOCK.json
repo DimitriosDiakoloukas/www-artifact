@@ -1,0 +1,7 @@
+{
+ "protocol_sha256": "ca071a0bf4c30ca09508566dad2f8c43af25a848b0118881b30f07143a8bd65e",
+ "commit": "bef7282ea4186ef091dc12b34475963c7259895f",
+ "locked_utc": "2026-10-03T16:26:15Z",
+ "selection_file": "development/20261003-phase1-selection/selection.json",
+ "selection_sha256": "a8bbc1dd1bc75d31eb05bfaed5d404f3826559f6cf8e14f5b401e775bfbd1e60"
+}

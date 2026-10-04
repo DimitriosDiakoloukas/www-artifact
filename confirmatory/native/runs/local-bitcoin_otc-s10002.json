@@ -1,0 +1,30 @@
+{
+ "args": {
+  "dataset": "bitcoin_otc",
+  "seed": 10002,
+  "study": "confirmatory/native"
+ },
+ "created_utc": "2026-10-03T16:28:01Z",
+ "data": {
+  "preprocessing": "undirected-summed-sign-v1",
+  "processed_sha256": "ac7cb945a28dcc4dbe5f35dc8a136e231555f38fec68274b0e0bbba0afd7b36a",
+  "raw_sha256": "6424ac981dad3a019f697fc1b9fcd85c19d8d9f039797758e9ffb6fea100c373",
+  "split_sha256": "c41ec8e263124a90e7bc2dc4056e1d349eb924e93054bc1a78bc40704ec6b4b8",
+  "url": "https://snap.stanford.edu/data/soc-sign-bitcoinotc.csv.gz"
+ },
+ "git_commit": "ec66e81aa71779017f4733daab91399dfd875635",
+ "git_dirty": false,
+ "kind": "local_baseline",
+ "protocol_lock": {
+  "commit": "bef7282ea4186ef091dc12b34475963c7259895f",
+  "locked_utc": "2026-10-03T16:26:15Z",
+  "protocol_sha256": "ca071a0bf4c30ca09508566dad2f8c43af25a848b0118881b30f07143a8bd65e",
+  "selection_file": "development/20261003-phase1-selection/selection.json",
+  "selection_sha256": "a8bbc1dd1bc75d31eb05bfaed5d404f3826559f6cf8e14f5b401e775bfbd1e60"
+ },
+ "result_sha256": "0579ff4ceccec266308fe29d49ede3e756093b9e20da938b9b20d88baff4255e",
+ "run_id": "local-bitcoin_otc-s10002",
+ "source_tree_sha256": "b5097a0cf480f0600d3920aedc65ad1d620b88385776c5564fa90baa9731c786",
+ "test_auc": 0.9085944427991942,
+ "tree": "confirmatory"
+}

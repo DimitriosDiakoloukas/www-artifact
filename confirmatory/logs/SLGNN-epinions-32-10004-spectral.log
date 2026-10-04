@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/run_native.py", line 264, in <module>
+    main()
+  File "<repo>/scripts/run_native.py", line 203, in main
+    l1, sq = embedding_influence(enc, X, g, nodes, chunk=a.chunk)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/range/jacobian.py", line 63, in embedding_influence
+    for part, grads in jacobian_rows(lambda x: enc(x, g, skip=skip), X, rows, X.size(0), chunk, fresh):
+  File "<repo>/src/srange/range/jacobian.py", line 28, in jacobian_rows
+    (g,) = torch.autograd.grad(Y, Xg, grad_outputs=go)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/autograd/__init__.py", line 503, in grad
+    result = _engine_run_backward(
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 240.00 MiB. GPU 0 has a total capacity of 15.77 GiB of which 79.50 MiB is free. Including non-PyTorch memory, this process has 15.69 GiB memory in use. Of the allocated memory 12.23 GiB is allocated by PyTorch, and 3.03 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

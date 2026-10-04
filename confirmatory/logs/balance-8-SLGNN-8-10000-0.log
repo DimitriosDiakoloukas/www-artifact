@@ -1,0 +1,1 @@
+balance-r8-SLGNN-T8-s10000: r*=4 val=0.512 test=0.474 D=1.452818690818804 R90=2.95 init_D=1.3837591072685789 total=159s record=70c586c45e9b

@@ -1,0 +1,22 @@
+<venv>/lib/python3.12/site-packages/torch/autograd/graph.py:829: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:179.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+BGSD-bitcoin_alpha-T32-s10002-spectral: reach@0.1=0.39 match=True
+BGSD-bitcoin_otc-T32-s10000-spectral: reach@0.1=0.98 match=True
+BGSD-bitcoin_otc-T8-s10003-spectral: reach@0.1=0.78 match=True
+BGSD-wiki_elec-T8-s10001-spectral: reach@0.1=0.59 match=True
+BGSD-wiki_rfa-T32-s10004-spectral: reach@0.1=0.41 match=True
+SGCN-bitcoin_alpha-T32-s10002-spectral: reach@0.1=0.92 match=True
+SGCN-bitcoin_otc-T32-s10000-spectral: reach@0.1=0.71 match=True
+SGCN-bitcoin_otc-T8-s10003-spectral: reach@0.1=0.9 match=True
+SGCN-wiki_elec-T8-s10001-spectral: reach@0.1=1.55 match=True
+SGCN-wiki_rfa-T32-s10004-spectral: reach@0.1=1.28 match=True
+SIDNET-bitcoin_alpha-T32-s10002-spectral: reach@0.1=0.9 match=True
+SIDNET-bitcoin_otc-T32-s10000-spectral: reach@0.1=1.09 match=True
+SIDNET-bitcoin_otc-T8-s10003-spectral: reach@0.1=1.63 match=True
+SIDNET-wiki_elec-T8-s10001-spectral: reach@0.1=1.29 match=True
+SIDNET-wiki_rfa-T32-s10004-spectral: reach@0.1=0.28 match=True
+SLGNN-bitcoin_alpha-T32-s10002-spectral: reach@0.1=0.2 match=True
+SLGNN-bitcoin_otc-T32-s10000-spectral: reach@0.1=0.12 match=True
+SLGNN-bitcoin_otc-T8-s10003-spectral: reach@0.1=0.4 match=True
+SLGNN-wiki_elec-T8-s10001-spectral: reach@0.1=0.72 match=True
+SLGNN-wiki_rfa-T32-s10004-spectral: reach@0.1=0.98 match=True

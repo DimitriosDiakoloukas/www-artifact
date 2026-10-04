@@ -1,0 +1,25 @@
+start balance-4-SLGNN-32-10-0 on gpu 0
+start balance-8-SLGNN-32-10-0 on gpu 1
+start balance-16-SLGNN-32-10-0 on gpu 2
+start balance-32-SLGNN-32-10-0 on gpu 3
+start balance-4-SLGNN-32-11-0 on gpu 4
+start balance-8-SLGNN-32-11-0 on gpu 5
+start balance-16-SLGNN-32-11-0 on gpu 6
+start balance-32-SLGNN-32-11-0 on gpu 7
+done balance-4-SLGNN-32-10-0 (460s) [1 finished]
+start balance-4-SLGNN-32-12-0 on gpu 0
+done balance-8-SLGNN-32-11-0 (505s) [2 finished]
+start balance-8-SLGNN-32-12-0 on gpu 5
+done balance-4-SLGNN-32-11-0 (525s) [3 finished]
+start balance-16-SLGNN-32-12-0 on gpu 4
+done balance-8-SLGNN-32-10-0 (540s) [4 finished]
+start balance-32-SLGNN-32-12-0 on gpu 1
+done balance-16-SLGNN-32-11-0 (680s) [5 finished]
+done balance-32-SLGNN-32-11-0 (850s) [6 finished]
+done balance-16-SLGNN-32-10-0 (865s) [7 finished]
+done balance-4-SLGNN-32-12-0 (420s) [8 finished]
+done balance-32-SLGNN-32-10-0 (920s) [9 finished]
+done balance-8-SLGNN-32-12-0 (555s) [10 finished]
+done balance-16-SLGNN-32-12-0 (610s) [11 finished]
+done balance-32-SLGNN-32-12-0 (870s) [12 finished]
+QUEUE COMPLETE failed: none

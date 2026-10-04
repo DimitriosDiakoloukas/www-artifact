@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "<repo>/scripts/run_native.py", line 239, in <module>
+    main()
+  File "<repo>/scripts/run_native.py", line 178, in main
+    l1, sq = embedding_influence(enc, X, g, nodes, chunk=a.chunk)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/range/jacobian.py", line 38, in embedding_influence
+    for part, grads in jacobian_rows(lambda x: enc(x, g, skip=skip), X, rows, X.size(0), chunk):
+  File "<repo>/src/srange/range/jacobian.py", line 26, in jacobian_rows
+    (g,) = torch.autograd.grad(Y, Xg, grad_outputs=go, retain_graph=True, is_grads_batched=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/autograd/__init__.py", line 499, in grad
+    result = _vmap_internals._vmap(vjp, 0, 0, allow_none_pass_through=True)(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/_vmap_internals.py", line 231, in wrapped
+    batched_outputs = func(*batched_inputs)
+                      ^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/autograd/__init__.py", line 489, in vjp
+    return _engine_run_backward(
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/autograd/graph.py", line 829, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 514.00 MiB. GPU 0 has a total capacity of 31.73 GiB of which 231.50 MiB is free. Including non-PyTorch memory, this process has 31.50 GiB memory in use. Of the allocated memory 31.05 GiB is allocated by PyTorch, and 85.38 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

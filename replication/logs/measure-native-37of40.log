@@ -1,0 +1,10 @@
+<venv>/lib/python3.12/site-packages/torch/autograd/graph.py:829: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:179.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+native SLGNN-bitcoin_alpha-T32-s10002-spectral: match=True reach@0.1=0.2
+native SLGNN-bitcoin_otc-T32-s10002-spectral: match=True reach@0.1=0.36
+native SLGNN-wiki_rfa-T32-s10002-spectral: match=True reach@0.1=0.82
+native SLGNN-wiki_elec-T32-s10002-spectral: match=True reach@0.1=0.44
+native SLGNN-slashdot-T32-s10002-spectral: match=True reach@0.1=1.41
+native SLGNN-epinions-T32-s10002-spectral: match=True reach@0.1=0.41
+native SLGNN-bitcoin_alpha-T32-s10002-random: match=True reach@0.1=0.2
+native SLGNN-wiki_elec-T32-s10002-random: match=True reach@0.1=0.44

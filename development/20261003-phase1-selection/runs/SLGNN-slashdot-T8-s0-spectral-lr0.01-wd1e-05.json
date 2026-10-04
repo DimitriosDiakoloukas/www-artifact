@@ -1,0 +1,246 @@
+{
+ "args": {
+  "T": 8,
+  "arch": "SLGNN",
+  "chunk": 1,
+  "clip": 1.0,
+  "dataset": "slashdot",
+  "deterministic": false,
+  "device": "cuda:0",
+  "emb_pairs": 8,
+  "eval_every": 5,
+  "features": "spectral",
+  "flip_m": 8,
+  "flip_queries": 100,
+  "hidden": 64,
+  "lr": 0.01,
+  "max_epochs": 300,
+  "memory_efficient": true,
+  "patience": 20,
+  "seed": 0,
+  "skip_signflip": false,
+  "study": "development/20261003-phase1-selection",
+  "targets": 100,
+  "train_only": true,
+  "trunc_targets": 25,
+  "weight_decay": 1e-05
+ },
+ "checkpoint": {
+  "encoder_state_hash": "a85d1940db8754cdcf11ee6210f0d9c60d2f6982a456af328e48dd38ebf1ec9c",
+  "head_state_hash": "92dbd193d9c1c0f4ae51f7b23dad43cdfd7ba7f939bc8a47ef864aac42c6996c",
+  "init_encoder_state_hash": "77817f091122a0a6961bf092e3095ca354e6ba03070ec7c8e2d580ede453fee7",
+  "path": "$SRANGE_STORE/objects/87ca45ea49d0e555ab5a44e1e8bb82238850488b211afe636a4c7c5500eab4d5.pt",
+  "sha256": "87ca45ea49d0e555ab5a44e1e8bb82238850488b211afe636a4c7c5500eab4d5"
+ },
+ "created_utc": "2026-10-03T14:11:06Z",
+ "data": {
+  "E": 498532,
+  "dataset": "slashdot",
+  "feature_sha256": "1513f4540a089edf11c8046b1d6d050e46aa5261a0800c6a8f72c1a69eb90aae",
+  "features": "spectral",
+  "mp_edges": 299119,
+  "n": 82140,
+  "neg_fraction": 0.23589057472739963,
+  "preprocessing": "undirected-summed-sign-v1",
+  "processed_sha256": "2f4a50e0f992479e33dda6051fa04d18027a8b910b9f2deb3d809c0319eef6f2",
+  "raw_sha256": "55e69b402f2d40bc40e36c7c1211557a3d61927d5a45817f8d3db2d367080ca7",
+  "split_seed": 0,
+  "split_sha256": "cf32ccb431f4ca5e43c5ab7f8e8b833675678870ca0379dd227fc8a834e8288d",
+  "url": "https://snap.stanford.edu/data/soc-sign-Slashdot090221.txt.gz"
+ },
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "git_commit": "660326021d39300fbc8f929bc2266010e818e757",
+ "git_dirty": false,
+ "model": {
+  "arch": "SLGNN",
+  "hidden": 64,
+  "knobs": {},
+  "max_skip": 6,
+  "memory_efficient": true,
+  "nominal_layers": 8,
+  "parameters": 968961,
+  "propagation_steps": 8
+ },
+ "protocol_lock": null,
+ "result_sha256": "a6355fdf07d1116fe969e8d56feb5f97dbcfbc0d52fe04981ba5bca372b665f0",
+ "run_id": "SLGNN-slashdot-T8-s0-spectral-lr0.01-wd1e-05",
+ "source_tree_sha256": "8f2315e65460108dcb60d22885941e2f4f6876afc12df14355faf54598eaa138",
+ "study": "development/20261003-phase1-selection",
+ "timing": {
+  "total_s": 681.5178883075714
+ },
+ "training": {
+  "best_val_auc": 0.8905904348713086,
+  "clip_events": 0,
+  "config": {
+   "clip": 1.0,
+   "eval_every": 5,
+   "lr": 0.01,
+   "max_epochs": 300,
+   "patience": 20,
+   "seed": 0,
+   "weight_decay": 1e-05
+  },
+  "config_sha256": "289710495f230a04434d19058a49df288e3e879953cd9b75e2476d5cfd710205",
+  "epochs_run": 135,
+  "flags": [],
+  "grad_norm": {
+   "max": 0.5431730151176453,
+   "median": 0.06676191836595535
+  },
+  "seconds": 678.5792376995087,
+  "selected_epoch": 35,
+  "trace": [
+   {
+    "epoch": 5,
+    "train_loss": 0.2939775884151459,
+    "val_auc": 0.8580583101624182
+   },
+   {
+    "epoch": 10,
+    "train_loss": 0.22379912436008453,
+    "val_auc": 0.867868796085643
+   },
+   {
+    "epoch": 15,
+    "train_loss": 0.20452755689620972,
+    "val_auc": 0.8766636367109184
+   },
+   {
+    "epoch": 20,
+    "train_loss": 0.1926989108324051,
+    "val_auc": 0.8806617350837518
+   },
+   {
+    "epoch": 25,
+    "train_loss": 0.18223299086093903,
+    "val_auc": 0.8863324821230634
+   },
+   {
+    "epoch": 30,
+    "train_loss": 0.1685781180858612,
+    "val_auc": 0.8848388041344991
+   },
+   {
+    "epoch": 35,
+    "train_loss": 0.16104412078857422,
+    "val_auc": 0.8905904348713086
+   },
+   {
+    "epoch": 40,
+    "train_loss": 0.1556420773267746,
+    "val_auc": 0.8899910148682287
+   },
+   {
+    "epoch": 45,
+    "train_loss": 0.1495443433523178,
+    "val_auc": 0.8825686045886092
+   },
+   {
+    "epoch": 50,
+    "train_loss": 0.14359894394874573,
+    "val_auc": 0.8836591038656679
+   },
+   {
+    "epoch": 55,
+    "train_loss": 0.13845154643058777,
+    "val_auc": 0.8852535640119292
+   },
+   {
+    "epoch": 60,
+    "train_loss": 0.14595679938793182,
+    "val_auc": 0.885152582644267
+   },
+   {
+    "epoch": 65,
+    "train_loss": 0.1385551542043686,
+    "val_auc": 0.8822178979488782
+   },
+   {
+    "epoch": 70,
+    "train_loss": 0.13422778248786926,
+    "val_auc": 0.8806622681651669
+   },
+   {
+    "epoch": 75,
+    "train_loss": 0.13111037015914917,
+    "val_auc": 0.880792683918095
+   },
+   {
+    "epoch": 80,
+    "train_loss": 0.12919928133487701,
+    "val_auc": 0.8799965026186569
+   },
+   {
+    "epoch": 85,
+    "train_loss": 0.1261029988527298,
+    "val_auc": 0.8772071605122771
+   },
+   {
+    "epoch": 90,
+    "train_loss": 0.12386496365070343,
+    "val_auc": 0.8818238959724047
+   },
+   {
+    "epoch": 95,
+    "train_loss": 0.12206359207630157,
+    "val_auc": 0.8782090319435534
+   },
+   {
+    "epoch": 100,
+    "train_loss": 0.12202133238315582,
+    "val_auc": 0.8802818856398213
+   },
+   {
+    "epoch": 105,
+    "train_loss": 0.1198086068034172,
+    "val_auc": 0.8791643007631478
+   },
+   {
+    "epoch": 110,
+    "train_loss": 0.11903839558362961,
+    "val_auc": 0.8821422265411685
+   },
+   {
+    "epoch": 115,
+    "train_loss": 0.11642947047948837,
+    "val_auc": 0.8829776024012631
+   },
+   {
+    "epoch": 120,
+    "train_loss": 0.11528203636407852,
+    "val_auc": 0.8811519824613677
+   },
+   {
+    "epoch": 125,
+    "train_loss": 0.11465023458003998,
+    "val_auc": 0.8771271760418846
+   },
+   {
+    "epoch": 130,
+    "train_loss": 0.12424473464488983,
+    "val_auc": 0.8791597990630959
+   },
+   {
+    "epoch": 135,
+    "train_loss": 0.11945749819278717,
+    "val_auc": 0.8831757523246273
+   }
+  ]
+ },
+ "tree": "development"
+}

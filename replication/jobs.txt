@@ -1,0 +1,161 @@
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SLGNN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SLGNN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SLGNN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SLGNN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SLGNN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SLGNN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SLGNN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SLGNN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SLGNN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SLGNN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SLGNN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SLGNN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SLGNN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SLGNN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SLGNN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SIDNET --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SIDNET --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SIDNET --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SIDNET --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SIDNET --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SIDNET --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SIDNET --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SIDNET --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SIDNET --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SIDNET --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SIDNET --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SIDNET --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SIDNET --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SIDNET --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SIDNET --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SGCN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SGCN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SGCN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SGCN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch SGCN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SGCN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SGCN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SGCN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SGCN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch SGCN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SGCN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SGCN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SGCN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SGCN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch SGCN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch BGSD --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch BGSD --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch BGSD --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch BGSD --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 8 --arch BGSD --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch BGSD --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch BGSD --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch BGSD --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch BGSD --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 6 --arch BGSD --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch BGSD --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch BGSD --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch BGSD --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch BGSD --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-wiki_rfa --b 0 --r 4 --arch BGSD --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient --chunk 1
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SLGNN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SLGNN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SLGNN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SLGNN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SLGNN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SLGNN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SLGNN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SLGNN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SLGNN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SLGNN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SLGNN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SLGNN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SLGNN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SLGNN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SLGNN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SIDNET --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SIDNET --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SIDNET --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SIDNET --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SIDNET --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SIDNET --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SIDNET --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SIDNET --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SIDNET --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SIDNET --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SIDNET --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SIDNET --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SIDNET --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SIDNET --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SIDNET --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SGCN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SGCN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SGCN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SGCN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch SGCN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SGCN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SGCN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SGCN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SGCN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch SGCN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SGCN --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SGCN --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SGCN --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SGCN --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch SGCN --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch BGSD --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch BGSD --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch BGSD --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch BGSD --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 8 --arch BGSD --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch BGSD --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch BGSD --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch BGSD --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch BGSD --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 6 --arch BGSD --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch BGSD --T 32 --seed 30000 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch BGSD --T 32 --seed 30001 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch BGSD --T 32 --seed 30002 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch BGSD --T 32 --seed 30003 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/run_chain_r.py --task relay --variant planted-bitcoin_otc --b 0 --r 4 --arch BGSD --T 32 --seed 30004 --study replication/planted --device cuda:0 --deterministic --memory-efficient
+python3 replication/measure.py native --shard 0/40 --device cuda:0
+python3 replication/measure.py native --shard 1/40 --device cuda:0
+python3 replication/measure.py native --shard 2/40 --device cuda:0
+python3 replication/measure.py native --shard 3/40 --device cuda:0
+python3 replication/measure.py native --shard 4/40 --device cuda:0
+python3 replication/measure.py native --shard 5/40 --device cuda:0
+python3 replication/measure.py native --shard 6/40 --device cuda:0
+python3 replication/measure.py native --shard 7/40 --device cuda:0
+python3 replication/measure.py native --shard 8/40 --device cuda:0
+python3 replication/measure.py native --shard 9/40 --device cuda:0
+python3 replication/measure.py native --shard 10/40 --device cuda:0
+python3 replication/measure.py native --shard 11/40 --device cuda:0
+python3 replication/measure.py native --shard 12/40 --device cuda:0
+python3 replication/measure.py native --shard 13/40 --device cuda:0
+python3 replication/measure.py native --shard 14/40 --device cuda:0
+python3 replication/measure.py native --shard 15/40 --device cuda:0
+python3 replication/measure.py native --shard 16/40 --device cuda:0
+python3 replication/measure.py native --shard 17/40 --device cuda:0
+python3 replication/measure.py native --shard 18/40 --device cuda:0
+python3 replication/measure.py native --shard 19/40 --device cuda:0
+python3 replication/measure.py native --shard 20/40 --device cuda:0
+python3 replication/measure.py native --shard 21/40 --device cuda:0
+python3 replication/measure.py native --shard 22/40 --device cuda:0
+python3 replication/measure.py native --shard 23/40 --device cuda:0
+python3 replication/measure.py native --shard 24/40 --device cuda:0
+python3 replication/measure.py native --shard 25/40 --device cuda:0
+python3 replication/measure.py native --shard 26/40 --device cuda:0
+python3 replication/measure.py native --shard 27/40 --device cuda:0
+python3 replication/measure.py native --shard 28/40 --device cuda:0
+python3 replication/measure.py native --shard 29/40 --device cuda:0
+python3 replication/measure.py native --shard 30/40 --device cuda:0
+python3 replication/measure.py native --shard 31/40 --device cuda:0
+python3 replication/measure.py native --shard 32/40 --device cuda:0
+python3 replication/measure.py native --shard 33/40 --device cuda:0
+python3 replication/measure.py native --shard 34/40 --device cuda:0
+python3 replication/measure.py native --shard 35/40 --device cuda:0
+python3 replication/measure.py native --shard 36/40 --device cuda:0
+python3 replication/measure.py native --shard 37/40 --device cuda:0
+python3 replication/measure.py native --shard 38/40 --device cuda:0
+python3 replication/measure.py native --shard 39/40 --device cuda:0
+python3 replication/measure.py sidnet --shard 0/1 --device cuda:0

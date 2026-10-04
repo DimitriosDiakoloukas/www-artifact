@@ -1,0 +1,3375 @@
+{
+ "study": "confirmatory/chain",
+ "generator": "analysis/chain.py",
+ "solved_auc": 0.9,
+ "seeds_per_cell": 5,
+ "H1": {
+  "solved_cells": 9,
+  "each_within_1": true,
+  "spearman": 0.9258200997725515,
+  "holds": true,
+  "specificity_holds": false
+ },
+ "H2": {
+  "checkpoints": 30,
+  "feature_R90_below_source": 30,
+  "mean_gap": 0.9923333333333333,
+  "p_one_sided": 9.313225746154785e-10
+ },
+ "cells": [
+  {
+   "task": "balance",
+   "arch": "BGSD",
+   "r": 4,
+   "b": 0,
+   "T": 8,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 0.9039999999999999,
+   "flip_D": 0.5611899535650966,
+   "grad_R90": 0.9400000000000001,
+   "feat_R90": 1.964,
+   "feat_D": 0.9572216393368429,
+   "init_feat_D": 0.2739058096695429,
+   "seeds_flip_R90": [
+    0.84,
+    1.0,
+    1.0,
+    0.86,
+    0.82
+   ],
+   "seeds_feat_R90": [
+    1.94,
+    1.99,
+    1.95,
+    2.0,
+    1.94
+   ],
+   "runs": [
+    "balance-r4-BGSD-T8-s10000",
+    "balance-r4-BGSD-T8-s10001",
+    "balance-r4-BGSD-T8-s10002",
+    "balance-r4-BGSD-T8-s10003",
+    "balance-r4-BGSD-T8-s10004"
+   ],
+   "checkpoints": [
+    "ae4ac5745360441c20bd731bf36f9689414a6ce2d30e23ddcffac4d63ecd7032",
+    "fd03fd597e1c2f5575a358776d2cd82433731a5fa7f24064869846eb1145d01d",
+    "2ad0a23b88b74bc2b30e7b36c90b4521809951a7fa7714a8c63e35ccc8bba8d4",
+    "26c3776412df8e257afec3570d77c7c5268cea0d4407086b41c2b56886fe2ece",
+    "670333ea892ab8f55070973e36dd1175bc7561cf1d863ee19beae95610508b97"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "BGSD",
+   "r": 4,
+   "b": 0,
+   "T": 32,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 0.8800000000000001,
+   "flip_D": 0.5337954983981532,
+   "grad_R90": 0.9669787234042552,
+   "feat_R90": 1.9579999999999997,
+   "feat_D": 0.9401359806183546,
+   "init_feat_D": 0.2821668831367206,
+   "seeds_flip_R90": [
+    0.84,
+    0.88,
+    0.94,
+    1.0,
+    0.74
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.0,
+    1.86,
+    1.93,
+    2.0
+   ],
+   "runs": [
+    "balance-r4-BGSD-T32-s10000",
+    "balance-r4-BGSD-T32-s10001",
+    "balance-r4-BGSD-T32-s10002",
+    "balance-r4-BGSD-T32-s10003",
+    "balance-r4-BGSD-T32-s10004"
+   ],
+   "checkpoints": [
+    "fb2ad2504a5d25bb6340c2ca14f51f381b5863e5d405e05243ae35f55331cf6b",
+    "db5244a09a4aea1d1953939a075a5ee05c1ba06e6b6ae7d16602de7692de7a84",
+    "533ba764b0e34599b92efcc7c8afbb86fef1db22f89db62cea345ebeba35f0ba",
+    "4e91be84ec8ff5d57abe424494dcea86052a7e195df389218fd9277e8c13ceef",
+    "db05238e22fc4edb750095a5beac7c2112e9205fdd023aa5cbebe30e4a8c2fd7"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "BGSD",
+   "r": 8,
+   "b": 0,
+   "T": 8,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.508632,
+   "solved": false,
+   "flip_R90": 1.392,
+   "flip_D": 0.5665940531867544,
+   "grad_R90": 1.2919999999999998,
+   "feat_R90": 2.0620000000000003,
+   "feat_D": 0.7989587104285996,
+   "init_feat_D": 0.30640350935999316,
+   "seeds_flip_R90": [
+    1.9,
+    1.24,
+    1.84,
+    0.98,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.37,
+    1.94,
+    2.15,
+    1.85,
+    2.0
+   ],
+   "runs": [
+    "balance-r8-BGSD-T8-s10000",
+    "balance-r8-BGSD-T8-s10001",
+    "balance-r8-BGSD-T8-s10002",
+    "balance-r8-BGSD-T8-s10003",
+    "balance-r8-BGSD-T8-s10004"
+   ],
+   "checkpoints": [
+    "216cbf4c577ea5e8f95d03fd9e543310a09a9ae72337ce7f4e545ed6062fb41d",
+    "ae9db12a72406cf5fb1d529ed118dd204df52868c9b0bb3ccfedfb1c69432b45",
+    "b8c266b60ed848e917f6f41dcfeadb8dbcfdba88d76c2a649396daac865cc6c6",
+    "8d5b622b057e96eb6cd20a62ef99ee4f8f228943118301121b1429d6e873d6cc",
+    "e1f8fddd2d2af99fab1d3a39b012f107fb144185a12950d00d6e5ac9c5b4e452"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "BGSD",
+   "r": 8,
+   "b": 0,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.6456464000000001,
+   "solved": false,
+   "flip_R90": 2.1559999999999997,
+   "flip_D": 0.9679574859153007,
+   "grad_R90": 1.9875555555555557,
+   "feat_R90": 2.5660000000000003,
+   "feat_D": 1.160330249265376,
+   "init_feat_D": 0.3173797905786857,
+   "seeds_flip_R90": [
+    1.96,
+    2.92,
+    2.0,
+    1.06,
+    2.84
+   ],
+   "seeds_feat_R90": [
+    2.32,
+    3.27,
+    2.48,
+    1.8,
+    2.96
+   ],
+   "runs": [
+    "balance-r8-BGSD-T32-s10000",
+    "balance-r8-BGSD-T32-s10001",
+    "balance-r8-BGSD-T32-s10002",
+    "balance-r8-BGSD-T32-s10003",
+    "balance-r8-BGSD-T32-s10004"
+   ],
+   "checkpoints": [
+    "9b7c9bbf9b1f428e7fb6c953f5a049e0b888b4cd384a02a75f0a2051de15d6a9",
+    "ddbd37b7174607f0d6e04cd41bf0f352b18d82045177829bd3b5d62aa1d43b6b",
+    "74a79206f9fb3f317b28206b08c4e581980c79253d33c4dc55453d23e4668b9f",
+    "cfd55176f48887ba5fb6c0e2a1bee63fbe42c29ef8f545b17fe7928efa2cccb2",
+    "65e24970a24bbc7a16607f83f838e8b8093ca43fab9876252eb04f82cab72740"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "BGSD",
+   "r": 16,
+   "b": 0,
+   "T": 8,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.49972559999999994,
+   "solved": false,
+   "flip_R90": 1.592,
+   "flip_D": 0.5896836207654781,
+   "grad_R90": 1.422,
+   "feat_R90": 1.932,
+   "feat_D": 0.8287117259915121,
+   "init_feat_D": 0.30708497088901776,
+   "seeds_flip_R90": [
+    0.88,
+    2.02,
+    1.76,
+    1.92,
+    1.38
+   ],
+   "seeds_feat_R90": [
+    1.72,
+    2.22,
+    2.33,
+    2.39,
+    1.0
+   ],
+   "runs": [
+    "balance-r16-BGSD-T8-s10000",
+    "balance-r16-BGSD-T8-s10001",
+    "balance-r16-BGSD-T8-s10002",
+    "balance-r16-BGSD-T8-s10003",
+    "balance-r16-BGSD-T8-s10004"
+   ],
+   "checkpoints": [
+    "c942fc199f09282f7ed1872ce0d81b207d281403f49871f5475345271f7a3520",
+    "e459fa7b8815180fcfd55fb035763e6c82aba04be00e023bc9a32ac38eaf5ce2",
+    "a2f026e94e0bc192f59210be3831ed73f49f6c26d38e5198aba8f06995a61c6e",
+    "e15718527b897008be5ded2195fab9d17367413c30f53c88407ba17db661dc63",
+    "b6034961af5e74d0af7e36c720661aac835dfde81a30804070dc296e1d2599ed"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "BGSD",
+   "r": 16,
+   "b": 0,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.4923344,
+   "solved": false,
+   "flip_R90": 1.408,
+   "flip_D": 0.5277102873259709,
+   "grad_R90": 1.278,
+   "feat_R90": 1.784,
+   "feat_D": 0.8025582123444174,
+   "init_feat_D": 0.31354227065717327,
+   "seeds_flip_R90": [
+    0.36,
+    2.02,
+    1.9,
+    1.78,
+    0.98
+   ],
+   "seeds_feat_R90": [
+    1.02,
+    2.53,
+    2.28,
+    2.09,
+    1.0
+   ],
+   "runs": [
+    "balance-r16-BGSD-T32-s10000",
+    "balance-r16-BGSD-T32-s10001",
+    "balance-r16-BGSD-T32-s10002",
+    "balance-r16-BGSD-T32-s10003",
+    "balance-r16-BGSD-T32-s10004"
+   ],
+   "checkpoints": [
+    "d3552822c9027b77fe4c63422ac02afdb9c9b87276b90588303d1d19b8f1de45",
+    "3af149548fa756bba418b07022e4617b9dbe3000e6746a2c9159ff0955348224",
+    "2b01eee3ab7707b1d9c05d14a8a84de99be5b2da62812a161db5e82ca613e5bf",
+    "65d3541a533e2fbff02f693e9b9096234e429beef465ff6c261325979bad189e",
+    "75414904c1481e08e34ee20ae639cb6a4fca965e885efa5843dd7ede3d6ee3ed"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "BGSD",
+   "r": 32,
+   "b": 0,
+   "T": 8,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.49866160000000004,
+   "solved": false,
+   "flip_R90": 1.7280000000000002,
+   "flip_D": 0.694898656450551,
+   "grad_R90": 1.568,
+   "feat_R90": 2.1119999999999997,
+   "feat_D": 0.9148260870047388,
+   "init_feat_D": 0.30950542448037166,
+   "seeds_flip_R90": [
+    1.74,
+    1.82,
+    1.92,
+    2.0,
+    1.16
+   ],
+   "seeds_feat_R90": [
+    2.16,
+    2.03,
+    2.34,
+    2.6,
+    1.43
+   ],
+   "runs": [
+    "balance-r32-BGSD-T8-s10000",
+    "balance-r32-BGSD-T8-s10001",
+    "balance-r32-BGSD-T8-s10002",
+    "balance-r32-BGSD-T8-s10003",
+    "balance-r32-BGSD-T8-s10004"
+   ],
+   "checkpoints": [
+    "9867ea028014a34b22444d3baab64110fd077957a4e9bfbdc19ea931a18be3cf",
+    "a39a55fd6480b89cc7ed5fb74baf63b98f9291e840189f36a7b45486d2770285",
+    "1bd30a3a65d73711eaeeda0adc46b8917e7701a264a759aedd42ddf6f842b758",
+    "b5ca89f6920013fbe92b17348b515168bc0a64895606a4bcde69e7f59a755616",
+    "bc711f145ed292fb62c05ac42a61d3d018edc016663c829e38060e692a12aece"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "BGSD",
+   "r": 32,
+   "b": 0,
+   "T": 32,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.50058,
+   "solved": false,
+   "flip_R90": 1.6039999999999999,
+   "flip_D": 0.5863499454966148,
+   "grad_R90": 1.498,
+   "feat_R90": 2.006,
+   "feat_D": 0.8630014061304788,
+   "init_feat_D": 0.3143839915264248,
+   "seeds_flip_R90": [
+    1.06,
+    1.78,
+    2.16,
+    1.62,
+    1.4
+   ],
+   "seeds_feat_R90": [
+    1.0,
+    2.28,
+    2.76,
+    2.0,
+    1.99
+   ],
+   "runs": [
+    "balance-r32-BGSD-T32-s10000",
+    "balance-r32-BGSD-T32-s10001",
+    "balance-r32-BGSD-T32-s10002",
+    "balance-r32-BGSD-T32-s10003",
+    "balance-r32-BGSD-T32-s10004"
+   ],
+   "checkpoints": [
+    "d982dc3880b91db5058f00a10f23fa9b7e4efca8e73c5f9af1ba4c6c83f17046",
+    "a0f867652654067b37bdb99346171e7010f805d666a0938174c4f77a052c3aad",
+    "38878b0ccfc01645a9d9011b632007d45e4c3659d6af105d63e52cf3d76cfe53",
+    "e78b7daf0cf3cbd56bc8939223434b5afac0b2b0d796f1f2cd6253d82465485c",
+    "d00a7884f1e5e549ee9918311b51c91ae89e41a898d8313f6565ea00bcf1b76f"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SGCN",
+   "r": 4,
+   "b": 0,
+   "T": 8,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 1.0,
+   "flip_D": 0.49786319600840284,
+   "grad_R90": 0.9960000000000001,
+   "feat_R90": 1.97,
+   "feat_D": 0.9708696971449872,
+   "init_feat_D": 0.9034922557695726,
+   "seeds_flip_R90": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    1.87,
+    2.0,
+    1.98,
+    2.0
+   ],
+   "runs": [
+    "balance-r4-SGCN-T8-s10000",
+    "balance-r4-SGCN-T8-s10001",
+    "balance-r4-SGCN-T8-s10002",
+    "balance-r4-SGCN-T8-s10003",
+    "balance-r4-SGCN-T8-s10004"
+   ],
+   "checkpoints": [
+    "96b58b78c76cf0fe81eb75203a17dae9325d8eb1634acd877e5d899968e11868",
+    "58e7d0872757c5b4fd2cffa4e5f2db997e5ae5cd104b8127fac7870915d78fe7",
+    "26567525bcf77fd5115fe1e15e380d4197c40f4dfc03b5417a146d0454f6368b",
+    "e18d62970341a80981c2b8ba9701a758b5e841f1f47c3dd58719df25b5de7b53",
+    "d79a5256c1ccc2ef8e2ec8ada177267e2a548cca380a583783684a5f864585cc"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SGCN",
+   "r": 4,
+   "b": 0,
+   "T": 32,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 1.0,
+   "flip_D": 0.49411444931336035,
+   "grad_R90": 0.986,
+   "feat_R90": 1.998,
+   "feat_D": 0.9433302795311735,
+   "init_feat_D": 0.9581393599239414,
+   "seeds_flip_R90": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    1.99,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "runs": [
+    "balance-r4-SGCN-T32-s10000",
+    "balance-r4-SGCN-T32-s10001",
+    "balance-r4-SGCN-T32-s10002",
+    "balance-r4-SGCN-T32-s10003",
+    "balance-r4-SGCN-T32-s10004"
+   ],
+   "checkpoints": [
+    "c14fdf412e22041dc0a15e9e2e590098c6fcdb253d4038dda01c8f75562cb65d",
+    "fe994a2a3cf265f73fa6feec27502308cc5203f57f40f343710a65c784dc6373",
+    "6d752841e65fe7765c86879eaa513a3c2a65c70f71e24c626729ffde66b194f2",
+    "4044b65a03ba4184449f1ea3d6b07a44363c6da88cd6e31bea8e5261fe8c42ae",
+    "80557c07dfbe6dabe6f08b4d14a018077b101be1c13b70b76abbd79a48bc1a8a"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SGCN",
+   "r": 8,
+   "b": 0,
+   "T": 8,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.7899231999999999,
+   "solved": false,
+   "flip_R90": 2.896,
+   "flip_D": 1.4244274757869289,
+   "grad_R90": 2.632,
+   "feat_R90": 3.4859999999999998,
+   "feat_D": 1.8476962613947407,
+   "init_feat_D": 1.6243561872092116,
+   "seeds_flip_R90": [
+    2.92,
+    2.64,
+    2.92,
+    3.0,
+    3.0
+   ],
+   "seeds_feat_R90": [
+    3.37,
+    3.42,
+    3.6,
+    3.48,
+    3.56
+   ],
+   "runs": [
+    "balance-r8-SGCN-T8-s10000",
+    "balance-r8-SGCN-T8-s10001",
+    "balance-r8-SGCN-T8-s10002",
+    "balance-r8-SGCN-T8-s10003",
+    "balance-r8-SGCN-T8-s10004"
+   ],
+   "checkpoints": [
+    "77e483246b432eb8c3aef407cfacdd8f8f708780c160f7ab6e47ebbbe784c9e3",
+    "7875fa67823aa9a31e6ce6b3d72b85bed5fed8239b4eea88a2cb9f6a1ecd7c28",
+    "1c7611c0a6aff5fdf3ca182ea62f315e447ae59a1efd86e16240857ef924b46a",
+    "d74a15d6e7b1b0da7291fbbbe8648bfb2bb3d1819d43098aee5326dfc12c0bfb",
+    "4e3444260de7e03444fc397a4f9b62b49372cc650c49f9df88779ca7f2a63ca6"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SGCN",
+   "r": 8,
+   "b": 0,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 3.0,
+   "flip_D": 1.513568904831576,
+   "grad_R90": 2.622,
+   "feat_R90": 3.7020000000000004,
+   "feat_D": 2.006455981703323,
+   "init_feat_D": 2.0013103475263487,
+   "seeds_flip_R90": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "seeds_feat_R90": [
+    3.72,
+    3.7,
+    3.7,
+    3.7,
+    3.69
+   ],
+   "runs": [
+    "balance-r8-SGCN-T32-s10000",
+    "balance-r8-SGCN-T32-s10001",
+    "balance-r8-SGCN-T32-s10002",
+    "balance-r8-SGCN-T32-s10003",
+    "balance-r8-SGCN-T32-s10004"
+   ],
+   "checkpoints": [
+    "82dcf095756f13ae12c4bba4b2ad5defad55feca191d15a59e38fb218396cf85",
+    "8f3c63de894c535dc92f167055bd7b18e6a4e3cbda989b30126e26b48ddd1b88",
+    "a47877410b487c2661cbca1ef5eb0804d949db84480633e791b4761e5303d0a5",
+    "0b49435c308b25bbd0db8f6e0ce58d4e87de854701b73c2614b9ad71ef901ed3",
+    "2ad8bb2ae30407eab1ea33d90cf592cb421d819418cdca6d89ff3c74c27cc339"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SGCN",
+   "r": 16,
+   "b": 0,
+   "T": 8,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5010032,
+   "solved": false,
+   "flip_R90": 2.804,
+   "flip_D": 1.2326801109982108,
+   "grad_R90": 2.524,
+   "feat_R90": 3.8819999999999992,
+   "feat_D": 1.8797152907531465,
+   "init_feat_D": 1.9737026764662642,
+   "seeds_flip_R90": [
+    2.38,
+    2.82,
+    3.32,
+    3.26,
+    2.24
+   ],
+   "seeds_feat_R90": [
+    3.52,
+    3.94,
+    4.26,
+    4.11,
+    3.58
+   ],
+   "runs": [
+    "balance-r16-SGCN-T8-s10000",
+    "balance-r16-SGCN-T8-s10001",
+    "balance-r16-SGCN-T8-s10002",
+    "balance-r16-SGCN-T8-s10003",
+    "balance-r16-SGCN-T8-s10004"
+   ],
+   "checkpoints": [
+    "a0014ac3a6f5f5e9dda6f63feac8a0c20fea093bdf3e298d39a4dfe055e0f5b7",
+    "38ae1ab4df6c2e183276beb8f86fd5a4379c2e0aae7b8ba93e4d4082eeb9cf7b",
+    "1f8b8313036e8a725ee063be925901db0e08bed3266bfad8e6556833a9519d16",
+    "154ec69be79ba55d651a4cfbdf2e034c92a14ce0f62efa48c990a397857cf06f",
+    "1a1b58c21ab7862be4fde842a6f9bc12737aa0d537c7d2f4d6d39bfbb6c7f0b6"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SGCN",
+   "r": 16,
+   "b": 0,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5084912,
+   "solved": false,
+   "flip_R90": 3.436,
+   "flip_D": 1.7059306976195572,
+   "grad_R90": 3.1380000000000003,
+   "feat_R90": 6.537999999999999,
+   "feat_D": 3.6279857193918645,
+   "init_feat_D": 3.4760409597013435,
+   "seeds_flip_R90": [
+    4.86,
+    3.2,
+    2.54,
+    1.9,
+    4.68
+   ],
+   "seeds_feat_R90": [
+    6.16,
+    6.76,
+    6.51,
+    6.44,
+    6.82
+   ],
+   "runs": [
+    "balance-r16-SGCN-T32-s10000",
+    "balance-r16-SGCN-T32-s10001",
+    "balance-r16-SGCN-T32-s10002",
+    "balance-r16-SGCN-T32-s10003",
+    "balance-r16-SGCN-T32-s10004"
+   ],
+   "checkpoints": [
+    "6428c4fd306cd2ffb607def3ba60bfd65aefedbf71983e68371fced098ae5307",
+    "8a79a8ea64469319bc847fb029410c184dfe0556b0022c40b7ae0b81132c9d5a",
+    "b9ea2c2639f2bdb77b4644e2e5c4d70cd6c4e5298787ed4d3a3242fd9d67b10f",
+    "a95158fed2a26f2eda2fbf3d5cd7728d43b9715615a942fcb378652824164f68",
+    "f8f00e1f4eb6b04752ccfc546717cdf7a5738dc135e6371d404890a14d84c69d"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SGCN",
+   "r": 32,
+   "b": 0,
+   "T": 8,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.5078919999999999,
+   "solved": false,
+   "flip_R90": 3.2119999999999997,
+   "flip_D": 1.4448099633515208,
+   "grad_R90": 2.858,
+   "feat_R90": 4.206,
+   "feat_D": 2.081666813574383,
+   "init_feat_D": 1.971944172154363,
+   "seeds_flip_R90": [
+    3.46,
+    2.8,
+    3.38,
+    3.2,
+    3.22
+   ],
+   "seeds_feat_R90": [
+    4.32,
+    4.04,
+    4.39,
+    4.23,
+    4.05
+   ],
+   "runs": [
+    "balance-r32-SGCN-T8-s10000",
+    "balance-r32-SGCN-T8-s10001",
+    "balance-r32-SGCN-T8-s10002",
+    "balance-r32-SGCN-T8-s10003",
+    "balance-r32-SGCN-T8-s10004"
+   ],
+   "checkpoints": [
+    "42725a33e05ae6a193cff2d9b758e8a5ec912b51faec6b1275ee7a4d8ea996cc",
+    "1ff1f82db0494672688c7b2e82169d624c75a8904560bb79d7a08e25306abf71",
+    "6a90aeb5d18ade263bec8c051dd5cb0a924d61db20e5963dca323d4471381ffe",
+    "4f6d7d3880c815144f7a9ad51a41f05e45540ccf361018a9159319981bc99adc",
+    "a0b48810ba9f17a87b1626c564a5b035adf40683ba1945ec0a1770fa3a60a1fe"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SGCN",
+   "r": 32,
+   "b": 0,
+   "T": 32,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.5084424,
+   "solved": false,
+   "flip_R90": 4.9079999999999995,
+   "flip_D": 2.404007432080385,
+   "grad_R90": 3.84,
+   "feat_R90": 9.395,
+   "feat_D": 5.076512878983429,
+   "init_feat_D": 4.086779586386615,
+   "seeds_flip_R90": [
+    3.52,
+    4.9,
+    4.08,
+    5.7,
+    6.34
+   ],
+   "seeds_feat_R90": [
+    8.54,
+    9.89,
+    9.38,
+    null,
+    9.77
+   ],
+   "runs": [
+    "balance-r32-SGCN-T32-s10000",
+    "balance-r32-SGCN-T32-s10001",
+    "balance-r32-SGCN-T32-s10002",
+    "balance-r32-SGCN-T32-s10003",
+    "balance-r32-SGCN-T32-s10004"
+   ],
+   "checkpoints": [
+    "f5e74461db1f1b4f944fa6a6c4047a64a2e3d1ebbf51b6c6df921d9410aa4a34",
+    "5c3bdfe9621736cb345905d70baec2152a4b530ec284e0cd569fb4dcf145d78f",
+    "23efc14ed93ca6e5467e3089980fcc2365d5a7be2e5d5380a2cc481c9a867341",
+    "63697ea8b7d549ac2ecfcfbe823b2fd859debc151909c8117c528b6ec9341705",
+    "d2d3a9b39bf37bd9e8cc97023fb954e71ad18d2fdad97cb2424ab433d1ad2a14"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SIDNET",
+   "r": 4,
+   "b": 0,
+   "T": 8,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 0.9998432000000002,
+   "solved": true,
+   "flip_R90": 1.0,
+   "flip_D": 0.5002554485623867,
+   "grad_R90": 1.0,
+   "feat_R90": 1.988,
+   "feat_D": 0.7527518873294708,
+   "init_feat_D": 0.5688206961150022,
+   "seeds_flip_R90": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    1.99,
+    1.99,
+    1.98,
+    2.0,
+    1.98
+   ],
+   "runs": [
+    "balance-r4-SIDNET-T8-s10000",
+    "balance-r4-SIDNET-T8-s10001",
+    "balance-r4-SIDNET-T8-s10002",
+    "balance-r4-SIDNET-T8-s10003",
+    "balance-r4-SIDNET-T8-s10004"
+   ],
+   "checkpoints": [
+    "22857cd54c5bfc8885ee185606b0d43539d0257423fe7686438af445f6e218f4",
+    "b10bf0a4cc8aaf84a058dd1df628b44bcc37ec27f2bb2d5558f4b82d4073e087",
+    "c0e33b14cbb8b585e2148392cd9a04ebd58326125b4f35157671f965b56680ee",
+    "253eb1900a26c538bceb32b093441f50cf0fc132d5271dede6fbcb20f0e4e07a",
+    "02ae8505ad88b172d83bed08f23de820ae03e7c79136b7ed3997e3c5504736c9"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SIDNET",
+   "r": 4,
+   "b": 0,
+   "T": 32,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 1.0,
+   "flip_D": 0.5077343271567923,
+   "grad_R90": 1.0,
+   "feat_R90": 2.0,
+   "feat_D": 0.7483190813363205,
+   "init_feat_D": 0.5953557997702712,
+   "seeds_flip_R90": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "runs": [
+    "balance-r4-SIDNET-T32-s10000",
+    "balance-r4-SIDNET-T32-s10001",
+    "balance-r4-SIDNET-T32-s10002",
+    "balance-r4-SIDNET-T32-s10003",
+    "balance-r4-SIDNET-T32-s10004"
+   ],
+   "checkpoints": [
+    "9ead97279d3ed6175005b039e5dc3cbe48bad9a731848ae9b66c16d10cc78b1b",
+    "35803dea40b6c5872a2fa6cb238c4e7dc5a83edad01fd83fc4879775c48be5b6",
+    "4beedc0294b78f8d1bd5b8aae3a33739df552adc349474ef4d0191190aa66cbd",
+    "71a941889762333d897c02141f3a1c11f4f974166e1317e91c3273f5ae11beb6",
+    "14ca1d75b25227580c249332ed86076b4e692242f6a78fd409ac71c9b53303a7"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SIDNET",
+   "r": 8,
+   "b": 0,
+   "T": 8,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.4935392,
+   "solved": false,
+   "flip_R90": 1.968,
+   "flip_D": 0.756733171721585,
+   "grad_R90": 1.7260000000000002,
+   "feat_R90": 2.354,
+   "feat_D": 0.8940292618324129,
+   "init_feat_D": 0.8061031481260363,
+   "seeds_flip_R90": [
+    2.02,
+    1.7,
+    2.02,
+    2.08,
+    2.02
+   ],
+   "seeds_feat_R90": [
+    2.49,
+    2.01,
+    2.35,
+    2.46,
+    2.46
+   ],
+   "runs": [
+    "balance-r8-SIDNET-T8-s10000",
+    "balance-r8-SIDNET-T8-s10001",
+    "balance-r8-SIDNET-T8-s10002",
+    "balance-r8-SIDNET-T8-s10003",
+    "balance-r8-SIDNET-T8-s10004"
+   ],
+   "checkpoints": [
+    "8c4c72c70508eb981f9476e2b2a5fc2456e11cc93d39725c0acf31faaff9a531",
+    "c0f2ec1d415367547a5e02bf08a54f16f3fed99c96b7ce479495410c2a2f7cc7",
+    "757c25a73c1555c7ede0e025d48313573476d8aa8a2a07237fae1cc9c93c7d0a",
+    "74dff1748a30222f108262bcc639abf3b196a806369f1e20088ad7bb3ab5ea80",
+    "7c187779e49c30fd6b87a5d418d7c3339f279a50d20b9b50401b63ef9e0a2fff"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SIDNET",
+   "r": 8,
+   "b": 0,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.8325887999999999,
+   "solved": false,
+   "flip_R90": 2.9639999999999995,
+   "flip_D": 1.4904312479134407,
+   "grad_R90": 2.7020000000000004,
+   "feat_R90": 3.028,
+   "feat_D": 1.3608053342570468,
+   "init_feat_D": 0.9431469224908506,
+   "seeds_flip_R90": [
+    2.98,
+    2.96,
+    2.96,
+    2.94,
+    2.98
+   ],
+   "seeds_feat_R90": [
+    3.04,
+    3.03,
+    3.01,
+    3.02,
+    3.04
+   ],
+   "runs": [
+    "balance-r8-SIDNET-T32-s10000",
+    "balance-r8-SIDNET-T32-s10001",
+    "balance-r8-SIDNET-T32-s10002",
+    "balance-r8-SIDNET-T32-s10003",
+    "balance-r8-SIDNET-T32-s10004"
+   ],
+   "checkpoints": [
+    "7175145cf2d2b350b81d2d14cdb30cfed889b562def9087014bb63b2a0ecfe7c",
+    "9121eb935ecf3c48acdb50634742ca2ea66d398432519767e67992c53f5b7a13",
+    "fea24f6a966dd59f429f611fc76c859dfca3eae82f227b67d90494726f94e079",
+    "8c01cc75e24364c16b3ccf65827c3754c9e5d2bf34a7643f681662e84bb7a960",
+    "f84009bfd8d8ca4612fdebf9f38e71c60a379011bc92116935859b70ef313ae4"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SIDNET",
+   "r": 16,
+   "b": 0,
+   "T": 8,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5028296,
+   "solved": false,
+   "flip_R90": 2.084,
+   "flip_D": 0.808612030810617,
+   "grad_R90": 1.7719999999999998,
+   "feat_R90": 2.272,
+   "feat_D": 0.8431285626907201,
+   "init_feat_D": 0.8503758294361357,
+   "seeds_flip_R90": [
+    2.34,
+    2.02,
+    2.26,
+    1.98,
+    1.82
+   ],
+   "seeds_feat_R90": [
+    2.67,
+    2.0,
+    2.69,
+    2.0,
+    2.0
+   ],
+   "runs": [
+    "balance-r16-SIDNET-T8-s10000",
+    "balance-r16-SIDNET-T8-s10001",
+    "balance-r16-SIDNET-T8-s10002",
+    "balance-r16-SIDNET-T8-s10003",
+    "balance-r16-SIDNET-T8-s10004"
+   ],
+   "checkpoints": [
+    "4b67d2000aa66f2769c0da59035976974d5226712cffdfe320131299abb3cba1",
+    "c3e67bcf9f283d49c2f31be7483f651a8615a058d5408c27621dc583d55f1176",
+    "676c403b09be1d8425f97d8b7cfe64f18c6d6d7285013d1fa5b2756ba32a3b01",
+    "bc5deccfc113dffb8f19eed83fc482557c872d274573e0ead53d62e644bcb464",
+    "17c2f0aeb8483b7f7a997adbfc5d00ed9b00f747df2e895d3b11fd5b3be55cea"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SIDNET",
+   "r": 16,
+   "b": 0,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.4974295999999999,
+   "solved": false,
+   "flip_R90": 3.4520000000000004,
+   "flip_D": 1.324900679362998,
+   "grad_R90": 2.964,
+   "feat_R90": 3.4239999999999995,
+   "feat_D": 1.2794846001922726,
+   "init_feat_D": 1.1548707665737232,
+   "seeds_flip_R90": [
+    3.16,
+    3.54,
+    3.6,
+    3.72,
+    3.24
+   ],
+   "seeds_feat_R90": [
+    3.1,
+    3.76,
+    3.61,
+    3.65,
+    3.0
+   ],
+   "runs": [
+    "balance-r16-SIDNET-T32-s10000",
+    "balance-r16-SIDNET-T32-s10001",
+    "balance-r16-SIDNET-T32-s10002",
+    "balance-r16-SIDNET-T32-s10003",
+    "balance-r16-SIDNET-T32-s10004"
+   ],
+   "checkpoints": [
+    "0360316ab67c4ad32b2bb9017db20dd47ef5714773f904f03eeac6e04e061a9a",
+    "ca0b1a9a98acf95993b760af3cbb55ca3508bee8746f65f07d57c5e19fe3277a",
+    "8292df7c1766d9055bfe99f02b8359e94fc2c51e316c5d9eefa31251c02a614c",
+    "6c7eaf3bbc3b4302b4012e1d79ba0231f118ae163e0fe988f7b872f7d2d0c773",
+    "73a092ef69e757d873b4d1a2a875b797d6b79de85244996934b286de915212db"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SIDNET",
+   "r": 32,
+   "b": 0,
+   "T": 8,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.4884128,
+   "solved": false,
+   "flip_R90": 2.024,
+   "flip_D": 0.783979143250136,
+   "grad_R90": 1.732,
+   "feat_R90": 2.2760000000000002,
+   "feat_D": 0.8550138980572122,
+   "init_feat_D": 0.8523262042845676,
+   "seeds_flip_R90": [
+    2.18,
+    1.92,
+    1.74,
+    1.96,
+    2.32
+   ],
+   "seeds_feat_R90": [
+    2.65,
+    2.01,
+    2.0,
+    2.05,
+    2.67
+   ],
+   "runs": [
+    "balance-r32-SIDNET-T8-s10000",
+    "balance-r32-SIDNET-T8-s10001",
+    "balance-r32-SIDNET-T8-s10002",
+    "balance-r32-SIDNET-T8-s10003",
+    "balance-r32-SIDNET-T8-s10004"
+   ],
+   "checkpoints": [
+    "b94c9662fad6423f4fd8a03c6d8975e4fa27bf24378a0ee2e7a6adb0075de4d8",
+    "2d226d7f5266177e1444630bd894420ac2b80fbaaa1f291b2b75a352a1e9e64c",
+    "e39743399e1ffb1da5078fcb54a813eefc41079526141c4db31cf2f7e16ec259",
+    "428b5850b3cb1ffaa8688cb51e942a99d429aff3e55672a0b391598adc84d14b",
+    "23883ca956caa53ce2ef0c9ce56275dbd84bf3b2b9d81a318f5fc74b68154c48"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SIDNET",
+   "r": 32,
+   "b": 0,
+   "T": 32,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.49684799999999996,
+   "solved": false,
+   "flip_R90": 3.396,
+   "flip_D": 1.3079090348223714,
+   "grad_R90": 2.956,
+   "feat_R90": 3.504,
+   "feat_D": 1.3446085725806909,
+   "init_feat_D": 1.168887039017359,
+   "seeds_flip_R90": [
+    3.32,
+    3.6,
+    2.98,
+    3.42,
+    3.66
+   ],
+   "seeds_feat_R90": [
+    3.47,
+    3.69,
+    3.0,
+    3.69,
+    3.67
+   ],
+   "runs": [
+    "balance-r32-SIDNET-T32-s10000",
+    "balance-r32-SIDNET-T32-s10001",
+    "balance-r32-SIDNET-T32-s10002",
+    "balance-r32-SIDNET-T32-s10003",
+    "balance-r32-SIDNET-T32-s10004"
+   ],
+   "checkpoints": [
+    "a074945aa7f4e1784af45009acecc1ab75405a871deb22a9a629a2b7b9559849",
+    "56485d2ee66983c6ac4259e44b714aabbe482968bc9c313a5546c056ecdfca3b",
+    "51c54af599eb7704e96e74c5d3bccb8b2939064551902a0736033c3ffcae69d8",
+    "7758479b63079cca694c89c0c39a74461291c8565b27f16a7bdfd83111a5da14",
+    "83c1e73a5fd10014eae161a3175a7b5a6c515ff400044b3cb1e57904777fa95d"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SLGNN",
+   "r": 4,
+   "b": 0,
+   "T": 8,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 0.9001319999999999,
+   "solved": false,
+   "flip_R90": 0.756,
+   "flip_D": 0.3936020381128319,
+   "grad_R90": 0.754,
+   "feat_R90": 1.9739999999999998,
+   "feat_D": 0.8364230612352854,
+   "init_feat_D": 0.8110546324893504,
+   "seeds_flip_R90": [
+    1.0,
+    1.0,
+    0.78,
+    1.0,
+    0.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    1.94,
+    2.0,
+    2.0,
+    1.93
+   ],
+   "runs": [
+    "balance-r4-SLGNN-T8-s10000",
+    "balance-r4-SLGNN-T8-s10001",
+    "balance-r4-SLGNN-T8-s10002",
+    "balance-r4-SLGNN-T8-s10003",
+    "balance-r4-SLGNN-T8-s10004"
+   ],
+   "checkpoints": [
+    "cb01ebad521124a66464dc80cb5ee226d981fe1367a67d1a6e5e81e0a77a4d14",
+    "aba96e8afa129d356f5361f62973a9d66976f2603fa5ff7915a25349a0cb1de4",
+    "7c560a13c71a20b256d5019a20bf8e04c0d75f347dce4c7e70a8313b18609549",
+    "c1cb083e19c843b17cdd4b787ece1a82486aba5af29d95221e049cfebde79b7d",
+    "0f755d4ca6e99a68717732645583a26e5c32d84baf94213987b30fdc08e9ccd6"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SLGNN",
+   "r": 4,
+   "b": 0,
+   "T": 32,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 0.8980328,
+   "solved": false,
+   "flip_R90": 0.8119999999999999,
+   "flip_D": 0.3816156045700493,
+   "grad_R90": 0.782,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    0.86,
+    0.96,
+    1.0,
+    0.24,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "balance-r4-SLGNN-T32-s10000",
+    "balance-r4-SLGNN-T32-s10001",
+    "balance-r4-SLGNN-T32-s10002",
+    "balance-r4-SLGNN-T32-s10003",
+    "balance-r4-SLGNN-T32-s10004"
+   ],
+   "checkpoints": [
+    "61e4b6a2ba94599c59291e3f9adb13fc66690e8740abced39cc665164aad1446",
+    "fab8acafd4c7db1959f9eb4e110d6b4c6865ee0ea7c962dec0e74244bb13ab18",
+    "7b3c6b70eeca0a0844b90763ad6e32174a00daf9a1a69dde84869f67b5d2d20f",
+    "470bc8a47e3450987f8bfc25a15be514207e929521c32d2007643cfa6582de02",
+    "f8d3e13f63e135bd27eb341c23c8e7035f2d2a31e29daf4f6a45d0bb1f2f8487"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SLGNN",
+   "r": 8,
+   "b": 0,
+   "T": 8,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.4925452,
+   "solved": false,
+   "flip_R90": 0.192,
+   "flip_D": 0.09519637330967021,
+   "grad_R90": 0.312,
+   "feat_R90": 2.836,
+   "feat_D": 1.3121298332443991,
+   "init_feat_D": 1.3371636826060038,
+   "seeds_flip_R90": [
+    0.16,
+    0.0,
+    0.0,
+    0.8,
+    0.0
+   ],
+   "seeds_feat_R90": [
+    2.95,
+    2.55,
+    2.85,
+    2.64,
+    3.19
+   ],
+   "runs": [
+    "balance-r8-SLGNN-T8-s10000",
+    "balance-r8-SLGNN-T8-s10001",
+    "balance-r8-SLGNN-T8-s10002",
+    "balance-r8-SLGNN-T8-s10003",
+    "balance-r8-SLGNN-T8-s10004"
+   ],
+   "checkpoints": [
+    "7ac3f06e8189d00ee06e6e151be7b1986c1088ff435807b822f0969a892aae1a",
+    "a692ff067fac7006f23a4bf2c193df17763c403593dc3bb60198a4f080d0f052",
+    "1e47016867a32bc4a471402f1e042f717f97e58f531926e44c57f5ffa4577460",
+    "0dd2af8604568b17efdf7cd9281af7721b6550031d6595e2b872bb13bd3ad541",
+    "dd9c98cc4621d0c485f0ebbdf5cf639ebe13240fdf1abfef3ff2678e5c5c2f1d"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SLGNN",
+   "r": 8,
+   "b": 0,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.49734920000000005,
+   "solved": false,
+   "flip_R90": 0.6799999999999999,
+   "flip_D": 0.14473718024000362,
+   "grad_R90": 0.6980000000000001,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    0.32,
+    0.92,
+    0.84,
+    0.32,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "balance-r8-SLGNN-T32-s10000",
+    "balance-r8-SLGNN-T32-s10001",
+    "balance-r8-SLGNN-T32-s10002",
+    "balance-r8-SLGNN-T32-s10003",
+    "balance-r8-SLGNN-T32-s10004"
+   ],
+   "checkpoints": [
+    "0c863b60d27302f5c6a46efc0b32808cd566dd13f65ad4923a483459a24ed48f",
+    "930bc60c04cede643193a49248ea0f608542e168dc81383e5cf0e360b621b446",
+    "597f279e9e4bba1ea32425beaffd974092b6c2243a429394357d9e2ef2169a9d",
+    "5b63ea6c986943138a91f8599cd1a4c89fad886edd45e28b2cb108d4ef2c53af",
+    "220bfd2d05a075664ce77f44a652876b6557058f93d8c728c14eb9c7c6092ab5"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SLGNN",
+   "r": 16,
+   "b": 0,
+   "T": 8,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5104991999999999,
+   "solved": false,
+   "flip_R90": 0.20800000000000002,
+   "flip_D": 0.1308355252559435,
+   "grad_R90": 0.32999999999999996,
+   "feat_R90": 3.4880000000000004,
+   "feat_D": 1.5958304471973044,
+   "init_feat_D": 1.5371141839170437,
+   "seeds_flip_R90": [
+    0.34,
+    0.7,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "seeds_feat_R90": [
+    2.99,
+    3.76,
+    3.87,
+    3.29,
+    3.53
+   ],
+   "runs": [
+    "balance-r16-SLGNN-T8-s10000",
+    "balance-r16-SLGNN-T8-s10001",
+    "balance-r16-SLGNN-T8-s10002",
+    "balance-r16-SLGNN-T8-s10003",
+    "balance-r16-SLGNN-T8-s10004"
+   ],
+   "checkpoints": [
+    "97c3cfcd2940e99ce786b7cee72f19212b6c9e1293e4f0d71a00cb37e2eb1d8b",
+    "97ec98cc136d38f6fa733ee526a5683b665bf5805032d3db04c03f8dea4e53f1",
+    "fdcc41160f4d30d40a02f0f8f9bd5915bb627716abf118346e1803d49a1de0f5",
+    "6dbb95c6dbfd5532b6c444b313b7690947fd060c4202937a0b320c1bff60e0fa",
+    "4fca2f727f8511286fce7eb9ea491a38a2b53b5f984e3d4ef8681a9eb0ed7c3c"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SLGNN",
+   "r": 16,
+   "b": 0,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.504856,
+   "solved": false,
+   "flip_R90": 0.20800000000000002,
+   "flip_D": 0.08234357412187954,
+   "grad_R90": 0.072,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    0.2,
+    0.14,
+    0.28,
+    0.2,
+    0.22
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "balance-r16-SLGNN-T32-s10000",
+    "balance-r16-SLGNN-T32-s10001",
+    "balance-r16-SLGNN-T32-s10002",
+    "balance-r16-SLGNN-T32-s10003",
+    "balance-r16-SLGNN-T32-s10004"
+   ],
+   "checkpoints": [
+    "7516ed3c5c6cd48bb7383a104ee4c5a243c6acdbba5698846305e7608f26ea34",
+    "6723cfbb46d4a23944ae8bbcd2211ca3d9fb04c9e6e9b3234f205ed55333fc43",
+    "144c3d1645acd02093f1f694d8d6ae88a7cdfac5655d6cdaac0587642ef7581e",
+    "b49698dcd883ffdc03beb192788e80397232c845becdc2cbaa971d8a79f28296",
+    "0df222c06ec1cfac600c82213f6d3847de48c931be7ce5d75e7e8e0a29745197"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SLGNN",
+   "r": 32,
+   "b": 0,
+   "T": 8,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.5109763999999999,
+   "solved": false,
+   "flip_R90": 0.304,
+   "flip_D": 0.1064390562195,
+   "grad_R90": 0.19,
+   "feat_R90": 3.45,
+   "feat_D": 1.5384122744101114,
+   "init_feat_D": 1.5336461146454186,
+   "seeds_flip_R90": [
+    1.0,
+    0.0,
+    0.06,
+    0.28,
+    0.18
+   ],
+   "seeds_feat_R90": [
+    2.89,
+    3.63,
+    3.22,
+    3.34,
+    4.17
+   ],
+   "runs": [
+    "balance-r32-SLGNN-T8-s10000",
+    "balance-r32-SLGNN-T8-s10001",
+    "balance-r32-SLGNN-T8-s10002",
+    "balance-r32-SLGNN-T8-s10003",
+    "balance-r32-SLGNN-T8-s10004"
+   ],
+   "checkpoints": [
+    "e318d3d6acaadb45c5856d26c35239918a92eaaca4d5e82c2a07e609b3f97e5a",
+    "7608f4dae40ea4451439cc581d13d86b8d6f35c592b0db5ed720274be7a01289",
+    "01ea5ebf5140eebb5c5ca47f46d9b114e313a62fc66926d60525e2e563cdd819",
+    "318947913410b700e94cc87b70fcfec0287ceb84ef0ca6a9de7b453a61a09f02",
+    "d8f958a46ba6f4fb16e1a9d47808dd048e694a2873d70ab5f27a0586e4be7c61"
+   ]
+  },
+  {
+   "task": "balance",
+   "arch": "SLGNN",
+   "r": 32,
+   "b": 0,
+   "T": 32,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.5116267999999999,
+   "solved": false,
+   "flip_R90": 0.148,
+   "flip_D": 0.07133095168612685,
+   "grad_R90": 0.0,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    0.26,
+    0.22,
+    0.0,
+    0.04,
+    0.22
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "balance-r32-SLGNN-T32-s10000",
+    "balance-r32-SLGNN-T32-s10001",
+    "balance-r32-SLGNN-T32-s10002",
+    "balance-r32-SLGNN-T32-s10003",
+    "balance-r32-SLGNN-T32-s10004"
+   ],
+   "checkpoints": [
+    "1b8c02a62c6e9abc228eed2b702816394cbbae3023ae59d6c485ed8781b7101a",
+    "7a92ba2bf8d1cfd2177119e0beea5fd821279e0a7246f67568510e39243146f9",
+    "98e25663961317a6faada19512c5a95ddff3ec6d6fce0d2daf86a203fece702d",
+    "4177533758612ac37cc5df9104b9a74a27403152c7bb528646ea5b29e3eef8e5",
+    "58837e184798b8a89cbf52575522be34cdc0d2563a64802b5158659a9beb3907"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 2,
+   "b": 0,
+   "T": 8,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 0.96,
+   "flip_D": 0.5045349412444614,
+   "grad_R90": 1.0,
+   "feat_R90": 1.9620000000000002,
+   "feat_D": 0.991652145665344,
+   "init_feat_D": 0.2966411486693054,
+   "seeds_flip_R90": [
+    0.92,
+    1.0,
+    1.0,
+    0.88,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.0,
+    1.83,
+    1.98,
+    2.0
+   ],
+   "runs": [
+    "relay-r2-BGSD-T8-s10000",
+    "relay-r2-BGSD-T8-s10001",
+    "relay-r2-BGSD-T8-s10002",
+    "relay-r2-BGSD-T8-s10003",
+    "relay-r2-BGSD-T8-s10004"
+   ],
+   "checkpoints": [
+    "62c30b3259100fd26c47cb3977c6648c84396d508a514003a3a8003d8f392e23",
+    "3d896fe9b6411f0186cea0dcd8e601be8fec358ff6c4ceab79bf793d4517b6a7",
+    "2efee120e7a98c3e390e6a55d37cd70cb9f5ce9119f92d41bfcd54440653efc4",
+    "cb96e00f08dc0ddcbb3a8681025e79185be4fb03fc055f83917c4dcd1ed0b2db",
+    "34fc6b26c1638db4ec151542cb30b72b7aca957a277aa5dd04008ade22c7e26c"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 2,
+   "b": 0,
+   "T": 32,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 0.9640000000000001,
+   "flip_D": 0.4967261961344751,
+   "grad_R90": 1.0,
+   "feat_R90": 2.0,
+   "feat_D": 1.00540036679286,
+   "init_feat_D": 0.31662713131083775,
+   "seeds_flip_R90": [
+    1.0,
+    0.98,
+    0.84,
+    1.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "runs": [
+    "relay-r2-BGSD-T32-s10000",
+    "relay-r2-BGSD-T32-s10001",
+    "relay-r2-BGSD-T32-s10002",
+    "relay-r2-BGSD-T32-s10003",
+    "relay-r2-BGSD-T32-s10004"
+   ],
+   "checkpoints": [
+    "3b2b0d7e1ab901355c2d26854da9a86b5e8003f38e55dc730bc198296c84601f",
+    "d0718a738fc5368dd0b436d8fbccfce955866b034c7bb3173740aa8b3b78d41e",
+    "765be31a609550f3e98df42cd5a394b451764b2f729ad1696d3b1b148e36a0ec",
+    "9a46f2fd3cc26afb47e350229add5c3ef5aaeb6d71177ded41ef87f9fff0d8e2",
+    "27b6052bc8e941d67540f54c3781a632c308510e79e5758d36e3c2ccd35ae05d"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 4,
+   "b": 0,
+   "T": 8,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.9997776,
+   "solved": true,
+   "flip_R90": 2.98,
+   "flip_D": 1.5057631885777507,
+   "grad_R90": 2.988,
+   "feat_R90": 3.4940000000000007,
+   "feat_D": 1.8121878997815615,
+   "init_feat_D": 0.31445912802980774,
+   "seeds_flip_R90": [
+    3.0,
+    2.98,
+    3.0,
+    3.0,
+    2.92
+   ],
+   "seeds_feat_R90": [
+    3.51,
+    3.37,
+    3.6,
+    3.64,
+    3.35
+   ],
+   "runs": [
+    "relay-r4-BGSD-T8-s10000",
+    "relay-r4-BGSD-T8-s10001",
+    "relay-r4-BGSD-T8-s10002",
+    "relay-r4-BGSD-T8-s10003",
+    "relay-r4-BGSD-T8-s10004"
+   ],
+   "checkpoints": [
+    "660d137c24ba10f586fe9b8060382f43f4f35994356651334006892661e13ae8",
+    "ab70de6c9a0076388416fff11fb4e0329230417fd260b9c977db57902aea934e",
+    "7e7e962925d42b62bc509cd4e17dd3492aeb926ecc2d6c7295dfa4a010445f9d",
+    "ee093667ce36989e4a145ee76024a31ec05beb10f3f74b129fe0801415e6f6fb",
+    "9841d5e426278bb318b9fc1227be50c93cbcf6d8677f3d9fa31ba88819b22a82"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 4,
+   "b": 0,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 3.0,
+   "flip_D": 1.4840970866570968,
+   "grad_R90": 2.9880000000000004,
+   "feat_R90": 3.526,
+   "feat_D": 1.7615119462765627,
+   "init_feat_D": 0.33104843638996867,
+   "seeds_flip_R90": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "seeds_feat_R90": [
+    3.38,
+    3.51,
+    3.7,
+    3.57,
+    3.47
+   ],
+   "runs": [
+    "relay-r4-BGSD-T32-s10000",
+    "relay-r4-BGSD-T32-s10001",
+    "relay-r4-BGSD-T32-s10002",
+    "relay-r4-BGSD-T32-s10003",
+    "relay-r4-BGSD-T32-s10004"
+   ],
+   "checkpoints": [
+    "ca61e2c8bc4f6052c6146e8a22faaf5f1c85ab0ce2221f3f279ff5572e73b577",
+    "924e11d6afec6e55da5812599646d435bc99c341646eab9f3e3d14e5e36cd061",
+    "92cd1e5f86fe6803934e4e19a6fde69a3313a56d1d67f056da4a4d1485ef342a",
+    "09d2e6def726f4befc8c6b2431df81a90b35ba5b413386cbbe293e840b77e615",
+    "50c492455c0d7fcc7724012cac80ba9c24239df7458710e1dfa3e72c7437b842"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 4,
+   "b": 2,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.9999488,
+   "solved": true,
+   "flip_R90": 3.2,
+   "flip_D": 1.6841193710831184,
+   "grad_R90": 4.05,
+   "feat_R90": 3.882,
+   "feat_D": 2.0506177132460457,
+   "init_feat_D": 0.33412453151062166,
+   "seeds_flip_R90": [
+    3.04,
+    3.52,
+    3.38,
+    3.06,
+    3.0
+   ],
+   "seeds_feat_R90": [
+    3.74,
+    4.25,
+    4.37,
+    3.87,
+    3.18
+   ],
+   "runs": [
+    "relay-r4-BGSD-b2-T32-s10000",
+    "relay-r4-BGSD-b2-T32-s10001",
+    "relay-r4-BGSD-b2-T32-s10002",
+    "relay-r4-BGSD-b2-T32-s10003",
+    "relay-r4-BGSD-b2-T32-s10004"
+   ],
+   "checkpoints": [
+    "fb6a22f22d4318c582d53c71a19bed98196ba6191eb9c45cee3ebec52e79bf0d",
+    "4c88be0d45f438250b9b79391ffeafc4a9711b78a838425572e122ae85d31730",
+    "a7b3e0c51e4e3036e3c616ce88cb0722fde67d1eaf5a513dda44d98b78eb2d91",
+    "2a99780c1d3d2c4bec226143ae0478c7da69434c09beeb290e94002d32a905bb",
+    "1edbbaee17ecc67e4547bdbe09f6ae172b6faa88c2b77716b421a9cc1300ffd2"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 8,
+   "b": 0,
+   "T": 8,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5965016000000001,
+   "solved": false,
+   "flip_R90": 2.664,
+   "flip_D": 1.2699040037437102,
+   "grad_R90": 2.626,
+   "feat_R90": 2.822,
+   "feat_D": 1.2827534870529962,
+   "init_feat_D": 0.3139409556235758,
+   "seeds_flip_R90": [
+    2.94,
+    6.82,
+    0.9,
+    1.0,
+    1.66
+   ],
+   "seeds_feat_R90": [
+    3.0,
+    5.2,
+    1.89,
+    1.52,
+    2.5
+   ],
+   "runs": [
+    "relay-r8-BGSD-T8-s10000",
+    "relay-r8-BGSD-T8-s10001",
+    "relay-r8-BGSD-T8-s10002",
+    "relay-r8-BGSD-T8-s10003",
+    "relay-r8-BGSD-T8-s10004"
+   ],
+   "checkpoints": [
+    "c0b70bf6775cc5fa969771e7d8d7d21cb0581c56760d753c1d1f7fd7676d13e8",
+    "c27e095ad26a6d9e19fcbf9d89a987831d8f01fb5f41ab10c7cec188ba2258c2",
+    "bc06d520b3907799eaea70fff3f88998b241ff45d578565e069b19d49d0e985a",
+    "e1f47e741ff0d174edce465db423d324c4e6966137673e52ebefb84dc6a31145",
+    "867981288144b2991f09b33817b90071263a3ba20dba64a20422fb3e0240599d"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 8,
+   "b": 0,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.6986472,
+   "solved": false,
+   "flip_R90": 3.9560000000000004,
+   "flip_D": 1.9102736629853065,
+   "grad_R90": 3.878,
+   "feat_R90": 3.8340000000000005,
+   "feat_D": 1.8294731506593138,
+   "init_feat_D": 0.33172415285010975,
+   "seeds_flip_R90": [
+    2.18,
+    6.86,
+    6.82,
+    1.14,
+    2.78
+   ],
+   "seeds_feat_R90": [
+    2.41,
+    6.04,
+    6.05,
+    1.49,
+    3.18
+   ],
+   "runs": [
+    "relay-r8-BGSD-T32-s10000",
+    "relay-r8-BGSD-T32-s10001",
+    "relay-r8-BGSD-T32-s10002",
+    "relay-r8-BGSD-T32-s10003",
+    "relay-r8-BGSD-T32-s10004"
+   ],
+   "checkpoints": [
+    "c3dfab1a0cfbe4ed84974f8c697233c02f053f8cd4b0bf4674f08dcb52970e47",
+    "da0444c385b3c9d7cf6a45981c18cf5d6782145ec4d6cfec415e1e43f00e5872",
+    "02d30dabc3732d36326b0b4143e4acb119688c5f9cadc58ca62b5c247e43bcf8",
+    "4e7ee8c259362bf2583be75a79968c83e1cf5405d4cf8b9bfe58919ddcf0f96e",
+    "40f71b15dbcb1b4b50996dfcd91078814a18bac2f6227b3c18decbfa9fdd4055"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 8,
+   "b": 2,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.4981776,
+   "solved": false,
+   "flip_R90": 1.4760000000000002,
+   "flip_D": 0.6317644096117546,
+   "grad_R90": 1.5859999999999999,
+   "feat_R90": 2.324,
+   "feat_D": 1.202067556084177,
+   "init_feat_D": 0.33485330090403903,
+   "seeds_flip_R90": [
+    1.0,
+    1.74,
+    1.54,
+    1.58,
+    1.52
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.5,
+    2.35,
+    2.42,
+    2.35
+   ],
+   "runs": [
+    "relay-r8-BGSD-b2-T32-s10000",
+    "relay-r8-BGSD-b2-T32-s10001",
+    "relay-r8-BGSD-b2-T32-s10002",
+    "relay-r8-BGSD-b2-T32-s10003",
+    "relay-r8-BGSD-b2-T32-s10004"
+   ],
+   "checkpoints": [
+    "6e1390aa0d072125987668f8f752d66507e44928731cac63ed02e87d98fea387",
+    "8df16b5126515f9e1582497f7a7975e915a1c519cb213f15c24551cf15ec162a",
+    "3d8e25ec358eba9f5b2ef3acc79317d4bfd3bf82d9d70735b92d2b31769ebc29",
+    "9edd0e9a404b7e1bd0db6966ec9ac0d97d7f51ed2c9bf2fc6327a2dc876513ca",
+    "c4411aa26f68297bffbaa135c986e3b1b815840b560a13a8fd72d2dc4eb9fea2"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 16,
+   "b": 0,
+   "T": 8,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.4940455999999999,
+   "solved": false,
+   "flip_R90": 1.9560000000000002,
+   "flip_D": 0.9002498292372433,
+   "grad_R90": 2.013787234042553,
+   "feat_R90": 2.604,
+   "feat_D": 1.1331726065489316,
+   "init_feat_D": 0.31347637105727866,
+   "seeds_flip_R90": [
+    0.84,
+    2.14,
+    2.08,
+    2.32,
+    2.4
+   ],
+   "seeds_feat_R90": [
+    1.9,
+    2.61,
+    2.57,
+    2.72,
+    3.22
+   ],
+   "runs": [
+    "relay-r16-BGSD-T8-s10000",
+    "relay-r16-BGSD-T8-s10001",
+    "relay-r16-BGSD-T8-s10002",
+    "relay-r16-BGSD-T8-s10003",
+    "relay-r16-BGSD-T8-s10004"
+   ],
+   "checkpoints": [
+    "a6398cc907a9f3650bb8c6fa44478ce8331faecd6c04fc48f031bcb025f87fbd",
+    "b3e3f9d0aba328bed1f67ef5f0e5e36090f5b558a6ab252e8543abb3c6d4aded",
+    "c105018002b8dbbb72c0b2a3567bfe426518396ecfb27f02399add67202ac9d9",
+    "d6ad4f4f413a14c51ad07fd317b2c39529a12f2db698bbd542980b41c74ba574",
+    "5ae70497faa9f2c1a26d56599153d01ef316a39b9332ee98e4b65a7615e5fab5"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 16,
+   "b": 0,
+   "T": 32,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.49477519999999997,
+   "solved": false,
+   "flip_R90": 1.984,
+   "flip_D": 0.9240791314273535,
+   "grad_R90": 1.8969292929292927,
+   "feat_R90": 2.332,
+   "feat_D": 1.113385243089113,
+   "init_feat_D": 0.33204124591287937,
+   "seeds_flip_R90": [
+    1.48,
+    1.94,
+    2.26,
+    1.72,
+    2.52
+   ],
+   "seeds_feat_R90": [
+    2.1,
+    2.14,
+    2.4,
+    2.43,
+    2.59
+   ],
+   "runs": [
+    "relay-r16-BGSD-T32-s10000",
+    "relay-r16-BGSD-T32-s10001",
+    "relay-r16-BGSD-T32-s10002",
+    "relay-r16-BGSD-T32-s10003",
+    "relay-r16-BGSD-T32-s10004"
+   ],
+   "checkpoints": [
+    "edbdb1317e6627c4c3742ae44000117da91d089a7fe65af0e2e345582f891f5a",
+    "69261f3cc2c9893189c6a509b04c4468f1e9b3c436a99587c69696ca55ab28f7",
+    "7deb846aa9f9a3c0a03de746a327797137b5a7fbed5b8ef37e02dba0e22e7a47",
+    "6f9519361d5ed7ce8ab919d657f81f0b7f81f2f4524d5e8e78b92ef65ca639a8",
+    "a97f9e454d576b3b0e6fa9070c8d8e75144fb3485cbe9790344ccbdcf1efb17d"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 2,
+   "b": 0,
+   "T": 8,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 0.9999832,
+   "solved": true,
+   "flip_R90": 1.0,
+   "flip_D": 0.5031670490464281,
+   "grad_R90": 0.9279999999999999,
+   "feat_R90": 1.982,
+   "feat_D": 0.9468842950379555,
+   "init_feat_D": 0.9735100237670551,
+   "seeds_flip_R90": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.0,
+    1.99,
+    1.92,
+    2.0
+   ],
+   "runs": [
+    "relay-r2-SGCN-T8-s10000",
+    "relay-r2-SGCN-T8-s10001",
+    "relay-r2-SGCN-T8-s10002",
+    "relay-r2-SGCN-T8-s10003",
+    "relay-r2-SGCN-T8-s10004"
+   ],
+   "checkpoints": [
+    "93603d2af4aad54faf061b83df69a38b735a98732c7c86396f4bf1d86d0d575c",
+    "d660285bc769144e405c405df0b9341435e77bfee6ff6f734d1b4bf5db612ded",
+    "eb32bdf90e9aed6b9b2acaef98a3289de273dd6e39c59ba688540fbf04fb3b50",
+    "fad42ff7da29f5c4dfc34789b6085d978c9b55bb98bbfcf55aeecda861cd7d7d",
+    "b5d69ad3f960b5baf118877438621fd92b78075b4887b45a295b0075b89d8169"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 2,
+   "b": 0,
+   "T": 32,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 0.5048076,
+   "solved": false,
+   "flip_R90": 0.9039999999999999,
+   "flip_D": 0.4124334209736967,
+   "grad_R90": 0.742,
+   "feat_R90": 2.0,
+   "feat_D": 0.9845937576300011,
+   "init_feat_D": 1.003007545209131,
+   "seeds_flip_R90": [
+    1.0,
+    0.52,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "runs": [
+    "relay-r2-SGCN-T32-s10000",
+    "relay-r2-SGCN-T32-s10001",
+    "relay-r2-SGCN-T32-s10002",
+    "relay-r2-SGCN-T32-s10003",
+    "relay-r2-SGCN-T32-s10004"
+   ],
+   "checkpoints": [
+    "68f95c3e0b3a2315ca40142fdcf65e17ea4a19e751d1cbb6d173218ab44d72e0",
+    "13d2c6081d4262523e874e580609dd2bd7c76239e515bd4da7a02b2f49af61d1",
+    "f641fb3d70abb3cef3019db95112e8a4321a4a0e042524b9802b31a0bc01d3fe",
+    "a48a392f581e6057e284b80fe4af7a3aaf5c47cadd36d0e17af0f50202d26850",
+    "4257d653875c90c09f0ea70f189013d8b4076f768b7e9aa9a64120603dd000d7"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 4,
+   "b": 0,
+   "T": 8,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.9999696,
+   "solved": true,
+   "flip_R90": 3.0,
+   "flip_D": 1.4970143188295462,
+   "grad_R90": 1.8960000000000001,
+   "feat_R90": 2.996,
+   "feat_D": 1.4679486927175593,
+   "init_feat_D": 1.6206997168213753,
+   "seeds_flip_R90": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "seeds_feat_R90": [
+    2.99,
+    3.04,
+    3.0,
+    2.92,
+    3.03
+   ],
+   "runs": [
+    "relay-r4-SGCN-T8-s10000",
+    "relay-r4-SGCN-T8-s10001",
+    "relay-r4-SGCN-T8-s10002",
+    "relay-r4-SGCN-T8-s10003",
+    "relay-r4-SGCN-T8-s10004"
+   ],
+   "checkpoints": [
+    "50dc4d992c05531caa86b3a568002b8c6e352f37d643251d9e5a6c2e27c52b4d",
+    "c08a23cfa75d188d59ff2563314257dffd42f9ff20df3b7d5ef8f4b3cca70772",
+    "ff4eaf0ef5cde8ee7a01e7e40a1a248d2b5102d0e6eb367544257072123ae201",
+    "5e51921a85fdd80afebdc24a5b84c943838151e314a843228c3b72e4db344311",
+    "61f7a454190e0d7efd87b7442cde1858cdd4fc6fcfb41df295a1adf5f5425b48"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 4,
+   "b": 0,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.49710279999999996,
+   "solved": false,
+   "flip_R90": 2.34,
+   "flip_D": 1.249284293880917,
+   "grad_R90": 2.066,
+   "feat_R90": 3.6275847457627117,
+   "feat_D": 1.911373994143502,
+   "init_feat_D": 1.9666127409682637,
+   "seeds_flip_R90": [
+    1.94,
+    2.68,
+    1.4,
+    2.74,
+    2.94
+   ],
+   "seeds_feat_R90": [
+    3.84,
+    3.2203389830508473,
+    3.74,
+    3.71,
+    null
+   ],
+   "runs": [
+    "relay-r4-SGCN-T32-s10000",
+    "relay-r4-SGCN-T32-s10001",
+    "relay-r4-SGCN-T32-s10002",
+    "relay-r4-SGCN-T32-s10003",
+    "relay-r4-SGCN-T32-s10004"
+   ],
+   "checkpoints": [
+    "0fc1dd47b224f3d1dd67e4450156df7f64c2ab44a476dc6fb7596fdd6fbe46e8",
+    "a4fb174668d49e60e7185647d914beb9eed016a578a06827b81ecc12f3599e88",
+    "87bf38d1c38054d3fe8ca613e32ce0e9c7f5997b3753dda87b6379e588512461",
+    "c1a530e66a726689cafc115ec93f4e8369a64c82ebac149339b48a30675151c3",
+    "7b469acb8415a418a9c60dee9326c3960e3c1c769a4f71fb2d0e78b66fe269ab"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 4,
+   "b": 2,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.49337719999999996,
+   "solved": false,
+   "flip_R90": 1.884,
+   "flip_D": 0.8120627644814311,
+   "grad_R90": 1.53,
+   "feat_R90": 4.266,
+   "feat_D": 2.4301954016755762,
+   "init_feat_D": 2.389339445678786,
+   "seeds_flip_R90": [
+    1.66,
+    2.02,
+    2.02,
+    1.78,
+    1.94
+   ],
+   "seeds_feat_R90": [
+    4.24,
+    4.38,
+    4.07,
+    4.39,
+    4.25
+   ],
+   "runs": [
+    "relay-r4-SGCN-b2-T32-s10000",
+    "relay-r4-SGCN-b2-T32-s10001",
+    "relay-r4-SGCN-b2-T32-s10002",
+    "relay-r4-SGCN-b2-T32-s10003",
+    "relay-r4-SGCN-b2-T32-s10004"
+   ],
+   "checkpoints": [
+    "4ff270292b49e7a693b355293a08e6f5655325221197bc9ad0ca35928eae4079",
+    "b50cc5fca6637dda0a30351ce1b1460babaf63aad5f41a70de90947f70ec2e45",
+    "e18f00e5fb691c48f7008306e994d45bf87a5d73ed24b3a0be5020da33d02442",
+    "ca173673aad170d8cdd3d8bdbfc0bf7644e6d9b8db6967481c9dfd9c4f019ec1",
+    "376ae18489f5e5cea67463f945a90cfa2ce331992800eb3c4ff003c157aa3b48"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 8,
+   "b": 0,
+   "T": 8,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5061024,
+   "solved": false,
+   "flip_R90": 3.008,
+   "flip_D": 1.457875861122838,
+   "grad_R90": 2.7600000000000002,
+   "feat_R90": 4.236,
+   "feat_D": 2.149481568474451,
+   "init_feat_D": 1.9255696956746693,
+   "seeds_flip_R90": [
+    3.4,
+    3.5,
+    2.3,
+    2.96,
+    2.88
+   ],
+   "seeds_feat_R90": [
+    4.24,
+    4.74,
+    3.57,
+    4.27,
+    4.36
+   ],
+   "runs": [
+    "relay-r8-SGCN-T8-s10000",
+    "relay-r8-SGCN-T8-s10001",
+    "relay-r8-SGCN-T8-s10002",
+    "relay-r8-SGCN-T8-s10003",
+    "relay-r8-SGCN-T8-s10004"
+   ],
+   "checkpoints": [
+    "ce213f1797c5b0aa2e5b679e1fc0ca23b34e075571e931262bb4fd4c3b9607e2",
+    "5f8f20665c0c9310160694f462aea2a6b09863c6a46499f267a90fdff969820c",
+    "145eb8894ef7aa65540215c772582618d66f88e68e84cd6df08d0338ff56f9ac",
+    "867f34282a06c756b1fecf20cea52807472aad2a871303c0889fc4dbf314a22e",
+    "67b124fef4ed0a95adc189fd81b46e43afda1b75a5718ab1b4cea6bcac39598c"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 8,
+   "b": 0,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5013116,
+   "solved": false,
+   "flip_R90": 4.184,
+   "flip_D": 2.190575618699426,
+   "grad_R90": 3.2339999999999995,
+   "feat_R90": 6.667999999999999,
+   "feat_D": 3.7147375633701927,
+   "init_feat_D": 3.49177473308922,
+   "seeds_flip_R90": [
+    4.88,
+    5.26,
+    3.74,
+    2.12,
+    4.92
+   ],
+   "seeds_feat_R90": [
+    6.47,
+    6.82,
+    6.6,
+    6.65,
+    6.8
+   ],
+   "runs": [
+    "relay-r8-SGCN-T32-s10000",
+    "relay-r8-SGCN-T32-s10001",
+    "relay-r8-SGCN-T32-s10002",
+    "relay-r8-SGCN-T32-s10003",
+    "relay-r8-SGCN-T32-s10004"
+   ],
+   "checkpoints": [
+    "7bd929e5f3e37694eae281b080d8b99d2cc5cf3adfeda251fed8685101c016e7",
+    "90cea7250080655a7181816dbd1ddf8a2768eef88b3b92aa1cce3b5556c40320",
+    "fe2f23ffc1ec9754b7b7cdb7015c250a1f731228a7808188cdb506cbee25c1a2",
+    "d0c1bb91cfb9295b43789e533c4c3b1a7c0f05da5ae9f0df58ebe10dbc877167",
+    "edc9f97e0e25459af6b42bb41e995e0c575e67f63022dab8181fa4d7b3cf7009"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 8,
+   "b": 2,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.504272,
+   "solved": false,
+   "flip_R90": 2.6239999999999997,
+   "flip_D": 1.2544070701257979,
+   "grad_R90": 2.196,
+   "feat_R90": 5.228,
+   "feat_D": 3.2817458430808264,
+   "init_feat_D": 2.6229474896394604,
+   "seeds_flip_R90": [
+    2.9,
+    1.94,
+    3.28,
+    2.5,
+    2.5
+   ],
+   "seeds_feat_R90": [
+    5.56,
+    4.79,
+    5.96,
+    5.57,
+    4.26
+   ],
+   "runs": [
+    "relay-r8-SGCN-b2-T32-s10000",
+    "relay-r8-SGCN-b2-T32-s10001",
+    "relay-r8-SGCN-b2-T32-s10002",
+    "relay-r8-SGCN-b2-T32-s10003",
+    "relay-r8-SGCN-b2-T32-s10004"
+   ],
+   "checkpoints": [
+    "f7184b1f2c0629d2415db5e9ed9832019b23e2088ee6ca6650dfbc2af04a2135",
+    "de63363193d45365a3e2f68c7b4c754329f59e4c0508cfb78d9c62536af5af92",
+    "f8bfc613c84b029c91ef32dbecc40a3f498e048d67ee2b75db08014e183a9610",
+    "a059a0e165446ccdeb5b6edb21a9a0ec2b74ba71478820a9353c1758c32dbdc7",
+    "d59633f9e0938f176d758215bea12aa434e0a04df9f9bfd29965f7d8dfe759a1"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 16,
+   "b": 0,
+   "T": 8,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.49289760000000005,
+   "solved": false,
+   "flip_R90": 3.0,
+   "flip_D": 1.4977810645553533,
+   "grad_R90": 2.6439999999999997,
+   "feat_R90": 4.036,
+   "feat_D": 2.015093589817812,
+   "init_feat_D": 1.91653917453162,
+   "seeds_flip_R90": [
+    2.52,
+    2.92,
+    3.32,
+    3.1,
+    3.14
+   ],
+   "seeds_feat_R90": [
+    3.67,
+    3.86,
+    4.15,
+    4.11,
+    4.39
+   ],
+   "runs": [
+    "relay-r16-SGCN-T8-s10000",
+    "relay-r16-SGCN-T8-s10001",
+    "relay-r16-SGCN-T8-s10002",
+    "relay-r16-SGCN-T8-s10003",
+    "relay-r16-SGCN-T8-s10004"
+   ],
+   "checkpoints": [
+    "88c1b86abfe777f2b9769b4dd0dc1f889e4afd9fba540af3830d0050c9bfe3bb",
+    "a25187d4b09cc69e5d2441cac1dea5539aeaf58d1c3977584de746f28285ec6f",
+    "aace5a53bbe483e68d4d66eb7f31aa449b89e2a436a1362634bb345c2c219c05",
+    "863977932630d5fc4660c6f2b102a10ff490836442163c700589714b4b0425a3",
+    "8e3c6edad039e6daf5d4debc27fead68a2945139fc1339208d8f5424f5c42057"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SGCN",
+   "r": 16,
+   "b": 0,
+   "T": 32,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.499678,
+   "solved": false,
+   "flip_R90": 4.064,
+   "flip_D": 2.092952693300924,
+   "grad_R90": 3.17,
+   "feat_R90": 8.745999999999999,
+   "feat_D": 4.793463983057052,
+   "init_feat_D": 4.231106345450043,
+   "seeds_flip_R90": [
+    3.58,
+    5.44,
+    5.58,
+    4.22,
+    1.5
+   ],
+   "seeds_feat_R90": [
+    9.38,
+    9.09,
+    8.43,
+    8.97,
+    7.86
+   ],
+   "runs": [
+    "relay-r16-SGCN-T32-s10000",
+    "relay-r16-SGCN-T32-s10001",
+    "relay-r16-SGCN-T32-s10002",
+    "relay-r16-SGCN-T32-s10003",
+    "relay-r16-SGCN-T32-s10004"
+   ],
+   "checkpoints": [
+    "bf9ada40f2d794220fbceba2eaf753fe4cd4da000974ac27cd893ef661ff2b5c",
+    "9a26cb46e269efd61b68afb9a667cf738f31e790c5bb30f084c2ff65eaec870f",
+    "0ca363299a3e86a1e22005b58d202814490e71b08feaf057e23938394dc5226d",
+    "90714216998096a61a4d4579e052f5103b1460bdb9272bd2ca4f0e1fb09c51f0",
+    "7b00c3b3a8369c11ac24246e93bd567c1f3981f9c0efab27d9447efc5c7f9dde"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 2,
+   "b": 0,
+   "T": 8,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 0.9999296,
+   "solved": true,
+   "flip_R90": 1.0,
+   "flip_D": 0.4968348580108244,
+   "grad_R90": 0.998,
+   "feat_R90": 2.0,
+   "feat_D": 0.8448071562154882,
+   "init_feat_D": 0.7543974849385304,
+   "seeds_flip_R90": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "runs": [
+    "relay-r2-SIDNET-T8-s10000",
+    "relay-r2-SIDNET-T8-s10001",
+    "relay-r2-SIDNET-T8-s10002",
+    "relay-r2-SIDNET-T8-s10003",
+    "relay-r2-SIDNET-T8-s10004"
+   ],
+   "checkpoints": [
+    "f02dff27ada649e3fa589e7738f00675d3ff82b7c115b6151409afd245fcf0a7",
+    "73f431d3d6e4c464c172fecd34a17fe3e33652c267e4d98d327899f7153f7ad8",
+    "169d4c59acbe4592f0a574f239b12d299ff2c89ca0acf9f4ca50184a447e8d21",
+    "50cfe78e0a390f2aefcf55be7708bfd13b5e7cb0f35c4f3a5788db6e58bae154",
+    "9e75e076a5e653c8e44381eecded8739374cc267a0a5c6d9157b928d4684184f"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 2,
+   "b": 0,
+   "T": 32,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 1.0,
+   "solved": true,
+   "flip_R90": 1.0,
+   "flip_D": 0.5002333747265701,
+   "grad_R90": 1.0,
+   "feat_R90": 2.0,
+   "feat_D": 0.8866791244176904,
+   "init_feat_D": 0.7760544503147528,
+   "seeds_flip_R90": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "runs": [
+    "relay-r2-SIDNET-T32-s10000",
+    "relay-r2-SIDNET-T32-s10001",
+    "relay-r2-SIDNET-T32-s10002",
+    "relay-r2-SIDNET-T32-s10003",
+    "relay-r2-SIDNET-T32-s10004"
+   ],
+   "checkpoints": [
+    "9c23d2d32a89aaabd3e4daa11bf109108d2b9a463cdae73ccbb3bd8036bc1e1f",
+    "7b326681a8f8329970d35e8597f642330685fc0862ebd3df3018f610a76e5955",
+    "e09843e5fde52c0744e8adfa2e99981508726b8f167defac72f8764f6448c0a4",
+    "9e2b11c5c1e0fa4156470f53553632f8ddc07a978462810ba95eb7999a9b1cb2",
+    "7f761ec17c6de77932f821c83801136c2ede0e17dc25ef70b41f039738c8a21c"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 4,
+   "b": 0,
+   "T": 8,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.9999687999999999,
+   "solved": true,
+   "flip_R90": 3.0,
+   "flip_D": 1.5046318476824854,
+   "grad_R90": 2.926,
+   "feat_R90": 3.598,
+   "feat_D": 1.45025528573384,
+   "init_feat_D": 0.8741616970473872,
+   "seeds_flip_R90": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "seeds_feat_R90": [
+    3.59,
+    3.51,
+    3.74,
+    3.77,
+    3.38
+   ],
+   "runs": [
+    "relay-r4-SIDNET-T8-s10000",
+    "relay-r4-SIDNET-T8-s10001",
+    "relay-r4-SIDNET-T8-s10002",
+    "relay-r4-SIDNET-T8-s10003",
+    "relay-r4-SIDNET-T8-s10004"
+   ],
+   "checkpoints": [
+    "04b0d86d8b221574a907b83a72d536d73b7306780bf76c8e33beceaeaf1b8ae4",
+    "819cce7eba1295e9c5d59f5e450f6d33f7d78941e7644950d5fdc5b651b99764",
+    "b1367e737df3a95fb7abc38a6380db3e45b974f02664243bd134945583b8b8d5",
+    "fa7a17907a4ef80f74d8f72a37245daef17ebf9e31724c9b3c75ced7140c5323",
+    "b624d7b00069177bf6e701637657b83adaf361d0e4e4033214830b354c810a46"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 4,
+   "b": 0,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.9999872,
+   "solved": true,
+   "flip_R90": 3.0,
+   "flip_D": 1.5051429772293161,
+   "grad_R90": 3.0,
+   "feat_R90": 3.518,
+   "feat_D": 1.3832295450269132,
+   "init_feat_D": 1.0994928605914367,
+   "seeds_flip_R90": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "seeds_feat_R90": [
+    3.48,
+    3.78,
+    3.57,
+    3.18,
+    3.58
+   ],
+   "runs": [
+    "relay-r4-SIDNET-T32-s10000",
+    "relay-r4-SIDNET-T32-s10001",
+    "relay-r4-SIDNET-T32-s10002",
+    "relay-r4-SIDNET-T32-s10003",
+    "relay-r4-SIDNET-T32-s10004"
+   ],
+   "checkpoints": [
+    "ee8adc21394b5d97e49fcc4503e46a22d6b929839e495a370ff6f6b41c87c123",
+    "d924bc0ebc83d659415b728e48d81d4e489bccca269d6d4ae942568f7d313073",
+    "f74a6b6b9587ded8b11047517d7b7b74c093ba7e55c88f83f4a9a566b9fe7556",
+    "3953873e2001788db368857d33d222298c95edf373059b1aa24a6e7092b10f90",
+    "0554b012dc8710f62102ddaf0b8611cef1263e7ca39018ecebeb8b7d351a0e62"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 4,
+   "b": 2,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.994768,
+   "solved": true,
+   "flip_R90": 3.0,
+   "flip_D": 1.4345244702309625,
+   "grad_R90": 3.786,
+   "feat_R90": 3.3,
+   "feat_D": 2.064898360955285,
+   "init_feat_D": 1.4755926291911434,
+   "seeds_flip_R90": [
+    3.0,
+    3.0,
+    3.0,
+    3.0,
+    3.0
+   ],
+   "seeds_feat_R90": [
+    3.35,
+    3.11,
+    3.33,
+    3.53,
+    3.18
+   ],
+   "runs": [
+    "relay-r4-SIDNET-b2-T32-s10000",
+    "relay-r4-SIDNET-b2-T32-s10001",
+    "relay-r4-SIDNET-b2-T32-s10002",
+    "relay-r4-SIDNET-b2-T32-s10003",
+    "relay-r4-SIDNET-b2-T32-s10004"
+   ],
+   "checkpoints": [
+    "982aaaa760dab1998a0df36057a84fa7bf9b43da9c0f736ebe41ff44d95ef242",
+    "edf33061c9736060aaa0c4657f639481e2f424fef6384b34d698780addcb0610",
+    "afaa92e3f0d35870b947f8d0b7ecedef9cb85771c9d3667c0d85a0a4678e40a1",
+    "ce3f447a9a20821d7c8504cbfb47b8967d3fd6232d3d126d8f2710203c523bbc",
+    "e3f9361fb12a59417e5b9272a67d0ce1e0d54096b8b931c891690f72ad4d56d4"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 8,
+   "b": 0,
+   "T": 8,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5025312000000001,
+   "solved": false,
+   "flip_R90": 2.2560000000000002,
+   "flip_D": 0.9703951081359298,
+   "grad_R90": 1.892,
+   "feat_R90": 2.5300000000000002,
+   "feat_D": 0.958830998083009,
+   "init_feat_D": 0.853814995551138,
+   "seeds_flip_R90": [
+    2.3,
+    1.88,
+    2.48,
+    2.3,
+    2.32
+   ],
+   "seeds_feat_R90": [
+    2.73,
+    2.0,
+    2.74,
+    2.59,
+    2.59
+   ],
+   "runs": [
+    "relay-r8-SIDNET-T8-s10000",
+    "relay-r8-SIDNET-T8-s10001",
+    "relay-r8-SIDNET-T8-s10002",
+    "relay-r8-SIDNET-T8-s10003",
+    "relay-r8-SIDNET-T8-s10004"
+   ],
+   "checkpoints": [
+    "86fb43fb3285ec77309e8627e42bf47a605ffeec9a2f4ff4ab7a5996619f3447",
+    "0ec4e1a8b7dca61e42a1eaf11c0e0dc798d37d56b2f7a855a375b008efcb0baa",
+    "eae28c04385ab90585cc87f6ab4ab3dfe4d482363fbf2e6a19b3a4a6a35b6bcb",
+    "5bb41434dd8771e0f4d252c40e0dd0931a668309e6b56066981b287c2a303102",
+    "bc24b23c5ecac04b2758ea138e0ab8dc442817a679256ae13bfc3ea28c4a1ad3"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 8,
+   "b": 0,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.9998799999999999,
+   "solved": true,
+   "flip_R90": 6.984,
+   "flip_D": 3.5315132573738963,
+   "grad_R90": 6.811999999999999,
+   "feat_R90": 4.914,
+   "feat_D": 2.444438876467803,
+   "init_feat_D": 1.1706046163505377,
+   "seeds_flip_R90": [
+    7.0,
+    6.98,
+    7.0,
+    7.0,
+    6.94
+   ],
+   "seeds_feat_R90": [
+    4.88,
+    4.91,
+    5.0,
+    5.0,
+    4.78
+   ],
+   "runs": [
+    "relay-r8-SIDNET-T32-s10000",
+    "relay-r8-SIDNET-T32-s10001",
+    "relay-r8-SIDNET-T32-s10002",
+    "relay-r8-SIDNET-T32-s10003",
+    "relay-r8-SIDNET-T32-s10004"
+   ],
+   "checkpoints": [
+    "407226e6a655a892719dbc0e997474ec71995a587477979c8be38df012e351e1",
+    "325ae9cd519fa7d77c51ce04e099ab04d99dfe899491dedc381b7908109a058c",
+    "e227469a748eb158b98fa7c5d4c5f6ea76a5276d83761f8d5c900c86de220251",
+    "146d08ba2c23cdc3c0cf0eaa771c1095b149eb6d0d9f2e33e48d1c82b10a00d1",
+    "56e44a0533128536e7fe497a1cdff65a63306e45eb2228c8731d588614edbd59"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 8,
+   "b": 2,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.48744,
+   "solved": false,
+   "flip_R90": 2.2600000000000002,
+   "flip_D": 0.9554303407249962,
+   "grad_R90": 2.246,
+   "feat_R90": 3.004,
+   "feat_D": 1.6503132574191468,
+   "init_feat_D": 1.475013004750026,
+   "seeds_flip_R90": [
+    2.32,
+    2.28,
+    2.26,
+    2.3,
+    2.14
+   ],
+   "seeds_feat_R90": [
+    3.0,
+    3.0,
+    3.01,
+    3.01,
+    3.0
+   ],
+   "runs": [
+    "relay-r8-SIDNET-b2-T32-s10000",
+    "relay-r8-SIDNET-b2-T32-s10001",
+    "relay-r8-SIDNET-b2-T32-s10002",
+    "relay-r8-SIDNET-b2-T32-s10003",
+    "relay-r8-SIDNET-b2-T32-s10004"
+   ],
+   "checkpoints": [
+    "1f2c2857ac3d6b52a6e506abb22e175219722a736c8daa65e088443c9ab641a8",
+    "02d81a99404210ea5e082815f969b19a8ce7f6f213606b238b0b57537a43015a",
+    "7b0a6079a90ef53c494bf0b13af96a3902a629ea814adacbe5a4fb1e79bf908a",
+    "30b58ad17f9525da75932ae8767f90c4660dd68e2dec28760c9d59f571f4f77a",
+    "1a829a5796d898b0e76488563b554198aa6d4ecd7fa0bdf93251b8992d1a380c"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 16,
+   "b": 0,
+   "T": 8,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.4954808,
+   "solved": false,
+   "flip_R90": 2.208,
+   "flip_D": 0.9142499468701628,
+   "grad_R90": 1.8960000000000001,
+   "feat_R90": 2.432,
+   "feat_D": 0.9323686810764199,
+   "init_feat_D": 0.856689571330145,
+   "seeds_flip_R90": [
+    2.22,
+    2.24,
+    2.24,
+    2.28,
+    2.06
+   ],
+   "seeds_feat_R90": [
+    2.08,
+    2.49,
+    2.75,
+    2.67,
+    2.17
+   ],
+   "runs": [
+    "relay-r16-SIDNET-T8-s10000",
+    "relay-r16-SIDNET-T8-s10001",
+    "relay-r16-SIDNET-T8-s10002",
+    "relay-r16-SIDNET-T8-s10003",
+    "relay-r16-SIDNET-T8-s10004"
+   ],
+   "checkpoints": [
+    "1543aee540fe345b9f5bee17e01de1a050d446ccb14779b97df0ad91cfb52c30",
+    "6384cc8f0898c35d0bfe8a7cba2c6bfc5b7964895a4826c43dc0deef779c37a4",
+    "c6eeb66f79c7e76d2599bfea07228c07091a18600a80e80151f10ae9707ba100",
+    "7442107210c83f09b09607f821c04ac075a7dec1cc364806d3fb2389613d5c12",
+    "df57fa785d9f3640ca9b5a0874b6a5b74369df2c8e1698bb7959d606e88ee7ea"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 16,
+   "b": 0,
+   "T": 32,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.4917967999999999,
+   "solved": false,
+   "flip_R90": 3.588,
+   "flip_D": 1.5305684954223344,
+   "grad_R90": 3.31,
+   "feat_R90": 3.7020000000000004,
+   "feat_D": 1.4632794120708608,
+   "init_feat_D": 1.1679547208905927,
+   "seeds_flip_R90": [
+    3.76,
+    3.74,
+    3.76,
+    3.4,
+    3.28
+   ],
+   "seeds_feat_R90": [
+    3.98,
+    3.7,
+    3.89,
+    3.66,
+    3.28
+   ],
+   "runs": [
+    "relay-r16-SIDNET-T32-s10000",
+    "relay-r16-SIDNET-T32-s10001",
+    "relay-r16-SIDNET-T32-s10002",
+    "relay-r16-SIDNET-T32-s10003",
+    "relay-r16-SIDNET-T32-s10004"
+   ],
+   "checkpoints": [
+    "964e8cacb5c776ddd798438c2123e86a68f6959ff918f43c5978ba470c0db443",
+    "52f625eb84c4d25a8d1ad0bd3434bd674220628aecde4bb1f673da23a75e1656",
+    "dcc0382a1eb66afda2818e4b4c51abb59d517fdd8d7d4480ee2e4230bc4404e5",
+    "a96a6970e924ad143961f9f462699072ed2e7cbccee7af90d0d56b0ddec74931",
+    "5a9c69efe3cd949f038fab8eca92785e327a373a25b4c1158742fe7e3f3f1fb8"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 2,
+   "b": 0,
+   "T": 8,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 0.5096196,
+   "solved": false,
+   "flip_R90": 0.296,
+   "flip_D": 0.10732125550994157,
+   "grad_R90": 0.22200000000000003,
+   "feat_R90": 2.0,
+   "feat_D": 0.9711411648092169,
+   "init_feat_D": 1.0157845473371754,
+   "seeds_flip_R90": [
+    0.48,
+    0.0,
+    0.0,
+    1.0,
+    0.0
+   ],
+   "seeds_feat_R90": [
+    2.0,
+    2.0,
+    2.0,
+    2.0,
+    2.0
+   ],
+   "runs": [
+    "relay-r2-SLGNN-T8-s10000",
+    "relay-r2-SLGNN-T8-s10001",
+    "relay-r2-SLGNN-T8-s10002",
+    "relay-r2-SLGNN-T8-s10003",
+    "relay-r2-SLGNN-T8-s10004"
+   ],
+   "checkpoints": [
+    "db58384673bada00f8061dae87372d7a89051ecb805e47848b02135bc8a23592",
+    "3e1f450fedeb11b480dd4288f561009a085f368170edd55ea9f7116bf82f90bb",
+    "d783c4b686c40e67eee0b65ca462d79dba7c3e9e60ac6093c39420388e3954b1",
+    "1a209bf76358252c71c2c31b5d979b09d44d2509c2cc8f3afa3b8bfbe7f34a87",
+    "acd05db0e5c5da1bdd387a5d22ff4ec6a944c31e6e707831d554a489d48867f6"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 2,
+   "b": 0,
+   "T": 32,
+   "rstar": 2,
+   "e_star": 1,
+   "n": 5,
+   "auc": 0.5086251999999999,
+   "solved": false,
+   "flip_R90": 0.43200000000000005,
+   "flip_D": 0.08387445890040057,
+   "grad_R90": 0.442,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    1.0,
+    0.52,
+    0.0,
+    0.2,
+    0.44
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "relay-r2-SLGNN-T32-s10000",
+    "relay-r2-SLGNN-T32-s10001",
+    "relay-r2-SLGNN-T32-s10002",
+    "relay-r2-SLGNN-T32-s10003",
+    "relay-r2-SLGNN-T32-s10004"
+   ],
+   "checkpoints": [
+    "3041b0398794f05d2fab2663fbc58cb961ee61ce995d7d94298d927ce90a9b08",
+    "0e01c554023e7e83bdb9712274a1454fe9b5aa3278f018acd20401cd3f900c6c",
+    "a342a99e5811fd087b2a5036659d287c088cd935b630b5f227da1433ab00c0e1",
+    "525b64402d99b482cb8c038091272d5cc27527a05851c353bd963878cf1258d8",
+    "0ec235285413fbb1f36c6bb91a0f2764462500813dac1432141bb5059e38ff34"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 4,
+   "b": 0,
+   "T": 8,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.5002748,
+   "solved": false,
+   "flip_R90": 0.41600000000000004,
+   "flip_D": 0.2222991151438279,
+   "grad_R90": 0.45199999999999996,
+   "feat_R90": 3.472,
+   "feat_D": 1.6004755626739247,
+   "init_feat_D": 1.5828415723763518,
+   "seeds_flip_R90": [
+    1.0,
+    0.0,
+    0.54,
+    0.0,
+    0.54
+   ],
+   "seeds_feat_R90": [
+    3.59,
+    2.85,
+    3.61,
+    3.68,
+    3.63
+   ],
+   "runs": [
+    "relay-r4-SLGNN-T8-s10000",
+    "relay-r4-SLGNN-T8-s10001",
+    "relay-r4-SLGNN-T8-s10002",
+    "relay-r4-SLGNN-T8-s10003",
+    "relay-r4-SLGNN-T8-s10004"
+   ],
+   "checkpoints": [
+    "eaa4161541a7f1907188fbfcad70f21c1fb4f4998f4ebaccc2744016cdf78e8c",
+    "48b5386b01f408520673701ee1ed77a801a5c7f5cea2a0e5490b17eb422a9db2",
+    "5de703c8cdf4b68999e3e4ea7e9f8bf908a3784c704f851d497cca13c544b4e8",
+    "82899a20441ec104db4b48583ac3200478c6b7ffbda68fee25425e1b8cb64beb",
+    "23feff8a17bc566525def1601c36bfdd22fad608eeff79e52df5f1caf67d2b0e"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 4,
+   "b": 0,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.5088476,
+   "solved": false,
+   "flip_R90": 0.348,
+   "flip_D": 0.18874336992249796,
+   "grad_R90": 0.32999999999999996,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    0.48,
+    0.0,
+    0.7,
+    0.56,
+    0.0
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "relay-r4-SLGNN-T32-s10000",
+    "relay-r4-SLGNN-T32-s10001",
+    "relay-r4-SLGNN-T32-s10002",
+    "relay-r4-SLGNN-T32-s10003",
+    "relay-r4-SLGNN-T32-s10004"
+   ],
+   "checkpoints": [
+    "a0ba246b9525258240746fedc7e37eeec061dc4d83b8903e7fd846f605df927a",
+    "22acbcfa77ac2257f45d5b848214ad2020759fb0b19ef7694b5a712613bcfb5c",
+    "d016299d0554825c2dc7f35a8201e816698a3d4d1f820130067b85cab5fe490f",
+    "489e6639a4bb5a4e3f380af8a96818de9c797bbc94926494d8b2751c9e898a56",
+    "e462e3607cf9dda7989abdfa7853b7dba8f01beed069a8ea0b36a56d88cdef69"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 4,
+   "b": 2,
+   "T": 32,
+   "rstar": 4,
+   "e_star": 3,
+   "n": 5,
+   "auc": 0.5056396,
+   "solved": false,
+   "flip_R90": 0.328,
+   "flip_D": 0.1303122553683414,
+   "grad_R90": 0.418,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    0.88,
+    0.12,
+    0.0,
+    0.08,
+    0.56
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "relay-r4-SLGNN-b2-T32-s10000",
+    "relay-r4-SLGNN-b2-T32-s10001",
+    "relay-r4-SLGNN-b2-T32-s10002",
+    "relay-r4-SLGNN-b2-T32-s10003",
+    "relay-r4-SLGNN-b2-T32-s10004"
+   ],
+   "checkpoints": [
+    "40e3ccd6a9ff04071f5a5881a641c12b8788c97c77ce16191c86eeb98aacab2e",
+    "3c56d45c2d5956962679eeff1f128f881a20833b4268d06d6dcb5426e5c6e3b1",
+    "ac884a1607be3680ac7d3435e835762e6c1d47b30d7b92ff5f0c7ab5da863658",
+    "69e98439d8b5243919aa6c736f2cb3f3042cb33c630e1a2df1e527cd662cc068",
+    "1672ae0a9c627cc4961027f001459bfa663853427704f6fa4081159ec2d769ca"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 8,
+   "b": 0,
+   "T": 8,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5010808,
+   "solved": false,
+   "flip_R90": 0.152,
+   "flip_D": 0.13514994970005167,
+   "grad_R90": 0.158,
+   "feat_R90": 3.8520000000000003,
+   "feat_D": 1.7330486471324935,
+   "init_feat_D": 1.7049682900863214,
+   "seeds_flip_R90": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.76
+   ],
+   "seeds_feat_R90": [
+    3.7,
+    3.08,
+    4.16,
+    3.83,
+    4.49
+   ],
+   "runs": [
+    "relay-r8-SLGNN-T8-s10000",
+    "relay-r8-SLGNN-T8-s10001",
+    "relay-r8-SLGNN-T8-s10002",
+    "relay-r8-SLGNN-T8-s10003",
+    "relay-r8-SLGNN-T8-s10004"
+   ],
+   "checkpoints": [
+    "be06abb18568f4bc4b91652316f81ff4a2a86fdbd4e82123a15b0e0bd2d6d416",
+    "c0560e8e77c1c0c52d2a28b3f8bbce3092e8b18e16a088c4a8118fa2efc0eb57",
+    "c26117ddd8c9a62720c1ec4fb81e7585fd745cf7b2c00a889a3ce7e024323762",
+    "1c972b8963f2682e3c8f5b31b4d92227e33ed19c7e5dadf0ebf65b66fc4cab3d",
+    "434dcba7f50f001015f516afe5c8c37b4f79f057c84f46372ec7615a1fb27d65"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 8,
+   "b": 0,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.4971896,
+   "solved": false,
+   "flip_R90": 0.2,
+   "flip_D": 0.07281203910211693,
+   "grad_R90": 0.274,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "relay-r8-SLGNN-T32-s10000",
+    "relay-r8-SLGNN-T32-s10001",
+    "relay-r8-SLGNN-T32-s10002",
+    "relay-r8-SLGNN-T32-s10003",
+    "relay-r8-SLGNN-T32-s10004"
+   ],
+   "checkpoints": [
+    "2d349e3032e269b925c39559328d4a3eb4fed141b0dce71b8da9d821309bb02f",
+    "5a0fe1c3483fb99cd66a4c391e5f6df59c69fc437b574ff83d3baf52474c6f83",
+    "a81cab1e8933fc09850b6a60bdc23c6858ea65909244190bdec01138bc04ddeb",
+    "53d3b3ce0143325898049660050289d83fc0536ce98e7e3d96008864436c124d",
+    "2b847b64a393af1d3d80231d85e9c967765092e9342991ac512d36fe1de1e86b"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 8,
+   "b": 2,
+   "T": 32,
+   "rstar": 8,
+   "e_star": 7,
+   "n": 5,
+   "auc": 0.5023264,
+   "solved": false,
+   "flip_R90": 0.46799999999999997,
+   "flip_D": 0.16088601386841792,
+   "grad_R90": 0.49399999999999994,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    0.84,
+    0.0,
+    0.0,
+    0.38,
+    1.12
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "relay-r8-SLGNN-b2-T32-s10000",
+    "relay-r8-SLGNN-b2-T32-s10001",
+    "relay-r8-SLGNN-b2-T32-s10002",
+    "relay-r8-SLGNN-b2-T32-s10003",
+    "relay-r8-SLGNN-b2-T32-s10004"
+   ],
+   "checkpoints": [
+    "41fd5e8eee56941c5cf81a5907918cddf42a48d733fe3c3c61b4d6cab2c34d10",
+    "1782c00167c46e9cca341e911b42acceab86f032ab108a1293acf7d1e27d4424",
+    "bb28c2a9562d1457cd00b5612c1191f4911d4b1c0a4848a21aecbe8fac971823",
+    "709665e297dde8e78a9d4344e5a32e83ec884665200b4fd17303dc2637eecfd0",
+    "3b67cad03054ed9ea6745bd3f79bd96121e8ca6bd55cb040c996cae45e92cfbf"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 16,
+   "b": 0,
+   "T": 8,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.48465480000000005,
+   "solved": false,
+   "flip_R90": 0.192,
+   "flip_D": 0.04602733630244862,
+   "grad_R90": 0.22800000000000004,
+   "feat_R90": 3.772,
+   "feat_D": 1.697488994986785,
+   "init_feat_D": 1.6769996931204627,
+   "seeds_flip_R90": [
+    0.5,
+    0.0,
+    0.0,
+    0.0,
+    0.46
+   ],
+   "seeds_feat_R90": [
+    4.25,
+    3.18,
+    3.89,
+    3.88,
+    3.66
+   ],
+   "runs": [
+    "relay-r16-SLGNN-T8-s10000",
+    "relay-r16-SLGNN-T8-s10001",
+    "relay-r16-SLGNN-T8-s10002",
+    "relay-r16-SLGNN-T8-s10003",
+    "relay-r16-SLGNN-T8-s10004"
+   ],
+   "checkpoints": [
+    "fca75281f6f437b8e43ed1e1f9a78a627a7702c471291542fcae6d064a27becd",
+    "06ceec45747965e02de8966281a7b3a25fe1a24791f383765c1a671e6e361a46",
+    "345640447053ed9d266618c65a2539bb6553b404558c42c6cebf8b0fd9649eb3",
+    "5cdad7d254393bae0e2f350a031c1a7d82ffdcbee98a7486ce13a31c31cd9933",
+    "60d1be8e22cf6df371f1640948ae55a7aa6420cef5ec560416a623ab517c5597"
+   ]
+  },
+  {
+   "task": "relay",
+   "arch": "SLGNN",
+   "r": 16,
+   "b": 0,
+   "T": 32,
+   "rstar": 16,
+   "e_star": 15,
+   "n": 5,
+   "auc": 0.4882416,
+   "solved": false,
+   "flip_R90": 0.0,
+   "flip_D": 0.035977094551032845,
+   "grad_R90": 0.10200000000000001,
+   "feat_R90": null,
+   "feat_D": null,
+   "init_feat_D": null,
+   "seeds_flip_R90": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "seeds_feat_R90": [
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "runs": [
+    "relay-r16-SLGNN-T32-s10000",
+    "relay-r16-SLGNN-T32-s10001",
+    "relay-r16-SLGNN-T32-s10002",
+    "relay-r16-SLGNN-T32-s10003",
+    "relay-r16-SLGNN-T32-s10004"
+   ],
+   "checkpoints": [
+    "4ba63f92e20c390b776ead84cbb0326b657b46d2c205767c255e700e09a230f5",
+    "569d4edc79ca60504619ba801cc4eee95fd5979c4dd2c9ba10bc33fc9d16fab4",
+    "6893e42dca90ffc74b05bda8b606821dfb7398065f5e67b23ab12f4ce3ee723c",
+    "a374c8c56403a022ed08a525aa13eed4802e7fb72ba05b5ec590e70e96a25d31",
+    "c4eb876a0d3b99e53ef231143bc0c6d7758a77cc4b77895302621937ac8ed86f"
+   ]
+  }
+ ],
+ "sign_blind_controls": [
+  {
+   "task": "balance",
+   "arch": "BGSD",
+   "r": 16,
+   "T": 32,
+   "n": 5,
+   "auc": 0.49019519999999994,
+   "flip_R90": null,
+   "feat_R90": 1.4140000000000001
+  },
+  {
+   "task": "balance",
+   "arch": "SIDNET",
+   "r": 16,
+   "T": 32,
+   "n": 5,
+   "auc": 0.49210480000000006,
+   "flip_R90": null,
+   "feat_R90": 3.218
+  },
+  {
+   "task": "relay",
+   "arch": "BGSD",
+   "r": 8,
+   "T": 32,
+   "n": 5,
+   "auc": 0.5173352,
+   "flip_R90": null,
+   "feat_R90": 2.0020000000000002
+  },
+  {
+   "task": "relay",
+   "arch": "SIDNET",
+   "r": 8,
+   "T": 32,
+   "n": 5,
+   "auc": 0.49185840000000003,
+   "flip_R90": null,
+   "feat_R90": 3.946
+  }
+ ]
+}

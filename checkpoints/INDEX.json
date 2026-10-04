@@ -1,0 +1,98 @@
+[
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-bitcoin_alpha-T32-s20000.json",
+  "sha256": "c815314c049d655b5a75356806f8c654d4cea2299afc5abae1a2caaca8358d29"
+ },
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-bitcoin_alpha-T32-s20001.json",
+  "sha256": "24f1c63179c3283c9f1a59affe1e9e0241e94a20cc5298d57c1a88820de48276"
+ },
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-bitcoin_alpha-T32-s20002.json",
+  "sha256": "3dd476a6e0aff6cce716c4072809a4ef673a40cb54a27af337683dd2018ca785"
+ },
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-bitcoin_alpha-T32-s20003.json",
+  "sha256": "1a5d8976fe3edea96912ca161cc17c3b44f593268d999b401d69de727fef61c9"
+ },
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-bitcoin_alpha-T32-s20004.json",
+  "sha256": "2a8d084183281c942316aa3f08cd5da6528742719f1f33ca1381194534653504"
+ },
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-wiki_elec-T32-s20000.json",
+  "sha256": "d92a46adc0c898025bff83bb45f6ed6eed5a525d12533909375e75a3b1f20621"
+ },
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-wiki_elec-T32-s20001.json",
+  "sha256": "11391a8a8fe90e69cfe50bb731b739705bd53c4065c41916132dae21ffe30ecf"
+ },
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-wiki_elec-T32-s20002.json",
+  "sha256": "b38767631ed02997bead669d965e1bc696370ddc5a1c9f0edc2061a26b467591"
+ },
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-wiki_elec-T32-s20003.json",
+  "sha256": "0e1daf88764fbc6fab18231db3052d9a33fb2dd97b102528eea6c0fdbfd24eea"
+ },
+ {
+  "record": "exploratory/e3-planted/runs/relay-r8-SIDNET-planted-wiki_elec-T32-s20004.json",
+  "sha256": "9c42d6d5f9e114ee7c2d970d53fb157f0a9e511d77123e007a2e1dfae047f624"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-bitcoin_otc-T32-s30000.json",
+  "sha256": "5b6c3a43cf5b26fa6a038583214931e7895707ccfab1e3798d822ec620ef5020"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-bitcoin_otc-T32-s30001.json",
+  "sha256": "91eea704fc01711e544ff17699cc02de97f8fce398c2ae6c8a14d6e2a3e05125"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-bitcoin_otc-T32-s30002.json",
+  "sha256": "9ef7f894d90f15c8e3bbe7d83f15551fe731793cfb976679951755506b400ee3"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-bitcoin_otc-T32-s30003.json",
+  "sha256": "68f8a8f914b0a7dcb4f1a7c891728756b9049eb91ce1e42b611f0f1b8f92f60e"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-bitcoin_otc-T32-s30004.json",
+  "sha256": "05885cb12b3c428e6545b469dedb358d44e52b0d862da51e0ed109217d265f67"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-wiki_rfa-T32-s30000.json",
+  "sha256": "772ff7de885cd28aa513c007d6f32531290f79aaff8f13e8f8c6f8cae9233f25"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-wiki_rfa-T32-s30001.json",
+  "sha256": "3a84e546d85980e2ce8329d348e6ca5ae7a440017d02280d49ee65e98727fa14"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-wiki_rfa-T32-s30002.json",
+  "sha256": "9d7096bdc94304f399460561ae5790df04718d7d4f02083f54111fbbbb160a4a"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-wiki_rfa-T32-s30003.json",
+  "sha256": "cb3e023537dd2f271a4c044bf4af8e71f76b76322ab93a81af23422fad010b2e"
+ },
+ {
+  "record": "replication/planted/runs/relay-r8-SIDNET-planted-wiki_rfa-T32-s30004.json",
+  "sha256": "3ec4faec900ab3a733365816d29a34e800ba9aeb4198a1ce890f0e6aabad918d"
+ },
+ {
+  "record": "confirmatory/native/runs/BGSD-wiki_elec-T32-s10000-spectral.json",
+  "sha256": "48c34ad89bceb84405815afc23b94e7e6df3a2a9b970e7ab80d9f3f2093a62df"
+ },
+ {
+  "record": "confirmatory/native/runs/SGCN-wiki_elec-T32-s10000-spectral.json",
+  "sha256": "5ab4d1a5e45d0ca2fff4d3b30dea92530f699fa26fb4461a4047accde37df1a8"
+ },
+ {
+  "record": "confirmatory/native/runs/SIDNET-wiki_elec-T32-s10000-spectral.json",
+  "sha256": "ab2cb9d804e5d603bb7e73f5eb5a30eccc78d2c78f83dccfa9bc284e6c1163c3"
+ },
+ {
+  "record": "confirmatory/native/runs/SLGNN-wiki_elec-T32-s10000-spectral.json",
+  "sha256": "a3486b844b35e0a296b68dfbf8d4913891fb82fea2365326c5b635a1f4a72c62"
+ }
+]

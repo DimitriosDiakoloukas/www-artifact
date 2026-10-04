@@ -1,0 +1,24 @@
+{
+ "args": {
+  "dataset": "bitcoin_alpha",
+  "seed": 0,
+  "study": "development/20261003-phase0"
+ },
+ "created_utc": "2026-10-03T13:03:40Z",
+ "data": {
+  "preprocessing": "undirected-summed-sign-v1",
+  "processed_sha256": "c6b2648b58f956f6f07128f9110d5018af147d617fc77ef05a3b0869686603ff",
+  "raw_sha256": "3a178611b9c2f39c9a0dc75936f28557317f1733319b49da4838232b3757cd76",
+  "split_sha256": "ddbc371fc2b35a7474f57acdca14dc98937e45f91ae71e0bec1010e8d4342c0e",
+  "url": "https://snap.stanford.edu/data/soc-sign-bitcoinalpha.csv.gz"
+ },
+ "git_commit": "f90e5416963143bbd0d61ec1f3d9dba54b0d9ff8",
+ "git_dirty": true,
+ "kind": "local_baseline",
+ "protocol_lock": null,
+ "result_sha256": "671edbfa9224a64b6b2402bfd5b6c94e855be3aeac8c490d083464fdf9a8d4de",
+ "run_id": "local-bitcoin_alpha-s0",
+ "source_tree_sha256": "8f2315e65460108dcb60d22885941e2f4f6876afc12df14355faf54598eaa138",
+ "test_auc": 0.8773421844806178,
+ "tree": "development"
+}

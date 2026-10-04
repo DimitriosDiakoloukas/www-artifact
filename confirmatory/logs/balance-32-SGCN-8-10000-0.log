@@ -1,0 +1,1 @@
+balance-r32-SGCN-T8-s10000: r*=16 val=0.553 test=0.509 D=2.0838677308617024 R90=4.32 init_D=2.07120652762162 total=34s record=bd6afe7c13dd

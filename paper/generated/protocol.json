@@ -1,0 +1,24 @@
+{
+ "generator": "reporting/protocol_assets.py",
+ "selection_sha256": "a8bbc1dd1bc75d31eb05bfaed5d404f3826559f6cf8e14f5b401e775bfbd1e60",
+ "selection_rule": "max mean validation AUC over seeds {0,1} at T=8; ties to smaller lr, then smaller wd",
+ "compute": {
+  "confirmatory": {
+   "records": 860,
+   "gpu_hours": 117.4857422109445
+  },
+  "exploratory": {
+   "records": 355,
+   "gpu_hours": 16.23846318807867
+  },
+  "replication": {
+   "records": 120,
+   "gpu_hours": 71.25093947178787
+  }
+ },
+ "reruns": {
+  "confirmatory": 7,
+  "exploratory": 6,
+  "replication": 2
+ }
+}

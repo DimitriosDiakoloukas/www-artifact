@@ -1,0 +1,1 @@
+balance-r16-SLGNN-T32-s10: r*=8 val=0.497 test=0.502 D=None R90=None init_D=None total=860s record=b4b674869ba1

@@ -1,0 +1,50 @@
+records verified: 39
+
+relay cells (arch, r, T): seeds, mean test AUC, solved, mean D, mean R90, mean D at init
+  ('BGSD', 2, 8): n=3 auc=1.000 solved=True D=1.012 R90=1.94 initD=0.212
+  ('BGSD', 2, 32): n=3 auc=1.000 solved=True D=1.010 R90=1.98 initD=0.266
+  ('BGSD', 8, 8): n=3 auc=0.518 solved=False D=1.089 R90=2.51 initD=0.227
+  ('BGSD', 8, 32): n=3 auc=0.506 solved=False D=1.016 R90=2.10 initD=0.280
+  ('SIDNET', 2, 8): n=3 auc=1.000 solved=True D=0.841 R90=2.00 initD=0.717
+  ('SIDNET', 2, 32): n=3 auc=1.000 solved=True D=0.870 R90=2.00 initD=0.739
+  ('SIDNET', 8, 8): n=3 auc=0.509 solved=False D=0.931 R90=2.48 initD=0.791
+  ('SIDNET', 8, 32): n=3 auc=1.000 solved=True D=2.476 R90=4.97 initD=1.082
+  sign-blind BGSD r=8 T=32: n=3 auc=0.500 R90=1.68
+
+F1 instrument fails: True
+F2 depth dominates: False (computable: True)
+F3 nothing solves r=8 at T=32: False
+F4 not specific: None (computable only if BGSD solves r=8, T=32)
+sign-blind control outside 0.5 +- 0.05 (leak): False
+
+native Bitcoin-Alpha (prediction level): auc, D(T), D_unif(T), sign-gradient D
+  BGSD T=8: n=3 auc=0.855 D=0.7726867303077277 Dunif=2.962857293699404 signD=0.32760027009383513
+  BGSD T=32: n=3 auc=0.855 D=0.8349369698055668 Dunif=2.962857293699404 signD=0.34970877396531935
+  BGSD: depth effect ratio = 0.028 (>= 0.5 means depth tracks range)
+  SIDNET T=8: n=3 auc=0.804 D=1.3128107646826728 Dunif=2.962857293699404 signD=0.9955235281473112
+  SIDNET T=32: n=3 auc=0.828 D=1.3404180010829994 Dunif=2.962857293699404 signD=0.779584430441664
+  SIDNET: depth effect ratio = 0.017 (>= 0.5 means depth tracks range)
+
+Profiles of the relay checkpoints, mean normalised mass at distance 0..10 (post-outcome inspection)
+== relay-r8-SIDNET-T32 (n=3)
+  prediction feature L1          D=2.48 R90=4.97 profile=[0.113, 0.229, 0.232, 0.175, 0.113, 0.066, 0.036, 0.02, 0.015, 0.0, 0.0]
+  prediction feature L1, init    D=1.08 R90=3.03 profile=[0.491, 0.235, 0.127, 0.069, 0.037, 0.02, 0.01, 0.006, 0.004, 0.0, 0.0]
+  sign gradient                  D=3.50 R90=6.82 profile=[0.142, 0.114, 0.116, 0.124, 0.127, 0.124, 0.119, 0.134, 0.0, 0.0, 0.0]
+  sign flip                      D=3.51 R90=6.97 profile=[0.123, 0.123, 0.126, 0.127, 0.126, 0.125, 0.125, 0.125, 0.0, 0.0, 0.0]
+  embedding L1                   D=1.63 R90=4.00 profile=[0.331, 0.245, 0.169, 0.112, 0.067, 0.037, 0.02, 0.011, 0.008, 0.0, 0.0]
+== relay-r2-SIDNET-T32 (n=3)
+  prediction feature L1          D=0.87 R90=2.00 profile=[0.405, 0.32, 0.275, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  prediction feature L1, init    D=0.74 R90=2.00 profile=[0.489, 0.283, 0.228, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  sign gradient                  D=0.50 R90=1.00 profile=[0.498, 0.502, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  sign flip                      D=0.50 R90=1.00 profile=[0.5, 0.5, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  embedding L1                   D=0.82 R90=2.00 profile=[0.429, 0.319, 0.252, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+== relay-r8-BGSD-T32 (n=3)
+  prediction feature L1          D=1.02 R90=2.10 profile=[0.414, 0.328, 0.151, 0.064, 0.027, 0.01, 0.004, 0.001, 0.0, 0.0, 0.0]
+  prediction feature L1, init    D=0.28 R90=1.00 profile=[0.759, 0.208, 0.027, 0.005, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  sign gradient                  D=0.75 R90=1.81 profile=[0.535, 0.288, 0.105, 0.046, 0.017, 0.005, 0.002, 0.001, 0.0, 0.0, 0.0]
+  sign flip                      D=0.85 R90=1.91 profile=[0.49, 0.312, 0.104, 0.06, 0.02, 0.009, 0.003, 0.001, 0.0, 0.0, 0.0]
+  embedding L1                   D=1.05 R90=2.08 profile=[0.385, 0.33, 0.177, 0.076, 0.021, 0.007, 0.002, 0.001, 0.0, 0.0, 0.0]
+== relay-r8-BGSD-unsigned-T32 (n=3)
+  prediction feature L1          D=0.80 R90=1.68 profile=[0.486, 0.32, 0.131, 0.042, 0.015, 0.005, 0.001, 0.0, 0.0, 0.0, 0.0]
+  prediction feature L1, init    D=0.28 R90=1.00 profile=[0.756, 0.21, 0.028, 0.005, 0.001, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  embedding L1                   D=0.60 R90=1.54 profile=[0.62, 0.232, 0.099, 0.031, 0.011, 0.005, 0.001, 0.0, 0.0, 0.0, 0.0]

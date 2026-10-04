@@ -1,0 +1,20 @@
+\begin{tabular}{@{}p{0.58\columnwidth}lcl@{}}
+\toprule
+Claim & Evidence & Tier & Outcome \\
+\midrule
+Feature Jacobian falls short of the required distance (H2) & 30 checkpoints & C & holds \\
+Sign $R_{90}$ within one hop of $e^\ast$ on trees (H1) & 9 cells & C & holds \\
+Depth from 8 to 32 closes $<$ half the gap to the ceiling (H3) & 4 arch.\ $\times$ 30 & C & holds (4/4) \\
+Median functional depth $\le 8$ (H4) & 4 arch.\ $\times$ 30 & C & BGSD only \\
+Sampled intervention misses the decisive relation & 6 planted cells & E & observed \\
+Decisive reach within one hop of $e^\ast$ & 15 cells & P & observed \\
+\quad on new networks, distance and seeds (RH1) & 120 runs & R & holds \\
+\quad separates solved from chance runs (RH2) & 120 runs & R & holds \\
+\quad sampled intervention falls short (RH3) & 120 runs & R & holds \\
+Decisive reach $\le 2$ on four networks & 160 checkpoints & P & observed \\
+\quad on Slashdot and Epinions (RH4a) & 80 checkpoints & R & holds \\
+\quad with random features (RH4b) & 80 checkpoints & R & holds \\
+GNN beats local baseline on pairs 3 hops apart & 360 checkpoints & E & 14/72 cells \\
+\quad on pairs $\ge$4 hops apart & 120 checkpoints & E & 0/24 cells \\
+\bottomrule
+\end{tabular}

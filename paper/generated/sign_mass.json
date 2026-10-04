@@ -1,0 +1,1111 @@
+{
+ "generator": "reporting/sign_mass.py",
+ "planted": [
+  {
+   "tree": "exploratory",
+   "network": "bitcoin_alpha",
+   "arch": "BGSD",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 1.72,
+   "gradient_R90": 3.0119999999999996,
+   "gradient_D": 1.652008282278727
+  },
+  {
+   "tree": "exploratory",
+   "network": "bitcoin_alpha",
+   "arch": "BGSD",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 2.608,
+   "gradient_R90": 5.144,
+   "gradient_D": 2.637821767968762
+  },
+  {
+   "tree": "exploratory",
+   "network": "bitcoin_alpha",
+   "arch": "SIDNET",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 2.0439999999999996,
+   "gradient_R90": 3.0479999999999996,
+   "gradient_D": 1.7715561702380647
+  },
+  {
+   "tree": "exploratory",
+   "network": "bitcoin_alpha",
+   "arch": "SIDNET",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 3.1919999999999997,
+   "gradient_R90": 6.926,
+   "gradient_D": 3.605916374003866
+  },
+  {
+   "tree": "exploratory",
+   "network": "wiki_elec",
+   "arch": "BGSD",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 1.428,
+   "gradient_R90": 3.002,
+   "gradient_D": 1.6200799174030824
+  },
+  {
+   "tree": "exploratory",
+   "network": "wiki_elec",
+   "arch": "BGSD",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 2.28,
+   "gradient_R90": 5.251656565656566,
+   "gradient_D": 2.7116482942517113
+  },
+  {
+   "tree": "exploratory",
+   "network": "wiki_elec",
+   "arch": "SIDNET",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 0.764,
+   "gradient_R90": 3.004,
+   "gradient_D": 1.647901790784012
+  },
+  {
+   "tree": "exploratory",
+   "network": "wiki_elec",
+   "arch": "SIDNET",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 0.9800000000000001,
+   "gradient_R90": 6.8420000000000005,
+   "gradient_D": 3.5083654749793007
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "BGSD",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 1.8800000000000001,
+   "gradient_R90": 3.012,
+   "gradient_D": 1.6732041582154031
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "BGSD",
+   "r": 6,
+   "e_star": 5,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 2.5319999999999996,
+   "gradient_R90": 4.984,
+   "gradient_D": 2.6442695442333464
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "BGSD",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 2.848,
+   "gradient_R90": 6.136,
+   "gradient_D": 3.2783452388876357
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "SGCN",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 2.1999999999999997,
+   "gradient_R90": 2.394,
+   "gradient_D": 1.329208213250534
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "SGCN",
+   "r": 6,
+   "e_star": 5,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 3.232,
+   "gradient_R90": 3.2640000000000002,
+   "gradient_D": 1.9766265592029435
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "SGCN",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 2.6759999999999997,
+   "gradient_R90": 2.836,
+   "gradient_D": 1.6799034479038795
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "SIDNET",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 1.8359999999999999,
+   "gradient_R90": 3.022,
+   "gradient_D": 1.7153237571040267
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "SIDNET",
+   "r": 6,
+   "e_star": 5,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 2.3120000000000003,
+   "gradient_R90": 5.002,
+   "gradient_D": 2.7061289312525774
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "SIDNET",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 2.9360000000000004,
+   "gradient_R90": 6.862,
+   "gradient_D": 3.5489080086456064
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "SLGNN",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 0.9120000000000001,
+   "gradient_R90": 1.1019999999999999,
+   "gradient_D": 0.41727047424528285
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "SLGNN",
+   "r": 6,
+   "e_star": 5,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 0.584,
+   "gradient_R90": 0.6,
+   "gradient_D": 0.2369519369277558
+  },
+  {
+   "tree": "replication",
+   "network": "bitcoin_otc",
+   "arch": "SLGNN",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 0.648,
+   "gradient_R90": 0.742,
+   "gradient_D": 0.26891854668349624
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "BGSD",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 1.516,
+   "gradient_R90": 3.004,
+   "gradient_D": 1.6088875925128476
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "BGSD",
+   "r": 6,
+   "e_star": 5,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 2.152,
+   "gradient_R90": 4.956,
+   "gradient_D": 2.630580739174793
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "BGSD",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 2.2600000000000002,
+   "gradient_R90": 6.016,
+   "gradient_D": 3.206450147190302
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "SGCN",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 2.1559999999999997,
+   "gradient_R90": 2.5639999999999996,
+   "gradient_D": 1.5269751435727037
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "SGCN",
+   "r": 6,
+   "e_star": 5,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 2.976,
+   "gradient_R90": 3.28,
+   "gradient_D": 2.0208590197076353
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "SGCN",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 2.7640000000000002,
+   "gradient_R90": 3.0119999999999996,
+   "gradient_D": 1.9030596939911426
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "SIDNET",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 0.772,
+   "gradient_R90": 3.006,
+   "gradient_D": 1.6386062700528885
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "SIDNET",
+   "r": 6,
+   "e_star": 5,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 0.8559999999999999,
+   "gradient_R90": 5.002,
+   "gradient_D": 2.6958806259970762
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "SIDNET",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": true,
+   "sampled_intervention_R90": 1.016,
+   "gradient_R90": 6.812,
+   "gradient_D": 3.459525074845671
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "SLGNN",
+   "r": 4,
+   "e_star": 3,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 0.148,
+   "gradient_R90": 0.202,
+   "gradient_D": 0.08981145143767773
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "SLGNN",
+   "r": 6,
+   "e_star": 5,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 0.8719999999999999,
+   "gradient_R90": 0.9100000000000001,
+   "gradient_D": 0.39896787799806777
+  },
+  {
+   "tree": "replication",
+   "network": "wiki_rfa",
+   "arch": "SLGNN",
+   "r": 8,
+   "e_star": 7,
+   "n": 5,
+   "solved": false,
+   "sampled_intervention_R90": 0.3,
+   "gradient_R90": 0.358,
+   "gradient_D": 0.1233200885652612
+  }
+ ],
+ "networks": [
+  {
+   "network": "bitcoin_alpha",
+   "arch": "BGSD",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.6436817605565828,
+    0.20360572693784257,
+    0.14119859031064408,
+    0.01130306976130517
+   ],
+   "gradient_share_beyond_0": 0.35631823944341723,
+   "gradient_R90": 1.8820000000000001,
+   "gradient_D": 0.5207579423437991
+  },
+  {
+   "network": "bitcoin_alpha",
+   "arch": "BGSD",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.6471011951212539,
+    0.20438315445842353,
+    0.13769413699760424,
+    0.01062982144345938
+   ],
+   "gradient_share_beyond_0": 0.35289880487874614,
+   "gradient_R90": 1.866,
+   "gradient_D": 0.5124298962478357
+  },
+  {
+   "network": "bitcoin_alpha",
+   "arch": "SGCN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.45017373578094516,
+    0.3470158657413635,
+    0.18998402052013277,
+    0.01262978675939235
+   ],
+   "gradient_share_beyond_0": 0.5498262642190548,
+   "gradient_R90": 1.6919999999999997,
+   "gradient_D": 0.765660459109292
+  },
+  {
+   "network": "bitcoin_alpha",
+   "arch": "SGCN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.5318667001298444,
+    0.3321541749017671,
+    0.12959593628729138,
+    0.006309963358744128
+   ],
+   "gradient_share_beyond_0": 0.4681332998701556,
+   "gradient_R90": 1.4579999999999997,
+   "gradient_D": 0.6105689618181159
+  },
+  {
+   "network": "bitcoin_alpha",
+   "arch": "SIDNET",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.393317368558246,
+    0.33823006280971735,
+    0.22993871053741483,
+    0.03717758950842666
+   ],
+   "gradient_share_beyond_0": 0.6066826314417539,
+   "gradient_R90": 2.022,
+   "gradient_D": 0.9150211589176832
+  },
+  {
+   "network": "bitcoin_alpha",
+   "arch": "SIDNET",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.43563992531859874,
+    0.34296110239072164,
+    0.1968824839266899,
+    0.023696924217163344
+   ],
+   "gradient_share_beyond_0": 0.5643600746814013,
+   "gradient_R90": 1.9939999999999998,
+   "gradient_D": 0.8111300766425333
+  },
+  {
+   "network": "bitcoin_alpha",
+   "arch": "SLGNN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.7692317045460426,
+    0.1541697121497728,
+    0.07096138328463991,
+    0.005556912141284976
+   ],
+   "gradient_share_beyond_0": 0.23076829545395738,
+   "gradient_R90": 1.1599999999999997,
+   "gradient_D": 0.3130847194406232
+  },
+  {
+   "network": "bitcoin_alpha",
+   "arch": "SLGNN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.7924388192923615,
+    0.14904532392911635,
+    0.05424819577793248,
+    0.004227710576461119
+   ],
+   "gradient_share_beyond_0": 0.20756118070763852,
+   "gradient_R90": 1.022,
+   "gradient_D": 0.27038481973671996
+  },
+  {
+   "network": "bitcoin_otc",
+   "arch": "BGSD",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.4813089620532004,
+    0.26118572533945333,
+    0.22586298812261485,
+    0.030622373066223896
+   ],
+   "gradient_share_beyond_0": 0.5186910379467996,
+   "gradient_R90": 2.036,
+   "gradient_D": 0.8088755601231362
+  },
+  {
+   "network": "bitcoin_otc",
+   "arch": "BGSD",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.4446323200638414,
+    0.2685898613456176,
+    0.2463216469452118,
+    0.038883000574613746
+   ],
+   "gradient_share_beyond_0": 0.5553676799361587,
+   "gradient_R90": 2.072,
+   "gradient_D": 0.8842136249604909
+  },
+  {
+   "network": "bitcoin_otc",
+   "arch": "SGCN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.47266231492069427,
+    0.35831952120855604,
+    0.15540558770128626,
+    0.013426374249570725
+   ],
+   "gradient_share_beyond_0": 0.5273376850793057,
+   "gradient_R90": 1.6099999999999999,
+   "gradient_D": 0.7101552243349202
+  },
+  {
+   "network": "bitcoin_otc",
+   "arch": "SGCN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.47918024569013246,
+    0.3817741571786025,
+    0.1320505055604138,
+    0.006945330578117567
+   ],
+   "gradient_share_beyond_0": 0.5208197543098676,
+   "gradient_R90": 1.518,
+   "gradient_D": 0.6669103087529316
+  },
+  {
+   "network": "bitcoin_otc",
+   "arch": "SIDNET",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.3104783654290104,
+    0.35388846191472084,
+    0.2796627046536372,
+    0.05378424171296675
+   ],
+   "gradient_share_beyond_0": 0.6895216345709896,
+   "gradient_R90": 2.1020000000000003,
+   "gradient_D": 1.0833636248933665
+  },
+  {
+   "network": "bitcoin_otc",
+   "arch": "SIDNET",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.35692050172830364,
+    0.3514389050035662,
+    0.24517467416101116,
+    0.04307742389427381
+   ],
+   "gradient_share_beyond_0": 0.6430794982716963,
+   "gradient_R90": 2.0740000000000003,
+   "gradient_D": 0.9848098023517007
+  },
+  {
+   "network": "bitcoin_otc",
+   "arch": "SLGNN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.7201367193602738,
+    0.16958800420648612,
+    0.09911669372705675,
+    0.010901287431127416
+   ],
+   "gradient_share_beyond_0": 0.2798632806397262,
+   "gradient_R90": 1.204,
+   "gradient_D": 0.4015566631327621
+  },
+  {
+   "network": "bitcoin_otc",
+   "arch": "SLGNN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.743774280867125,
+    0.1575202131782154,
+    0.08331825242366103,
+    0.01456019298444947
+   ],
+   "gradient_share_beyond_0": 0.25622571913287495,
+   "gradient_R90": 1.1300000000000001,
+   "gradient_D": 0.3711687130508385
+  },
+  {
+   "network": "epinions",
+   "arch": "BGSD",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.7752505149205698,
+    0.15524811880684392,
+    0.06551855966056591,
+    0.0038919466765886075
+   ],
+   "gradient_share_beyond_0": 0.22474948507943016,
+   "gradient_R90": 1.01,
+   "gradient_D": 0.29832671526025967
+  },
+  {
+   "network": "epinions",
+   "arch": "BGSD",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.7192695681487656,
+    0.18144401071350463,
+    0.09031330372338339,
+    0.008634299985982164
+   ],
+   "gradient_share_beyond_0": 0.28073043185123436,
+   "gradient_R90": 1.268,
+   "gradient_D": 0.3893426638865007
+  },
+  {
+   "network": "epinions",
+   "arch": "SGCN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.4039017520582934,
+    0.3581031240611371,
+    0.22298445611100806,
+    0.01439332174728368
+   ],
+   "gradient_share_beyond_0": 0.5960982479417066,
+   "gradient_R90": 1.748,
+   "gradient_D": 0.8497311064884269
+  },
+  {
+   "network": "epinions",
+   "arch": "SGCN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.42352627386128827,
+    0.4213280630485404,
+    0.15011980296810504,
+    0.0048645095446448955
+   ],
+   "gradient_share_beyond_0": 0.5764737261387117,
+   "gradient_R90": 1.5939999999999999,
+   "gradient_D": 0.7368080113667401
+  },
+  {
+   "network": "epinions",
+   "arch": "SIDNET",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.3559553982661667,
+    0.2941677548719145,
+    0.2931606253427079,
+    0.05524310364022715
+   ],
+   "gradient_share_beyond_0": 0.6440446017338333,
+   "gradient_R90": 2.0700000000000003,
+   "gradient_D": 1.0521441982164474
+  },
+  {
+   "network": "epinions",
+   "arch": "SIDNET",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.5611375938309333,
+    0.3065891393682222,
+    0.12409829703690116,
+    0.008014484702320294
+   ],
+   "gradient_share_beyond_0": 0.4388624061690667,
+   "gradient_R90": 1.8699999999999999,
+   "gradient_D": 0.5794748388942084
+  },
+  {
+   "network": "epinions",
+   "arch": "SLGNN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.6812450652342508,
+    0.20985816761383663,
+    0.10010318074860614,
+    0.008535209592383608
+   ],
+   "gradient_share_beyond_0": 0.31875493476574923,
+   "gradient_R90": 1.388,
+   "gradient_D": 0.4367102627773159
+  },
+  {
+   "network": "epinions",
+   "arch": "SLGNN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.7247665676602089,
+    0.1700193679228606,
+    0.09583156549864341,
+    0.009138354589545719
+   ],
+   "gradient_share_beyond_0": 0.27523343233979114,
+   "gradient_R90": 1.3000000000000003,
+   "gradient_D": 0.3900806725028513
+  },
+  {
+   "network": "slashdot",
+   "arch": "BGSD",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.7714487390557705,
+    0.14358565303246468,
+    0.07811672360110096,
+    0.006803359689903078
+   ],
+   "gradient_share_beyond_0": 0.2285512609442295,
+   "gradient_R90": 1.192,
+   "gradient_D": 0.32041174213978724
+  },
+  {
+   "network": "slashdot",
+   "arch": "BGSD",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.6703244749757755,
+    0.18640225735891694,
+    0.12477438565279535,
+    0.01791800507516248
+   ],
+   "gradient_share_beyond_0": 0.3296755250242245,
+   "gradient_R90": 1.5539999999999998,
+   "gradient_D": 0.49203980081915766
+  },
+  {
+   "network": "slashdot",
+   "arch": "SGCN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.3225901877059158,
+    0.33319866523319125,
+    0.31573074182975447,
+    0.028358758187166915
+   ],
+   "gradient_share_beyond_0": 0.6774098122940841,
+   "gradient_R90": 1.8700000000000003,
+   "gradient_D": 1.0502232508354714
+  },
+  {
+   "network": "slashdot",
+   "arch": "SGCN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.31148045831846416,
+    0.3902107992304942,
+    0.2718602460751148,
+    0.02635970722185249
+   ],
+   "gradient_share_beyond_0": 0.6885195416815358,
+   "gradient_R90": 1.8579999999999999,
+   "gradient_D": 1.0133660558044564
+  },
+  {
+   "network": "slashdot",
+   "arch": "SIDNET",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.41440937004776435,
+    0.2623064841001342,
+    0.23780276675335435,
+    0.08317931234767825
+   ],
+   "gradient_share_beyond_0": 0.5855906299522357,
+   "gradient_R90": 2.284,
+   "gradient_D": 0.996697721581751
+  },
+  {
+   "network": "slashdot",
+   "arch": "SIDNET",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.594812610396926,
+    0.2752491001575722,
+    0.11500590737212915,
+    0.014633920108447945
+   ],
+   "gradient_share_beyond_0": 0.405187389603074,
+   "gradient_R90": 1.8939999999999997,
+   "gradient_D": 0.5503610526596592
+  },
+  {
+   "network": "slashdot",
+   "arch": "SLGNN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.5581380001995987,
+    0.1909201817023852,
+    0.2018982017231382,
+    0.04765853702108773
+   ],
+   "gradient_share_beyond_0": 0.4418619998004013,
+   "gradient_R90": 1.8439999999999999,
+   "gradient_D": 0.7432475730660382
+  },
+  {
+   "network": "slashdot",
+   "arch": "SLGNN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.31424159249617,
+    0.1415246261778069,
+    0.34162767006928785,
+    0.18670941279368333
+   ],
+   "gradient_share_beyond_0": 0.68575840750383,
+   "gradient_R90": 2.7840000000000003,
+   "gradient_D": 1.4492028975094637
+  },
+  {
+   "network": "wiki_elec",
+   "arch": "BGSD",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.6161483869253832,
+    0.31722317794350835,
+    0.06573844568470227,
+    0.0008873004697422905
+   ],
+   "gradient_share_beyond_0": 0.3838516130746168,
+   "gradient_R90": 1.1219999999999999,
+   "gradient_D": 0.45137273064777156
+  },
+  {
+   "network": "wiki_elec",
+   "arch": "BGSD",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.575333181540764,
+    0.3221086658871279,
+    0.09793550791323538,
+    0.004602395468819812
+   ],
+   "gradient_share_beyond_0": 0.42466681845923604,
+   "gradient_R90": 1.4140000000000001,
+   "gradient_D": 0.5318679012794176
+  },
+  {
+   "network": "wiki_elec",
+   "arch": "SGCN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.23583026834488688,
+    0.37977917212349155,
+    0.37758855835175836,
+    0.006796080806563335
+   ],
+   "gradient_share_beyond_0": 0.7641697316551131,
+   "gradient_R90": 1.982,
+   "gradient_D": 1.1553682148066198
+  },
+  {
+   "network": "wiki_elec",
+   "arch": "SGCN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.2829010430581678,
+    0.41002244494239976,
+    0.3002983910325244,
+    0.006771834685737102
+   ],
+   "gradient_share_beyond_0": 0.7170989569418322,
+   "gradient_R90": 1.934,
+   "gradient_D": 1.0309598798448902
+  },
+  {
+   "network": "wiki_elec",
+   "arch": "SIDNET",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.3644128691060079,
+    0.3423417187707304,
+    0.28184360210355497,
+    0.011368882885036142
+   ],
+   "gradient_share_beyond_0": 0.6355871308939921,
+   "gradient_R90": 2.004,
+   "gradient_D": 0.9402673218414975
+  },
+  {
+   "network": "wiki_elec",
+   "arch": "SIDNET",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.498344262883739,
+    0.3551181256255204,
+    0.14435510484272376,
+    0.002179835797476035
+   ],
+   "gradient_share_beyond_0": 0.501655737116261,
+   "gradient_R90": 1.9060000000000001,
+   "gradient_D": 0.650378533769304
+  },
+  {
+   "network": "wiki_elec",
+   "arch": "SLGNN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.5227885759133366,
+    0.3092741732672883,
+    0.16411704574122526,
+    0.003809169873594064
+   ],
+   "gradient_share_beyond_0": 0.4772114240866634,
+   "gradient_R90": 1.6759999999999997,
+   "gradient_D": 0.6489799248584996
+  },
+  {
+   "network": "wiki_elec",
+   "arch": "SLGNN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.49769867885892377,
+    0.2920997408316977,
+    0.202735680667886,
+    0.007421615904888071
+   ],
+   "gradient_share_beyond_0": 0.5023013211410763,
+   "gradient_R90": 1.7920000000000003,
+   "gradient_D": 0.7200131582707593
+  },
+  {
+   "network": "wiki_rfa",
+   "arch": "BGSD",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.5901601932801113,
+    0.3275754888267821,
+    0.08059556608635816,
+    0.0016664195583572354
+   ],
+   "gradient_share_beyond_0": 0.40983980671988873,
+   "gradient_R90": 1.264,
+   "gradient_D": 0.49377520896486243
+  },
+  {
+   "network": "wiki_rfa",
+   "arch": "BGSD",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.6335900875084775,
+    0.3013830214931662,
+    0.06326332913509033,
+    0.0016724335199736358
+   ],
+   "gradient_share_beyond_0": 0.36640991249152255,
+   "gradient_R90": 1.134,
+   "gradient_D": 0.4332933464552057
+  },
+  {
+   "network": "wiki_rfa",
+   "arch": "SGCN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.23959641595161546,
+    0.37518336868673774,
+    0.37419260737944376,
+    0.011018225524503518
+   ],
+   "gradient_share_beyond_0": 0.7604035840483845,
+   "gradient_R90": 1.982,
+   "gradient_D": 1.156660790335749
+  },
+  {
+   "network": "wiki_rfa",
+   "arch": "SGCN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.265244924454069,
+    0.4084351710316051,
+    0.3167361493790257,
+    0.009570615378195995
+   ],
+   "gradient_share_beyond_0": 0.734755075545931,
+   "gradient_R90": 1.952,
+   "gradient_D": 1.0706718776531232
+  },
+  {
+   "network": "wiki_rfa",
+   "arch": "SIDNET",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.34952036467665576,
+    0.3398722008139029,
+    0.2957512241676147,
+    0.014804620782556543
+   ],
+   "gradient_share_beyond_0": 0.6504796353233442,
+   "gradient_R90": 2.008,
+   "gradient_D": 0.9759949187450033
+  },
+  {
+   "network": "wiki_rfa",
+   "arch": "SIDNET",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.5053062069109027,
+    0.3473736247739887,
+    0.14391798196212818,
+    0.0033967528584510536
+   ],
+   "gradient_share_beyond_0": 0.49469379308909733,
+   "gradient_R90": 1.9300000000000002,
+   "gradient_D": 0.6454215855414736
+  },
+  {
+   "network": "wiki_rfa",
+   "arch": "SLGNN",
+   "T": 8,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.5228566451328593,
+    0.2889035142628918,
+    0.18179123685182227,
+    0.006438249014499593
+   ],
+   "gradient_share_beyond_0": 0.47714335486714066,
+   "gradient_R90": 1.7299999999999998,
+   "gradient_D": 0.671842156621724
+  },
+  {
+   "network": "wiki_rfa",
+   "arch": "SLGNN",
+   "T": 32,
+   "n": 5,
+   "gradient_share_by_distance": [
+    0.4254067471303163,
+    0.30573953848436,
+    0.25629721236981695,
+    0.012509512602841114
+   ],
+   "gradient_share_beyond_0": 0.5745932528696838,
+   "gradient_R90": 1.9460000000000002,
+   "gradient_D": 0.8560504975289565
+  }
+ ]
+}

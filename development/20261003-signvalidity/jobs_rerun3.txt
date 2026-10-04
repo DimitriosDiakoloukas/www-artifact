@@ -1,0 +1,12 @@
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 32 --seed 10 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 32 --seed 10 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 32 --seed 10 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 32 --seed 10 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 32 --seed 11 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 32 --seed 11 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 32 --seed 11 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 32 --seed 11 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 4 --arch SLGNN --T 32 --seed 12 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 8 --arch SLGNN --T 32 --seed 12 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 16 --arch SLGNN --T 32 --seed 12 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1
+python3 scripts/run_chain.py --task balance --r 32 --arch SLGNN --T 32 --seed 12 --study development/20261003-signvalidity --b 0 --memory-efficient --chunk 1

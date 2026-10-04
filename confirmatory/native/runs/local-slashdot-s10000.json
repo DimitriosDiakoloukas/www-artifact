@@ -1,0 +1,30 @@
+{
+ "args": {
+  "dataset": "slashdot",
+  "seed": 10000,
+  "study": "confirmatory/native"
+ },
+ "created_utc": "2026-10-03T16:27:18Z",
+ "data": {
+  "preprocessing": "undirected-summed-sign-v1",
+  "processed_sha256": "2f4a50e0f992479e33dda6051fa04d18027a8b910b9f2deb3d809c0319eef6f2",
+  "raw_sha256": "55e69b402f2d40bc40e36c7c1211557a3d61927d5a45817f8d3db2d367080ca7",
+  "split_sha256": "b87cba98268e7c8f897f26e97c24772efb6a479895583570cc5e406b8ffd456a",
+  "url": "https://snap.stanford.edu/data/soc-sign-Slashdot090221.txt.gz"
+ },
+ "git_commit": "ec66e81aa71779017f4733daab91399dfd875635",
+ "git_dirty": false,
+ "kind": "local_baseline",
+ "protocol_lock": {
+  "commit": "bef7282ea4186ef091dc12b34475963c7259895f",
+  "locked_utc": "2026-10-03T16:26:15Z",
+  "protocol_sha256": "ca071a0bf4c30ca09508566dad2f8c43af25a848b0118881b30f07143a8bd65e",
+  "selection_file": "development/20261003-phase1-selection/selection.json",
+  "selection_sha256": "a8bbc1dd1bc75d31eb05bfaed5d404f3826559f6cf8e14f5b401e775bfbd1e60"
+ },
+ "result_sha256": "58ce83561d496a1b38ef2642a27e4a9fd100abb85b0c4d86b3451b37a8a64899",
+ "run_id": "local-slashdot-s10000",
+ "source_tree_sha256": "b5097a0cf480f0600d3920aedc65ad1d620b88385776c5564fa90baa9731c786",
+ "test_auc": 0.9036459740533134,
+ "tree": "confirmatory"
+}

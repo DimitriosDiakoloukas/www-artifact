@@ -1,0 +1,21 @@
+bitcoin_alpha s10001: counts {'2': 1468, '3': 746, '4+': 202, 'unreachable': 401} logits match True (12 checkpoints)
+bitcoin_alpha s10003: counts {'2': 1432, '3': 713, '4+': 184, 'unreachable': 488} logits match True (12 checkpoints)
+bitcoin_otc s10000: counts {'2': 2208, '3': 1118, '4+': 263, 'unreachable': 699} logits match True (12 checkpoints)
+bitcoin_otc s10002: counts {'2': 2174, '3': 1129, '4+': 265, 'unreachable': 720} logits match True (12 checkpoints)
+bitcoin_otc s10004: counts {'2': 2148, '3': 1148, '4+': 266, 'unreachable': 726} logits match True (12 checkpoints)
+wiki_rfa s10001: counts {'2': 28783, '3': 3952, '4+': 59, 'unreachable': 1022} logits match True (12 checkpoints)
+wiki_rfa s10003: counts {'2': 28847, '3': 3955, '4+': 54, 'unreachable': 960} logits match True (12 checkpoints)
+wiki_elec s10000: counts {'2': 16399, '3': 2893, '4+': 51, 'unreachable': 656} logits match True (12 checkpoints)
+wiki_elec s10002: counts {'2': 16451, '3': 2909, '4+': 34, 'unreachable': 605} logits match True (12 checkpoints)
+wiki_elec s10004: counts {'2': 16479, '3': 2880, '4+': 41, 'unreachable': 599} logits match True (12 checkpoints)
+slashdot s10001: counts {'2': 32778, '3': 48395, '4+': 9505, 'unreachable': 9029} logits match True (12 checkpoints)
+Traceback (most recent call last):
+  File "<repo>/exploratory/e5_distance.py", line 192, in <module>
+    main()
+  File "<repo>/exploratory/e5_distance.py", line 185, in main
+    res = run_unit(net, seed, a.device)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/exploratory/e5_distance.py", line 107, in run_unit
+    assert abs(roc_auc_score(y, ls) - loc["test_auc"]) < 1e-12, "local baseline differs from its record"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: local baseline differs from its record
