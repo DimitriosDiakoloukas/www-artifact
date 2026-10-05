@@ -17,10 +17,14 @@ inputs and SHA-256, and `paper/` holds the generated outputs themselves.
 - `checkpoints/objects/` a sample of stored checkpoints, content-addressed by SHA-256 (see below).
 
 ## Reproducing
-Python 3.12, `pip install -r requirements.txt` (the exact versions used). Set `SRANGE_STORE` to a writable
-directory and run `python3 tools/fetch_data.py` once: it downloads the six SNAP networks there and checks the
-raw and processed files against their pinned SHA-256.
+Python 3.12, `pip install -r requirements.txt` (the exact versions used). Set `SRANGE_STORE=<artifact>/checkpoints`
+(or another writable directory containing the packaged `objects/`) and run `python3 tools/fetch_data.py` once:
+it downloads the six SNAP networks there and checks the raw and processed files against their pinned SHA-256.
 - Tests: `python3 tests/run.py`.
+- Full paper regeneration: `bash reporting/regen_check.sh paper` (requires a CUDA GPU, the packaged checkpoints
+  and the fetched SNAP data). It regenerates all outputs in a temporary directory and compares them with
+  `paper/`; success prints "0 problems". It uses `python3` from the active environment; set
+  `PYTHON=/path/to/python` to select another interpreter.
 - Records verify against their own hash: `srange.provenance.verify_record`.
 - Analyses from records: `python3 analysis/chain.py confirmatory/chain --seeds 5 --out <dir>`,
   `python3 analysis/native.py confirmatory/native --out <dir>`, `python3 exploratory/analyze.py --out <dir>`,

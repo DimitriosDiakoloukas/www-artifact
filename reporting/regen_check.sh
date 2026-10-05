@@ -3,10 +3,12 @@
 # byte for byte with the paper's generated/ and figures/. Prints DIFFERENT for any stale output.
 #   bash reporting/regen_check.sh <paper> [--write]
 # --write regenerates into the paper itself (run, review, then rerun without --write to confirm).
+# Uses python3 from the active environment; set PYTHON to choose another interpreter.
 set -u
 cd "$(dirname "$0")/.."
-PAPER=$(realpath "${1:-$HOME/workspace/papers/www2027}")
-PY=$HOME/workspace/.venv/bin/python
+if [ -d paper ]; then DEFAULT_PAPER=paper; else DEFAULT_PAPER=$HOME/workspace/papers/www2027; fi
+PAPER=$(realpath "${1:-$DEFAULT_PAPER}")
+PY=${PYTHON:-python3}
 if [ "${2:-}" = "--write" ]; then T=$PAPER; else
   T=$(mktemp -d)/paper; mkdir -p "$T/generated/random" "$T/figures"; fi   # empty: a failed generator shows up
 G=$T/generated; F=$T/figures
