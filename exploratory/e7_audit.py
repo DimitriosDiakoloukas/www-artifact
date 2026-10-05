@@ -97,27 +97,52 @@ def audit(path, device):
             "spearman_grad_finite": float(rho), "per_query": per_q, "rows": rows}
 
 
+def candidate_reach(rows, key):
+    """Reach over the audited candidates only, normalised by their own largest value (any distance)."""
+    top = max(x[key] for x in rows)
+    if top <= 0:
+        return 0
+    return max(x["d"] for x in rows if x[key] >= TAU * top)
+
+
 def collect(out_dir):
     res = [json.loads(p.read_text()) for p in sorted(OUT.glob("*.json"))]
     assert all(r["test_logits_match"] for r in res)
     cells = []
     for r in res:
         pq = r["per_query"]
+        byq = {}
+        for x in r["rows"]:
+            byq.setdefault(x["q"], []).append(x)
+        fc = [candidate_reach(v, "finite") for v in byq.values()]
+        gc = [candidate_reach(v, "grad") for v in byq.values()]
         cells.append({"network": r["network"], "arch": r["arch"], "features": r["features"],
                       "spearman_grad_finite": r["spearman_grad_finite"],
                       "finite_reach_mean": float(np.mean([x["finite_reach"] for x in pq])),
                       "gradient_reach_mean": float(np.mean([x["gradient_reach_d_le_3"] for x in pq])),
                       "finite_exceeds_gradient": int(sum(x["finite_reach"] > x["gradient_reach_d_le_3"] for x in pq)),
+                      "finite_reach_consistent": [int(x) for x in fc], "gradient_reach_consistent": [int(x) for x in gc],
                       "queries": len(pq), "missed_relations": int(sum(x["missed"] for x in pq)),
                       "sampled_distant": int(sum(1 for x in r["rows"] if x["d"] > 0 and x["grad_rank"] < 0))})
+    fc = [x for c in cells for x in c["finite_reach_consistent"]]
+    gc = [x for c in cells for x in c["gradient_reach_consistent"]]
+    planned = [x["finite_reach"] for r in res for x in r["per_query"]]
+    pooled = {"queries": len(fc), "finite_consistent_mean": float(np.mean(fc)), "gradient_consistent_mean": float(np.mean(gc)),
+              "finite_consistent_share_le2": float(np.mean(np.array(fc) <= 2)),
+              "finite_consistent_share_at_3": float(np.mean(np.array(fc) == 3)),
+              "planned_finite_share_at_3": float(np.mean(np.array(planned) == 3)),
+              "finite_exceeds_gradient_consistent": float(np.mean(np.array(fc) > np.array(gc)))}
     out = {"generator": "exploratory/e7_audit.py", "plan": "exploratory/PLAN.md E7", "checkpoints": len(res),
-           "cells": cells, "all_logits_match": True}
+           "cells": cells, "pooled_consistent": pooled, "all_logits_match": True,
+           "note": "finite_reach (planned): largest sampled effect per shell relative to the largest at distance 0; "
+                   "*_consistent: candidates only, each normalised by its own largest value at any audited distance"}
     p = Path(out_dir).expanduser() / "e7_audit.json"
     p.write_text(json.dumps(out, indent=1))
     for c in cells:
         print(f"{c['network']:13s} {c['features']:8s} {c['arch']:6s} rho={c['spearman_grad_finite']:.2f} finite reach "
               f"{c['finite_reach_mean']:.2f} vs gradient {c['gradient_reach_mean']:.2f}; finite>gradient in "
               f"{c['finite_exceeds_gradient']}/{c['queries']}; missed {c['missed_relations']}/{c['sampled_distant']}")
+    print("pooled (consistent normalisation):", json.dumps(pooled))
     print("e7_audit.json", pv.sha256_file(p))
 
 

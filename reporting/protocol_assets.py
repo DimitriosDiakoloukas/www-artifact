@@ -21,7 +21,7 @@ LABEL = {"bitcoin_alpha": "Bitcoin-Alpha", "bitcoin_otc": "Bitcoin-OTC", "wiki_r
          "wiki_elec": "Wiki-Elec", "slashdot": "Slashdot", "epinions": "Epinions"}
 TIERS = {"confirmatory": ["confirmatory/native/runs", "confirmatory/chain/runs"],
          "exploratory": ["exploratory/e1-mechanism/runs", "exploratory/e2-global/runs",
-                         "exploratory/e3-planted/runs", "exploratory/e4-restart/runs"],
+                         "exploratory/e3-planted/runs", "exploratory/e4-restart/runs", "exploratory/e6-random/runs"],
          "replication": ["replication/planted/runs"]}
 
 
@@ -51,7 +51,7 @@ def main():
              " & " + " & ".join(LABEL[n] for n in NETS) + " \\\\", "\\midrule"]
     for arch in ARCHS:
         cells = [sel["selection"][f"{arch}/{n}"] for n in NETS]
-        lines.append(arch + " & " + " & ".join(f"{sci(c['lr'])}/{sci(c['weight_decay'])}" for c in cells) + " \\\\")
+        lines.append((arch + "-style" if arch == "SLGNN" else arch) + " & " + " & ".join(f"{sci(c['lr'])}/{sci(c['weight_decay'])}" for c in cells) + " \\\\")
     restart = []
     for n in NETS:                                                    # recorded by every SIDNET run
         rec = json.loads(sorted((REPO / "confirmatory/native/runs").glob(f"SIDNET-{n}-T32-*-spectral.json"))[0].read_text())

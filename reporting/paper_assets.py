@@ -26,6 +26,8 @@ from srange.provenance import sha256_file            # noqa: E402
 BLUE, ORANGE = "#2a78d6", "#eb6834"
 INK, INK2, GRID, CONTEXT = "#0b0b0b", "#52514e", "#e4e3df", "#b9b8b2"
 ARCHS = ["SGCN", "SLGNN", "SIDNET", "BGSD"]
+ARCH_LABEL = {"SLGNN": "SLGNN-style"}                     # the re-implementation is not verified against the paper
+label = lambda a: ARCH_LABEL.get(a, a)
 NETS = ["bitcoin_alpha", "bitcoin_otc", "wiki_rfa", "wiki_elec", "slashdot", "epinions"]
 NET_LABEL = {"bitcoin_alpha": "Bitcoin-Alpha", "bitcoin_otc": "Bitcoin-OTC", "wiki_rfa": "Wiki-RfA",
              "wiki_elec": "Wiki-Elec", "slashdot": "Slashdot", "epinions": "Epinions"}
@@ -109,7 +111,7 @@ def confirmatory_numbers(M, chain, native):
     M.put("nSidDropSixteen", float(np.mean(d16)))
     eb = best["epinions"]
     M.put("nEpinionsBestGap", -eb["auc_minus_local"][0], "{:.3f}")
-    M.put("nEpinionsBestArch", eb["arch"])
+    M.put("nEpinionsBestArch", label(eb["arch"]))
     return best
 
 
@@ -251,7 +253,7 @@ def e5_numbers(M, e5):
     M.put("nEFiveBelowFour", sum(m["minus_local_4+"][2] < 0 for m in four), "{:d}")
     net, best = max(three, key=lambda x: x[1]["minus_local_3"][0])
     M.put("nEFiveBestThree", best["minus_local_3"][0], "{:+.3f}")
-    M.put("nEFiveBestThreeWhere", f"{best['arch']}, {NET_LABEL[net]}, $T={best['T']}$")
+    M.put("nEFiveBestThreeWhere", f"{label(best['arch'])}, {NET_LABEL[net]}, $T={best['T']}$")
     for st, tag in (("3", "Three"), ("2", "Two")):
         d = []
         for c in e5["cells"]:
@@ -347,7 +349,7 @@ def robustness_numbers(M, rb):
     M.put("nEFiveDepthBest", e["largest"]["depth_effect_3"][0], "{:+.3f}")
     M.put("nEFiveDepthBestLo", e["largest"]["depth_effect_3"][1], "{:.3f}")
     M.put("nEFiveDepthBestHi", e["largest"]["depth_effect_3"][2], "{:.3f}")
-    M.put("nEFiveDepthBestWhere", f"{e['largest']['arch']}, {NET_LABEL[e['largest']['network']]}")
+    M.put("nEFiveDepthBestWhere", f"{label(e['largest']['arch'])}, {NET_LABEL[e['largest']['network']]}")
     el = rb["eligible_query_fraction"].values()
     M.put("nEligibleMin", pct(min(el)), "{}"); M.put("nEligibleMax", pct(max(el)), "{}")
     sr = rb["sidnet_reference"]
@@ -408,9 +410,16 @@ def e6_e7_numbers(M, e6, e7):
         gap = {k: (sum(x["finite_reach_mean"] * x["queries"] for x in v) / sum(x["queries"] for x in v),
                    sum(x["gradient_reach_mean"] * x["queries"] for x in v) / sum(x["queries"] for x in v)) for k, v in by.items()}
         worst = max(gap, key=lambda k: gap[k][0] - gap[k][1])
-        M.put("nESevenWorstArch", worst)
+        M.put("nESevenWorstArch", label(worst))
         M.put("nESevenWorstFinite", gap[worst][0])
         M.put("nESevenWorstGradient", gap[worst][1])
+        pc = e7["pooled_consistent"]
+        M.put("nESevenFiniteC", pc["finite_consistent_mean"])
+        M.put("nESevenGradientC", pc["gradient_consistent_mean"])
+        M.put("nESevenLeTwoC", pct(pc["finite_consistent_share_le2"]), "{}")
+        M.put("nESevenAtCapC", f"{100 * pc['finite_consistent_share_at_3']:.1f}")
+        M.put("nESevenAtCapN", round(pc["finite_consistent_share_at_3"] * pc["queries"]), "{:d}")
+        M.put("nESevenQueries", pc["queries"], "{:d}")
 
 
 def replication_numbers(M, rep):
@@ -556,7 +565,7 @@ def network_table(native, best, native_ph, rep):
             else "\\pending{replication}"
         ceil = f"{np.mean([c['reach_ceiling'] for c in have]):.1f}" if have else "--"
         dr = [mass[(n, a, 32)]["flip_D"][0] / mass[(n, a, 32)]["flip_Dunif"][0] for a in ARCHS]
-        lines.append(f"{NET_LABEL[n]} & {native['local_baseline'][n][0]:.3f} & {b['auc'][0]:.3f} ({b['arch']}) & "
+        lines.append(f"{NET_LABEL[n]} & {native['local_baseline'][n][0]:.3f} & {b['auc'][0]:.3f} ({label(b['arch'])}) & "
                      f"{reach} & {ceil} & {min(dr):.2f}--{max(dr):.2f} \\\\")
     lines += ["\\bottomrule", "\\end{tabular}"]
     return "\n".join(lines) + "\n"
@@ -595,7 +604,7 @@ def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None,
                   f"{sum(m['minus_local_4+'][1] > 0 for m in four)}/{len(four)} cells")]
     if e8 is not None and best is not None:
         wins = sum(x["cycles_auc"][0] > best[x["network"]]["auc"][0] for x in e8["cells"])
-        rows.append(("Short-cycle counts beat the best GNN", "6 networks $\\times$ 5", "E", f"{wins}/6 networks"))
+        rows.append(("Short signed-walk counts beat the best GNN", "6 networks $\\times$ 5", "E", f"{wins}/6 networks"))
     if e6 is not None:
         c6 = [x for x in e6["cells"] if x["n"] == 5]
         rows.append(("Reach $\\le 2$ with random inputs, four more networks", f"{5 * len(c6)} checkpoints", "E",
@@ -606,7 +615,9 @@ def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None,
         q = sum(x["queries"] for x in e7["cells"])
         f = sum(x["finite_reach_mean"] * x["queries"] for x in e7["cells"]) / q
         g = sum(x["gradient_reach_mean"] * x["queries"] for x in e7["cells"]) / q
-        rows.append(("Finite-flip reach against gradient reach", f"{len(e7['cells'])} checkpoints", "E", f"{f:.2f} vs {g:.2f}"))
+        pc = e7["pooled_consistent"]
+        rows.append(("Finite-flip reach against gradient reach (sampled, $d\\le3$)", f"{len(e7['cells'])} checkpoints", "E",
+                     f"{pc['finite_consistent_mean']:.2f} vs {pc['gradient_consistent_mean']:.2f}"))
     else:
         rows.append(("Finite-flip reach against gradient reach", "32 checkpoints", "E", pend))
     lines = ["\\begin{tabular}{@{}p{0.58\\columnwidth}lcl@{}}", "\\toprule", "Claim & Evidence & Tier & Outcome \\\\", "\\midrule"]

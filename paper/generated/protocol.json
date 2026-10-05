@@ -8,8 +8,8 @@
    "gpu_hours": 117.4857422109445
   },
   "exploratory": {
-   "records": 355,
-   "gpu_hours": 16.23846318807867
+   "records": 515,
+   "gpu_hours": 45.899003081255486
   },
   "replication": {
    "records": 120,
@@ -18,7 +18,7 @@
  },
  "reruns": {
   "confirmatory": 7,
-  "exploratory": 6,
+  "exploratory": 8,
   "replication": 2
  }
 }
