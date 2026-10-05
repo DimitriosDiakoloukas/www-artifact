@@ -18,7 +18,7 @@
  },
  "reruns": {
   "confirmatory": 7,
-  "exploratory": 8,
+  "exploratory": 9,
   "replication": 2
  }
 }

@@ -31,6 +31,7 @@ NETS = ("bitcoin_alpha", "bitcoin_otc", "wiki_rfa", "wiki_elec", "slashdot", "ep
 ARCHS = ("BGSD", "SGCN", "SIDNET", "SLGNN")
 Q, TOP, RAND, DISTS, TAU = 20, 5, 20, (1, 2, 3), 0.1
 OUT = Path(os.environ.get("E7_OUT", ROOT / "exploratory" / "e7-audit"))
+SUBSET = "first"                                             # E7 as planned; "uniform" is E7b (PLAN.md)
 
 
 def targets():
@@ -49,7 +50,11 @@ def audit(path, device):
         ok = pv.array_sha256(head(enc(X, g), torch.as_tensor(ds.edges[te], device=device)).cpu().numpy()) \
             == rec["evaluation"]["test_logits_sha256"]
     assert ok, "test logits differ from the record"
-    pairs = ds.edges[te][np.array(rec["targets"]["test_edge_positions"])][:Q]
+    stored = ds.edges[te][np.array(rec["targets"]["test_edge_positions"])]
+    if SUBSET == "uniform":                                  # E7b: uniform subset of the stored pairs
+        pairs = stored[np.sort(np.random.default_rng(1).choice(len(stored), Q, replace=False))]
+    else:                                                    # E7: the first Q (lowest test positions)
+        pairs = stored[:Q]
     dq = np.minimum(hop_distances(ds.n, ds.edges[tr], pairs[:, 0]), hop_distances(ds.n, ds.edges[tr], pairs[:, 1]))
     ed = edge_distances(dq, ds.edges[tr])
     qt = torch.as_tensor(pairs, device=device)
@@ -132,18 +137,19 @@ def collect(out_dir):
               "finite_consistent_share_at_3": float(np.mean(np.array(fc) == 3)),
               "planned_finite_share_at_3": float(np.mean(np.array(planned) == 3)),
               "finite_exceeds_gradient_consistent": float(np.mean(np.array(fc) > np.array(gc)))}
-    out = {"generator": "exploratory/e7_audit.py", "plan": "exploratory/PLAN.md E7", "checkpoints": len(res),
+    out = {"generator": "exploratory/e7_audit.py" + (" --subset uniform" if SUBSET == "uniform" else ""),
+           "plan": "exploratory/PLAN.md " + ("E7b" if SUBSET == "uniform" else "E7"), "subset": SUBSET, "checkpoints": len(res),
            "cells": cells, "pooled_consistent": pooled, "all_logits_match": True,
            "note": "finite_reach (planned): largest sampled effect per shell relative to the largest at distance 0; "
                    "*_consistent: candidates only, each normalised by its own largest value at any audited distance"}
-    p = Path(out_dir).expanduser() / "e7_audit.json"
+    p = Path(out_dir).expanduser() / ("e7b_audit.json" if SUBSET == "uniform" else "e7_audit.json")
     p.write_text(json.dumps(out, indent=1))
     for c in cells:
         print(f"{c['network']:13s} {c['features']:8s} {c['arch']:6s} rho={c['spearman_grad_finite']:.2f} finite reach "
               f"{c['finite_reach_mean']:.2f} vs gradient {c['gradient_reach_mean']:.2f}; finite>gradient in "
               f"{c['finite_exceeds_gradient']}/{c['queries']}; missed {c['missed_relations']}/{c['sampled_distant']}")
     print("pooled (consistent normalisation):", json.dumps(pooled))
-    print("e7_audit.json", pv.sha256_file(p))
+    print(p.name, pv.sha256_file(p))
 
 
 def main():
@@ -153,7 +159,12 @@ def main():
     ap.add_argument("--collect", action="store_true")
     ap.add_argument("--out")
     ap.add_argument("--only", default=None, help="substring filter (tests)")
+    ap.add_argument("--subset", default="first", choices=("first", "uniform"), help="first: E7 as planned; uniform: E7b")
     a = ap.parse_args()
+    global SUBSET, OUT
+    SUBSET = a.subset
+    if SUBSET == "uniform" and "E7_OUT" not in os.environ:
+        OUT = ROOT / "exploratory" / "e7b-audit"
     if a.collect:
         collect(a.out)
         return

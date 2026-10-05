@@ -120,3 +120,10 @@ own fold of ten removed from the graph, so no relation sees its own sign; test f
 training graph. Logistic regression as in the local baseline, on 50,000 training relations drawn per seed
 (all if fewer). Six networks, seeds 10000-10004. Reported: overall test AUC and AUC by endpoint-distance
 stratum (as E5), against the local baseline and the best GNN cell of E5.
+
+### E7b. E7 on a uniform query subset (written 2026-10-05, after the third review, before any E7b computation)
+E7 audited "the first 20 stored test pairs". The 100 stored pairs are sorted by their position in the test
+split, so those 20 are the lowest positions, not a uniform subset. E7b repeats E7 unchanged on 20 pairs drawn
+uniformly without replacement from the 100 stored pairs of each checkpoint (numpy default_rng(1)), on the same
+32 checkpoints, and reports the same summaries. E7 is kept and reported as planned; the paper reports E7b as
+the representative audit and E7 beside it.

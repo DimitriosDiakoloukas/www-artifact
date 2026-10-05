@@ -1,0 +1,113 @@
+<venv>/lib/python3.12/site-packages/torch/autograd/graph.py:829: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:179.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+SLGNN-bitcoin_otc-T32-s10000-spectral: candidates 1597, rho 0.99
+SLGNN-wiki_elec-T32-s10000-spectral: candidates 1600, rho 0.97
+Traceback (most recent call last):
+  File "<repo>/replication/measure.py", line 85, in sign_gradient
+    return output_influence(f, g.sign_und.clone(), n, chunk=1, fresh=enc.memory_efficient)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/range/jacobian.py", line 76, in output_influence
+    for part, grads in jacobian_rows(f, Z, [(q, None) for q in range(Q)], Q, chunk, fresh):
+  File "<repo>/src/srange/range/jacobian.py", line 22, in jacobian_rows
+    Y = f(Xg)
+        ^^^^^
+  File "<repo>/replication/measure.py", line 83, in <lambda>
+    f = lambda s: head(enc(X, g.with_signs(s)), qt)
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 80, in forward
+    h = self.step(self._layer, h, li, row, col, wp, wn, norm)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/base.py", line 26, in step
+    return checkpoint(fn, *args, use_reentrant=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/_compile.py", line 53, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 929, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/utils/checkpoint.py", line 495, in checkpoint
+    ret = function(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 84, in _layer
+    return self.act(self.layers[li](h, row, col, wp, wn, norm, last=(li == self.T - 1)))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 41, in forward
+    outs = [self._head(X, row, col, wp, wn, norm, h) for h in range(self.nheads)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 32, in _head
+    gp = torch.sigmoid(self.leaky((self.mapping[h] @ torch.cat([hp[row], hp[col]], 1).t()).squeeze(0)))
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 480.00 MiB. GPU 0 has a total capacity of 15.77 GiB of which 223.50 MiB is free. Including non-PyTorch memory, this process has 15.54 GiB memory in use. Of the allocated memory 11.75 GiB is allocated by PyTorch, and 3.38 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<repo>/exploratory/e7_audit.py", line 183, in <module>
+    main()
+  File "<repo>/exploratory/e7_audit.py", line 177, in main
+    res = audit(p, a.device)
+          ^^^^^^^^^^^^^^^^^^
+  File "<repo>/exploratory/e7_audit.py", line 61, in audit
+    gs = rm.sign_gradient(enc, head, X, g, qt, len(pairs))
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/replication/measure.py", line 89, in sign_gradient
+    return output_influence(f, g.sign_und.clone(), n, chunk=1, fresh=True)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/range/jacobian.py", line 76, in output_influence
+    for part, grads in jacobian_rows(f, Z, [(q, None) for q in range(Q)], Q, chunk, fresh):
+  File "<repo>/src/srange/range/jacobian.py", line 22, in jacobian_rows
+    Y = f(Xg)
+        ^^^^^
+  File "<repo>/replication/measure.py", line 83, in <lambda>
+    f = lambda s: head(enc(X, g.with_signs(s)), qt)
+                       ^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 80, in forward
+    h = self.step(self._layer, h, li, row, col, wp, wn, norm)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/base.py", line 26, in step
+    return checkpoint(fn, *args, use_reentrant=False)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/_compile.py", line 53, in inner
+    return disable_fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/_dynamo/eval_frame.py", line 929, in _fn
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/utils/checkpoint.py", line 495, in checkpoint
+    ret = function(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 84, in _layer
+    return self.act(self.layers[li](h, row, col, wp, wn, norm, last=(li == self.T - 1)))
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1773, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<venv>/lib/python3.12/site-packages/torch/nn/modules/module.py", line 1784, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 41, in forward
+    outs = [self._head(X, row, col, wp, wn, norm, h) for h in range(self.nheads)]
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/src/srange/models/slgnn.py", line 32, in _head
+    gp = torch.sigmoid(self.leaky((self.mapping[h] @ torch.cat([hp[row], hp[col]], 1).t()).squeeze(0)))
+                                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 480.00 MiB. GPU 0 has a total capacity of 15.77 GiB of which 463.50 MiB is free. Including non-PyTorch memory, this process has 15.31 GiB memory in use. Of the allocated memory 11.90 GiB is allocated by PyTorch, and 2.99 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

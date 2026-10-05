@@ -1,0 +1,34 @@
+bitcoin_alpha random   BGSD   rho=0.97 finite reach 0.65 vs gradient 0.65; finite>gradient in 4/20; missed 3/1200
+bitcoin_alpha spectral BGSD   rho=0.97 finite reach 0.65 vs gradient 0.75; finite>gradient in 3/20; missed 3/1200
+bitcoin_otc   spectral BGSD   rho=0.93 finite reach 0.70 vs gradient 0.55; finite>gradient in 4/20; missed 6/1200
+epinions      spectral BGSD   rho=0.97 finite reach 0.45 vs gradient 0.40; finite>gradient in 1/20; missed 0/1200
+slashdot      spectral BGSD   rho=0.97 finite reach 1.10 vs gradient 0.65; finite>gradient in 9/20; missed 3/1200
+wiki_elec     random   BGSD   rho=0.97 finite reach 0.70 vs gradient 0.75; finite>gradient in 2/20; missed 0/1200
+wiki_elec     spectral BGSD   rho=0.88 finite reach 0.50 vs gradient 2.10; finite>gradient in 0/20; missed 0/1200
+wiki_rfa      spectral BGSD   rho=0.99 finite reach 0.65 vs gradient 0.60; finite>gradient in 1/20; missed 0/1200
+bitcoin_alpha random   SGCN   rho=0.89 finite reach 0.95 vs gradient 0.40; finite>gradient in 10/20; missed 21/1200
+bitcoin_alpha spectral SGCN   rho=0.87 finite reach 0.95 vs gradient 0.40; finite>gradient in 8/20; missed 20/1200
+bitcoin_otc   spectral SGCN   rho=0.92 finite reach 0.95 vs gradient 0.60; finite>gradient in 6/20; missed 24/1200
+epinions      spectral SGCN   rho=0.96 finite reach 1.25 vs gradient 0.50; finite>gradient in 10/20; missed 3/1200
+slashdot      spectral SGCN   rho=0.96 finite reach 1.15 vs gradient 0.85; finite>gradient in 8/20; missed 6/1200
+wiki_elec     random   SGCN   rho=0.88 finite reach 1.50 vs gradient 1.50; finite>gradient in 4/20; missed 11/1200
+wiki_elec     spectral SGCN   rho=0.88 finite reach 1.65 vs gradient 1.65; finite>gradient in 4/20; missed 14/1200
+wiki_rfa      spectral SGCN   rho=0.96 finite reach 1.60 vs gradient 1.15; finite>gradient in 9/20; missed 6/1200
+bitcoin_alpha random   SIDNET rho=0.99 finite reach 0.85 vs gradient 0.90; finite>gradient in 1/20; missed 0/1200
+bitcoin_alpha spectral SIDNET rho=0.98 finite reach 0.80 vs gradient 0.90; finite>gradient in 0/20; missed 0/1200
+bitcoin_otc   spectral SIDNET rho=0.97 finite reach 0.85 vs gradient 0.95; finite>gradient in 3/20; missed 0/1200
+epinions      spectral SIDNET rho=0.99 finite reach 0.65 vs gradient 0.50; finite>gradient in 4/20; missed 0/1200
+slashdot      spectral SIDNET rho=1.00 finite reach 0.40 vs gradient 0.40; finite>gradient in 2/20; missed 4/1200
+wiki_elec     random   SIDNET rho=0.99 finite reach 0.85 vs gradient 0.75; finite>gradient in 2/20; missed 0/1200
+wiki_elec     spectral SIDNET rho=0.99 finite reach 0.20 vs gradient 0.30; finite>gradient in 1/20; missed 0/1200
+wiki_rfa      spectral SIDNET rho=1.00 finite reach 0.45 vs gradient 0.35; finite>gradient in 2/20; missed 0/1200
+bitcoin_alpha random   SLGNN  rho=1.00 finite reach 0.25 vs gradient 0.40; finite>gradient in 0/20; missed 0/1200
+bitcoin_alpha spectral SLGNN  rho=1.00 finite reach 0.25 vs gradient 0.40; finite>gradient in 0/20; missed 0/1200
+bitcoin_otc   spectral SLGNN  rho=0.99 finite reach 0.20 vs gradient 0.15; finite>gradient in 2/20; missed 0/1200
+epinions      spectral SLGNN  rho=0.98 finite reach 0.45 vs gradient 0.45; finite>gradient in 2/20; missed 0/1200
+slashdot      spectral SLGNN  rho=0.94 finite reach 1.25 vs gradient 1.40; finite>gradient in 6/20; missed 19/1200
+wiki_elec     random   SLGNN  rho=0.97 finite reach 0.65 vs gradient 0.55; finite>gradient in 4/20; missed 49/1200
+wiki_elec     spectral SLGNN  rho=0.97 finite reach 0.65 vs gradient 0.55; finite>gradient in 4/20; missed 49/1200
+wiki_rfa      spectral SLGNN  rho=0.93 finite reach 0.60 vs gradient 0.85; finite>gradient in 2/20; missed 2/1200
+pooled (consistent normalisation): {"queries": 640, "finite_consistent_mean": 0.7640625, "gradient_consistent_mean": 0.728125, "finite_consistent_share_le2": 0.9796875, "finite_consistent_share_at_3": 0.0203125, "planned_finite_share_at_3": 0.028125, "finite_exceeds_gradient_consistent": 0.18125}
+e7_audit.json cfbb6e790f7bf9029b17efe46f4e1e589098382225bbfceb02ca1d6b406943be

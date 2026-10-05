@@ -422,6 +422,36 @@ def e6_e7_numbers(M, e6, e7):
         M.put("nESevenQueries", pc["queries"], "{:d}")
 
 
+def e7b_numbers(M, e7b):
+    names = ("nESevenBFiniteC", "nESevenBGradientC", "nESevenBLeTwoC", "nESevenBAtCapN", "nESevenBAtCapC", "nESevenBRho",
+             "nESevenBMissed", "nESevenBSampled", "nESevenBQueries", "nESevenBWorstArch", "nESevenBWorstFinite",
+             "nESevenBWorstGradient", "nESevenBPlannedFinite", "nESevenBPlannedGradient")
+    if e7b is None:
+        for n in names:
+            M.pending(n, "E7b running")
+        return
+    pc, c = e7b["pooled_consistent"], e7b["cells"]
+    M.put("nESevenBFiniteC", pc["finite_consistent_mean"])
+    M.put("nESevenBGradientC", pc["gradient_consistent_mean"])
+    M.put("nESevenBLeTwoC", pct(pc["finite_consistent_share_le2"]), "{}")
+    M.put("nESevenBAtCapN", round(pc["finite_consistent_share_at_3"] * pc["queries"]), "{:d}")
+    M.put("nESevenBAtCapC", f"{100 * pc['finite_consistent_share_at_3']:.1f}")
+    M.put("nESevenBQueries", pc["queries"], "{:d}")
+    M.put("nESevenBRho", float(np.median([x["spearman_grad_finite"] for x in c])))
+    M.put("nESevenBMissed", sum(x["missed_relations"] for x in c), "{:d}")
+    M.put("nESevenBSampled", f"{sum(x['sampled_distant'] for x in c):,}".replace(",", "{,}"))
+    by = defaultdict(lambda: ([], []))
+    for x in c:
+        by[x["arch"]][0].extend(x["finite_reach_consistent"]); by[x["arch"]][1].extend(x["gradient_reach_consistent"])
+    gap = {k: (float(np.mean(f)), float(np.mean(g))) for k, (f, g) in by.items()}
+    worst = max(gap, key=lambda k: gap[k][0] - gap[k][1])
+    M.put("nESevenBWorstArch", label(worst))
+    M.put("nESevenBWorstFinite", gap[worst][0]); M.put("nESevenBWorstGradient", gap[worst][1])
+    q = sum(x["queries"] for x in c)
+    M.put("nESevenBPlannedFinite", sum(x["finite_reach_mean"] * x["queries"] for x in c) / q)
+    M.put("nESevenBPlannedGradient", sum(x["gradient_reach_mean"] * x["queries"] for x in c) / q)
+
+
 def replication_numbers(M, rep):
     names = ("nRepOne", "nRepTwo", "nRepThree", "nRepFourA", "nRepFourB", "nRepTwoP", "nRepSolvedCells",
              "nRepFourAMax", "nRepFourBMax", "nSidMedConf", "nSidMedLayer", "nSidMedZero", "nRepChanceMed",
@@ -571,7 +601,7 @@ def network_table(native, best, native_ph, rep):
     return "\n".join(lines) + "\n"
 
 
-def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None, best=None, e6=None, e7=None):
+def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None, best=None, e6=None, e7=None, load_e7b=None):
     yes = lambda b: "holds" if b else "fails"
     h4 = [a for a in ARCHS if native["H4"][a]["holds"]]
     sol_pl = [c for c in sm["planted"] if c["solved"] and c.get("tree", "exploratory") == "exploratory"]
@@ -611,6 +641,7 @@ def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None,
                      f"{sum(x['reach_0.1'] <= 2 for x in c6)}/{len(c6)} cells"))
     else:
         rows.append(("Reach $\\le 2$ with random inputs, four more networks", "160 checkpoints", "E", pend))
+    e7 = load_e7b if load_e7b is not None else e7
     if e7 is not None:
         q = sum(x["queries"] for x in e7["cells"])
         f = sum(x["finite_reach_mean"] * x["queries"] for x in e7["cells"]) / q
@@ -653,6 +684,7 @@ def main():
     robustness_numbers(M, load(gen, "robustness.json"))
     e8_numbers(M, load(gen, "e8_cycles.json"), best)
     e6_e7_numbers(M, load(gen, "e6_random.json"), load(gen, "e7_audit.json"))
+    e7b_numbers(M, load(gen, "e7b_audit.json"))
     (gen / "network_table.tex").write_text(network_table(native, best, native_ph, rep))
     (gen / "e5_table.tex").write_text(e5_table(load(gen, "e5_distance.json")))
     nt, per = newcomer_table(rep)
@@ -667,7 +699,8 @@ def main():
     (gen / "numbers.tex").write_text(M.text())
     (gen / "evidence_table.tex").write_text(evidence_table(chain, native, load(gen, "sign_mass.json"), posthoc, native_ph, rep,
                                                            load(gen, "e5_distance.json"), load(gen, "e8_cycles.json"), best,
-                                                           load(gen, "e6_random.json"), load(gen, "e7_audit.json")))
+                                                           load(gen, "e6_random.json"), load(gen, "e7_audit.json"),
+                                                           load(gen, "e7b_audit.json")))
     fig_reach(chain, load(gen, "sign_mass.json"), posthoc, native_ph, rep, figs)
     made = ["generated/numbers.tex", "generated/network_table.tex", "generated/evidence_table.tex", "generated/e5_table.tex",
             "generated/newcomer_table.tex", "figures/reach.pdf"]
