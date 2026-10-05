@@ -6,12 +6,12 @@ Feature Jacobian falls short of the required distance (H2) & 30 checkpoints & C 
 Sign $R_{90}$ within one hop of $e^\ast$ on trees (H1) & 9 cells & C & holds \\
 Depth from 8 to 32 closes $<$ half the gap to the ceiling (H3) & 4 arch.\ $\times$ 30 & C & holds (4/4) \\
 Median functional depth $\le 8$ (H4) & 4 arch.\ $\times$ 30 & C & BGSD only \\
-Sampled intervention misses the decisive relation & 6 planted cells & E & observed \\
-Decisive reach within one hop of $e^\ast$ & 15 cells & P & observed \\
+Sampled intervention misses a required chain relation & 6 planted cells & E & observed \\
+Sensitivity reach within one hop of $e^\ast$ & 15 cells & P & observed \\
 \quad on new networks, distance and seeds (RH1) & 120 runs & R & holds \\
 \quad separates solved from chance runs (RH2) & 120 runs & R & holds \\
 \quad sampled intervention falls short (RH3) & 120 runs & R & holds \\
-Decisive reach $\le 2$ on four networks & 160 checkpoints & P & observed \\
+Sensitivity reach $\le 2$ on four networks & 160 checkpoints & P & observed \\
 \quad on Slashdot and Epinions (RH4a) & 80 checkpoints & R & holds \\
 \quad with random features (RH4b) & 80 checkpoints & R & holds \\
 GNN beats local baseline on pairs 3 hops apart & 360 checkpoints & E & 14/72 cells \\
@@ -19,5 +19,7 @@ GNN beats local baseline on pairs 3 hops apart & 360 checkpoints & E & 14/72 cel
 Short signed-walk counts beat the best GNN & 6 networks $\times$ 5 & E & 6/6 networks \\
 Reach $\le 2$ with random inputs, four more networks & 160 checkpoints & E & 32/32 cells \\
 Finite-flip reach against gradient reach (sampled, $d\le3$) & 32 checkpoints & E & 0.76 vs 0.73 \\
+Exhaustive finite/gradient reach agreement & 80 queries & E & 69\%; within 1: 98\% \\
+Published objectives, separately tuned depths & 60 new runs & E & reach 0.56--1.35 \\
 \bottomrule
 \end{tabular}

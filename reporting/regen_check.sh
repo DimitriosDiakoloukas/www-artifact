@@ -32,6 +32,9 @@ run reporting/sign_mass.py --paper "$T"
 run reporting/protocol_assets.py --paper "$T"
 run reporting/robustness.py --paper "$T"
 CUDA_VISIBLE_DEVICES=${GPU:-0} run reporting/shells.py --paper "$T" --device cuda:0
+run revision/exhaustive.py --collect --out "$G"
+run revision/native.py --collect --out "$G"
+run revision/assets.py --paper "$T"
 run reporting/paper_assets.py --paper "$T"
 [ "${2:-}" = "--write" ] && { echo "regenerated in place: $PAPER ($failed generator failures)"; exit $failed; }
 bad=$failed

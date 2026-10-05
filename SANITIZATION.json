@@ -7886,5 +7886,1109 @@
  "replication/planted/runs/relay-r8-SLGNN-planted-wiki_rfa-T32-s30004.json": {
   "original_result_sha256": "e71050c91fd2009e449968671d520f5504ce728cac863a8dd9a38ffcebf04024",
   "sanitized_result_sha256": "e5236386202fe28d65cddb930ed0df30c196e70d6dad5d372af39d0500c3929e"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T2-s42000.json": {
+  "original_result_sha256": "39efbeae67f0b51786ff4a84d4b9d6b36e6544f15315569f020c46fff7a4dc80",
+  "sanitized_result_sha256": "88b5f8357865411a87187d5db6fa56d60972b62abb021ac29ed6d07c3ad27e40"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T2-s42001.json": {
+  "original_result_sha256": "5e72fd3c59c9872131b33523dc4b1401b50a19676ac5e70f27921cf2db0a7a40",
+  "sanitized_result_sha256": "5b214953fc836d641e4fa37a373cb6140dd5795fdaf1d8bc1bdc752b8e19ce06"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T2-s42002.json": {
+  "original_result_sha256": "8ebb3f0005fbbfffda73634b25726c920f7869d86596cf2e56694c4c0af3cdb8",
+  "sanitized_result_sha256": "e62469132c379ce71d5084e0e105839312780e6277789ccfb61ab89933d53e34"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T2-s42003.json": {
+  "original_result_sha256": "38a7dd15d5565b76c78b6c2b75bbe5ca372e5d60ebf991adc44910c034ad919c",
+  "sanitized_result_sha256": "953a9d9879b7fe87a691ab42be8e78269680bb80401df7fabbd2d269bc36dbe1"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T2-s42004.json": {
+  "original_result_sha256": "090f1f3a25ffb94c10b4326a2c609d58271b6ebd1c1c15dc32c86771c9ef7a37",
+  "sanitized_result_sha256": "07e6520bda242af906b5a04c70ff337da394f238a9fbd0969fad2bfc3474e2b1"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T32-s42000.json": {
+  "original_result_sha256": "52bb14aec72b37ceac5c87d3905e9a9ba6eecfb24b6528c7cb55ed72ee7af86f",
+  "sanitized_result_sha256": "cbbe4cdc74ac14b68410b2f59daa324edb63f52a954e9ca95aa218d4d20ede25"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T32-s42001.json": {
+  "original_result_sha256": "cb05f2205a17f993343e88f6d45a83bba520b1d515b972ce047f710da06c9c06",
+  "sanitized_result_sha256": "b64542ddeeb01bcd7f38511f5f8a4e97be40353cbfd66405a9d41890c365ddb5"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T32-s42002.json": {
+  "original_result_sha256": "0d5d2ed6f0f532d67029d4fad1a34b01170163772159ca58d3321da8d5937431",
+  "sanitized_result_sha256": "2f1213b83fb241d61919c015eac1898f190d7119000067c75a042fede5d9b8d6"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T32-s42003.json": {
+  "original_result_sha256": "2fcea7da56b85d7f02f43cd3b03edc8d6cb21096fbc02bd75c6ba3f417eebd55",
+  "sanitized_result_sha256": "fc6c2cf2ca3374413028cfdf19ea8cae5299188b49e18513247643a1a702ad5e"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T32-s42004.json": {
+  "original_result_sha256": "c9a4868fcbd4ee11a80e9f56b14f93358bcc37c4a8cde6d56bd497f48abdd6a1",
+  "sanitized_result_sha256": "1d9c673a7d6ea8f38874c83b6de154c8f23d5f14af067fd3352d94ff23668f56"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T8-s42000.json": {
+  "original_result_sha256": "9a2a3856520e2e82f2e25cff561286eacb1f5be39947324759d3bc3e4145cbe0",
+  "sanitized_result_sha256": "1de1352860280efa5fcba6718db5cc87ce1bbf96af129ca18c4ab36a7dceedb9"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T8-s42001.json": {
+  "original_result_sha256": "1b157afa1b95d533b128cf0ade9fd212f5faea71a1ceced993fdef62fa448525",
+  "sanitized_result_sha256": "5f17eed4b4de6e10dc3df6f886451d6fa0bafefb3ef11cec34600a255cd6097c"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T8-s42002.json": {
+  "original_result_sha256": "259b886ad76140ec859090a157d68d8d2d37cdc457fcf512b1a41388854ff94f",
+  "sanitized_result_sha256": "aca6068d827eebb2c7de1023afd1432739dce3fedfdb2a0b593e9fc487edbc1b"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T8-s42003.json": {
+  "original_result_sha256": "89d81014f2d4476e8a1c13eec322b0d2ba45aade5ae16daeab532a8faffca460",
+  "sanitized_result_sha256": "82d3bc8d661a8bec027804c218b3456c83977dab79b0388afad8e1eb5a928423"
+ },
+ "revision/native/eval/SGCN-bitcoin_alpha-T8-s42004.json": {
+  "original_result_sha256": "8d0d576c6f19c6acf6c6094466c13ac642e1440b1035d69ee399e3272126b3b7",
+  "sanitized_result_sha256": "6d390f32d98b5731a3a0a45e3eb812d6e241cccd4bf1257f3409d2e3b20fe685"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T2-s42000.json": {
+  "original_result_sha256": "32484fdc7069041c71381b25ad23b49e41740813d48262f77fb1e4cf4741ec5e",
+  "sanitized_result_sha256": "ec2b5883dfa94a3e525c8d1e4da8411e9eb34f5a5c1004aebf3295eed86ac271"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T2-s42001.json": {
+  "original_result_sha256": "046b2f0db8abef4b9b193836f81c09aa779c5dd2d58789d723b8d7f024ff7c9e",
+  "sanitized_result_sha256": "96906915d31d6d03abab7d13f55fbbd409d7f95553665738f70103641dbfc6e7"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T2-s42002.json": {
+  "original_result_sha256": "6863b3a5cb502dc2446b9e1ab510670bdaf3c1679c87c7314210bd468f1d2ea1",
+  "sanitized_result_sha256": "d4bd964299ddb2021a1769357721b52005025aa3a4764fe24ee7099c79095760"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T2-s42003.json": {
+  "original_result_sha256": "29fb15c0304d47043a3012d62b692f02c93178cb4f51aa24d7e25ac097defcf8",
+  "sanitized_result_sha256": "008c758a63c3be4b3083681e528d61d428ea1956eea16f1085b7813241b94c2e"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T2-s42004.json": {
+  "original_result_sha256": "52031965584f03622b63e34053b1468437e471d9eb431aafe181f640ac74999a",
+  "sanitized_result_sha256": "51ec3d154fe31d01650267cccbcfa5e0a0c490c4a62a747e10aee21f17df3ba8"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T32-s42000.json": {
+  "original_result_sha256": "f7629388dfee0bfdfc3bd54ee67c40f33d5c58544bc3a2883ee02265cb5d92f0",
+  "sanitized_result_sha256": "f556da3cf7ac556d94b74dd24f470c3300be26583f44336ba058e0a53d21ba45"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T32-s42001.json": {
+  "original_result_sha256": "62cb6b80d1c0b9b7d8d7b4655e5db3e6c4ab0173a1207f1c20f4f7cca3fb4a06",
+  "sanitized_result_sha256": "9bbd2cd4620891610542d2fb2c31d6f6717f6402ab6a5b184baaa283f7342667"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T32-s42002.json": {
+  "original_result_sha256": "a49fcddea5304dadabb190116463bfc1079f6b83e35e95c45b1326817351cabf",
+  "sanitized_result_sha256": "c10cb4088bce5007f3fc9185336d87bfc723f9c23c21d644e2696c8654b9b021"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T32-s42003.json": {
+  "original_result_sha256": "8d1e852ec71c916970d469401a82d680a64723b16f54ca127a8856102c39fe09",
+  "sanitized_result_sha256": "dbe9602d91a6da9e77fe32c3b1d986c4a0cdb224e742af96ff0c9216f9943aae"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T32-s42004.json": {
+  "original_result_sha256": "fd6bc00d7a5819b98a54e3c014aaca71c6ba211bf80d13e0fc5c3d848febab3c",
+  "sanitized_result_sha256": "6ee0e49d25bf6e9b32defc25e891d4b1127c62d569320c0917fb7c1383bf4a32"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T8-s42000.json": {
+  "original_result_sha256": "a62e0269fad56ae126afd3b23694ab7bee42178fedaa60252d1f2d70445120cc",
+  "sanitized_result_sha256": "26d8558a98cd97b0c4feea5ef0a5dcbd8ca5eda0e8a61c7708d6ab7b2c9a8427"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T8-s42001.json": {
+  "original_result_sha256": "4d993a4e77bbbc4fb718b503daaf3d2227270604b89ee79fd3c0eefa9c2956b9",
+  "sanitized_result_sha256": "3a2d6a27acc2f9c76a696d1d8a8eb8146d181b2ab555c4a3b4e0fca35f90baa7"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T8-s42002.json": {
+  "original_result_sha256": "861a87a248875e251e1fdf3e324d72485f77fc11bd6efcda08762b3d7c5ef303",
+  "sanitized_result_sha256": "092952f4620987f0edfb32f29c87300c05782c282800eee106001a139f665509"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T8-s42003.json": {
+  "original_result_sha256": "8daea081549df6a46a2f0fd38bb9373bb39b7d31063682e7d28eaa9e8a440384",
+  "sanitized_result_sha256": "35469c4d88a71fd4529bb19df8cae369b5dc991405507f1eaab70fb066838902"
+ },
+ "revision/native/eval/SGCN-wiki_elec-T8-s42004.json": {
+  "original_result_sha256": "59f11e227c110fc0e2043975ba035d664ac7a50e42d226ba4b403100192e8617",
+  "sanitized_result_sha256": "8cd442f0a452c8b1b087cd2ad4460569fcaef8409c35dd9adf58ed334c184a1a"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42000.json": {
+  "original_result_sha256": "28b69770920d65fad7f673cf31a43e2635217382e449748e4b458bbdbcb2138e",
+  "sanitized_result_sha256": "18ab1aca08e67557433b9a07b221fa9b1720af0be92dc412fc3061eab0a9112d"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42001.json": {
+  "original_result_sha256": "36580336aef535a019aec0e3d24762b4c7d2e1ce7352c4bd8492b1b002995aa5",
+  "sanitized_result_sha256": "c7045557ca4c77aa87feb95be2b9d76572e41a04a6b6ee0570e59357195dd60e"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42002.json": {
+  "original_result_sha256": "c00512a828cc7d865ba735d2456e43e6f374efbebdf66d5384fd893a83a32308",
+  "sanitized_result_sha256": "a140e6c366937fc61f3a99c6917d10dd94db26ff8cd572ea1e9269a9109332e5"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42003.json": {
+  "original_result_sha256": "4e2a16d5b8dae99520369603f26629a2e829208863a63bc2f718b31f00d55225",
+  "sanitized_result_sha256": "13bc6798b9a3255c5d7873791452e2fe66d6b9d5d02514ea7257a9a153f5e969"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42004.json": {
+  "original_result_sha256": "5212b13ebd32db8df7aee17abefc26913585ecd59c825bd77ad2d05087c4afc5",
+  "sanitized_result_sha256": "7a2e364d064d743593c13986dd8048b6e0a97a4dbde84eac8476e350bcc53834"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42000.json": {
+  "original_result_sha256": "16de5e447e800999d3c183b7a4446330bf29d54cb54ece98e16d2e9ab0d41906",
+  "sanitized_result_sha256": "680f78515b5afad632cf1b8e8ada17de6948776bb030812b8a26462cabeea9b1"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42001.json": {
+  "original_result_sha256": "377131027b56cdd89d8d29b3b9fe31ec07ddd9df198c45e380af5e2a910556da",
+  "sanitized_result_sha256": "2f86ff7c28b5e5f2837922dc8dd872027e155c831bfde786fdd062490acc185a"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42002.json": {
+  "original_result_sha256": "2ffcee8772da10fad959f8a6597fe5615cf9609175a3e03df57cd2d2cb841f9d",
+  "sanitized_result_sha256": "d63895511124a0a07a87e8b04cbb158943b55a8090058e7b6ad302bb2691b8d3"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42003.json": {
+  "original_result_sha256": "ccaa7c6d1defb420f30887f68604069caaf4b3c9d8773147e5d11ce5af2027eb",
+  "sanitized_result_sha256": "0eff2418e80e87646ec0f18acea81050a85a434ca2c2de8ab891bf28b37bc56c"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42004.json": {
+  "original_result_sha256": "751c2d03d2e77d2dfd3e83b2f96d2d458a666396f12fa45328f01d4c01fb1bbc",
+  "sanitized_result_sha256": "d8547cd26dbf52d1bbfbba623dedea78b0ff71854f6d6c1a205d2e862ee143ea"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42000.json": {
+  "original_result_sha256": "f7750121358d0574b861f585772ef8eb136264eb2bf70846a1795ef05e410ea0",
+  "sanitized_result_sha256": "c43a4006e5541c4c6ac7fb23f5ad3b8f265c89e55cee8b167a3e4b16f6695cfe"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42001.json": {
+  "original_result_sha256": "ebff7e8e73395f89d57ffa47f77035ee8e0fdbbddf526c394ea4ba96bacd9d85",
+  "sanitized_result_sha256": "4bfc6da49d9a6ba32c01450de4bd2ecb04c53c9ad352c58d2058c428980ec874"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42002.json": {
+  "original_result_sha256": "388a68acd53a4949fdfb0d6e6138c7c68cb47ea1586d89f9cb97ce7daf51d6f3",
+  "sanitized_result_sha256": "9173fdc6dabc2e49b42b34e330e31b6f485bb6ca611db007ee45f352e6e1f59a"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42003.json": {
+  "original_result_sha256": "93a44574e0b95e51579b0c84dc2cfa88f53f3eea658996d0439dee13aa909da4",
+  "sanitized_result_sha256": "3af7634491f6e296243b652b120de1df5687600430f41c01e39bc4adcca2a0e8"
+ },
+ "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42004.json": {
+  "original_result_sha256": "7e12a395a591703c0f7fc758855085afbbb3bc4642c21f21f7062f4a7f0e067e",
+  "sanitized_result_sha256": "5991ba112ad0acfe226d1c25f6497254448d6112d1c7f28514718ce6f60b2642"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T2-s42000.json": {
+  "original_result_sha256": "670dc43b01ba4750655f7ed31bda828af484f0b60be44a33ac076ad7d6540319",
+  "sanitized_result_sha256": "bbf8f0957cff2b8c6ff27c6f6a9de2f8aef327077e535539b85c29b7ae16fc5e"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T2-s42001.json": {
+  "original_result_sha256": "88cc5a1b3bf80d1926cd02d8ed816c0821da66e2ad0c9e8657f87b59df8480ef",
+  "sanitized_result_sha256": "759df9cd19f561c7f965679f19fd9784f470763cea7543845e109f01e63ed7b1"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T2-s42002.json": {
+  "original_result_sha256": "eb3ecca284626dd580fe6861621a41f37528d0b240c7ad5ddc78cdd92c14f286",
+  "sanitized_result_sha256": "fb4add2dd6a90b78863701e38a4f490c12f61e1e99a58425ba55d4f1d5393f9a"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T2-s42003.json": {
+  "original_result_sha256": "e72353675d3dffe854f56427f55885e66a20b7f4808e86cd82a85aee76924068",
+  "sanitized_result_sha256": "09d2eb70431d024aa7498a3ca09b7c666cd98f57ea90fc78ac4985ca54fdee62"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T2-s42004.json": {
+  "original_result_sha256": "eaccdba5738d03619d747f40cf827124f72e1e1d3ba57b1700dd855a78b69fd8",
+  "sanitized_result_sha256": "5c328ff3ee20e653cc0bc21666441aa94950dace224ce34966a9222f21744401"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T32-s42000.json": {
+  "original_result_sha256": "e58ada4df3cb659c878d5ca6cb115d588243d61171376e682aee07fa097cfc37",
+  "sanitized_result_sha256": "89f3155913d22c2a8355cf685be50bd811fc4cd9448789497efc8615c58a4062"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T32-s42001.json": {
+  "original_result_sha256": "4f82ce8e35eaf6b3f4719b6a04bbcb09c087fc633295cbf4a8975a63a4722d10",
+  "sanitized_result_sha256": "bed32f863a9e9b9dc9a428a35efb6548674608bd069126a09f0bb0ab1ddb1bbf"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T32-s42002.json": {
+  "original_result_sha256": "24c6fb391baf9391b0dff2d18fd8dad44e749dddc4332358e36f1003e8ceb4d8",
+  "sanitized_result_sha256": "c73dbaaff240fa9579dd3e3bb969ad052b1932245df004435f1aea1d6b688ad5"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T32-s42003.json": {
+  "original_result_sha256": "80603c2cee7116b94d49929b08778c3ec24fa784d20d1773d95d7357fefb3e74",
+  "sanitized_result_sha256": "dfa13698b3a02f5bc2a1134b4c05ad49b889dddabd0bd4751c34dcc5f7ff09ef"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T32-s42004.json": {
+  "original_result_sha256": "ccc394be37f296dfe815342d06504935512497e53e21d4822b13db9c590c3b0e",
+  "sanitized_result_sha256": "2830b55448b3741f328e6983128792608e55b3c4b7f9a5cffa3630a0b70fc803"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T8-s42000.json": {
+  "original_result_sha256": "7b084fae98bc425971c8d021f2e08117d5bea4d380870dab68b7360b02f0e201",
+  "sanitized_result_sha256": "ce6761b14e1888eda8c773d38a1010893b0bef26f76c06e80cca11f44aa0959d"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T8-s42001.json": {
+  "original_result_sha256": "73c878ff4947f9cfa6fefe0d5bb33094c10fda8e5a11d15f600dd041cc13bec6",
+  "sanitized_result_sha256": "41c1df979e85f87366be18af6409c69158c48fed2766f6945c6f19772e1de4c4"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T8-s42002.json": {
+  "original_result_sha256": "50bd1d94968db70e5907d4ae5f496ff17d97cfdafb5e9a533cf8633bd781f122",
+  "sanitized_result_sha256": "a11216e50371deb3c2e7eaf4f88246b7af7451e0de6f6efb51c929c9e650da63"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T8-s42003.json": {
+  "original_result_sha256": "efd2027fa6aa96fce2b9dbb4a9e362a14780db9c0c69a0395918338e296aa623",
+  "sanitized_result_sha256": "643e86cff70cd76ae2cfc8c0ecaed6c7626776d1c324ad4c50ebc0488b7bcb2c"
+ },
+ "revision/native/eval/SIDNET-wiki_elec-T8-s42004.json": {
+  "original_result_sha256": "305256ce73e67b9b03be1d57b27b38535cba62a577632fb873673159bf58c3da",
+  "sanitized_result_sha256": "a65303512f393af95117c8b17aa06f157fac80a5645ac3971ab1c40d2d5a80e4"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "f3ca4139ca1ff2f92c1e9790fa16034869cac2ce04cabb45d547a90e5f9aae07",
+  "sanitized_result_sha256": "12d2a4ecabfd6c4fc8be5f8dfdfaf25c331c718002b7fb9de26fa2ca5f55f83b"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "884131838713ecd0ea71b06a8f96bfe88c3f13a8784333b642f6a2141b14ac05",
+  "sanitized_result_sha256": "15ac242bb3266cb4a2e4f65ca2e738940e05b30c7cba663255b669032cd04144"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "f5664e191e216ba75aace16ee583386e5e1490a0119793996ea018c2da463bc3",
+  "sanitized_result_sha256": "114ee081309b9b04dc8c688cb8eaa1d944685a7468f71d57c30b75521afee46e"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "153267d28d13e0d698866207cd04ade7cd998ed2285a6d0d12832978bfc4c96f",
+  "sanitized_result_sha256": "7f51132bd5c8adc8bb6c2b6c30ff8d5093291fdebece6d4c3ce5abf3142b5a3c"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "d371bdbb644385f07e7abfd88ed1977315190986335cce7fb6359f56cf0786e6",
+  "sanitized_result_sha256": "f0cd70d15bfee4e42a75bec1d2aae4b9da482795df406fd183c72b446f3e8b92"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "223a63d51e8916abe79549d5ba4bc35dde111361df75dd1082063ed923ec941f",
+  "sanitized_result_sha256": "9f053292a1e3247b1c52cfbfb0ef9b54610a93637ac2b2cffb0fbf483ba38176"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "b2296f0553b117245ecbd60119142905ac96e7e3970a91174a505b006d3ba2de",
+  "sanitized_result_sha256": "6ad633fd85a05cbf83e717e27ce5a9e0e08efc3da73b53524a113dc369908443"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "308fd0602fe0c2c80f26a00a75e527aed05680db9b9dfaf1d6cd69d94bca41e8",
+  "sanitized_result_sha256": "a649e38776ba87373268f0f73cac5c139ce26979762d8901ac967b47236888cc"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "aa0b2a752ace414e0c867cf472483c69f0f8fd9cd4771bffcb9a94321ba953cd",
+  "sanitized_result_sha256": "34f4fd74a546973006faf2fbf7bf0f1b45cea1223c0f88e66b5b4276d7225889"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "687674c5507309163f8e52cdcaaf790521dae585cc5406cba3a17a93a1104a71",
+  "sanitized_result_sha256": "14b2206a7a759d58c353624d1c9e5e972865c90b6659765b3a1bb08c05bd97a6"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "05bfc65cd5434fffd996cf46cdaf802dcd67bbf3bf6209e32e8d8b7f10a6aa59",
+  "sanitized_result_sha256": "8bff93e209eabcba3e6a4d62df4e0325538728f015cc035cf4070d1688b1a371"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T2-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "3c1831f4e288a47d8bd7e727afe82cc2dc746576d5314e5f61f286b4c3ae6583",
+  "sanitized_result_sha256": "bc590ed6b9fca952850a938dab844fd89cccdb5874c0ca87d3dc67c121c3967f"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "146befb688da0c40b4ec4df641155b3ddd8883d05ad68b3e62bd1334e354c770",
+  "sanitized_result_sha256": "9cf3933860756b3218d046273d9e521db6762781f906470a8bdeb81e83289988"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "e0f0955b076f9b0e54a1eefc838a6ba37cf346a45e07b1512aba7dc0d4d3512a",
+  "sanitized_result_sha256": "d985d1e9d83b8abb46028eedb564ccffcb42ffe7e27350f3de962577d18658af"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "0d12d8d3a8c8dd28ddea990ad7fea24cfe2f839584048d1a01d88e2f7e080a31",
+  "sanitized_result_sha256": "ab934842f2f980c49b582c8f48a5cb69a4a62e77c5105e6a63c6eb1595aaef74"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "914ace60191bbc15c4c9e01da563098d414cb20405c667453286fb5ba1b8abf5",
+  "sanitized_result_sha256": "cec622ff6b320a6da834df029637686c43ae5e006105d4dc430c7a2250756848"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "c71c3e3b5ba9fe1a708dbe615f2b3584600bf95f0cd3b45f03e50a1b2d6d4fe4",
+  "sanitized_result_sha256": "bb88f966be19ec70b7d57c6dab28b153e102358c4acf82e42393d08f42238475"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "180071031c8f3f07d5f7199313df8551a11cb35d6eab90c66eaf382557e830a6",
+  "sanitized_result_sha256": "5c4913531ca6552b1098e3729419de3154df438c990a28cc929ede19372f3409"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "ae245c06d67638b9c7940f407ec20b5dd68f4782f1deb2aecb0a107470560fd2",
+  "sanitized_result_sha256": "ad1d902d9c0b3e6395eeb764432ccd7751f989f2a46c1cb21953478d35b7ac7e"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "740effd45a8bf3efb8a8bdd0e69e51951ad1b2a0b5b624c549ce2fdf2bb8a972",
+  "sanitized_result_sha256": "4a4f95db874a3604b1ae4e31aa8bafb7d505ed21ee400c3354a071ac538781a5"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "7f7f30373be470f6c0513bd9268e8ab7885bcf58b0044f3e83b06bcf5f948a70",
+  "sanitized_result_sha256": "84b4c863ea84586ecb421c404748c3819307305b5b9731192adbabae61b35310"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "6d35ef4405e6ac6177079db9e8530334bfa9ceee23f058a502c0b47fae41d943",
+  "sanitized_result_sha256": "aed392d965cfd6e3068ee19ed3e9bb785c86529dfd88d56048ba8c6252c77596"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "0cef655a2151ba5366b7c7a7f22874b1c3f34cabbed51c7ad864b6b2fe5bd6ba",
+  "sanitized_result_sha256": "7278eb6268611c4b22035377b52029ae52116d514904905664c618ae5c28292f"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T32-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "b4b37732b508c7d98534e23c07914af749a716fe7fe69ff2acf4688dacc4030e",
+  "sanitized_result_sha256": "9b79ae46cc555a33cdbdb238526c66bad29e6e39b34ca1f47801075f59dd46d3"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "0636631ce9813ae2936616c50941efc9820a8c0d2b3b0fc237285a875b31da6b",
+  "sanitized_result_sha256": "01eb537e54ad93cf350beede9feaeecc11c384e88f4cd2ba64e806db65b5af84"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "9eaceffcd7350cd247d60b7b124fb65c8abc241b8ad737e0da7b809b21ec9a0e",
+  "sanitized_result_sha256": "eea479e25086a0f75b283f2f1c205a38e5577706bf5834130c8d46858563800c"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "904d1d1c297b2ec36ce0f0b487793c33c1d13979caf227b938a354fbb6afbb2a",
+  "sanitized_result_sha256": "cb58289b2c528df14db4d4a0e5bdcf48f66a124bfffc26cdc39da8950ae21679"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "552c77f9d640a089e430f97f4065c0e17cd1ce8167dd9ab9a529d1bf081c017a",
+  "sanitized_result_sha256": "eb6bc346d074b2525eda95be75f370f86d6a8ca00fd811b6a1b263085e604647"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "b2591e77052238e75a34c5e7d6048c92098462db8d1c4540c81b421ae6ce47bd",
+  "sanitized_result_sha256": "77886bba236546e9aa3a8f7f6208bb7e75eda95244a6060a1b3d08998968bb86"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "65f8d5746b0101088086da89196451939ac45c2f0fe6340d8caf2259a2901481",
+  "sanitized_result_sha256": "79816ed89c3bc1b8ce8f7569b857df4d819cfccce685cb46f99814dac532b629"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "6e5136095cdaa38f6bdead4a47501f85f139ce4870d77f5668d07b52e7c35005",
+  "sanitized_result_sha256": "f1934fb20b7e153b26291f9fd23940e3b60f26734d38f1cbeebecd90620b7267"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "585ba02237ba96b974cd6d01f71114ff2e75b9fb28a4dd343bfa698738e40efd",
+  "sanitized_result_sha256": "6df09a7dd703ad71806f40fba04b4cf9b8b16b5232c5671242b66dfcd245c4d4"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "390dafc610de6af00306a70dcc365b47c82d8cb84c048739d7a8d1789845df1f",
+  "sanitized_result_sha256": "f0bbef77f13a636dfa585be42856889ab39c04c718724db2c9c2adc9ae98ba93"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "219c4ae563e5cb609695b197ba757c2f83df00ba66c0c4b627c3c426f2052139",
+  "sanitized_result_sha256": "b43ba4add9cee3aa5b5a5e9a558ddeddc3cc21ce0dd0019412525e0e5e86db0e"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "c00bb31ea187b68ad6426dea6217012f5810fa3454e043ddb17de1c463e5bb23",
+  "sanitized_result_sha256": "41e41434c9ce9359d0ebe4ffef16196de89c427850fbc53489eaf0cb62cf7cd2"
+ },
+ "revision/native/tune/SGCN-bitcoin_alpha-T8-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "41512094777ede2cce9fe033694d1c9beb7c11ee9ead205c44dfbc6a5b3f2eab",
+  "sanitized_result_sha256": "5f9676e684c6fc34cc4e7eb27ba4732896b29563755a2492f3ad99d4e27cda73"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "3551bb43c360d67d7c77f2f649aa6b4a52d1d68457d8c746cc07cfeb3882da2e",
+  "sanitized_result_sha256": "006261950ef9a034a56e7518e7947fe01d0e59dc5a8b3ba114f60ceb00ea6edf"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "affe50827d99b523c33e124102a3fc4c2f0e05b6b3313a26045b9c01cd0eee62",
+  "sanitized_result_sha256": "a9434c9c28f2b403da56eae5b55f06a6f00b218e0e76bf09beddc0d5d6076bb5"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "81055737db5f5c04e1787cbf3ac39f20213f16db8bbec44b93191159a6dfeb57",
+  "sanitized_result_sha256": "e5ee5c30094f197be770e926e72b56e59c6dafa09bb621fc776bee52cef9466a"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "ff4d30c959661478091f2c65fcbfb35e6324c65e1183cefde7fceed248afccba",
+  "sanitized_result_sha256": "4e68f7fadbe941618b56534a0521e20171fcd4beed4a8027f8b42e7990f275df"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "9288cfdc9cc0583a8e51bcc0ebf8f4cebcc9003c3b745b681ecf14290761c20e",
+  "sanitized_result_sha256": "95e309c9100b6cbf602999bcbc8be765bbc638e594f207cc2b528c8bdfb1f078"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "58b28e0472ae5fbb5490a2f300f7d25fd3f00545150a62145c5d3faf1fbff1ca",
+  "sanitized_result_sha256": "6cb32d7d90fcf1ac801988a89c8577354ca35dfea467ec6771e1f0b78103502a"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "d5771588c86c53129dd93615adb8ed6c9bc043a87e147fe10df7afeb6d28f47c",
+  "sanitized_result_sha256": "731546a546fbf4b2316e48ef4dec8d39ee120b5cf5d77101564b3e446b14d832"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "8098d53cf6d6f80b9fdae71b222b455d8a9c242bf342be7bb7bfd54ca7e8dbf2",
+  "sanitized_result_sha256": "1edaadfa1a5eeaa53b20494c6a9e35d3fef61e35410d83dce0be7bbbae12049d"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "5e140287b7e7d7e86b3ca63f2a0360f78b851139111fa08132948b2d8167942c",
+  "sanitized_result_sha256": "071e31def2e5f41170658763ac5aeeb95646939b74428f6cff0213b2b54bd8da"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "babb75bd277ff1e2d38bf769c1281cf2bda479d4d2718b05b6eca10014713bf0",
+  "sanitized_result_sha256": "72d3ebb1b83e382105a100d2b16238b9fd6b9e8019b1869ed6d143b1936ff86e"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "5911dcdd0bc09b8d994c7f1b7dc18eb2e4005a170fb36eac124a4346ff8cc800",
+  "sanitized_result_sha256": "219aa1159365c99d075ed9805a00578bfe8476abc340af7667b2818049239523"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T2-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "8be18a0fad13588032db64ad2b3050d9936956a7ed129ada2abbcff08a1d71a7",
+  "sanitized_result_sha256": "11df005cafecd7a1372912757a5900741ad5b5ada809c489e62ffc7c6977f25a"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "bb54d9ec513403aebde89682af505659de78ee01203932fb02561a53a3ec65e0",
+  "sanitized_result_sha256": "61ecaaff4edc1176dfe7e8a4a1f51572ccfe3f2b160048ee7640c8bc9f412682"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "09cf4932e418dd6e4585c85f0ab42d6bbe9f7fd0e5fb929676dc039b928d998d",
+  "sanitized_result_sha256": "becc640595d896d744f5a9d1a93ea0fe40b7a5b2bc24781b41062db22d5a3d46"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "12806a6cf9158c36bb734bfc9eaaf2ff011002921b57c5f53827677598de74a0",
+  "sanitized_result_sha256": "ed746d65b522ed0526c4c0325c5b1a32c86487f4c03fcf095b6b712835453c18"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "147772fb1fc833c540a95923c6a25004d089d68d3fec540388424886976f5106",
+  "sanitized_result_sha256": "b1fb9fa18a76039fcdf79d72563ab1717d1b614e149bf2b038acabf40462a764"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "adc0adb3a9693cc761bf8deccbf3304c6347b7ad6656640c1b25ff2558f70764",
+  "sanitized_result_sha256": "e8b5ee38397b6a210accd79c4f035ff274078786db63022952401867ee1984ae"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "0dd894a0e3e0a3737757799849f7ead112da2f5d389ea07310342a5727d9cee5",
+  "sanitized_result_sha256": "8a9c61e6435bf3c9529fe3363db01df30da5abee148ddd20aab21e0ba7282e55"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "85c61d8f733266163f2a9c6c7debd7955d80da187cdb1b3a6a9c33e7620fac80",
+  "sanitized_result_sha256": "a28a18bc32511170fc525ad824ddc62c6883f3583795134a27b3fa73ba9b85de"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "ad113c75e896df54074a12124bde66059b44930605044aca7c0c717207404567",
+  "sanitized_result_sha256": "40657b73e50ec36956a61aeca15712ae61a31fd7cf5936a23d578f25a77b9297"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "764d82b892a8c059b7c908e8313ef7ab1d35c5ea4d5f5467f7f95ccbb1aea9f5",
+  "sanitized_result_sha256": "3640daf04b728697d5275ad4b7c7f19fa81f41a31430f99904b04f32df2f27c4"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "5cb68123813315c3ac8a148bd7115df72d82cae5078495cab6a74b6e3b726cca",
+  "sanitized_result_sha256": "94a9da0e623da0c4b3ecb41ffe3980eb3bae9770462c0fe0f8bce3427a59cb95"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "ac951da8ece48fee1c1a2ea01b61d4ea0e1a9de0a4dd708e576ba3c543cf2ef6",
+  "sanitized_result_sha256": "0b3ffcba2aa85372e8f4a5654357cc0843e93687fa832b78abc70a050e9d308d"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T32-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "eb34cb2563caeb01e0057cf3c47ab02fdfdfaac769e4e342fd446e6ef0d886cb",
+  "sanitized_result_sha256": "fe5c0c78c635edc498e46b6d8588acd1dcefd09f058ff1c27ab4d28900cf04d0"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "6ade4531ea440fa096674e11532777ec30095fcc74ee3490e21baacc03a781fd",
+  "sanitized_result_sha256": "4feeed5f40d8567a8a520711110949f7278328cb7b2c76dce1389c175afe75a8"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "c0f019258e332dbbca2724d8f901ec91eb3c4e7568c5c2975232c75915ef19fd",
+  "sanitized_result_sha256": "a7470f47def3438ab7647ca7b1cf8e41168ca0a8768121c335b8c129785aced6"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "018c2f43de687a4b02f89623689e72352fc1c72bc931eca3cd9a1433420174c3",
+  "sanitized_result_sha256": "c817638bcba28a4700e3d9bb7aa4409d9d006bd0de0836941f0a8ae3a0cee049"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "65b14b96bfe4d5b65f75793600fe64befa59ac71f4c0a0ac01398bc46705cfb9",
+  "sanitized_result_sha256": "e6dc6be5bb823649459e65ee95e3551d0482937e32b50dd8dac998efbdb7a986"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "06077262a4c1679527575293f7b25c514ac61ed2d2ae3f7b3e34352f05f01532",
+  "sanitized_result_sha256": "ea672291251940e5b37c02697d7476bbb2ad844a91e052958a5524fb66c03b39"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "1b32c6a315c5b991863bfeee916cecb20027696479a4d864ad217ca890620812",
+  "sanitized_result_sha256": "0ae0791c5cba1124e86ec3cd3d00d24199f827f8e55704e08b475dcf56cac63f"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "70a75128c5314b5cedbc548f38080569cda7e043022b5fc14ed551df1a205d02",
+  "sanitized_result_sha256": "cfd9ef7ecb8786b4044f58212dddade204a2e39bf983dea07cadddfc8b1486ce"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "c4d3f835210d4c7d73400179c7814c390342016ffe54fff86c380237dbfa0d29",
+  "sanitized_result_sha256": "06d6bc628f484695b413d931b70dae93640e828553eedd7b3fed4468e72c20d9"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "522427f9d740a00125ec9dbbf52eac7153d3ebcf3554224e462a06b6f93b98b8",
+  "sanitized_result_sha256": "83bf818f3f5486c5dd15b2a482843ca1d001678696099e76ea1b92b4a1997635"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "617920cf7aa5f500716adc60624b2b654a158f4087e92d007be25b80c9a8c6a4",
+  "sanitized_result_sha256": "ed491857892afb6ebfd1ae3c37439250c8baff98670b5c395c99adbd2fee8e82"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "fae522f3357007cc7e76237e80e252d884565c14ac185644c94d3c6825292500",
+  "sanitized_result_sha256": "497fb3e73fe3986aa6547a9a5557ea6f3ff0144d1204db8ca6e949f490352701"
+ },
+ "revision/native/tune/SGCN-wiki_elec-T8-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "9fcb85ac55205c19b3c97f2be16d52144103169ad1b92bcdd6a8604c8c4eeac4",
+  "sanitized_result_sha256": "292a677beecafbe2da70fc4aebea5fb9f3112a6dfc5a9feadf645a4707a71795"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "9f42479d049e5cec239acd801f652ca3176899f9bc1596dcd3298a500283656f",
+  "sanitized_result_sha256": "8d972906dbe647dd4362eb6ade9b82cad47471008831daabf8bc07b3ab30c9ea"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "c779debbc534d13fea4a2100ed01ffb3e0d01c43bf8a9d70b0fcd6808091148b",
+  "sanitized_result_sha256": "e3ac09e516f243acf6ea7b1d5fc09ea078b0b2826c4b9beff017c44839ee76ec"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "ddb665d5a056083c33b445a89b4c964e35bb9ee49e20557e245dc2d74aec791e",
+  "sanitized_result_sha256": "982a1d85bb7bf3cd8254b3ae76ccc04ca9167a9967c6b6ab2d50d5f1d2f3a879"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "d3e18ee2ac2b313fbeb1a646f08eac644a3db5d7a53c91a2a8abbbc0f116ab4d",
+  "sanitized_result_sha256": "689fa04aec65ad06b2279e0f6f87d2f4c4c8fd1e683b00aa4a83443f5bc341ed"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "65999552bf2d566fac6b49f4ed3fb32e588d716150560e3f90e805a8b522e17f",
+  "sanitized_result_sha256": "899bcb58fe7946a2a26630c993d38e02b2b960a55c9e7a6eb922835936cafac2"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "bace8a6e66cc927f94e1be50e282d4c8a3ee7c2ee08ea9d3ea9d90d3789e97ed",
+  "sanitized_result_sha256": "82f6e8632b4ba901691cadc387f7f1ffe6fd5e934afadbc7a41305f2dfc83c2f"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "f695d50ade1fd114c11c853ed1c284769255b3323873c4903adc43483a2be435",
+  "sanitized_result_sha256": "1b6a1ca818b9be4dc186f55413a95ac2ce918e2fcc2332d667b5e19291fbf8b5"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "545d0e56d0b4706ee19488ee72070437c9f7fa081f8029d18d3e1bc39d5db821",
+  "sanitized_result_sha256": "29707c8113c47951e16bf21e36ab05924caf58cba9faafd0b9cc13de26fa6118"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "f8b9428bd467298468eabe8792f113958f988500a6a459a3cd27d11bf32a9b69",
+  "sanitized_result_sha256": "a655e48d84f42ef40dab70327ba56fb5c4d69b36aa4cc68cef1341fe7b9fbe5c"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "0cd32a884e11f306cb2756a6a9f66b3c548287b799d7aa3c3d445ac62a09ab9c",
+  "sanitized_result_sha256": "1ae84a94c48f683c677edfe9d691aecea5d176846011963451f25f19eceef09b"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "c0f727b0390bc68794044771f5c9347dbe8ecee7a33001837d90631be8f3266b",
+  "sanitized_result_sha256": "be7d6f44225bf1b3cc7da2e732deffe4390c7b8f67c99848dd011f6d1145383c"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "b24d64aa4b1cf4541a4fbecdb7136e52f944dfa39c723ea533b70229a61814d4",
+  "sanitized_result_sha256": "974d7e1dce2e677eda067528fb16abbc1a935a6ba199963cd76960e4e765cdaa"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "c7b2cae2cbe9003df0fd16b4e4a7e184ca8b4c44242caba832291fa0a8b23f35",
+  "sanitized_result_sha256": "ed4f1d368020be8a6572b5e5eaac69b22b34d207007e070c0f1ed7c6f4e1bfe7"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "e6fb78072b1d4279a7651ee7925880e64d47f0686cafade80cbc74622ccd4521",
+  "sanitized_result_sha256": "0f57e960d3e0db0290789c0d171b15b218fe461f469e87647688813ce443500f"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "2dcf8277234f6ed0958402a569b3e46dcc461003a992a05e73156c229989cf5e",
+  "sanitized_result_sha256": "fbacfc81ee4cbc1a051f043aef6f1d358f0d6d914b63ea64a7d844cc167bde45"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "54252d1f41b5c40b298b7523226251355409f0f9d71e70a871deb6eeb2607f17",
+  "sanitized_result_sha256": "caebbd1ce3c2d29ade675eeb40d99940600997ac66fb152b47542d9be611c88a"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "845e0471533860c2b95f6ac2d1be214c80972db6a97e83411002d6ae113eca01",
+  "sanitized_result_sha256": "262a87702980c7c631697bca7b33aa8f35f1123ae1eb7d91f636f810ea46b589"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "c469e4de8366e5c39f0a5b80b529fdc1a7fe292973fca04633e94d41978e5c36",
+  "sanitized_result_sha256": "c65fc65bf89760b69027102ced661cbacc702f0084f4d423b0c0ac56ada80c9c"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "b8801f7d3787287bf562445e267ded3525946f68094cc73f050093a61bf23f8d",
+  "sanitized_result_sha256": "a93b43f9394a5a3ce9e8e758c33790c3ba10113193010fcaac4c8eb59c191912"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "f66a2b00bdf29f6941923b6d38a763e14f1bbafa0cc0c635ff6b5244af6d3ee0",
+  "sanitized_result_sha256": "3a5eb9308b6e7af0436f65c39822f259527cadce25850a8ca8ef4ad9d1ba16e4"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "0b67e238d4f8460c792bd3f8b165bf39afa6b6f2cc11261d997e023fd331c4d9",
+  "sanitized_result_sha256": "2dcceb3b3f32cd108069de7ab7a44b23d034efa7ba3a87e554520ab5f9b2837f"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "435277f00a26ebc014d031923ff35607664e4689296584b71932abe6f5deb66a",
+  "sanitized_result_sha256": "a5bd444c28afb435f66426277724eccc188f18fdc9915fb43d9fb3b69f8bbb98"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "2c01b755a8508551a9cdc1fb037a429cf45c2a9e3b9db3e62b7cd204463a279c",
+  "sanitized_result_sha256": "89b9309ff085557ce0b150b4721712d68079d0c4e3409bcf3b98abf96c314108"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "7bfeb4acccc7cb9d6c73d4ba801b935566efb5e257177741d8d0305dbebaf873",
+  "sanitized_result_sha256": "93e9896399982ba73ac2bf88650f63d0a5ea6fa6161ab84a6a6e0d736b98b5c3"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "19b23919833eb08329f6d2034246196540ded5fa478aae0d99b8ecb78b30fd08",
+  "sanitized_result_sha256": "890c9363e2994e8e4e87069ed61850f478e65a1bd4ba4193cd0c1528af5ff640"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "ff62c9cad9475b90c317da87c7da6ef5e273aa5f86373665ace27ffcc3860f36",
+  "sanitized_result_sha256": "634c1b7307f459bb3d1dc1ccbf02accc147e1a95a9d8e9ae4aced9d3fd3c2e3f"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "90b63e2954c512267320e8fa535204ce7938c37599b648489cb383bb032c9d44",
+  "sanitized_result_sha256": "a521c0914b78d535e376809fd290e519c48a318dc902b90366b27f33d1faf66e"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "29657aaa121f0fe795fa6c86441145d729d7660af1c42fb5edaa8b2d4fd46242",
+  "sanitized_result_sha256": "26b460809931712b05153ede6ec2c30bb47e781f290b1ea5c05a1d6b64feea78"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "b8a840bffc080a68b843073d2f61c3d9a424d28f1e4001a6160ae184aad9fad7",
+  "sanitized_result_sha256": "7e72914034a4a23111a208004f3654296873e67dc7fa39b662991772c1b83987"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "3fb6a554520f5baa7dc1392dc9a4b85079bfc401ec440bbef79ffcd7638e7ebc",
+  "sanitized_result_sha256": "e993e7fdc3e03c55e7b74564067deae68ba32e9e5aaaf4f015e9fac6c0e7e57f"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "386e5825e9af248a9bb624d1e3df5c1c0ae27ac8a2eda91665f6a473e6663d76",
+  "sanitized_result_sha256": "dd7a220655c2d15de91972a1dc1a053fa1657a999f6145118e821d76cc3582e1"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "14bef565c86680f2bba44932c98b6864d199f40d711ac50354652581ccdb9828",
+  "sanitized_result_sha256": "efa94c52f150407cbccd8aaa78e9eb2a2fa6c9ed5464d16b75c779bfa233989d"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "0892c213c84b8d8639957a76f44fa49128fdcce871a3f2f8c3c09385cddecfcd",
+  "sanitized_result_sha256": "ba2761b946b5da45d8aaf78e4ad29c3c18af5c62ae31d00d90d0b24176d7d542"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "0611a6caa8102711cb2f4bfc8c870ead792c21b7f52f994a13cd29b2a348a3e3",
+  "sanitized_result_sha256": "16a38162d7a5ae2ab79057ed585ae4c1148d57715ef10e3f5eb6dc43443df44e"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "0f12e81a1048f2a673984368d74664f688d4ecec3f5332f3d665ed6843749622",
+  "sanitized_result_sha256": "f5eebd43df23e1153a25b1dea8241d039d2c8ef980d1b0bb1787de82dc429927"
+ },
+ "revision/native/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "f872211f29c528820bd7b24cd73ec3352e7d080ceef1fa1ba0ea1bad2c70922a",
+  "sanitized_result_sha256": "7dc00977b8bd24c3657e4a31e83c164a5a07a3feed466a36542b148d50fe1ba2"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "f2f7ecff846975d21a192e54dde77bf02710ac9e82851d8abdde5772c404db8b",
+  "sanitized_result_sha256": "9231df1553c6f47ce22d3aa60ed6d45f005967fa86decbcd2264879749bb27c6"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "fe44888c36ecb248ef4b010164842a967da07fdbed5e7261ac7a4c093bfdbdd8",
+  "sanitized_result_sha256": "2877e1344f6c2a29a439e04e16c4a9e1e7ef1a6bb6a90e213bf2382ad7825188"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "0f47878a1b19244647bd5ee3571c4e2cac3deb31b279c6a90ff29a2cbf2612ba",
+  "sanitized_result_sha256": "2965cc8bd770f046fe7dfdcd250772df69b9a997aad90d38e5d8344a813f2928"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "bba845c37f21d633e0433c72a2e5af40b85753aa42c86a40422924fead90475e",
+  "sanitized_result_sha256": "f5bab3298d53fd28b723384ff59114389b5ed6de7faf29a3c46bbafffcbfde00"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "2d508a1024fcd8dfbeaf8170aabd06a1aa96122f8ad6732e9122c129c657e6ca",
+  "sanitized_result_sha256": "013cecd7097764670397e69c5ff8c1892d4639fde50be88739b90d8e903eb057"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "05ee7b0467b894b3d2a648aa986537e71bff98bdd3289f9a2e4953de316c697f",
+  "sanitized_result_sha256": "9cbcec90bfa910005c1717f2929cba87efcbb1656a4c0a3e094e9c72dd47017b"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "a9d381e9f004fadc8dd1db6104856fe3968d80634053eb2d3d1e4c34da9be9b4",
+  "sanitized_result_sha256": "a08d7f4e95fba0dcd8e8823c6309d58625b4de0e941c26028bb50ca96178f924"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "02c0a5ada335e25da0eb28f0311a088922c933ff01e390a3fd91e0f0552fd377",
+  "sanitized_result_sha256": "c31868657be79a6d4488ac168018dade9435069786bf5f5af42315b9a5882f95"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "4537e5aea40a38d994432b76255076f1eb9c43a231a81107f67bdf0a511eb5e4",
+  "sanitized_result_sha256": "6e3893c8bccc4a97c8a9caa08887243d862ff0372ea08e5451ad61a488142bc0"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "4316fde4e226151ec3903e569497cee25264b2a316caab2fac9e2f343c226db9",
+  "sanitized_result_sha256": "5a245d8ad44bc4c87d0af14287ebef6b7374226880f1e621915e5ae027eeee10"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "1ea25ba4c9aa52dba102e1df804f03982769ff616cbafa257cd6d9cc66434b45",
+  "sanitized_result_sha256": "7ae0e4710bd722b1c3c0bfa8f6d5a73dc6b4af609abd3b69e09ce6663a9238c4"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T2-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "b35fe56f10d31eb1922a384ab34a86066a9ce1f015e2573f2f210aaf78ecfb60",
+  "sanitized_result_sha256": "a46169faa901ac38bdf5fc1a10c6f21bcb099f4b7213de11ac5c68fac0ee40c1"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "26b8679d65785ea1ff89be85356ae9bc5f0312b4060371b99f7f3a9b41822a8b",
+  "sanitized_result_sha256": "f103228ff5637927eab442d3399551eef00396a1752b6fb3a2429a3dd387bae1"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "baaf2f70fa35072afe5101c76a439bee9ab857c9e3c50662dcf0d1580da4a6c8",
+  "sanitized_result_sha256": "c72ba949677a21062b85020f340296c472e1b70e4e6b01ad4d9554c13fa71f68"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "67ef8a1f636fab9fb690232d4c6a0be2ea5aca8ccf2d0c8f72d2ba7580b4c7ad",
+  "sanitized_result_sha256": "4689ec550b1b5c7a11be9e81353bfff44c7d49b56cf812b9654fe6f06fd18575"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "8dd864f1a9dc8cb31a32a6e8e817ccdce8e3f9cc04183234ba9ae150f6bf5b08",
+  "sanitized_result_sha256": "77cb0940964d2cd84fdcfaebe92c65618b21557c129343e85ec7e5454a8e08ab"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "8335a90074ed026745bd345753592df40972931941eac701affac3ed7e41b2fe",
+  "sanitized_result_sha256": "c50414080de109f2644b5f69ff81a5581634ac6b9df8632424eb4635410b3299"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "b8fe04c18bcf0e224e30a6a9f84172f1ffa02cc520b7d3ac39d2e27224daaf12",
+  "sanitized_result_sha256": "782438e0bff25c3e56e97b60d7b02a97a250155737043bba2e4142034525c45e"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "7b55acc32df27110bccd00cc5d91a645265f28341bd35a67e46c69c90af336a5",
+  "sanitized_result_sha256": "64bb6e2528fb7517cb304dcb47df711eba3b6eb33d5b8daad6a96758a6d394ed"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "682401f80a73e3e7bbbb6256cc248c537278efa14e6e3ef4c13a2b444f772ad4",
+  "sanitized_result_sha256": "db09f25ea3c5d37543e4bbf5f24c8a2b1dd72e7e68efca2a78bb93934763b31e"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "278e1979dfcd706897aa7d04193c6d524633b23c18055507c339fb4df90ba365",
+  "sanitized_result_sha256": "383de55c82cd0f0998b5f476be490129557c0517ab7fc45ff0d6ed7ec55abb71"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "1e4e2fe555e2e01d95189baa637899558c362d98cc57a260b536740b5b64ba51",
+  "sanitized_result_sha256": "7c02390c753ed093bc62fea612bf57c58fb94c1496987f4d1c1ebff82a8b7587"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "36899b8895e17c783e1ceedd82775868fdd2a581f49431b6874af38ad9b2cbcb",
+  "sanitized_result_sha256": "77816ee05d22f724e4ea2de3ebbd9c780f626c3d3154afe60afe70e71db894dc"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T32-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "c1d0045906763722bbf9234c76add84309f803b5e191db418aff0afe61e4004a",
+  "sanitized_result_sha256": "826e52bbaf6ce4c9cfca44d734e5935c01cc24a5b04d1f4466d0251490acdce3"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "68aff557eeaf069116a1fa94badd37af6cd444e5f5c7594e45da1e157844589e",
+  "sanitized_result_sha256": "ddebc1394054a6835fe7792ebff58b6a93bf8e9f88512a7b5be23aa25666083e"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "bf4dbb7293b392c802d5e189b122596c864d02aad203c868c000615f058d252f",
+  "sanitized_result_sha256": "7b7e20791677f86f3272898055a92f0db5bf058bf149c2944206715fd36557dc"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "275336982796e7471f7c1d566d0efee86aa705ca2bff9257d0006495e8e8a220",
+  "sanitized_result_sha256": "dd84cfe3fd5d15c99a4e2d7d5c95c4257245c224adf698d74a7825dd64f6deab"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "503ac6f3d36f479a728ed5364cd22acb7db95fd99b0e98a55c1dee7dc862132e",
+  "sanitized_result_sha256": "e4a1894f40380923f8d9b1db1a3e7f385d292e77d4b9161ad5148784117323df"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "f003f72b8fe6f23b17df061e5d92b482c05b4587aa2396402311bba9361bdc7d",
+  "sanitized_result_sha256": "426291b6d83752d974ccd8d7a1c3d3da0d9544cd03be2b1627400e290c388357"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "986332426b71858ab7c6dce3f885ceb8c22453889edf371d91d803a4be52a8c4",
+  "sanitized_result_sha256": "92a41ae59a5cb3133df6d6d34d5652e6fe0cb6529132f9468af0f4b015c3bcb8"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "04df9e3b4d74309af51a552e048cc0e76798fcfaca35eea503544ba8a2946da7",
+  "sanitized_result_sha256": "b86c13cd5d75e2f2407971aeed597c38b995fce4c3fe8afa003814e09f7b85e6"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "82adba4dff95c9fcdc8bc1eea5f2f9b9b267ed4447ef5b9ff0d833a7b860f08a",
+  "sanitized_result_sha256": "6681be059b11c87f83b0744612d00b185755e4ebc90ef6b9bb6ad7b2ae2e9eb1"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "39e2f04a96a8d535fe81786a8c63782a7778898e28ebc04007ba2e227439c780",
+  "sanitized_result_sha256": "0bd3647a757cdb3b032daa81ea572b2a953ee933c0231bd370f2a14aebaac2c8"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "b01a26f25624d17e9c8b3df7aa75c99342ee35998590ac9b21b4be462b6bf84b",
+  "sanitized_result_sha256": "fbee43342ac106615ddb431af4f545a3c16892ccf257401cf96249dbaa3beb6b"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "f7331f3c35909e32b8f09d4f2aac1d9531791273dda41918c41d2329e9c5e78a",
+  "sanitized_result_sha256": "c2c1228e08e0084756682589f73bdd1d782ca60f7dba511fb174dc032af9f41d"
+ },
+ "revision/native/tune/SIDNET-wiki_elec-T8-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "5362bf0845e9d2f81896c22ccac92877cce6270ed60e3be3206358540aa7a798",
+  "sanitized_result_sha256": "32bf80abf5493f067a7adfc94134781e2d106ac8651a0aaebc2d8fd2682de1a6"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "9e6f88e74e0658f28cb4b45670c529eacbd129743e009cb0427d79cbdf91d504",
+  "sanitized_result_sha256": "b4960db7ac5480eb01dbab35b626e4686b20f29ce4da5853f76a557b304c2e58"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "9e4acc5ff821c8927da3deb4d173b5e4461fc746f944a87887ec3706c76be189",
+  "sanitized_result_sha256": "1fdd11d0934b8b0346259561f788120bd5c4f64721efce1560dc318ac7ebc94b"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "0d66fff26fc116338be34bd9a43ccb12060a40dc31eb4eaf0e057d9669fa38aa",
+  "sanitized_result_sha256": "db1fa61acf5b60ebbc401735d5ec28952710a696157610333e4b23c8575624d9"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "ed10a77256881c3875de5022896576754cdb37c22c2e4dcfbfb1ea8697695216",
+  "sanitized_result_sha256": "7b3c954d8616b4be36d24d3e2fab0291cf21ce46a7e4282503b08abbb4d8ab3b"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "0c44983d26fc0532e1ab208191d7bd4bc43b40cfeb5b6c96d083b53f44a4a90a",
+  "sanitized_result_sha256": "b1da6cf44a9a26b03ff8dd871a4aed134c74ba1e266493363ff6f9041c268660"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "88057ee8a052cbfd70fe683528405548dd24cb096d85325a65201750ef641211",
+  "sanitized_result_sha256": "9f2a7d08c704a800a993974595786071b487d1dd22e9a44d694db6071dc5fa3a"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "5bd9b1e5ea4ade2427314ed5ad62754a041fbc4842b921e260be43279ab629ab",
+  "sanitized_result_sha256": "2260a1e50569783f74a5a5e540426a485347cd048796ab1851f5a80ffef264d2"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "b022862fefeaa7caf6196e4711cc864119af49276da2b36e5e7a4dc1134f9358",
+  "sanitized_result_sha256": "ece8a2c749ad7ac043ff1ebdd378fe8feed308d31aa9b87ca862951f249fd960"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "504fa1c4cc04f7e0b9aee41f442bc116c857624aaf41ea530235d01fe0e8b574",
+  "sanitized_result_sha256": "a6e64e37f28031a4203ce302c163917416c858f7e04ce28d9f9220c53e2a431c"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "437cad4283df6e77e4597f1f43546e7da620aa2ffb321c2d0643f3bf0934ee02",
+  "sanitized_result_sha256": "4eb6a5493e074bc52d605480e18c3b9463edcc990a759071d61dd28bb9bf8cab"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "1ca782dfa622a89247d7fb66ffcac59849a0f8152769990b4f80d0ce4e71d9a4",
+  "sanitized_result_sha256": "e1c21093c054fe9056523daee74d4e557fdbcc7e1c6001cd90508fc30a551d52"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T2-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "74cdd7a9af2a0391e9b43c87b1d19b9e32af35321e75f49bf29fa8ee33e3bd94",
+  "sanitized_result_sha256": "9110058d44030d78cec32f8b9b4aed3879f8f9375cd692997154ff7ae1a80a45"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "33727cf34d49c14038020de341d7b60326e2df16364ce2d77412124d6dbb8f98",
+  "sanitized_result_sha256": "b6ed25210e1a23c4100fc55df129186a147ba8aa997c564a13d302317074b91e"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "20e1fcb7e20d7b8bef34fd4554615178561a8e1caccb891da9950b89a929585f",
+  "sanitized_result_sha256": "29d509d5fafef26a2c068d20b2dca15bd39bc3fe009ed3552d3afdd9e3755968"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "8bf9711ca834af764107139e4f60641bae408be1101e303bd671eaedc42a7b1c",
+  "sanitized_result_sha256": "6deb05f09929c460f9b2788478cd2c50ad7ef9cf018986b683774081d03c564d"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "d974527d8f62c3f41d78a22facf1fe0635ac1e51a57ec75fc3805b104db818c0",
+  "sanitized_result_sha256": "b385c0e2d6f2e430389ce6733d9a69adb67dafa874b82a131e1273a2f68fb7ce"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "34bf8166cd51932c70e0e95e83012073d076bcc7fd18af7474985a8301c58171",
+  "sanitized_result_sha256": "8862dbb11577e47bfd90fe21ee93fbd9fe030403890fe85384412d9be085dd0f"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "56e4784c9592d29434c1bff0f960f2e86fe66d25b7d776330654843e21f02b50",
+  "sanitized_result_sha256": "cb9bfc6b0f416fcbbcb4cf541d23d5214ee4fed57e69cefde40854e7fa1b1f10"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "f9853c249da6026d6d0866c22b66f8c69ef726af0f7237ff7e8a232e5d2ff233",
+  "sanitized_result_sha256": "61bc1fa7a70e18b36be8cc6fb29871303ccb04e2bf73fe76de443fbc858244a2"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "8663425e5e461175a9d460171b5abea70ce398ac80e6376eae026f82196edbc4",
+  "sanitized_result_sha256": "17fb93f6d2101fe3e26f48723b7468d7311f95afe6c34eceb423310d16da8559"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "dcad407ed4c96dfa17927ff0cd1abd048c90e5def3b2d00c766789daa4231c4c",
+  "sanitized_result_sha256": "7f220832822fc69a7ff568345d94b023d397df8b93949224fe9dd9c2b845177c"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "c473d0788d99feb3be7cc8cae4efcc71ea02a158f8c0ba5e87219cc46b038238",
+  "sanitized_result_sha256": "defe3ae04374bdf93dd22c843a231eeb1911acff0cd212eab96536d77992b232"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "d9289cbf785523f21763f480c3f1a41f70d2772de6f8e2342d839ff2b4b75368",
+  "sanitized_result_sha256": "a4cd713a91829ff84de3fcc3f8346ee00ade1147a9e326084a8479a7c6b5e5c9"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T32-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "64969ace5f987d6bee8698ac516c56f6f4884f54c773d443f59183a1136bdc16",
+  "sanitized_result_sha256": "6f90cd14ea4032fec773134e99130ad66b15d045c249a0bbdbb47816dcc25e33"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "249b3961189ce0f298f9fa24d9cff139ecdfa4e1c712c882804f073df7fe3670",
+  "sanitized_result_sha256": "239d6febdc95565dbfbd0b5106fd0fa26a01bf8bfc0349081fef5d2fb154c058"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "7d2ff4c39688d55b73b38a1ba0443cfd1a42b61b2d05dc0af884f89d94b104fd",
+  "sanitized_result_sha256": "920387232085003dc62397a2c254a0247eb678bdbdfcca848efd36be19000dd4"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "7ebcdbc64e8755fa9de13134729ccbd950d31502d4cd8658346b252c6affd959",
+  "sanitized_result_sha256": "f258498b10dcb05ce5be736b8844b4491638954eb08a8bc0dd0e39bb3d8a7987"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "25bd289c208f32f86d11c55875abba3e6c83af9b066f7b682ae5936515b53d46",
+  "sanitized_result_sha256": "7c0e8cc470fcd9872fb283372780bda779dfaddefe7c10b1c19dd1776abaabac"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "19450f78b446d269a66c73f65c96a92409dd8ecec68d77872c6b76c61bf47b49",
+  "sanitized_result_sha256": "3654f1312d815f47e215b08824e52212b64c0ea875065edb3019d76c5458479d"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "6230018e51fa8fc4065ea9c5d5e4df120e30c0edcb70d326a170b40ddca3ece0",
+  "sanitized_result_sha256": "67a20615fa6f4cd442e271bd430cd76c85602b06270a72fca80d033a066746dd"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "afb826b7c0f962b3c7c8b5fa208948a7ec28b9031658b5deaaa194299685235c",
+  "sanitized_result_sha256": "76b9c01beef20c6b53aa1f96109c2646222904e9a48602fb51fe9f8bdcdb58c7"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "d4a894dc8aaa0df8ccd58365420ea9871ce97da27c98109b11d099834d79aac9",
+  "sanitized_result_sha256": "4e132ae586fbbf89bbfaaf1fcf91c88c6f5bd5592b18904fe6f6e2df4c8d453f"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "6b824f44eb12980d1664e325ba63f7ebb77c141d49a9818bccb8589243714773",
+  "sanitized_result_sha256": "37a2ce6b631d57117544282f9e1203a89188e71026a25865d6d8ff5e4d67eae2"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "2bd8331780650a6b77b21c2fa062e1ebc711eaa6a5b2597483a9000f83926069",
+  "sanitized_result_sha256": "43ec790f2c9b4f52e8dbc09e8734b21ec9219dae7198faf374c6d2a376896a8c"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "dcd674e1f6429afc1f3b290436ae46c029df2acdafee29434f615633af9caccb",
+  "sanitized_result_sha256": "8034d261f0a54d24fd8e1e87dc5d44b3f42b28d25ce9e705aec60b8d270c04a5"
+ },
+ "revision/superseded-coo/tune/SIDNET-bitcoin_alpha-T8-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "74be9d184d9e7537cc6f1a90ff5af6181980a01751ec1df320e03b9ec56d7605",
+  "sanitized_result_sha256": "078197cd8d09b1b5a4df1c4d6ec6552e572d3d11d98f6bc562bb8f7ad62b95ce"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "12b65ab0cbc672bd2d55f9fa8568333547aa56e0d349adf4987379c07f48105e",
+  "sanitized_result_sha256": "2a520ec331e92ce80d73e80574d9d5b838f7839a69cd8c1e8968f6fdab8fc449"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "b35021d1dd75bec33140cc74789441115c871aae1ad97cb81f1b6e424e54a0e5",
+  "sanitized_result_sha256": "cc4b3275fe0a7c8fe3168360f00906bde391b4d29e835d76edf28e3c1f86b8dd"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "706563ef307690f6ad9694957bf0bf1dd45bad7c38a1626b4153ef7708e9f75a",
+  "sanitized_result_sha256": "e0d3938e4af5b29b1c3177cc1bf81afdebb5e6ccf1f3d350e2380a9329898e24"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "a3b4ffdf15fccd641188f30749203ce9b9f7539f20cbd4dc5020d1545bc4a264",
+  "sanitized_result_sha256": "89c5dbdfccaa17984ec980b7e3870ca57b55442e1df9a82644f836a4f36bc3cb"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "008fbb14c87e1bfaa8566c95ef420d6bdbb37f180fcf680e8b44a838e6ea6fe0",
+  "sanitized_result_sha256": "fd50a751f3640e7e29951f4ac1f00a14ffedda1c065c5d3157861cdeaeaf7c7e"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "5d9fd945fc672caa98bc1c00f36e3ad08c2d24c54e19625b42273bb5d7144377",
+  "sanitized_result_sha256": "6ead8ff7f06fe70cca159271a2dbc0f125b969131d254c70d1e90bc7b0f2dbce"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "ccd380cf82c29043770844a85da0cae16b8e0fb89d326c3e13604c829429d02d",
+  "sanitized_result_sha256": "05a5e502b89474f173d0e7ae474c0dd3d79d03f13f8a4dc2cd7cde74b6c7f19f"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "7953a2416c296949a0172b1c497b9c4f8f2ccf874fecc7db904a852e755204ca",
+  "sanitized_result_sha256": "ff0716b5e08d43526a753f8d44289fde8e676122baa0dfb4841304944c96e55c"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "ec8e8ae3dd7446ce42b089f2b293c85732b04ae59122c969ab76626700e38384",
+  "sanitized_result_sha256": "961e538e512620f6f7c6bc46ded011175d723761adffd4fa702381cd642344aa"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "c01a3a78fb6660a8758fe737c2ba4bce8e45b2b2e5a4bd8425ca8ec36f08e2be",
+  "sanitized_result_sha256": "c07a674d87a2a75b0ffeb995b1e96bb2a6a40dd312af475460b748d65ad990dd"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "ac404b9283cbb1246430cb237654f3577c4b0832cd00566df2b1b54d6249aabc",
+  "sanitized_result_sha256": "3e8e5355da95e94b4767980f7d5dbbee9b528906178f76810ce0078b60fb9b32"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T2-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "d6813db4df7c75c7ec1a188470e840e575ce325fb2abd55da914d9ba5317c83d",
+  "sanitized_result_sha256": "68235193df48640c36324948c595a186580242fc9b63bb96764d65baa2a39cec"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "d59533e45945bde5bc51f32e8fe7e36a1e8ba3082d683bb51126dcb9042010b0",
+  "sanitized_result_sha256": "44e41a4340daf7e401883caed8273a2eb4f2c38bbc32d2e12ca1deb490f98742"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "9990e5ba695b7609e142d09ce0b29367a3321c234d718d191a3f28756feec461",
+  "sanitized_result_sha256": "707226ad5d55ec7b249a5ebdeac9d506395d0c20212c5f22bcad9f851b6a7793"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "fedad6c895ad11378b30c007e36f04a107d9e186cccd2bc53e2e114827ed83e1",
+  "sanitized_result_sha256": "ddadc70f6c234be8bc362803e31abb4df78710c97987d561528c6292054cec5d"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "715076ab02e62fb1e386917a846addbd1e3e38c84695e1a2bab359bd8b327669",
+  "sanitized_result_sha256": "aea15bacd615d9e4006f16aa916276d31a497cfea5f86ab983251872f8ea3d11"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "f17206410f407374d44186f6540b35b1c8eb4ebaef442a21db4c5effd7a7c510",
+  "sanitized_result_sha256": "f4fb41a4e34ca96681cfd29f82e08cbeaf390184f8dfb4cbec63f4b6b4ff5511"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "99ae6673e7104d3319253ae646e368b1c98aaa964a209bfc6c9544d20143c8e6",
+  "sanitized_result_sha256": "7ef7a23cc68508a3fa7d8eba05d6fa0c5e8d133858f320bfddb6febdb12e61c2"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "c3bbf1135e34510f7aa8f66ba603fc7092c5ed9647b54e3144ee337b52170c17",
+  "sanitized_result_sha256": "6b3ecfe32e3b3effefbd3f2a5905a051363fb72c1c59372d5880ebe91223cb5e"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "8a820f3234375c64eeaf7c8aaf4fbc4a970c9ddab939eaf1980c28f4c11ee556",
+  "sanitized_result_sha256": "5210a18aab2f9d09551e88e7c57c4f88a830d90d4d0450080a1b6e92f6d68720"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "d1dfacae843771d668244138b130c8e656f1fd4089711d1e5c19d0e89100785d",
+  "sanitized_result_sha256": "07baa41725eb8edc69118ab908ca4e26a922b24f9549e76c73973b82a872ad11"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "0cdcbf9a8ad53af2516435bb6afa99e1774e93fd015c7b9e776c608b672284de",
+  "sanitized_result_sha256": "cb37608959f8d0d848e5eeb2b38d4fae776bd27c9c8e31876a3beb84051ce707"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "b54140875375e9e43c798322b99b84ae75ecf5c14ad5f6246b696a47e3fa0b04",
+  "sanitized_result_sha256": "4e110479afb4bfd56a12c6632ec5308a7cb5b70832859540c9605138679c553a"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T32-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "65b0ea4535f40f9e42ae6258c28a89d0a51e235473af02505df487f48a312395",
+  "sanitized_result_sha256": "fc9f538c1f3e6ec1745fd4bbd784d13a77b268dd23c853cde863b5fee5146485"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41000-lr0.001-wd0.json": {
+  "original_result_sha256": "239b0c141a1db48bbe4f244a957d43f2776782b9c3f40d32941ab72607f6c22b",
+  "sanitized_result_sha256": "f902cdb4598ec75ae08cdb51ff9d03e8639f49bd083c0a53ecf791dff03ceb80"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41000-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "80b6a29beab98d7b0b672dfaefaeb7e45765d470eade3fed5c17a1a3d6cf1572",
+  "sanitized_result_sha256": "7bc0ee9d1ab6c865e62713cdc69cf5c9340fdf46f955736d0fca8be0a3209331"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41000-lr0.005-wd0.json": {
+  "original_result_sha256": "cddc2a01dc4a5f7496dff59c113dba8f34e0b90e2086f810a417acede5a5c3e1",
+  "sanitized_result_sha256": "4205b5b73e5c6dfbb9dffa1cbbcb8d778f8b270dee5f184735a200cee8548e41"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41000-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "201924d43e00672ec2cf16021a03c8d66d7fca2b905b6d47ab699d68f0524a66",
+  "sanitized_result_sha256": "73e16129f7a3c5c2d9b12cb8ee719053a3ee896d826d1be07998a28b0f9cff3b"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41000-lr0.01-wd0.json": {
+  "original_result_sha256": "eb051f987d991b3123842e278ba7b302ada28fcab4ec0e9c8653d48cac98290b",
+  "sanitized_result_sha256": "eb7080a761340c0c36860bfb3fd5e104b748f8e1308c1306a9d39fea49f3ae49"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41000-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "bc274cdde8f30207828c064201a365fe80cf6f75cc5f250f63ffe2f75d85b2cc",
+  "sanitized_result_sha256": "4b061ca7719404c5ece2e16d2960141d00e6524c6f338dc0a46b0b4d2a4d20d3"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41001-lr0.001-wd0.json": {
+  "original_result_sha256": "1746f43742f798bfba918432dc16aac3e9e6cbdf6111a9c2e4ea3bd36aa48546",
+  "sanitized_result_sha256": "69553885e79071bcd62c1e6ba722b30a9ee9863ce51a76ec5c7dbc92fe12ea8f"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41001-lr0.001-wd1e-05.json": {
+  "original_result_sha256": "f9d8cb5ffc9989255b780480dcb7157fcae6cb787ec9b584571106afa76208d6",
+  "sanitized_result_sha256": "5ff57709d4b85eadafc8b7999f7cfe18de2684022546e4a9bc7b1200fe9a6413"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41001-lr0.005-wd0.json": {
+  "original_result_sha256": "2a1a73dd3e20a52f2dbb178b8024926159e0c0bbc2826adb75998fe72bc71806",
+  "sanitized_result_sha256": "342b34bc438c40ed4ca6931083f80cec51e3f5cb55c60fce59883af99635c9f7"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41001-lr0.005-wd1e-05.json": {
+  "original_result_sha256": "bfc788545e42f94a0bcb9a45d0185a460f35aafc16101dc37ec4a20d137e436b",
+  "sanitized_result_sha256": "f607253e9eae81a59f54c44c25efdc318663dad8729326c0872b984b2dc879bc"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41001-lr0.01-wd0.json": {
+  "original_result_sha256": "5d35a9c163b239cffd1967b1c2bff5dca7af4a384a57d0ca90d5d2089007a5e1",
+  "sanitized_result_sha256": "0fba327678f61c8d4b14f7cb4e809475fd547fe658e718ead1165e27bc4caf26"
+ },
+ "revision/superseded-coo/tune/SIDNET-wiki_elec-T8-s41001-lr0.01-wd1e-05.json": {
+  "original_result_sha256": "5c693bdcebf481fa81a5df133166758f3ccd1e2f4d3b2f791ded9d2795fbdc1b",
+  "sanitized_result_sha256": "b992adfd3d8de7baa2dadaea7d5f6977526a48537144b3ec52b46df7554c8835"
  }
 }

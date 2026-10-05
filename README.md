@@ -12,6 +12,9 @@ inputs and SHA-256, and `paper/` holds the generated outputs themselves.
   their timeline (`POSTHOC.md`).
 - `replication/` the pre-registered replication: `PROTOCOL.md`, `LOCK.json`, code, records, measurements,
   analysis, reruns.
+- `revision/` the reviewer-requested exhaustive finite-flip audit and directed published-objective
+  checks: protocol specified before computation, complete intervention arrays, validation-only tuning,
+  evaluation records, logs and execution deviations (including superseded SIDNET calibration records).
 - `development/` the development studies that shaped the protocol, with their plans and outcomes.
 - `analysis/`, `reporting/` the scripts that write the paper's outputs; `paper/` those outputs.
 - `checkpoints/objects/` a sample of stored checkpoints, content-addressed by SHA-256 (see below).
@@ -36,10 +39,34 @@ it downloads the six SNAP networks there and checks the raw and processed files 
   `python3 replication/measure.py chains --runs replication/planted/runs --only <run> --out development/check`.
 
 ## Checkpoints
-All 2,460 checkpoints (7.7 GB) are kept and will be released with the final version. This artifact includes
-24: the solved SIDNET chains at r = 8 planted in Web networks (exploratory E3 and the replication) and the four
-architectures on Wiki-Elec at T = 32 (one of them is behind the per-shell figure). Training is deterministic;
-on NVIDIA V100 cards a rerun of any job in a `jobs.txt` reproduces its checkpoint bitwise.
+The original 2,460 checkpoints and the 60 new evaluation checkpoints are kept and will be released with the final version. This artifact includes
+92: the solved SIDNET chains at r = 8 planted in Web networks (exploratory E3 and the
+replication), the four architectures on Wiki-Elec at T = 32 (including the per-shell figure), all eight
+checkpoints used in the exhaustive audit, and all 60 directed native evaluation checkpoints.
+The original deterministic campaign was verified on NVIDIA V100 cards. The new native checks retain
+weights, fixed evaluation functions and checked logits; they do not claim bitwise agreement with
+other hardware or the original authors' benchmarks.
+
+## Reviewer-requested validation
+The main campaign uses undirected relations and a shared objective/decoder. The new checks use ordered
+relations, released SGCN and SIDNET objectives and decoders, and validation-only tuning separately at
+T = 2, 8 and 32. They are exploratory review extensions, not a new independent preregistered replication.
+The pinned SIDNET encoder/decoder sources are downloaded by `revision/native.py` on first use; the commit
+and file hashes are recorded in its `UPSTREAM` dictionary. Its weighted sparse products use deterministic
+indexed sums of the same recurrence. All affected tuning was repeated after non-repeatable CUDA sparse
+rounding was detected; `revision/DEVIATIONS.md` records this and the retained failed attempts.
+
+- Collect exhaustive arrays: `python3 revision/exhaustive.py --collect --out <dir>`.
+- Recompute interventions: `python3 revision/exhaustive.py --index 0 --device cuda:0` (indices 0-7;
+  checkpoint 5 uses `--part-shard 0/4` through `3/4`). Processes are bounded to 120 seconds and resume
+  completed relation blocks. To recompute rather than retain existing blocks, use a disposable copy
+  without `revision/exhaustive/`.
+- Collect native results: `python3 revision/native.py --collect --out <dir>`.
+- Check packaged native weights: `python3 revision/verify_native.py --index 0 --device cuda:0`
+  (indices 0-59; add `--gradients` to repeat all 100 query reaches).
+- Repeat the complete native tuning and evaluation: `python3 revision/run_native.py`, in a disposable copy
+  without `revision/native/`. `REVISION_GPUS` controls the GPU worker count (default four). Training
+  processes resume after 120 seconds; tuning must finish before test evaluation.
 
 ## Anonymisation
 Machine paths and the host name were rewritten for review (`<repo>`, `$SRANGE_STORE`, `<venv>`, `<paper>`,

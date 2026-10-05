@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<repo>/revision/native.py", line 322, in <module>
+    if __name__=="__main__":main()
+                            ^^^^^^
+  File "<repo>/revision/native.py", line 320, in main
+    complete=run(jobs(a.kind)[a.index],a.kind,a.device)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/revision/native.py", line 253, in run
+    assert same,"evaluation function changed"
+           ^^^^
+AssertionError: evaluation function changed
+DONE eval SIDNET-bitcoin_alpha-T2-s42000 val 0.8950897681047618 test 0.8805740737033403

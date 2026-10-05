@@ -1,0 +1,151 @@
+{
+ "T": 32,
+ "arch": "SGCN",
+ "best_val_auc": 0.798591798937971,
+ "created_utc": "2026-10-05T20:09:43Z",
+ "data": {
+  "processed_sha256": "c08a89fdfba09b95c6ac0d795c7dabff0d8dca6170acdfe4d49334ab8a3bdeb2",
+  "raw_sha256": "3a178611b9c2f39c9a0dc75936f28557317f1733319b49da4838232b3757cd76"
+ },
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "epochs": 110,
+ "features_sha256": "e757c036801da3f1439316394a3aaeb9bdcba6e443db462aebba79ae1c0c6563",
+ "implementation_sha256": "99491b6ed2bb629d093e38309f34f0e2c6b91841282c1dd66905c4e7caf1fd28",
+ "kind": "published_model_tune",
+ "lr": 0.01,
+ "network": "bitcoin_alpha",
+ "protocol_sha256": "21d64d437826b099ed12f97e692acc407e98c42af909dc8ebcb4c1238435769c",
+ "relations": 24186,
+ "result_sha256": "9b79ae46cc555a33cdbdb238526c66bad29e6e39b34ca1f47801075f59dd46d3",
+ "seed": 41001,
+ "selected_epoch": 10,
+ "split_sha256": "7a2df6dd207a8a197e324a9f8eab7c11d2e96a53798ca8c756067d9773bd65d1",
+ "trace": [
+  {
+   "epoch": 5,
+   "loss": 1.2473716735839844,
+   "val_auc": 0.6323379827239448
+  },
+  {
+   "epoch": 10,
+   "loss": 1.1074844598770142,
+   "val_auc": 0.798591798937971
+  },
+  {
+   "epoch": 15,
+   "loss": 1.1159577369689941,
+   "val_auc": 0.6891883581959979
+  },
+  {
+   "epoch": 20,
+   "loss": 1.3607171773910522,
+   "val_auc": 0.5402272365546279
+  },
+  {
+   "epoch": 25,
+   "loss": 2.190110683441162,
+   "val_auc": 0.76706697726911
+  },
+  {
+   "epoch": 30,
+   "loss": 1.1457037925720215,
+   "val_auc": 0.7598266606861227
+  },
+  {
+   "epoch": 35,
+   "loss": 1.6561253070831299,
+   "val_auc": 0.78935004991825
+  },
+  {
+   "epoch": 40,
+   "loss": 1.6592154502868652,
+   "val_auc": 0.7799632485928842
+  },
+  {
+   "epoch": 45,
+   "loss": 1.3687018156051636,
+   "val_auc": 0.6195849550735752
+  },
+  {
+   "epoch": 50,
+   "loss": 2.7560107707977295,
+   "val_auc": 0.7726415435590989
+  },
+  {
+   "epoch": 55,
+   "loss": 1.2678872346878052,
+   "val_auc": 0.7415207703326436
+  },
+  {
+   "epoch": 60,
+   "loss": 1.2000609636306763,
+   "val_auc": 0.7640881599699044
+  },
+  {
+   "epoch": 65,
+   "loss": 1.1896971464157104,
+   "val_auc": 0.7766943266823897
+  },
+  {
+   "epoch": 70,
+   "loss": 1.0796434879302979,
+   "val_auc": 0.7763014917598716
+  },
+  {
+   "epoch": 75,
+   "loss": 1.054831624031067,
+   "val_auc": 0.788063388942746
+  },
+  {
+   "epoch": 80,
+   "loss": 1.031775951385498,
+   "val_auc": 0.7875323745170952
+  },
+  {
+   "epoch": 85,
+   "loss": 1.0225681066513062,
+   "val_auc": 0.7957551401328259
+  },
+  {
+   "epoch": 90,
+   "loss": 1.0084890127182007,
+   "val_auc": 0.789696222128977
+  },
+  {
+   "epoch": 95,
+   "loss": 0.9899858236312866,
+   "val_auc": 0.7932831015872558
+  },
+  {
+   "epoch": 100,
+   "loss": 0.9767957925796509,
+   "val_auc": 0.7940260877114291
+  },
+  {
+   "epoch": 105,
+   "loss": 0.9629396796226501,
+   "val_auc": 0.7952393182179909
+  },
+  {
+   "epoch": 110,
+   "loss": 0.9532221555709839,
+   "val_auc": 0.7921588557868997
+  }
+ ],
+ "training_relations": 14511,
+ "weight_decay": 1e-05
+}

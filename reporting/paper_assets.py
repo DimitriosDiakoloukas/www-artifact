@@ -1,5 +1,5 @@
 """Paper assets read only from the paper's generated/*.json (themselves written by analysis/, exploratory/
-and replication/ scripts): number macros, the network table and the decisive-reach figures.
+and replication/ scripts): number macros, the network table and the sensitivity-reach figures.
 
   python3 reporting/paper_assets.py --paper <paper>
 
@@ -21,6 +21,8 @@ import matplotlib.pyplot as plt                      # noqa: E402
 import numpy as np                                   # noqa: E402
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from revision.assets import revision_numbers
 from srange.provenance import sha256_file            # noqa: E402
 
 BLUE, ORANGE = "#2a78d6", "#eb6834"
@@ -127,7 +129,7 @@ def exploratory_numbers(M, expl):
 
 
 def chain_reach_cells(posthoc, chain, expl):
-    """Solved cells with decisive reach and the mass R90 beside it: trees and planted (E3)."""
+    """Solved cells with sensitivity reach and the mass R90 beside it: trees and planted (E3)."""
     mass_tree = {(c["task"], c["arch"], c["r"]): c["flip_R90"] for c in chain["cells"] if c["T"] == 32 and c["b"] == 0}
     mass_planted = {(f"planted-{x['network']}", x["arch"], x["r"]): x["sign_R90"] for x in expl["E3"]}
     rows = []
@@ -294,7 +296,7 @@ def e5_table(e5):
 
 
 def newcomer_table(rep):
-    """Decisive reach by the smaller endpoint degree (descriptive, PROTOCOL.md Section 2), T = 32, spectral."""
+    """Sensitivity reach by the smaller endpoint degree (descriptive, PROTOCOL.md Section 2), T = 32, spectral."""
     if rep is None:
         return "\\pending{newcomer table (replication running)}\n", None
     strata = ("1-1", "2-4", "5-inf")
@@ -537,7 +539,7 @@ def fig_reach(chain, sm, posthoc, native_ph, rep, out):
     ax.set_ylim(0, 6.5)
     ax.set_title("Web networks, $T=32$ (dashes: ceiling of $\\rho$)", fontsize=7, color=INK)
     ax.grid(axis="y", color=GRID, lw=0.5)
-    handles = [Line2D([], [], marker="o", ls="", color=BLUE, ms=4, label="decisive reach $\\rho_{0.1}$"),
+    handles = [Line2D([], [], marker="o", ls="", color=BLUE, ms=4, label="sensitivity reach $\\rho_{0.1}$"),
                Line2D([], [], marker="^", ls="", color=ORANGE, ms=4, label="$R_{90}$, exact sign gradient"),
                Line2D([], [], marker="s", ls="", mfc="white", mec=ORANGE, ms=4, label="$R_{90}$, sampled intervention"),
                Line2D([], [], color=CONTEXT, ls="--", label="measured = required")]
@@ -551,7 +553,7 @@ def fig_sidnet(rep, native, out):
     if rep is None or not rep["sidnet_truncation"]["runs"]:
         return False
     runs = rep["sidnet_truncation"]["runs"]
-    fig, ax = plt.subplots(1, 1, figsize=(3.3, 1.6))
+    fig, ax = plt.subplots(1, 1, figsize=(3.3, 1.9))
     steps = [32, 16, 8, 4, 2, 0]
     conf = []                                  # confirmatory order (earliest steps removed first), native.json
     for c in native["cells"]:
@@ -560,18 +562,19 @@ def fig_sidnet(rep, native, out):
                 d = dict((int(k), v) for k, v in seed_rows)
                 conf.append([d[s] - d[32] for s in steps])
     ax.plot(range(len(steps)), np.mean(conf, 0), color=INK2, lw=1.2, ls=":", marker="x", ms=3,
-            label="earliest steps removed first (protocol)", zorder=2)
-    for key, color, label in ((0, ORANGE, "fewer steps per layer"), (1, BLUE, "fewer steps per layer, $M_0=0$")):
+            label="earliest-step removal (protocol)", zorder=2)
+    for key, color, label in ((0, ORANGE, "equal steps per layer"), (1, BLUE, "equal steps per layer, $M_0=0$")):
         curves = np.array([[r["auc_by_retained"][str(s)][key] - r["auc_by_retained"]["32"][0] for s in steps] for r in runs])
         for c in curves:
             ax.plot(range(len(steps)), c, color=CONTEXT, lw=0.4, zorder=1)
         ax.plot(range(len(steps)), curves.mean(0), color=color, lw=1.6, marker="o", ms=3, label=label, zorder=3)
     ax.set_xticks(range(len(steps)))
     ax.set_xticklabels(steps)
-    ax.set_xlabel("retained diffusion steps (both layers)")
+    ax.set_xlabel("retained steps (both layers)")
     ax.set_ylabel("test AUC change")
     ax.grid(axis="y", color=GRID, lw=0.5)
-    ax.legend(frameon=False, fontsize=6, loc="lower left")
+    ax.legend(frameon=False, fontsize=6.5, loc="lower center", bbox_to_anchor=(0.5, 1.02),
+              handlelength=2, borderaxespad=0, labelspacing=0.3)
     fig.tight_layout()
     fig.savefig(out / "sidnet_truncation.pdf", bbox_inches="tight", metadata={"CreationDate": None})
     plt.close(fig)
@@ -601,7 +604,7 @@ def network_table(native, best, native_ph, rep):
     return "\n".join(lines) + "\n"
 
 
-def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None, best=None, e6=None, e7=None, load_e7b=None):
+def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None, best=None, e6=None, e7=None, load_e7b=None, audit=None, published=None):
     yes = lambda b: "holds" if b else "fails"
     h4 = [a for a in ARCHS if native["H4"][a]["holds"]]
     sol_pl = [c for c in sm["planted"] if c["solved"] and c.get("tree", "exploratory") == "exploratory"]
@@ -616,12 +619,12 @@ def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None,
         ("Depth from 8 to 32 closes $<$ half the gap to the ceiling (H3)", "4 arch.\\ $\\times$ 30", "C",
          "holds (4/4)" if all(native["H3"][a]["holds"] for a in ARCHS) else f"{sum(native['H3'][a]['holds'] for a in ARCHS)}/4"),
         ("Median functional depth $\\le 8$ (H4)", "4 arch.\\ $\\times$ 30", "C", f"{', '.join(h4) or 'none'} only"),
-        ("Sampled intervention misses the decisive relation", f"{len(sol_pl)} planted cells", "E", "observed"),
-        ("Decisive reach within one hop of $e^\\ast$", f"{len(sol_ph)} cells", "P", "observed"),
+        ("Sampled intervention misses a required chain relation", f"{len(sol_pl)} planted cells", "E", "observed"),
+        ("Sensitivity reach within one hop of $e^\\ast$", f"{len(sol_ph)} cells", "P", "observed"),
         ("\\quad on new networks, distance and seeds (RH1)", "120 runs", "R", r("RH1")),
         ("\\quad separates solved from chance runs (RH2)", "120 runs", "R", r("RH2")),
         ("\\quad sampled intervention falls short (RH3)", "120 runs", "R", r("RH3")),
-        ("Decisive reach $\\le 2$ on four networks", f"{sum(c['n'] for c in native_ph['cells'])} checkpoints", "P", "observed"),
+        ("Sensitivity reach $\\le 2$ on four networks", f"{sum(c['n'] for c in native_ph['cells'])} checkpoints", "P", "observed"),
         ("\\quad on Slashdot and Epinions (RH4a)", "80 checkpoints", "R", r4("a_slashdot_epinions")),
         ("\\quad with random features (RH4b)", "80 checkpoints", "R", r4("b_random_features")),
     ]
@@ -651,6 +654,13 @@ def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None,
                      f"{pc['finite_consistent_mean']:.2f} vs {pc['gradient_consistent_mean']:.2f}"))
     else:
         rows.append(("Finite-flip reach against gradient reach", "32 checkpoints", "E", pend))
+    if audit is not None:
+        rows.append(("Exhaustive finite/gradient reach agreement", f"{audit['queries']} queries", "E",
+                     f"{100*audit['agreement']:.0f}\\%; within 1: {100*audit['within_one']:.0f}\\%"))
+    if published is not None:
+        rs=[c['reach_0.1'][0] for c in published['cells'] if c['T']==32]
+        rows.append(("Published objectives, separately tuned depths", f"{published['runs']} new runs", "E",
+                     f"reach {min(rs):.2f}--{max(rs):.2f}"))
     lines = ["\\begin{tabular}{@{}p{0.58\\columnwidth}lcl@{}}", "\\toprule", "Claim & Evidence & Tier & Outcome \\\\", "\\midrule"]
     lines += [f"{a} & {b} & {c} & {d} \\\\" for a, b, c, d in rows]
     lines += ["\\bottomrule", "\\end{tabular}"]
@@ -685,6 +695,7 @@ def main():
     e8_numbers(M, load(gen, "e8_cycles.json"), best)
     e6_e7_numbers(M, load(gen, "e6_random.json"), load(gen, "e7_audit.json"))
     e7b_numbers(M, load(gen, "e7b_audit.json"))
+    revision_numbers(M, load(gen, "exhaustive_audit.json"), load(gen, "native_models.json"))
     (gen / "network_table.tex").write_text(network_table(native, best, native_ph, rep))
     (gen / "e5_table.tex").write_text(e5_table(load(gen, "e5_distance.json")))
     nt, per = newcomer_table(rep)
@@ -700,7 +711,8 @@ def main():
     (gen / "evidence_table.tex").write_text(evidence_table(chain, native, load(gen, "sign_mass.json"), posthoc, native_ph, rep,
                                                            load(gen, "e5_distance.json"), load(gen, "e8_cycles.json"), best,
                                                            load(gen, "e6_random.json"), load(gen, "e7_audit.json"),
-                                                           load(gen, "e7b_audit.json")))
+                                                           load(gen, "e7b_audit.json"), load(gen, "exhaustive_audit.json"),
+                                                           load(gen, "native_models.json")))
     fig_reach(chain, load(gen, "sign_mass.json"), posthoc, native_ph, rep, figs)
     made = ["generated/numbers.tex", "generated/network_table.tex", "generated/evidence_table.tex", "generated/e5_table.tex",
             "generated/newcomer_table.tex", "figures/reach.pdf"]

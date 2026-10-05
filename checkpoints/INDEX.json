@@ -94,5 +94,277 @@
  {
   "record": "confirmatory/native/runs/SLGNN-wiki_elec-T32-s10000-spectral.json",
   "sha256": "a3486b844b35e0a296b68dfbf8d4913891fb82fea2365326c5b635a1f4a72c62"
+ },
+ {
+  "record": "confirmatory/native/runs/BGSD-bitcoin_alpha-T32-s10000-spectral.json",
+  "sha256": "c245eba6f05ff024e4e2b5b22c5de55e3e725b72b828d8be4dda1088979ba7af"
+ },
+ {
+  "record": "confirmatory/native/runs/SGCN-bitcoin_alpha-T32-s10000-spectral.json",
+  "sha256": "1db118a9f78881eb495c7585c13d3a08b0d573b95ff9f3c5a3735303eb6c8d7a"
+ },
+ {
+  "record": "confirmatory/native/runs/SIDNET-bitcoin_alpha-T32-s10000-spectral.json",
+  "sha256": "9a6209323d9ec471e621f966598708bd28ac791a35c1e571dec7ead211cfcbba"
+ },
+ {
+  "record": "confirmatory/native/runs/SLGNN-bitcoin_alpha-T32-s10000-spectral.json",
+  "sha256": "4661fbcb2c2b0fddd2bc36ac5efe39966824e002217dcffb43b4fbe6ce2a7a98"
+ },
+ {
+  "record": "confirmatory/native/runs/BGSD-bitcoin_otc-T32-s10000-spectral.json",
+  "sha256": "e741ca7167ed50436b863c48741be69a3ada5ec4ea01127593540f4b7706e320"
+ },
+ {
+  "record": "confirmatory/native/runs/SGCN-bitcoin_otc-T32-s10000-spectral.json",
+  "sha256": "fc319131d50d99bc1d9278665779e46c4283cf2998a7faee2de4fefaf51042d2"
+ },
+ {
+  "record": "confirmatory/native/runs/SIDNET-bitcoin_otc-T32-s10000-spectral.json",
+  "sha256": "ce235e1ae44c80a626bf94ffe9abdfdd0ea87dba4ce6e8c33d76cbeba6121ada"
+ },
+ {
+  "record": "confirmatory/native/runs/SLGNN-bitcoin_otc-T32-s10000-spectral.json",
+  "sha256": "6877a4b45bd0704b73d7fceeb8f015f7aa375f3478520eca1469088e3577753e"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T2-s42000.json",
+  "sha256": "3f8a6b9eb622df325b05897020d8c4abe4d6de985565a1f12f5faddf777dc150"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T2-s42001.json",
+  "sha256": "c020a65e83e5fbbfcee152046545edbd3e621d772ca898f49ac8c634c98fccf4"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T2-s42002.json",
+  "sha256": "a4a01cefafaf47844fa05ee7c86f3e3df4b6439ffbd8fad9c8ea664e78e22811"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T2-s42003.json",
+  "sha256": "73c749e0d8babf33d3df1b5eda793668f157664524a1413fd251cc303ebc7725"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T2-s42004.json",
+  "sha256": "39a16b207ebe0e6a6ddd7628cf13a09c60b243b535642ec5d86239c0290065a8"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T32-s42000.json",
+  "sha256": "500a65d53028ae9bde7c8a6a5830d65f4e9cb2dc62c8db9df85fa1464c9d2912"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T32-s42001.json",
+  "sha256": "4e97582ed2f9c84657a26d53dc862455cb1f0a3873fc87339a8dffd53de75d64"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T32-s42002.json",
+  "sha256": "76a0a33ef85595d230324abbb801059c1766cb242d8fb29e76ca67ff50bb8115"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T32-s42003.json",
+  "sha256": "9344fe6e7b9344175c2edfc88995a9bd16cb9d304cc3efe170918dbb18f7e3db"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T32-s42004.json",
+  "sha256": "0261dc9ade90fa80f5df0220347adca373c305b19f82a7c24a0f123b51d2c17d"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T8-s42000.json",
+  "sha256": "c42a691115fe220428aa47a08cb3191c261ea2eca91aae9d0221529c1c81e0f3"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T8-s42001.json",
+  "sha256": "59581a9f94fe500e7b7a558962b104a707274d50319ecac9de858f490cab18c0"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T8-s42002.json",
+  "sha256": "c06aa8510d0f09b86f6158c9ebd1f2ea794527ffd9cf9f2a4e6d82b062a3ff1a"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T8-s42003.json",
+  "sha256": "aeb6217e7cbd13ee03636f58d9a12a5913015acb5181be6777438936e5c2f4d1"
+ },
+ {
+  "record": "revision/native/eval/SGCN-bitcoin_alpha-T8-s42004.json",
+  "sha256": "133362f419d38bf85e34eecce91f95fb147ae881862c79aba6f05574bf58d8b9"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T2-s42000.json",
+  "sha256": "b9adad6d75d6d19845a5e40aac25a610679ce0b8159950826a8fc86c953747d2"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T2-s42001.json",
+  "sha256": "98fa04fca4d64e3ed34bb1871f32b0d3d595a3e4bbec6a5516131295d9a8bd81"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T2-s42002.json",
+  "sha256": "4f21b9b32363c1d51fdb4dd065fd1807d5224dbb5c8e3299b522e67e0d3a1749"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T2-s42003.json",
+  "sha256": "c82e9764be22178ec0e93fab9796c68b65e5e18e35e9ea272ffe674a7d692251"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T2-s42004.json",
+  "sha256": "6ecf19ce8f030e7209c2cd048e150e2919e39a5f0d03b0180c431e5d61136d0e"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T32-s42000.json",
+  "sha256": "8b4a3008c01071c5da95b2bac45d64778d4e709cdae868cfce863ddd8c32296d"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T32-s42001.json",
+  "sha256": "9d2e1f16ff1ec4e91e3f8c20857bfad80302002bd103a77f5b6078ca7626735f"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T32-s42002.json",
+  "sha256": "ff225deaafed05a5b829dc517c7223d9362d5daac1b1f8b84ea0d982947eede3"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T32-s42003.json",
+  "sha256": "23e9eef6d4ce8ea3dd3c970520fea7570a88566e7ccc5bec1d3ba12dce604a5a"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T32-s42004.json",
+  "sha256": "4c8f64c197f1c3ca7ade658722c477dcdcfe1cc65ee7ddced13baaa1e87b31a8"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T8-s42000.json",
+  "sha256": "5f0c95454628a9c9a0209fe546575dd7721aa852c1283445c5be184a64169d79"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T8-s42001.json",
+  "sha256": "a3dfcddb449a6895c528c31d0b279621411d5c5ac0593c22e1f7d50479943662"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T8-s42002.json",
+  "sha256": "98ff1c42234ed2e492648b5b6cc337c99903fec23811a07bd117e46fcf178ade"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T8-s42003.json",
+  "sha256": "e4aa87e2bdf5d6a85bfc5b593b7c985fd45f94193180b237fed29e23e2de70b1"
+ },
+ {
+  "record": "revision/native/eval/SGCN-wiki_elec-T8-s42004.json",
+  "sha256": "59f77fc52232cc92b8c31acf98291fcb1b57c2d49fdd67b01a0a6d3871923a77"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42000.json",
+  "sha256": "c59b99fec1a2a06f7eaca2df3b49156b7d8c916937a1ef4b3135962e6837727a"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42001.json",
+  "sha256": "94006465cec0e0fcbddb95a67b6322745fd77b25ebb103b1622f4daebfac8096"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42002.json",
+  "sha256": "e8f64f7eca9236ed275e46b6a40f772a378158f8349686ef0c3b162aef9b5365"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42003.json",
+  "sha256": "6b393e0a2d2c0e61f24efc43ba4ca09d155c79e6786e0cf91979c6d499cd3743"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T2-s42004.json",
+  "sha256": "3b91eec1c6b4403dd2b6b59390d8946cecc296c5fb35246f918abae433d00389"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42000.json",
+  "sha256": "b53c6c7c885601e1b71e4fb169007209298da96fb743ff16b9b92bed7a9df52a"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42001.json",
+  "sha256": "bcef6a77c555c5e6232747f35ffdfbcabd3c634c878273b75ca5f777cbfd1936"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42002.json",
+  "sha256": "e0e49f787350f6273e3bae0feec61e502df8f3d610cfe2bac925036b2032ab18"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42003.json",
+  "sha256": "b2aaa353bbb46920e4911fac2c9e121c908cb16b8359721feaf4828e5db42545"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T32-s42004.json",
+  "sha256": "8c4e0bf22daa62601a92ec34357962e7f3cc5ab63f4f5aae7608897528c0f05a"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42000.json",
+  "sha256": "357f07d76af998a8b7b9e4b7b7bc4a31eef976fbebca72a0b72b445b5c4447d7"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42001.json",
+  "sha256": "b4a44ae10b65625725fd7e7cb70af900b5d852a539d7cbdc57a64c73875a6f72"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42002.json",
+  "sha256": "25f5f3be1458bcd9bec778dfcabf57e0752fd89179e4b65055c792e25540d764"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42003.json",
+  "sha256": "a89992873f9628c0f946223db558a066032963f72efb9b7b21a472c3eb56206a"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-bitcoin_alpha-T8-s42004.json",
+  "sha256": "1bbe50780cdb98c150979c533f5c587dda8e8c7ad3281c08760628a1f1f2fa29"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T2-s42000.json",
+  "sha256": "0ca1c306dfa3296a11c3a927677e59702fd5c9630102ed9c07ac00cf5b171daf"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T2-s42001.json",
+  "sha256": "2abf33234ce8e35bd01e91824fa4856f3555bee5ead33d1e8d49c13a6680b6ce"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T2-s42002.json",
+  "sha256": "3c007b314f719167ca6b2b3af341c5f2c23bd937a64c644521a7d15e0f279ed4"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T2-s42003.json",
+  "sha256": "7e417f569a3a1e8a4228b3ab55453f81afddada42b1cf5a5928e1cd1a1d48525"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T2-s42004.json",
+  "sha256": "c5aefab4ce636506c1aa2678fc3195f23d908d3fbe4e7205cf23b332cc74627b"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T32-s42000.json",
+  "sha256": "363cb3259b97f0bfe22975d2a97ad4617554f87c6bd949d489cd036f63264931"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T32-s42001.json",
+  "sha256": "54be03de4827e65cca0cb9733e4900f5e9fe7e212ca02c6915d8c5fff822bfd0"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T32-s42002.json",
+  "sha256": "4e87e87578178a117a34820289ca890d8a288fa92e78f17fda5105750cae7e86"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T32-s42003.json",
+  "sha256": "99f4329abc1888e81c504e95fef0419334d08e5ffb9b40e5e1eb8458799d3441"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T32-s42004.json",
+  "sha256": "e4da194e9d33ec46d095078fe134485c69f12a8df2be800097e9029c8a62e0be"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T8-s42000.json",
+  "sha256": "89d1ff15adf259480eee8bc088f0f7e330bf1ca8858ebd97586dfb52e255e3d4"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T8-s42001.json",
+  "sha256": "f152fefda4a2276c3c23d95521df3dd12675d9003ebf4a23efc44143929ba284"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T8-s42002.json",
+  "sha256": "3c1a22e4558557b238e960f4efd904a7a154edd1c28053d47ebbde66969468b3"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T8-s42003.json",
+  "sha256": "69174a3fa03aee9f72eb178d7c13eefa28dfec98ee5158239c41b81abbcc6f9a"
+ },
+ {
+  "record": "revision/native/eval/SIDNET-wiki_elec-T8-s42004.json",
+  "sha256": "813369fce29fb69a4de8f2cdb60bd00c03f796b223e6cdd999889d19388c3443"
  }
 ]
