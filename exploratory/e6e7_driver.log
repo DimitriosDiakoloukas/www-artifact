@@ -1,0 +1,4 @@
+2026-10-04T22:17Z queue start
+2026-10-05T03:13Z queue done: 166 done, 2 failed
+2026-10-05T03:57Z E6 measurements: 157/159; reruns of missing items on gpus 0-3
+2026-10-05T05:29Z summaries written: e6 all cells <= 2: True | e6_random.json 8b55c5e6a943fbfb6efbd0607031272a019ef86fc4896c9d2ea7c9e7c49533a6; e7 e7_audit.json 2627b96242945b8e84357cec3f1563adf935f97d3cd775a627c49bb685acb39e

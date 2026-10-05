@@ -1,0 +1,33 @@
+bitcoin_otc  BGSD   T= 8 n=5 auc=0.896 reach=0.75 p90=2.0 ceiling=5.81
+bitcoin_otc  BGSD   T=32 n=5 auc=0.898 reach=0.78 p90=2.0 ceiling=5.82
+bitcoin_otc  SGCN   T= 8 n=5 auc=0.804 reach=0.72 p90=2.0 ceiling=5.81
+bitcoin_otc  SGCN   T=32 n=5 auc=0.809 reach=0.72 p90=2.0 ceiling=5.82
+bitcoin_otc  SIDNET T= 8 n=5 auc=0.851 reach=1.50 p90=2.0 ceiling=5.81
+bitcoin_otc  SIDNET T=32 n=5 auc=0.865 reach=1.28 p90=2.0 ceiling=5.82
+bitcoin_otc  SLGNN  T= 8 n=5 auc=0.909 reach=0.40 p90=1.0 ceiling=5.81
+bitcoin_otc  SLGNN  T=32 n=5 auc=0.903 reach=0.38 p90=1.0 ceiling=5.82
+epinions     BGSD   T= 8 n=5 auc=0.915 reach=0.49 p90=1.0 ceiling=6.99
+epinions     BGSD   T=32 n=5 auc=0.916 reach=0.44 p90=1.0 ceiling=7.69
+epinions     SGCN   T= 8 n=5 auc=0.830 reach=0.72 p90=2.0 ceiling=6.99
+epinions     SGCN   T=32 n=5 auc=0.825 reach=0.70 p90=2.0 ceiling=7.69
+epinions     SIDNET T= 8 n=5 auc=0.860 reach=0.84 p90=2.0 ceiling=6.99
+epinions     SIDNET T=32 n=5 auc=0.858 reach=0.59 p90=1.0 ceiling=7.69
+epinions     SLGNN  T= 8 n=5 auc=0.924 reach=0.43 p90=1.0 ceiling=6.99
+epinions     SLGNN  T=32 n=5 auc=0.923 reach=0.33 p90=1.0 ceiling=7.69
+slashdot     BGSD   T= 8 n=5 auc=0.879 reach=0.17 p90=1.0 ceiling=6.90
+slashdot     BGSD   T=32 n=5 auc=0.879 reach=0.23 p90=1.0 ceiling=7.38
+slashdot     SGCN   T= 8 n=5 auc=0.767 reach=0.88 p90=2.0 ceiling=6.90
+slashdot     SGCN   T=32 n=5 auc=0.767 reach=0.91 p90=2.0 ceiling=7.38
+slashdot     SIDNET T= 8 n=5 auc=0.874 reach=0.63 p90=1.0 ceiling=6.90
+slashdot     SIDNET T=32 n=5 auc=0.873 reach=0.56 p90=1.0 ceiling=7.38
+slashdot     SLGNN  T= 8 n=5 auc=0.892 reach=0.49 p90=2.0 ceiling=6.90
+slashdot     SLGNN  T=32 n=5 auc=0.897 reach=1.35 p90=3.0 ceiling=7.38
+wiki_rfa     BGSD   T= 8 n=5 auc=0.871 reach=0.56 p90=1.0 ceiling=4.04
+wiki_rfa     BGSD   T=32 n=5 auc=0.873 reach=0.69 p90=1.0 ceiling=4.04
+wiki_rfa     SGCN   T= 8 n=5 auc=0.802 reach=1.56 p90=2.0 ceiling=4.04
+wiki_rfa     SGCN   T=32 n=5 auc=0.795 reach=1.36 p90=2.0 ceiling=4.04
+wiki_rfa     SIDNET T= 8 n=5 auc=0.811 reach=0.65 p90=1.0 ceiling=4.04
+wiki_rfa     SIDNET T=32 n=5 auc=0.799 reach=0.46 p90=1.0 ceiling=4.04
+wiki_rfa     SLGNN  T= 8 n=5 auc=0.872 reach=0.73 p90=2.0 ceiling=4.04
+wiki_rfa     SLGNN  T=32 n=5 auc=0.875 reach=0.96 p90=2.0 ceiling=4.04
+all cells <= 2: True | e6_random.json bf21cec0801d720e35d763e1b2fc453e19cc36151b90e4035bc9a9298afec2a6

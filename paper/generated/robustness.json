@@ -1,0 +1,345 @@
+{
+ "generator": "reporting/robustness.py",
+ "query_distribution": {
+  "queries": 24000,
+  "share_reach_0": 0.4192916666666667,
+  "share_reach_ge_1": 0.5807083333333334,
+  "share_reach_ge_2": 0.19229166666666667,
+  "share_reach_ge_3": 0.019791666666666666,
+  "cell_share_ge_1_min": 0.25,
+  "cell_share_ge_1_max": 0.96,
+  "cell_p90_min": 1.0,
+  "cell_p90_max": 4.0,
+  "figure2_checkpoint_share_ge_1": 0.4
+ },
+ "tau_sensitivity_cell_means": {
+  "0.05": [
+   0.54,
+   2.092
+  ],
+  "0.1": [
+   0.26199999999999996,
+   1.5979999999999999
+  ],
+  "0.2": [
+   0.038,
+   1.188
+  ]
+ },
+ "h4_both_definitions": {
+  "SGCN": {
+   "literal_median": 8.0,
+   "literal_le8": 19,
+   "implemented_median": 8.0,
+   "implemented_le8": 19,
+   "n": 30,
+   "literal_p": 0.10024421103298667,
+   "literal_p_holm": 0.30073263309896003,
+   "literal_holds": false
+  },
+  "SLGNN": {
+   "literal_median": 8.0,
+   "literal_le8": 18,
+   "implemented_median": 8.0,
+   "implemented_le8": 18,
+   "n": 30,
+   "literal_p": 0.18079730402678257,
+   "literal_p_holm": 0.36159460805356514,
+   "literal_holds": false
+  },
+  "SIDNET": {
+   "literal_median": 32.0,
+   "literal_le8": 0,
+   "implemented_median": 32.0,
+   "implemented_le8": 0,
+   "n": 30,
+   "literal_p": 1.0,
+   "literal_p_holm": 1.0,
+   "literal_holds": false
+  },
+  "BGSD": {
+   "literal_median": 2.0,
+   "literal_le8": 30,
+   "implemented_median": 4.0,
+   "implemented_le8": 29,
+   "n": 30,
+   "literal_p": 9.313225746154785e-10,
+   "literal_p_holm": 3.725290298461914e-09,
+   "literal_holds": true
+  }
+ },
+ "h3_exact_gradient": {
+  "SGCN": {
+   "units": 30,
+   "ratio": -0.08184685611655025,
+   "upper95": -0.042028940394653075
+  },
+  "SLGNN": {
+   "units": 30,
+   "ratio": 0.09051798777678681,
+   "upper95": 0.1696186982335419
+  },
+  "SIDNET": {
+   "units": 30,
+   "ratio": -0.2660140194712732,
+   "upper95": -0.21894103644239465
+  },
+  "BGSD": {
+   "units": 30,
+   "ratio": 0.03635487434582977,
+   "upper95": 0.06683588581488704
+  }
+ },
+ "e5_depth_heterogeneity": {
+  "cells": 24,
+  "interval_above_zero": 5,
+  "interval_below_zero": 3,
+  "largest": {
+   "network": "bitcoin_alpha",
+   "arch": "SGCN",
+   "depth_effect_3": [
+    0.02995966424459371,
+    0.017924582602447697,
+    0.04199474588673972
+   ]
+  },
+  "per_cell": [
+   {
+    "network": "bitcoin_alpha",
+    "arch": "SGCN",
+    "depth_effect_3": [
+     0.02995966424459371,
+     0.017924582602447697,
+     0.04199474588673972
+    ]
+   },
+   {
+    "network": "bitcoin_alpha",
+    "arch": "SLGNN",
+    "depth_effect_3": [
+     -0.0012891890345415823,
+     -0.006295491160540354,
+     0.0037171130914571897
+    ]
+   },
+   {
+    "network": "bitcoin_alpha",
+    "arch": "SIDNET",
+    "depth_effect_3": [
+     -0.027764297885505763,
+     -0.07178168850572822,
+     0.016253092734716697
+    ]
+   },
+   {
+    "network": "bitcoin_alpha",
+    "arch": "BGSD",
+    "depth_effect_3": [
+     0.0013761203938460031,
+     -0.0005586347314720194,
+     0.0033108755191640256
+    ]
+   },
+   {
+    "network": "bitcoin_otc",
+    "arch": "SGCN",
+    "depth_effect_3": [
+     0.007380070676867323,
+     -0.05173558744793803,
+     0.06649572880167268
+    ]
+   },
+   {
+    "network": "bitcoin_otc",
+    "arch": "SLGNN",
+    "depth_effect_3": [
+     0.0017024718595588738,
+     -0.008868087166816694,
+     0.012273030885934443
+    ]
+   },
+   {
+    "network": "bitcoin_otc",
+    "arch": "SIDNET",
+    "depth_effect_3": [
+     0.004952469224372713,
+     -0.012429925797414993,
+     0.022334864246160418
+    ]
+   },
+   {
+    "network": "bitcoin_otc",
+    "arch": "BGSD",
+    "depth_effect_3": [
+     0.0011330630870920234,
+     -0.0013140308643986602,
+     0.003580157038582707
+    ]
+   },
+   {
+    "network": "wiki_rfa",
+    "arch": "SGCN",
+    "depth_effect_3": [
+     -0.017758790469470508,
+     -0.03374386501030602,
+     -0.001773715928634994
+    ]
+   },
+   {
+    "network": "wiki_rfa",
+    "arch": "SLGNN",
+    "depth_effect_3": [
+     0.0007330114040004609,
+     -0.004881233498476599,
+     0.006347256306477521
+    ]
+   },
+   {
+    "network": "wiki_rfa",
+    "arch": "SIDNET",
+    "depth_effect_3": [
+     0.004041629179989204,
+     0.0001026704389789617,
+     0.007980587920999446
+    ]
+   },
+   {
+    "network": "wiki_rfa",
+    "arch": "BGSD",
+    "depth_effect_3": [
+     0.002110786159139888,
+     -0.003467061264098217,
+     0.0076886335823779925
+    ]
+   },
+   {
+    "network": "wiki_elec",
+    "arch": "SGCN",
+    "depth_effect_3": [
+     -0.014313482494230834,
+     -0.023695621469475587,
+     -0.004931343518986081
+    ]
+   },
+   {
+    "network": "wiki_elec",
+    "arch": "SLGNN",
+    "depth_effect_3": [
+     0.0022832701329451367,
+     -0.0016460974507772528,
+     0.006212637716667526
+    ]
+   },
+   {
+    "network": "wiki_elec",
+    "arch": "SIDNET",
+    "depth_effect_3": [
+     0.007761589417380277,
+     0.0013366272596720208,
+     0.014186551575088534
+    ]
+   },
+   {
+    "network": "wiki_elec",
+    "arch": "BGSD",
+    "depth_effect_3": [
+     -0.002452572840501399,
+     -0.007455851576536039,
+     0.002550705895533241
+    ]
+   },
+   {
+    "network": "slashdot",
+    "arch": "SGCN",
+    "depth_effect_3": [
+     -0.0030987790305781137,
+     -0.015818591534384183,
+     0.009621033473227956
+    ]
+   },
+   {
+    "network": "slashdot",
+    "arch": "SLGNN",
+    "depth_effect_3": [
+     -0.0018714866460105117,
+     -0.01053008690526051,
+     0.006787113613239487
+    ]
+   },
+   {
+    "network": "slashdot",
+    "arch": "SIDNET",
+    "depth_effect_3": [
+     0.0017040216148019205,
+     -0.0021242952456653275,
+     0.005532338475269169
+    ]
+   },
+   {
+    "network": "slashdot",
+    "arch": "BGSD",
+    "depth_effect_3": [
+     0.0034098277061141323,
+     8.257241707766445e-06,
+     0.0068113981705204985
+    ]
+   },
+   {
+    "network": "epinions",
+    "arch": "SGCN",
+    "depth_effect_3": [
+     -0.012339797396985675,
+     -0.022378658334564087,
+     -0.002300936459407262
+    ]
+   },
+   {
+    "network": "epinions",
+    "arch": "SLGNN",
+    "depth_effect_3": [
+     -0.0020301355209927374,
+     -0.008977989049692431,
+     0.004917718007706956
+    ]
+   },
+   {
+    "network": "epinions",
+    "arch": "SIDNET",
+    "depth_effect_3": [
+     0.012409307997388864,
+     0.010115783717023825,
+     0.014702832277753902
+    ]
+   },
+   {
+    "network": "epinions",
+    "arch": "BGSD",
+    "depth_effect_3": [
+     -0.0009501560631401285,
+     -0.003525698247925248,
+     0.0016253861216449907
+    ]
+   }
+  ]
+ },
+ "blocked_tests": {
+  "h2_seeds_all_below": 5,
+  "h2_seeds": 5,
+  "h2_seed_sign_p": 0.03125,
+  "rh2_seeds_separated": 5,
+  "rh2_seeds": 5,
+  "rh2_seed_sign_p": 0.03125
+ },
+ "eligible_query_fraction": {
+  "bitcoin_alpha": 0.847781327653532,
+  "bitcoin_otc": 0.8377332089552239,
+  "wiki_rfa": 0.9705819730305182,
+  "wiki_elec": 0.9694684734236713,
+  "slashdot": 0.9132578454872776,
+  "epinions": 0.8845605566611621
+ },
+ "sidnet_reference": {
+  "zero_m0_minus_intact_min": -0.0006819121091057312,
+  "zero_m0_minus_intact_max": 0.011367805296234934
+ }
+}

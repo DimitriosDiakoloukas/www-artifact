@@ -1,0 +1,9 @@
+# Python 3.12. The campaign ran with these exact versions (CUDA 12.8 build of torch on NVIDIA V100s).
+torch==2.8.0
+torch-geometric==2.8.0
+torch-geometric-signed-directed==1.1.1
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.9.0
+matplotlib==3.11.0
+pymupdf==1.28.0

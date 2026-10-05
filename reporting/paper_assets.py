@@ -312,6 +312,107 @@ def newcomer_table(rep):
     return "\n".join(lines) + "\n", per
 
 
+def robustness_numbers(M, rb):
+    if rb is None:
+        return
+    q = rb["query_distribution"]
+    M.put("nQShareZero", pct(q["share_reach_0"]), "{}")
+    M.put("nQShareLeOne", pct(1 - q["share_reach_ge_2"]), "{}")
+    M.put("nQShareLeTwo", pct(1 - q["share_reach_ge_3"]), "{}")
+    M.put("nQCellGeOneMin", pct(q["cell_share_ge_1_min"]), "{}")
+    M.put("nQCellGeOneMax", pct(q["cell_share_ge_1_max"]), "{}")
+    M.put("nQCellPNinetyMax", q["cell_p90_max"], "{:.0f}")
+    M.put("nQFigShareGeOne", pct(q["figure2_checkpoint_share_ge_1"]), "{}")
+    M.put("nQueries", f"{q['queries']:,}".replace(",", "{,}"))
+    t = rb["tau_sensitivity_cell_means"]
+    M.put("nTauLowMin", t["0.05"][0]); M.put("nTauLowMax", t["0.05"][1])
+    M.put("nTauHighMin", t["0.2"][0]); M.put("nTauHighMax", t["0.2"][1])
+    h4 = rb["h4_both_definitions"]
+    M.put("nHFourLitMedBgsd", h4["BGSD"]["literal_median"], "{:.0f}")
+    M.put("nHFourLitLeBgsd", h4["BGSD"]["literal_le8"], "{:d}")
+    M.put("nHFourSameDecisions", "all four" if all(
+        h4[a]["literal_holds"] == (a == "BGSD") for a in h4) else "not all")
+    h3 = rb["h3_exact_gradient"]
+    M.put("nHThreeGradMax", max(v["ratio"] for v in h3.values()))
+    M.put("nHThreeGradUpMax", max(v["upper95"] for v in h3.values()))
+    b = rb["blocked_tests"]
+    M.put("nBlockedSeeds", b["h2_seeds"], "{:d}")
+    M.put("nBlockedP", b["h2_seed_sign_p"], "{:.3f}")
+    M.put("nBlockedAllAgree", "both" if b["h2_seeds_all_below"] == b["h2_seeds"] and
+          b["rh2_seeds_separated"] == b["rh2_seeds"] else "not both")
+    e = rb["e5_depth_heterogeneity"]
+    M.put("nEFiveDepthCells", e["cells"], "{:d}")
+    M.put("nEFiveDepthPos", e["interval_above_zero"], "{:d}")
+    M.put("nEFiveDepthNeg", e["interval_below_zero"], "{:d}")
+    M.put("nEFiveDepthBest", e["largest"]["depth_effect_3"][0], "{:+.3f}")
+    M.put("nEFiveDepthBestLo", e["largest"]["depth_effect_3"][1], "{:.3f}")
+    M.put("nEFiveDepthBestHi", e["largest"]["depth_effect_3"][2], "{:.3f}")
+    M.put("nEFiveDepthBestWhere", f"{e['largest']['arch']}, {NET_LABEL[e['largest']['network']]}")
+    el = rb["eligible_query_fraction"].values()
+    M.put("nEligibleMin", pct(min(el)), "{}"); M.put("nEligibleMax", pct(max(el)), "{}")
+    sr = rb["sidnet_reference"]
+    M.put("nSidRefMin", sr["zero_m0_minus_intact_min"], "{:+.3f}")
+    M.put("nSidRefMax", sr["zero_m0_minus_intact_max"], "{:+.3f}")
+
+
+def e8_numbers(M, e8, best):
+    if e8 is None:
+        return
+    c = e8["cells"]
+    g = [x["cycles_minus_local"][0] for x in c]
+    g3 = [x["cycles_minus_local_3"][0] for x in c if x["cycles_minus_local_3"][0] is not None]
+    g4 = [x["cycles_minus_local_4+"][0] for x in c if x["cycles_minus_local_4+"][0] is not None]
+    M.put("nEEightGainMin", min(g), "{:.3f}"); M.put("nEEightGainMax", max(g), "{:.3f}")
+    M.put("nEEightGainThreeMin", min(g3), "{:.3f}"); M.put("nEEightGainThreeMax", max(g3), "{:.3f}")
+    M.put("nEEightGainFourMax", max(g4), "{:.3f}")
+    margin = [x["cycles_auc"][0] - best[x["network"]]["auc"][0] for x in c]
+    M.put("nEEightBeats", sum(m > 0 for m in margin), "{:d}")
+    k = sum(m > 0 for m in margin)
+    M.put("nEEightBeatsText", "all six networks" if k == len(margin) else f"{k} of the {len(margin)} networks")
+    M.put("nEEightMarginMin", min(margin), "{:.3f}"); M.put("nEEightMarginMax", max(margin), "{:.3f}")
+
+
+def e6_e7_numbers(M, e6, e7):
+    names6 = ("nESixMaxReach", "nESixWithin", "nESixCells", "nESixAucMin", "nESixAucMax", "nESixPNinetyMax")
+    if e6 is None:
+        for n in names6:
+            M.pending(n, "E6 running")
+    else:
+        c = [x for x in e6["cells"] if x["n"] == 5]
+        M.put("nESixMaxReach", e6["max_cell_reach_0.1"])
+        M.put("nESixWithin", sum(x["reach_0.1"] <= 2 for x in c), "{:d}")
+        M.put("nESixCells", len(c), "{:d}")
+        M.put("nESixAucMin", min(x["auc"] for x in c), "{:.3f}")
+        M.put("nESixAucMax", max(x["auc"] for x in c), "{:.3f}")
+        M.put("nESixPNinetyMax", max(x["reach_0.1_query_p90"] for x in c), "{:.0f}")
+    names7 = ("nESevenRho", "nESevenFinite", "nESevenGradient", "nESevenExceed", "nESevenMissed",
+              "nESevenSampled", "nESevenCheckpoints", "nESevenFiniteMax", "nESevenWorstArch", "nESevenWorstFinite",
+              "nESevenWorstGradient")
+    if e7 is None:
+        for n in names7:
+            M.pending(n, "E7 running")
+    else:
+        c = e7["cells"]
+        q = sum(x["queries"] for x in c)
+        M.put("nESevenRho", float(np.median([x["spearman_grad_finite"] for x in c])))
+        M.put("nESevenFinite", sum(x["finite_reach_mean"] * x["queries"] for x in c) / q)
+        M.put("nESevenGradient", sum(x["gradient_reach_mean"] * x["queries"] for x in c) / q)
+        M.put("nESevenExceed", pct(sum(x["finite_exceeds_gradient"] for x in c) / q), "{}")
+        M.put("nESevenMissed", sum(x["missed_relations"] for x in c), "{:d}")
+        M.put("nESevenSampled", f"{sum(x['sampled_distant'] for x in c):,}".replace(",", "{,}"))
+        M.put("nESevenCheckpoints", len(c), "{:d}")
+        M.put("nESevenFiniteMax", max(x["finite_reach_mean"] for x in c))
+        by = defaultdict(list)
+        for x in c:
+            by[x["arch"]].append(x)
+        gap = {k: (sum(x["finite_reach_mean"] * x["queries"] for x in v) / sum(x["queries"] for x in v),
+                   sum(x["gradient_reach_mean"] * x["queries"] for x in v) / sum(x["queries"] for x in v)) for k, v in by.items()}
+        worst = max(gap, key=lambda k: gap[k][0] - gap[k][1])
+        M.put("nESevenWorstArch", worst)
+        M.put("nESevenWorstFinite", gap[worst][0])
+        M.put("nESevenWorstGradient", gap[worst][1])
+
+
 def replication_numbers(M, rep):
     names = ("nRepOne", "nRepTwo", "nRepThree", "nRepFourA", "nRepFourB", "nRepTwoP", "nRepSolvedCells",
              "nRepFourAMax", "nRepFourBMax", "nSidMedConf", "nSidMedLayer", "nSidMedZero", "nRepChanceMed",
@@ -461,7 +562,7 @@ def network_table(native, best, native_ph, rep):
     return "\n".join(lines) + "\n"
 
 
-def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None):
+def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None, e8=None, best=None, e6=None, e7=None):
     yes = lambda b: "holds" if b else "fails"
     h4 = [a for a in ARCHS if native["H4"][a]["holds"]]
     sol_pl = [c for c in sm["planted"] if c["solved"] and c.get("tree", "exploratory") == "exploratory"]
@@ -492,6 +593,22 @@ def evidence_table(chain, native, sm, posthoc, native_ph, rep, e5=None):
                   f"{sum(m['minus_local_3'][1] > 0 for m in three)}/{len(three)} cells"),
                  ("\\quad on pairs $\\ge$4 hops apart", "120 checkpoints", "E",
                   f"{sum(m['minus_local_4+'][1] > 0 for m in four)}/{len(four)} cells")]
+    if e8 is not None and best is not None:
+        wins = sum(x["cycles_auc"][0] > best[x["network"]]["auc"][0] for x in e8["cells"])
+        rows.append(("Short-cycle counts beat the best GNN", "6 networks $\\times$ 5", "E", f"{wins}/6 networks"))
+    if e6 is not None:
+        c6 = [x for x in e6["cells"] if x["n"] == 5]
+        rows.append(("Reach $\\le 2$ with random inputs, four more networks", f"{5 * len(c6)} checkpoints", "E",
+                     f"{sum(x['reach_0.1'] <= 2 for x in c6)}/{len(c6)} cells"))
+    else:
+        rows.append(("Reach $\\le 2$ with random inputs, four more networks", "160 checkpoints", "E", pend))
+    if e7 is not None:
+        q = sum(x["queries"] for x in e7["cells"])
+        f = sum(x["finite_reach_mean"] * x["queries"] for x in e7["cells"]) / q
+        g = sum(x["gradient_reach_mean"] * x["queries"] for x in e7["cells"]) / q
+        rows.append(("Finite-flip reach against gradient reach", f"{len(e7['cells'])} checkpoints", "E", f"{f:.2f} vs {g:.2f}"))
+    else:
+        rows.append(("Finite-flip reach against gradient reach", "32 checkpoints", "E", pend))
     lines = ["\\begin{tabular}{@{}p{0.58\\columnwidth}lcl@{}}", "\\toprule", "Claim & Evidence & Tier & Outcome \\\\", "\\midrule"]
     lines += [f"{a} & {b} & {c} & {d} \\\\" for a, b, c, d in rows]
     lines += ["\\bottomrule", "\\end{tabular}"]
@@ -506,6 +623,12 @@ def main():
     gen, figs = paper / "generated", paper / "figures"
     chain, native, expl = load(gen, "chain.json"), load(gen, "native.json"), load(gen, "exploratory.json")
     posthoc, native_ph, rep = load(gen, "posthoc_reach_max.json"), load(gen, "posthoc_reach_native.json"), load(gen, "replication.json")
+    for name in ("replication.json",):
+        r = load(gen, name)
+        assert r is None or r["integrity"]["all_logits_match"], f"{name}: a measurement's logits differ"
+    for name in ("e5_distance.json", "posthoc_reach_max.json"):
+        r = load(gen, name)
+        assert r is None or r.get("all_logits_match", all(x.get("test_logits_match", True) for x in r.get("runs", []))), name
     M = Macros()
     best = confirmatory_numbers(M, chain, native)
     exploratory_numbers(M, expl)
@@ -516,6 +639,9 @@ def main():
     mass_numbers(M, native, load(gen, "sign_mass.json"), load(gen, "shells.json"))
     protocol_numbers(M, load(gen, "protocol.json"))
     e5_numbers(M, load(gen, "e5_distance.json"))
+    robustness_numbers(M, load(gen, "robustness.json"))
+    e8_numbers(M, load(gen, "e8_cycles.json"), best)
+    e6_e7_numbers(M, load(gen, "e6_random.json"), load(gen, "e7_audit.json"))
     (gen / "network_table.tex").write_text(network_table(native, best, native_ph, rep))
     (gen / "e5_table.tex").write_text(e5_table(load(gen, "e5_distance.json")))
     nt, per = newcomer_table(rep)
@@ -529,7 +655,8 @@ def main():
             M.put(f"nNewcomer{tag}Max", max(per[st]))
     (gen / "numbers.tex").write_text(M.text())
     (gen / "evidence_table.tex").write_text(evidence_table(chain, native, load(gen, "sign_mass.json"), posthoc, native_ph, rep,
-                                                           load(gen, "e5_distance.json")))
+                                                           load(gen, "e5_distance.json"), load(gen, "e8_cycles.json"), best,
+                                                           load(gen, "e6_random.json"), load(gen, "e7_audit.json")))
     fig_reach(chain, load(gen, "sign_mass.json"), posthoc, native_ph, rep, figs)
     made = ["generated/numbers.tex", "generated/network_table.tex", "generated/evidence_table.tex", "generated/e5_table.tex",
             "generated/newcomer_table.tex", "figures/reach.pdf"]

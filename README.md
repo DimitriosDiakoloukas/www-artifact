@@ -6,8 +6,9 @@ inputs and SHA-256, and `paper/` holds the generated outputs themselves.
 
 ## Layout
 - `src/srange/` models, data (SNAP downloads verified by pinned SHA-256), influence measures, provenance.
-- `confirmatory/` protocol, its lock (`PROTOCOL_LOCK.json`), job list, all 860 run records, logs, reruns.
-- `exploratory/` the written plan (`PLAN.md`, E1-E5), records, analyses, and the post-hoc diagnostics with
+- `confirmatory/` protocol, its lock (`PROTOCOL_LOCK.json`), job list, all 860 run records and the 30
+  local-baseline records (890 in `confirmatory/*/runs`), logs, reruns.
+- `exploratory/` the written plan (`PLAN.md`, E1-E8), records, analyses, and the post-hoc diagnostics with
   their timeline (`POSTHOC.md`).
 - `replication/` the pre-registered replication: `PROTOCOL.md`, `LOCK.json`, code, records, measurements,
   analysis, reruns.
@@ -16,8 +17,9 @@ inputs and SHA-256, and `paper/` holds the generated outputs themselves.
 - `checkpoints/objects/` a sample of stored checkpoints, content-addressed by SHA-256 (see below).
 
 ## Reproducing
-Python 3.12, `pip install -r requirements.txt` (PyTorch 2.8, PyG 2.8). Set `SRANGE_STORE` to a writable
-directory; raw SNAP files are downloaded there on first use and checked against their pinned hashes.
+Python 3.12, `pip install -r requirements.txt` (the exact versions used). Set `SRANGE_STORE` to a writable
+directory and run `python3 tools/fetch_data.py` once: it downloads the six SNAP networks there and checks the
+raw and processed files against their pinned SHA-256.
 - Tests: `python3 tests/run.py`.
 - Records verify against their own hash: `srange.provenance.verify_record`.
 - Analyses from records: `python3 analysis/chain.py confirmatory/chain --seeds 5 --out <dir>`,

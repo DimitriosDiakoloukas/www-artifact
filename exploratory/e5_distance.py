@@ -154,6 +154,7 @@ def collect(out_dir):
         cells.append({"network": net, "seeds": len(rs), "mean_counts": cnt, "local_auc": local,
                       "models": [{"arch": k[0], "T": k[1], **{f"auc_{s}": ci(v[s + "_auc"]) for s in STRATA},
                                   **{f"minus_local_{s}": ci(v[s]) for s in STRATA}} for k, v in sorted(models.items())]})
+    assert all(m["test_logits_match"] for r in rows for m in r["models"]), "a checkpoint's logits differ"
     res = {"generator": "exploratory/e5_distance.py", "plan": "exploratory/PLAN.md E5",
            "all_logits_match": all(m["test_logits_match"] for r in rows for m in r["models"]),
            "units": len(rows), "checkpoints": sum(len(r["models"]) for r in rows), "cells": cells}

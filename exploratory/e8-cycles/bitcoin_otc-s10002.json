@@ -1,0 +1,1 @@
+{"network": "bitcoin_otc", "seed": 10002, "split_sha256": "c41ec8e263124a90e7bc2dc4056e1d349eb924e93054bc1a78bc40704ec6b4b8", "train_relations": 12860, "local_refit": {"auc": 0.9085382702403979, "by_stratum": {"2": 0.9400575253475806, "3": 0.9047951025032135, "4+": null}}, "cycles": {"auc": 0.9237104370679412, "by_stratum": {"2": 0.95, "3": 0.9261399533779221, "4+": null}}}

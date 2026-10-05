@@ -85,3 +85,38 @@ stored record. On Slashdot its logistic regression is not bitwise reproducible: 
 record by 2e-9 to 5e-9 in AUC, with or without the thread settings of the original runs. The check now
 requires agreement within 1e-6 and stores the difference per unit. Seen before this change: the counts and
 AUCs of the four smaller networks and of one Slashdot seed (an interim collection).
+
+## E6-E8. Written 2026-10-04 22:20 UTC, after an independent pre-submission review and before any E6-E8 computation
+
+The review's central point: the sign gradient holds the input features fixed, and the spectral inputs are
+computed from the signs of the whole training graph, so on spectral checkpoints the measured reach is the
+reach of the learned propagation, conditional on those inputs, not every route by which a distant sign can
+reach a prediction. Random features carry no graph information, so for random-feature checkpoints the
+measured sign dependence is complete. The confirmatory random arm covers two networks.
+
+### E6. Random features on the other four networks
+Bitcoin-OTC, Wiki-RfA, Slashdot, Epinions; four architectures; T in {8, 32}; seeds 10000-10004 (the
+confirmatory splits); random features seeded as in the confirmatory arm; the frozen learning rate and weight
+decay of each (architecture, network); `exploratory/run_native_x.py --features random --skip-signflip
+--emb-pairs 1` (the sampled intervention and embedding range are not used here). 160 runs. Decisive reach
+from the stored checkpoints with `replication/measure.py: measure_native` (logits checked bitwise).
+Reported per cell: test AUC, the mean and the 90th percentile of rho_0.1 over queries, and the ceiling; and
+whether every cell mean is <= 2, the bound RH4 used.
+
+### E7. Finite-intervention audit of distant relations
+T = 32, seed 10000: the 24 spectral checkpoints (6 networks x 4 architectures) and the 8 random-feature ones
+(Bitcoin-Alpha, Wiki-Elec). For the first 20 stored test pairs of each: at distance 0 the 5 relations with
+the largest sign gradient; at each distance 1, 2, 3 below the ceiling the 5 largest by gradient and 20 drawn
+uniformly (seed 0). Each candidate's sign is negated with features fixed and |delta logit| recorded.
+Reported: the rank correlation of gradient and finite effect; per query, the largest finite effect at each
+distance relative to the largest at distance 0 and the resulting candidate reach at tau = 0.1, against the
+gradient reach of the same query; and how many sampled relations have a finite effect >= 0.1 of the
+query's largest while their gradient was not among the shell's top 5 (gradient misses).
+
+### E8. A longer-cycle baseline (Chiang et al. 2011)
+The local-evidence baseline plus signed walk counts of length 3 and 4 between the endpoints (positive and
+negative sign products, log1p), on the training graph. A training relation's features are computed with its
+own fold of ten removed from the graph, so no relation sees its own sign; test features use the full
+training graph. Logistic regression as in the local baseline, on 50,000 training relations drawn per seed
+(all if fewer). Six networks, seeds 10000-10004. Reported: overall test AUC and AUC by endpoint-distance
+stratum (as E5), against the local baseline and the best GNN cell of E5.

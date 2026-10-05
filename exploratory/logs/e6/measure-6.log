@@ -1,0 +1,22 @@
+<venv>/lib/python3.12/site-packages/torch/autograd/graph.py:829: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at /pytorch/aten/src/ATen/cuda/CublasHandlePool.cpp:179.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+BGSD-bitcoin_otc-T8-s10001-random: reach@0.1=0.69
+BGSD-epinions-T32-s10004-random: reach@0.1=0.43
+BGSD-slashdot-T32-s10002-random: reach@0.1=0.50
+BGSD-wiki_rfa-T32-s10000-random: reach@0.1=0.53
+BGSD-wiki_rfa-T8-s10003-random: reach@0.1=0.65
+SGCN-bitcoin_otc-T8-s10001-random: reach@0.1=0.78
+SGCN-epinions-T32-s10004-random: reach@0.1=0.80
+SGCN-slashdot-T32-s10002-random: reach@0.1=0.97
+SGCN-wiki_rfa-T32-s10000-random: reach@0.1=1.38
+SGCN-wiki_rfa-T8-s10003-random: reach@0.1=1.60
+SIDNET-bitcoin_otc-T8-s10001-random: reach@0.1=1.51
+SIDNET-epinions-T32-s10004-random: reach@0.1=0.62
+SIDNET-slashdot-T32-s10002-random: reach@0.1=0.49
+SIDNET-wiki_rfa-T32-s10000-random: reach@0.1=0.48
+SIDNET-wiki_rfa-T8-s10003-random: reach@0.1=0.71
+SLGNN-bitcoin_otc-T8-s10001-random: reach@0.1=0.46
+SLGNN-epinions-T8-s10000-random: reach@0.1=0.36
+SLGNN-slashdot-T32-s10003-random: reach@0.1=1.26
+SLGNN-wiki_rfa-T32-s10001-random: reach@0.1=0.82
+SLGNN-wiki_rfa-T8-s10004-random: reach@0.1=0.77
