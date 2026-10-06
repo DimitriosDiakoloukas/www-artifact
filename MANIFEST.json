@@ -179,6 +179,7 @@
  "collective/controls.py": "2fd00e58faad4f8c31abab87b1d31f094a74a018976440000dda357e4901c451",
  "collective/measure.py": "3113354134ab6b0e08247d375b009e33e4584494fdd22bab85d2e3c266a7da50",
  "collective/results/known_controls.json": "8c8355984e3b00b3cf83cd8a0addb285a6549c0790f65bf596ab576859dbd8cd",
+ "collective/results/report/MANIFEST.json": "371247f429e22dc241c038e1c217b1d73e41da07fa19d4c060e9e3cae9d868a1",
  "collective/results/report/REPORT.md": "026c8d6ba777155b3bcd48bd9417b626fdcf1d14e0ec79cc46ae6338349cf29d",
  "collective/results/report/control_comparison.pdf": "166482a20e4b838aac8304fe426ba5d348ea15bdcf016a2eea911ee7196c8fab",
  "collective/results/report/control_comparison.png": "0b3814a1900bf3917a5e4483e9cb09f6b1ecdd60b37942d6df505c49234f7c55",
