@@ -1,6 +1,6 @@
 # Artifact: Distant Dependence Can Appear Local
 
-Collective Audits of Signed Graph Neural Networks
+Collective Audits for Web Trust Prediction
 
 Code, protocols, run records and analysis for the WWW 2027 submission. Every table, figure and number of the
 paper is produced by code from the records here; `RESULT_MAP.md` lists each with its generating script,
