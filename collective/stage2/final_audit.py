@@ -41,6 +41,13 @@ def run(paper,out):
             a=[np.load(folder/f'q{q:03d}.npz') for q in range(128)];p=sig(np.array([v['logits'] for v in a]));choice=policies['models'][i]['choice'];values.append(float(np.sqrt(np.mean((p[:,choice]-p[:,0])**2))));first.append(float(np.sqrt(np.mean((p[:,4]-p[:,0])**2))))
         value=float(np.mean(values));check('nStageLayerRmse'+key,value,'.4f');check('nStageFirstRmse'+key,float(np.mean(first)),'.3f');raw.append({'quantity':f'{net} selected held-out RMSE','value':value,'queries':640,'method':'raw 128 candidate vectors per checkpoint, then equal five-seed mean'})
         summary=next(s for s in comp['seed_summaries'] if (s['kind'],s['network'],s['policy'])==('layerwise',net,'validation_selected'))
+        for choice_name,word in [('full','Full'),('selected','Selected')]:
+            seconds=[]
+            for i in indices:
+                choice=0 if choice_name=='full' else policies['models'][i]['choice']
+                record=json.loads((BASE/'layerwise/benchmarks'/f'{i}-{choice}.json').read_text())
+                seconds.append(next(b for b in record['batches'] if b['batchsize']==1)['seconds_per_query'])
+            check('nStage'+word+'Latency'+key,1000*float(np.mean(seconds)),'.1f')
         for size,word in [(1,'Single'),(64,'Batch')]:check('nStageLayerSpeed'+key+word,next(b for b in summary['batches'] if b['batchsize']==size)['speedup_vs_full'][0],'.2f')
     assert len(comp['rows'])==204 and sum(len(r['batches']) for r in comp['rows'])==612 and all(len(r['batches'])==3 for r in comp['rows'])
     result={'source_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),'numerical_spot_checks':checks,'independent_raw_rederivations':raw,'complete_policy_schedule_outcomes':204,'batch_measurements':612,'all_checks_pass':True}

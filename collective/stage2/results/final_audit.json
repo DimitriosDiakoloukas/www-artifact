@@ -143,6 +143,16 @@
    "value": 0.10882311790121238
   },
   {
+   "macro": "nStageFullLatencyAlpha",
+   "printed": "37.8",
+   "value": 37.7729397296207
+  },
+  {
+   "macro": "nStageSelectedLatencyAlpha",
+   "printed": "28.5",
+   "value": 28.50203262642026
+  },
+  {
    "macro": "nStageLayerSpeedAlphaSingle",
    "printed": "1.33",
    "value": 1.325280835524772
@@ -163,6 +173,16 @@
    "value": 0.13081562049491982
   },
   {
+   "macro": "nStageFullLatencyWiki",
+   "printed": "67.6",
+   "value": 67.56825700285845
+  },
+  {
+   "macro": "nStageSelectedLatencyWiki",
+   "printed": "54.2",
+   "value": 54.166834423085675
+  },
+  {
    "macro": "nStageLayerSpeedWikiSingle",
    "printed": "1.26",
    "value": 1.2640692148923174
@@ -173,5 +193,5 @@
    "value": 1.2638631350870189
   }
  ],
- "source_sha256": "1414715b4bd0ed2fb73447ce839681b8022ad430edefc27c5fbfa3be829bf961"
+ "source_sha256": "30d883c10f1bcedc45c245a36d01262f7a32db0d0c707503f246386b3e174c25"
 }

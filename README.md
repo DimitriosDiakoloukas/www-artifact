@@ -1,4 +1,6 @@
-# Artifact: When Is Learned Trust Propagation Local?
+# Artifact: Distant Dependence Can Appear Local
+
+Collective Audits of Signed Graph Neural Networks
 
 Code, protocols, run records and analysis for the WWW 2027 submission. Every table, figure and number of the
 paper is produced by code from the records here; `RESULT_MAP.md` lists each with its generating script,
@@ -92,6 +94,10 @@ rounding was detected; `revision/DEVIATIONS.md` records this and the retained fa
   history is withheld for anonymity, so replay of its commit-object checks requires the final release.
   Metadata identifiers in generated analyses are normalised through SANITIZATION; numerical arrays and
   model hashes are unchanged. This preserves byte-for-byte regeneration after anonymous metadata edits.
+
+Timings use Tesla V100-SXM2 cards with 16 or 32 GB, CUDA 12.8 and PyTorch 2.8.
+The environment GPU-name field names the default visible device; assigned CUDA indices are recorded
+in execution ledgers. Absolute latency and per-checkpoint speed ratios are reported separately.
 
 ## Anonymisation
 Machine paths and the host name were rewritten for review (`<repo>`, `$SRANGE_STORE`, `<venv>`, `<paper>`,

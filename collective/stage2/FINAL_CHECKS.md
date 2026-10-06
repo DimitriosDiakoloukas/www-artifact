@@ -28,8 +28,11 @@ and the original full-union predictions and representative valid completions for
 
 `final_audit.py` independently rethresholds all 100 qualifying learned SGCN gradient vectors, recomputes
 four native short-reach exchange RMSEs from raw draws and two selected-schedule RMSEs from all raw test
-vectors. Its report contains 25 printed-number spot checks and seven raw re-derivations, all passing.
+vectors. Its report contains 29 printed-number spot checks and seven raw re-derivations, all passing.
 The native joint seed means are computed per checkpoint before taking an equal-seed average.
+Four additional absolute-latency checks independently read the full and validation-selected
+single-query timing records, convert seconds to milliseconds and average the five checkpoint medians.
+Latency means and mean paired speedup ratios are distinct summaries.
 
 The scoped test suite passes all 33 tests, including binary native fidelity, derivatives, constraints,
 source-degree boundary handling, global initialisation preservation, law-specific conditional variance
@@ -51,3 +54,17 @@ support law-specific stress responses. Signed-degree constraints and achieved-si
 Native findings concern two models on two networks. Calibration and batching costs are part of the
 practical result; unchanged-snapshot embedding-cache hits and future-graph policy fidelity are untested.
 Conditional variance, fidelity diagnostics, adaptive inference and signed walks are credited prior art.
+
+## Discovery-first presentation revision
+
+The manuscript leads with learned failures, then native collective responses, then computational
+consequences. Main-text constraints, timing hardware and absolute latencies come from existing records;
+the familiar short-walk comparison is supporting appendix evidence. No training, intervention,
+measurement or locked policy source changed. The revised report regenerates all 44 assets from an
+empty directory with zero problems. All scientific arrays and existing reported numerical results
+remain unchanged; four latency macros are added.
+
+The latest external review also proposes native short-reach signed-degree/coverage-matched edits and
+full-test global schedule evaluation with paired uncertainty. Neither addition was run in this editorial
+revision. Separate standardised constraint cohorts and 128-query computation cohorts are explicitly
+identified in the paper.

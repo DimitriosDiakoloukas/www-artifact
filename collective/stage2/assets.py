@@ -34,6 +34,9 @@ def run(paper,preview=False,data_directory=None):
     number('nStageLayerHeldPass',sum(r['heldout_pass'] for r in comp['rows'] if r['kind']=='layerwise' and r.get('selected_by_validation')))
     for net,key in [('bitcoin_alpha','Alpha'),('wiki_elec','Wiki')]:
         s=get(comp,'layerwise',net,'validation_selected');number('nStageLayerRmse'+key,s['metrics']['probability_RMSE'][0],'.4f');first=get(comp,'layerwise',net,'L8-16');number('nStageFirstRmse'+key,first['metrics']['probability_RMSE'][0],'.3f')
+        full=get(comp,'layerwise',net,'L16-16')
+        number('nStageFullLatency'+key,1000*next(v for v in full['batches'] if v['batchsize']==1)['seconds_per_query'][0],'.1f')
+        number('nStageSelectedLatency'+key,1000*next(v for v in s['batches'] if v['batchsize']==1)['seconds_per_query'][0],'.1f')
         for size,word in [(1,'Single'),(64,'Batch')]:
             b=next((v for v in s['batches'] if v['batchsize']==size),None)
             number('nStageLayerSpeed'+key+word,b['speedup_vs_full'][0] if b else r'\pending{measured runtime}', '.2f')
