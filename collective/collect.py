@@ -33,12 +33,22 @@ def effects(logits,original,labels):
             'mean_intervened_original_label_Brier':float(np.mean((p-labels[:,None])**2))}
 
 
+def original_record_digest(relative, record):
+    """Recognise declared anonymous metadata aliases after verifying the current self hash."""
+    path = ROOT / 'SANITIZATION.json'
+    alias = json.loads(path.read_text()).get(str(relative)) if path.exists() else None
+    if alias is None:
+        return record['result_sha256']
+    assert alias['sanitized_result_sha256'] == record['result_sha256']
+    return alias['original_result_sha256']
+
+
 def collect_networks():
     rows=[];inputs={}
     targets=json.loads((BASE/'targets.json').read_text())
     for i,target in enumerate(targets):
         rec=pv.verify_record(ROOT/target['record'])
-        assert rec['result_sha256']==target['result_sha256']
+        assert original_record_digest(target['record'],rec)==target['result_sha256']
         dest=BASE/'runs'/f"{i}-{rec['args']['arch']}-{rec['args']['dataset']}"
         done=pv.verify_record(dest/'complete.json')
         assert done['source_sha256']==source_hash() and done['original_test_logits_bitwise_before_after']

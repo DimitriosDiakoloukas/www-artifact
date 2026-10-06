@@ -13,6 +13,8 @@ def test_saved_draw_integrity_gate():
         root=Path(td);base=root/'collective';base.mkdir()
         for name in ('targets.json','LOCK.json'):
             shutil.copyfile(original_base/name,base/name)
+        if (original_root/'SANITIZATION.json').exists():
+            shutil.copyfile(original_root/'SANITIZATION.json',root/'SANITIZATION.json')
         record=root/target['record'];record.parent.mkdir(parents=True)
         shutil.copyfile(original_root/target['record'],record)
         folder='0-SGCN-bitcoin_alpha'
