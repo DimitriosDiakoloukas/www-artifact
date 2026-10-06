@@ -1,0 +1,1382 @@
+{
+ "choices": [
+  "L16-16",
+  "L16-8",
+  "L16-4",
+  "L16-2",
+  "L8-16",
+  "L4-16"
+ ],
+ "models": [
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.03660637801513076,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.06178709056893979,
+      "Brier_increase": 0.0,
+      "ECE": 0.06083289585382866,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 8,
+      "positive_queries": 72,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.9618055555555555
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.027528472896665334,
+     "validation": {
+      "AUC_loss": -0.0017361111111111605,
+      "Brier": 0.06168838952453594,
+      "Brier_increase": -9.87010444038483e-05,
+      "ECE": 0.0608489835731129,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.005188849831117004,
+      "negative_queries": 8,
+      "positive_queries": 72,
+      "probability_RMSE": 0.0011922270502297313,
+      "queries": 80,
+      "test_AUC": 0.9635416666666666
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.023054801765829323,
+     "validation": {
+      "AUC_loss": -0.005208333333333481,
+      "Brier": 0.06050526521053813,
+      "Brier_increase": -0.001281825358401656,
+      "ECE": 0.05429169455621701,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.09978691336945467,
+      "negative_queries": 8,
+      "positive_queries": 72,
+      "probability_RMSE": 0.014537151491370684,
+      "queries": 80,
+      "test_AUC": 0.967013888888889
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.020797755010426043,
+     "validation": {
+      "AUC_loss": 0.01736111111111105,
+      "Brier": 0.05570001904046747,
+      "Brier_increase": -0.006087071528472314,
+      "ECE": 0.0542147990674771,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.5270400390131855,
+      "negative_queries": 8,
+      "positive_queries": 72,
+      "probability_RMSE": 0.08462995401178941,
+      "queries": 80,
+      "test_AUC": 0.9444444444444444
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.027451641205698252,
+     "validation": {
+      "AUC_loss": 0.06944444444444431,
+      "Brier": 0.0803572731892502,
+      "Brier_increase": 0.01857018262031042,
+      "ECE": 0.07767117803548296,
+      "class_disagreement": 0.0375,
+      "maximum_probability_error": 0.9758766382282401,
+      "negative_queries": 8,
+      "positive_queries": 72,
+      "probability_RMSE": 0.1573472762592934,
+      "queries": 80,
+      "test_AUC": 0.8923611111111112
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.022930795047432184,
+     "validation": {
+      "AUC_loss": 0.2343749999999999,
+      "Brier": 0.2505147061729288,
+      "Brier_increase": 0.18872761560398904,
+      "ECE": 0.2768280596442318,
+      "class_disagreement": 0.3,
+      "maximum_probability_error": 0.9996176805203019,
+      "negative_queries": 8,
+      "positive_queries": 72,
+      "probability_RMSE": 0.4777684086035843,
+      "queries": 80,
+      "test_AUC": 0.7274305555555556
+     }
+    }
+   ],
+   "checkpoint_sha256": "62a533fab48ee2b10fefa1df716f9a3257902ea91ab995e7fffd3c996cada6dc",
+   "choice": 1,
+   "development_complete_sha256": "353329a55b2701754b23cdcc3899915e5cc525dde22db1c187b95ee2bd0ceb55",
+   "end_to_end_development_pipeline_seconds": 45.25074910372496,
+   "index": 0,
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52000.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "4d57f08dfc71bc97d25e66dad22d92fb664afcceb54288f50db7ff0b6d796d49"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.03805151926353574,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.035858078030101014,
+      "Brier_increase": 0.0,
+      "ECE": 0.041510183096132525,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 3,
+      "positive_queries": 77,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.7835497835497836
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.028692901227623226,
+     "validation": {
+      "AUC_loss": 0.0043290043290042934,
+      "Brier": 0.03583691820510766,
+      "Brier_increase": -2.1159824993351173e-05,
+      "ECE": 0.041375736761970164,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.044697158004662785,
+      "negative_queries": 3,
+      "positive_queries": 77,
+      "probability_RMSE": 0.005405757698181051,
+      "queries": 80,
+      "test_AUC": 0.7792207792207793
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.02401036685332656,
+     "validation": {
+      "AUC_loss": 0.03463203463203457,
+      "Brier": 0.03580975025844445,
+      "Brier_increase": -4.832777165656582e-05,
+      "ECE": 0.04012780242163101,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.21473127685483162,
+      "negative_queries": 3,
+      "positive_queries": 77,
+      "probability_RMSE": 0.025880815008577276,
+      "queries": 80,
+      "test_AUC": 0.748917748917749
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.021685042791068553,
+     "validation": {
+      "AUC_loss": 0.05627705627705626,
+      "Brier": 0.03517020490758175,
+      "Brier_increase": -0.0006878731225192641,
+      "ECE": 0.036812599031199746,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.2974525646579548,
+      "negative_queries": 3,
+      "positive_queries": 77,
+      "probability_RMSE": 0.054960820058908406,
+      "queries": 80,
+      "test_AUC": 0.7272727272727273
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.02861747518181801,
+     "validation": {
+      "AUC_loss": 0.09523809523809523,
+      "Brier": 0.05087638719227502,
+      "Brier_increase": 0.015018309162174004,
+      "ECE": 0.047556568423696766,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.8364636608587293,
+      "negative_queries": 3,
+      "positive_queries": 77,
+      "probability_RMSE": 0.11071856024398778,
+      "queries": 80,
+      "test_AUC": 0.6883116883116883
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.023891672026365995,
+     "validation": {
+      "AUC_loss": 0.2554112554112554,
+      "Brier": 0.26336902878479784,
+      "Brier_increase": 0.22751095075469682,
+      "ECE": 0.29877323561605795,
+      "class_disagreement": 0.275,
+      "maximum_probability_error": 0.9999010890192342,
+      "negative_queries": 3,
+      "positive_queries": 77,
+      "probability_RMSE": 0.46959699812221734,
+      "queries": 80,
+      "test_AUC": 0.5281385281385281
+     }
+    }
+   ],
+   "checkpoint_sha256": "ba55b13e0193164464e6ea458494efe7bcd1500c65d5d3a71ead6f28697611b0",
+   "choice": 1,
+   "development_complete_sha256": "e2014f0619572576f4618438da6c187f4f6ab56afeae9b981126ce11527128e3",
+   "end_to_end_development_pipeline_seconds": 46.99124373309314,
+   "index": 1,
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52001.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "88e7f0c09ec12677e1752249cdb56e1ddcfb08f6215c7d412ffe9b75ebf5d29d"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.03876123772934079,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.019841715952061915,
+      "Brier_increase": 0.0,
+      "ECE": 0.025689418342210953,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 5,
+      "positive_queries": 75,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.9866666666666667
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.029163731820881368,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.01974666576789863,
+      "Brier_increase": -9.505018416328462e-05,
+      "ECE": 0.025215372173096676,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0412474485076213,
+      "negative_queries": 5,
+      "positive_queries": 75,
+      "probability_RMSE": 0.00484071545771357,
+      "queries": 80,
+      "test_AUC": 0.9866666666666667
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.024420704506337643,
+     "validation": {
+      "AUC_loss": -0.008000000000000007,
+      "Brier": 0.02138994216123207,
+      "Brier_increase": 0.0015482262091701567,
+      "ECE": 0.016652037434837102,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.12898548193729997,
+      "negative_queries": 5,
+      "positive_queries": 75,
+      "probability_RMSE": 0.023735397972071148,
+      "queries": 80,
+      "test_AUC": 0.9946666666666667
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.022043867316097022,
+     "validation": {
+      "AUC_loss": 0.002666666666666595,
+      "Brier": 0.03308846580777542,
+      "Brier_increase": 0.013246749855713506,
+      "ECE": 0.04033708630220988,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.44329934524303416,
+      "negative_queries": 5,
+      "positive_queries": 75,
+      "probability_RMSE": 0.08768290794362281,
+      "queries": 80,
+      "test_AUC": 0.9840000000000001
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.02904543373733759,
+     "validation": {
+      "AUC_loss": 0.039999999999999925,
+      "Brier": 0.0426624351316018,
+      "Brier_increase": 0.022820719179539883,
+      "ECE": 0.05045743326830685,
+      "class_disagreement": 0.0375,
+      "maximum_probability_error": 0.8320965376951293,
+      "negative_queries": 5,
+      "positive_queries": 75,
+      "probability_RMSE": 0.15197109484527171,
+      "queries": 80,
+      "test_AUC": 0.9466666666666668
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.024254575464874507,
+     "validation": {
+      "AUC_loss": 0.30133333333333334,
+      "Brier": 0.45210934147237103,
+      "Brier_increase": 0.4322676255203091,
+      "ECE": 0.48691223746446916,
+      "class_disagreement": 0.5125,
+      "maximum_probability_error": 0.9999571538704995,
+      "negative_queries": 5,
+      "positive_queries": 75,
+      "probability_RMSE": 0.6725379797293397,
+      "queries": 80,
+      "test_AUC": 0.6853333333333333
+     }
+    }
+   ],
+   "checkpoint_sha256": "385fef60c80b5b7279f94e8f44616b73b075665a88d967bd2f2c0fa85542523c",
+   "choice": 1,
+   "development_complete_sha256": "148f0a61814688ac23e588f6603fdaff89ae351ce712b88fa4b59f870a9229d0",
+   "end_to_end_development_pipeline_seconds": 47.545667665079236,
+   "index": 2,
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52002.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "ece0719f63e0b05c0eb8930fea305c3c84499207c811e18166bceb6094c8bc68"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.03788602678105235,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.042938688124100025,
+      "Brier_increase": 0.0,
+      "ECE": 0.028010803084649427,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 6,
+      "positive_queries": 74,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.9166666666666667
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.02856698986142874,
+     "validation": {
+      "AUC_loss": -0.0022522522522521182,
+      "Brier": 0.04288565368105561,
+      "Brier_increase": -5.303444304441407e-05,
+      "ECE": 0.03590183305364443,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.013014721413468933,
+      "negative_queries": 6,
+      "positive_queries": 74,
+      "probability_RMSE": 0.0020924844906186294,
+      "queries": 80,
+      "test_AUC": 0.9189189189189189
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.023915362637490035,
+     "validation": {
+      "AUC_loss": -0.0022522522522522292,
+      "Brier": 0.04604824750952347,
+      "Brier_increase": 0.003109559385423448,
+      "ECE": 0.04202859978124087,
+      "class_disagreement": 0.0375,
+      "maximum_probability_error": 0.12162135991177281,
+      "negative_queries": 6,
+      "positive_queries": 74,
+      "probability_RMSE": 0.02646829524565307,
+      "queries": 80,
+      "test_AUC": 0.918918918918919
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.02157838074490428,
+     "validation": {
+      "AUC_loss": 0.03603603603603611,
+      "Brier": 0.0657748282996917,
+      "Brier_increase": 0.02283614017559167,
+      "ECE": 0.05657113314998542,
+      "class_disagreement": 0.05,
+      "maximum_probability_error": 0.43717788206400043,
+      "negative_queries": 6,
+      "positive_queries": 74,
+      "probability_RMSE": 0.08819556206683646,
+      "queries": 80,
+      "test_AUC": 0.8806306306306306
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.02848254321143031,
+     "validation": {
+      "AUC_loss": 0.10360360360360366,
+      "Brier": 0.04666460297833621,
+      "Brier_increase": 0.0037259148542361856,
+      "ECE": 0.05209865432653334,
+      "class_disagreement": 0.025,
+      "maximum_probability_error": 0.2309702520599377,
+      "negative_queries": 6,
+      "positive_queries": 74,
+      "probability_RMSE": 0.051458361699050714,
+      "queries": 80,
+      "test_AUC": 0.8130630630630631
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.02378416508436203,
+     "validation": {
+      "AUC_loss": 0.3198198198198199,
+      "Brier": 0.29340079874361746,
+      "Brier_increase": 0.25046211061951745,
+      "ECE": 0.3222739673783891,
+      "class_disagreement": 0.3625,
+      "maximum_probability_error": 0.9998216218434288,
+      "negative_queries": 6,
+      "positive_queries": 74,
+      "probability_RMSE": 0.5123136061856618,
+      "queries": 80,
+      "test_AUC": 0.5968468468468469
+     }
+    }
+   ],
+   "checkpoint_sha256": "86c3172e7f4160aff1e9c57d708c9fd5b8393f2531891e0482c1c1324ac89085",
+   "choice": 1,
+   "development_complete_sha256": "9f546010ced5e83711ed9844a6eeb84a782bea6bcbca59c54f579f23e066d5cb",
+   "end_to_end_development_pipeline_seconds": 46.8034028634429,
+   "index": 3,
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52003.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "756a8758d497c5751aabc142c8f9ee850661dcbea6fc51265ad9a8d15df69f6d"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.03748096898198128,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.0013317517804611579,
+      "Brier_increase": 0.0,
+      "ECE": 0.015255726660135006,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 1,
+      "positive_queries": 79,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 1.0
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.028255810029804707,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.001368363853343142,
+      "Brier_increase": 3.661207288198419e-05,
+      "ECE": 0.015390501246109575,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.025414796828801656,
+      "negative_queries": 1,
+      "positive_queries": 79,
+      "probability_RMSE": 0.002904994790923371,
+      "queries": 80,
+      "test_AUC": 1.0
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.023667061049491168,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.00215279862684487,
+      "Brier_increase": 0.000821046846383712,
+      "ECE": 0.01603117907934532,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.23408654617902314,
+      "negative_queries": 1,
+      "positive_queries": 79,
+      "probability_RMSE": 0.02684998701412977,
+      "queries": 80,
+      "test_AUC": 1.0
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.021348551940172912,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.010477116013584288,
+      "Brier_increase": 0.00914536423312313,
+      "ECE": 0.024017668906658293,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.717073302237079,
+      "negative_queries": 1,
+      "positive_queries": 79,
+      "probability_RMSE": 0.08732790426059184,
+      "queries": 80,
+      "test_AUC": 1.0
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.028171383310109377,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.0034028672464937403,
+      "Brier_increase": 0.0020711154660325824,
+      "ECE": 0.019568642797891438,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.25774032875995445,
+      "negative_queries": 1,
+      "positive_queries": 79,
+      "probability_RMSE": 0.04360748133477719,
+      "queries": 80,
+      "test_AUC": 1.0
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.023525120690464973,
+     "validation": {
+      "AUC_loss": 0.025316455696202556,
+      "Brier": 0.15648695661527587,
+      "Brier_increase": 0.1551552048348147,
+      "ECE": 0.20042229471410078,
+      "class_disagreement": 0.1875,
+      "maximum_probability_error": 0.9982964181783559,
+      "negative_queries": 1,
+      "positive_queries": 79,
+      "probability_RMSE": 0.39193166202859514,
+      "queries": 80,
+      "test_AUC": 0.9746835443037974
+     }
+    }
+   ],
+   "checkpoint_sha256": "540475753deba21e76c9a2badd48d7ff612ed6dec7be92ae4f8c1d12dc45a517",
+   "choice": 1,
+   "development_complete_sha256": "fe0136a92b565d9094dbedeee590431be1ca606eb8206d1463316321b8ecab17",
+   "end_to_end_development_pipeline_seconds": 46.130566876381636,
+   "index": 4,
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52004.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "02bf7762a61da01f05d3ae9272c0a7c89719e2e20f3e2e313c974e936f820213"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.06860985867679119,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.09126074960689172,
+      "Brier_increase": 0.0,
+      "ECE": 0.07425856464558112,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 12,
+      "positive_queries": 68,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.8308823529411765
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.05158169288188219,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.09145418567871776,
+      "Brier_increase": 0.0001934360718260364,
+      "ECE": 0.07403707006000093,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.019045932943591914,
+      "negative_queries": 12,
+      "positive_queries": 68,
+      "probability_RMSE": 0.003150742539804694,
+      "queries": 80,
+      "test_AUC": 0.8308823529411765
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.04305764604359865,
+     "validation": {
+      "AUC_loss": -0.003676470588235281,
+      "Brier": 0.09355221618361767,
+      "Brier_increase": 0.0022914665767259507,
+      "ECE": 0.09638362860606067,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.12140460353545568,
+      "negative_queries": 12,
+      "positive_queries": 68,
+      "probability_RMSE": 0.027024213855173975,
+      "queries": 80,
+      "test_AUC": 0.8345588235294118
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.038798713311553004,
+     "validation": {
+      "AUC_loss": 0.006127450980392246,
+      "Brier": 0.10394661253355741,
+      "Brier_increase": 0.012685862926665695,
+      "ECE": 0.0830076028032355,
+      "class_disagreement": 0.025,
+      "maximum_probability_error": 0.4945248300003974,
+      "negative_queries": 12,
+      "positive_queries": 68,
+      "probability_RMSE": 0.09051990527248636,
+      "queries": 80,
+      "test_AUC": 0.8247549019607843
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.05158126885071397,
+     "validation": {
+      "AUC_loss": 0.05392156862745112,
+      "Brier": 0.11924903677049672,
+      "Brier_increase": 0.027988287163605005,
+      "ECE": 0.11688380897762582,
+      "class_disagreement": 0.075,
+      "maximum_probability_error": 0.9558239234662136,
+      "negative_queries": 12,
+      "positive_queries": 68,
+      "probability_RMSE": 0.2059661933902157,
+      "queries": 80,
+      "test_AUC": 0.7769607843137254
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.043059500772506,
+     "validation": {
+      "AUC_loss": 0.18014705882352944,
+      "Brier": 0.21224147581189073,
+      "Brier_increase": 0.12098072620499901,
+      "ECE": 0.2103712952700827,
+      "class_disagreement": 0.2625,
+      "maximum_probability_error": 0.9979837403995008,
+      "negative_queries": 12,
+      "positive_queries": 68,
+      "probability_RMSE": 0.4216870889862337,
+      "queries": 80,
+      "test_AUC": 0.6507352941176471
+     }
+    }
+   ],
+   "checkpoint_sha256": "66f16be22fc46fb070817146e6dacd60ac303b30418da3f443067cdd10d1a0de",
+   "choice": 1,
+   "development_complete_sha256": "2602b38b5dc3641da4856c02df072a21457b69a5096c1e7cb8adc3f9e451c42f",
+   "end_to_end_development_pipeline_seconds": 81.5660014115274,
+   "index": 5,
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52000.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "e40ab557e7ce6a57c44f2285809f666ccd94d66c959c37e1362e9f1d20f2b2e8"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.06921853506937622,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.06543470661226902,
+      "Brier_increase": 0.0,
+      "ECE": 0.05627555829848083,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 18,
+      "positive_queries": 62,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.956989247311828
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.05202470328658819,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.06549223888132664,
+      "Brier_increase": 5.753226905762243e-05,
+      "ECE": 0.06614113775408283,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.007821041866356904,
+      "negative_queries": 18,
+      "positive_queries": 62,
+      "probability_RMSE": 0.0013679231619099636,
+      "queries": 80,
+      "test_AUC": 0.956989247311828
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.04343056995421648,
+     "validation": {
+      "AUC_loss": 0.0044802867383512135,
+      "Brier": 0.06660391442893424,
+      "Brier_increase": 0.0011692078166652131,
+      "ECE": 0.05955978172597219,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.07194846963975354,
+      "negative_queries": 18,
+      "positive_queries": 62,
+      "probability_RMSE": 0.015682076681359815,
+      "queries": 80,
+      "test_AUC": 0.9525089605734768
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.039138077106326816,
+     "validation": {
+      "AUC_loss": 0.012544802867383464,
+      "Brier": 0.07303499158695816,
+      "Brier_increase": 0.007600284974689134,
+      "ECE": 0.06727539832377882,
+      "class_disagreement": 0.0625,
+      "maximum_probability_error": 0.3430697851055581,
+      "negative_queries": 18,
+      "positive_queries": 62,
+      "probability_RMSE": 0.07310555323128295,
+      "queries": 80,
+      "test_AUC": 0.9444444444444445
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.052030953392386434,
+     "validation": {
+      "AUC_loss": 0.06182795698924737,
+      "Brier": 0.10886359854568295,
+      "Brier_increase": 0.04342889193341393,
+      "ECE": 0.09754357103053721,
+      "class_disagreement": 0.075,
+      "maximum_probability_error": 0.8919858943986302,
+      "negative_queries": 18,
+      "positive_queries": 62,
+      "probability_RMSE": 0.17965871796180657,
+      "queries": 80,
+      "test_AUC": 0.8951612903225806
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.04342624554410577,
+     "validation": {
+      "AUC_loss": 0.15501792114695345,
+      "Brier": 0.1993375403255384,
+      "Brier_increase": 0.1339028337132694,
+      "ECE": 0.19751055420291724,
+      "class_disagreement": 0.225,
+      "maximum_probability_error": 0.9438024690946265,
+      "negative_queries": 18,
+      "positive_queries": 62,
+      "probability_RMSE": 0.3356289372636165,
+      "queries": 80,
+      "test_AUC": 0.8019713261648745
+     }
+    }
+   ],
+   "checkpoint_sha256": "289880d3bb21ede74e10b4e15c1267211938df2cb40a8a26efeaaec59a2b1c17",
+   "choice": 1,
+   "development_complete_sha256": "66d52cd5d3e2cbe3ecf15b3ce929a9e0c5474c8cc2ac01dfc42a78f7fedd13da",
+   "end_to_end_development_pipeline_seconds": 82.24808228760958,
+   "index": 6,
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52001.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "2edb9c60b56d4a19d99b3158a2648d4aad6031e53726ea5aeedc807814e5581a"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.06776219513267279,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.0967695037914085,
+      "Brier_increase": 0.0,
+      "ECE": 0.0981882394272404,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 9,
+      "positive_queries": 71,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.8841940532081377
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.05093619395047426,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.09677125077901838,
+      "Brier_increase": 1.74698760987968e-06,
+      "ECE": 0.09804238753657152,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.00899056964274958,
+      "negative_queries": 9,
+      "positive_queries": 71,
+      "probability_RMSE": 0.002061441482618838,
+      "queries": 80,
+      "test_AUC": 0.8841940532081377
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.04251778591424227,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.09596804810993688,
+      "Brier_increase": -0.0008014556814716217,
+      "ECE": 0.11029884460192386,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.09971417787348646,
+      "negative_queries": 9,
+      "positive_queries": 71,
+      "probability_RMSE": 0.025296726225106512,
+      "queries": 80,
+      "test_AUC": 0.8841940532081377
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.03831938868388533,
+     "validation": {
+      "AUC_loss": -0.006259780907668211,
+      "Brier": 0.09525453757858787,
+      "Brier_increase": -0.0015149662128206287,
+      "ECE": 0.11444736476399255,
+      "class_disagreement": 0.0625,
+      "maximum_probability_error": 0.44336456127211754,
+      "negative_queries": 9,
+      "positive_queries": 71,
+      "probability_RMSE": 0.11928834915487811,
+      "queries": 80,
+      "test_AUC": 0.8904538341158059
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.050947959441691636,
+     "validation": {
+      "AUC_loss": -0.003129890453834161,
+      "Brier": 0.09900399620038153,
+      "Brier_increase": 0.0022344924089730267,
+      "ECE": 0.10472120890437821,
+      "class_disagreement": 0.0375,
+      "maximum_probability_error": 0.7507292938042708,
+      "negative_queries": 9,
+      "positive_queries": 71,
+      "probability_RMSE": 0.11243959767809326,
+      "queries": 80,
+      "test_AUC": 0.8873239436619719
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.04252225598320365,
+     "validation": {
+      "AUC_loss": 0.14710485133020346,
+      "Brier": 0.21026922149812727,
+      "Brier_increase": 0.11349971770671877,
+      "ECE": 0.231552947390458,
+      "class_disagreement": 0.2,
+      "maximum_probability_error": 0.9950294009191019,
+      "negative_queries": 9,
+      "positive_queries": 71,
+      "probability_RMSE": 0.3642831876542046,
+      "queries": 80,
+      "test_AUC": 0.7370892018779343
+     }
+    }
+   ],
+   "checkpoint_sha256": "d5c9e6a689a8a2b03c0ce6ab05ea5b79f297c6ff2a8bab09fcc84477f1450cd1",
+   "choice": 1,
+   "development_complete_sha256": "f3ad03990a32261be82e9d3206e3c2a2bccca122bb715959dec56636273a7f80",
+   "end_to_end_development_pipeline_seconds": 80.65334782190621,
+   "index": 7,
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52002.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "bd9188b88c7c617209be0cf56ba27271e7a2fa36cd285200e873488880e7dfb0"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.06768580302596092,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.06934877440403495,
+      "Brier_increase": 0.0,
+      "ECE": 0.07538251983066437,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 15,
+      "positive_queries": 65,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.956923076923077
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.05088301617652178,
+     "validation": {
+      "AUC_loss": 0.002051282051282133,
+      "Brier": 0.069437318278472,
+      "Brier_increase": 8.854387443704703e-05,
+      "ECE": 0.07308312198071806,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.011618077882983302,
+      "negative_queries": 15,
+      "positive_queries": 65,
+      "probability_RMSE": 0.002234716989932383,
+      "queries": 80,
+      "test_AUC": 0.9548717948717949
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.042481863498687746,
+     "validation": {
+      "AUC_loss": -1.1102230246251565e-16,
+      "Brier": 0.07108304727771733,
+      "Brier_increase": 0.0017342728736823854,
+      "ECE": 0.07415592548184406,
+      "class_disagreement": 0.0375,
+      "maximum_probability_error": 0.12178777776260918,
+      "negative_queries": 15,
+      "positive_queries": 65,
+      "probability_RMSE": 0.026424643294684098,
+      "queries": 80,
+      "test_AUC": 0.9569230769230771
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.03827229999005795,
+     "validation": {
+      "AUC_loss": 0.02051282051282055,
+      "Brier": 0.08156887937084185,
+      "Brier_increase": 0.012220104966806908,
+      "ECE": 0.0602922898471289,
+      "class_disagreement": 0.05,
+      "maximum_probability_error": 0.4158639017729152,
+      "negative_queries": 15,
+      "positive_queries": 65,
+      "probability_RMSE": 0.09800538356818614,
+      "queries": 80,
+      "test_AUC": 0.9364102564102564
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.0508829259313643,
+     "validation": {
+      "AUC_loss": 0.03897435897435908,
+      "Brier": 0.0812934711173867,
+      "Brier_increase": 0.011944696713351757,
+      "ECE": 0.07268393580429967,
+      "class_disagreement": 0.075,
+      "maximum_probability_error": 0.9142355232693213,
+      "negative_queries": 15,
+      "positive_queries": 65,
+      "probability_RMSE": 0.16988058200683265,
+      "queries": 80,
+      "test_AUC": 0.9179487179487179
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.042481501772999766,
+     "validation": {
+      "AUC_loss": 0.1497435897435898,
+      "Brier": 0.24708888579906657,
+      "Brier_increase": 0.17774011139503162,
+      "ECE": 0.26485382168545174,
+      "class_disagreement": 0.25,
+      "maximum_probability_error": 0.9988102809398086,
+      "negative_queries": 15,
+      "positive_queries": 65,
+      "probability_RMSE": 0.4007636018928188,
+      "queries": 80,
+      "test_AUC": 0.8071794871794872
+     }
+    }
+   ],
+   "checkpoint_sha256": "eb5fb34ef6ad48bd63a936fa940ae24eba68c511d0df736559c2edc69a086261",
+   "choice": 0,
+   "development_complete_sha256": "4e2319aba00ed92c7337c5c5b690e138057c49934ab8945f8cc480e1a380bc61",
+   "end_to_end_development_pipeline_seconds": 80.50760291144252,
+   "index": 8,
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52003.json",
+   "schedule": "L16-16",
+   "validation_first_record_sha256": "d8a9e5b809e705c6fcff645e507b84341d9d772acc2e0a7fb1d4edb4784f203c"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.0696498854085803,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.1048794569971527,
+      "Brier_increase": 0.0,
+      "ECE": 0.09998015993362294,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 14,
+      "positive_queries": 66,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.8939393939393939
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.05236523821949959,
+     "validation": {
+      "AUC_loss": -0.0010822510822510178,
+      "Brier": 0.10517738643918759,
+      "Brier_increase": 0.00029792944203488325,
+      "ECE": 0.10020135430418903,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.010643565833955315,
+      "negative_queries": 14,
+      "positive_queries": 66,
+      "probability_RMSE": 0.002051304242772652,
+      "queries": 80,
+      "test_AUC": 0.8950216450216449
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.04371845396235585,
+     "validation": {
+      "AUC_loss": 0.0010822510822510178,
+      "Brier": 0.10965417758798561,
+      "Brier_increase": 0.0047747205908329066,
+      "ECE": 0.08546458061715662,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.12426301164989834,
+      "negative_queries": 14,
+      "positive_queries": 66,
+      "probability_RMSE": 0.02365610724507357,
+      "queries": 80,
+      "test_AUC": 0.8928571428571429
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.039388430025428536,
+     "validation": {
+      "AUC_loss": 0.037878787878787845,
+      "Brier": 0.13582469506832373,
+      "Brier_increase": 0.030945238071171027,
+      "ECE": 0.12247695319657892,
+      "class_disagreement": 0.0375,
+      "maximum_probability_error": 0.465088537278584,
+      "negative_queries": 14,
+      "positive_queries": 66,
+      "probability_RMSE": 0.09871580379416643,
+      "queries": 80,
+      "test_AUC": 0.8560606060606061
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.05236996291205287,
+     "validation": {
+      "AUC_loss": 0.13095238095238093,
+      "Brier": 0.13136045533521684,
+      "Brier_increase": 0.026480998338064138,
+      "ECE": 0.1247219623393434,
+      "class_disagreement": 0.0625,
+      "maximum_probability_error": 0.8882303262573837,
+      "negative_queries": 14,
+      "positive_queries": 66,
+      "probability_RMSE": 0.19342988491615618,
+      "queries": 80,
+      "test_AUC": 0.762987012987013
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.043718247953802344,
+     "validation": {
+      "AUC_loss": 0.4253246753246753,
+      "Brier": 0.35125467545748024,
+      "Brier_increase": 0.24637521846032753,
+      "ECE": 0.37089972011421923,
+      "class_disagreement": 0.35,
+      "maximum_probability_error": 0.9978604962438611,
+      "negative_queries": 14,
+      "positive_queries": 66,
+      "probability_RMSE": 0.4671642221656787,
+      "queries": 80,
+      "test_AUC": 0.4686147186147186
+     }
+    }
+   ],
+   "checkpoint_sha256": "c6dd73ccffc836ccba60b13d8dcf3fb20ed345e73bc1d1539c88459ad5a76f5d",
+   "choice": 1,
+   "development_complete_sha256": "dbf41d3f256df6c47529de85181a8f87ed266c334e0b009ad014dc4401deaf99",
+   "end_to_end_development_pipeline_seconds": 82.74537404999137,
+   "index": 9,
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52004.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "26ccc38171c8aee5c51c273376e427c6574eab46e9f74d8785d095ab34f52101"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.0474355710670352,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.027529688378389112,
+      "Brier_increase": 0.0,
+      "ECE": 0.030235951209843355,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 7,
+      "positive_queries": 73,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.8884540117416829
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.03566396506503224,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.027518831311411907,
+      "Brier_increase": -1.0857066977204566e-05,
+      "ECE": 0.027911627978073672,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.006146583098311731,
+      "negative_queries": 7,
+      "positive_queries": 73,
+      "probability_RMSE": 0.0010750057599581806,
+      "queries": 80,
+      "test_AUC": 0.8884540117416829
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.02979137720540166,
+     "validation": {
+      "AUC_loss": 0.005870841487279788,
+      "Brier": 0.02837429920293062,
+      "Brier_increase": 0.0008446108245415071,
+      "ECE": 0.029869073073559193,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.0810495647917393,
+      "negative_queries": 7,
+      "positive_queries": 73,
+      "probability_RMSE": 0.010679885614900604,
+      "queries": 80,
+      "test_AUC": 0.8825831702544031
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.026855415012687445,
+     "validation": {
+      "AUC_loss": 0.001956947162426559,
+      "Brier": 0.04202321329779323,
+      "Brier_increase": 0.01449352491940412,
+      "ECE": 0.044704193432898894,
+      "class_disagreement": 0.025,
+      "maximum_probability_error": 0.7224943256653457,
+      "negative_queries": 7,
+      "positive_queries": 73,
+      "probability_RMSE": 0.09767736604492694,
+      "queries": 80,
+      "test_AUC": 0.8864970645792564
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.03571000350639224,
+     "validation": {
+      "AUC_loss": -0.015655577299412915,
+      "Brier": 0.027310775009762395,
+      "Brier_increase": -0.0002189133686267171,
+      "ECE": 0.027773451410983196,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.03412499408880321,
+      "negative_queries": 7,
+      "positive_queries": 73,
+      "probability_RMSE": 0.005368227728199512,
+      "queries": 80,
+      "test_AUC": 0.9041095890410958
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.029895428288727998,
+     "validation": {
+      "AUC_loss": -0.07045009784735823,
+      "Brier": 0.06007160372847029,
+      "Brier_increase": 0.03254191535008118,
+      "ECE": 0.06350688604921784,
+      "class_disagreement": 0.0625,
+      "maximum_probability_error": 0.9999987675664221,
+      "negative_queries": 7,
+      "positive_queries": 73,
+      "probability_RMSE": 0.25026506791531117,
+      "queries": 80,
+      "test_AUC": 0.9589041095890412
+     }
+    }
+   ],
+   "checkpoint_sha256": "824193616189bd0b1b794e35a908e77116ba9b1b60c33ab54b14b25f1503b6f2",
+   "choice": 1,
+   "development_complete_sha256": "15feec64affb52f2bd2299b8a5f5a001fc49246b66dff7a73de98a46ca60a49c",
+   "end_to_end_development_pipeline_seconds": 57.23384773731232,
+   "index": 10,
+   "record": "confirmatory/native/runs/SIDNET-bitcoin_alpha-T32-s10000-random.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "63531db47f353a62d19d9cecd79e506a905d8a1dafb69bf50a942e96dadf6707"
+  },
+  {
+   "candidates": [
+    {
+     "choice": 0,
+     "development_seconds_per_query": 0.12662409329786897,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.12194226528049927,
+      "Brier_increase": 0.0,
+      "ECE": 0.12889738927806982,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0,
+      "negative_queries": 20,
+      "positive_queries": 60,
+      "probability_RMSE": 0.0,
+      "queries": 80,
+      "test_AUC": 0.8724999999999999
+     }
+    },
+    {
+     "choice": 1,
+     "development_seconds_per_query": 0.09507278930395842,
+     "validation": {
+      "AUC_loss": 0.0,
+      "Brier": 0.12171868147612368,
+      "Brier_increase": -0.00022358380437559333,
+      "ECE": 0.12888146351438565,
+      "class_disagreement": 0.0,
+      "maximum_probability_error": 0.0027811481006566607,
+      "negative_queries": 20,
+      "positive_queries": 60,
+      "probability_RMSE": 0.0008547573026101932,
+      "queries": 80,
+      "test_AUC": 0.8724999999999999
+     }
+    },
+    {
+     "choice": 2,
+     "development_seconds_per_query": 0.07932311398908495,
+     "validation": {
+      "AUC_loss": 1.1102230246251565e-16,
+      "Brier": 0.11682506161909126,
+      "Brier_increase": -0.005117203661408012,
+      "ECE": 0.15442153627072713,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.07776018980408506,
+      "negative_queries": 20,
+      "positive_queries": 60,
+      "probability_RMSE": 0.022185126944664568,
+      "queries": 80,
+      "test_AUC": 0.8724999999999998
+     }
+    },
+    {
+     "choice": 3,
+     "development_seconds_per_query": 0.07143291588872672,
+     "validation": {
+      "AUC_loss": -0.0033333333333332993,
+      "Brier": 0.10899232074479084,
+      "Brier_increase": -0.012949944535708427,
+      "ECE": 0.11695970313100326,
+      "class_disagreement": 0.05,
+      "maximum_probability_error": 0.29037981368808163,
+      "negative_queries": 20,
+      "positive_queries": 60,
+      "probability_RMSE": 0.10132450302588032,
+      "queries": 80,
+      "test_AUC": 0.8758333333333332
+     }
+    },
+    {
+     "choice": 4,
+     "development_seconds_per_query": 0.09508148655295372,
+     "validation": {
+      "AUC_loss": 0.0024999999999998357,
+      "Brier": 0.12406733629011553,
+      "Brier_increase": 0.0021250710096162584,
+      "ECE": 0.13459850146581734,
+      "class_disagreement": 0.0125,
+      "maximum_probability_error": 0.05914052703223138,
+      "negative_queries": 20,
+      "positive_queries": 60,
+      "probability_RMSE": 0.011638527060718908,
+      "queries": 80,
+      "test_AUC": 0.8700000000000001
+     }
+    },
+    {
+     "choice": 5,
+     "development_seconds_per_query": 0.07930570775642991,
+     "validation": {
+      "AUC_loss": 0.11999999999999988,
+      "Brier": 0.24770516395109485,
+      "Brier_increase": 0.1257628986705956,
+      "ECE": 0.23230835747784923,
+      "class_disagreement": 0.2625,
+      "maximum_probability_error": 0.9994725398870077,
+      "negative_queries": 20,
+      "positive_queries": 60,
+      "probability_RMSE": 0.33505781155084535,
+      "queries": 80,
+      "test_AUC": 0.7525000000000001
+     }
+    }
+   ],
+   "checkpoint_sha256": "4cf013265473fef4afed2c6f0bd999bc2d395f868304eaff6f17cb6dd83194a2",
+   "choice": 1,
+   "development_complete_sha256": "8f2f9611fb10f4acfef5d28cf3010771c838bdd1a6c3e64fbfdbca8a3c833836",
+   "end_to_end_development_pipeline_seconds": 150.90991309471428,
+   "index": 11,
+   "record": "confirmatory/native/runs/SIDNET-wiki_elec-T32-s10000-random.json",
+   "schedule": "L16-8",
+   "validation_first_record_sha256": "17f4b85aa0d50a0a54fb4fac624487e5c7b2c2bee85046e3a2bb50905afc8ee8"
+  }
+ ],
+ "protocol_sha256": "65cf9ebcc1802c77dd7a4223d17657f667a18dc3c41c4cce446dcaa8802e62c0",
+ "selector_source_sha256": "a4a43f500f3f10c6a136efc583444d37f5d9804fa0384431039a221ff04676c8"
+}

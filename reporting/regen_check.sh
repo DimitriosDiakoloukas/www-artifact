@@ -36,6 +36,7 @@ run revision/exhaustive.py --collect --out "$G"
 run revision/native.py --collect --out "$G"
 run revision/assets.py --paper "$T"
 run reporting/paper_assets.py --paper "$T"
+run collective/stage2/report.py --paper "$T"
 [ "${2:-}" = "--write" ] && { echo "regenerated in place: $PAPER ($failed generator failures)"; exit $failed; }
 bad=$failed
 # expected outputs: every generated/ or figures/ path RESULT_MAP lists, except rows marked historical

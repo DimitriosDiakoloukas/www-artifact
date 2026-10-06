@@ -17,12 +17,15 @@ def main():
     ap.add_argument("--paper", required=True)
     paper = Path(ap.parse_args().paper).expanduser()
     latest = {}
+    expected = set()
     for line in (REPO / "RESULT_MAP.md").read_text().splitlines():
         for f, h in re.findall(r"`((?:generated|figures)/[^`]+)` \(`([0-9a-f]{64})`\)", line):
             latest[f] = h
+            if "historical" not in line:
+                expected.add(f)
     files = sorted(p for sub, pat in (("generated", "*"), ("figures", "*.pdf")) for p in (paper / sub).rglob(pat)
                    if p.is_file() and p.suffix in (".tex", ".json", ".pdf"))
-    bad = []
+    bad = [f"absent: {f} (RESULT_MAP requires it)" for f in sorted(expected) if not (paper / f).is_file()]
     for p in files:
         f = str(p.relative_to(paper))
         h = hashlib.sha256(p.read_bytes()).hexdigest()

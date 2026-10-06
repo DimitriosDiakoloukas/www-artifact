@@ -1,0 +1,9 @@
+LARGE TRAIN COMPLETE consensus-SGCN-s61011 0.9957264957264957 0.95703125
+Traceback (most recent call last):
+  File "<repo>/collective/stage2/large_measure.py", line 111, in <module>
+    a=ap.parse_args();sys.exit(0 if run(a.index,a.device,a.seconds) else 3)
+                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<repo>/collective/stage2/large_measure.py", line 87, in run
+    assert err<=2e-6+2e-6*abs(fullscore),('perturbed component differs',err)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('perturbed component differs', 2.771615982055664e-06)

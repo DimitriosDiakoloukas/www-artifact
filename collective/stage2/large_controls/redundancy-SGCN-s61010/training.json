@@ -1,0 +1,149 @@
+{
+ "checkpoint_sha256": "2fbfd0fd3da6187324e2ebc511af5eb1418ec62b79fd30dfe021b1c17404ec4a",
+ "created_utc": "2026-10-05T23:43:29Z",
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "generator_hashes": [
+  {
+   "X": "30f808557457263b70017f9993ae88f0cc47636859e035e1f0369b72a965dd91",
+   "edges": "644a1aacc88d38b2de3df7826ee00d00741e5c6669d95bf9e4056bc63fb5c213",
+   "labels": "3f2da78e143c77efb47d66d79b304e88d076ffc13ae462431ea3de9d1a2b4a8c",
+   "queries": "e61d4080e217ba3f7bd1e21242705ec3ab4aaa87e98838b91ce04961dc579e5b",
+   "signs": "4b19403fd6bfc2ec95df88829898d8e88303e1f93e019063610830f0c2df592c"
+  },
+  {
+   "X": "8afa16f7b091d7158340911dd546ed36a3f20c3847ac4620ea129d9fdc836478",
+   "edges": "72500f934e5af6904327bb54f0efde8beba6e5f262a727241ed60ecdacc30493",
+   "labels": "677f55e464497d22e1f62a8cbcf4e6cd7afb315e7057b21b0e578e2ccb6685b7",
+   "queries": "b2e483b5a238d88b7b65920d5c1c0b4361ccc7880879998079ac816f293c7388",
+   "signs": "d9ce876c2a90503f7adb99e374f7a791030324cee77f7af6c028a7ed427750d9"
+  },
+  {
+   "X": "1faf467bb9ce080e2471a1e67af225996c8bd2fc4598d8978b0cffdefaa64aa7",
+   "edges": "644a1aacc88d38b2de3df7826ee00d00741e5c6669d95bf9e4056bc63fb5c213",
+   "labels": "196d351eb00faa00fceca9698a965384ca0f52f2eadeb1b1f7e9ebb08fa26340",
+   "queries": "e61d4080e217ba3f7bd1e21242705ec3ab4aaa87e98838b91ce04961dc579e5b",
+   "signs": "cd852efd193a656230f02b474a9c388ced3884e5d1e75482421fcd47cc505bc2"
+  }
+ ],
+ "job": [
+  "redundancy",
+  "SGCN",
+  61010
+ ],
+ "protocol_sha256": "9fc09bec744a6de72ec99e674a01c6fafc6671077c4ce982452eaae072d28651",
+ "result_sha256": "72897df41368d091cd4a0e4dd9ab896d0cbabee1f490771f858a109833fad4dc",
+ "source_sha256": "728b8064b1ce5264de4d6e28ed1e5a2ca1ae06490ed498644354198817d0d74f",
+ "test_accuracy": 0.99609375,
+ "test_auc": 1.0,
+ "test_class_counts": [
+  126,
+  130
+ ],
+ "test_logits_sha256": "af813f4e98fc3133c54d36d1f233b248e044ccdad7fe74f34bfe918bd764a6ef",
+ "training": {
+  "best_auc": 1.0,
+  "epoch": 70,
+  "selected_epoch": 20,
+  "since": 10,
+  "trace": [
+   {
+    "epoch": 5,
+    "grad_norm": 0.01177240815013647,
+    "loss": 0.6263251900672913,
+    "val_auc": 0.7876192806459505
+   },
+   {
+    "epoch": 10,
+    "grad_norm": 0.10031916946172714,
+    "loss": 0.5932966470718384,
+    "val_auc": 0.7876192806459505
+   },
+   {
+    "epoch": 15,
+    "grad_norm": 0.6538750529289246,
+    "loss": 0.30521848797798157,
+    "val_auc": 0.9951064350379251
+   },
+   {
+    "epoch": 20,
+    "grad_norm": 0.20974412560462952,
+    "loss": 0.027812711894512177,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 25,
+    "grad_norm": 0.024654632434248924,
+    "loss": 0.0024436903186142445,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 30,
+    "grad_norm": 0.0030150117818266153,
+    "loss": 0.00027533475076779723,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 35,
+    "grad_norm": 0.0006557456217706203,
+    "loss": 6.348983151838183e-05,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 40,
+    "grad_norm": 0.00029474784969352186,
+    "loss": 2.7561496608541347e-05,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 45,
+    "grad_norm": 0.00019527581753209233,
+    "loss": 1.712891025817953e-05,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 50,
+    "grad_norm": 0.0001540063094580546,
+    "loss": 1.2957460057805292e-05,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 55,
+    "grad_norm": 0.00013311461952980608,
+    "loss": 1.0823688171512913e-05,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 60,
+    "grad_norm": 0.00012131853873142973,
+    "loss": 9.687768397270702e-06,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 65,
+    "grad_norm": 0.0001142292094300501,
+    "loss": 9.168197721010074e-06,
+    "val_auc": 1.0
+   },
+   {
+    "epoch": 70,
+    "grad_norm": 0.00010967735579470173,
+    "loss": 8.648379662190564e-06,
+    "val_auc": 1.0
+   }
+  ]
+ }
+}

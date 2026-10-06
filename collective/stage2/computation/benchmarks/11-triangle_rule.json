@@ -1,0 +1,129 @@
+{
+ "all_logits_match": true,
+ "checkpoint_sha256": "4cf013265473fef4afed2c6f0bd999bc2d395f868304eaff6f17cb6dd83194a2",
+ "created_utc": "2026-10-06T00:40:25Z",
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "index": 11,
+ "online_includes_structural_features_and_grouping": true,
+ "policies": [
+  {
+   "batches": [
+    {
+     "batchsize": 1,
+     "break_even_queries": 1648797,
+     "encoder_evaluations": 128,
+     "incremental_peak_allocated_bytes": 90557440,
+     "individual_repeats_seconds": [
+      16.224510667845607,
+      16.223435131832957,
+      16.223699308931828,
+      16.222336295992136,
+      16.222917830571532
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 119986.0,
+     "mean_retained_nodes_per_encoder_evaluation": 7115.0,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 16.223435131832957,
+     "offline_seconds_charged": 276.5611062422395,
+     "peak_allocated_bytes": 137724416,
+     "queries": 128,
+     "resident_allocated_bytes": 47166976,
+     "seconds_per_query": 0.12674558696744498,
+     "speedup_vs_full": 1.001323400117658
+    },
+    {
+     "batchsize": 8,
+     "break_even_queries": 12436345,
+     "encoder_evaluations": 16,
+     "incremental_peak_allocated_bytes": 90500096,
+     "individual_repeats_seconds": [
+      2.030669756233692,
+      2.0302044227719307,
+      2.0294874534010887,
+      2.0298956278711557,
+      2.0299651194363832
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 119986.0,
+     "mean_retained_nodes_per_encoder_evaluation": 7115.0,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 2.0299651194363832,
+     "offline_seconds_charged": 276.5611062422395,
+     "peak_allocated_bytes": 137667072,
+     "queries": 128,
+     "resident_allocated_bytes": 47166976,
+     "seconds_per_query": 0.015859102495596744,
+     "speedup_vs_full": 1.0014022316202797
+    },
+    {
+     "batchsize": 64,
+     "break_even_queries": 132517533,
+     "encoder_evaluations": 2,
+     "incremental_peak_allocated_bytes": 90493440,
+     "individual_repeats_seconds": [
+      0.25376773439347744,
+      0.25391144305467606,
+      0.25392044335603714,
+      0.2538960352540016,
+      0.25369383580982685
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 119986.0,
+     "mean_retained_nodes_per_encoder_evaluation": 7115.0,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 0.2538960352540016,
+     "offline_seconds_charged": 276.5611062422395,
+     "peak_allocated_bytes": 137660416,
+     "queries": 128,
+     "resident_allocated_bytes": 47166976,
+     "seconds_per_query": 0.0019835627754218876,
+     "speedup_vs_full": 1.0010521358336881
+    }
+   ],
+   "choices": [
+    128,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "metrics": {
+    "AUC_loss": 0.0,
+    "Brier": 0.15164621896332098,
+    "Brier_increase": 0.0,
+    "ECE": 0.10527128241217584,
+    "class_disagreement": 0.0,
+    "maximum_probability_error": 0.0,
+    "negative_queries": 35,
+    "positive_queries": 93,
+    "probability_RMSE": 0.0,
+    "queries": 128,
+    "test_AUC": 0.8227342549923194
+   },
+   "policy": "triangle_rule",
+   "validation_pass": true
+  }
+ ],
+ "policies_sha256": "5f655ad88cfbdbb9445fec84c702314b356b15d1924bcc6f2edb9cd8c5565e15",
+ "process_peak_cpu_rss_bytes": 1323778048,
+ "protocol_sha256": "f1c71aa8eed813e367a62ba505bef7bf6386ea1bc87d63a7ca86a853fbf8b3e3",
+ "record": "confirmatory/native/runs/SIDNET-wiki_elec-T32-s10000-random.json",
+ "result_sha256": "abf60888150af1b4d7dcbdabda337c5432d895651cb107fac0c046b229d8f30d",
+ "source_sha256": "c863ce087186ba1faf575200c931266b5e096984ccbbf163ea296b122e6a7b4f",
+ "test_complete_sha256": "9294bfb559dd501f1f34acda97d2d9e66730533cb45a467e7e8a6b187f1eb183"
+}

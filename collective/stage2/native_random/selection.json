@@ -1,0 +1,449 @@
+{
+ "protocol": "collective/stage2/PROTOCOL.md",
+ "settings": {
+  "SGCN-bitcoin_alpha-T2": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8783985488631776,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8616013498671777
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8615624420793951
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8775960719448038
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8776605664882626
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8783985488631776
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8783154515745666
+    }
+   ]
+  },
+  "SGCN-bitcoin_alpha-T8": {
+   "lr": 0.005,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8845400755110387,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8378232413484837
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8381129140340406
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8845400755110387
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8813982826042392
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8375688518552227
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8611635864619136
+    }
+   ]
+  },
+  "SGCN-bitcoin_alpha-T32": {
+   "lr": 0.001,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8328076740832029,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8328076740832029
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8249525310165041
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8050897980293669
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8193298728779055
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8188348220979731
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8098675335132186
+    }
+   ]
+  },
+  "SIDNET-bitcoin_alpha-T2": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8617104298430184,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.685808082747027
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.6853205327359616
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8475833814814093
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.84753783026752
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8617104298430184
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8606422508236761
+    }
+   ]
+  },
+  "SIDNET-bitcoin_alpha-T8": {
+   "lr": 0.01,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.8718964139329214,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8483897792672774
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8483291559697423
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8711677675268803
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8711023424575197
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8718937991190483
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8718964139329214
+    }
+   ]
+  },
+  "SIDNET-bitcoin_alpha-T32": {
+   "lr": 0.005,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.8890437954764085,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8786347528488851
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8786640128500075
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8886141420749184
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8890437954764085
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8800501245252275
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8798415741550673
+    }
+   ]
+  },
+  "SGCN-wiki_elec-T2": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8575378393117686,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.805093212726967
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.804567443072282
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.850734571467532
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8499451892806458
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8575378393117686
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.856600321833519
+    }
+   ]
+  },
+  "SGCN-wiki_elec-T8": {
+   "lr": 0.005,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8547496575203022,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8032550103607312
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.7786852048692815
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8547496575203022
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8524872079188217
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8206090815105685
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8190007923934011
+    }
+   ]
+  },
+  "SGCN-wiki_elec-T32": {
+   "lr": 0.005,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8657430944502367,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8447233010807202
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8200925475455438
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8657430944502367
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8462359930937149
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8335040229033441
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.7732645363404744
+    }
+   ]
+  },
+  "SIDNET-wiki_elec-T2": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8523447484102803,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8041264965090036
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8040770375779102
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8431603961366461
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8427650099953958
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8523447484102803
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8504448579630839
+    }
+   ]
+  },
+  "SIDNET-wiki_elec-T8": {
+   "lr": 0.01,
+   "weight_decay": 0.0,
+   "mean_val_auc": 0.8934729377145225,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8362743674710187
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8360581218792297
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8845835021792898
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.883828389682304
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.8934729377145225
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.8911864183895531
+    }
+   ]
+  },
+  "SIDNET-wiki_elec-T32": {
+   "lr": 0.01,
+   "weight_decay": 1e-05,
+   "mean_val_auc": 0.9043922653258796,
+   "candidates": [
+    {
+     "lr": 0.001,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.9015595022192345
+    },
+    {
+     "lr": 0.001,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.901561452309001
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.9031067071726733
+    },
+    {
+     "lr": 0.005,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.9030159466073019
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 0.0,
+     "mean_val_auc": 0.9042803840299576
+    },
+    {
+     "lr": 0.01,
+     "weight_decay": 1e-05,
+     "mean_val_auc": 0.9043922653258796
+    }
+   ]
+  }
+ }
+}

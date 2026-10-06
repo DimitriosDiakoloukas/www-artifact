@@ -1,0 +1,56 @@
+{
+ "checks": [
+  {
+   "first_gradient_bitwise": true,
+   "full_test_logits_bitwise": true,
+   "record": "confirmatory/native/runs/SGCN-bitcoin_alpha-T32-s10000-random.json",
+   "seeded_cycle_draws_bitwise": 1,
+   "seeded_primary_draws_bitwise": 4
+  },
+  {
+   "first_gradient_bitwise": true,
+   "full_test_logits_bitwise": true,
+   "record": "confirmatory/native/runs/SIDNET-bitcoin_alpha-T32-s10000-random.json",
+   "seeded_cycle_draws_bitwise": 1,
+   "seeded_primary_draws_bitwise": 4
+  },
+  {
+   "first_gradient_bitwise": true,
+   "full_test_logits_bitwise": true,
+   "record": "confirmatory/native/runs/SGCN-wiki_elec-T32-s10000-random.json",
+   "seeded_cycle_draws_bitwise": 1,
+   "seeded_primary_draws_bitwise": 4
+  },
+  {
+   "first_gradient_bitwise": true,
+   "full_test_logits_bitwise": true,
+   "record": "confirmatory/native/runs/SIDNET-wiki_elec-T32-s10000-random.json",
+   "seeded_cycle_draws_bitwise": 1,
+   "seeded_primary_draws_bitwise": 4
+  },
+  {
+   "architecture": "SGCN",
+   "first_gradient_bitwise": true,
+   "full_test_logits_bitwise": true,
+   "seeded_true_Q_draws_bitwise": 2
+  },
+  {
+   "architecture": "SIDNET",
+   "first_gradient_bitwise": true,
+   "full_test_logits_bitwise": true,
+   "seeded_true_Q_draws_bitwise": 2
+  }
+ ],
+ "core_source_tree_sha256": "b5097a0cf480f0600d3920aedc65ad1d620b88385776c5564fa90baa9731c786",
+ "created_utc": "2026-10-05T22:25:51Z",
+ "result_sha256": "0526ca13162d0d61e48ce16a8643b925c1e0e0e696f1a62a1d3407399cc04ed0",
+ "verified_inputs": {
+  "collective/runs/0-SGCN-bitcoin_alpha/complete.json": "df9ed02810fa2e2708895c8ae374f2355938e72eb411e59fc6f751133cdd6862",
+  "collective/runs/1-SIDNET-bitcoin_alpha/complete.json": "d908f59a85c578d373dcd513d48a6833c73677a2f9604aad8caf6822309d48b2",
+  "collective/runs/2-SGCN-wiki_elec/complete.json": "6a103d11b04b1e5253cf0184c8700ed7f2306f0da594a9007f65725c8ea9937a",
+  "collective/runs/3-SIDNET-wiki_elec/complete.json": "d1703e816e62e497a5df74ceed1a42942213edfb8add61f49475ebbd1ad95ff5",
+  "collective/training/SGCN/complete.json": "b2629a1d6197dcdecf7d653b2d67a1f9469ced6bb5fc2263375b63692910ff32",
+  "collective/training/SIDNET/complete.json": "cbfa54a3dd6779dd3eb616e113a56d95e2925d91a93ad08a4d7e7661f53598b6"
+ },
+ "verifier_sha256": "9bbfaf5ec05d7f01b1677ec7bd16e47d7f16d25b289041a8d2dfb091c3985365"
+}

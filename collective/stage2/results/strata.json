@@ -1,0 +1,4909 @@
+{
+ "degree_definition": "total incident directed relation entries; undirected support for common neighbours",
+ "generator_source_sha256": "21eba90c80144c7f257faef43bb83fcac4f2ddd96506e24a6bb1d2e722eb3739",
+ "law": "prevalence exchange, matched 5 percent, beyond radius one",
+ "path_definition": "directed training paths u -> w -> v; agreement is dominant sign-product fraction",
+ "rows": [
+  {
+   "arch": "SGCN",
+   "index": 0,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 38,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.05841243216913201,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.0793872607701506,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.17650090965035029,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 21,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.11469321350176348,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 20,
+     "directed_two_step_paths": 9,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 87,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.060731308469811444,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 2,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 46,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.08453560618037356,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0759823171127596,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.1302489444200673,
+     "query": 7
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.1770516025630333,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 4,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": 0.75,
+     "probability_RMSE": 0.17047550055611926,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.13921991709149822,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.10936770643329453,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.625,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.19788151377301974,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 16,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.022601821146900358,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.07854747255829371,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.16918238129259908,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.09013480239736979,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.14645954849517692,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 18,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.11744240981689164,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.03711322096363737,
+     "query": 19
+    }
+   ],
+   "seed": 52000,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.11061337809050409,
+     "queries": 5,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.11219353326064811,
+     "queries": 15,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.13007304879267487,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.09352394014354934,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.12960212753864814,
+     "queries": 8,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.08416430214701535,
+     "queries": 3,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.10518444029022346,
+     "queries": 9,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SGCN",
+   "index": 1,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.04432684992831151,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.029511326558521962,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.10439333868041888,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 9,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 57,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0810403476032273,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 10,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.10322795189888241,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0615277148357082,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.02277752320004227,
+     "query": 6
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.15404901082302205,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.11919098830682984,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.09357138275206468,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 24,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.07785718108815597,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 24,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.1399139054393341,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.05357415979905806,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.25,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 3,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.15444533369684912,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.025494798225700898,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.08985629934199188,
+     "query": 15
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.1621372684963067,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.14638553956670763,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.03656532508294999,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 16,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0744200121119338,
+     "query": 19
+    }
+   ],
+   "seed": 52001,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.06957394001642102,
+     "queries": 9,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.10437279975347527,
+     "queries": 11,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.07683931844326856,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.10058730730033313,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.07610207567818718,
+     "queries": 12,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.10322795189888241,
+     "queries": 1,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.10825905677126982,
+     "queries": 7,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SGCN",
+   "index": 2,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0122435619719635,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.08241862855692224,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 8,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 106,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.07874844332296027,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.05378342478986119,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06962500604263443,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.07337322861148801,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.10218272399255297,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.10488620170535604,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.10605849471841661,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.049047480795199216,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.1182484757145802,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.05501298574828266,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 28,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.08357460526005037,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.875,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.1302288732874694,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.5,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 10,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.07585298397261532,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.11867941198797648,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.10682617453207728,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.10010206786611643,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.07184426398624917,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.625,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.22826041662554855,
+     "query": 19
+    }
+   ],
+   "seed": 52002,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.09925524552475577,
+     "queries": 4,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.08899852946183108,
+     "queries": 16,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.10472492371458367,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.07737482163424837,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.10952176000751321,
+     "queries": 10,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": null,
+     "queries": 0,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.07257798534131883,
+     "queries": 10,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SGCN",
+   "index": 3,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 14,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.05561165151973822,
+     "query": 0
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 36,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.10736116195046753,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 35,
+     "directed_two_step_paths": 22,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 161,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.031939751444375865,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 15,
+     "directed_two_step_paths": 7,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 153,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.024442137559800757,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 13,
+     "directed_two_step_paths": 4,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 92,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06942674134463532,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 14,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.08964709910691017,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.04679303489578549,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 23,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.09830059827933202,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.016965949194708462,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.03799209938358166,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.02186113229473991,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.032096901185484264,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 15,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.049357912275459645,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.12938975539610534,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.021096182684341862,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.003157101855703984,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0712825309094339,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.01270237454370762,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.048608890199430245,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.13792031975960076,
+     "query": 19
+    }
+   ],
+   "seed": 52003,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.03511428021689812,
+     "queries": 7,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.06616564340500432,
+     "queries": 13,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.052590823882239936,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.05800450869609437,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.04958301600992857,
+     "queries": 10,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": null,
+     "queries": 0,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.06101231656840572,
+     "queries": 10,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SGCN",
+   "index": 4,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 18,
+     "directed_two_step_paths": 8,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 103,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06340964121794915,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 11,
+     "directed_two_step_paths": 3,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 62,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.061187629149373444,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 27,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.057359925701987814,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.06956696078166777,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 8,
+     "directed_two_step_paths": 4,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 77,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.02610798041796037,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 8,
+     "directed_two_step_paths": 3,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 37,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.060815224759919156,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0697005949928154,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.07522899548917038,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.03337224503941986,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.625,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.10946033631185657,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.08245938873899199,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.06779895736425391,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.028670094447340637,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.10338235528797529,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.042223191037159845,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.07320123647075444,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.05731028022711203,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.06786546653271111,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.875,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.058215058604934804,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06364083608379711,
+     "query": 19
+    }
+   ],
+   "seed": 52004,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.07318480403874403,
+     "queries": 5,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.06033682523089539,
+     "queries": 15,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.06597728289566238,
+     "queries": 11,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.060580698533873885,
+     "queries": 9,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.06507274932318255,
+     "queries": 9,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": null,
+     "queries": 0,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.06230196861350074,
+     "queries": 11,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 5,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 38,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.005820090059408064,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.01703103571853922,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.003386972699841932,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 21,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.0022184007133402143,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 20,
+     "directed_two_step_paths": 9,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 87,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0003591698497072447,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 46,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00947220795070852,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00018405292160940485,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00038841667268221396,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0010588806287573746,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": 0.75,
+     "probability_RMSE": 0.005324711312600937,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 5.810118553441007e-05,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00043015346178885446,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00024175801416441222,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 16,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.003210170794900668,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 3.042834326231434e-06,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.002118639014303182,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00012401832593095013,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00043777104389599144,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 18,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0018934447990558568,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0013470527664745562,
+     "query": 19
+    }
+   ],
+   "seed": 52000,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.0004975708563408358,
+     "queries": 5,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0035080157657244046,
+     "queries": 15,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.001353225525453991,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.004157583551303033,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.0008183423071874222,
+     "queries": 8,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.008356508830429167,
+     "queries": 3,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.0026102028687537073,
+     "queries": 9,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 6,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.011040055515804788,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.01624417345066893,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.005293757989159564,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 9,
+     "directed_two_step_paths": 5,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 57,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.003943466104076946,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 10,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.01155233301919455,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0005567818119763833,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00280120301311279,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.034272535379195064,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 4.926322766515397e-05,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00014449976757130144,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 24,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 2.6591197513892486e-05,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 24,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.003141028205494569,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.000812993679315882,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 3,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00012432877653107853,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 3.328908874942759e-05,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0005088450218494847,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 1.858160996831559e-05,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 1.682671918759652e-08,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 3.869066642030462e-05,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 16,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.005579269400322926,
+     "query": 19
+    }
+   ],
+   "seed": 52001,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.0078090903725139445,
+     "queries": 9,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0023545354907895484,
+     "queries": 11,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0065406038997525996,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.003077566475378455,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.006198361250417272,
+     "queries": 12,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.01155233301919455,
+     "queries": 1,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.0014641479610155328,
+     "queries": 7,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 7,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.018069364014694295,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.003332402841134611,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 8,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 106,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.03235235307334428,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.002885659973388471,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.002980718747107954,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00010150890622953143,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.000296147638916974,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.000710236607161858,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 8.695512930110592e-06,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 3.71132401388092e-05,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0002636874966016246,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.007837403694741833,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 28,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.04759689231651297,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00014483442331766536,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 10,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.041267709725664764,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 3.2660077529305725e-05,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 9.705127647128471e-05,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 3.15812366047832e-05,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 2.4558472056701885e-05,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0008374942970501562,
+     "query": 19
+    }
+   ],
+   "seed": 52002,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.0001042196204335986,
+     "queries": 4,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.009905699693116474,
+     "queries": 16,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.00074320513506219,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.01514760222209761,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.0005073566435222722,
+     "queries": 10,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": null,
+     "queries": 0,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.015383450713637527,
+     "queries": 10,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 8,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 14,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.03158396174627777,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 36,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0006101304999228233,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 35,
+     "directed_two_step_paths": 22,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 161,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00014221076818563534,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 15,
+     "directed_two_step_paths": 7,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 153,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00011497663542131927,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 13,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 92,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.02928731072449052,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 14,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00024286292670652978,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0009212686065100992,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 23,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0019289644183146223,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 3.572961893658179e-05,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0004297189953194593,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": null,
+     "probability_RMSE": 1.4494360683239988e-06,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0009664763336782169,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 15,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00031799104893559624,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0010713338450057174,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0009573533969731761,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 8.177562590301591e-07,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0020637550661709346,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0003834429890383339,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0012413716535875218,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 4.6349235998023586e-05,
+     "query": 19
+    }
+   ],
+   "seed": 52003,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.00034165982385024087,
+     "queries": 7,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.005381219764219119,
+     "queries": 13,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0007151141163798877,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.006519633453800136,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.0005844698727063935,
+     "queries": 10,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": null,
+     "queries": 0,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.0066502776974736305,
+     "queries": 10,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 9,
+   "network": "bitcoin_alpha",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 18,
+     "directed_two_step_paths": 8,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 103,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0005053615524297764,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 11,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 62,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.04891675665657105,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 27,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.032617000661592475,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00031389004096125966,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 8,
+     "directed_two_step_paths": 4,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 77,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.000756595293954418,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 8,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 37,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 3.860307354146014e-06,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 6.9723259830131e-06,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": null,
+     "probability_RMSE": 2.781962774786185e-05,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 1.3168467038512876e-05,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00018235924948300911,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0006150483131909888,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00026900841929240396,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": null,
+     "probability_RMSE": 6.322929954716842e-05,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 6,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.003926563326352117,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 7.759409611928457e-05,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00011053870998757167,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00031646622679288086,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.002431006022089926,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 12,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0005545953202227138,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 3.559325718797626e-05,
+     "query": 19
+    }
+   ],
+   "seed": 52004,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.0014513868070977175,
+     "queries": 5,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0056324328758939985,
+     "queries": 15,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0007494478834595935,
+     "queries": 11,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.009277722272871448,
+     "queries": 9,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.0008862444158903466,
+     "queries": 9,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": null,
+     "queries": 0,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.00761520249371686,
+     "queries": 11,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SGCN",
+   "index": 10,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 6,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 39,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.07760064334078522,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.039738275716283994,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 14,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.018814781496330805,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.25,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 10,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.01821960746672178,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 33,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.013264383923568905,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 10,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 47,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.03593422228517122,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 28,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.07531571711595486,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 21,
+     "directed_two_step_paths": 3,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 137,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.037127045743808755,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 27,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.028477478145571482,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.03452155513072362,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.039827505391271924,
+     "query": 10
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 3,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 31,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.05909943576453087,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.020293393312172753,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.039182070038529616,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 10,
+     "directed_two_step_paths": 4,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 51,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00777126323695785,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 9,
+     "directed_two_step_paths": 3,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 39,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.032589063684404174,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.021157708066703983,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 18,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06160365983067531,
+     "query": 17
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 3,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 37,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06534466438420905,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 9,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 110,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06470272927513651,
+     "query": 19
+    }
+   ],
+   "seed": 52000,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.030639102209356617,
+     "queries": 5,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.042492646153515314,
+     "queries": 15,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.03579696816724105,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.043261552167710215,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.03375808510903722,
+     "queries": 9,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.05909943576453087,
+     "queries": 1,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.04276630016036469,
+     "queries": 10,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SGCN",
+   "index": 11,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 25,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06369076289712554,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 55,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.07344220608511076,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.016646878572442257,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 21,
+     "directed_two_step_paths": 3,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 57,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.06215475915944126,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.875,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 3,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 25,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.06659618909444746,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 26,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.03382126468732864,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 5,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 85,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.039769226539728385,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.875,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 37,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.07445779018268477,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.03565134389916671,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.875,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 15,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06035274703806167,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 10,
+     "directed_two_step_paths": 2,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 90,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.022750574223166616,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.004073085040635628,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.02874118527356518,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 7,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 87,
+     "path_sign_agreement": 0.7142857164144516,
+     "probability_RMSE": 0.04269981258739245,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 19,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.135216669603041,
+     "query": 14
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 69,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.06885794405084304,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 63,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.041819555352937035,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.625,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.07628475498017653,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 21,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.12861097404344898,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.08194187884592431,
+     "query": 19
+    }
+   ],
+   "seed": 52001,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.10527642644468665,
+     "queries": 2,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.05261259718151638,
+     "queries": 18,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.06343695175345775,
+     "queries": 11,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.05108590365207033,
+     "queries": 9,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.06244501345088342,
+     "queries": 5,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.05594596314225893,
+     "queries": 5,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.05656247191909565,
+     "queries": 10,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SGCN",
+   "index": 12,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 28,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 161,
+     "path_sign_agreement": 0.800000011920929,
+     "probability_RMSE": 0.01816345529918367,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 21,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.022204803758285905,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 4,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 70,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.014723770206020082,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.014599374319603876,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.625,
+     "common_neighbours": 8,
+     "directed_two_step_paths": 6,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 42,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.015494971396701427,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.09339780087167533,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 11,
+     "directed_two_step_paths": 4,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 81,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.01003851883463185,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 4,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 54,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.051379210850923174,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 72,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.030626867337004062,
+     "query": 8
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 40,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.07633254152931197,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.007209599366942036,
+     "query": 10
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 12,
+     "directed_two_step_paths": 5,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 47,
+     "path_sign_agreement": 0.800000011920929,
+     "probability_RMSE": 0.07696426603619146,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 23,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.039538948926871965,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.04007028734221524,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.25,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 5,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 28,
+     "path_sign_agreement": 0.800000011920929,
+     "probability_RMSE": 0.034144981560462646,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 24,
+     "directed_two_step_paths": 3,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 72,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.07419030976787988,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 27,
+     "directed_two_step_paths": 2,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 121,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.025372336712179828,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.059378082222233876,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 4,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 0.75,
+     "probability_RMSE": 0.06911857955399939,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.02759819403162609,
+     "query": 19
+    }
+   ],
+   "seed": 52002,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.03896320216546169,
+     "queries": 5,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.04038205927310902,
+     "queries": 15,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.04072606519539164,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.039328624797002734,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.04519142539277007,
+     "queries": 6,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.04978132324002985,
+     "queries": 2,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.035819641757271974,
+     "queries": 12,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SGCN",
+   "index": 13,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 23,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.021543520680740894,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.004884582707860401,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 36,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.043976965445165425,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 54,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.032725085675339494,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 12,
+     "directed_two_step_paths": 7,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 79,
+     "path_sign_agreement": 0.8571428656578064,
+     "probability_RMSE": 0.011444727485699474,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 2,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 40,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0037923424856249398,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 61,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.01582518338890114,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.06507816623005175,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 64,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.07909374230334099,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 66,
+     "path_sign_agreement": 0.800000011920929,
+     "probability_RMSE": 0.012204720559758929,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 6,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 63,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.017910081618726,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 21,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 136,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.04273229969416608,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 30,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.019792719927145073,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 19,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.02930947232267218,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 30,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.03509537471891694,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.02714409399116968,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 18,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 111,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.012278767979048016,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 44,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.028386258740579207,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 10,
+     "directed_two_step_paths": 7,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 136,
+     "path_sign_agreement": 0.7142857164144516,
+     "probability_RMSE": 0.01619481213799504,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 21,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.017006214066650035,
+     "query": 19
+    }
+   ],
+   "seed": 52003,
+   "strata": [
+    {
+     "mean_query_RMSE": null,
+     "queries": 0,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.02682095660797758,
+     "queries": 20,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.026762345257599733,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.026879567958355437,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.026925299812986844,
+     "queries": 3,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.02013541808915846,
+     "queries": 3,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.02823121274665113,
+     "queries": 14,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SGCN",
+   "index": 14,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 3,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 26,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.02335123723838849,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.375,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 49,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.008705648582080895,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 15,
+     "directed_two_step_paths": 8,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 84,
+     "path_sign_agreement": 0.875,
+     "probability_RMSE": 0.002334967993008152,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 25,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.012925071835880233,
+     "query": 3
+    },
+    {
+     "class_disagreement": 1.0,
+     "common_neighbours": 18,
+     "directed_two_step_paths": 4,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 80,
+     "path_sign_agreement": 0.75,
+     "probability_RMSE": 0.018847345135167462,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 44,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.009563661352774313,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.031540771782758055,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 24,
+     "directed_two_step_paths": 7,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 93,
+     "path_sign_agreement": 0.5714285746216774,
+     "probability_RMSE": 0.006550359158587904,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 44,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.015081710452348945,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 21,
+     "directed_two_step_paths": 13,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 82,
+     "path_sign_agreement": 0.6923076957464218,
+     "probability_RMSE": 0.012471854042723331,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.019713161245350302,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 2,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.017201742558868287,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 11,
+     "directed_two_step_paths": 6,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 88,
+     "path_sign_agreement": 0.8333333432674408,
+     "probability_RMSE": 0.037650450131257764,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.014022966339210999,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 3.0,
+     "minimum_endpoint_degree": 40,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.024349964214575893,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 18,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.010081717212190993,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0203662708433412,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.125,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 5,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 26,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.033825128370456044,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.01895484991740698,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 30,
+     "directed_two_step_paths": 11,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 170,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0031706044495117473,
+     "query": 19
+    }
+   ],
+   "seed": 52004,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.015581977452204852,
+     "queries": 4,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.017398848315441785,
+     "queries": 16,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.02019829173438516,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.01387265655120364,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.015581977452204852,
+     "queries": 4,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.016680853663568904,
+     "queries": 4,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.01763817986606608,
+     "queries": 12,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 15,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 6,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 39,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0009470035465461602,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 7.566086607273656e-06,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 14,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00046122325566115633,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 10,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.004953518588054374,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 33,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.008911452186182736,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 10,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 47,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00014937887523289785,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 28,
+     "path_sign_agreement": null,
+     "probability_RMSE": 2.727027767810245e-05,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 21,
+     "directed_two_step_paths": 3,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 137,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 2.5244609318957995e-05,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 27,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0001642348534830247,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.001799246551184046,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 7,
+     "path_sign_agreement": null,
+     "probability_RMSE": 1.868855514897852e-06,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 31,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.008225379961824614,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 1,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.004496886487454935,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.000513646031317073,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 10,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 51,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0013260694820366218,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 9,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 39,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 2.3434897132000077e-06,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": null,
+     "probability_RMSE": 6.368286302266512e-05,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 18,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 9.059885253073267e-07,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 37,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.002012460919698746,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 9,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 110,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0004585233421351408,
+     "query": 19
+    }
+   ],
+   "seed": 52000,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.0013533582472844618,
+     "queries": 5,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0018520743343179748,
+     "queries": 15,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0011976403807185782,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.0022571502444006146,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.0013289602044900387,
+     "queries": 9,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.008225379961824614,
+     "queries": 1,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.0014361884448956968,
+     "queries": 10,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 16,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 25,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.002554939002166561,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 55,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0017202116770264762,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 4.7557151611644326e-05,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 21,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 57,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.0052005386400707015,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 25,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.00015831918662769276,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 26,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.005571972538741065,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 5,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 85,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0012315974320939397,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 37,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.0035080613895090186,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.004073721176808849,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 15,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.006670522538895987,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 10,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 90,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 1.953644867904646e-05,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0011218955533727562,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00011522171305503151,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 7,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 87,
+     "path_sign_agreement": 0.7142857164144516,
+     "probability_RMSE": 4.3649915851156464e-05,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 19,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0019561200672495206,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 69,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0035433694371528692,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 63,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0013719485993045827,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0005519074967105566,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 21,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00023745343015369908,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0050935451745321185,
+     "query": 19
+    }
+   ],
+   "seed": 52001,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.002665499302342909,
+     "queries": 2,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0021922827758293034,
+     "queries": 18,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0020528365901076743,
+     "queries": 11,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.0024678762309365398,
+     "queries": 9,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.002022297061653295,
+     "queries": 5,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.002896508334159927,
+     "queries": 5,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.0020198061590547163,
+     "queries": 10,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 17,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 28,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 161,
+     "path_sign_agreement": 0.800000011920929,
+     "probability_RMSE": 9.733505323096724e-05,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 21,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 1.5668806882805714e-06,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 70,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 2.5604827688878096e-05,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 2,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0002238519665889728,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 8,
+     "directed_two_step_paths": 6,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 42,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00016063045233490148,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 3,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0013069467049439348,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 11,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 81,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.007077505765650653,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 54,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0010935311997528688,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 1,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 72,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00011064566859531778,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 40,
+     "path_sign_agreement": null,
+     "probability_RMSE": 4.262913604977887e-05,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0026094181219106266,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 12,
+     "directed_two_step_paths": 5,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 47,
+     "path_sign_agreement": 0.800000011920929,
+     "probability_RMSE": 0.0026995072205378413,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 23,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0021422524246523995,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": null,
+     "probability_RMSE": 3.780302917557408e-05,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 28,
+     "path_sign_agreement": 0.800000011920929,
+     "probability_RMSE": 0.0019812323053130295,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 24,
+     "directed_two_step_paths": 3,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 72,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.001990566761245749,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 27,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 121,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.002401576625141164,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 11,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0036552675469042435,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 0.75,
+     "probability_RMSE": 0.0002537872360096007,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 5,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0007483544564697054,
+     "query": 19
+    }
+   ],
+   "seed": 52002,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.0012640544494543016,
+     "queries": 5,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.001489316075707532,
+     "queries": 15,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.001296048067265637,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.001569953271022812,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.001060483563886881,
+     "queries": 6,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.0021960716931934566,
+     "queries": 2,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.0014920807177646904,
+     "queries": 12,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 18,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 23,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 3.7556285553232214e-05,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 1.3780993384435818e-05,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 36,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.007766893646086374,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 54,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 3.0508158333597928e-05,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 12,
+     "directed_two_step_paths": 7,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 79,
+     "path_sign_agreement": 0.8571428656578064,
+     "probability_RMSE": 0.0009604958362282722,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 7,
+     "directed_two_step_paths": 2,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 40,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 7.102732646069036e-06,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 3,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 61,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.0005068833565292959,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 13,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0006153458738005241,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 64,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0010365553765432388,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 14,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 66,
+     "path_sign_agreement": 0.800000011920929,
+     "probability_RMSE": 0.00012332033212764524,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 6,
+     "directed_two_step_paths": 6,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 63,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00034249882107350384,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 21,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 136,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 2.6656944459852643e-06,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 30,
+     "path_sign_agreement": null,
+     "probability_RMSE": 1.672075317518953e-05,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 19,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00021010611388566928,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 30,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 2.7981899563017075e-05,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 1,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 8,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00039206410126344464,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 18,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 111,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 2.6783741740417572e-05,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 44,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.005985445087117843,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 10,
+     "directed_two_step_paths": 7,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 136,
+     "path_sign_agreement": 0.7142857164144516,
+     "probability_RMSE": 0.001302406521120452,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 0,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 21,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0011268025877437125,
+     "query": 19
+    }
+   ],
+   "seed": 52003,
+   "strata": [
+    {
+     "mean_query_RMSE": null,
+     "queries": 0,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.001026595895618096,
+     "queries": 20,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.001021435498710167,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.001031756292526025,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.002970138995668425,
+     "queries": 3,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.002598244988255864,
+     "queries": 3,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.000273340425756361,
+     "queries": 14,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  },
+  {
+   "arch": "SIDNET",
+   "index": 19,
+   "network": "wiki_elec",
+   "queries": [
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 3,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 26,
+     "path_sign_agreement": 0.6666666716337204,
+     "probability_RMSE": 0.004415002138508394,
+     "query": 0
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 4,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 49,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0003558105896949833,
+     "query": 1
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 15,
+     "directed_two_step_paths": 8,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 84,
+     "path_sign_agreement": 0.875,
+     "probability_RMSE": 0.0036542259114286193,
+     "query": 2
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 25,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.0010304647625009686,
+     "query": 3
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 18,
+     "directed_two_step_paths": 4,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 80,
+     "path_sign_agreement": 0.75,
+     "probability_RMSE": 0.0011040001821522422,
+     "query": 4
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 44,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.009626427130161357,
+     "query": 5
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 9.144185779302945e-05,
+     "query": 6
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 24,
+     "directed_two_step_paths": 7,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 93,
+     "path_sign_agreement": 0.5714285746216774,
+     "probability_RMSE": 0.00271528397862332,
+     "query": 7
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 5,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 44,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00017850011626101715,
+     "query": 8
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 21,
+     "directed_two_step_paths": 13,
+     "individual_reach": 2.0,
+     "minimum_endpoint_degree": 82,
+     "path_sign_agreement": 0.6923076957464218,
+     "probability_RMSE": 0.00037327662441513106,
+     "query": 9
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 2,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 9.325945727217292e-06,
+     "query": 10
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 4,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 29,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 4.7188732664985826e-05,
+     "query": 11
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 11,
+     "directed_two_step_paths": 6,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 88,
+     "path_sign_agreement": 0.8333333432674408,
+     "probability_RMSE": 0.003481020030192559,
+     "query": 12
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 3,
+     "directed_two_step_paths": 1,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 17,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.0009370173459269927,
+     "query": 13
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 2,
+     "directed_two_step_paths": 2,
+     "individual_reach": 1.0,
+     "minimum_endpoint_degree": 40,
+     "path_sign_agreement": 0.5,
+     "probability_RMSE": 0.011609816798102237,
+     "query": 14
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 18,
+     "path_sign_agreement": null,
+     "probability_RMSE": 3.152559579088213e-05,
+     "query": 15
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 9,
+     "path_sign_agreement": null,
+     "probability_RMSE": 7.486005877787317e-06,
+     "query": 16
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 5,
+     "directed_two_step_paths": 5,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 26,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 0.00015088436548746945,
+     "query": 17
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 0,
+     "directed_two_step_paths": 0,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 4,
+     "path_sign_agreement": null,
+     "probability_RMSE": 0.00034742939932466617,
+     "query": 18
+    },
+    {
+     "class_disagreement": 0.0,
+     "common_neighbours": 30,
+     "directed_two_step_paths": 11,
+     "individual_reach": 0.0,
+     "minimum_endpoint_degree": 170,
+     "path_sign_agreement": 1.0,
+     "probability_RMSE": 8.943919305536589e-05,
+     "query": 19
+    }
+   ],
+   "seed": 52004,
+   "strata": [
+    {
+     "mean_query_RMSE": 0.00035422644087357606,
+     "queries": 4,
+     "stratum": "no_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0024274163087621824,
+     "queries": 16,
+     "stratum": "has_common_neighbour"
+    },
+    {
+     "mean_query_RMSE": 0.0007067766149602393,
+     "queries": 10,
+     "stratum": "degree_at_or_below_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.0033187800554086836,
+     "queries": 10,
+     "stratum": "degree_above_cohort_median"
+    },
+    {
+     "mean_query_RMSE": 0.00035422644087357606,
+     "queries": 4,
+     "stratum": "no_directed_two_step_path"
+    },
+    {
+     "mean_query_RMSE": 0.0047783448849122705,
+     "queries": 4,
+     "stratum": "path_agreement_below_three_quarters"
+    },
+    {
+     "mean_query_RMSE": 0.0016437734500454866,
+     "queries": 12,
+     "stratum": "path_agreement_at_least_three_quarters"
+    }
+   ]
+  }
+ ],
+ "status": "post hoc descriptive analysis after interventions; not policy fitting"
+}

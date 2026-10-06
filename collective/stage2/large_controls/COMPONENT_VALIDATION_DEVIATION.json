@@ -1,0 +1,78 @@
+{
+ "created_utc": "2026-10-05T23:46:33.128165+00:00",
+ "reason": "A representative component-only perturbation differed from the full source by 2.771615982055664e-06, exceeding the frozen combined 2e-6 absolute/relative tolerance. Preserve all incomplete v1 outputs and logs; use full-union probes for any query failing the original or representative perturbed equivalence checks. No tolerance, checkpoint selection or dataset is changed.",
+ "stopped_wrappers": [
+  {
+   "pid": 1800636,
+   "command": [
+    "python3",
+    "collective/stage2/large_worker.py",
+    "--shard",
+    "3",
+    "--device",
+    "cuda:7"
+   ],
+   "children_left_to_finish_bounded_pass": [
+    {
+     "pid": 1804731,
+     "command": [
+      "python3",
+      "<repo>/collective/stage2/large_measure.py",
+      "--index",
+      "3",
+      "--device",
+      "cuda:7"
+     ]
+    }
+   ]
+  },
+  {
+   "pid": 1800755,
+   "command": [
+    "python3",
+    "collective/stage2/large_worker.py",
+    "--shard",
+    "2",
+    "--device",
+    "cuda:6"
+   ],
+   "children_left_to_finish_bounded_pass": [
+    {
+     "pid": 1805692,
+     "command": [
+      "python3",
+      "<repo>/collective/stage2/large_measure.py",
+      "--index",
+      "10",
+      "--device",
+      "cuda:6"
+     ]
+    }
+   ]
+  },
+  {
+   "pid": 1800878,
+   "command": [
+    "python3",
+    "collective/stage2/large_worker.py",
+    "--shard",
+    "0",
+    "--device",
+    "cuda:4"
+   ],
+   "children_left_to_finish_bounded_pass": [
+    {
+     "pid": 1804905,
+     "command": [
+      "python3",
+      "<repo>/collective/stage2/large_measure.py",
+      "--index",
+      "8",
+      "--device",
+      "cuda:4"
+     ]
+    }
+   ]
+  }
+ ]
+}

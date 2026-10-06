@@ -1,0 +1,20 @@
+{
+ "collector_sha256": "6a2a3f66c24a564d8b1acdb9c10ca4260ae39abb75de1c6b24df5ec49c7899c8",
+ "inputs": {
+  "collective/results/known_controls.json": "8c8355984e3b00b3cf83cd8a0addb285a6549c0790f65bf596ab576859dbd8cd",
+  "collective/runs/0-SGCN-bitcoin_alpha/complete.json": "df9ed02810fa2e2708895c8ae374f2355938e72eb411e59fc6f751133cdd6862",
+  "collective/runs/1-SIDNET-bitcoin_alpha/complete.json": "d908f59a85c578d373dcd513d48a6833c73677a2f9604aad8caf6822309d48b2",
+  "collective/runs/2-SGCN-wiki_elec/complete.json": "6a103d11b04b1e5253cf0184c8700ed7f2306f0da594a9007f65725c8ea9937a",
+  "collective/runs/3-SIDNET-wiki_elec/complete.json": "d1703e816e62e497a5df74ceed1a42942213edfb8add61f49475ebbd1ad95ff5",
+  "collective/training/SGCN/complete.json": "b2629a1d6197dcdecf7d653b2d67a1f9469ced6bb5fc2263375b63692910ff32",
+  "collective/training/SIDNET/complete.json": "cbfa54a3dd6779dd3eb616e113a56d95e2925d91a93ad08a4d7e7661f53598b6"
+ },
+ "outputs": {
+  "REPORT.md": "026c8d6ba777155b3bcd48bd9417b626fdcf1d14e0ec79cc46ae6338349cf29d",
+  "control_comparison.pdf": "166482a20e4b838aac8304fe426ba5d348ea15bdcf016a2eea911ee7196c8fab",
+  "control_comparison.png": "0b3814a1900bf3917a5e4483e9cb09f6b1ecdd60b37942d6df505c49234f7c55",
+  "network_effects.pdf": "2904553461e2891689ceba1eebc72bd7d980528c1732b71af17e345ee64cfffd",
+  "network_effects.png": "1d9b82b41e6c53d6e392ee83f7d7044311f2d2a90089b08c572a647eeae34c8f",
+  "summary.json": "2052f90e204fd3c3a8781877d9373fbcd2e20795d0ed2a2e2f08e0bc16de9c43"
+ }
+}

@@ -1,0 +1,2897 @@
+{
+ "created_utc": "2026-10-05T21:50:52Z",
+ "protocol_sha256": "602c91ae47e551f3faaaab7bd4881e9f521a0a9014f6869ebc50920ace6d898f",
+ "result_sha256": "c8b5a0ce09802ba2fd250865326db10654d1d0bd7e79bb5c2a969deef640a6d9",
+ "rows": [
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1430164270701958,
+      "family_size": 1,
+      "lower": 0.1355139052630089,
+      "n_independent_pairs": 8192,
+      "upper": 0.15051894887738268
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1387445764453022,
+      "family_size": 1,
+      "lower": 0.1312420546381153,
+      "n_independent_pairs": 8192,
+      "upper": 0.14624709825248908
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 1.0,
+    "mean_reach": 1.0
+   },
+   "kind": "chain",
+   "paths": 1,
+   "required_edge_distance": 1,
+   "single_flip": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 1.0,
+    "mean_reach": 1.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13977307186571125,
+      "family_size": 1,
+      "lower": 0.13227055005852437,
+      "n_independent_pairs": 8192,
+      "upper": 0.14727559367289814
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1375357660019259,
+      "family_size": 1,
+      "lower": 0.13003324419473902,
+      "n_independent_pairs": 8192,
+      "upper": 0.1450382878091128
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13666273623726524,
+      "family_size": 1,
+      "lower": 0.12916021443007836,
+      "n_independent_pairs": 8192,
+      "upper": 0.14416525804445213
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1385766861059444,
+      "family_size": 1,
+      "lower": 0.1310741642987575,
+      "n_independent_pairs": 8192,
+      "upper": 0.14607920791313128
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 3.0,
+    "mean_reach": 3.0
+   },
+   "kind": "chain",
+   "paths": 1,
+   "required_edge_distance": 3,
+   "single_flip": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 3.0,
+    "mean_reach": 3.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13882661537410912,
+      "family_size": 1,
+      "lower": 0.13132409356692223,
+      "n_independent_pairs": 8192,
+      "upper": 0.146329137181296
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1382744834951003,
+      "family_size": 1,
+      "lower": 0.1307719616879134,
+      "n_independent_pairs": 8192,
+      "upper": 0.14577700530228718
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13730071952682496,
+      "family_size": 1,
+      "lower": 0.12979819771963808,
+      "n_independent_pairs": 8192,
+      "upper": 0.14480324133401185
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13891246678466002,
+      "family_size": 1,
+      "lower": 0.13140994497747313,
+      "n_independent_pairs": 8192,
+      "upper": 0.1464149885918469
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13471520830071454,
+      "family_size": 1,
+      "lower": 0.12721268649352765,
+      "n_independent_pairs": 8192,
+      "upper": 0.14221773010790142
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1376365002055406,
+      "family_size": 1,
+      "lower": 0.13013397839835372,
+      "n_independent_pairs": 8192,
+      "upper": 0.1451390220127275
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 5.0,
+    "mean_reach": 5.0
+   },
+   "kind": "chain",
+   "paths": 1,
+   "required_edge_distance": 5,
+   "single_flip": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 5.0,
+    "mean_reach": 5.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13972025271357896,
+      "family_size": 1,
+      "lower": 0.13221773090639208,
+      "n_independent_pairs": 8192,
+      "upper": 0.14722277452076585
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13625979942280647,
+      "family_size": 1,
+      "lower": 0.1287572776156196,
+      "n_independent_pairs": 8192,
+      "upper": 0.14376232122999336
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 1.0,
+    "mean_reach": 1.0
+   },
+   "kind": "consensus",
+   "paths": 1,
+   "required_edge_distance": 1,
+   "single_flip": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 1.0,
+    "mean_reach": 1.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14036781811400545,
+      "family_size": 1,
+      "lower": 0.13286529630681856,
+      "n_independent_pairs": 8192,
+      "upper": 0.14787033992119233
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13578970647260458,
+      "family_size": 1,
+      "lower": 0.1282871846654177,
+      "n_independent_pairs": 8192,
+      "upper": 0.14329222827979146
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1377372344091553,
+      "family_size": 1,
+      "lower": 0.13023471260196842,
+      "n_independent_pairs": 8192,
+      "upper": 0.1452397562163422
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13703209498385244,
+      "family_size": 1,
+      "lower": 0.12952957317666555,
+      "n_independent_pairs": 8192,
+      "upper": 0.14453461679103932
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 3.0,
+    "mean_reach": 3.0
+   },
+   "kind": "consensus",
+   "paths": 1,
+   "required_edge_distance": 3,
+   "single_flip": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 3.0,
+    "mean_reach": 3.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1404389268830061,
+      "family_size": 1,
+      "lower": 0.13293640507581922,
+      "n_independent_pairs": 8192,
+      "upper": 0.147941448690193
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13750218793405436,
+      "family_size": 1,
+      "lower": 0.12999966612686747,
+      "n_independent_pairs": 8192,
+      "upper": 0.14500470974124124
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13750218793405433,
+      "family_size": 1,
+      "lower": 0.12999966612686745,
+      "n_independent_pairs": 8192,
+      "upper": 0.14500470974124122
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13471520830071454,
+      "family_size": 1,
+      "lower": 0.12721268649352765,
+      "n_independent_pairs": 8192,
+      "upper": 0.14221773010790142
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13646126783003587,
+      "family_size": 1,
+      "lower": 0.12895874602284899,
+      "n_independent_pairs": 8192,
+      "upper": 0.14396378963722276
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13693136078023777,
+      "family_size": 1,
+      "lower": 0.12942883897305088,
+      "n_independent_pairs": 8192,
+      "upper": 0.14443388258742465
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 5.0,
+    "mean_reach": 5.0
+   },
+   "kind": "consensus",
+   "paths": 1,
+   "required_edge_distance": 5,
+   "single_flip": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 5.0,
+    "mean_reach": 5.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14049449278956835,
+      "family_size": 1,
+      "lower": 0.13299197098238147,
+      "n_independent_pairs": 8192,
+      "upper": 0.14799701459675524
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13719998532321026,
+      "family_size": 1,
+      "lower": 0.12969746351602338,
+      "n_independent_pairs": 8192,
+      "upper": 0.14470250713039715
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 1024,
+   "gradient": {
+    "fraction_R90_below_required": 0.5078125,
+    "fraction_reach_below_required": 0.5078125,
+    "mean_R90": 0.4921875,
+    "mean_reach": 0.4921875
+   },
+   "kind": "consensus",
+   "paths": 9,
+   "required_edge_distance": 1,
+   "single_flip": {
+    "fraction_R90_below_required": 0.5078125,
+    "fraction_reach_below_required": 0.5078125,
+    "mean_R90": 0.4921875,
+    "mean_reach": 0.4921875
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1403550362188069,
+      "family_size": 1,
+      "lower": 0.13285251441162002,
+      "n_independent_pairs": 8192,
+      "upper": 0.1478575580259938
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13713282918746714,
+      "family_size": 1,
+      "lower": 0.12963030738028025,
+      "n_independent_pairs": 8192,
+      "upper": 0.14463535099465402
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13797228088425623,
+      "family_size": 1,
+      "lower": 0.13046975907706934,
+      "n_independent_pairs": 8192,
+      "upper": 0.1454748026914431
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13612548715132022,
+      "family_size": 1,
+      "lower": 0.12862296534413334,
+      "n_independent_pairs": 8192,
+      "upper": 0.1436280089585071
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 1024,
+   "gradient": {
+    "fraction_R90_below_required": 0.5078125,
+    "fraction_reach_below_required": 0.5078125,
+    "mean_R90": 1.4765625,
+    "mean_reach": 1.4765625
+   },
+   "kind": "consensus",
+   "paths": 9,
+   "required_edge_distance": 3,
+   "single_flip": {
+    "fraction_R90_below_required": 0.5078125,
+    "fraction_reach_below_required": 0.5078125,
+    "mean_R90": 1.4765625,
+    "mean_reach": 1.4765625
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14241795070771154,
+      "family_size": 1,
+      "lower": 0.13491542890052466,
+      "n_independent_pairs": 8192,
+      "upper": 0.14992047251489843
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13844237383445812,
+      "family_size": 1,
+      "lower": 0.13093985202727124,
+      "n_independent_pairs": 8192,
+      "upper": 0.145944895641645
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13777081247702683,
+      "family_size": 1,
+      "lower": 0.13026829066983994,
+      "n_independent_pairs": 8192,
+      "upper": 0.1452733342842137
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1366291581693937,
+      "family_size": 1,
+      "lower": 0.1291266363622068,
+      "n_independent_pairs": 8192,
+      "upper": 0.14413167997658058
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1368642046444946,
+      "family_size": 1,
+      "lower": 0.12936168283730773,
+      "n_independent_pairs": 8192,
+      "upper": 0.1443667264516815
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.136528423965779,
+      "family_size": 1,
+      "lower": 0.1290259021585921,
+      "n_independent_pairs": 8192,
+      "upper": 0.14403094577296588
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 1024,
+   "gradient": {
+    "fraction_R90_below_required": 0.5078125,
+    "fraction_reach_below_required": 0.5078125,
+    "mean_R90": 2.4609375,
+    "mean_reach": 2.4609375
+   },
+   "kind": "consensus",
+   "paths": 9,
+   "required_edge_distance": 5,
+   "single_flip": {
+    "fraction_R90_below_required": 0.5078125,
+    "fraction_reach_below_required": 0.5078125,
+    "mean_R90": 2.4609375,
+    "mean_reach": 2.4609375
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.4952392578125,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13955040382783263,
+      "family_size": 1,
+      "lower": 0.13204788202064574,
+      "n_independent_pairs": 8192,
+      "upper": 0.1470529256350195
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13971834041357756,
+      "family_size": 1,
+      "lower": 0.13221581860639067,
+      "n_independent_pairs": 8192,
+      "upper": 0.14722086222076444
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": false,
+   "configurations": 8192,
+   "gradient": {
+    "fraction_R90_below_required": 0.72265625,
+    "fraction_reach_below_required": 0.72265625,
+    "mean_R90": 0.27734375,
+    "mean_reach": 0.27734375
+   },
+   "kind": "consensus",
+   "paths": 31,
+   "required_edge_distance": 1,
+   "single_flip": {
+    "fraction_R90_below_required": 0.72265625,
+    "fraction_reach_below_required": 0.72265625,
+    "mean_R90": 0.27734375,
+    "mean_reach": 0.27734375
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.49853515625,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14094576325003116,
+      "family_size": 1,
+      "lower": 0.13344324144284428,
+      "n_independent_pairs": 8192,
+      "upper": 0.14844828505721805
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13871099837743064,
+      "family_size": 1,
+      "lower": 0.13120847657024376,
+      "n_independent_pairs": 8192,
+      "upper": 0.14621352018461753
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13736787566256808,
+      "family_size": 1,
+      "lower": 0.1298653538553812,
+      "n_independent_pairs": 8192,
+      "upper": 0.14487039746975497
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13676347044087994,
+      "family_size": 1,
+      "lower": 0.12926094863369306,
+      "n_independent_pairs": 8192,
+      "upper": 0.14426599224806683
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": false,
+   "configurations": 8192,
+   "gradient": {
+    "fraction_R90_below_required": 0.7193603515625,
+    "fraction_reach_below_required": 0.7193603515625,
+    "mean_R90": 0.8419189453125,
+    "mean_reach": 0.8419189453125
+   },
+   "kind": "consensus",
+   "paths": 31,
+   "required_edge_distance": 3,
+   "single_flip": {
+    "fraction_R90_below_required": 0.7193603515625,
+    "fraction_reach_below_required": 0.7193603515625,
+    "mean_R90": 0.8419189453125,
+    "mean_reach": 0.8419189453125
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5003662109375,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14027203920224313,
+      "family_size": 1,
+      "lower": 0.13276951739505624,
+      "n_independent_pairs": 8192,
+      "upper": 0.14777456100943
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1373342975946965,
+      "family_size": 1,
+      "lower": 0.12983177578750962,
+      "n_independent_pairs": 8192,
+      "upper": 0.1448368194018834
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13840879576658657,
+      "family_size": 1,
+      "lower": 0.1309062739593997,
+      "n_independent_pairs": 8192,
+      "upper": 0.14591131757377346
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1398526526850638,
+      "family_size": 1,
+      "lower": 0.13235013087787692,
+      "n_independent_pairs": 8192,
+      "upper": 0.1473551744922507
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1356889722689899,
+      "family_size": 1,
+      "lower": 0.12818645046180302,
+      "n_independent_pairs": 8192,
+      "upper": 0.1431914940761768
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13955045007421973,
+      "family_size": 1,
+      "lower": 0.13204792826703285,
+      "n_independent_pairs": 8192,
+      "upper": 0.14705297188140662
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": false,
+   "configurations": 8192,
+   "gradient": {
+    "fraction_R90_below_required": 0.7161865234375,
+    "fraction_reach_below_required": 0.7161865234375,
+    "mean_R90": 1.4190673828125,
+    "mean_reach": 1.4190673828125
+   },
+   "kind": "consensus",
+   "paths": 31,
+   "required_edge_distance": 5,
+   "single_flip": {
+    "fraction_R90_below_required": 0.7161865234375,
+    "fraction_reach_below_required": 0.7161865234375,
+    "mean_R90": 1.4190673828125,
+    "mean_reach": 1.4190673828125
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.494140625,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14051664473664577,
+      "family_size": 1,
+      "lower": 0.13301412292945888,
+      "n_independent_pairs": 8192,
+      "upper": 0.14801916654383265
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13777081247702685,
+      "family_size": 1,
+      "lower": 0.13026829066983997,
+      "n_independent_pairs": 8192,
+      "upper": 0.14527333428421374
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": false,
+   "configurations": 8192,
+   "gradient": {
+    "fraction_R90_below_required": 0.8388671875,
+    "fraction_reach_below_required": 0.8388671875,
+    "mean_R90": 0.1611328125,
+    "mean_reach": 0.1611328125
+   },
+   "kind": "consensus",
+   "paths": 101,
+   "required_edge_distance": 1,
+   "single_flip": {
+    "fraction_R90_below_required": 0.8388671875,
+    "fraction_reach_below_required": 0.8388671875,
+    "mean_R90": 0.1611328125,
+    "mean_reach": 0.1611328125
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.4979248046875,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13948630557261132,
+      "family_size": 1,
+      "lower": 0.13198378376542444,
+      "n_independent_pairs": 8192,
+      "upper": 0.1469888273797982
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13646126783003587,
+      "family_size": 1,
+      "lower": 0.12895874602284899,
+      "n_independent_pairs": 8192,
+      "upper": 0.14396378963722276
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13676347044087994,
+      "family_size": 1,
+      "lower": 0.12926094863369306,
+      "n_independent_pairs": 8192,
+      "upper": 0.14426599224806683
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1404234798388804,
+      "family_size": 1,
+      "lower": 0.13292095803169351,
+      "n_independent_pairs": 8192,
+      "upper": 0.14792600164606728
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": false,
+   "configurations": 8192,
+   "gradient": {
+    "fraction_R90_below_required": 0.8480224609375,
+    "fraction_reach_below_required": 0.8480224609375,
+    "mean_R90": 0.4559326171875,
+    "mean_reach": 0.4559326171875
+   },
+   "kind": "consensus",
+   "paths": 101,
+   "required_edge_distance": 3,
+   "single_flip": {
+    "fraction_R90_below_required": 0.8480224609375,
+    "fraction_reach_below_required": 0.8480224609375,
+    "mean_R90": 0.4559326171875,
+    "mean_reach": 0.4559326171875
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.493408203125,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1425784716359143,
+      "family_size": 1,
+      "lower": 0.13507594982872742,
+      "n_independent_pairs": 8192,
+      "upper": 0.1500809934431012
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1360583310155771,
+      "family_size": 1,
+      "lower": 0.12855580920839021,
+      "n_independent_pairs": 8192,
+      "upper": 0.14356085282276398
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13817374929148563,
+      "family_size": 1,
+      "lower": 0.13067122748429874,
+      "n_independent_pairs": 8192,
+      "upper": 0.1456762710986725
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1364276897621643,
+      "family_size": 1,
+      "lower": 0.1289251679549774,
+      "n_independent_pairs": 8192,
+      "upper": 0.14393021156935118
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13488309864007236,
+      "family_size": 1,
+      "lower": 0.12738057683288548,
+      "n_independent_pairs": 8192,
+      "upper": 0.14238562044725925
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13636053362642114,
+      "family_size": 1,
+      "lower": 0.12885801181923426,
+      "n_independent_pairs": 8192,
+      "upper": 0.14386305543360803
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": false,
+   "configurations": 8192,
+   "gradient": {
+    "fraction_R90_below_required": 0.841064453125,
+    "fraction_reach_below_required": 0.841064453125,
+    "mean_R90": 0.794677734375,
+    "mean_reach": 0.794677734375
+   },
+   "kind": "consensus",
+   "paths": 101,
+   "required_edge_distance": 5,
+   "single_flip": {
+    "fraction_R90_below_required": 0.841064453125,
+    "fraction_reach_below_required": 0.841064453125,
+    "mean_R90": 0.794677734375,
+    "mean_reach": 0.794677734375
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14025738310077357,
+      "family_size": 1,
+      "lower": 0.13275486129358668,
+      "n_independent_pairs": 8192,
+      "upper": 0.14775990490796045
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13736787566256808,
+      "family_size": 1,
+      "lower": 0.1298653538553812,
+      "n_independent_pairs": 8192,
+      "upper": 0.14487039746975497
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "redundancy",
+   "paths": 9,
+   "required_edge_distance": 1,
+   "single_flip": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14034666142467978,
+      "family_size": 1,
+      "lower": 0.1328441396174929,
+      "n_independent_pairs": 8192,
+      "upper": 0.14784918323186666
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13652842396577897,
+      "family_size": 1,
+      "lower": 0.12902590215859208,
+      "n_independent_pairs": 8192,
+      "upper": 0.14403094577296585
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13629337749067805,
+      "family_size": 1,
+      "lower": 0.12879085568349116,
+      "n_independent_pairs": 8192,
+      "upper": 0.14379589929786493
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13790512474851313,
+      "family_size": 1,
+      "lower": 0.13040260294132625,
+      "n_independent_pairs": 8192,
+      "upper": 0.14540764655570002
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "redundancy",
+   "paths": 9,
+   "required_edge_distance": 3,
+   "single_flip": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14170771850714772,
+      "family_size": 1,
+      "lower": 0.13420519669996084,
+      "n_independent_pairs": 8192,
+      "upper": 0.1492102403143346
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1382744834951003,
+      "family_size": 1,
+      "lower": 0.1307719616879134,
+      "n_independent_pairs": 8192,
+      "upper": 0.14577700530228718
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13807301508787093,
+      "family_size": 1,
+      "lower": 0.13057049328068404,
+      "n_independent_pairs": 8192,
+      "upper": 0.1455755368950578
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1372335633910818,
+      "family_size": 1,
+      "lower": 0.12973104158389492,
+      "n_independent_pairs": 8192,
+      "upper": 0.1447360851982687
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13740145373043966,
+      "family_size": 1,
+      "lower": 0.12989893192325278,
+      "n_independent_pairs": 8192,
+      "upper": 0.14490397553762654
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13723356339108184,
+      "family_size": 1,
+      "lower": 0.12973104158389495,
+      "n_independent_pairs": 8192,
+      "upper": 0.14473608519826872
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "redundancy",
+   "paths": 9,
+   "required_edge_distance": 5,
+   "single_flip": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1430182991430134,
+      "family_size": 1,
+      "lower": 0.1355157773358265,
+      "n_independent_pairs": 8192,
+      "upper": 0.15052082095020028
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13498383284368703,
+      "family_size": 1,
+      "lower": 0.12748131103650015,
+      "n_independent_pairs": 8192,
+      "upper": 0.14248635465087392
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "redundancy",
+   "paths": 31,
+   "required_edge_distance": 1,
+   "single_flip": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14262792391488635,
+      "family_size": 1,
+      "lower": 0.13512540210769947,
+      "n_independent_pairs": 8192,
+      "upper": 0.15013044572207324
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13672989237300837,
+      "family_size": 1,
+      "lower": 0.12922737056582148,
+      "n_independent_pairs": 8192,
+      "upper": 0.14423241418019525
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13740145373043963,
+      "family_size": 1,
+      "lower": 0.12989893192325275,
+      "n_independent_pairs": 8192,
+      "upper": 0.14490397553762652
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13955045007421973,
+      "family_size": 1,
+      "lower": 0.13204792826703285,
+      "n_independent_pairs": 8192,
+      "upper": 0.14705297188140662
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "redundancy",
+   "paths": 31,
+   "required_edge_distance": 3,
+   "single_flip": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13966225898908066,
+      "family_size": 1,
+      "lower": 0.13215973718189378,
+      "n_independent_pairs": 8192,
+      "upper": 0.14716478079626755
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13602475294770552,
+      "family_size": 1,
+      "lower": 0.12852223114051864,
+      "n_independent_pairs": 8192,
+      "upper": 0.1435272747548924
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13793870281638465,
+      "family_size": 1,
+      "lower": 0.13043618100919777,
+      "n_independent_pairs": 8192,
+      "upper": 0.14544122462357154
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13924824746337566,
+      "family_size": 1,
+      "lower": 0.13174572565618878,
+      "n_independent_pairs": 8192,
+      "upper": 0.14675076927056255
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1372671414589534,
+      "family_size": 1,
+      "lower": 0.12976461965176653,
+      "n_independent_pairs": 8192,
+      "upper": 0.1447696632661403
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1374350317983112,
+      "family_size": 1,
+      "lower": 0.12993250999112432,
+      "n_independent_pairs": 8192,
+      "upper": 0.1449375536054981
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "redundancy",
+   "paths": 31,
+   "required_edge_distance": 5,
+   "single_flip": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13880917970210632,
+      "family_size": 1,
+      "lower": 0.13130665789491944,
+      "n_independent_pairs": 8192,
+      "upper": 0.1463117015092932
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13676347044087994,
+      "family_size": 1,
+      "lower": 0.12926094863369306,
+      "n_independent_pairs": 8192,
+      "upper": 0.14426599224806683
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "redundancy",
+   "paths": 101,
+   "required_edge_distance": 1,
+   "single_flip": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14080264212053897,
+      "family_size": 1,
+      "lower": 0.1333001203133521,
+      "n_independent_pairs": 8192,
+      "upper": 0.14830516392772586
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13625979942280647,
+      "family_size": 1,
+      "lower": 0.1287572776156196,
+      "n_independent_pairs": 8192,
+      "upper": 0.14376232122999336
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13458089602922826,
+      "family_size": 1,
+      "lower": 0.12707837422204138,
+      "n_independent_pairs": 8192,
+      "upper": 0.14208341783641515
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1373342975946965,
+      "family_size": 1,
+      "lower": 0.12983177578750962,
+      "n_independent_pairs": 8192,
+      "upper": 0.1448368194018834
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "redundancy",
+   "paths": 101,
+   "required_edge_distance": 3,
+   "single_flip": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14080918233441764,
+      "family_size": 1,
+      "lower": 0.13330666052723075,
+      "n_independent_pairs": 8192,
+      "upper": 0.14831170414160452
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13589044067621928,
+      "family_size": 1,
+      "lower": 0.1283879188690324,
+      "n_independent_pairs": 8192,
+      "upper": 0.14339296248340616
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13750218793405433,
+      "family_size": 1,
+      "lower": 0.12999966612686745,
+      "n_independent_pairs": 8192,
+      "upper": 0.14500470974124122
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1400541210922932,
+      "family_size": 1,
+      "lower": 0.13255159928510632,
+      "n_independent_pairs": 8192,
+      "upper": 0.1475566428994801
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13542034772601738,
+      "family_size": 1,
+      "lower": 0.1279178259188305,
+      "n_independent_pairs": 8192,
+      "upper": 0.14292286953320427
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.138375217698715,
+      "family_size": 1,
+      "lower": 0.1308726958915281,
+      "n_independent_pairs": 8192,
+      "upper": 0.14587773950590188
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "redundancy",
+   "paths": 101,
+   "required_edge_distance": 5,
+   "single_flip": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.14064748793393164,
+      "family_size": 1,
+      "lower": 0.13314496612674476,
+      "n_independent_pairs": 8192,
+      "upper": 0.14815000974111853
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13397649080754012,
+      "family_size": 1,
+      "lower": 0.12647396900035324,
+      "n_independent_pairs": 8192,
+      "upper": 0.141479012614727
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "saturated",
+   "paths": 1,
+   "required_edge_distance": 1,
+   "single_flip": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 1.0,
+    "mean_reach": 1.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1405632593672156,
+      "family_size": 1,
+      "lower": 0.1330607375600287,
+      "n_independent_pairs": 8192,
+      "upper": 0.14806578117440247
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1393825597348619,
+      "family_size": 1,
+      "lower": 0.13188003792767503,
+      "n_independent_pairs": 8192,
+      "upper": 0.1468850815420488
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13817374929148563,
+      "family_size": 1,
+      "lower": 0.13067122748429874,
+      "n_independent_pairs": 8192,
+      "upper": 0.1456762710986725
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13676347044087994,
+      "family_size": 1,
+      "lower": 0.12926094863369306,
+      "n_independent_pairs": 8192,
+      "upper": 0.14426599224806683
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "saturated",
+   "paths": 1,
+   "required_edge_distance": 3,
+   "single_flip": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 3.0,
+    "mean_reach": 3.0
+   },
+   "solver_min_margin": 1.5
+  },
+  {
+   "class_balance": 0.5,
+   "collective": [
+    {
+     "analytic_population_variance": 0.14037491569227953,
+     "radius": -1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13938083111862143,
+      "family_size": 1,
+      "lower": 0.13187830931143454,
+      "n_independent_pairs": 8192,
+      "upper": 0.1468833529258083
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 0,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1386774203095591,
+      "family_size": 1,
+      "lower": 0.1311748985023722,
+      "n_independent_pairs": 8192,
+      "upper": 0.14617994211674598
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 1,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13636053362642117,
+      "family_size": 1,
+      "lower": 0.12885801181923429,
+      "n_independent_pairs": 8192,
+      "upper": 0.14386305543360806
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 2,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13810659315574247,
+      "family_size": 1,
+      "lower": 0.1306040713485556,
+      "n_independent_pairs": 8192,
+      "upper": 0.14560911496292936
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 3,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.1377372344091553,
+      "family_size": 1,
+      "lower": 0.13023471260196842,
+      "n_independent_pairs": 8192,
+      "upper": 0.1452397562163422
+     }
+    },
+    {
+     "analytic_population_variance": 0.13753576600192594,
+     "radius": 4,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.13713282918746714,
+      "family_size": 1,
+      "lower": 0.12963030738028025,
+      "n_independent_pairs": 8192,
+      "upper": 0.14463535099465402
+     }
+    },
+    {
+     "analytic_population_variance": 0.0,
+     "radius": 5,
+     "sampled": {
+      "epsilon": 0.0075025218071868805,
+      "estimate": 0.0,
+      "family_size": 1,
+      "lower": 0.0,
+      "n_independent_pairs": 8192,
+      "upper": 0.0075025218071868805
+     }
+    }
+   ],
+   "configuration_distribution_exact": true,
+   "configurations": 4,
+   "gradient": {
+    "fraction_R90_below_required": 1.0,
+    "fraction_reach_below_required": 1.0,
+    "mean_R90": 0.0,
+    "mean_reach": 0.0
+   },
+   "kind": "saturated",
+   "paths": 1,
+   "required_edge_distance": 5,
+   "single_flip": {
+    "fraction_R90_below_required": 0.0,
+    "fraction_reach_below_required": 0.0,
+    "mean_R90": 5.0,
+    "mean_reach": 5.0
+   },
+   "solver_min_margin": 1.5
+  }
+ ],
+ "source_sha256": "3041a5f299befbbcac7028a51ccdbcdcde43f59f2194b12b9d2901698338372b"
+}

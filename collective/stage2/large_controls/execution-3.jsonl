@@ -1,0 +1,8 @@
+{"created_utc": "2026-10-05T23:45:03Z", "module": "collective/stage2/large_training.py", "args": ["--index", "3", "--device", "cuda:7"], "attempt": 1, "returncode": 0, "elapsed_seconds": 19.56628609262407}
+{"created_utc": "2026-10-05T23:52:23Z", "module": "collective/stage2/large_training.py", "args": ["--index", "3", "--device", "cuda:7"], "attempt": 1, "returncode": 0, "elapsed_seconds": 2.7426866367459297}
+{"created_utc": "2026-10-05T23:53:58Z", "module": "collective/stage2/large_measure_v2.py", "args": ["--index", "3", "--device", "cuda:7"], "attempt": 1, "returncode": 0, "elapsed_seconds": 94.81856275722384}
+{"created_utc": "2026-10-05T23:54:07Z", "module": "collective/stage2/large_training.py", "args": ["--index", "7", "--device", "cuda:7"], "attempt": 1, "returncode": 0, "elapsed_seconds": 8.466770328581333}
+{"created_utc": "2026-10-05T23:56:01Z", "module": "collective/stage2/large_measure_v2.py", "args": ["--index", "7", "--device", "cuda:7"], "attempt": 1, "returncode": 3, "elapsed_seconds": 114.69312795065343}
+{"created_utc": "2026-10-05T23:56:43Z", "module": "collective/stage2/large_measure_v2.py", "args": ["--index", "7", "--device", "cuda:7"], "attempt": 2, "returncode": 0, "elapsed_seconds": 41.94142424874008}
+{"created_utc": "2026-10-05T23:56:52Z", "module": "collective/stage2/large_training.py", "args": ["--index", "11", "--device", "cuda:7"], "attempt": 1, "returncode": 0, "elapsed_seconds": 8.552424900233746}
+{"created_utc": "2026-10-05T23:58:28Z", "module": "collective/stage2/large_measure_v2.py", "args": ["--index", "11", "--device", "cuda:7"], "attempt": 1, "returncode": 0, "elapsed_seconds": 95.78226574324071}

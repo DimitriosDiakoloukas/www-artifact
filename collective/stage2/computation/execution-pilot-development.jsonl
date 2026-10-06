@@ -1,0 +1,4 @@
+{"created_utc": "2026-10-05T22:59:29Z", "module": "collective/stage2/computation.py", "args": ["--kind", "development", "--index", "10", "--device", "cuda:2"], "attempt": 1, "returncode": 0, "elapsed_seconds": 107.75318645685911}
+{"created_utc": "2026-10-05T23:01:22Z", "module": "collective/stage2/computation.py", "args": ["--kind", "development", "--index", "11", "--device", "cuda:2"], "attempt": 1, "returncode": 3, "elapsed_seconds": 113.24543881975114}
+{"created_utc": "2026-10-05T23:03:18Z", "module": "collective/stage2/computation.py", "args": ["--kind", "development", "--index", "11", "--device", "cuda:2"], "attempt": 2, "returncode": 3, "elapsed_seconds": 116.07660020515323}
+{"created_utc": "2026-10-05T23:04:06Z", "module": "collective/stage2/computation.py", "args": ["--kind", "development", "--index", "11", "--device", "cuda:2"], "attempt": 3, "returncode": 0, "elapsed_seconds": 47.239067217335105}

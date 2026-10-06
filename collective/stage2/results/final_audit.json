@@ -1,0 +1,177 @@
+{
+ "all_checks_pass": true,
+ "batch_measurements": 612,
+ "complete_policy_schedule_outcomes": 204,
+ "independent_raw_rederivations": [
+  {
+   "method": "rethreshold all 100 raw exact gradient vectors against each global maximum",
+   "misses": 90,
+   "quantity": "qualifying learned SGCN gradient misses",
+   "queries": 100
+  },
+  {
+   "method": "raw feasible draws, per-checkpoint root mean square then equal five-seed mean",
+   "quantity": "SGCN bitcoin_alpha native exchange RMSE beyond one hop",
+   "queries": 51,
+   "value": 0.07407282398914725
+  },
+  {
+   "method": "raw feasible draws, per-checkpoint root mean square then equal five-seed mean",
+   "quantity": "SGCN wiki_elec native exchange RMSE beyond one hop",
+   "queries": 38,
+   "value": 0.027699885860800567
+  },
+  {
+   "method": "raw feasible draws, per-checkpoint root mean square then equal five-seed mean",
+   "quantity": "SIDNET bitcoin_alpha native exchange RMSE beyond one hop",
+   "queries": 85,
+   "value": 0.011423774890554118
+  },
+  {
+   "method": "raw feasible draws, per-checkpoint root mean square then equal five-seed mean",
+   "quantity": "SIDNET wiki_elec native exchange RMSE beyond one hop",
+   "queries": 94,
+   "value": 0.002988747855516542
+  },
+  {
+   "method": "raw 128 candidate vectors per checkpoint, then equal five-seed mean",
+   "quantity": "bitcoin_alpha selected held-out RMSE",
+   "queries": 640,
+   "value": 0.0020927555298043657
+  },
+  {
+   "method": "raw 128 candidate vectors per checkpoint, then equal five-seed mean",
+   "quantity": "wiki_elec selected held-out RMSE",
+   "queries": 640,
+   "value": 0.0015985042416395653
+  }
+ ],
+ "numerical_spot_checks": [
+  {
+   "macro": "nStageKnownCells",
+   "printed": "144",
+   "value": 144
+  },
+  {
+   "macro": "nStageLargeModels",
+   "printed": "12",
+   "value": 12
+  },
+  {
+   "macro": "nStageLargeSolved",
+   "printed": "7",
+   "value": 7
+  },
+  {
+   "macro": "nStageSolvedSgcn",
+   "printed": "5",
+   "value": 5
+  },
+  {
+   "macro": "nStageSolvedGradientMiss",
+   "printed": "90",
+   "value": 90.0
+  },
+  {
+   "macro": "nStageSolvedFiniteMiss",
+   "printed": "57",
+   "value": 57.00000000000001
+  },
+  {
+   "macro": "nStageCorrectQueries",
+   "printed": "99",
+   "value": 99
+  },
+  {
+   "macro": "nStageCorrectGradientMiss",
+   "printed": "90",
+   "value": 90
+  },
+  {
+   "macro": "nStageMatchedSlots",
+   "printed": "76800",
+   "value": 76800
+  },
+  {
+   "macro": "nStageCycleNoChange",
+   "printed": "33.8",
+   "value": 33.75000000000001
+  },
+  {
+   "macro": "nStageLayerHeldPass",
+   "printed": "12",
+   "value": 12
+  },
+  {
+   "macro": "nStageNativeSgAlpha",
+   "printed": "0.074",
+   "value": 0.07407282398914725
+  },
+  {
+   "macro": "nStageNativeSgWiki",
+   "printed": "0.028",
+   "value": 0.027699885860800567
+  },
+  {
+   "macro": "nStageNativeSidAlpha",
+   "printed": "0.011",
+   "value": 0.011423774890554118
+  },
+  {
+   "macro": "nStageNativeSidWiki",
+   "printed": "0.003",
+   "value": 0.002988747855516542
+  },
+  {
+   "macro": "nStageLayerSelected",
+   "printed": "11",
+   "value": 11
+  },
+  {
+   "macro": "nStageComputeModels",
+   "printed": "12",
+   "value": 12
+  },
+  {
+   "macro": "nStageLayerRmseAlpha",
+   "printed": "0.0021",
+   "value": 0.0020927555298043657
+  },
+  {
+   "macro": "nStageFirstRmseAlpha",
+   "printed": "0.109",
+   "value": 0.10882311790121238
+  },
+  {
+   "macro": "nStageLayerSpeedAlphaSingle",
+   "printed": "1.33",
+   "value": 1.325280835524772
+  },
+  {
+   "macro": "nStageLayerSpeedAlphaBatch",
+   "printed": "1.33",
+   "value": 1.325076314868766
+  },
+  {
+   "macro": "nStageLayerRmseWiki",
+   "printed": "0.0016",
+   "value": 0.0015985042416395653
+  },
+  {
+   "macro": "nStageFirstRmseWiki",
+   "printed": "0.131",
+   "value": 0.13081562049491982
+  },
+  {
+   "macro": "nStageLayerSpeedWikiSingle",
+   "printed": "1.26",
+   "value": 1.2640692148923174
+  },
+  {
+   "macro": "nStageLayerSpeedWikiBatch",
+   "printed": "1.26",
+   "value": 1.2638631350870189
+  }
+ ],
+ "source_sha256": "1414715b4bd0ed2fb73447ce839681b8022ad430edefc27c5fbfa3be829bf961"
+}

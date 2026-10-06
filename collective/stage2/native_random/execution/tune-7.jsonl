@@ -1,0 +1,15 @@
+{"created_utc": "2026-10-05T22:43:04Z", "kind": "tune", "index": 7, "job": "SGCN-bitcoin_alpha-T2-s51001-lr0.005-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 17.730481900274754}
+{"created_utc": "2026-10-05T22:43:35Z", "kind": "tune", "index": 15, "job": "SGCN-bitcoin_alpha-T8-s51001-lr0.001-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 30.98347176425159}
+{"created_utc": "2026-10-05T22:44:07Z", "kind": "tune", "index": 23, "job": "SGCN-bitcoin_alpha-T8-s51001-lr0.01-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 31.032533921301365}
+{"created_utc": "2026-10-05T22:45:12Z", "kind": "tune", "index": 31, "job": "SGCN-bitcoin_alpha-T32-s51001-lr0.005-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 65.7838307004422}
+{"created_utc": "2026-10-05T22:45:22Z", "kind": "tune", "index": 39, "job": "SIDNET-bitcoin_alpha-T2-s51001-lr0.001-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 9.24583551287651}
+{"created_utc": "2026-10-05T22:45:31Z", "kind": "tune", "index": 47, "job": "SIDNET-bitcoin_alpha-T2-s51001-lr0.01-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 8.993284452706575}
+{"created_utc": "2026-10-05T22:45:46Z", "kind": "tune", "index": 55, "job": "SIDNET-bitcoin_alpha-T8-s51001-lr0.005-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 15.232556181028485}
+{"created_utc": "2026-10-05T22:46:15Z", "kind": "tune", "index": 63, "job": "SIDNET-bitcoin_alpha-T32-s51001-lr0.001-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 29.49665877595544}
+{"created_utc": "2026-10-05T22:46:35Z", "kind": "tune", "index": 71, "job": "SIDNET-bitcoin_alpha-T32-s51001-lr0.01-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 19.91895742341876}
+{"created_utc": "2026-10-05T22:47:16Z", "kind": "tune", "index": 79, "job": "SGCN-wiki_elec-T2-s51001-lr0.005-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 41.01715341769159}
+{"created_utc": "2026-10-05T22:48:15Z", "kind": "tune", "index": 87, "job": "SGCN-wiki_elec-T8-s51001-lr0.001-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 58.44633441977203}
+{"created_utc": "2026-10-05T22:49:03Z", "kind": "tune", "index": 95, "job": "SGCN-wiki_elec-T8-s51001-lr0.01-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 47.92894226312637}
+{"created_utc": "2026-10-05T22:49:13Z", "kind": "tune", "index": 115, "job": "SIDNET-wiki_elec-T2-s51001-lr0.005-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 10.046889312565327}
+{"created_utc": "2026-10-05T22:49:30Z", "kind": "tune", "index": 123, "job": "SIDNET-wiki_elec-T8-s51001-lr0.001-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 17.495859747752547}
+{"created_utc": "2026-10-05T22:49:48Z", "kind": "tune", "index": 131, "job": "SIDNET-wiki_elec-T8-s51001-lr0.01-wd1e-05", "attempt": 1, "returncode": 0, "elapsed_seconds": 17.65789693966508}

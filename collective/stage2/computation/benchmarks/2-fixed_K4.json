@@ -1,0 +1,129 @@
+{
+ "all_logits_match": true,
+ "checkpoint_sha256": "385fef60c80b5b7279f94e8f44616b73b075665a88d967bd2f2c0fa85542523c",
+ "created_utc": "2026-10-06T00:05:13Z",
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "index": 2,
+ "online_includes_structural_features_and_grouping": true,
+ "policies": [
+  {
+   "batches": [
+    {
+     "batchsize": 1,
+     "break_even_queries": 0,
+     "encoder_evaluations": 128,
+     "incremental_peak_allocated_bytes": 19041280,
+     "individual_repeats_seconds": [
+      1.3012898713350296,
+      1.3010178841650486,
+      1.3013981245458126,
+      1.300243567675352,
+      1.299934484064579
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 14511.0,
+     "mean_retained_nodes_per_encoder_evaluation": 3783.0,
+     "mean_retained_steps": 8.0,
+     "median_total_seconds": 1.3010178841650486,
+     "offline_seconds_charged": 0.0,
+     "peak_allocated_bytes": 57770496,
+     "queries": 128,
+     "resident_allocated_bytes": 38729216,
+     "seconds_per_query": 0.010164202220039442,
+     "speedup_vs_full": 3.83126826188582
+    },
+    {
+     "batchsize": 8,
+     "break_even_queries": 0,
+     "encoder_evaluations": 16,
+     "incremental_peak_allocated_bytes": 18983936,
+     "individual_repeats_seconds": [
+      0.16481137461960316,
+      0.16474522650241852,
+      0.16474599391222,
+      0.16474940441548824,
+      0.1647973246872425
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 14511.0,
+     "mean_retained_nodes_per_encoder_evaluation": 3783.0,
+     "mean_retained_steps": 8.0,
+     "median_total_seconds": 0.16474940441548824,
+     "offline_seconds_charged": 0.0,
+     "peak_allocated_bytes": 57713152,
+     "queries": 128,
+     "resident_allocated_bytes": 38729216,
+     "seconds_per_query": 0.001287104721996002,
+     "speedup_vs_full": 3.7955542552731676
+    },
+    {
+     "batchsize": 64,
+     "break_even_queries": 0,
+     "encoder_evaluations": 2,
+     "incremental_peak_allocated_bytes": 18977280,
+     "individual_repeats_seconds": [
+      0.020646600052714348,
+      0.020638849586248398,
+      0.020639440044760704,
+      0.020652690902352333,
+      0.020625349134206772
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 14511.0,
+     "mean_retained_nodes_per_encoder_evaluation": 3783.0,
+     "mean_retained_steps": 8.0,
+     "median_total_seconds": 0.020639440044760704,
+     "offline_seconds_charged": 0.0,
+     "peak_allocated_bytes": 57706496,
+     "queries": 128,
+     "resident_allocated_bytes": 38729216,
+     "seconds_per_query": 0.000161245625349693,
+     "speedup_vs_full": 3.788424844425653
+    }
+   ],
+   "choices": [
+    0,
+    0,
+    128,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "metrics": {
+    "AUC_loss": 0.3056910569105691,
+    "Brier": 0.3796439171720532,
+    "Brier_increase": 0.3424957974278918,
+    "ECE": 0.4216054982578683,
+    "class_disagreement": 0.3984375,
+    "maximum_probability_error": 0.9999882820144339,
+    "negative_queries": 5,
+    "positive_queries": 123,
+    "probability_RMSE": 0.5735967382144956,
+    "queries": 128,
+    "test_AUC": 0.6146341463414634
+   },
+   "policy": "fixed_K4",
+   "validation_pass": false
+  }
+ ],
+ "policies_sha256": "5f655ad88cfbdbb9445fec84c702314b356b15d1924bcc6f2edb9cd8c5565e15",
+ "process_peak_cpu_rss_bytes": 1292148736,
+ "protocol_sha256": "f1c71aa8eed813e367a62ba505bef7bf6386ea1bc87d63a7ca86a853fbf8b3e3",
+ "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52002.json",
+ "result_sha256": "a8bce9df5d7ef6a714eaff0872f35758ca0d60c9194f36ca8298fb2feb9ed56b",
+ "source_sha256": "c863ce087186ba1faf575200c931266b5e096984ccbbf163ea296b122e6a7b4f",
+ "test_complete_sha256": "510ab656e9ef1ffec208c243158641560af40c86f64883e5b7e3bc90d91a834d"
+}

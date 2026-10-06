@@ -1,0 +1,24 @@
+{
+ "created_utc": "2026-10-06T00:38:01Z",
+ "entries": [
+  {
+   "charged_conservatively_to_each_checkpoint": true,
+   "heldout_files_read": false,
+   "kind": "primary",
+   "locked_policies_sha256": "5f655ad88cfbdbb9445fec84c702314b356b15d1924bcc6f2edb9cd8c5565e15",
+   "same_choices_and_parameters": true,
+   "whole_twelve_model_selection_seconds": 5.608335828408599
+  },
+  {
+   "charged_conservatively_to_each_checkpoint": true,
+   "heldout_files_read": false,
+   "kind": "layerwise",
+   "locked_policies_sha256": "3308a29093af1b47149898c178c6f6f50d1b3e47c191d48ef6a89e2010b0e986",
+   "same_choices_and_parameters": true,
+   "whole_twelve_model_selection_seconds": 3.446196613833308
+  }
+ ],
+ "result_sha256": "aaa89a784fb01f57351fab17ae4fd09c033d6f38f1f8bd0a47646f5441ebd594",
+ "source_sha256": "0b09c00a295c57c872599b086656ef3579c8f529809687ff9f9ea0ce9fbef5b0",
+ "status": "post-measurement timing replay on validation copies; original choices and files unchanged"
+}

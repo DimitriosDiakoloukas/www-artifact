@@ -1,0 +1,5 @@
+{"created_utc": "2026-10-05T23:36:02Z", "module": "collective/stage2/native_collective.py", "args": ["--index", "2", "--device", "cuda:6"], "attempt": 1, "returncode": 0, "elapsed_seconds": 63.95995455980301}
+{"created_utc": "2026-10-05T23:36:43Z", "module": "collective/stage2/native_collective.py", "args": ["--index", "6", "--device", "cuda:6"], "attempt": 1, "returncode": 0, "elapsed_seconds": 40.89283722266555}
+{"created_utc": "2026-10-05T23:37:58Z", "module": "collective/stage2/native_collective.py", "args": ["--index", "10", "--device", "cuda:6"], "attempt": 1, "returncode": 0, "elapsed_seconds": 74.8765446152538}
+{"created_utc": "2026-10-05T23:39:15Z", "module": "collective/stage2/native_collective.py", "args": ["--index", "14", "--device", "cuda:6"], "attempt": 1, "returncode": 0, "elapsed_seconds": 77.09266170486808}
+{"created_utc": "2026-10-05T23:40:29Z", "module": "collective/stage2/native_collective.py", "args": ["--index", "18", "--device", "cuda:6"], "attempt": 1, "returncode": 0, "elapsed_seconds": 73.94388735853136}

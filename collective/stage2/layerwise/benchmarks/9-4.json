@@ -1,0 +1,105 @@
+{
+ "batches": [
+  {
+   "batchsize": 1,
+   "encoder_evaluations": 128,
+   "incremental_peak_allocated_bytes": 56138240,
+   "individual_repeats_seconds": [
+    6.692847119644284,
+    6.692430639639497,
+    6.692530959844589,
+    6.691435653716326,
+    6.691367655992508
+   ],
+   "median_total_seconds": 6.692430639639497,
+   "peak_allocated_bytes": 101958656,
+   "queries": 128,
+   "resident_allocated_bytes": 45820416,
+   "seconds_per_query": 0.05228461437218357,
+   "selected_policy_break_even_queries": 4798,
+   "selected_policy_offline_seconds": 82.74537404999137,
+   "speedup_vs_full": 1.329891917442934
+  },
+  {
+   "batchsize": 8,
+   "encoder_evaluations": 16,
+   "incremental_peak_allocated_bytes": 56080896,
+   "individual_repeats_seconds": [
+    0.8367137983441353,
+    0.836593508720398,
+    0.837052196264267,
+    0.8366620782762766,
+    0.8369139153510332
+   ],
+   "median_total_seconds": 0.8367137983441353,
+   "peak_allocated_bytes": 101901312,
+   "queries": 128,
+   "resident_allocated_bytes": 45820416,
+   "seconds_per_query": 0.006536826549563557,
+   "selected_policy_break_even_queries": 38398,
+   "selected_policy_offline_seconds": 82.74537404999137,
+   "speedup_vs_full": 1.329668097557631
+  },
+  {
+   "batchsize": 64,
+   "encoder_evaluations": 2,
+   "incremental_peak_allocated_bytes": 56074240,
+   "individual_repeats_seconds": [
+    0.10456381924450397,
+    0.10461895726621151,
+    0.1046834085136652,
+    0.10464297793805599,
+    0.10469549708068371
+   ],
+   "median_total_seconds": 0.10464297793805599,
+   "peak_allocated_bytes": 101894656,
+   "queries": 128,
+   "resident_allocated_bytes": 45820416,
+   "seconds_per_query": 0.0008175232651410624,
+   "selected_policy_break_even_queries": 307698,
+   "selected_policy_offline_seconds": 82.74537404999137,
+   "speedup_vs_full": 1.3289427078654343
+  }
+ ],
+ "checkpoint_sha256": "c6dd73ccffc836ccba60b13d8dcf3fb20ed345e73bc1d1539c88459ad5a76f5d",
+ "choice": 4,
+ "created_utc": "2026-10-06T00:36:28Z",
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "index": 9,
+ "metrics": {
+  "AUC_loss": 0.03544494720965319,
+  "Brier": 0.1368066629764411,
+  "Brier_increase": 0.017830583429276764,
+  "ECE": 0.12882310563430768,
+  "class_disagreement": 0.0546875,
+  "maximum_probability_error": 0.8990051281995824,
+  "negative_queries": 26,
+  "positive_queries": 102,
+  "probability_RMSE": 0.13310289953985552,
+  "queries": 128,
+  "test_AUC": 0.7662141779788838
+ },
+ "original_test_logits_bitwise_before_after": true,
+ "policies_sha256": "3308a29093af1b47149898c178c6f6f50d1b3e47c191d48ef6a89e2010b0e986",
+ "process_peak_cpu_rss_bytes": 1302437888,
+ "protocol_sha256": "65cf9ebcc1802c77dd7a4223d17657f667a18dc3c41c4cce446dcaa8802e62c0",
+ "result_sha256": "68e8fdbf1e8c6d4e1ed51e1d006c0414cf053f86bcd61e9e9fe57fcfe4f06c43",
+ "schedule": "L8-16",
+ "selected_by_validation": false,
+ "source_sha256": "810945f39102495e551b809d61fccabc7bcdcabee2ae822cb2b18d6e3d78e309",
+ "test_complete_sha256": "20dcebac5ed10dc028e2f8c9e78a594a8337a0bce123f46ff977c993abe26907"
+}

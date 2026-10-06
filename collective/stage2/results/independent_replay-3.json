@@ -1,0 +1,41 @@
+{
+ "checks": [
+  {
+   "bitwise": true,
+   "checkpoint": 3,
+   "draws": 10,
+   "kind": "matched"
+  },
+  {
+   "bitwise": true,
+   "checkpoint": 15,
+   "draws": 4,
+   "kind": "native_collective"
+  },
+  {
+   "full_union_completion_max_error": 9.5367431640625e-07,
+   "index": 3,
+   "kind": "learned_control",
+   "labels_match": true,
+   "original_test_logits_bitwise": true
+  },
+  {
+   "full_union_completion_max_error": 5.960464477539063e-08,
+   "index": 7,
+   "kind": "learned_control",
+   "labels_match": true,
+   "original_test_logits_bitwise": true
+  },
+  {
+   "full_union_completion_max_error": 5.960464477539063e-08,
+   "index": 11,
+   "kind": "learned_control",
+   "labels_match": true,
+   "original_test_logits_bitwise": true
+  }
+ ],
+ "created_utc": "2026-10-06T00:03:37Z",
+ "elapsed_seconds": 4.32814204134047,
+ "result_sha256": "0eb0f7261e46ebe3208fc4f7a6c0f95848b86739f14380eeee847227bba9b63c",
+ "source_sha256": "5b1c92623214717ae81b15895e8ec107a35a9a5cc281c9e493e6d825815935f3"
+}

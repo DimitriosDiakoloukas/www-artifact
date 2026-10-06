@@ -1,0 +1,160 @@
+{
+ "all_native_profile_hashes_match": true,
+ "cohorts": [
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 0,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 1,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 2,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 3,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 4,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 5,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 6,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 7,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 8,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 9,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 10,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  },
+  {
+   "both_policy_locks_precede_heldout_completions": true,
+   "index": 11,
+   "new_layer_validation": 80,
+   "primary_development": 80,
+   "primary_validation": 80,
+   "test": 128,
+   "test_disjoint_from_prior_sensitivity_cohort": true,
+   "validation_subsets_disjoint": true
+  }
+ ],
+ "native_evaluation": 60,
+ "native_tuning": 144,
+ "protocol_locks": [
+  {
+   "committed_protocol_matches": true,
+   "created_utc": "2026-10-05T22:35:46Z",
+   "lock": "LOCK.json",
+   "protocol_sha256": "03e87014f3ad1d528682376c783373c8f45ac5cd02ce50f1f3495ebec7a8f0d2"
+  },
+  {
+   "committed_protocol_matches": true,
+   "created_utc": "2026-10-05T22:50:05.600099+00:00",
+   "lock": "COMPUTATION_LOCK.json",
+   "protocol_sha256": "f1c71aa8eed813e367a62ba505bef7bf6386ea1bc87d63a7ca86a853fbf8b3e3"
+  },
+  {
+   "committed_protocol_matches": true,
+   "created_utc": "2026-10-05T22:50:40.664964+00:00",
+   "lock": "NATIVE_COLLECTIVE_LOCK.json",
+   "protocol_sha256": "55ea60bd7c8967ba1a5435386298cbff8b73ebb0105886f456f8b16d87edf1d8"
+  },
+  {
+   "committed_protocol_matches": true,
+   "created_utc": "2026-10-05T23:29:42.680220+00:00",
+   "lock": "LAYERWISE_LOCK.json",
+   "protocol_sha256": "65cf9ebcc1802c77dd7a4223d17657f667a18dc3c41c4cce446dcaa8802e62c0"
+  },
+  {
+   "committed_protocol_matches": true,
+   "created_utc": "2026-10-05T23:35:58.712321+00:00",
+   "lock": "LARGE_CONTROL_LOCK.json",
+   "protocol_sha256": "9fc09bec744a6de72ec99e674a01c6fafc6671077c4ce982452eaae072d28651"
+  }
+ ],
+ "tuning_never_scores_test": true
+}

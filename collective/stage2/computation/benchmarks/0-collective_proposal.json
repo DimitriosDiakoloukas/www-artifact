@@ -1,0 +1,129 @@
+{
+ "all_logits_match": true,
+ "checkpoint_sha256": "62a533fab48ee2b10fefa1df716f9a3257902ea91ab995e7fffd3c996cada6dc",
+ "created_utc": "2026-10-06T00:04:34Z",
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "index": 0,
+ "online_includes_structural_features_and_grouping": true,
+ "policies": [
+  {
+   "batches": [
+    {
+     "batchsize": 1,
+     "break_even_queries": 41017,
+     "encoder_evaluations": 128,
+     "incremental_peak_allocated_bytes": 19538432,
+     "individual_repeats_seconds": [
+      4.41087993606925,
+      4.416762808337808,
+      4.418954733759165,
+      4.417373022064567,
+      4.419880568981171
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 11404.953125,
+     "mean_retained_nodes_per_encoder_evaluation": 2719.625,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 4.417373022064567,
+     "offline_seconds_charged": 88.65668897517025,
+     "peak_allocated_bytes": 58267648,
+     "queries": 128,
+     "resident_allocated_bytes": 38729216,
+     "seconds_per_query": 0.03451072673487943,
+     "speedup_vs_full": 1.0626320288896636
+    },
+    {
+     "batchsize": 8,
+     "break_even_queries": null,
+     "encoder_evaluations": 128,
+     "incremental_peak_allocated_bytes": 19486208,
+     "individual_repeats_seconds": [
+      4.412406513467431,
+      4.402023581787944,
+      4.405432440340519,
+      4.40891869738698,
+      4.413673961535096
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 11404.953125,
+     "mean_retained_nodes_per_encoder_evaluation": 2719.625,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 4.40891869738698,
+     "offline_seconds_charged": 88.65668897517025,
+     "peak_allocated_bytes": 58215424,
+     "queries": 128,
+     "resident_allocated_bytes": 38729216,
+     "seconds_per_query": 0.03444467732333578,
+     "speedup_vs_full": 0.13355673801722795
+    },
+    {
+     "batchsize": 64,
+     "break_even_queries": null,
+     "encoder_evaluations": 128,
+     "incremental_peak_allocated_bytes": 19479552,
+     "individual_repeats_seconds": [
+      4.390140837058425,
+      4.389328196644783,
+      4.392562875524163,
+      4.389280263334513,
+      4.390895215794444
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 11404.953125,
+     "mean_retained_nodes_per_encoder_evaluation": 2719.625,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 4.390140837058425,
+     "offline_seconds_charged": 88.65668897517025,
+     "peak_allocated_bytes": 58208768,
+     "queries": 128,
+     "resident_allocated_bytes": 38729216,
+     "seconds_per_query": 0.034297975289518945,
+     "speedup_vs_full": 0.01679065280315082
+    }
+   ],
+   "choices": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    128,
+    0
+   ],
+   "metrics": {
+    "AUC_loss": -0.002016129032258007,
+    "Brier": 0.018020542884295797,
+    "Brier_increase": 4.731010059131138e-05,
+    "ECE": 0.017393779294603513,
+    "class_disagreement": 0.0,
+    "maximum_probability_error": 0.018873617213476246,
+    "negative_queries": 4,
+    "positive_queries": 124,
+    "probability_RMSE": 0.0026419959045567458,
+    "queries": 128,
+    "test_AUC": 0.9778225806451613
+   },
+   "policy": "collective_proposal",
+   "validation_pass": true
+  }
+ ],
+ "policies_sha256": "5f655ad88cfbdbb9445fec84c702314b356b15d1924bcc6f2edb9cd8c5565e15",
+ "process_peak_cpu_rss_bytes": 1285242880,
+ "protocol_sha256": "f1c71aa8eed813e367a62ba505bef7bf6386ea1bc87d63a7ca86a853fbf8b3e3",
+ "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52000.json",
+ "result_sha256": "266f6997e8b66b04c4e78019b9981bd81515f85ac03cf243f80acb6129f1cff9",
+ "source_sha256": "c863ce087186ba1faf575200c931266b5e096984ccbbf163ea296b122e6a7b4f",
+ "test_complete_sha256": "2430e9aebf819e47c3982c0b4168b64fa391f0b606529dfa92f8612a7918f69e"
+}

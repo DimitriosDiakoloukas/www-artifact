@@ -1,0 +1,16 @@
+{"created_utc": "2026-10-05T23:01:21Z", "kind": "eval", "index": 42, "job": "SGCN-wiki_elec-T32-s52002", "attempt": 1, "returncode": 3, "elapsed_seconds": 116.3152254410088}
+{"created_utc": "2026-10-05T23:02:20Z", "kind": "eval", "index": 42, "job": "SGCN-wiki_elec-T32-s52002", "attempt": 2, "returncode": 0, "elapsed_seconds": 58.45263624191284}
+{"created_utc": "2026-10-05T23:03:41Z", "kind": "eval", "index": 56, "job": "SIDNET-wiki_elec-T32-s52001", "attempt": 1, "returncode": 0, "elapsed_seconds": 81.2949625197798}
+{"created_utc": "2026-10-05T23:04:04Z", "kind": "eval", "index": 2, "job": "SGCN-bitcoin_alpha-T2-s52002", "attempt": 1, "returncode": 0, "elapsed_seconds": 22.892163982614875}
+{"created_utc": "2026-10-05T23:04:46Z", "kind": "eval", "index": 6, "job": "SGCN-bitcoin_alpha-T8-s52001", "attempt": 1, "returncode": 0, "elapsed_seconds": 42.34267763607204}
+{"created_utc": "2026-10-05T23:06:42Z", "kind": "eval", "index": 10, "job": "SGCN-bitcoin_alpha-T32-s52000", "attempt": 1, "returncode": 3, "elapsed_seconds": 115.95259474404156}
+{"created_utc": "2026-10-05T23:06:59Z", "kind": "eval", "index": 10, "job": "SGCN-bitcoin_alpha-T32-s52000", "attempt": 2, "returncode": 0, "elapsed_seconds": 17.224694665521383}
+{"created_utc": "2026-10-05T23:08:25Z", "kind": "eval", "index": 14, "job": "SGCN-bitcoin_alpha-T32-s52004", "attempt": 1, "returncode": 0, "elapsed_seconds": 86.24947241693735}
+{"created_utc": "2026-10-05T23:08:36Z", "kind": "eval", "index": 18, "job": "SIDNET-bitcoin_alpha-T2-s52003", "attempt": 1, "returncode": 0, "elapsed_seconds": 10.103121427819133}
+{"created_utc": "2026-10-05T23:08:50Z", "kind": "eval", "index": 22, "job": "SIDNET-bitcoin_alpha-T8-s52002", "attempt": 1, "returncode": 0, "elapsed_seconds": 14.316716324537992}
+{"created_utc": "2026-10-05T23:09:24Z", "kind": "eval", "index": 26, "job": "SIDNET-bitcoin_alpha-T32-s52001", "attempt": 1, "returncode": 0, "elapsed_seconds": 33.864648554474115}
+{"created_utc": "2026-10-05T23:10:10Z", "kind": "eval", "index": 30, "job": "SGCN-wiki_elec-T2-s52000", "attempt": 1, "returncode": 0, "elapsed_seconds": 46.312634536996484}
+{"created_utc": "2026-10-05T23:11:00Z", "kind": "eval", "index": 34, "job": "SGCN-wiki_elec-T2-s52004", "attempt": 1, "returncode": 0, "elapsed_seconds": 49.640768555924296}
+{"created_utc": "2026-10-05T23:12:12Z", "kind": "eval", "index": 38, "job": "SGCN-wiki_elec-T8-s52003", "attempt": 1, "returncode": 0, "elapsed_seconds": 72.49841363355517}
+{"created_utc": "2026-10-05T23:12:25Z", "kind": "eval", "index": 47, "job": "SIDNET-wiki_elec-T2-s52002", "attempt": 1, "returncode": 0, "elapsed_seconds": 12.54009810835123}
+{"created_utc": "2026-10-05T23:12:52Z", "kind": "eval", "index": 51, "job": "SIDNET-wiki_elec-T8-s52001", "attempt": 1, "returncode": 0, "elapsed_seconds": 27.48831706866622}

@@ -1,0 +1,129 @@
+{
+ "all_logits_match": true,
+ "checkpoint_sha256": "d5c9e6a689a8a2b03c0ce6ab05ea5b79f297c6ff2a8bab09fcc84477f1450cd1",
+ "created_utc": "2026-10-06T00:11:23Z",
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "index": 7,
+ "online_includes_structural_features_and_grouping": true,
+ "policies": [
+  {
+   "batches": [
+    {
+     "batchsize": 1,
+     "break_even_queries": null,
+     "encoder_evaluations": 128,
+     "incremental_peak_allocated_bytes": 56138240,
+     "individual_repeats_seconds": [
+      8.459282990545034,
+      8.459886463358998,
+      8.459750302135944,
+      8.45950154028833,
+      8.460512556135654
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 61876.0,
+     "mean_retained_nodes_per_encoder_evaluation": 7115.0,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 8.459750302135944,
+     "offline_seconds_charged": 155.81085758842528,
+     "peak_allocated_bytes": 101958656,
+     "queries": 128,
+     "resident_allocated_bytes": 45820416,
+     "seconds_per_query": 0.06609179923543707,
+     "speedup_vs_full": 0.9980231238412041
+    },
+    {
+     "batchsize": 8,
+     "break_even_queries": null,
+     "encoder_evaluations": 16,
+     "incremental_peak_allocated_bytes": 56080896,
+     "individual_repeats_seconds": [
+      1.0594272017478943,
+      1.0594871398061514,
+      1.0603175926953554,
+      1.0623122733086348,
+      1.060695929452777
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 61876.0,
+     "mean_retained_nodes_per_encoder_evaluation": 7115.0,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 1.0603175926953554,
+     "offline_seconds_charged": 155.81085758842528,
+     "peak_allocated_bytes": 101901312,
+     "queries": 128,
+     "resident_allocated_bytes": 45820416,
+     "seconds_per_query": 0.008283731192932464,
+     "speedup_vs_full": 0.9972781976235049
+    },
+    {
+     "batchsize": 64,
+     "break_even_queries": null,
+     "encoder_evaluations": 2,
+     "incremental_peak_allocated_bytes": 56074240,
+     "individual_repeats_seconds": [
+      0.13273900374770164,
+      0.13269882835447788,
+      0.1324708964675665,
+      0.13245914690196514,
+      0.13250132836401463
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 61876.0,
+     "mean_retained_nodes_per_encoder_evaluation": 7115.0,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 0.13250132836401463,
+     "offline_seconds_charged": 155.81085758842528,
+     "peak_allocated_bytes": 101894656,
+     "queries": 128,
+     "resident_allocated_bytes": 45820416,
+     "seconds_per_query": 0.0010351666278438643,
+     "speedup_vs_full": 0.9977445491149931
+    }
+   ],
+   "choices": [
+    128,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "metrics": {
+    "AUC_loss": 0.0,
+    "Brier": 0.08253674131468725,
+    "Brier_increase": 0.0,
+    "ECE": 0.09596876213748966,
+    "class_disagreement": 0.0,
+    "maximum_probability_error": 0.0,
+    "negative_queries": 15,
+    "positive_queries": 113,
+    "probability_RMSE": 0.0,
+    "queries": 128,
+    "test_AUC": 0.8525073746312685
+   },
+   "policy": "calibrated_global",
+   "validation_pass": true
+  }
+ ],
+ "policies_sha256": "5f655ad88cfbdbb9445fec84c702314b356b15d1924bcc6f2edb9cd8c5565e15",
+ "process_peak_cpu_rss_bytes": 1316753408,
+ "protocol_sha256": "f1c71aa8eed813e367a62ba505bef7bf6386ea1bc87d63a7ca86a853fbf8b3e3",
+ "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52002.json",
+ "result_sha256": "7420d3575428f749e83c3a0989b4fcf736654c0dcf8bcd2b966765197ce2b26f",
+ "source_sha256": "c863ce087186ba1faf575200c931266b5e096984ccbbf163ea296b122e6a7b4f",
+ "test_complete_sha256": "d34839d60d9b380feb22324d2027c4d02f0b7cd1c8162eded454d092f9f1d1d6"
+}

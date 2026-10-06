@@ -1,0 +1,3 @@
+{"created_utc": "2026-10-05T23:13:44Z", "module": "collective/stage2/computation.py", "args": ["--kind", "development", "--index", "3", "--device", "cuda:3"], "attempt": 1, "returncode": 0, "elapsed_seconds": 88.66769693419337}
+{"created_utc": "2026-10-05T23:15:38Z", "module": "collective/stage2/computation.py", "args": ["--kind", "development", "--index", "7", "--device", "cuda:3"], "attempt": 1, "returncode": 3, "elapsed_seconds": 113.55901824496686}
+{"created_utc": "2026-10-05T23:16:20Z", "module": "collective/stage2/computation.py", "args": ["--kind", "development", "--index", "7", "--device", "cuda:3"], "attempt": 2, "returncode": 0, "elapsed_seconds": 42.251839343458414}

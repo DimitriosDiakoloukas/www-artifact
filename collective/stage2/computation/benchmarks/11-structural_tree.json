@@ -1,0 +1,129 @@
+{
+ "all_logits_match": true,
+ "checkpoint_sha256": "4cf013265473fef4afed2c6f0bd999bc2d395f868304eaff6f17cb6dd83194a2",
+ "created_utc": "2026-10-06T00:38:30Z",
+ "environment": {
+  "cuda": "12.8",
+  "cudnn": 91002,
+  "gpu": "Tesla V100-SXM2-32GB",
+  "host": "anonymous",
+  "packages": {
+   "numpy": "2.4.4",
+   "scikit-learn": "1.9.0",
+   "scipy": "1.17.1",
+   "torch": "2.8.0+cu128",
+   "torch-geometric": "2.8.0",
+   "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3"
+ },
+ "index": 11,
+ "online_includes_structural_features_and_grouping": true,
+ "policies": [
+  {
+   "batches": [
+    {
+     "batchsize": 1,
+     "break_even_queries": 2866986,
+     "encoder_evaluations": 128,
+     "incremental_peak_allocated_bytes": 90557440,
+     "individual_repeats_seconds": [
+      16.2320115249604,
+      16.232957292348146,
+      16.23505608178675,
+      16.232557533308864,
+      16.23115139082074
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 119986.0,
+     "mean_retained_nodes_per_encoder_evaluation": 7115.0,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 16.232557533308864,
+     "offline_seconds_charged": 276.5676538273692,
+     "peak_allocated_bytes": 137724416,
+     "queries": 128,
+     "resident_allocated_bytes": 47166976,
+     "seconds_per_query": 0.1268168557289755,
+     "speedup_vs_full": 1.000760674617111
+    },
+    {
+     "batchsize": 8,
+     "break_even_queries": 87638668,
+     "encoder_evaluations": 16,
+     "incremental_peak_allocated_bytes": 90500096,
+     "individual_repeats_seconds": [
+      2.031921563670039,
+      2.0328590869903564,
+      2.0324076618999243,
+      2.032608240842819,
+      2.031793061643839
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 119986.0,
+     "mean_retained_nodes_per_encoder_evaluation": 7115.0,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 2.0324076618999243,
+     "offline_seconds_charged": 276.5676538273692,
+     "peak_allocated_bytes": 137667072,
+     "queries": 128,
+     "resident_allocated_bytes": 47166976,
+     "seconds_per_query": 0.01587818485859316,
+     "speedup_vs_full": 1.0001987489136999
+    },
+    {
+     "batchsize": 64,
+     "break_even_queries": null,
+     "encoder_evaluations": 2,
+     "incremental_peak_allocated_bytes": 90493440,
+     "individual_repeats_seconds": [
+      0.2546430081129074,
+      0.2546517066657543,
+      0.25455852039158344,
+      0.25454287603497505,
+      0.2544948887079954
+     ],
+     "mean_retained_directed_entries_per_encoder_evaluation": 119986.0,
+     "mean_retained_nodes_per_encoder_evaluation": 7115.0,
+     "mean_retained_steps": 32.0,
+     "median_total_seconds": 0.25455852039158344,
+     "offline_seconds_charged": 276.5676538273692,
+     "peak_allocated_bytes": 137660416,
+     "queries": 128,
+     "resident_allocated_bytes": 47166976,
+     "seconds_per_query": 0.0019887384405592456,
+     "speedup_vs_full": 0.998446911066848
+    }
+   ],
+   "choices": [
+    128,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "metrics": {
+    "AUC_loss": 0.0,
+    "Brier": 0.15164621896332098,
+    "Brier_increase": 0.0,
+    "ECE": 0.10527128241217584,
+    "class_disagreement": 0.0,
+    "maximum_probability_error": 0.0,
+    "negative_queries": 35,
+    "positive_queries": 93,
+    "probability_RMSE": 0.0,
+    "queries": 128,
+    "test_AUC": 0.8227342549923194
+   },
+   "policy": "structural_tree",
+   "validation_pass": true
+  }
+ ],
+ "policies_sha256": "5f655ad88cfbdbb9445fec84c702314b356b15d1924bcc6f2edb9cd8c5565e15",
+ "process_peak_cpu_rss_bytes": 1312665600,
+ "protocol_sha256": "f1c71aa8eed813e367a62ba505bef7bf6386ea1bc87d63a7ca86a853fbf8b3e3",
+ "record": "confirmatory/native/runs/SIDNET-wiki_elec-T32-s10000-random.json",
+ "result_sha256": "d4ad5bd3bf33d743f6c90828b8d11f69c6e650a99d87a7b40fc787cfc32d6efc",
+ "source_sha256": "c863ce087186ba1faf575200c931266b5e096984ccbbf163ea296b122e6a7b4f",
+ "test_complete_sha256": "9294bfb559dd501f1f34acda97d2d9e66730533cb45a467e7e8a6b187f1eb183"
+}

@@ -1,0 +1,373 @@
+{
+ "checks": [
+  {
+   "checkpoint_sha256": "e2b15dffc096a4975d36ef56b144263d4a5eecb7b740638f817357320c0ab659",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "1f7aad19586364b91fbb2f9ec18f301e9f2bb2604e4f6e2bba8be518874681de",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T2-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "1237683c41eca64188105b2fce54414a12301f4022fa1c15a6df6c5eb2e9409e",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "bb7c166952f29bf815a2d2b40d0a4e9930c9effa5c6df12f24eddc0b5decb2ed",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T2-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "a0e4ecb7bc28495db9639ae221bbbca932b668e0a5e3a68c85de9f36fd3b8e0a",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "5c12e4e15d985a86de032f1834b4a64409c4b79db6196fd541e589d9ae070f2a",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T2-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "5cd0ca2eb0a54b1ee18e5debd9ad8148943f2b3c634297d8af3d4609ee4d29a3",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "cd0e0924515a8d0c56c07f6791fe6d65ad89b97b211aeaa0181fcac8ac08fb8a",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T2-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "7e6d3254649ef6132a6b71ab792b5f7f971bd0c2c6d6fe9311039e1d0ef392bb",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "cdf3a80a349e3f1ea0b1c145624f7fa2a6c66676816263decbfb22bb87a3c81f",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T2-s52004.json"
+  },
+  {
+   "checkpoint_sha256": "dff593ff5d5a403b7a94bfaeacdf3353bf42452433ef32978b8be6fe074d9b3a",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "c63a95355d535f2bfccee462040af69d930e450b78450255feb192f9e3c7c022",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T8-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "487f09212085e86c2986e2da44150202f2f48b51e8a267deee202b1ab6358020",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "d756756c9a4f19f54fb63dfca4d2ced0dd7b0be3098f7d6f9ff4626029e4c703",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T8-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "e1cf7b77ede775591bcbaa1871bf63d416a4ac4f4f70881e06e8d7cc361825ae",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "9dc534dca0b1c89b58d9ab00a0bc3d8b573cb4d37c204e094712f63d45b0e8d4",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T8-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "d32300cc8f8cd950bd0ccd7d0e320be82ce954022ac41078b681494cd7d897ef",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "50cba10c513273ee5004a3d3a64c52fd1b26b1e6cb9ae2df2e526b58b00060cd",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T8-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "bfc61b695cf47011755214989c645c932abf98ed9b4dc6333f69237dc7b67e1b",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "72dbae1fa2bf4dbe3cd77ee03e735b6c20e368cf0fa69a3f2fef5867d5f07a49",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T8-s52004.json"
+  },
+  {
+   "all_100_query_gradients_bitwise": true,
+   "checkpoint_sha256": "216e05fcd4a37eb710d0f50bd0c8639b7b814e68467bf0fd5bcb475e9aa4c6cd",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "8adee6b647e2e80962c38aff6a6c1a1ed9b4209b666d7c9ac2341a9e5644cb1e",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T32-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "4a25fe4bca2fe4fb1f7bff8055aac08f3dc3636be1d62d301b7ec15e398e666e",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "ff60318b828a0c2e16aabfdbebb0ffacf0e8508544e55d5920f72e496a0e933e",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T32-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "2e74b00f1bd2c58f61c9928496df0bfa78c8a9ae0ca084d388a7e73bc117e2b2",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "05989dcf30866c52f31705e89dd45a21fdc6e0caec5252a8fc7f23873efdf72e",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T32-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "11e329750828c1fa727308e6452e2342cc156f76a1c818d9c50b6f8c31572c61",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "205e6e0bde95a7e9f7d50e821667118b0806d3e5bcce53198d316d01bb2c11da",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T32-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "fc5e4490c3a9b8de2e76ca56b802143f18f2331596c19ab88772c644fc62b8ea",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "f8556f91307abcceb7bbfe088ea0ae66e48000afc6e76fc929603c183e56d137",
+   "record": "collective/stage2/native_random/eval/SGCN-bitcoin_alpha-T32-s52004.json"
+  },
+  {
+   "checkpoint_sha256": "e5187552983c0a6798f1a2c705b1a59343cbb6297373b92967c1219826fe9736",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "970f6a4719ac952af89fe59a412fe536fb253edf7a66ec2f5ad17f29bc1e1e81",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T2-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "704a5352095239978413b57c4a5206f0df3dde895306bff0510d8dc904de6944",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "3fdc7113a5afd92c0e13c5ac8da117ba345ca0d03834b88dae9c045082116674",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T2-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "2c7b74c99cf669046f894789ff69d0e51b6c725793087a7b599173e6a88d8425",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "ad7f1de47bf61e77a81322eefab2f0cd319f5d33829278d9cdf8967904997c30",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T2-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "f6f86ca78a6dd3b69845e85f2d1503734947483e8f878773d19d6763707ad045",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "684e07ec90d4b967796e2a58bd99fd6d9b6da4b2cfa5e7281fd8a470414cf29e",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T2-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "04efbd8b7dda753fd08ca313f6d175db1286e5e57a0460b4d40fbf8d06b3923b",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "82962bf43beb4a6ec786b605631ab60e894ac6a4b894880a1cf84c56afd07cd0",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T2-s52004.json"
+  },
+  {
+   "checkpoint_sha256": "f9c7781d3d4fc50cccfdce2a262a9d73cbb0f3c0fe8be29d69b2aa52b68af933",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "76c47dab82324492d3fe3b75286a5a8be3d47325bfebca1c2d651befa7020163",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T8-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "91e19a2c05018e02eb871385feeb34b5b41a0894b66ba5d0667d731e09d7b8b1",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "0fc0e51f0db8406486d21a400537ea6e6496c305bc3f3ed6ab934c9593da51b9",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T8-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "6e4371840db741a2d96e369f399055d2bf880202f05ee319e7d0d416524a237b",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "daaae0b47fc2974430ae35c79f074c06c618481396e30d5e3a1653c8f00298fd",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T8-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "f5365f554f713286138e91cd90f659d29aba642219de3858ea5102f0cb065a55",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "fe03ca4523e1699b62ce562a277ea7536fc44180cc129d577048e2c62a2b7aba",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T8-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "91dd9b022d50184e6e0ce9a0d0dafe81038c34a712f3de68e86580ba24397c75",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "23ca07c84a29f3164002db0831b0c5fdc3a0c6c38633b383e6c533bb23eea5b2",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T8-s52004.json"
+  },
+  {
+   "all_100_query_gradients_bitwise": true,
+   "checkpoint_sha256": "62a533fab48ee2b10fefa1df716f9a3257902ea91ab995e7fffd3c996cada6dc",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "c2034e41cc7a8db305c961085127345adb56fede663e10e4efe5bdf92e3806f4",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "ba55b13e0193164464e6ea458494efe7bcd1500c65d5d3a71ead6f28697611b0",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "498a4a0c1cfaebe4b7aa3b33400ce75e481016244d56a8dc652b8b6815ba67df",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "385fef60c80b5b7279f94e8f44616b73b075665a88d967bd2f2c0fa85542523c",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "0fff89418033999e199484a4342c6740d729623281af55d9b03145a248b330ce",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "86c3172e7f4160aff1e9c57d708c9fd5b8393f2531891e0482c1c1324ac89085",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "fe6870493bd10d300c0cecbb8cf0a1d653f8c8594718cc9733f6dced63e33417",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "540475753deba21e76c9a2badd48d7ff612ed6dec7be92ae4f8c1d12dc45a517",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "42a295fed77894827ac5267b4ec7d63d7b7f2f0462a8a8b70fa6538a3c096471",
+   "record": "collective/stage2/native_random/eval/SIDNET-bitcoin_alpha-T32-s52004.json"
+  },
+  {
+   "checkpoint_sha256": "25ba3493164605fd2f7076575fd75f0c555057d6fcf4da3d13f94cef13392bce",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "72cffcb0980cf1343cee49548eee88d89af0431fdefc70804a7123f913c1f33b",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T2-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "2f3316ffe9ce74a9fca1672851537ed32205d867ca753e19f07c5def0e9065e0",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "7472c82455d9a77e2e61671e3c457380cbe921fd1a6e3be54b4d883ddc3b74de",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T2-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "7f32006df74726df493d57374bf82a7ef0a379bd14c8839ebb38957a75fece45",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "65246b62353bec08d87578ba1354893c973a1cdfc09f25512f3ebfadd6e8e12a",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T2-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "3c97511b33c2bc19a9d7ae7b7482f0d6b6ccd493368be821675531d076eb17da",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "6d4b74e8d6ae5dc6879d81278471b272c122e94cfb0bf9cccedc05632b2c250c",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T2-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "87188c78a50e1ae5ea037de90694730be9bd532a024d24880aeaad0205792df6",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "878034c8428b5da31197666dc729d68e6924caa269681a8c1c1f61445ff9a77d",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T2-s52004.json"
+  },
+  {
+   "checkpoint_sha256": "c250224abf9709596c59afd66f6aaf13f39d39c6eb98363e599c44e41b7ab591",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "453e5caa8ec54adcad6a2f705b8b1960e72bc510e46510d4f23e140bb3d3db54",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T8-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "0fa6b94ec5d52efe8306ba34b2560e6e52f91c8621b818eded96345ac6753c02",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "d0a19c68d4f5840148ce70e1223ba3eec011e046a55f2ffc5dcfc2276bde3a91",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T8-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "6a2df913a4af866ca7237c889f2b997fae6c7a58e5ee52e4b2082a3272ee8615",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "db0146e82b339d5bdbea068168d11fed9cac2c5da980e38fc7641f24ec079074",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T8-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "b1617b39bcaea3ebb49a1cb8cbf3866e73cd5ebc15f7112ff41ad0a6a6003869",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "46fa5405691f8c38abc81827f7e0caf7508268557606e3e7f64c8b74d86b2dc8",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T8-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "204db0664a4b806d62b0397b41e3db5b74a8010ef421e93127d3a3ea4d8a0a30",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "b9802bdd419a9a365799694432af4a2096de616e31e953f6f4d1f827e6cb7731",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T8-s52004.json"
+  },
+  {
+   "all_100_query_gradients_bitwise": true,
+   "checkpoint_sha256": "881fb76360bc9283cc57177811d3015e4adecf2c3520d53574bb486c7d39494f",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "388ed1f85fa75eeb4f1494985952497af8ed048c7c151e41f3d70a6172bee354",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T32-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "3c17cb79136f92cd3c78d084af72bf06348a61df317272bce62086e695bb36c1",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "6b82c8c3fb8ff2c35131697994d593c636d4ff39a539dc1ac6ea51c603b039d2",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T32-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "a825543d577cecaf6d3085d17b0a1e57e1e1edc61bb3a5778ed5056ccf2630ca",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "6db15a4e71cd4d4b21c6591bf653aac82029351315200b9bbbf02bcce9ddf8f4",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T32-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "4e1cad6704d70ad566a2e1f5f0e213cf53631b698758848b9d36114c6fc77cea",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "ceee99bce9e65d1428944d68f4ff2d49f085b5a7fd8da2556cbb206ce7b92b2d",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T32-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "82e57fedcc889b70b6c6cd6bae90d341d7c88e842d3824ac001a33a34430532e",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "e5261e59d644acfbdfa03c98fe2f47030ef40404f83ad5846af9cde845f7140a",
+   "record": "collective/stage2/native_random/eval/SGCN-wiki_elec-T32-s52004.json"
+  },
+  {
+   "checkpoint_sha256": "ef603a961d8ffeeb3d76df7fc4aa4c1e2164aae3a9ff0c34ffac42a8c156d2c1",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "e8705004c63113005867665b44df5bd7d625d57fed101d79dab689e7cec807ee",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T2-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "212cb2303257ea4af7573024f9403a6de498cfe7c472fe995e4aac4db371819f",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "7666c0f3fd7965d992106f9e207745a5e28879ee150673366a61f1fff487a8f2",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T2-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "fd89edfed562159e9d652db04acfd4602e4f48a28cfbd2329f806524c0e551b2",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "1b4cb634f9a18e490564d6f93bf756b6fa90f191d12d04d9ac8e2cfa4264da45",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T2-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "d136fd179e41b254f334f201ddb4a12efdb1f95249a65b02e05940bd8ad61426",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "a9fb54509f41f5b228d1f42cef175b4cd3dd093076b9a674c5f82b6ce68f1c63",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T2-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "9df79c841871b2a10511c568858790dc1071fec5866f58e488007d9c239c538f",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "7ba0b924093138f815e22c71756c977132d89606c2c7d7d82aa6614403e6e332",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T2-s52004.json"
+  },
+  {
+   "checkpoint_sha256": "e90b7c18a539b77193563e4f313ab919512eb28c95340c8ecfd1d834e06b69d2",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "a37cc6c164dff61ce75a5850bf54d6f09c109112d4dea73220f83800eab249f1",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T8-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "dfba7f32025867a2f271683ca53fa4c933cd542cb02d22fd747e69de37cd0ab7",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "194114e2907fe6799c7a80e5514cb5bbc9b668c091f045dab0a2bec3e4ec54db",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T8-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "8421439c82998d0dc4ccc6e568228e5172715ca030ec150d3ede2b3090029919",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "874d440ce672e1659662fafeba445b774fdd54dcaf28817273f26ddcf5da78bd",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T8-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "4a07e96f5641a64d6754e88456d72662ed09237c3497b825f74306a96bc3a961",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "9340ffd75e640e3eec6e548c805ecd1ed62763612eec7e3825622400b9e50c34",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T8-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "a82d89457df4bebd101620530c13d038abd11e7c878f5cb5a56395b1eed4015b",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "49f1dfa9f7e79bd3ce896d666370753621f5086221268312339b9bda260cdd28",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T8-s52004.json"
+  },
+  {
+   "all_100_query_gradients_bitwise": true,
+   "checkpoint_sha256": "66f16be22fc46fb070817146e6dacd60ac303b30418da3f443067cdd10d1a0de",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "7e5193b433167b982fd8913d556d85380d51fc9c806e251d7b1331750acf3638",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52000.json"
+  },
+  {
+   "checkpoint_sha256": "289880d3bb21ede74e10b4e15c1267211938df2cb40a8a26efeaaec59a2b1c17",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "7b0bc004f375df13fb9234c4756c22e7b23304c40aa15f4fed231cc40e5ba1af",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52001.json"
+  },
+  {
+   "checkpoint_sha256": "d5c9e6a689a8a2b03c0ce6ab05ea5b79f297c6ff2a8bab09fcc84477f1450cd1",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "31b6875880887a04f7fb7577c837aee0c55801e7d3588bb9f1791075254b5905",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52002.json"
+  },
+  {
+   "checkpoint_sha256": "eb5fb34ef6ad48bd63a936fa940ae24eba68c511d0df736559c2edc69a086261",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "d37437a65cef07b26b8e6da3bfa25d619b9b44f42198d00f8a1cf3f3f5d6fcb8",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52003.json"
+  },
+  {
+   "checkpoint_sha256": "c6dd73ccffc836ccba60b13d8dcf3fb20ed345e73bc1d1539c88459ad5a76f5d",
+   "full_test_logits_bitwise": true,
+   "profile_sha256": "9bf41ccf6dd0bb3bc9c790d06c0fd45fbf7aec858aa23a32f3b4e7c4fa20950d",
+   "record": "collective/stage2/native_random/eval/SIDNET-wiki_elec-T32-s52004.json"
+  }
+ ],
+ "created_utc": "2026-10-05T23:19:04Z",
+ "native_parent_sha256": "3e58d3483e1b310446d0752496fc66d1bdbb6a7cc82631a93b8b384d7d2b29ff",
+ "native_random_sha256": "4874e6780d7063d4af345eea22f611884ad63a38dc93f571422fa75796f3064d",
+ "result_sha256": "2e898b3440a1e9ec2be02f0a059ef81b812fe84afbf0a3322c668c194b5bca3c",
+ "source_sha256": "26af3187bbbe9038f1cb6b690df3963e3e5967dcb439a5e0db7b8e7a5df7ee78"
+}
