@@ -1,0 +1,128 @@
+{
+ "cohort": "four standardised checkpoints, all 20 queries, radius one, nominal five percent, all 16 draws",
+ "generator_source_sha256": "7e67c2dc404c223f4a0a23ca5aaaade6781c06cb84323a170afe60fad883672d",
+ "rows": [
+  {
+   "arch": "SGCN",
+   "checkpoint": 0,
+   "distance_counts": {
+    "2.0": 54431,
+    "3.0": 10940,
+    "4.0": 89
+   },
+   "edited_relation_instances": 65460,
+   "fraction_at_distance_two": 0.8315154292697831,
+   "mechanism": "cycles",
+   "median_minimum_endpoint_degree": 16.0,
+   "network": "bitcoin_alpha"
+  },
+  {
+   "arch": "SGCN",
+   "checkpoint": 0,
+   "distance_counts": {
+    "2.0": 46379,
+    "3.0": 17914,
+    "4.0": 970,
+    "5.0": 76,
+    "6.0": 10,
+    "7.0": 4,
+    "inf": 107
+   },
+   "edited_relation_instances": 65460,
+   "fraction_at_distance_two": 0.708509013137794,
+   "mechanism": "cycle_matched_exchange",
+   "median_minimum_endpoint_degree": 6.0,
+   "network": "bitcoin_alpha"
+  },
+  {
+   "arch": "SIDNET",
+   "checkpoint": 1,
+   "distance_counts": {
+    "2.0": 54364,
+    "3.0": 10917,
+    "4.0": 99
+   },
+   "edited_relation_instances": 65380,
+   "fraction_at_distance_two": 0.8315081064545733,
+   "mechanism": "cycles",
+   "median_minimum_endpoint_degree": 16.0,
+   "network": "bitcoin_alpha"
+  },
+  {
+   "arch": "SIDNET",
+   "checkpoint": 1,
+   "distance_counts": {
+    "2.0": 46491,
+    "3.0": 17763,
+    "4.0": 929,
+    "5.0": 73,
+    "6.0": 11,
+    "7.0": 7,
+    "inf": 106
+   },
+   "edited_relation_instances": 65380,
+   "fraction_at_distance_two": 0.7110890180483328,
+   "mechanism": "cycle_matched_exchange",
+   "median_minimum_endpoint_degree": 6.0,
+   "network": "bitcoin_alpha"
+  },
+  {
+   "arch": "SGCN",
+   "checkpoint": 2,
+   "distance_counts": {
+    "2.0": 753914,
+    "3.0": 27462
+   },
+   "edited_relation_instances": 781376,
+   "fraction_at_distance_two": 0.9648543082971578,
+   "mechanism": "cycles",
+   "median_minimum_endpoint_degree": 48.0,
+   "network": "wiki_elec"
+  },
+  {
+   "arch": "SGCN",
+   "checkpoint": 2,
+   "distance_counts": {
+    "2.0": 726560,
+    "3.0": 54121,
+    "4.0": 163,
+    "inf": 532
+   },
+   "edited_relation_instances": 781376,
+   "fraction_at_distance_two": 0.9298468343025637,
+   "mechanism": "cycle_matched_exchange",
+   "median_minimum_endpoint_degree": 28.0,
+   "network": "wiki_elec"
+  },
+  {
+   "arch": "SIDNET",
+   "checkpoint": 3,
+   "distance_counts": {
+    "2.0": 753633,
+    "3.0": 27743
+   },
+   "edited_relation_instances": 781376,
+   "fraction_at_distance_two": 0.964494686296994,
+   "mechanism": "cycles",
+   "median_minimum_endpoint_degree": 48.0,
+   "network": "wiki_elec"
+  },
+  {
+   "arch": "SIDNET",
+   "checkpoint": 3,
+   "distance_counts": {
+    "2.0": 726262,
+    "3.0": 54386,
+    "4.0": 166,
+    "inf": 562
+   },
+   "edited_relation_instances": 781376,
+   "fraction_at_distance_two": 0.9294654558112867,
+   "mechanism": "cycle_matched_exchange",
+   "median_minimum_endpoint_degree": 28.0,
+   "network": "wiki_elec"
+  }
+ ],
+ "status": "post-hoc external-review analysis; replayed draws, no new predictions or fitted policy",
+ "unit": "each edited relation in each draw; degree uses the unsigned training graph"
+}

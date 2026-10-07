@@ -50,14 +50,14 @@ def collect(out,require_bench=True):
             if bench:
                 assert bench['test_complete_sha256']==pdone['result_sha256'] and bench['policies_sha256']==sha(BASE/'policies.json')
                 assert bench['source_sha256']==sha(BASE/'benchmark.py') and bench['protocol_sha256']==sha(BASE/'COMPUTATION_PROTOCOL.md') and bench['all_logits_match']
-            rows.append({'kind':'primary','index':index,'native':native,'network':network,'seed':seed,'policy':name,'metrics':m,'heldout_pass':policies.acceptable(m),'choices':np.bincount(chosen,minlength=8).tolist(),'batches':charged_batches('primary',index,name,bench['policies'][0]['batches'],bool(np.all(chosen==0))) if bench else []})
+            rows.append({'kind':'primary','index':index,'native':native,'network':network,'seed':seed,'policy':name,'heldout_class_counts':{'negative':int(np.sum(y<=0)),'positive':int(np.sum(y>0))},'metrics':m,'heldout_pass':policies.acceptable(m),'mean_retained_nodes':float(np.mean([r['nodes'][c] for r,c in zip(old,chosen)])),'full_nodes':int(old[0]['nodes'][0]),'choices':np.bincount(chosen,minlength=8).tolist(),'batches':charged_batches('primary',index,name,bench['policies'][0]['batches'],bool(np.all(chosen==0))) if bench else []})
         for choice in range(6):
             m=policies.metrics(lp[:,choice],lp[:,0],y);bfile=BASE/'layerwise/benchmarks'/f'{index}-{choice}.json';bench=pv.verify_record(bfile) if bfile.exists() else None
             if require_bench:assert bench is not None,('missing layer benchmark',index,choice)
             if bench:
                 assert bench['test_complete_sha256']==ldone['result_sha256'] and bench['policies_sha256']==sha(BASE/'layerwise_policies.json')
                 assert bench['source_sha256']==sha(BASE/'layerwise_benchmark.py') and bench['protocol_sha256']==sha(BASE/'LAYERWISE_PROTOCOL.md') and bench['original_test_logits_bitwise_before_after']
-            rows.append({'kind':'layerwise','index':index,'native':native,'network':network,'seed':seed,'policy':LCHOICES[choice],'selected_by_validation':choice==layer['models'][index]['choice'],'metrics':m,'heldout_pass':policies.acceptable(m),'batches':charged_batches('layerwise',index,LCHOICES[choice],bench['batches'],choice==0) if bench else []})
+            rows.append({'kind':'layerwise','index':index,'native':native,'network':network,'seed':seed,'policy':LCHOICES[choice],'selected_by_validation':choice==layer['models'][index]['choice'],'heldout_class_counts':{'negative':int(np.sum(y<=0)),'positive':int(np.sum(y>0))},'metrics':m,'heldout_pass':policies.acceptable(m),'batches':charged_batches('layerwise',index,LCHOICES[choice],bench['batches'],choice==0) if bench else []})
     summaries=[]
     for kind in ('primary','layerwise'):
       names=list(primary['models'][0]['policies']) if kind=='primary' else list(LCHOICES)+['validation_selected']

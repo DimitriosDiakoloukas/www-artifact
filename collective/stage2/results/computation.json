@@ -1,6 +1,6 @@
 {
  "all_benchmarks_required": true,
- "generator_source_sha256": "e11a8b4a8daf209a2efe4affb3650defc0eaeee76f4dc4867888a3e528c10ebe",
+ "generator_source_sha256": "04582a6b9c3b7989e5b8627499239f3fbe262f75771e790d1b1440162a2aacfb",
  "heldout_queries_per_model": 128,
  "layerwise_policies_sha256": "3308a29093af1b47149898c178c6f6f50d1b3e47c191d48ef6a89e2010b0e986",
  "models": 12,
@@ -94,9 +94,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 2719.625,
    "metrics": {
     "AUC_loss": -0.002016129032258007,
     "Brier": 0.018020542884295797,
@@ -203,9 +209,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 2719.625,
    "metrics": {
     "AUC_loss": -0.002016129032258007,
     "Brier": 0.018020542884295797,
@@ -312,9 +324,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.017973232783704485,
@@ -421,9 +439,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": false,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.19153225806451624,
     "Brier": 0.25138686678085054,
@@ -530,9 +554,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": false,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.01008064516129037,
     "Brier": 0.02770049452367673,
@@ -639,9 +669,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": false,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 991.75,
    "metrics": {
     "AUC_loss": 0.0020161290322581182,
     "Brier": 0.019703070862545545,
@@ -748,9 +784,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 2719.625,
    "metrics": {
     "AUC_loss": -0.002016129032258007,
     "Brier": 0.018020542884295797,
@@ -857,9 +899,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.017973232783704485,
@@ -966,9 +1014,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 2719.625,
    "metrics": {
     "AUC_loss": -0.002016129032258007,
     "Brier": 0.018020542884295797,
@@ -1075,9 +1129,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.017973232783704485,
@@ -1184,9 +1244,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.017973232783704485,
@@ -1277,6 +1343,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "layerwise",
@@ -1371,6 +1441,10 @@
      "speedup_vs_full": 1.3252800697766414
     }
    ],
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": true,
    "index": 0,
    "kind": "layerwise",
@@ -1465,6 +1539,10 @@
      "speedup_vs_full": 1.5836563996423654
     }
    ],
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": false,
    "index": 0,
    "kind": "layerwise",
@@ -1559,6 +1637,10 @@
      "speedup_vs_full": 1.7544871352138611
     }
    ],
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": false,
    "index": 0,
    "kind": "layerwise",
@@ -1653,6 +1735,10 @@
      "speedup_vs_full": 1.3292756852234535
     }
    ],
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": false,
    "index": 0,
    "kind": "layerwise",
@@ -1747,6 +1833,10 @@
      "speedup_vs_full": 1.5928888910534618
     }
    ],
+   "heldout_class_counts": {
+    "negative": 4,
+    "positive": 124
+   },
    "heldout_pass": false,
    "index": 0,
    "kind": "layerwise",
@@ -1857,9 +1947,15 @@
     0,
     128
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 3348.8828125,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.031595702720649446,
@@ -1966,9 +2062,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 2894.8359375,
    "metrics": {
     "AUC_loss": 0.0035419126328216644,
     "Brier": 0.03051232392705918,
@@ -2075,9 +2177,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.031622402483874414,
@@ -2184,9 +2292,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.24321133412042506,
     "Brier": 0.23777745892519084,
@@ -2293,9 +2407,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0047225501770956635,
     "Brier": 0.031422297989000744,
@@ -2402,9 +2522,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 1157.90625,
    "metrics": {
     "AUC_loss": 0.0047225501770956635,
     "Brier": 0.033564311486025275,
@@ -2511,9 +2637,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 2894.8359375,
    "metrics": {
     "AUC_loss": 0.0035419126328216644,
     "Brier": 0.03051232392705918,
@@ -2620,9 +2752,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.031622402483874414,
@@ -2729,9 +2867,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 2894.8359375,
    "metrics": {
     "AUC_loss": 0.0035419126328216644,
     "Brier": 0.03051232392705918,
@@ -2838,9 +2982,15 @@
     36,
     49
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 3390.296875,
    "metrics": {
     "AUC_loss": 0.0047225501770955525,
     "Brier": 0.03192313445952992,
@@ -2947,9 +3097,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 1,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.031622402483874414,
@@ -3040,6 +3196,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 1,
    "kind": "layerwise",
@@ -3134,6 +3294,10 @@
      "speedup_vs_full": 1.3254791397912347
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 1,
    "kind": "layerwise",
@@ -3228,6 +3392,10 @@
      "speedup_vs_full": 1.5892878764550622
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "layerwise",
@@ -3322,6 +3490,10 @@
      "speedup_vs_full": 1.7606256143459278
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "layerwise",
@@ -3416,6 +3588,10 @@
      "speedup_vs_full": 1.3335516194617207
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "layerwise",
@@ -3510,6 +3686,10 @@
      "speedup_vs_full": 1.5978415676010198
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 1,
    "kind": "layerwise",
@@ -3620,9 +3800,15 @@
     0,
     128
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": true,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 3354.234375,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.037080532317217925,
@@ -3729,9 +3915,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": true,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.03714811974416138,
@@ -3838,9 +4030,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": true,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.03714811974416138,
@@ -3947,9 +4145,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": false,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.3056910569105691,
     "Brier": 0.3796439171720532,
@@ -4056,9 +4260,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": false,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.014634146341463428,
     "Brier": 0.061252183719252715,
@@ -4165,9 +4375,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": false,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 1110.8046875,
    "metrics": {
     "AUC_loss": 0.009756097560975618,
     "Brier": 0.02070045336583387,
@@ -4274,9 +4490,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": false,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 2881.375,
    "metrics": {
     "AUC_loss": 0.004878048780487809,
     "Brier": 0.03385855577380944,
@@ -4383,9 +4605,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": true,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.03714811974416138,
@@ -4492,9 +4720,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": false,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 1110.8046875,
    "metrics": {
     "AUC_loss": 0.009756097560975618,
     "Brier": 0.02070045336583387,
@@ -4601,9 +4835,15 @@
     58,
     70
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": true,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 3107.2578125,
    "metrics": {
     "AUC_loss": -0.001626016260162677,
     "Brier": 0.03705485511215678,
@@ -4710,9 +4950,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": true,
    "index": 2,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.03714811974416138,
@@ -4803,6 +5049,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": true,
    "index": 2,
    "kind": "layerwise",
@@ -4897,6 +5147,10 @@
      "speedup_vs_full": 1.3228250991411081
     }
    ],
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": true,
    "index": 2,
    "kind": "layerwise",
@@ -4991,6 +5245,10 @@
      "speedup_vs_full": 1.5796463731585952
     }
    ],
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": false,
    "index": 2,
    "kind": "layerwise",
@@ -5085,6 +5343,10 @@
      "speedup_vs_full": 1.751874671113101
     }
    ],
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": false,
    "index": 2,
    "kind": "layerwise",
@@ -5179,6 +5441,10 @@
      "speedup_vs_full": 1.3305970207723428
     }
    ],
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": false,
    "index": 2,
    "kind": "layerwise",
@@ -5273,6 +5539,10 @@
      "speedup_vs_full": 1.5944521530978548
     }
    ],
+   "heldout_class_counts": {
+    "negative": 5,
+    "positive": 123
+   },
    "heldout_pass": false,
    "index": 2,
    "kind": "layerwise",
@@ -5383,9 +5653,15 @@
     0,
     128
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": true,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 3312.5546875,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.0212721992709016,
@@ -5492,9 +5768,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 1073.3984375,
    "metrics": {
     "AUC_loss": 0.001366120218579181,
     "Brier": 0.02364361859648897,
@@ -5601,9 +5883,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": true,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.02127747548780839,
@@ -5710,9 +5998,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.4303278688524591,
     "Brier": 0.32387966221186226,
@@ -5819,9 +6113,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.18306010928961747,
     "Brier": 0.05380849423296608,
@@ -5928,9 +6228,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 1073.3984375,
    "metrics": {
     "AUC_loss": 0.001366120218579181,
     "Brier": 0.02364361859648897,
@@ -6037,9 +6343,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 2767.3984375,
    "metrics": {
     "AUC_loss": -0.004098360655737765,
     "Brier": 0.020461742473144775,
@@ -6146,9 +6458,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": true,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.02127747548780839,
@@ -6255,9 +6573,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 2767.3984375,
    "metrics": {
     "AUC_loss": -0.004098360655737765,
     "Brier": 0.020461742473144775,
@@ -6364,9 +6688,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": true,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.02127747548780839,
@@ -6473,9 +6803,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": true,
    "index": 3,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.02127747548780839,
@@ -6566,6 +6902,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": true,
    "index": 3,
    "kind": "layerwise",
@@ -6660,6 +7000,10 @@
      "speedup_vs_full": 1.326476454533809
     }
    ],
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": true,
    "index": 3,
    "kind": "layerwise",
@@ -6754,6 +7098,10 @@
      "speedup_vs_full": 1.5842949271596984
     }
    ],
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "layerwise",
@@ -6848,6 +7196,10 @@
      "speedup_vs_full": 1.7545898515058314
     }
    ],
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "layerwise",
@@ -6942,6 +7294,10 @@
      "speedup_vs_full": 1.3303498060505126
     }
    ],
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "layerwise",
@@ -7036,6 +7392,10 @@
      "speedup_vs_full": 1.593945877864787
     }
    ],
+   "heldout_class_counts": {
+    "negative": 6,
+    "positive": 122
+   },
    "heldout_pass": false,
    "index": 3,
    "kind": "layerwise",
@@ -7146,9 +7506,15 @@
     0,
     128
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 3359.3515625,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.032943490865495376,
@@ -7255,9 +7621,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.03295518113086819,
@@ -7364,9 +7736,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.03295518113086819,
@@ -7473,9 +7851,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.04014167650531286,
     "Brier": 0.07883549378780894,
@@ -7582,9 +7966,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": -0.024793388429751984,
     "Brier": 0.026041470833386263,
@@ -7691,9 +8081,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 1128.71875,
    "metrics": {
     "AUC_loss": -0.0011806375442739991,
     "Brier": 0.03201367457429402,
@@ -7800,9 +8196,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 2844.90625,
    "metrics": {
     "AUC_loss": 0.0023612750885477762,
     "Brier": 0.03275226954208834,
@@ -7909,9 +8311,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.03295518113086819,
@@ -8018,9 +8426,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 2844.90625,
    "metrics": {
     "AUC_loss": 0.0023612750885477762,
     "Brier": 0.03275226954208834,
@@ -8127,9 +8541,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.03295518113086819,
@@ -8236,9 +8656,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.03295518113086819,
@@ -8329,6 +8755,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "layerwise",
@@ -8423,6 +8853,10 @@
      "speedup_vs_full": 1.325320811101038
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": true,
    "index": 4,
    "kind": "layerwise",
@@ -8517,6 +8951,10 @@
      "speedup_vs_full": 1.5809974520634538
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 4,
    "kind": "layerwise",
@@ -8611,6 +9049,10 @@
      "speedup_vs_full": 1.7506813696258703
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 4,
    "kind": "layerwise",
@@ -8705,6 +9147,10 @@
      "speedup_vs_full": 1.332819972898616
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 4,
    "kind": "layerwise",
@@ -8799,6 +9245,10 @@
      "speedup_vs_full": 1.5983718259051491
     }
    ],
+   "heldout_class_counts": {
+    "negative": 7,
+    "positive": 121
+   },
    "heldout_pass": false,
    "index": 4,
    "kind": "layerwise",
@@ -8909,9 +9359,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": true,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.11554798897418439,
@@ -9018,9 +9474,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 2625.3984375,
    "metrics": {
     "AUC_loss": 0.003990688393747943,
     "Brier": 0.11777191911269716,
@@ -9127,9 +9589,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": true,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.11554798897418439,
@@ -9236,9 +9704,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.3129364815430663,
     "Brier": 0.27907068979920113,
@@ -9345,9 +9819,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.06451612903225812,
     "Brier": 0.14215567743059093,
@@ -9454,9 +9934,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 2625.3984375,
    "metrics": {
     "AUC_loss": 0.003990688393747943,
     "Brier": 0.11777191911269716,
@@ -9563,9 +10049,15 @@
     128,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": true,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 5677.890625,
    "metrics": {
     "AUC_loss": 2.220446049250313e-16,
     "Brier": 0.11571827818315174,
@@ -9672,9 +10164,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": true,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.11554798897418439,
@@ -9781,9 +10279,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 2625.3984375,
    "metrics": {
     "AUC_loss": 0.003990688393747943,
     "Brier": 0.11777191911269716,
@@ -9890,9 +10394,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": true,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.11554798897418439,
@@ -9999,9 +10509,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "primary",
+   "mean_retained_nodes": 5689.40625,
    "metrics": {
     "AUC_loss": -0.0019953441968738606,
     "Brier": 0.11704038965060594,
@@ -10092,6 +10608,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": true,
    "index": 5,
    "kind": "layerwise",
@@ -10186,6 +10706,10 @@
      "speedup_vs_full": 1.3291081040713588
     }
    ],
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": true,
    "index": 5,
    "kind": "layerwise",
@@ -10280,6 +10804,10 @@
      "speedup_vs_full": 1.592628047481187
     }
    ],
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "layerwise",
@@ -10374,6 +10902,10 @@
      "speedup_vs_full": 1.76764527008212
     }
    ],
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "layerwise",
@@ -10468,6 +11000,10 @@
      "speedup_vs_full": 1.3302080173020772
     }
    ],
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "layerwise",
@@ -10562,6 +11098,10 @@
      "speedup_vs_full": 1.5945434268520922
     }
    ],
+   "heldout_class_counts": {
+    "negative": 31,
+    "positive": 97
+   },
    "heldout_pass": false,
    "index": 5,
    "kind": "layerwise",
@@ -10672,9 +11212,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": true,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.07829177154673014,
@@ -10781,9 +11327,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 2665.2890625,
    "metrics": {
     "AUC_loss": 0.002897151134717557,
     "Brier": 0.08069012902270267,
@@ -10890,9 +11442,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": true,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.07829177154673014,
@@ -10999,9 +11557,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.1260260743602124,
     "Brier": 0.14055110832766593,
@@ -11108,9 +11672,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": -0.0009657170449058894,
     "Brier": 0.07271262178421478,
@@ -11217,9 +11787,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 2665.2890625,
    "metrics": {
     "AUC_loss": 0.002897151134717557,
     "Brier": 0.08069012902270267,
@@ -11326,9 +11902,15 @@
     128,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": true,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 5644.375,
    "metrics": {
     "AUC_loss": 0.0004828585224528892,
     "Brier": 0.07835097328888851,
@@ -11435,9 +12017,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": true,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.07829177154673014,
@@ -11544,9 +12132,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 2665.2890625,
    "metrics": {
     "AUC_loss": 0.002897151134717557,
     "Brier": 0.08069012902270267,
@@ -11653,9 +12247,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 6604.171875,
    "metrics": {
     "AUC_loss": -0.0004828585224528892,
     "Brier": 0.0773901988657948,
@@ -11762,9 +12362,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": true,
    "index": 6,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.07829177154673014,
@@ -11855,6 +12461,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": true,
    "index": 6,
    "kind": "layerwise",
@@ -11949,6 +12559,10 @@
      "speedup_vs_full": 1.3294731091805958
     }
    ],
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": true,
    "index": 6,
    "kind": "layerwise",
@@ -12043,6 +12657,10 @@
      "speedup_vs_full": 1.5926047038075446
     }
    ],
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "layerwise",
@@ -12137,6 +12755,10 @@
      "speedup_vs_full": 1.7671750356696136
     }
    ],
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "layerwise",
@@ -12231,6 +12853,10 @@
      "speedup_vs_full": 1.3307131145733755
     }
    ],
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "layerwise",
@@ -12325,6 +12951,10 @@
      "speedup_vs_full": 1.5940323173356388
     }
    ],
+   "heldout_class_counts": {
+    "negative": 19,
+    "positive": 109
+   },
    "heldout_pass": false,
    "index": 6,
    "kind": "layerwise",
@@ -12435,9 +13065,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": true,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08253674131468725,
@@ -12544,9 +13180,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 2766.65625,
    "metrics": {
     "AUC_loss": 0.011209439528023668,
     "Brier": 0.08390972074971197,
@@ -12653,9 +13295,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": true,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08253674131468725,
@@ -12762,9 +13410,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.2619469026548672,
     "Brier": 0.248466384957028,
@@ -12871,9 +13525,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.05427728613569327,
     "Brier": 0.08352371894402373,
@@ -12980,9 +13640,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 2766.65625,
    "metrics": {
     "AUC_loss": 0.011209439528023668,
     "Brier": 0.08390972074971197,
@@ -13089,9 +13755,15 @@
     128,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": true,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 5764.9375,
    "metrics": {
     "AUC_loss": 0.0005899705014749124,
     "Brier": 0.08247057379485584,
@@ -13198,9 +13870,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": true,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08253674131468725,
@@ -13307,9 +13985,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 2766.65625,
    "metrics": {
     "AUC_loss": 0.011209439528023668,
     "Brier": 0.08390972074971197,
@@ -13416,9 +14100,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 6493.1171875,
    "metrics": {
     "AUC_loss": 0.008849557522123797,
     "Brier": 0.08271160804038839,
@@ -13525,9 +14215,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": true,
    "index": 7,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08253674131468725,
@@ -13618,6 +14314,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": true,
    "index": 7,
    "kind": "layerwise",
@@ -13712,6 +14412,10 @@
      "speedup_vs_full": 1.3301840980900808
     }
    ],
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": true,
    "index": 7,
    "kind": "layerwise",
@@ -13806,6 +14510,10 @@
      "speedup_vs_full": 1.5927857977990727
     }
    ],
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "layerwise",
@@ -13900,6 +14608,10 @@
      "speedup_vs_full": 1.7674034525753608
     }
    ],
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "layerwise",
@@ -13994,6 +14706,10 @@
      "speedup_vs_full": 1.3304650131102984
     }
    ],
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "layerwise",
@@ -14088,6 +14804,10 @@
      "speedup_vs_full": 1.5943321909424284
     }
    ],
+   "heldout_class_counts": {
+    "negative": 15,
+    "positive": 113
+   },
    "heldout_pass": false,
    "index": 7,
    "kind": "layerwise",
@@ -14198,9 +14918,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": true,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08780903459699899,
@@ -14307,9 +15033,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": false,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 2563.953125,
    "metrics": {
     "AUC_loss": 0.005797101449275366,
     "Brier": 0.09063320656808402,
@@ -14416,9 +15148,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": true,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08780903459699899,
@@ -14525,9 +15263,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": false,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.24720496894409938,
     "Brier": 0.28499391363262355,
@@ -14634,9 +15378,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": false,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.018219461697722483,
     "Brier": 0.10880800245599806,
@@ -14743,9 +15493,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": false,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 2563.953125,
    "metrics": {
     "AUC_loss": 0.005797101449275366,
     "Brier": 0.09063320656808402,
@@ -14852,9 +15608,15 @@
     128,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": true,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 5717.1796875,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08761898199811986,
@@ -14961,9 +15723,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": true,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08780903459699899,
@@ -15070,9 +15838,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": false,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 2563.953125,
    "metrics": {
     "AUC_loss": 0.005797101449275366,
     "Brier": 0.09063320656808402,
@@ -15179,9 +15953,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": true,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08780903459699899,
@@ -15288,9 +16068,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": true,
    "index": 8,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.08780903459699899,
@@ -15381,6 +16167,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": true,
    "index": 8,
    "kind": "layerwise",
@@ -15475,6 +16265,10 @@
      "speedup_vs_full": 1.3303153523533473
     }
    ],
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": true,
    "index": 8,
    "kind": "layerwise",
@@ -15569,6 +16363,10 @@
      "speedup_vs_full": 1.5929471645251236
     }
    ],
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": false,
    "index": 8,
    "kind": "layerwise",
@@ -15663,6 +16461,10 @@
      "speedup_vs_full": 1.7677308450546412
     }
    ],
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": false,
    "index": 8,
    "kind": "layerwise",
@@ -15757,6 +16559,10 @@
      "speedup_vs_full": 1.329921096626693
     }
    ],
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": false,
    "index": 8,
    "kind": "layerwise",
@@ -15851,6 +16657,10 @@
      "speedup_vs_full": 1.5933009546007852
     }
    ],
+   "heldout_class_counts": {
+    "negative": 23,
+    "positive": 105
+   },
    "heldout_pass": false,
    "index": 8,
    "kind": "layerwise",
@@ -15961,9 +16771,15 @@
     128,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": true,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 5683.7734375,
    "metrics": {
     "AUC_loss": -0.00037707390648566985,
     "Brier": 0.11893495013380162,
@@ -16070,9 +16886,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": false,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 2579.5546875,
    "metrics": {
     "AUC_loss": -0.002639517345399578,
     "Brier": 0.11908848154512833,
@@ -16179,9 +17001,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": true,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.11897607954716433,
@@ -16288,9 +17116,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": false,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.12631975867269984,
     "Brier": 0.24964467167069618,
@@ -16397,9 +17231,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": false,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.03506787330316752,
     "Brier": 0.13675280206221707,
@@ -16506,9 +17346,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": false,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 2579.5546875,
    "metrics": {
     "AUC_loss": -0.002639517345399578,
     "Brier": 0.11908848154512833,
@@ -16615,9 +17461,15 @@
     128,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": true,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 5683.7734375,
    "metrics": {
     "AUC_loss": -0.00037707390648566985,
     "Brier": 0.11893495013380162,
@@ -16724,9 +17576,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": true,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.11897607954716433,
@@ -16833,9 +17691,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": false,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 2579.5546875,
    "metrics": {
     "AUC_loss": -0.002639517345399578,
     "Brier": 0.11908848154512833,
@@ -16942,9 +17806,15 @@
     97,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": true,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 4874.0703125,
    "metrics": {
     "AUC_loss": -0.00037707390648555883,
     "Brier": 0.11909181678829037,
@@ -17051,9 +17921,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": true,
    "index": 9,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.11897607954716433,
@@ -17144,6 +18020,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": true,
    "index": 9,
    "kind": "layerwise",
@@ -17238,6 +18118,10 @@
      "speedup_vs_full": 1.3305503640930583
     }
    ],
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": true,
    "index": 9,
    "kind": "layerwise",
@@ -17332,6 +18216,10 @@
      "speedup_vs_full": 1.5940348480149071
     }
    ],
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": false,
    "index": 9,
    "kind": "layerwise",
@@ -17426,6 +18314,10 @@
      "speedup_vs_full": 1.7689313083465679
     }
    ],
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": false,
    "index": 9,
    "kind": "layerwise",
@@ -17520,6 +18412,10 @@
      "speedup_vs_full": 1.3289427078654343
     }
    ],
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": false,
    "index": 9,
    "kind": "layerwise",
@@ -17614,6 +18510,10 @@
      "speedup_vs_full": 1.5931441730483382
     }
    ],
+   "heldout_class_counts": {
+    "negative": 26,
+    "positive": 102
+   },
    "heldout_pass": false,
    "index": 9,
    "kind": "layerwise",
@@ -17724,9 +18624,15 @@
     0,
     128
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": true,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 2976.4765625,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.06379483833587095,
@@ -17833,9 +18739,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 66.9140625,
    "metrics": {
     "AUC_loss": 0.06034482758620674,
     "Brier": 0.09247114624277106,
@@ -17942,9 +18854,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": true,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.06376360534529915,
@@ -18051,9 +18969,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.06106321839080442,
     "Brier": 0.08405029994203575,
@@ -18160,9 +19084,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": -0.001436781609195581,
     "Brier": 0.06567359195776731,
@@ -18269,9 +19199,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 838.875,
    "metrics": {
     "AUC_loss": 0.01652298850574707,
     "Brier": 0.07483963548026727,
@@ -18378,9 +19314,15 @@
     128,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": true,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 2412.203125,
    "metrics": {
     "AUC_loss": -1.1102230246251565e-16,
     "Brier": 0.06442761481600982,
@@ -18487,9 +19429,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": true,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.06376360534529915,
@@ -18596,9 +19544,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 838.875,
    "metrics": {
     "AUC_loss": 0.01652298850574707,
     "Brier": 0.07483963548026727,
@@ -18705,9 +19659,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": true,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 3783.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.06376360534529915,
@@ -18814,9 +19774,15 @@
     0,
     0
    ],
+   "full_nodes": 3783,
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "primary",
+   "mean_retained_nodes": 2712.6640625,
    "metrics": {
     "AUC_loss": 0.009339080459769944,
     "Brier": 0.06806852071910904,
@@ -18907,6 +19873,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": true,
    "index": 10,
    "kind": "layerwise",
@@ -19001,6 +19971,10 @@
      "speedup_vs_full": 1.3301695349421845
     }
    ],
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": true,
    "index": 10,
    "kind": "layerwise",
@@ -19095,6 +20069,10 @@
      "speedup_vs_full": 1.595923201820973
     }
    ],
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "layerwise",
@@ -19189,6 +20167,10 @@
      "speedup_vs_full": 1.76422470065533
     }
    ],
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "layerwise",
@@ -19283,6 +20265,10 @@
      "speedup_vs_full": 1.3278635339817577
     }
    ],
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "layerwise",
@@ -19377,6 +20363,10 @@
      "speedup_vs_full": 1.5840700433405652
     }
    ],
+   "heldout_class_counts": {
+    "negative": 12,
+    "positive": 116
+   },
    "heldout_pass": false,
    "index": 10,
    "kind": "layerwise",
@@ -19487,9 +20477,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": true,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.15164621896332098,
@@ -19596,9 +20592,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": false,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 2620.8125,
    "metrics": {
     "AUC_loss": 0.018125960061443958,
     "Brier": 0.18254148186851654,
@@ -19705,9 +20707,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": true,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.15164621896332098,
@@ -19814,9 +20822,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": false,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.06728110599078341,
     "Brier": 0.22589200861472924,
@@ -19923,9 +20937,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": true,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": -0.0018433179723501558,
     "Brier": 0.15179129728074392,
@@ -20032,9 +21052,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": false,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 2620.8125,
    "metrics": {
     "AUC_loss": 0.018125960061443958,
     "Brier": 0.18254148186851654,
@@ -20141,9 +21167,15 @@
     128,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": false,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 5674.1875,
    "metrics": {
     "AUC_loss": 0.0021505376344086446,
     "Brier": 0.15309907040738024,
@@ -20250,9 +21282,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": true,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.15164621896332098,
@@ -20359,9 +21397,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": false,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 2620.8125,
    "metrics": {
     "AUC_loss": 0.018125960061443958,
     "Brier": 0.18254148186851654,
@@ -20468,9 +21512,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": true,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.15164621896332098,
@@ -20577,9 +21627,15 @@
     0,
     0
    ],
+   "full_nodes": 7115,
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": true,
    "index": 11,
    "kind": "primary",
+   "mean_retained_nodes": 7115.0,
    "metrics": {
     "AUC_loss": 0.0,
     "Brier": 0.15164621896332098,
@@ -20670,6 +21726,10 @@
      "speedup_vs_full": 1.0
     }
    ],
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": true,
    "index": 11,
    "kind": "layerwise",
@@ -20764,6 +21824,10 @@
      "speedup_vs_full": 1.3317263530684367
     }
    ],
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": true,
    "index": 11,
    "kind": "layerwise",
@@ -20858,6 +21922,10 @@
      "speedup_vs_full": 1.5963761473367648
     }
    ],
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": false,
    "index": 11,
    "kind": "layerwise",
@@ -20952,6 +22020,10 @@
      "speedup_vs_full": 1.772487521885248
     }
    ],
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": false,
    "index": 11,
    "kind": "layerwise",
@@ -21046,6 +22118,10 @@
      "speedup_vs_full": 1.3317722326009465
     }
    ],
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": true,
    "index": 11,
    "kind": "layerwise",
@@ -21140,6 +22216,10 @@
      "speedup_vs_full": 1.5961896620938365
     }
    ],
+   "heldout_class_counts": {
+    "negative": 35,
+    "positive": 93
+   },
    "heldout_pass": false,
    "index": 11,
    "kind": "layerwise",

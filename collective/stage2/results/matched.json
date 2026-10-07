@@ -1,7 +1,7 @@
 {
  "all_full_test_logits_match": true,
  "cells": 960,
- "generator_source_sha256": "f96440c735d3dc3c757dda24524a3d1427fd524346aa7d12c70d5f34f6ead4db",
+ "generator_source_sha256": "8eb56ec5dd498d527cbb99c2fd39e17216bb24964e7da82415a0fb8fd3f63d1e",
  "kind": "matched",
  "prediction_slots": 76800,
  "rows": [
@@ -32,6 +32,7 @@
      "probability_RMSE": 0.07340086751260053,
      "probability_max_absolute_change": 0.5530538419184448,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -56,6 +57,7 @@
      "probability_RMSE": 0.07340086751260053,
      "probability_max_absolute_change": 0.5530538419184448,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -99,6 +101,7 @@
      "probability_RMSE": 0.08222238288120344,
      "probability_max_absolute_change": 0.5609294898673038,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -123,6 +126,7 @@
      "probability_RMSE": 0.08222238288120344,
      "probability_max_absolute_change": 0.5609294898673038,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -166,6 +170,7 @@
      "probability_RMSE": 0.028045863874354843,
      "probability_max_absolute_change": 0.10658507393794114,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -190,6 +195,7 @@
      "probability_RMSE": 0.028045863874354843,
      "probability_max_absolute_change": 0.10658507393794114,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -233,6 +239,7 @@
      "probability_RMSE": 0.0733817295406462,
      "probability_max_absolute_change": 0.5305018308765781,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -257,6 +264,7 @@
      "probability_RMSE": 0.0733817295406462,
      "probability_max_absolute_change": 0.5305018308765781,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -300,6 +308,7 @@
      "probability_RMSE": 0.07590356521471435,
      "probability_max_absolute_change": 0.47872763042317273,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -324,6 +333,7 @@
      "probability_RMSE": 0.07590356521471435,
      "probability_max_absolute_change": 0.47872763042317273,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -367,6 +377,7 @@
      "probability_RMSE": 0.10009514113016188,
      "probability_max_absolute_change": 0.5461400046532054,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -391,6 +402,7 @@
      "probability_RMSE": 0.10009514113016188,
      "probability_max_absolute_change": 0.5461400046532054,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -434,6 +446,7 @@
      "probability_RMSE": 0.08797755461680956,
      "probability_max_absolute_change": 0.5292081407314114,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -458,6 +471,7 @@
      "probability_RMSE": 0.08797755461680956,
      "probability_max_absolute_change": 0.5292081407314114,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -501,6 +515,7 @@
      "probability_RMSE": 0.026265040487041546,
      "probability_max_absolute_change": 0.10747781584416216,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -525,6 +540,7 @@
      "probability_RMSE": 0.026265040487041546,
      "probability_max_absolute_change": 0.10747781584416216,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -568,6 +584,7 @@
      "probability_RMSE": 0.08525734624664026,
      "probability_max_absolute_change": 0.572018384714363,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -592,6 +609,7 @@
      "probability_RMSE": 0.08525734624664026,
      "probability_max_absolute_change": 0.572018384714363,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -635,6 +653,7 @@
      "probability_RMSE": 0.07995466048388648,
      "probability_max_absolute_change": 0.5393301398271326,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -659,6 +678,7 @@
      "probability_RMSE": 0.07995466048388648,
      "probability_max_absolute_change": 0.5393301398271326,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -702,6 +722,7 @@
      "probability_RMSE": 0.20555606401574295,
      "probability_max_absolute_change": 0.8459670740324227,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -726,6 +747,7 @@
      "probability_RMSE": 0.20555606401574295,
      "probability_max_absolute_change": 0.8459670740324227,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -769,6 +791,7 @@
      "probability_RMSE": 0.0961322142087695,
      "probability_max_absolute_change": 0.6402997352922347,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -793,6 +816,7 @@
      "probability_RMSE": 0.0961322142087695,
      "probability_max_absolute_change": 0.6402997352922347,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -836,6 +860,7 @@
      "probability_RMSE": 0.025411457378280437,
      "probability_max_absolute_change": 0.09947787435602717,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -860,6 +885,7 @@
      "probability_RMSE": 0.025411457378280437,
      "probability_max_absolute_change": 0.09947787435602717,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -903,6 +929,7 @@
      "probability_RMSE": 0.07780564165780554,
      "probability_max_absolute_change": 0.558949821256822,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -927,6 +954,7 @@
      "probability_RMSE": 0.07780564165780554,
      "probability_max_absolute_change": 0.558949821256822,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -970,6 +998,7 @@
      "probability_RMSE": 0.08374080198946426,
      "probability_max_absolute_change": 0.5716243504345809,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -994,6 +1023,7 @@
      "probability_RMSE": 0.08374080198946426,
      "probability_max_absolute_change": 0.5716243504345809,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1037,6 +1067,7 @@
      "probability_RMSE": 0.04890594484270869,
      "probability_max_absolute_change": 0.3836720576328879,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1061,6 +1092,7 @@
      "probability_RMSE": 0.04890594484270869,
      "probability_max_absolute_change": 0.3836720576328879,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1104,6 +1136,7 @@
      "probability_RMSE": 0.03916035539783277,
      "probability_max_absolute_change": 0.33551527017468097,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1128,6 +1161,7 @@
      "probability_RMSE": 0.03916035539783277,
      "probability_max_absolute_change": 0.33551527017468097,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1171,6 +1205,7 @@
      "probability_RMSE": 2.694530708864336e-06,
      "probability_max_absolute_change": 1.5356867163196508e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1195,6 +1230,7 @@
      "probability_RMSE": 2.694530708864336e-06,
      "probability_max_absolute_change": 1.5356867163196508e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1238,6 +1274,7 @@
      "probability_RMSE": 0.037755364071159835,
      "probability_max_absolute_change": 0.2911309789607289,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1262,6 +1299,7 @@
      "probability_RMSE": 0.037755364071159835,
      "probability_max_absolute_change": 0.2911309789607289,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1305,6 +1343,7 @@
      "probability_RMSE": 0.03354450531457896,
      "probability_max_absolute_change": 0.2687764544760954,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1329,6 +1368,7 @@
      "probability_RMSE": 0.03354450531457896,
      "probability_max_absolute_change": 0.2687764544760954,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1372,6 +1412,7 @@
      "probability_RMSE": 0.07655866719329935,
      "probability_max_absolute_change": 0.3246876980732346,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1396,6 +1437,7 @@
      "probability_RMSE": 0.07655866719329935,
      "probability_max_absolute_change": 0.3246876980732346,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1439,6 +1481,7 @@
      "probability_RMSE": 0.053650385366725555,
      "probability_max_absolute_change": 0.3312270948538373,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1463,6 +1506,7 @@
      "probability_RMSE": 0.053650385366725555,
      "probability_max_absolute_change": 0.3312270948538373,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1506,6 +1550,7 @@
      "probability_RMSE": 3.0106450381192077e-06,
      "probability_max_absolute_change": 1.547015389247175e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1530,6 +1575,7 @@
      "probability_RMSE": 3.0106450381192077e-06,
      "probability_max_absolute_change": 1.547015389247175e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1573,6 +1619,7 @@
      "probability_RMSE": 0.048680093698499766,
      "probability_max_absolute_change": 0.2792261213180003,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1597,6 +1644,7 @@
      "probability_RMSE": 0.048680093698499766,
      "probability_max_absolute_change": 0.2792261213180003,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1640,6 +1688,7 @@
      "probability_RMSE": 0.030408477490860095,
      "probability_max_absolute_change": 0.2019087218341915,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1664,6 +1713,7 @@
      "probability_RMSE": 0.030408477490860095,
      "probability_max_absolute_change": 0.2019087218341915,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1707,6 +1757,7 @@
      "probability_RMSE": 0.1150230144772151,
      "probability_max_absolute_change": 0.48239926703847386,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1731,6 +1782,7 @@
      "probability_RMSE": 0.1150230144772151,
      "probability_max_absolute_change": 0.48239926703847386,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1774,6 +1826,7 @@
      "probability_RMSE": 0.07000253688938957,
      "probability_max_absolute_change": 0.4412322080466032,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1798,6 +1851,7 @@
      "probability_RMSE": 0.07000253688938957,
      "probability_max_absolute_change": 0.4412322080466032,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1841,6 +1895,7 @@
      "probability_RMSE": 2.9400980742075316e-06,
      "probability_max_absolute_change": 1.4639383988157562e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1865,6 +1920,7 @@
      "probability_RMSE": 2.9400980742075316e-06,
      "probability_max_absolute_change": 1.4639383988157562e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1908,6 +1964,7 @@
      "probability_RMSE": 0.039112655002445054,
      "probability_max_absolute_change": 0.2511009366453516,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1932,6 +1989,7 @@
      "probability_RMSE": 0.039112655002445054,
      "probability_max_absolute_change": 0.2511009366453516,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -1975,6 +2033,7 @@
      "probability_RMSE": 0.03886189658563209,
      "probability_max_absolute_change": 0.4112163343475451,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -1999,6 +2058,7 @@
      "probability_RMSE": 0.03886189658563209,
      "probability_max_absolute_change": 0.4112163343475451,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2042,6 +2102,7 @@
      "probability_RMSE": 0.0028779757122780617,
      "probability_max_absolute_change": 0.029062698680473842,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2066,6 +2127,7 @@
      "probability_RMSE": 0.0028779757122780617,
      "probability_max_absolute_change": 0.029062698680473842,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2109,6 +2171,7 @@
      "probability_RMSE": 0.002748756843404766,
      "probability_max_absolute_change": 0.03747734014438342,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2133,6 +2196,7 @@
      "probability_RMSE": 0.002748756843404766,
      "probability_max_absolute_change": 0.03747734014438342,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2176,6 +2240,7 @@
      "probability_RMSE": 3.377681423426455e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2200,6 +2265,7 @@
      "probability_RMSE": 3.377681423426455e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2243,6 +2309,7 @@
      "probability_RMSE": 8.636331702324257e-06,
      "probability_max_absolute_change": 9.795508629829061e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2267,6 +2334,7 @@
      "probability_RMSE": 8.636331702324257e-06,
      "probability_max_absolute_change": 9.795508629829061e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2310,6 +2378,7 @@
      "probability_RMSE": 2.8533145537567338e-06,
      "probability_max_absolute_change": 4.144902805495391e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2334,6 +2403,7 @@
      "probability_RMSE": 2.8533145537567338e-06,
      "probability_max_absolute_change": 4.144902805495391e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2377,6 +2447,7 @@
      "probability_RMSE": 0.004578455987043848,
      "probability_max_absolute_change": 0.04543314879601079,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2401,6 +2472,7 @@
      "probability_RMSE": 0.004578455987043848,
      "probability_max_absolute_change": 0.04543314879601079,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2444,6 +2516,7 @@
      "probability_RMSE": 0.0039040318494980106,
      "probability_max_absolute_change": 0.031363076888764496,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2468,6 +2541,7 @@
      "probability_RMSE": 0.0039040318494980106,
      "probability_max_absolute_change": 0.031363076888764496,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2511,6 +2585,7 @@
      "probability_RMSE": 3.377681421690627e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2535,6 +2610,7 @@
      "probability_RMSE": 3.377681421690627e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2578,6 +2654,7 @@
      "probability_RMSE": 7.345319425283272e-06,
      "probability_max_absolute_change": 8.183744396293117e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2602,6 +2679,7 @@
      "probability_RMSE": 7.345319425283272e-06,
      "probability_max_absolute_change": 8.183744396293117e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2645,6 +2723,7 @@
      "probability_RMSE": 7.399082663440892e-06,
      "probability_max_absolute_change": 8.151636933859412e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2669,6 +2748,7 @@
      "probability_RMSE": 7.399082663440892e-06,
      "probability_max_absolute_change": 8.151636933859412e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2712,6 +2792,7 @@
      "probability_RMSE": 0.0058063643340443664,
      "probability_max_absolute_change": 0.029319280771171297,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2736,6 +2817,7 @@
      "probability_RMSE": 0.0058063643340443664,
      "probability_max_absolute_change": 0.029319280771171297,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2779,6 +2861,7 @@
      "probability_RMSE": 0.00560786217379032,
      "probability_max_absolute_change": 0.053058465733181404,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2803,6 +2886,7 @@
      "probability_RMSE": 0.00560786217379032,
      "probability_max_absolute_change": 0.053058465733181404,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2846,6 +2930,7 @@
      "probability_RMSE": 3.377681423535839e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2870,6 +2955,7 @@
      "probability_RMSE": 3.377681423535839e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2913,6 +2999,7 @@
      "probability_RMSE": 5.034620637353034e-06,
      "probability_max_absolute_change": 7.33343718984995e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -2937,6 +3024,7 @@
      "probability_RMSE": 5.034620637353034e-06,
      "probability_max_absolute_change": 7.33343718984995e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -2980,6 +3068,7 @@
      "probability_RMSE": 4.011179246258715e-06,
      "probability_max_absolute_change": 4.109950908525882e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3004,6 +3093,7 @@
      "probability_RMSE": 4.011179246258715e-06,
      "probability_max_absolute_change": 4.109950908525882e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3047,6 +3137,7 @@
      "probability_RMSE": 3.1409665278196437e-07,
      "probability_max_absolute_change": 3.4622060821054568e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3071,6 +3162,7 @@
      "probability_RMSE": 3.1409665278196437e-07,
      "probability_max_absolute_change": 3.4622060821054568e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3114,6 +3206,7 @@
      "probability_RMSE": 5.444708031415621e-07,
      "probability_max_absolute_change": 4.2366334188082e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3138,6 +3231,7 @@
      "probability_RMSE": 5.444708031415621e-07,
      "probability_max_absolute_change": 4.2366334188082e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3181,6 +3275,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3205,6 +3300,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3248,6 +3344,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3272,6 +3369,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3315,6 +3413,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3339,6 +3438,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3382,6 +3482,7 @@
      "probability_RMSE": 5.695995227816429e-07,
      "probability_max_absolute_change": 4.441628064302816e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3406,6 +3507,7 @@
      "probability_RMSE": 5.695995227816429e-07,
      "probability_max_absolute_change": 4.441628064302816e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3449,6 +3551,7 @@
      "probability_RMSE": 8.807058153576318e-07,
      "probability_max_absolute_change": 3.917752171900268e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3473,6 +3576,7 @@
      "probability_RMSE": 8.807058153576318e-07,
      "probability_max_absolute_change": 3.917752171900268e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3516,6 +3620,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3540,6 +3645,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3583,6 +3689,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3607,6 +3714,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3650,6 +3758,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3674,6 +3783,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3717,6 +3827,7 @@
      "probability_RMSE": 8.471985594267319e-07,
      "probability_max_absolute_change": 7.880931107734357e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3741,6 +3852,7 @@
      "probability_RMSE": 8.471985594267319e-07,
      "probability_max_absolute_change": 7.880931107734357e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3784,6 +3896,7 @@
      "probability_RMSE": 2.1587761803484893e-10,
      "probability_max_absolute_change": 9.359701902411643e-10,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3808,6 +3921,7 @@
      "probability_RMSE": 2.1587761803484893e-10,
      "probability_max_absolute_change": 9.359701902411643e-10,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3851,6 +3965,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3875,6 +3990,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3918,6 +4034,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -3942,6 +4059,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -3985,6 +4103,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4009,6 +4128,7 @@
      "probability_RMSE": 3.3776814166558936e-08,
      "probability_max_absolute_change": 1.1328997540083208e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 11.188941955566406,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -4052,6 +4172,7 @@
      "probability_RMSE": 0.1292304252199744,
      "probability_max_absolute_change": 0.6910676349582149,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4076,6 +4197,7 @@
      "probability_RMSE": 0.13622082784371037,
      "probability_max_absolute_change": 0.6910676349582149,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4119,6 +4241,7 @@
      "probability_RMSE": 0.08307961171117849,
      "probability_max_absolute_change": 0.7193700372557322,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4143,6 +4266,7 @@
      "probability_RMSE": 0.0875735993914145,
      "probability_max_absolute_change": 0.7193700372557322,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4186,6 +4310,7 @@
      "probability_RMSE": 0.052992044577815846,
      "probability_max_absolute_change": 0.36004299470016304,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4210,6 +4335,7 @@
      "probability_RMSE": 0.055858519545539165,
      "probability_max_absolute_change": 0.36004299470016304,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4253,6 +4379,7 @@
      "probability_RMSE": 0.12357917820074119,
      "probability_max_absolute_change": 0.702980719365993,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4277,6 +4404,7 @@
      "probability_RMSE": 0.13026389102398733,
      "probability_max_absolute_change": 0.702980719365993,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4320,6 +4448,7 @@
      "probability_RMSE": 0.08088087941148495,
      "probability_max_absolute_change": 0.6593278839064056,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4344,6 +4473,7 @@
      "probability_RMSE": 0.08525593211779663,
      "probability_max_absolute_change": 0.6593278839064056,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4387,6 +4517,7 @@
      "probability_RMSE": 0.1624291537778425,
      "probability_max_absolute_change": 0.7368954004809363,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4411,6 +4542,7 @@
      "probability_RMSE": 0.17121536026042142,
      "probability_max_absolute_change": 0.7368954004809363,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4454,6 +4586,7 @@
      "probability_RMSE": 0.13248441182706974,
      "probability_max_absolute_change": 0.7243749359401205,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4478,6 +4611,7 @@
      "probability_RMSE": 0.13965083017935667,
      "probability_max_absolute_change": 0.7243749359401205,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4521,6 +4655,7 @@
      "probability_RMSE": 0.06258002818564926,
      "probability_max_absolute_change": 0.39196016903148134,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4545,6 +4680,7 @@
      "probability_RMSE": 0.06596514166428373,
      "probability_max_absolute_change": 0.39196016903148134,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4588,6 +4724,7 @@
      "probability_RMSE": 0.15264801303614173,
      "probability_max_absolute_change": 0.7289372645810698,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4612,6 +4749,7 @@
      "probability_RMSE": 0.16090513234717774,
      "probability_max_absolute_change": 0.7289372645810698,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4655,6 +4793,7 @@
      "probability_RMSE": 0.12428786281872355,
      "probability_max_absolute_change": 0.7246929066146832,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4679,6 +4818,7 @@
      "probability_RMSE": 0.1310109103224056,
      "probability_max_absolute_change": 0.7246929066146832,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4722,6 +4862,7 @@
      "probability_RMSE": 0.1661043557653582,
      "probability_max_absolute_change": 0.7387395259591087,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4746,6 +4887,7 @@
      "probability_RMSE": 0.1750893615730119,
      "probability_max_absolute_change": 0.7387395259591087,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4789,6 +4931,7 @@
      "probability_RMSE": 0.1649461422990025,
      "probability_max_absolute_change": 0.7386133567824733,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4813,6 +4956,7 @@
      "probability_RMSE": 0.17386849798499324,
      "probability_max_absolute_change": 0.7386133567824733,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4856,6 +5000,7 @@
      "probability_RMSE": 0.06377864795873144,
      "probability_max_absolute_change": 0.4085185514675365,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4880,6 +5025,7 @@
      "probability_RMSE": 0.0672285978062574,
      "probability_max_absolute_change": 0.4085185514675365,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4923,6 +5069,7 @@
      "probability_RMSE": 0.1576340243813554,
      "probability_max_absolute_change": 0.7305952742902154,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -4947,6 +5094,7 @@
      "probability_RMSE": 0.16616084992508603,
      "probability_max_absolute_change": 0.7305952742902154,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -4990,6 +5138,7 @@
      "probability_RMSE": 0.14400079938148963,
      "probability_max_absolute_change": 0.7219370370063203,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5014,6 +5163,7 @@
      "probability_RMSE": 0.15179016973830392,
      "probability_max_absolute_change": 0.7219370370063203,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5057,6 +5207,7 @@
      "probability_RMSE": 0.05185040547038229,
      "probability_max_absolute_change": 0.33678460321772496,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5081,6 +5232,7 @@
      "probability_RMSE": 0.05465512621787254,
      "probability_max_absolute_change": 0.33678460321772496,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5124,6 +5276,7 @@
      "probability_RMSE": 0.018049418815631796,
      "probability_max_absolute_change": 0.14718514784426984,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5148,6 +5301,7 @@
      "probability_RMSE": 0.019025757702801002,
      "probability_max_absolute_change": 0.14718514784426984,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5191,6 +5345,7 @@
      "probability_RMSE": 0.0023685448892609828,
      "probability_max_absolute_change": 0.016863864286596253,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5215,6 +5370,7 @@
      "probability_RMSE": 0.00249666549953681,
      "probability_max_absolute_change": 0.016863864286596253,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5258,6 +5414,7 @@
      "probability_RMSE": 0.039887911497278994,
      "probability_max_absolute_change": 0.23721972434862804,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5282,6 +5439,7 @@
      "probability_RMSE": 0.042045550277031836,
      "probability_max_absolute_change": 0.23721972434862804,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5325,6 +5483,7 @@
      "probability_RMSE": 0.016153277099922893,
      "probability_max_absolute_change": 0.12924585144074197,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5349,6 +5508,7 @@
      "probability_RMSE": 0.01702704799952444,
      "probability_max_absolute_change": 0.12924585144074197,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5392,6 +5552,7 @@
      "probability_RMSE": 0.11315804921391946,
      "probability_max_absolute_change": 0.5615595011639286,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5416,6 +5577,7 @@
      "probability_RMSE": 0.11927905695125252,
      "probability_max_absolute_change": 0.5615595011639286,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5459,6 +5621,7 @@
      "probability_RMSE": 0.038472740935144224,
      "probability_max_absolute_change": 0.2760881250121105,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5483,6 +5646,7 @@
      "probability_RMSE": 0.04055382950080673,
      "probability_max_absolute_change": 0.2760881250121105,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5526,6 +5690,7 @@
      "probability_RMSE": 0.0021450363735296676,
      "probability_max_absolute_change": 0.015193663187904938,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5550,6 +5715,7 @@
      "probability_RMSE": 0.0022610668308961153,
      "probability_max_absolute_change": 0.015193663187904938,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5593,6 +5759,7 @@
      "probability_RMSE": 0.037496198707719246,
      "probability_max_absolute_change": 0.21771898772828835,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5617,6 +5784,7 @@
      "probability_RMSE": 0.03952446355111679,
      "probability_max_absolute_change": 0.21771898772828835,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5660,6 +5828,7 @@
      "probability_RMSE": 0.014963103707881273,
      "probability_max_absolute_change": 0.10848109823536045,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5684,6 +5853,7 @@
      "probability_RMSE": 0.01577249595993006,
      "probability_max_absolute_change": 0.10848109823536045,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5727,6 +5897,7 @@
      "probability_RMSE": 0.15531311527498876,
      "probability_max_absolute_change": 0.7200299579800493,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5751,6 +5922,7 @@
      "probability_RMSE": 0.1637143980827153,
      "probability_max_absolute_change": 0.7200299579800493,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5794,6 +5966,7 @@
      "probability_RMSE": 0.07612522488998742,
      "probability_max_absolute_change": 0.4766269393827974,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5818,6 +5991,7 @@
      "probability_RMSE": 0.08024303254410882,
      "probability_max_absolute_change": 0.4766269393827974,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5861,6 +6035,7 @@
      "probability_RMSE": 0.0027137637075935867,
      "probability_max_absolute_change": 0.016889280761734127,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5885,6 +6060,7 @@
      "probability_RMSE": 0.002860558094353277,
      "probability_max_absolute_change": 0.016889280761734127,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5928,6 +6104,7 @@
      "probability_RMSE": 0.0404844794438517,
      "probability_max_absolute_change": 0.287022562197557,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -5952,6 +6129,7 @@
      "probability_RMSE": 0.04267438729514237,
      "probability_max_absolute_change": 0.287022562197557,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -5995,6 +6173,7 @@
      "probability_RMSE": 0.011309575354117477,
      "probability_max_absolute_change": 0.08865404150083289,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6019,6 +6198,7 @@
      "probability_RMSE": 0.011921338431048365,
      "probability_max_absolute_change": 0.08865404150083289,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6062,6 +6242,7 @@
      "probability_RMSE": 0.0019476620364990602,
      "probability_max_absolute_change": 0.01751374840556874,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6086,6 +6267,7 @@
      "probability_RMSE": 0.0020530160306475856,
      "probability_max_absolute_change": 0.01751374840556874,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6129,6 +6311,7 @@
      "probability_RMSE": 0.003022327911775675,
      "probability_max_absolute_change": 0.029300645086247856,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6153,6 +6336,7 @@
      "probability_RMSE": 0.003185813337670833,
      "probability_max_absolute_change": 0.029300645086247856,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6196,6 +6380,7 @@
      "probability_RMSE": 1.546647344959906e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6220,6 +6405,7 @@
      "probability_RMSE": 1.6303094490418157e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6263,6 +6449,7 @@
      "probability_RMSE": 2.7127992899548885e-08,
      "probability_max_absolute_change": 3.681588186532636e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6287,6 +6474,7 @@
      "probability_RMSE": 2.8595415303816615e-08,
      "probability_max_absolute_change": 3.681588186532636e-07,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6330,6 +6518,7 @@
      "probability_RMSE": 1.6773436906258782e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6354,6 +6543,7 @@
      "probability_RMSE": 1.768075493763532e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6397,6 +6587,7 @@
      "probability_RMSE": 0.005583077443722275,
      "probability_max_absolute_change": 0.05014506312571798,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6421,6 +6612,7 @@
      "probability_RMSE": 0.005885080348512874,
      "probability_max_absolute_change": 0.05014506312571798,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6464,6 +6656,7 @@
      "probability_RMSE": 0.00539484317343254,
      "probability_max_absolute_change": 0.036795301745233266,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6488,6 +6681,7 @@
      "probability_RMSE": 0.005686663993215043,
      "probability_max_absolute_change": 0.036795301745233266,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6531,6 +6725,7 @@
      "probability_RMSE": 1.5449118754618274e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6555,6 +6750,7 @@
      "probability_RMSE": 1.6284801035672567e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6598,6 +6794,7 @@
      "probability_RMSE": 1.8169025866764428e-08,
      "probability_max_absolute_change": 7.474728547229859e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6622,6 +6819,7 @@
      "probability_RMSE": 1.9151834868496856e-08,
      "probability_max_absolute_change": 7.474728547229859e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6665,6 +6863,7 @@
      "probability_RMSE": 1.6162770955359018e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6689,6 +6888,7 @@
      "probability_RMSE": 1.7037056506183386e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6732,6 +6932,7 @@
      "probability_RMSE": 0.009488362737646895,
      "probability_max_absolute_change": 0.05229092696372839,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6756,6 +6957,7 @@
      "probability_RMSE": 0.010001612490091486,
      "probability_max_absolute_change": 0.05229092696372839,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6799,6 +7001,7 @@
      "probability_RMSE": 4.5318300995668533e-07,
      "probability_max_absolute_change": 2.485791958828365e-06,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6823,6 +7026,7 @@
      "probability_RMSE": 4.5318300995668533e-07,
      "probability_max_absolute_change": 2.485791958828365e-06,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6866,6 +7070,7 @@
      "probability_RMSE": 1.5454489282065102e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6890,6 +7095,7 @@
      "probability_RMSE": 1.6290462068662043e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -6933,6 +7139,7 @@
      "probability_RMSE": 1.792267907980405e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -6957,6 +7164,7 @@
      "probability_RMSE": 1.8892162554810505e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7000,6 +7208,7 @@
      "probability_RMSE": 1.618493020620708e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7024,6 +7233,7 @@
      "probability_RMSE": 1.7060414407491015e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7067,6 +7277,7 @@
      "probability_RMSE": 3.593521827664071e-08,
      "probability_max_absolute_change": 3.205929098228522e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7091,6 +7302,7 @@
      "probability_RMSE": 1.7400029758124772e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7134,6 +7346,7 @@
      "probability_RMSE": 1.9607583454712484e-08,
      "probability_max_absolute_change": 1.1885739629715003e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7158,6 +7371,7 @@
      "probability_RMSE": 1.6699268525063934e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7201,6 +7415,7 @@
      "probability_RMSE": 1.543279371864642e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7225,6 +7440,7 @@
      "probability_RMSE": 1.626759293682082e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7268,6 +7484,7 @@
      "probability_RMSE": 1.543279371864642e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7292,6 +7509,7 @@
      "probability_RMSE": 1.626759293682082e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7335,6 +7553,7 @@
      "probability_RMSE": 1.543279371864642e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7359,6 +7578,7 @@
      "probability_RMSE": 1.626759293682082e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7402,6 +7622,7 @@
      "probability_RMSE": 9.480298478011198e-05,
      "probability_max_absolute_change": 0.0009141333120908923,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7426,6 +7647,7 @@
      "probability_RMSE": 9.993109442622348e-05,
      "probability_max_absolute_change": 0.0009141333120908923,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7469,6 +7691,7 @@
      "probability_RMSE": 0.00014047465908923783,
      "probability_max_absolute_change": 0.0018134336883629532,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7493,6 +7716,7 @@
      "probability_RMSE": 0.00014508158916417768,
      "probability_max_absolute_change": 0.0018134336883629532,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7536,6 +7760,7 @@
      "probability_RMSE": 1.543279371864642e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7560,6 +7785,7 @@
      "probability_RMSE": 1.626759293682082e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7603,6 +7829,7 @@
      "probability_RMSE": 1.543279371864642e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7627,6 +7854,7 @@
      "probability_RMSE": 1.626759293682082e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7670,6 +7898,7 @@
      "probability_RMSE": 1.543279371864642e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7694,6 +7923,7 @@
      "probability_RMSE": 1.626759293682082e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7737,6 +7967,7 @@
      "probability_RMSE": 0.0001999208590901505,
      "probability_max_absolute_change": 0.0014979830937800198,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7761,6 +7992,7 @@
      "probability_RMSE": 0.0002107350754401596,
      "probability_max_absolute_change": 0.0014979830937800198,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7804,6 +8036,7 @@
      "probability_RMSE": 8.944695561945699e-11,
      "probability_max_absolute_change": 2.3237123336627974e-10,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7828,6 +8061,7 @@
      "probability_RMSE": 8.944695561945699e-11,
      "probability_max_absolute_change": 2.3237123336627974e-10,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7871,6 +8105,7 @@
      "probability_RMSE": 1.543279371864642e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7895,6 +8130,7 @@
      "probability_RMSE": 1.626759293682082e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -7938,6 +8174,7 @@
      "probability_RMSE": 1.543279371864642e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -7962,6 +8199,7 @@
      "probability_RMSE": 1.626759293682082e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -8005,6 +8243,7 @@
      "probability_RMSE": 1.543279371864642e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8029,6 +8268,7 @@
      "probability_RMSE": 1.626759293682082e-08,
      "probability_max_absolute_change": 6.901755167376677e-08,
      "queries": 18,
+     "reference_median_absolute_logit": 21.633545875549316,
      "stratum": "reach_at_most_one",
      "total_draws": 288
     }
@@ -8072,6 +8312,7 @@
      "probability_RMSE": 0.2843162658424548,
      "probability_max_absolute_change": 0.8885038374888027,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8096,6 +8337,7 @@
      "probability_RMSE": 0.2036910796523335,
      "probability_max_absolute_change": 0.8885038374888027,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8139,6 +8381,7 @@
      "probability_RMSE": 0.2120778390007673,
      "probability_max_absolute_change": 0.7635322210027918,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8163,6 +8406,7 @@
      "probability_RMSE": 0.1362831685491567,
      "probability_max_absolute_change": 0.5167279626352685,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8206,6 +8450,7 @@
      "probability_RMSE": 0.040977788666334954,
      "probability_max_absolute_change": 0.34309196858921653,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8230,6 +8475,7 @@
      "probability_RMSE": 0.01714821256266697,
      "probability_max_absolute_change": 0.06821410455793048,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8273,6 +8519,7 @@
      "probability_RMSE": 0.2648820517179822,
      "probability_max_absolute_change": 0.8277510869449175,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8297,6 +8544,7 @@
      "probability_RMSE": 0.17148427650216472,
      "probability_max_absolute_change": 0.6163465218438066,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8340,6 +8588,7 @@
      "probability_RMSE": 0.21101540690896872,
      "probability_max_absolute_change": 0.7423502648772712,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8364,6 +8613,7 @@
      "probability_RMSE": 0.12832011411423122,
      "probability_max_absolute_change": 0.4258917192910316,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8407,6 +8657,7 @@
      "probability_RMSE": 0.3742379265987583,
      "probability_max_absolute_change": 0.8644204035026519,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8431,6 +8682,7 @@
      "probability_RMSE": 0.29198988056434994,
      "probability_max_absolute_change": 0.8184916065037345,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8474,6 +8726,7 @@
      "probability_RMSE": 0.33310576179177753,
      "probability_max_absolute_change": 0.8559237486182073,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8498,6 +8751,7 @@
      "probability_RMSE": 0.22467945401687317,
      "probability_max_absolute_change": 0.7548906556082411,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8541,6 +8795,7 @@
      "probability_RMSE": 0.07767905390913374,
      "probability_max_absolute_change": 0.41728488219071624,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8565,6 +8820,7 @@
      "probability_RMSE": 0.03161114849661661,
      "probability_max_absolute_change": 0.1284248572749201,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8608,6 +8864,7 @@
      "probability_RMSE": 0.3720514498543775,
      "probability_max_absolute_change": 0.8562326334276585,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8632,6 +8889,7 @@
      "probability_RMSE": 0.2924918393295085,
      "probability_max_absolute_change": 0.8562326334276585,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8675,6 +8933,7 @@
      "probability_RMSE": 0.3363744022125106,
      "probability_max_absolute_change": 0.8569273187589763,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8699,6 +8958,7 @@
      "probability_RMSE": 0.2622201146430656,
      "probability_max_absolute_change": 0.8512967343209497,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8742,6 +9002,7 @@
      "probability_RMSE": 0.3991615620650873,
      "probability_max_absolute_change": 0.8881323973175363,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8766,6 +9027,7 @@
      "probability_RMSE": 0.3225014381027716,
      "probability_max_absolute_change": 0.8881323973175363,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8809,6 +9071,7 @@
      "probability_RMSE": 0.37583547188006095,
      "probability_max_absolute_change": 0.9322772145011894,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8833,6 +9096,7 @@
      "probability_RMSE": 0.30130781140210516,
      "probability_max_absolute_change": 0.9322772145011894,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8876,6 +9140,7 @@
      "probability_RMSE": 0.08483871294656768,
      "probability_max_absolute_change": 0.5343363091643357,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8900,6 +9165,7 @@
      "probability_RMSE": 0.04710734794318927,
      "probability_max_absolute_change": 0.23338688030735216,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -8943,6 +9209,7 @@
      "probability_RMSE": 0.39573810630688916,
      "probability_max_absolute_change": 0.9245925764709693,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -8967,6 +9234,7 @@
      "probability_RMSE": 0.3230481012174861,
      "probability_max_absolute_change": 0.9245925764709693,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9010,6 +9278,7 @@
      "probability_RMSE": 0.3650252214416215,
      "probability_max_absolute_change": 0.8513728063340034,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9034,6 +9303,7 @@
      "probability_RMSE": 0.2840213896211143,
      "probability_max_absolute_change": 0.8421381056664778,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9077,6 +9347,7 @@
      "probability_RMSE": 0.1848402711623258,
      "probability_max_absolute_change": 0.7449975427335978,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9101,6 +9372,7 @@
      "probability_RMSE": 0.1124533450058893,
      "probability_max_absolute_change": 0.3853832549934351,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9144,6 +9416,7 @@
      "probability_RMSE": 0.1401593420698188,
      "probability_max_absolute_change": 0.5452361812601736,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9168,6 +9441,7 @@
      "probability_RMSE": 0.09296225600345664,
      "probability_max_absolute_change": 0.35290044259207565,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9211,6 +9485,7 @@
      "probability_RMSE": 0.01842731118894698,
      "probability_max_absolute_change": 0.10733872519161947,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9235,6 +9510,7 @@
      "probability_RMSE": 0.010379436666288374,
      "probability_max_absolute_change": 0.04882395061237019,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9278,6 +9554,7 @@
      "probability_RMSE": 0.17727600346043268,
      "probability_max_absolute_change": 0.6924918483065902,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9302,6 +9579,7 @@
      "probability_RMSE": 0.10434117102445277,
      "probability_max_absolute_change": 0.4135778300825353,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9345,6 +9623,7 @@
      "probability_RMSE": 0.14998685077057164,
      "probability_max_absolute_change": 0.6416072084771168,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9369,6 +9648,7 @@
      "probability_RMSE": 0.09057985270961083,
      "probability_max_absolute_change": 0.28693551409176205,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9412,6 +9692,7 @@
      "probability_RMSE": 0.3006808047454604,
      "probability_max_absolute_change": 0.8014287055032153,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9436,6 +9717,7 @@
      "probability_RMSE": 0.2164897025981092,
      "probability_max_absolute_change": 0.7389451073241154,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9479,6 +9761,7 @@
      "probability_RMSE": 0.26452874664378523,
      "probability_max_absolute_change": 0.8054423731076762,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9503,6 +9786,7 @@
      "probability_RMSE": 0.17799650069873535,
      "probability_max_absolute_change": 0.5457067947115207,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9546,6 +9830,7 @@
      "probability_RMSE": 0.02453215211085129,
      "probability_max_absolute_change": 0.1251484830008679,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9570,6 +9855,7 @@
      "probability_RMSE": 0.014785054055412443,
      "probability_max_absolute_change": 0.06876782607032436,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9613,6 +9899,7 @@
      "probability_RMSE": 0.30214197607469706,
      "probability_max_absolute_change": 0.8108626646773558,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9637,6 +9924,7 @@
      "probability_RMSE": 0.2258388268908031,
      "probability_max_absolute_change": 0.7794224299795599,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9680,6 +9968,7 @@
      "probability_RMSE": 0.25642360015133864,
      "probability_max_absolute_change": 0.8134624158948164,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9704,6 +9993,7 @@
      "probability_RMSE": 0.16563280634565877,
      "probability_max_absolute_change": 0.5019739595453231,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9747,6 +10037,7 @@
      "probability_RMSE": 0.3541457035750301,
      "probability_max_absolute_change": 0.8124150996146511,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9771,6 +10062,7 @@
      "probability_RMSE": 0.2856533191211312,
      "probability_max_absolute_change": 0.7753572724751807,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9814,6 +10106,7 @@
      "probability_RMSE": 0.34906840797738925,
      "probability_max_absolute_change": 0.8504634635744555,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9838,6 +10131,7 @@
      "probability_RMSE": 0.2709125260751339,
      "probability_max_absolute_change": 0.7741552238024163,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9881,6 +10175,7 @@
      "probability_RMSE": 0.031260122429424074,
      "probability_max_absolute_change": 0.1502446773609334,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9905,6 +10200,7 @@
      "probability_RMSE": 0.02041218498483208,
      "probability_max_absolute_change": 0.08977564274826327,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -9948,6 +10244,7 @@
      "probability_RMSE": 0.3315133307225799,
      "probability_max_absolute_change": 0.7960326714513846,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -9972,6 +10269,7 @@
      "probability_RMSE": 0.2612685168207375,
      "probability_max_absolute_change": 0.7638373592356176,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10015,6 +10313,7 @@
      "probability_RMSE": 0.31136354615373973,
      "probability_max_absolute_change": 0.8456088288829825,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10039,6 +10338,7 @@
      "probability_RMSE": 0.23275771866270403,
      "probability_max_absolute_change": 0.7906444940662841,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10082,6 +10382,7 @@
      "probability_RMSE": 0.041106456011386766,
      "probability_max_absolute_change": 0.3362698509685469,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10106,6 +10407,7 @@
      "probability_RMSE": 0.011313135887909328,
      "probability_max_absolute_change": 0.047302650842573846,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10149,6 +10451,7 @@
      "probability_RMSE": 0.03276621005165459,
      "probability_max_absolute_change": 0.3599986070836369,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10173,6 +10476,7 @@
      "probability_RMSE": 0.007691672849620944,
      "probability_max_absolute_change": 0.03173056958394199,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10216,6 +10520,7 @@
      "probability_RMSE": 0.001101885668652474,
      "probability_max_absolute_change": 0.011185596541083198,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10240,6 +10545,7 @@
      "probability_RMSE": 0.00013764267407695248,
      "probability_max_absolute_change": 0.0005488071937929384,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10283,6 +10589,7 @@
      "probability_RMSE": 0.049030400110582635,
      "probability_max_absolute_change": 0.357116207574928,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10307,6 +10614,7 @@
      "probability_RMSE": 0.010141895844672488,
      "probability_max_absolute_change": 0.04968959495457467,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10350,6 +10658,7 @@
      "probability_RMSE": 0.053789127625918615,
      "probability_max_absolute_change": 0.3564461811092841,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10374,6 +10683,7 @@
      "probability_RMSE": 0.0071251280852767185,
      "probability_max_absolute_change": 0.04307431186192924,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10417,6 +10727,7 @@
      "probability_RMSE": 0.08305489622503019,
      "probability_max_absolute_change": 0.4627392534981687,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10441,6 +10752,7 @@
      "probability_RMSE": 0.026104263431886158,
      "probability_max_absolute_change": 0.12631719847799253,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10484,6 +10796,7 @@
      "probability_RMSE": 0.06334968502726539,
      "probability_max_absolute_change": 0.4007775562764331,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10508,6 +10821,7 @@
      "probability_RMSE": 0.01632219777736734,
      "probability_max_absolute_change": 0.07635596348213203,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10551,6 +10865,7 @@
      "probability_RMSE": 0.001172058548689097,
      "probability_max_absolute_change": 0.012143736724796628,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10575,6 +10890,7 @@
      "probability_RMSE": 0.0001900176521703642,
      "probability_max_absolute_change": 0.0009901407781187088,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10618,6 +10934,7 @@
      "probability_RMSE": 0.08061591327284044,
      "probability_max_absolute_change": 0.44657080579474917,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10642,6 +10959,7 @@
      "probability_RMSE": 0.023037970665412754,
      "probability_max_absolute_change": 0.09406034333485472,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10685,6 +11003,7 @@
      "probability_RMSE": 0.04502504896114051,
      "probability_max_absolute_change": 0.3925618218069272,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10709,6 +11028,7 @@
      "probability_RMSE": 0.016062385780261628,
      "probability_max_absolute_change": 0.07781211659998999,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10752,6 +11072,7 @@
      "probability_RMSE": 0.1063567502132387,
      "probability_max_absolute_change": 0.5161121162586009,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10776,6 +11097,7 @@
      "probability_RMSE": 0.03803259741065354,
      "probability_max_absolute_change": 0.15684600099812646,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10819,6 +11141,7 @@
      "probability_RMSE": 0.09024968913429535,
      "probability_max_absolute_change": 0.49095264474850653,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10843,6 +11166,7 @@
      "probability_RMSE": 0.02695811121651362,
      "probability_max_absolute_change": 0.11274220485845757,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10886,6 +11210,7 @@
      "probability_RMSE": 0.0011657623113520276,
      "probability_max_absolute_change": 0.009560519612331841,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10910,6 +11235,7 @@
      "probability_RMSE": 0.0002528917240033969,
      "probability_max_absolute_change": 0.0010385040519781258,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -10953,6 +11279,7 @@
      "probability_RMSE": 0.07977610240898077,
      "probability_max_absolute_change": 0.41995757275362633,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -10977,6 +11304,7 @@
      "probability_RMSE": 0.02850904117114643,
      "probability_max_absolute_change": 0.14432775128640865,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11020,6 +11348,7 @@
      "probability_RMSE": 0.05926137952117973,
      "probability_max_absolute_change": 0.466981033237776,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11044,6 +11373,7 @@
      "probability_RMSE": 0.02551470039352639,
      "probability_max_absolute_change": 0.1448302871394066,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11087,6 +11417,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11111,6 +11442,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11154,6 +11486,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11178,6 +11511,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11221,6 +11555,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11245,6 +11580,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11288,6 +11624,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11312,6 +11649,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11355,6 +11693,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11379,6 +11718,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11422,6 +11762,7 @@
      "probability_RMSE": 3.004638469507855e-08,
      "probability_max_absolute_change": 2.7042374795005486e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11446,6 +11787,7 @@
      "probability_RMSE": 2.985638321112643e-08,
      "probability_max_absolute_change": 2.7042374795005486e-07,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11489,6 +11831,7 @@
      "probability_RMSE": 3.412894141825205e-08,
      "probability_max_absolute_change": 3.9076191171716346e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11513,6 +11856,7 @@
      "probability_RMSE": 3.838781743638537e-08,
      "probability_max_absolute_change": 3.9076191171716346e-07,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11556,6 +11900,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11580,6 +11925,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11623,6 +11969,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11647,6 +11994,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11690,6 +12038,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11714,6 +12063,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11757,6 +12107,7 @@
      "probability_RMSE": 7.2032956559785e-05,
      "probability_max_absolute_change": 0.0012636356889486056,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11781,6 +12132,7 @@
      "probability_RMSE": 8.797599638957436e-06,
      "probability_max_absolute_change": 6.336209804555515e-05,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11824,6 +12176,7 @@
      "probability_RMSE": 0.0001231128303448683,
      "probability_max_absolute_change": 0.0012636356889486056,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11848,6 +12201,7 @@
      "probability_RMSE": 8.91327090526165e-06,
      "probability_max_absolute_change": 6.336209804555515e-05,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11891,6 +12245,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11915,6 +12270,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -11958,6 +12314,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -11982,6 +12339,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -12025,6 +12383,7 @@
      "probability_RMSE": 2.552244053064463e-08,
      "probability_max_absolute_change": 5.037894557080591e-08,
      "queries": 20,
+     "reference_median_absolute_logit": 2.0893014669418335,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12049,6 +12408,7 @@
      "probability_RMSE": 1.8241671810443956e-08,
      "probability_max_absolute_change": 4.237861675471244e-08,
      "queries": 9,
+     "reference_median_absolute_logit": 8.19076156616211,
      "stratum": "reach_at_most_one",
      "total_draws": 144
     }
@@ -12092,6 +12452,7 @@
      "probability_RMSE": 0.03957848383305376,
      "probability_max_absolute_change": 0.14465317040552045,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12116,6 +12477,7 @@
      "probability_RMSE": 0.03957848383305376,
      "probability_max_absolute_change": 0.14465317040552045,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12159,6 +12521,7 @@
      "probability_RMSE": 0.02061134301516423,
      "probability_max_absolute_change": 0.11168751344988054,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12183,6 +12546,7 @@
      "probability_RMSE": 0.02061134301516423,
      "probability_max_absolute_change": 0.11168751344988054,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12226,6 +12590,7 @@
      "probability_RMSE": 0.00525863482332768,
      "probability_max_absolute_change": 0.057613661794611304,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12250,6 +12615,7 @@
      "probability_RMSE": 0.00525863482332768,
      "probability_max_absolute_change": 0.057613661794611304,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12293,6 +12659,7 @@
      "probability_RMSE": 0.04025445844817376,
      "probability_max_absolute_change": 0.1482204764755901,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12317,6 +12684,7 @@
      "probability_RMSE": 0.04025445844817376,
      "probability_max_absolute_change": 0.1482204764755901,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12360,6 +12728,7 @@
      "probability_RMSE": 0.02132944040526786,
      "probability_max_absolute_change": 0.1214133488434459,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12384,6 +12753,7 @@
      "probability_RMSE": 0.02132944040526786,
      "probability_max_absolute_change": 0.1214133488434459,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12427,6 +12797,7 @@
      "probability_RMSE": 0.09358551376665213,
      "probability_max_absolute_change": 0.33536347094559904,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12451,6 +12822,7 @@
      "probability_RMSE": 0.09358551376665213,
      "probability_max_absolute_change": 0.33536347094559904,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12494,6 +12866,7 @@
      "probability_RMSE": 0.03958175269611131,
      "probability_max_absolute_change": 0.23144547239057017,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12518,6 +12891,7 @@
      "probability_RMSE": 0.03958175269611131,
      "probability_max_absolute_change": 0.23144547239057017,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12561,6 +12935,7 @@
      "probability_RMSE": 0.007611546518222732,
      "probability_max_absolute_change": 0.03841291088011772,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12585,6 +12960,7 @@
      "probability_RMSE": 0.007611546518222732,
      "probability_max_absolute_change": 0.03841291088011772,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12628,6 +13004,7 @@
      "probability_RMSE": 0.09258690078040004,
      "probability_max_absolute_change": 0.3817164954033712,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12652,6 +13029,7 @@
      "probability_RMSE": 0.09258690078040004,
      "probability_max_absolute_change": 0.3817164954033712,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12695,6 +13073,7 @@
      "probability_RMSE": 0.0375680829155206,
      "probability_max_absolute_change": 0.2601770444116055,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12719,6 +13098,7 @@
      "probability_RMSE": 0.0375680829155206,
      "probability_max_absolute_change": 0.2601770444116055,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12762,6 +13142,7 @@
      "probability_RMSE": 0.15665858057341892,
      "probability_max_absolute_change": 0.5549156471301921,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12786,6 +13167,7 @@
      "probability_RMSE": 0.15665858057341892,
      "probability_max_absolute_change": 0.5549156471301921,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12829,6 +13211,7 @@
      "probability_RMSE": 0.0663202335694538,
      "probability_max_absolute_change": 0.2596298475272866,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12853,6 +13236,7 @@
      "probability_RMSE": 0.0663202335694538,
      "probability_max_absolute_change": 0.2596298475272866,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12896,6 +13280,7 @@
      "probability_RMSE": 0.008494520476815608,
      "probability_max_absolute_change": 0.03662339702239209,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12920,6 +13305,7 @@
      "probability_RMSE": 0.008494520476815608,
      "probability_max_absolute_change": 0.03662339702239209,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -12963,6 +13349,7 @@
      "probability_RMSE": 0.13260146841728448,
      "probability_max_absolute_change": 0.4630747507856625,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -12987,6 +13374,7 @@
      "probability_RMSE": 0.13260146841728448,
      "probability_max_absolute_change": 0.4630747507856625,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13030,6 +13418,7 @@
      "probability_RMSE": 0.054293901418240496,
      "probability_max_absolute_change": 0.21274061075617223,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13054,6 +13443,7 @@
      "probability_RMSE": 0.054293901418240496,
      "probability_max_absolute_change": 0.21274061075617223,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13097,6 +13487,7 @@
      "probability_RMSE": 0.011363908653278439,
      "probability_max_absolute_change": 0.04381001894471681,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13121,6 +13512,7 @@
      "probability_RMSE": 0.011363908653278439,
      "probability_max_absolute_change": 0.04381001894471681,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13164,6 +13556,7 @@
      "probability_RMSE": 0.005403172310953118,
      "probability_max_absolute_change": 0.022024562714872187,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13188,6 +13581,7 @@
      "probability_RMSE": 0.005403172310953118,
      "probability_max_absolute_change": 0.022024562714872187,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13231,6 +13625,7 @@
      "probability_RMSE": 0.0007425484496075499,
      "probability_max_absolute_change": 0.00867714399346009,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13255,6 +13650,7 @@
      "probability_RMSE": 0.0007425484496075499,
      "probability_max_absolute_change": 0.00867714399346009,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13298,6 +13694,7 @@
      "probability_RMSE": 0.011967977691159011,
      "probability_max_absolute_change": 0.04079116033666741,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13322,6 +13719,7 @@
      "probability_RMSE": 0.011967977691159011,
      "probability_max_absolute_change": 0.04079116033666741,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13365,6 +13763,7 @@
      "probability_RMSE": 0.00601234330900717,
      "probability_max_absolute_change": 0.02948893599228719,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13389,6 +13788,7 @@
      "probability_RMSE": 0.00601234330900717,
      "probability_max_absolute_change": 0.02948893599228719,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13432,6 +13832,7 @@
      "probability_RMSE": 0.027955909050373668,
      "probability_max_absolute_change": 0.08711296508680322,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13456,6 +13857,7 @@
      "probability_RMSE": 0.027955909050373668,
      "probability_max_absolute_change": 0.08711296508680322,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13499,6 +13901,7 @@
      "probability_RMSE": 0.011311262042573714,
      "probability_max_absolute_change": 0.046052861074797224,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13523,6 +13926,7 @@
      "probability_RMSE": 0.011311262042573714,
      "probability_max_absolute_change": 0.046052861074797224,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13566,6 +13970,7 @@
      "probability_RMSE": 0.0009235478680075883,
      "probability_max_absolute_change": 0.006882138168548491,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13590,6 +13995,7 @@
      "probability_RMSE": 0.0009235478680075883,
      "probability_max_absolute_change": 0.006882138168548491,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13633,6 +14039,7 @@
      "probability_RMSE": 0.028564319640402357,
      "probability_max_absolute_change": 0.09320146718972333,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13657,6 +14064,7 @@
      "probability_RMSE": 0.028564319640402357,
      "probability_max_absolute_change": 0.09320146718972333,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13700,6 +14108,7 @@
      "probability_RMSE": 0.011206850077936361,
      "probability_max_absolute_change": 0.04756308434214407,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13724,6 +14133,7 @@
      "probability_RMSE": 0.011206850077936361,
      "probability_max_absolute_change": 0.04756308434214407,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13767,6 +14177,7 @@
      "probability_RMSE": 0.057276024992092354,
      "probability_max_absolute_change": 0.17926994457817536,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13791,6 +14202,7 @@
      "probability_RMSE": 0.057276024992092354,
      "probability_max_absolute_change": 0.17926994457817536,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13834,6 +14246,7 @@
      "probability_RMSE": 0.021253482728230348,
      "probability_max_absolute_change": 0.09377271666438958,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13858,6 +14271,7 @@
      "probability_RMSE": 0.021253482728230348,
      "probability_max_absolute_change": 0.09377271666438958,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13901,6 +14315,7 @@
      "probability_RMSE": 0.001534109267276894,
      "probability_max_absolute_change": 0.01210827471028969,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13925,6 +14340,7 @@
      "probability_RMSE": 0.001534109267276894,
      "probability_max_absolute_change": 0.01210827471028969,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -13968,6 +14384,7 @@
      "probability_RMSE": 0.0443549023720466,
      "probability_max_absolute_change": 0.13894914804693692,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -13992,6 +14409,7 @@
      "probability_RMSE": 0.0443549023720466,
      "probability_max_absolute_change": 0.13894914804693692,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14035,6 +14453,7 @@
      "probability_RMSE": 0.016794364135425024,
      "probability_max_absolute_change": 0.08453984238092582,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14059,6 +14478,7 @@
      "probability_RMSE": 0.016794364135425024,
      "probability_max_absolute_change": 0.08453984238092582,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14102,6 +14522,7 @@
      "probability_RMSE": 0.00042273150303198084,
      "probability_max_absolute_change": 0.001937429128873347,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14126,6 +14547,7 @@
      "probability_RMSE": 0.00042273150303198084,
      "probability_max_absolute_change": 0.001937429128873347,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14169,6 +14591,7 @@
      "probability_RMSE": 0.00036391430067798334,
      "probability_max_absolute_change": 0.0019883310708698754,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14193,6 +14616,7 @@
      "probability_RMSE": 0.00036391430067798334,
      "probability_max_absolute_change": 0.0019883310708698754,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14236,6 +14660,7 @@
      "probability_RMSE": 4.2679313887115636e-05,
      "probability_max_absolute_change": 0.0004446039344434549,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14260,6 +14685,7 @@
      "probability_RMSE": 4.2679313887115636e-05,
      "probability_max_absolute_change": 0.0004446039344434549,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14303,6 +14729,7 @@
      "probability_RMSE": 0.0003640334124639726,
      "probability_max_absolute_change": 0.0017633288980919426,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14327,6 +14754,7 @@
      "probability_RMSE": 0.0003640334124639726,
      "probability_max_absolute_change": 0.0017633288980919426,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14370,6 +14798,7 @@
      "probability_RMSE": 0.00031070907261999015,
      "probability_max_absolute_change": 0.0015565714778046913,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14394,6 +14823,7 @@
      "probability_RMSE": 0.00031070907261999015,
      "probability_max_absolute_change": 0.0015565714778046913,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14437,6 +14867,7 @@
      "probability_RMSE": 0.0008057812900275076,
      "probability_max_absolute_change": 0.00444843242388826,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14461,6 +14892,7 @@
      "probability_RMSE": 0.0008057812900275076,
      "probability_max_absolute_change": 0.00444843242388826,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14504,6 +14936,7 @@
      "probability_RMSE": 0.0005514672003990906,
      "probability_max_absolute_change": 0.0035115038582159697,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14528,6 +14961,7 @@
      "probability_RMSE": 0.0005514672003990906,
      "probability_max_absolute_change": 0.0035115038582159697,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14571,6 +15005,7 @@
      "probability_RMSE": 5.928586768572723e-05,
      "probability_max_absolute_change": 0.0004051937311539966,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14595,6 +15030,7 @@
      "probability_RMSE": 5.928586768572723e-05,
      "probability_max_absolute_change": 0.0004051937311539966,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14638,6 +15074,7 @@
      "probability_RMSE": 0.0008792550720688071,
      "probability_max_absolute_change": 0.0038336978146459866,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14662,6 +15099,7 @@
      "probability_RMSE": 0.0008792550720688071,
      "probability_max_absolute_change": 0.0038336978146459866,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14705,6 +15143,7 @@
      "probability_RMSE": 0.0006522908884494368,
      "probability_max_absolute_change": 0.004611438185389283,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14729,6 +15168,7 @@
      "probability_RMSE": 0.0006522908884494368,
      "probability_max_absolute_change": 0.004611438185389283,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14772,6 +15212,7 @@
      "probability_RMSE": 0.0014743937915904955,
      "probability_max_absolute_change": 0.00760709968805362,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14796,6 +15237,7 @@
      "probability_RMSE": 0.0014743937915904955,
      "probability_max_absolute_change": 0.00760709968805362,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14839,6 +15281,7 @@
      "probability_RMSE": 0.0008449066755031668,
      "probability_max_absolute_change": 0.00523480805101989,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14863,6 +15306,7 @@
      "probability_RMSE": 0.0008449066755031668,
      "probability_max_absolute_change": 0.00523480805101989,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14906,6 +15350,7 @@
      "probability_RMSE": 7.440494172744131e-05,
      "probability_max_absolute_change": 0.00043847284647835494,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14930,6 +15375,7 @@
      "probability_RMSE": 7.440494172744131e-05,
      "probability_max_absolute_change": 0.00043847284647835494,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -14973,6 +15419,7 @@
      "probability_RMSE": 0.0010854650906431573,
      "probability_max_absolute_change": 0.005587187068549937,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -14997,6 +15444,7 @@
      "probability_RMSE": 0.0010854650906431573,
      "probability_max_absolute_change": 0.005587187068549937,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15040,6 +15488,7 @@
      "probability_RMSE": 0.000569423942846897,
      "probability_max_absolute_change": 0.003963583496783163,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15064,6 +15513,7 @@
      "probability_RMSE": 0.000569423942846897,
      "probability_max_absolute_change": 0.003963583496783163,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15107,6 +15557,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15131,6 +15582,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15174,6 +15626,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15198,6 +15651,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15241,6 +15695,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15265,6 +15720,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15308,6 +15764,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15332,6 +15789,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15375,6 +15833,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15399,6 +15858,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15442,6 +15902,7 @@
      "probability_RMSE": 3.9429177724844246e-06,
      "probability_max_absolute_change": 6.373864916142669e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15466,6 +15927,7 @@
      "probability_RMSE": 3.9429177724844246e-06,
      "probability_max_absolute_change": 6.373864916142669e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15509,6 +15971,7 @@
      "probability_RMSE": 6.414343392200715e-06,
      "probability_max_absolute_change": 6.854648947907105e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15533,6 +15996,7 @@
      "probability_RMSE": 6.414343392200715e-06,
      "probability_max_absolute_change": 6.854648947907105e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15576,6 +16040,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15600,6 +16065,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15643,6 +16109,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15667,6 +16134,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15710,6 +16178,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15734,6 +16203,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15777,6 +16247,7 @@
      "probability_RMSE": 1.1343738653289043e-05,
      "probability_max_absolute_change": 7.006561247469012e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15801,6 +16272,7 @@
      "probability_RMSE": 1.1343738653289043e-05,
      "probability_max_absolute_change": 7.006561247469012e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15844,6 +16316,7 @@
      "probability_RMSE": 1.4066358491032978e-05,
      "probability_max_absolute_change": 8.711732126437388e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15868,6 +16341,7 @@
      "probability_RMSE": 1.4066358491032978e-05,
      "probability_max_absolute_change": 8.711732126437388e-05,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15911,6 +16385,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -15935,6 +16410,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -15978,6 +16454,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -16002,6 +16479,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }
@@ -16045,6 +16523,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "all",
      "total_draws": 320
     },
@@ -16069,6 +16548,7 @@
      "probability_RMSE": 3.410892745874026e-08,
      "probability_max_absolute_change": 1.0921587068057903e-07,
      "queries": 20,
+     "reference_median_absolute_logit": 1.7677173614501953,
      "stratum": "reach_at_most_one",
      "total_draws": 320
     }

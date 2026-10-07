@@ -1,7 +1,7 @@
 {
  "all_full_test_logits_match": true,
  "checkpoints": 20,
- "generator_source_sha256": "f96440c735d3dc3c757dda24524a3d1427fd524346aa7d12c70d5f34f6ead4db",
+ "generator_source_sha256": "8eb56ec5dd498d527cbb99c2fd39e17216bb24964e7da82415a0fb8fd3f63d1e",
  "kind": "native",
  "prediction_slots": 19200,
  "rows": [
@@ -34,6 +34,7 @@
    "probability_max_absolute_change": 0.32567049185947416,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.7319871783256531,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -67,6 +68,7 @@
    "probability_max_absolute_change": 0.26030123756888135,
    "queries": 4,
    "radius": 1,
+   "reference_median_absolute_logit": 0.7723369896411896,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 32
@@ -100,6 +102,7 @@
    "probability_max_absolute_change": 0.3522903639127345,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.7319871783256531,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -133,6 +136,7 @@
    "probability_max_absolute_change": 0.13392101012876156,
    "queries": 4,
    "radius": 1,
+   "reference_median_absolute_logit": 0.7723369896411896,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 32
@@ -166,6 +170,7 @@
    "probability_max_absolute_change": 0.06835074748739844,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.7319871783256531,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -199,6 +204,7 @@
    "probability_max_absolute_change": 0.009864006549264115,
    "queries": 4,
    "radius": 2,
+   "reference_median_absolute_logit": 0.7723369896411896,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 32
@@ -232,6 +238,7 @@
    "probability_max_absolute_change": 0.037960992392994775,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.7319871783256531,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -265,6 +272,7 @@
    "probability_max_absolute_change": 0.015424333203005514,
    "queries": 4,
    "radius": 2,
+   "reference_median_absolute_logit": 0.7723369896411896,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 32
@@ -298,6 +306,7 @@
    "probability_max_absolute_change": 0.0021833295148642184,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.7319871783256531,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -331,6 +340,7 @@
    "probability_max_absolute_change": 0.00043841720774306925,
    "queries": 4,
    "radius": 3,
+   "reference_median_absolute_logit": 0.7723369896411896,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 32
@@ -364,6 +374,7 @@
    "probability_max_absolute_change": 0.0017906224241243107,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.7319871783256531,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -397,6 +408,7 @@
    "probability_max_absolute_change": 0.00012037466216852089,
    "queries": 4,
    "radius": 3,
+   "reference_median_absolute_logit": 0.7723369896411896,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 32
@@ -430,6 +442,7 @@
    "probability_max_absolute_change": 0.3518421233841263,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.7336174249649048,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -463,6 +476,7 @@
    "probability_max_absolute_change": 0.2460560795514385,
    "queries": 11,
    "radius": 1,
+   "reference_median_absolute_logit": 0.8168737292289734,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 88
@@ -496,6 +510,7 @@
    "probability_max_absolute_change": 0.24903337859740793,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.7336174249649048,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -529,6 +544,7 @@
    "probability_max_absolute_change": 0.17116029350459594,
    "queries": 11,
    "radius": 1,
+   "reference_median_absolute_logit": 0.8168737292289734,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 88
@@ -562,6 +578,7 @@
    "probability_max_absolute_change": 0.07693766276951886,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.7336174249649048,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -595,6 +612,7 @@
    "probability_max_absolute_change": 0.028109380704015474,
    "queries": 11,
    "radius": 2,
+   "reference_median_absolute_logit": 0.8168737292289734,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 88
@@ -628,6 +646,7 @@
    "probability_max_absolute_change": 0.03713787012576042,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.7336174249649048,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -661,6 +680,7 @@
    "probability_max_absolute_change": 0.017797260048801444,
    "queries": 11,
    "radius": 2,
+   "reference_median_absolute_logit": 0.8168737292289734,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 88
@@ -694,6 +714,7 @@
    "probability_max_absolute_change": 0.008586004875253295,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.7336174249649048,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -727,6 +748,7 @@
    "probability_max_absolute_change": 0.002870800775138349,
    "queries": 11,
    "radius": 3,
+   "reference_median_absolute_logit": 0.8168737292289734,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 88
@@ -760,6 +782,7 @@
    "probability_max_absolute_change": 0.004628382938587139,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.7336174249649048,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -793,6 +816,7 @@
    "probability_max_absolute_change": 0.004628382938587139,
    "queries": 11,
    "radius": 3,
+   "reference_median_absolute_logit": 0.8168737292289734,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 88
@@ -826,6 +850,7 @@
    "probability_max_absolute_change": 0.32194619515827005,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 1.0040102005004883,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -859,6 +884,7 @@
    "probability_max_absolute_change": 0.25997542830049264,
    "queries": 9,
    "radius": 1,
+   "reference_median_absolute_logit": 1.0900659561157227,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 72
@@ -892,6 +918,7 @@
    "probability_max_absolute_change": 0.2837118544013623,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 1.0040102005004883,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -925,6 +952,7 @@
    "probability_max_absolute_change": 0.13196605213607104,
    "queries": 9,
    "radius": 1,
+   "reference_median_absolute_logit": 1.0900659561157227,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 72
@@ -958,6 +986,7 @@
    "probability_max_absolute_change": 0.07943812571408071,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 1.0040102005004883,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -991,6 +1020,7 @@
    "probability_max_absolute_change": 0.012703514692616213,
    "queries": 9,
    "radius": 2,
+   "reference_median_absolute_logit": 1.0900659561157227,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 72
@@ -1024,6 +1054,7 @@
    "probability_max_absolute_change": 0.07778423793191824,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 1.0040102005004883,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -1057,6 +1088,7 @@
    "probability_max_absolute_change": 0.011420014985548121,
    "queries": 9,
    "radius": 2,
+   "reference_median_absolute_logit": 1.0900659561157227,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 72
@@ -1090,6 +1122,7 @@
    "probability_max_absolute_change": 0.005573829825020193,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 1.0040102005004883,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -1123,6 +1156,7 @@
    "probability_max_absolute_change": 0.0012969303619563277,
    "queries": 9,
    "radius": 3,
+   "reference_median_absolute_logit": 1.0900659561157227,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 72
@@ -1156,6 +1190,7 @@
    "probability_max_absolute_change": 0.0014142560703247486,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 1.0040102005004883,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -1189,6 +1224,7 @@
    "probability_max_absolute_change": 0.0007282790801934613,
    "queries": 9,
    "radius": 3,
+   "reference_median_absolute_logit": 1.0900659561157227,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 72
@@ -1222,6 +1258,7 @@
    "probability_max_absolute_change": 0.29843760851680406,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 1.0112207531929016,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -1255,6 +1292,7 @@
    "probability_max_absolute_change": 0.2096213927865922,
    "queries": 12,
    "radius": 1,
+   "reference_median_absolute_logit": 1.1743941903114319,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 96
@@ -1288,6 +1326,7 @@
    "probability_max_absolute_change": 0.2753136830734779,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 1.0112207531929016,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -1321,6 +1360,7 @@
    "probability_max_absolute_change": 0.17349509707058197,
    "queries": 12,
    "radius": 1,
+   "reference_median_absolute_logit": 1.1743941903114319,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 96
@@ -1354,6 +1394,7 @@
    "probability_max_absolute_change": 0.0560006012391836,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 1.0112207531929016,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -1387,6 +1428,7 @@
    "probability_max_absolute_change": 0.0329620690899981,
    "queries": 12,
    "radius": 2,
+   "reference_median_absolute_logit": 1.1743941903114319,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 96
@@ -1420,6 +1462,7 @@
    "probability_max_absolute_change": 0.07055947973995091,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 1.0112207531929016,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -1453,6 +1496,7 @@
    "probability_max_absolute_change": 0.05081349802825175,
    "queries": 12,
    "radius": 2,
+   "reference_median_absolute_logit": 1.1743941903114319,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 96
@@ -1486,6 +1530,7 @@
    "probability_max_absolute_change": 0.004755633851943664,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 1.0112207531929016,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -1519,6 +1564,7 @@
    "probability_max_absolute_change": 0.004755633851943664,
    "queries": 12,
    "radius": 3,
+   "reference_median_absolute_logit": 1.1743941903114319,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 96
@@ -1552,6 +1598,7 @@
    "probability_max_absolute_change": 0.005524222524657785,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 1.0112207531929016,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -1585,6 +1632,7 @@
    "probability_max_absolute_change": 0.005524222524657785,
    "queries": 12,
    "radius": 3,
+   "reference_median_absolute_logit": 1.1743941903114319,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 96
@@ -1618,6 +1666,7 @@
    "probability_max_absolute_change": 0.1907489866066414,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.994498074054718,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -1651,6 +1700,7 @@
    "probability_max_absolute_change": 0.1907489866066414,
    "queries": 15,
    "radius": 1,
+   "reference_median_absolute_logit": 1.0973708629608154,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -1684,6 +1734,7 @@
    "probability_max_absolute_change": 0.15986524153226145,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.994498074054718,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -1717,6 +1768,7 @@
    "probability_max_absolute_change": 0.15986524153226145,
    "queries": 15,
    "radius": 1,
+   "reference_median_absolute_logit": 1.0973708629608154,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -1750,6 +1802,7 @@
    "probability_max_absolute_change": 0.06566911500088934,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.994498074054718,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -1783,6 +1836,7 @@
    "probability_max_absolute_change": 0.06566911500088934,
    "queries": 15,
    "radius": 2,
+   "reference_median_absolute_logit": 1.0973708629608154,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -1816,6 +1870,7 @@
    "probability_max_absolute_change": 0.04802690744934124,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.994498074054718,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -1849,6 +1904,7 @@
    "probability_max_absolute_change": 0.04802690744934124,
    "queries": 15,
    "radius": 2,
+   "reference_median_absolute_logit": 1.0973708629608154,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -1882,6 +1938,7 @@
    "probability_max_absolute_change": 0.005159860090332424,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.994498074054718,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -1915,6 +1972,7 @@
    "probability_max_absolute_change": 0.005159860090332424,
    "queries": 15,
    "radius": 3,
+   "reference_median_absolute_logit": 1.0973708629608154,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -1948,6 +2006,7 @@
    "probability_max_absolute_change": 0.003070356555798015,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.994498074054718,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -1981,6 +2040,7 @@
    "probability_max_absolute_change": 0.003070356555798015,
    "queries": 15,
    "radius": 3,
+   "reference_median_absolute_logit": 1.0973708629608154,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -2014,6 +2074,7 @@
    "probability_max_absolute_change": 0.038323983067672374,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -2047,6 +2108,7 @@
    "probability_max_absolute_change": 0.038323983067672374,
    "queries": 18,
    "radius": 1,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -2080,6 +2142,7 @@
    "probability_max_absolute_change": 0.025035463556894233,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -2113,6 +2176,7 @@
    "probability_max_absolute_change": 0.025035463556894233,
    "queries": 18,
    "radius": 1,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -2146,6 +2210,7 @@
    "probability_max_absolute_change": 0.0048859585261972205,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -2179,6 +2244,7 @@
    "probability_max_absolute_change": 0.0048859585261972205,
    "queries": 18,
    "radius": 2,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -2212,6 +2278,7 @@
    "probability_max_absolute_change": 0.0034130017689625314,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -2245,6 +2312,7 @@
    "probability_max_absolute_change": 0.0034130017689625314,
    "queries": 18,
    "radius": 2,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -2278,6 +2346,7 @@
    "probability_max_absolute_change": 0.0003918374333250485,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -2311,6 +2380,7 @@
    "probability_max_absolute_change": 0.0003918374333250485,
    "queries": 18,
    "radius": 3,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -2344,6 +2414,7 @@
    "probability_max_absolute_change": 0.000303418347124107,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -2377,6 +2448,7 @@
    "probability_max_absolute_change": 0.000303418347124107,
    "queries": 18,
    "radius": 3,
+   "reference_median_absolute_logit": 5.298800468444824,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -2410,6 +2482,7 @@
    "probability_max_absolute_change": 0.16330829597341068,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 4.690625786781311,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -2443,6 +2516,7 @@
    "probability_max_absolute_change": 0.16330829597341068,
    "queries": 15,
    "radius": 1,
+   "reference_median_absolute_logit": 3.9403984546661377,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -2476,6 +2550,7 @@
    "probability_max_absolute_change": 0.05364651647374108,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 4.690625786781311,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -2509,6 +2584,7 @@
    "probability_max_absolute_change": 0.05364651647374108,
    "queries": 15,
    "radius": 1,
+   "reference_median_absolute_logit": 3.9403984546661377,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -2542,6 +2618,7 @@
    "probability_max_absolute_change": 0.01069254090247651,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 4.690625786781311,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -2575,6 +2652,7 @@
    "probability_max_absolute_change": 0.00797167419950362,
    "queries": 15,
    "radius": 2,
+   "reference_median_absolute_logit": 3.9403984546661377,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -2608,6 +2686,7 @@
    "probability_max_absolute_change": 0.0051164493125414046,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 4.690625786781311,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -2641,6 +2720,7 @@
    "probability_max_absolute_change": 0.0051164493125414046,
    "queries": 15,
    "radius": 2,
+   "reference_median_absolute_logit": 3.9403984546661377,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -2674,6 +2754,7 @@
    "probability_max_absolute_change": 0.0003644092551818856,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 4.690625786781311,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -2707,6 +2788,7 @@
    "probability_max_absolute_change": 0.0002257184175422644,
    "queries": 15,
    "radius": 3,
+   "reference_median_absolute_logit": 3.9403984546661377,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -2740,6 +2822,7 @@
    "probability_max_absolute_change": 0.00027221291681733817,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 4.690625786781311,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -2773,6 +2856,7 @@
    "probability_max_absolute_change": 0.00027221291681733817,
    "queries": 15,
    "radius": 3,
+   "reference_median_absolute_logit": 3.9403984546661377,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 120
@@ -2806,6 +2890,7 @@
    "probability_max_absolute_change": 0.17890099930619474,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -2839,6 +2924,7 @@
    "probability_max_absolute_change": 0.17890099930619474,
    "queries": 18,
    "radius": 1,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -2872,6 +2958,7 @@
    "probability_max_absolute_change": 0.06441992525245754,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -2905,6 +2992,7 @@
    "probability_max_absolute_change": 0.06441992525245754,
    "queries": 18,
    "radius": 1,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -2938,6 +3026,7 @@
    "probability_max_absolute_change": 0.015409112023065163,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -2971,6 +3060,7 @@
    "probability_max_absolute_change": 0.015409112023065163,
    "queries": 18,
    "radius": 2,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -3004,6 +3094,7 @@
    "probability_max_absolute_change": 0.019148583219968533,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -3037,6 +3128,7 @@
    "probability_max_absolute_change": 0.010810435402498042,
    "queries": 18,
    "radius": 2,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -3070,6 +3162,7 @@
    "probability_max_absolute_change": 0.0005694009454875193,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -3103,6 +3196,7 @@
    "probability_max_absolute_change": 0.0005694009454875193,
    "queries": 18,
    "radius": 3,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -3136,6 +3230,7 @@
    "probability_max_absolute_change": 4.676414072279922e-05,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -3169,6 +3264,7 @@
    "probability_max_absolute_change": 4.676414072279922e-05,
    "queries": 18,
    "radius": 3,
+   "reference_median_absolute_logit": 6.076592445373535,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 144
@@ -3202,6 +3298,7 @@
    "probability_max_absolute_change": 0.13849473801298534,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 6.02824592590332,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -3235,6 +3332,7 @@
    "probability_max_absolute_change": 0.13849473801298534,
    "queries": 17,
    "radius": 1,
+   "reference_median_absolute_logit": 6.279583930969238,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3268,6 +3366,7 @@
    "probability_max_absolute_change": 0.05215885422156019,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 6.02824592590332,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -3301,6 +3400,7 @@
    "probability_max_absolute_change": 0.05215885422156019,
    "queries": 17,
    "radius": 1,
+   "reference_median_absolute_logit": 6.279583930969238,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3334,6 +3434,7 @@
    "probability_max_absolute_change": 0.017993481808618678,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 6.02824592590332,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -3367,6 +3468,7 @@
    "probability_max_absolute_change": 0.017993481808618678,
    "queries": 17,
    "radius": 2,
+   "reference_median_absolute_logit": 6.279583930969238,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3400,6 +3502,7 @@
    "probability_max_absolute_change": 0.00713355336979371,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 6.02824592590332,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -3433,6 +3536,7 @@
    "probability_max_absolute_change": 0.00713355336979371,
    "queries": 17,
    "radius": 2,
+   "reference_median_absolute_logit": 6.279583930969238,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3466,6 +3570,7 @@
    "probability_max_absolute_change": 0.0012594490462149444,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 6.02824592590332,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -3499,6 +3604,7 @@
    "probability_max_absolute_change": 0.0012594490462149444,
    "queries": 17,
    "radius": 3,
+   "reference_median_absolute_logit": 6.279583930969238,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3532,6 +3638,7 @@
    "probability_max_absolute_change": 0.00021828027827042185,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 6.02824592590332,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -3565,6 +3672,7 @@
    "probability_max_absolute_change": 0.00021828027827042185,
    "queries": 17,
    "radius": 3,
+   "reference_median_absolute_logit": 6.279583930969238,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3598,6 +3706,7 @@
    "probability_max_absolute_change": 0.18607475247580302,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 6.09901237487793,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -3631,6 +3740,7 @@
    "probability_max_absolute_change": 0.18607475247580302,
    "queries": 17,
    "radius": 1,
+   "reference_median_absolute_logit": 6.023690223693848,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3664,6 +3774,7 @@
    "probability_max_absolute_change": 0.09747241521462646,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 6.09901237487793,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -3697,6 +3808,7 @@
    "probability_max_absolute_change": 0.09747241521462646,
    "queries": 17,
    "radius": 1,
+   "reference_median_absolute_logit": 6.023690223693848,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3730,6 +3842,7 @@
    "probability_max_absolute_change": 0.009829659785972611,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 6.09901237487793,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -3763,6 +3876,7 @@
    "probability_max_absolute_change": 0.009829659785972611,
    "queries": 17,
    "radius": 2,
+   "reference_median_absolute_logit": 6.023690223693848,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3796,6 +3910,7 @@
    "probability_max_absolute_change": 0.005631527468109354,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 6.09901237487793,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -3829,6 +3944,7 @@
    "probability_max_absolute_change": 0.005631527468109354,
    "queries": 17,
    "radius": 2,
+   "reference_median_absolute_logit": 6.023690223693848,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3862,6 +3978,7 @@
    "probability_max_absolute_change": 0.0010582565711497738,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 6.09901237487793,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -3895,6 +4012,7 @@
    "probability_max_absolute_change": 0.0010582565711497738,
    "queries": 17,
    "radius": 3,
+   "reference_median_absolute_logit": 6.023690223693848,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3928,6 +4046,7 @@
    "probability_max_absolute_change": 0.0014439699567179165,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 6.09901237487793,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -3961,6 +4080,7 @@
    "probability_max_absolute_change": 0.0014439699567179165,
    "queries": 17,
    "radius": 3,
+   "reference_median_absolute_logit": 6.023690223693848,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -3994,6 +4114,7 @@
    "probability_max_absolute_change": 0.1287940678184083,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.7613805532455444,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -4027,6 +4148,7 @@
    "probability_max_absolute_change": 0.09646703682263347,
    "queries": 7,
    "radius": 1,
+   "reference_median_absolute_logit": 1.1091020107269287,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -4060,6 +4182,7 @@
    "probability_max_absolute_change": 0.12588236805585562,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.7613805532455444,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -4093,6 +4216,7 @@
    "probability_max_absolute_change": 0.08848988016077364,
    "queries": 7,
    "radius": 1,
+   "reference_median_absolute_logit": 1.1091020107269287,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -4126,6 +4250,7 @@
    "probability_max_absolute_change": 0.02134014744024937,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.7613805532455444,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -4159,6 +4284,7 @@
    "probability_max_absolute_change": 0.02134014744024937,
    "queries": 7,
    "radius": 2,
+   "reference_median_absolute_logit": 1.1091020107269287,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -4192,6 +4318,7 @@
    "probability_max_absolute_change": 0.016075868456814968,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.7613805532455444,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -4225,6 +4352,7 @@
    "probability_max_absolute_change": 0.016075868456814968,
    "queries": 7,
    "radius": 2,
+   "reference_median_absolute_logit": 1.1091020107269287,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -4258,6 +4386,7 @@
    "probability_max_absolute_change": 2.647288787516189e-06,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.7613805532455444,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -4291,6 +4420,7 @@
    "probability_max_absolute_change": 6.225625750477803e-07,
    "queries": 7,
    "radius": 3,
+   "reference_median_absolute_logit": 1.1091020107269287,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -4324,6 +4454,7 @@
    "probability_max_absolute_change": 6.225625750477803e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.7613805532455444,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -4357,6 +4488,7 @@
    "probability_max_absolute_change": 6.225625750477803e-07,
    "queries": 7,
    "radius": 3,
+   "reference_median_absolute_logit": 1.1091020107269287,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -4390,6 +4522,7 @@
    "probability_max_absolute_change": 0.27587020798868145,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 1.064086377620697,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -4423,6 +4556,7 @@
    "probability_max_absolute_change": 0.055079751756879736,
    "queries": 5,
    "radius": 1,
+   "reference_median_absolute_logit": 1.869823694229126,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 40
@@ -4456,6 +4590,7 @@
    "probability_max_absolute_change": 0.19672140856468512,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 1.064086377620697,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -4489,6 +4624,7 @@
    "probability_max_absolute_change": 0.050207774122352444,
    "queries": 5,
    "radius": 1,
+   "reference_median_absolute_logit": 1.869823694229126,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 40
@@ -4522,6 +4658,7 @@
    "probability_max_absolute_change": 0.026485819969587876,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 1.064086377620697,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -4555,6 +4692,7 @@
    "probability_max_absolute_change": 0.026485819969587876,
    "queries": 5,
    "radius": 2,
+   "reference_median_absolute_logit": 1.869823694229126,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 40
@@ -4588,6 +4726,7 @@
    "probability_max_absolute_change": 0.05295789211715307,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 1.064086377620697,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -4621,6 +4760,7 @@
    "probability_max_absolute_change": 0.021671204856514525,
    "queries": 5,
    "radius": 2,
+   "reference_median_absolute_logit": 1.869823694229126,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 40
@@ -4654,6 +4794,7 @@
    "probability_max_absolute_change": 3.3520507886075634e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 1.064086377620697,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -4687,6 +4828,7 @@
    "probability_max_absolute_change": 3.1229128394372196e-08,
    "queries": 5,
    "radius": 3,
+   "reference_median_absolute_logit": 1.869823694229126,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 40
@@ -4720,6 +4862,7 @@
    "probability_max_absolute_change": 1.0931516702950006e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 1.064086377620697,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -4753,6 +4896,7 @@
    "probability_max_absolute_change": 3.1229128394372196e-08,
    "queries": 5,
    "radius": 3,
+   "reference_median_absolute_logit": 1.869823694229126,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 40
@@ -4786,6 +4930,7 @@
    "probability_max_absolute_change": 0.15978511330723763,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.334320992231369,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -4819,6 +4964,7 @@
    "probability_max_absolute_change": 0.04857041835615983,
    "queries": 6,
    "radius": 1,
+   "reference_median_absolute_logit": 1.2318271398544312,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 48
@@ -4852,6 +4998,7 @@
    "probability_max_absolute_change": 0.1815191262871188,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.334320992231369,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -4885,6 +5032,7 @@
    "probability_max_absolute_change": 0.04611462795358168,
    "queries": 6,
    "radius": 1,
+   "reference_median_absolute_logit": 1.2318271398544312,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 48
@@ -4918,6 +5066,7 @@
    "probability_max_absolute_change": 0.029175091790521912,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.334320992231369,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -4951,6 +5100,7 @@
    "probability_max_absolute_change": 0.0026110879225458294,
    "queries": 6,
    "radius": 2,
+   "reference_median_absolute_logit": 1.2318271398544312,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 48
@@ -4984,6 +5134,7 @@
    "probability_max_absolute_change": 0.03741034998197407,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.334320992231369,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -5017,6 +5168,7 @@
    "probability_max_absolute_change": 0.005419840923484687,
    "queries": 6,
    "radius": 2,
+   "reference_median_absolute_logit": 1.2318271398544312,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 48
@@ -5050,6 +5202,7 @@
    "probability_max_absolute_change": 1.1045477532611869e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.334320992231369,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -5083,6 +5236,7 @@
    "probability_max_absolute_change": 1.1045477532611869e-07,
    "queries": 6,
    "radius": 3,
+   "reference_median_absolute_logit": 1.2318271398544312,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 48
@@ -5116,6 +5270,7 @@
    "probability_max_absolute_change": 1.6575609296243243e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.334320992231369,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -5149,6 +5304,7 @@
    "probability_max_absolute_change": 1.6575609296243243e-07,
    "queries": 6,
    "radius": 3,
+   "reference_median_absolute_logit": 1.2318271398544312,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 48
@@ -5182,6 +5338,7 @@
    "probability_max_absolute_change": 0.11646743635881251,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 1.5659749507904053,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -5215,6 +5372,7 @@
    "probability_max_absolute_change": 0.11646743635881251,
    "queries": 13,
    "radius": 1,
+   "reference_median_absolute_logit": 1.7865952253341675,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 104
@@ -5248,6 +5406,7 @@
    "probability_max_absolute_change": 0.10938358180006902,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 1.5659749507904053,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -5281,6 +5440,7 @@
    "probability_max_absolute_change": 0.09133301852242837,
    "queries": 13,
    "radius": 1,
+   "reference_median_absolute_logit": 1.7865952253341675,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 104
@@ -5314,6 +5474,7 @@
    "probability_max_absolute_change": 0.01580913988963395,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 1.5659749507904053,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -5347,6 +5508,7 @@
    "probability_max_absolute_change": 0.01580913988963395,
    "queries": 13,
    "radius": 2,
+   "reference_median_absolute_logit": 1.7865952253341675,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 104
@@ -5380,6 +5542,7 @@
    "probability_max_absolute_change": 0.013068156392239572,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 1.5659749507904053,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -5413,6 +5576,7 @@
    "probability_max_absolute_change": 0.008123760304621808,
    "queries": 13,
    "radius": 2,
+   "reference_median_absolute_logit": 1.7865952253341675,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 104
@@ -5446,6 +5610,7 @@
    "probability_max_absolute_change": 1.0428442642762548e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 1.5659749507904053,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -5479,6 +5644,7 @@
    "probability_max_absolute_change": 7.776320176677842e-08,
    "queries": 13,
    "radius": 3,
+   "reference_median_absolute_logit": 1.7865952253341675,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 104
@@ -5512,6 +5678,7 @@
    "probability_max_absolute_change": 1.0428442642762548e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 1.5659749507904053,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -5545,6 +5712,7 @@
    "probability_max_absolute_change": 7.776320176677842e-08,
    "queries": 13,
    "radius": 3,
+   "reference_median_absolute_logit": 1.7865952253341675,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 104
@@ -5578,6 +5746,7 @@
    "probability_max_absolute_change": 0.08640510164662457,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.216646209359169,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -5611,6 +5780,7 @@
    "probability_max_absolute_change": 0.03795603523699509,
    "queries": 7,
    "radius": 1,
+   "reference_median_absolute_logit": 0.8570719957351685,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -5644,6 +5814,7 @@
    "probability_max_absolute_change": 0.0625844363642527,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 0.216646209359169,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -5677,6 +5848,7 @@
    "probability_max_absolute_change": 0.04521473124463771,
    "queries": 7,
    "radius": 1,
+   "reference_median_absolute_logit": 0.8570719957351685,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -5710,6 +5882,7 @@
    "probability_max_absolute_change": 0.006997092876105504,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.216646209359169,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -5743,6 +5916,7 @@
    "probability_max_absolute_change": 0.006997092876105504,
    "queries": 7,
    "radius": 2,
+   "reference_median_absolute_logit": 0.8570719957351685,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -5776,6 +5950,7 @@
    "probability_max_absolute_change": 0.01296636761194292,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 0.216646209359169,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -5809,6 +5984,7 @@
    "probability_max_absolute_change": 0.008340983400378255,
    "queries": 7,
    "radius": 2,
+   "reference_median_absolute_logit": 0.8570719957351685,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -5842,6 +6018,7 @@
    "probability_max_absolute_change": 6.233938292243835e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.216646209359169,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -5875,6 +6052,7 @@
    "probability_max_absolute_change": 6.233938292243835e-07,
    "queries": 7,
    "radius": 3,
+   "reference_median_absolute_logit": 0.8570719957351685,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -5908,6 +6086,7 @@
    "probability_max_absolute_change": 4.215037013866052e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 0.216646209359169,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -5941,6 +6120,7 @@
    "probability_max_absolute_change": 4.215037013866052e-07,
    "queries": 7,
    "radius": 3,
+   "reference_median_absolute_logit": 0.8570719957351685,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 56
@@ -5974,6 +6154,7 @@
    "probability_max_absolute_change": 0.023968549571861897,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 4.427488565444946,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -6007,6 +6188,7 @@
    "probability_max_absolute_change": 0.023968549571861897,
    "queries": 19,
    "radius": 1,
+   "reference_median_absolute_logit": 4.382742404937744,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6040,6 +6222,7 @@
    "probability_max_absolute_change": 0.02168866216581014,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 4.427488565444946,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -6073,6 +6256,7 @@
    "probability_max_absolute_change": 0.02168866216581014,
    "queries": 19,
    "radius": 1,
+   "reference_median_absolute_logit": 4.382742404937744,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6106,6 +6290,7 @@
    "probability_max_absolute_change": 0.0007019758763401884,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 4.427488565444946,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -6139,6 +6324,7 @@
    "probability_max_absolute_change": 0.0007019758763401884,
    "queries": 19,
    "radius": 2,
+   "reference_median_absolute_logit": 4.382742404937744,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6172,6 +6358,7 @@
    "probability_max_absolute_change": 0.0012495781390925442,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 4.427488565444946,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -6205,6 +6392,7 @@
    "probability_max_absolute_change": 0.0012495781390925442,
    "queries": 19,
    "radius": 2,
+   "reference_median_absolute_logit": 4.382742404937744,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6238,6 +6426,7 @@
    "probability_max_absolute_change": 1.637464089876417e-06,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 4.427488565444946,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -6271,6 +6460,7 @@
    "probability_max_absolute_change": 1.637464089876417e-06,
    "queries": 19,
    "radius": 3,
+   "reference_median_absolute_logit": 4.382742404937744,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6304,6 +6494,7 @@
    "probability_max_absolute_change": 3.7577388594112193e-06,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 4.427488565444946,
    "seed": 52000,
    "stratum": "all",
    "total_draws": 160
@@ -6337,6 +6528,7 @@
    "probability_max_absolute_change": 3.7577388594112193e-06,
    "queries": 19,
    "radius": 3,
+   "reference_median_absolute_logit": 4.382742404937744,
    "seed": 52000,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6370,6 +6562,7 @@
    "probability_max_absolute_change": 0.02898286056037558,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 2.4259936809539795,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -6403,6 +6596,7 @@
    "probability_max_absolute_change": 0.02898286056037558,
    "queries": 19,
    "radius": 1,
+   "reference_median_absolute_logit": 2.3148984909057617,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6436,6 +6630,7 @@
    "probability_max_absolute_change": 0.014792801344783696,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 2.4259936809539795,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -6469,6 +6664,7 @@
    "probability_max_absolute_change": 0.014792801344783696,
    "queries": 19,
    "radius": 1,
+   "reference_median_absolute_logit": 2.3148984909057617,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6502,6 +6698,7 @@
    "probability_max_absolute_change": 0.0019375704487163414,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 2.4259936809539795,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -6535,6 +6732,7 @@
    "probability_max_absolute_change": 0.0019375704487163414,
    "queries": 19,
    "radius": 2,
+   "reference_median_absolute_logit": 2.3148984909057617,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6568,6 +6766,7 @@
    "probability_max_absolute_change": 0.0023786886254709705,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 2.4259936809539795,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -6601,6 +6800,7 @@
    "probability_max_absolute_change": 0.0023786886254709705,
    "queries": 19,
    "radius": 2,
+   "reference_median_absolute_logit": 2.3148984909057617,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6634,6 +6834,7 @@
    "probability_max_absolute_change": 1.3007834465394996e-05,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 2.4259936809539795,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -6667,6 +6868,7 @@
    "probability_max_absolute_change": 1.3007834465394996e-05,
    "queries": 19,
    "radius": 3,
+   "reference_median_absolute_logit": 2.3148984909057617,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6700,6 +6902,7 @@
    "probability_max_absolute_change": 9.973090725479139e-08,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 2.4259936809539795,
    "seed": 52001,
    "stratum": "all",
    "total_draws": 160
@@ -6733,6 +6936,7 @@
    "probability_max_absolute_change": 9.973090725479139e-08,
    "queries": 19,
    "radius": 3,
+   "reference_median_absolute_logit": 2.3148984909057617,
    "seed": 52001,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6766,6 +6970,7 @@
    "probability_max_absolute_change": 0.0163654786043389,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 2.973242402076721,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -6799,6 +7004,7 @@
    "probability_max_absolute_change": 0.0163654786043389,
    "queries": 19,
    "radius": 1,
+   "reference_median_absolute_logit": 2.907773733139038,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6832,6 +7038,7 @@
    "probability_max_absolute_change": 0.014088262761870474,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 2.973242402076721,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -6865,6 +7072,7 @@
    "probability_max_absolute_change": 0.014088262761870474,
    "queries": 19,
    "radius": 1,
+   "reference_median_absolute_logit": 2.907773733139038,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6898,6 +7106,7 @@
    "probability_max_absolute_change": 0.0004190405301985889,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 2.973242402076721,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -6931,6 +7140,7 @@
    "probability_max_absolute_change": 0.0004190405301985889,
    "queries": 19,
    "radius": 2,
+   "reference_median_absolute_logit": 2.907773733139038,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -6964,6 +7174,7 @@
    "probability_max_absolute_change": 0.00020818082306495178,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 2.973242402076721,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -6997,6 +7208,7 @@
    "probability_max_absolute_change": 0.00020818082306495178,
    "queries": 19,
    "radius": 2,
+   "reference_median_absolute_logit": 2.907773733139038,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -7030,6 +7242,7 @@
    "probability_max_absolute_change": 8.833654729922813e-08,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 2.973242402076721,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -7063,6 +7276,7 @@
    "probability_max_absolute_change": 8.833654729922813e-08,
    "queries": 19,
    "radius": 3,
+   "reference_median_absolute_logit": 2.907773733139038,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -7096,6 +7310,7 @@
    "probability_max_absolute_change": 8.833654729922813e-08,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 2.973242402076721,
    "seed": 52002,
    "stratum": "all",
    "total_draws": 160
@@ -7129,6 +7344,7 @@
    "probability_max_absolute_change": 8.833654729922813e-08,
    "queries": 19,
    "radius": 3,
+   "reference_median_absolute_logit": 2.907773733139038,
    "seed": 52002,
    "stratum": "reach_at_most_one",
    "total_draws": 152
@@ -7162,6 +7378,7 @@
    "probability_max_absolute_change": 0.02403555876945207,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -7195,6 +7412,7 @@
    "probability_max_absolute_change": 0.02403555876945207,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 160
@@ -7228,6 +7446,7 @@
    "probability_max_absolute_change": 0.012381092647400171,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -7261,6 +7480,7 @@
    "probability_max_absolute_change": 0.012381092647400171,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 160
@@ -7294,6 +7514,7 @@
    "probability_max_absolute_change": 0.0004126159623537018,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -7327,6 +7548,7 @@
    "probability_max_absolute_change": 0.0004126159623537018,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 160
@@ -7360,6 +7582,7 @@
    "probability_max_absolute_change": 0.0004081576655282082,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -7393,6 +7616,7 @@
    "probability_max_absolute_change": 0.0004081576655282082,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 160
@@ -7426,6 +7650,7 @@
    "probability_max_absolute_change": 5.031502192665016e-08,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -7459,6 +7684,7 @@
    "probability_max_absolute_change": 5.031502192665016e-08,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 160
@@ -7492,6 +7718,7 @@
    "probability_max_absolute_change": 5.031502192665016e-08,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "all",
    "total_draws": 160
@@ -7525,6 +7752,7 @@
    "probability_max_absolute_change": 5.031502192665016e-08,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 5.408416032791138,
    "seed": 52003,
    "stratum": "reach_at_most_one",
    "total_draws": 160
@@ -7558,6 +7786,7 @@
    "probability_max_absolute_change": 0.026843359176353276,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 4.809922695159912,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -7591,6 +7820,7 @@
    "probability_max_absolute_change": 0.026843359176353276,
    "queries": 17,
    "radius": 1,
+   "reference_median_absolute_logit": 4.831223487854004,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -7624,6 +7854,7 @@
    "probability_max_absolute_change": 0.020214682236488812,
    "queries": 20,
    "radius": 1,
+   "reference_median_absolute_logit": 4.809922695159912,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -7657,6 +7888,7 @@
    "probability_max_absolute_change": 0.020214682236488812,
    "queries": 17,
    "radius": 1,
+   "reference_median_absolute_logit": 4.831223487854004,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -7690,6 +7922,7 @@
    "probability_max_absolute_change": 0.0004212813095664236,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 4.809922695159912,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -7723,6 +7956,7 @@
    "probability_max_absolute_change": 0.0004212813095664236,
    "queries": 17,
    "radius": 2,
+   "reference_median_absolute_logit": 4.831223487854004,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -7756,6 +7990,7 @@
    "probability_max_absolute_change": 0.0014302179579674945,
    "queries": 20,
    "radius": 2,
+   "reference_median_absolute_logit": 4.809922695159912,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -7789,6 +8024,7 @@
    "probability_max_absolute_change": 0.0014302179579674945,
    "queries": 17,
    "radius": 2,
+   "reference_median_absolute_logit": 4.831223487854004,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -7822,6 +8058,7 @@
    "probability_max_absolute_change": 7.03038097182862e-08,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 4.809922695159912,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -7855,6 +8092,7 @@
    "probability_max_absolute_change": 7.03038097182862e-08,
    "queries": 17,
    "radius": 3,
+   "reference_median_absolute_logit": 4.831223487854004,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -7888,6 +8126,7 @@
    "probability_max_absolute_change": 9.88808674384778e-07,
    "queries": 20,
    "radius": 3,
+   "reference_median_absolute_logit": 4.809922695159912,
    "seed": 52004,
    "stratum": "all",
    "total_draws": 160
@@ -7921,6 +8160,7 @@
    "probability_max_absolute_change": 9.88808674384778e-07,
    "queries": 17,
    "radius": 3,
+   "reference_median_absolute_logit": 4.831223487854004,
    "seed": 52004,
    "stratum": "reach_at_most_one",
    "total_draws": 136
@@ -7933,6 +8173,11 @@
     0.16750000000000004,
     0.08402608440984706,
     0.25097391559015303
+   ],
+   "logit_RMSE": [
+    0.6264569110033461,
+    0.40184884636194257,
+    0.8510649756447497
    ],
    "mean_probability_drift": [
     -0.10877102822460523,
@@ -7948,6 +8193,11 @@
    ],
    "queries": 100,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    0.8950667262077332,
+    0.7109946478484124,
+    1.079138804567054
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -7957,6 +8207,11 @@
     0.07386363636363637,
     -0.010271063793872534,
     0.15799833652114526
+   ],
+   "logit_RMSE": [
+    0.6041382814066408,
+    0.3960216142883138,
+    0.8122549485249679
    ],
    "mean_probability_drift": [
     -0.11199988938243285,
@@ -7972,6 +8227,11 @@
    ],
    "queries": 51,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    0.9902083456516266,
+    0.7638875423235876,
+    1.2165291489796657
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -7981,6 +8241,11 @@
     0.09,
     0.06278322505834315,
     0.11721677494165685
+   ],
+   "logit_RMSE": [
+    0.4176871169688952,
+    0.2919415352896876,
+    0.5434326986481028
    ],
    "mean_probability_drift": [
     -0.07017110641540451,
@@ -7996,6 +8261,11 @@
    ],
    "queries": 100,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    0.8950667262077332,
+    0.7109946478484124,
+    1.079138804567054
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8005,6 +8275,11 @@
     0.016666666666666666,
     -0.029607418419963224,
     0.06294075175329655
+   ],
+   "logit_RMSE": [
+    0.35941739941833023,
+    0.27983868001579953,
+    0.4389961188208609
    ],
    "mean_probability_drift": [
     -0.05884548850543329,
@@ -8020,6 +8295,11 @@
    ],
    "queries": 51,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    0.9902083456516266,
+    0.7638875423235876,
+    1.2165291489796657
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8029,6 +8309,11 @@
     0.015,
     -0.007357495527938185,
     0.037357495527938184
+   ],
+   "logit_RMSE": [
+    0.08647514776990879,
+    0.05406293347420758,
+    0.11888736206561
    ],
    "mean_probability_drift": [
     -0.007653901372844063,
@@ -8044,6 +8329,11 @@
    ],
    "queries": 100,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    0.8950667262077332,
+    0.7109946478484124,
+    1.079138804567054
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8053,6 +8343,11 @@
     0.010416666666666668,
     -0.018504636512477017,
     0.03933796984581035
+   ],
+   "logit_RMSE": [
+    0.05438482168489485,
+    0.003727489707775117,
+    0.10504215366201458
    ],
    "mean_probability_drift": [
     -0.004586774127043757,
@@ -8068,6 +8363,11 @@
    ],
    "queries": 51,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    0.9902083456516266,
+    0.7638875423235876,
+    1.2165291489796657
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8077,6 +8377,11 @@
     0.009722222222222222,
     -0.01727099407831188,
     0.03671543852275633
+   ],
+   "logit_RMSE": [
+    0.06358971669865557,
+    0.04011385760741596,
+    0.08706557578989518
    ],
    "mean_probability_drift": [
     -0.004969584312080083,
@@ -8092,6 +8397,11 @@
    ],
    "queries": 100,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    0.8950667262077332,
+    0.7109946478484124,
+    1.079138804567054
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8101,6 +8411,11 @@
     0.015909090909090907,
     -0.02826162667360125,
     0.060079808491783064
+   ],
+   "logit_RMSE": [
+    0.04673397363854957,
+    0.00833959130255265,
+    0.08512835597454649
    ],
    "mean_probability_drift": [
     -0.003604273321532995,
@@ -8116,6 +8431,11 @@
    ],
    "queries": 51,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    0.9902083456516266,
+    0.7638875423235876,
+    1.2165291489796657
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8125,6 +8445,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.00410565362881927,
+    0.001612538713446804,
+    0.0065987685441917365
    ],
    "mean_probability_drift": [
     -6.208049151379329e-05,
@@ -8140,6 +8465,11 @@
    ],
    "queries": 100,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    0.8950667262077332,
+    0.7109946478484124,
+    1.079138804567054
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8149,6 +8479,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.0027629011488316127,
+    2.1892003998204464e-05,
+    0.005503910293665021
    ],
    "mean_probability_drift": [
     -4.6584431441003576e-05,
@@ -8164,6 +8499,11 @@
    ],
    "queries": 51,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    0.9902083456516266,
+    0.7638875423235876,
+    1.2165291489796657
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8173,6 +8513,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.003622670022407762,
+    -0.00018887928915568277,
+    0.007434219333971207
    ],
    "mean_probability_drift": [
     5.5882260165993896e-05,
@@ -8188,6 +8533,11 @@
    ],
    "queries": 100,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    0.8950667262077332,
+    0.7109946478484124,
+    1.079138804567054
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8197,6 +8547,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.003876787539080738,
+    -0.0016525438455481786,
+    0.009406118923709655
    ],
    "mean_probability_drift": [
     7.191494025465596e-05,
@@ -8212,6 +8567,11 @@
    ],
    "queries": 51,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    0.9902083456516266,
+    0.7638875423235876,
+    1.2165291489796657
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8221,6 +8581,11 @@
     0.11875,
     0.028082752385132415,
     0.20941724761486757
+   ],
+   "logit_RMSE": [
+    0.26563742558313025,
+    0.1160466151946846,
+    0.4152282359715759
    ],
    "mean_probability_drift": [
     0.010988339108363259,
@@ -8236,6 +8601,11 @@
    ],
    "queries": 100,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    0.788481816649437,
+    0.10431313924520957,
+    1.4726504940536644
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8245,6 +8615,11 @@
     0.014285714285714285,
     -0.025377787217111335,
     0.0539492157885399
+   ],
+   "logit_RMSE": [
+    0.23491884892985837,
+    0.12569646247913216,
+    0.3441412353805846
    ],
    "mean_probability_drift": [
     0.02831904163916007,
@@ -8260,6 +8635,11 @@
    ],
    "queries": 38,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    1.3708840131759643,
+    0.8248249340267644,
+    1.9169430923251642
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8269,6 +8649,11 @@
     0.11500000000000002,
     0.01432395079264008,
     0.21567604920735994
+   ],
+   "logit_RMSE": [
+    0.21286360018232137,
+    0.10126670288933047,
+    0.32446049747531225
    ],
    "mean_probability_drift": [
     0.0072960583580933686,
@@ -8284,6 +8669,11 @@
    ],
    "queries": 100,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    0.788481816649437,
+    0.10431313924520957,
+    1.4726504940536644
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8293,6 +8683,11 @@
     0.010714285714285714,
     -0.019033340412833503,
     0.040461911841404935
+   ],
+   "logit_RMSE": [
+    0.18595750812096173,
+    0.09647744037102199,
+    0.27543757587090145
    ],
    "mean_probability_drift": [
     0.021344683048276802,
@@ -8308,6 +8703,11 @@
    ],
    "queries": 38,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    1.3708840131759643,
+    0.8248249340267644,
+    1.9169430923251642
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8317,6 +8717,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.019916584409599918,
+    0.007161719223090146,
+    0.03267144959610969
    ],
    "mean_probability_drift": [
     0.0004580255349933973,
@@ -8332,6 +8737,11 @@
    ],
    "queries": 100,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    0.788481816649437,
+    0.10431313924520957,
+    1.4726504940536644
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8341,6 +8751,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.02350805750018741,
+    0.0016764174155996063,
+    0.04533969758477521
    ],
    "mean_probability_drift": [
     0.0017009467335824303,
@@ -8356,6 +8771,11 @@
    ],
    "queries": 38,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    1.3708840131759643,
+    0.8248249340267644,
+    1.9169430923251642
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8365,6 +8785,11 @@
     0.0025,
     -0.004441112762994482,
     0.009441112762994483
+   ],
+   "logit_RMSE": [
+    0.02017972099291946,
+    0.007680370841708285,
+    0.032679071144130635
    ],
    "mean_probability_drift": [
     0.00042740648550410683,
@@ -8380,6 +8805,11 @@
    ],
    "queries": 100,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    0.788481816649437,
+    0.10431313924520957,
+    1.4726504940536644
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8389,6 +8819,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.018777389893796213,
+    0.004292121154106664,
+    0.033262658633485764
    ],
    "mean_probability_drift": [
     0.0013648130101845085,
@@ -8404,6 +8839,11 @@
    ],
    "queries": 38,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    1.3708840131759643,
+    0.8248249340267644,
+    1.9169430923251642
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8413,6 +8853,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    3.8223663522601077e-07,
+    -4.168663387368496e-08,
+    8.061599043257064e-07
    ],
    "mean_probability_drift": [
     3.8091571157722324e-09,
@@ -8428,6 +8873,11 @@
    ],
    "queries": 100,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    0.788481816649437,
+    0.10431313924520957,
+    1.4726504940536644
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8437,6 +8887,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    3.00117684866247e-07,
+    4.218132786311585e-08,
+    5.580540418693781e-07
    ],
    "mean_probability_drift": [
     -1.1582379392843567e-09,
@@ -8452,6 +8907,11 @@
    ],
    "queries": 38,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    1.3708840131759643,
+    0.8248249340267644,
+    1.9169430923251642
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8461,6 +8921,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    2.5507043830955324e-07,
+    1.1281325539492294e-07,
+    3.9732762122418355e-07
    ],
    "mean_probability_drift": [
     -2.4658053777992797e-09,
@@ -8476,6 +8941,11 @@
    ],
    "queries": 100,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    0.788481816649437,
+    0.10431313924520957,
+    1.4726504940536644
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8485,6 +8955,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    3.118507880405537e-07,
+    3.063604541585312e-08,
+    5.930655306652543e-07
    ],
    "mean_probability_drift": [
     -1.1455260442857817e-08,
@@ -8500,6 +8975,11 @@
    ],
    "queries": 38,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    1.3708840131759643,
+    0.8248249340267644,
+    1.9169430923251642
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8509,6 +8989,11 @@
     0.008749999999999999,
     -0.01554389467048069,
     0.03304389467048069
+   ],
+   "logit_RMSE": [
+    0.6669745800738649,
+    0.5887021871906399,
+    0.7452469729570899
    ],
    "mean_probability_drift": [
     -0.011455450369701602,
@@ -8524,6 +9009,11 @@
    ],
    "queries": 100,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    5.638655400276184,
+    4.860814669007347,
+    6.416496131545021
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8533,6 +9023,11 @@
     0.010294117647058823,
     -0.018286934906447873,
     0.03887517020056552
+   ],
+   "logit_RMSE": [
+    0.6715717603456597,
+    0.5824815167995057,
+    0.7606620038918137
    ],
    "mean_probability_drift": [
     -0.012967485420632464,
@@ -8548,6 +9043,11 @@
    ],
    "queries": 85,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    5.523813104629516,
+    4.3321286591850106,
+    6.715497550074022
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8557,6 +9057,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.22733804286102743,
+    0.18601697234269376,
+    0.2686591133793611
    ],
    "mean_probability_drift": [
     -0.0037453551355221106,
@@ -8572,6 +9077,11 @@
    ],
    "queries": 100,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    5.638655400276184,
+    4.860814669007347,
+    6.416496131545021
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8581,6 +9091,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.22466605893606667,
+    0.17258227820204858,
+    0.27674983967008476
    ],
    "mean_probability_drift": [
     -0.004318845031078411,
@@ -8596,6 +9111,11 @@
    ],
    "queries": 85,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    5.523813104629516,
+    4.3321286591850106,
+    6.715497550074022
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8605,6 +9125,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.047026641077080746,
+    0.04440246933594663,
+    0.04965081281821486
    ],
    "mean_probability_drift": [
     -0.0006339167351247356,
@@ -8620,6 +9145,11 @@
    ],
    "queries": 100,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    5.638655400276184,
+    4.860814669007347,
+    6.416496131545021
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8629,6 +9159,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.04359584502485249,
+    0.035631169811186844,
+    0.051560520238518134
    ],
    "mean_probability_drift": [
     -0.0007506250746751205,
@@ -8644,6 +9179,11 @@
    ],
    "queries": 85,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    5.523813104629516,
+    4.3321286591850106,
+    6.715497550074022
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8653,6 +9193,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.027460369505239373,
+    0.015299853788768707,
+    0.03962088522171004
    ],
    "mean_probability_drift": [
     -0.0003399375245565968,
@@ -8668,6 +9213,11 @@
    ],
    "queries": 100,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    5.638655400276184,
+    4.860814669007347,
+    6.416496131545021
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8677,6 +9227,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.02454690002688873,
+    0.01652458738348444,
+    0.03256921267029302
    ],
    "mean_probability_drift": [
     -0.0003473065400254525,
@@ -8692,6 +9247,11 @@
    ],
    "queries": 85,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    5.523813104629516,
+    4.3321286591850106,
+    6.715497550074022
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8701,6 +9261,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.0018084568530326805,
+    0.0016726964112750722,
+    0.0019442172947902888
    ],
    "mean_probability_drift": [
     -1.4800694167965667e-05,
@@ -8716,6 +9281,11 @@
    ],
    "queries": 100,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    5.638655400276184,
+    4.860814669007347,
+    6.416496131545021
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8725,6 +9295,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.0017133692077540002,
+    0.0012696490662745153,
+    0.002157089349233485
    ],
    "mean_probability_drift": [
     -1.658081410044069e-05,
@@ -8740,6 +9315,11 @@
    ],
    "queries": 85,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    5.523813104629516,
+    4.3321286591850106,
+    6.715497550074022
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8749,6 +9329,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.0013572883311693939,
+    0.0008714195285056511,
+    0.0018431571338331366
    ],
    "mean_probability_drift": [
     -2.37811450843245e-05,
@@ -8764,6 +9349,11 @@
    ],
    "queries": 100,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    5.638655400276184,
+    4.860814669007347,
+    6.416496131545021
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8773,6 +9363,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.0013838690261908687,
+    0.0009034773232205825,
+    0.001864260729161155
    ],
    "mean_probability_drift": [
     -3.031180679982255e-05,
@@ -8788,6 +9383,11 @@
    ],
    "queries": 85,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    5.523813104629516,
+    4.3321286591850106,
+    6.715497550074022
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8797,6 +9397,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.06620959410754768,
+    0.04430362383450215,
+    0.0881155643805932
    ],
    "mean_probability_drift": [
     -0.0013683368603671603,
@@ -8812,6 +9417,11 @@
    ],
    "queries": 100,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    4.009012675285339,
+    2.4441123169076104,
+    5.573913033663068
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8821,6 +9431,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.05974331212532895,
+    0.03893992494904512,
+    0.08054669930161278
    ],
    "mean_probability_drift": [
     -0.0014649848996433677,
@@ -8836,6 +9451,11 @@
    ],
    "queries": 94,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    3.969010829925537,
+    2.3442822640678367,
+    5.5937393957832375
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8845,6 +9465,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.04261928354291504,
+    0.023758798757109973,
+    0.06147976832872011
    ],
    "mean_probability_drift": [
     -0.0003321444208197573,
@@ -8860,6 +9485,11 @@
    ],
    "queries": 100,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    4.009012675285339,
+    2.4441123169076104,
+    5.573913033663068
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8869,6 +9499,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.03604055620292097,
+    0.024557359493204218,
+    0.04752375291263773
    ],
    "mean_probability_drift": [
     -0.0003591231311678902,
@@ -8884,6 +9519,11 @@
    ],
    "queries": 94,
    "radius": 1,
+   "reference_median_absolute_logit": [
+    3.969010829925537,
+    2.3442822640678367,
+    5.5937393957832375
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8893,6 +9533,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.00127525161262499,
+    0.0009106923855568143,
+    0.001639810839693166
    ],
    "mean_probability_drift": [
     -7.665239589514527e-06,
@@ -8908,6 +9553,11 @@
    ],
    "queries": 100,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    4.009012675285339,
+    2.4441123169076104,
+    5.573913033663068
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8917,6 +9567,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.0012522241370959693,
+    0.0008555598449202906,
+    0.001648888429271648
    ],
    "mean_probability_drift": [
     -8.07468480436919e-06,
@@ -8932,6 +9587,11 @@
    ],
    "queries": 94,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    3.969010829925537,
+    2.3442822640678367,
+    5.5937393957832375
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8941,6 +9601,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.001302090745398942,
+    0.0009874478051451051,
+    0.0016167336856527787
    ],
    "mean_probability_drift": [
     -3.3775095872253383e-06,
@@ -8956,6 +9621,11 @@
    ],
    "queries": 100,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    4.009012675285339,
+    2.4441123169076104,
+    5.573913033663068
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -8965,6 +9635,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    0.0013166046641907422,
+    0.0010026919435597312,
+    0.0016305173848217532
    ],
    "mean_probability_drift": [
     -3.092148238862061e-06,
@@ -8980,6 +9655,11 @@
    ],
    "queries": 94,
    "radius": 2,
+   "reference_median_absolute_logit": [
+    3.969010829925537,
+    2.3442822640678367,
+    5.5937393957832375
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -8989,6 +9669,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    2.661722245171371e-06,
+    -1.042637927831539e-06,
+    6.366082418174281e-06
    ],
    "mean_probability_drift": [
     4.817852325139453e-08,
@@ -9004,6 +9689,11 @@
    ],
    "queries": 100,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    4.009012675285339,
+    2.4441123169076104,
+    5.573913033663068
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -9013,6 +9703,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    2.175286381778583e-06,
+    -1.6365180928620656e-06,
+    5.987090856419232e-06
    ],
    "mean_probability_drift": [
     5.0998797531881174e-08,
@@ -9028,6 +9723,11 @@
    ],
    "queries": 94,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    3.969010829925537,
+    2.3442822640678367,
+    5.5937393957832375
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   },
@@ -9037,6 +9737,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    7.932844680101825e-06,
+    -4.419193899326641e-06,
+    2.028488325953029e-05
    ],
    "mean_probability_drift": [
     -3.5543521645559955e-10,
@@ -9052,6 +9757,11 @@
    ],
    "queries": 100,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    4.009012675285339,
+    2.4441123169076104,
+    5.573913033663068
+   ],
    "seeds": 5,
    "stratum": "all"
   },
@@ -9061,6 +9771,11 @@
     0.0,
     0.0,
     0.0
+   ],
+   "logit_RMSE": [
+    4.557234620538545e-06,
+    -5.269596750821294e-06,
+    1.4384065991898384e-05
    ],
    "mean_probability_drift": [
     -1.2868020371943003e-10,
@@ -9076,6 +9791,11 @@
    ],
    "queries": 94,
    "radius": 3,
+   "reference_median_absolute_logit": [
+    3.969010829925537,
+    2.3442822640678367,
+    5.5937393957832375
+   ],
    "seeds": 5,
    "stratum": "reach_at_most_one"
   }

@@ -32,7 +32,7 @@ After all held-out candidate measurements completed, runtime wrappers were redis
 V100 cards. Four parent wrappers stopped while their current benchmark children drained; replacement
 workers wait for any old child on their GPU and skip existing complete files. This changes scheduling
 only. No GPU runs concurrent timed jobs. Each checkpoint's full baseline and candidates use the same
-GPU; cards have 16 or 32 GB, recorded in environment metadata. All calibration ledgers are unchanged.
+GPU; cards have 16 or 32 GB, assigned in execution ledgers; the environment name records the default device (see REVIEW_ERRATA.md). All calibration ledgers are unchanged.
 
 Auxiliary logit effects, fixed-original-label AUC, correctly classified control strata and native
 structural/path-agreement strata are descriptive analyses added after intervention outcomes.
@@ -45,3 +45,12 @@ not copied or read. The whole 12-model selection-process wall time is conservati
 checkpoint, added to end-to-end development costs in the collector. The raw benchmark records are
 unchanged. This accounts for imports, hash checking, validation scoring and selector fitting without
 claiming new policies or tuning after held-out outcomes.
+
+
+## External review, 7 October 2026
+
+Reporting-only analyses add every threshold/domain sweep, native logit scale and reference confidence,
+held-out class counts/retained nodes, a replayed edit-location comparison and a complete original
+hypothesis ledger. These are post hoc; frozen workers, protocols, policies and numerical arrays remain
+unchanged. See [REVIEW_ERRATA.md](REVIEW_ERRATA.md) for definitions, H4 and hardware corrections,
+interpretation boundaries and differences between independently rederived and externally quoted values.

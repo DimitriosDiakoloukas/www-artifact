@@ -1,6 +1,6 @@
-# Artifact: Distant Dependence Can Appear Local
+# Artifact: Auditing Local Evidence in Web Trust Prediction
 
-Collective Audits for Web Trust Prediction
+Learned Counterexamples and Collective Stress Tests
 
 Code, protocols, run records and analysis for the WWW 2027 submission. Every table, figure and number of the
 paper is produced by code from the records here; `RESULT_MAP.md` lists each with its generating script,
@@ -55,6 +55,15 @@ training directories. All new studies can therefore be regenerated from packaged
 The original deterministic campaign was verified on NVIDIA V100 cards. The new native checks retain
 weights, fixed evaluation functions and checked logits; they do not claim bitwise agreement with
 other hardware or the original authors' benchmarks.
+
+## External-review reporting revision
+Read `collective/stage2/REVIEW_ERRATA.md`: the synthetic counterexample now includes all thresholds,
+fixed-connector/domain sensitivity and per-law counts. Native comparisons report both probability and
+logit scale with confidence/loss/decoder limits. The replayed constrained sampler exposes location bias;
+the original hypothesis ledger retains every unsupported outcome. Computation distinguishes crops from
+global layer schedules and includes class counts. These analyses are post hoc and change no raw prediction.
+`PROVENANCE.md` provides anonymous implementation notes for the preserved source docstrings and explains
+BGSD as an artifact identifier for a specified diffusion control, without inventing a published model.
 
 ## Reviewer-requested validation
 The main campaign uses undirected relations and a shared objective/decoder. The new checks use ordered

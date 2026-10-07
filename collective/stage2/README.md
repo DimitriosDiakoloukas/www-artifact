@@ -39,3 +39,16 @@ Complete collectors: collect.py (matched/native), large_collect.py (all 12 learn
 computation_collect.py (all 204 policy/schedule outcomes and benchmarks). These distinguish seed
 variation, completion sampling error, fidelity to the original prediction and accuracy on original
 or resampled labels. Source/checkpoint/protocol hashes make mismatches fail loudly.
+
+
+## External-review reporting revision (7 October 2026)
+
+Read [REVIEW_ERRATA.md](REVIEW_ERRATA.md). The original all-relation metric remains alongside a
+variable-sign normaliser and three thresholds for every learned run. Native reports include logit
+RMSE/reference confidence, and computation reports include class counts and retained nodes.
+`review_diagnostics.py` replays every saved radius-one/five-percent cycle and count-matched exchange
+draw in the four standardised checkpoints, asserting achieved counts and reporting degree/shell bias.
+`report.py` incorporates these analyses and four new disclosure tables in `stage_results.json`.
+All analyses are explicitly post hoc; none changes the frozen predictions or makes an architecture-only,
+natural-counterfactual or full-test computation claim. The complete original decision ledger retains
+H1 specificity and all three unsupported H4 outcomes.

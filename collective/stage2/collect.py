@@ -27,7 +27,7 @@ def effects(logits,original,labels=None):
         label_metrics={'original_label_AUC_before':fullau,'mean_original_label_AUC_after':float(np.mean(aus)) if aus else None,'original_label_AUC_scored_draws':len(aus),'label_interpretation':'fixed original labels; no natural edited-label ground truth','logit_RMSE':float(np.sqrt(np.mean((values-np.asarray(original)[:,None])[valid]**2))),'probability_max_absolute_change':float(np.max(abs(delta[valid])))}
     complete=valid[:,0::2]&valid[:,1::2]
     terms=paired_variance(p)[complete]
-    return {**label_metrics,'queries':len(values),'feasible_draws':count,'total_draws':values.size,'probability_RMSE':float(np.sqrt(np.mean(delta[valid]**2))),'class_disagreement':float(np.mean(((p>=.5)!=(o>=.5))[valid])),'mean_probability_drift':float(np.mean(delta[valid])),'mean_squared_fidelity':float(np.mean(delta[valid]**2)),'paired_variance':variance_interval(terms,family=720) if len(terms) else None}
+    return {**label_metrics,'reference_median_absolute_logit':float(np.median(np.abs(original))),'queries':len(values),'feasible_draws':count,'total_draws':values.size,'probability_RMSE':float(np.sqrt(np.mean(delta[valid]**2))),'class_disagreement':float(np.mean(((p>=.5)!=(o>=.5))[valid])),'mean_probability_drift':float(np.mean(delta[valid])),'mean_squared_fidelity':float(np.mean(delta[valid]**2)),'paired_variance':variance_interval(terms,family=720) if len(terms) else None}
 
 def verify(directory,source,protocol):
     done=pv.verify_record(directory/'complete.json')
@@ -83,7 +83,7 @@ def native():
          for stratum in ('all','reach_at_most_one'):
             selected=[r for r in rows if (r['arch'],r['network'],r['radius'],r['mechanism'],r['stratum'])==(arch,net,radius,mechanism,stratum)]
             if not selected:continue
-            summaries.append({'arch':arch,'network':net,'radius':radius,'mechanism':mechanism,'stratum':stratum,'seeds':len(selected),'queries':sum(r['queries'] for r in selected),**{key:ci([r[key] for r in selected]) for key in ('probability_RMSE','class_disagreement','mean_probability_drift')}})
+            summaries.append({'arch':arch,'network':net,'radius':radius,'mechanism':mechanism,'stratum':stratum,'seeds':len(selected),'queries':sum(r['queries'] for r in selected),**{key:ci([r[key] for r in selected]) for key in ('probability_RMSE','logit_RMSE','reference_median_absolute_logit','class_disagreement','mean_probability_drift')}})
     return {'checkpoints':20,'prediction_slots':20*20*3*2*8,'rows':rows,'seed_summaries':summaries,'all_full_test_logits_match':True}
 
 def run(kind,out):

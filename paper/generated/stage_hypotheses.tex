@@ -1,0 +1,18 @@
+\begin{tabular}{@{}lp{.76\columnwidth}@{}}
+\toprule
+Test & Outcome \\
+\midrule
+H1 & 9 cells; all within one hop; rank $r_s=0.926$; holds. \\
+H2 & 30/30 checkpoints; $p=9.3e-10$; holds. \\
+H3 & All four models meet the locked bootstrap/Holm rule. \\
+H4: Diffusion & Median 4; 29/30 at most eight; Holm $p=1.15e-07$; holds. \\
+H4: SGCN & Median 8; 19/30 at most eight; Holm $p=0.301$; not supported. \\
+H4: SLGNN-style & Median 8; 18/30 at most eight; Holm $p=0.362$; not supported. \\
+H4: SIDNET & Median 32; 0/30 at most eight; Holm $p=1$; not supported. \\
+RH1 & 10/10 cells; holds. \\
+RH2 & 58 solved, 62 chance; $p=1.8e-21$; holds. \\
+RH3 & 10/10 cells; holds. \\
+RH4a & 16/16 cells; holds. \\
+RH4b & 16/16 cells; holds. \\
+\bottomrule
+\end{tabular}

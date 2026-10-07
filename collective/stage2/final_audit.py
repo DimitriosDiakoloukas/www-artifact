@@ -33,6 +33,42 @@ def run(paper,out):
             seedvalues.append(float(np.sqrt(np.mean(delta))));count+=len(arrays)
         value=float(np.mean(seedvalues));reference=next(r for r in native['seed_summaries'] if (r['arch'],r['network'],r['radius'],r['mechanism'],r['stratum'])==(arch,net,1,'exchange','reach_at_most_one'))
         assert np.isclose(value,reference['probability_RMSE'][0],atol=1e-14,rtol=0);check('nStageNative'+key,value,'.3f');raw.append({'quantity':f'{arch} {net} native exchange RMSE beyond one hop','value':value,'queries':count,'method':'raw feasible draws, per-checkpoint root mean square then equal five-seed mean'})
+    # Independent raw-vector threshold/domain sweep, including exhaustive finite effects.
+    sweep={(metric,norm,t):0 for metric in ('gradient','single_flip') for norm in ('all_relations','variable_signs') for t in (.05,.1,.2)}
+    maxima={'gradient':0,'single_flip':0};lawcounts={}
+    for row in solved:
+        law,arch,seed=row['job'];folder=BASE/'large_controls'/f'{law}-{arch}-s{seed}'/'audit_v2'
+        a=np.load(folder/'gradient.npz');dist=a['distances'];variable=dist==3;variable[-1]=True
+        finite=np.stack([np.load(folder/f'q{q:02d}-finite.npz')['finite'] for q in range(20)])
+        for metric,values in (('gradient',a['gradients']),('single_flip',finite)):
+            strongest=np.argmax(values,axis=1);maxima[metric]+=int(np.sum((strongest%4==0)&(strongest<404)))
+            for norm,mask in (('all_relations',np.ones(len(dist),bool)),('variable_signs',variable)):
+                for tau in (.05,.1,.2):
+                    # Recover distance iff at least one distance-three effect exceeds the chosen maximum.
+                    count=int(np.sum(values[:,dist==3].max(axis=1)<tau*values[:,mask].max(axis=1)))
+                    assert count==row[metric]['threshold_sensitivity'][norm][str(tau)]['missed_queries']
+                    sweep[metric,norm,tau]+=count
+                    if norm=='all_relations' and tau==.1:lawcounts[metric,law]=lawcounts.get((metric,law),0)+count
+    for metric,word in (('gradient','Gradient'),('single_flip','Finite')):
+        check('nStageFixed'+word+'Max',maxima[metric])
+        for norm,label in (('all_relations','All'),('variable_signs','Variable')):check('nStage'+label+word+'Miss',sweep[metric,norm,.1])
+        for tau,label in ((.05,'Low'),(.2,'High')):check('nStage'+word+'Miss'+label,sweep[metric,'all_relations',tau])
+        for law,label in (('consensus','Consensus'),('redundancy','Redundancy')):check('nStage'+label+word+'Miss',lawcounts[metric,law])
+    raw.append({'quantity':'all 12 learned SGCN domain/threshold failure counts','queries':100,'counts':{'/'.join((metric,norm,str(t))):count for (metric,norm,t),count in sweep.items()},'method':'raw gradients and all 405 single-flip effects; direct far/global comparisons without the reach implementation'})
+    for arch,label in (('SGCN','Sg'),('SIDNET','Sid')):
+        for mi,law,word in ((0,'fixed','Unrestricted'),(1,'exchange','Exchange')):
+            rmses=[]
+            for folder in sorted((BASE/'native_collective').glob(f'{arch}-bitcoin_alpha-T32-*')):
+                arrays=[np.load(folder/f'q{q:02d}-r1.npz') for q in range(20)];arrays=[a for a in arrays if np.isfinite(a['reach']) and a['reach']<=1]
+                sq=[float(delta)**2 for a in arrays for delta in a['logits'][mi,a['feasible'][mi]].astype(float)-float(a['original_logit'])]
+                rmses.append(float(np.sqrt(np.mean(sq))))
+            check('nStageLogit'+label+'Alpha'+word,float(np.mean(rmses)),'.2f')
+    for net,label in (('bitcoin_alpha','Alpha'),('wiki_elec','Wiki')):
+        rr=[r for r in comp['rows'] if r['kind']=='primary' and r['native'] and r['network']==net and r['policy']=='full']
+        counts=[r['metrics']['negative_queries'] for r in rr]
+        check('nStageNegative'+label+'Min',min(counts));check('nStageNegative'+label+'Max',max(counts))
+        for row in rr:assert row['heldout_class_counts']['negative']==row['metrics']['negative_queries'] and sum(row['heldout_class_counts'].values())==128
+        crop=next(s for s in comp['seed_summaries'] if (s['kind'],s['network'],s['policy'])==('primary',net,'range_proposal'));check('nStageReachCropPass'+label,crop['heldout_passes'])
     policies=json.loads((BASE/'layerwise_policies.json').read_text());check('nStageLayerSelected',sum(m['choice']==1 for m in policies['models']));check('nStageComputeModels',len(policies['models']))
     for net,key,indices in [('bitcoin_alpha','Alpha',range(5)),('wiki_elec','Wiki',range(5,10))]:
         values=[];first=[]
