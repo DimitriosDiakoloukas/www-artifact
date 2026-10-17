@@ -1,0 +1,117 @@
+{
+  "designed_after": "A6 target shares were seen",
+  "lock_sha256": "63b06d7bda9a28c48a4d36eaed464986b2b70a580cca20c8d0a3c7e678df2452",
+  "result_sha256": "cac3ea166a7d33122636774961352184402d3d977d89b756ed1a998149604f3c",
+  "source_sha256": "18e5a1c7e25a568d570e681130a44eeec4e632ff43f3a0546bdf7a65137ab531",
+  "support": true,
+  "units": {
+    "0": {
+      "three_ordinary": {
+        "reverse_share": 0.6235131396957123,
+        "still_overturnable_without": {
+          "target_degree": 0.9615491009681881,
+          "walks": 0.06224066390041494
+        },
+        "target_overturnable": 3615
+      },
+      "three_robust": {
+        "reverse_share": 0.6292498650836481,
+        "still_overturnable_without": {
+          "target_degree": 0.9892066918510524,
+          "walks": 0.02266594711279007
+        },
+        "target_overturnable": 1853
+      }
+    },
+    "1": {
+      "three_ordinary": {
+        "reverse_share": 0.6492537313432836,
+        "still_overturnable_without": {
+          "target_degree": 0.9991044776119403,
+          "walks": 0.0014925373134328358
+        },
+        "target_overturnable": 3350
+      },
+      "three_robust": {
+        "reverse_share": 0.6509298998569385,
+        "still_overturnable_without": {
+          "target_degree": 0.9899856938483548,
+          "walks": 0.022174535050071532
+        },
+        "target_overturnable": 2796
+      }
+    },
+    "2": {
+      "three_ordinary": {
+        "reverse_share": 0.11957247828991316,
+        "still_overturnable_without": {
+          "target_degree": 0.9458917835671342,
+          "walks": 0.1289245156980628
+        },
+        "target_overturnable": 1497
+      },
+      "three_robust": {
+        "reverse_share": 0.1037463976945245,
+        "still_overturnable_without": {
+          "target_degree": 0.8789625360230547,
+          "walks": 0.22334293948126802
+        },
+        "target_overturnable": 694
+      }
+    },
+    "3": {
+      "three_ordinary": {
+        "reverse_share": 0.10988372093023256,
+        "still_overturnable_without": {
+          "target_degree": 0.9959302325581395,
+          "walks": 0.014534883720930232
+        },
+        "target_overturnable": 1720
+      },
+      "three_robust": {
+        "reverse_share": 0.08239700374531835,
+        "still_overturnable_without": {
+          "target_degree": 0.9325842696629213,
+          "walks": 0.14731585518102372
+        },
+        "target_overturnable": 801
+      }
+    },
+    "4": {
+      "three_ordinary": {
+        "reverse_share": 0.6065962491916361,
+        "still_overturnable_without": {
+          "target_degree": 0.99719767191205,
+          "walks": 0.0015089458935115326
+        },
+        "target_overturnable": 4639
+      },
+      "three_robust": {
+        "reverse_share": 0.5463917525773195,
+        "still_overturnable_without": {
+          "target_degree": 0.9907759088442757,
+          "walks": 0.018990775908844276
+        },
+        "target_overturnable": 1843
+      }
+    },
+    "5": {
+      "three_ordinary": {
+        "reverse_share": 0.621071270473661,
+        "still_overturnable_without": {
+          "target_degree": 0.9995573262505534,
+          "walks": 0.002877379371403276
+        },
+        "target_overturnable": 4518
+      },
+      "three_robust": {
+        "reverse_share": 0.5353788353162179,
+        "still_overturnable_without": {
+          "target_degree": 0.9862241703193487,
+          "walks": 0.025046963055729492
+        },
+        "target_overturnable": 1597
+      }
+    }
+  }
+}

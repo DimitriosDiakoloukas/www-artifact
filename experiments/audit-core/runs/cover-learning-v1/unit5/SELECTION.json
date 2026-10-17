@@ -1,0 +1,82 @@
+{
+  "anchor_validation_auc": 0.9511467816593753,
+  "eligible": [
+    "cover_erm",
+    "cover_zero",
+    "cover_0.01",
+    "cover_0.03",
+    "cover_0.1"
+  ],
+  "models_sha256": "41191abba372e47e4935bee6836de8866e2babf73aa2353a6a611945e70a0287",
+  "result_sha256": "b1f9b2db98e0d0c79a27bbcfb69ea903d791b04f189cf5d45732332de6ae59ff",
+  "selected": "cover_0.1",
+  "test_used_for_selection": false,
+  "validation_aggregates": {
+    "cover_0.01": {
+      "correct_certified": 0.28755794353139486,
+      "coverage": 0.3453632005899705,
+      "selective_error": 0.1673752645326114,
+      "wrong_certified": 0.05780525705857564
+    },
+    "cover_0.03": {
+      "correct_certified": 0.3516107862761624,
+      "coverage": 0.4023860004916421,
+      "selective_error": 0.12618533983150926,
+      "wrong_certified": 0.0507752142154797
+    },
+    "cover_0.1": {
+      "correct_certified": 0.6257824571569041,
+      "coverage": 0.6999951713723838,
+      "selective_error": 0.10601889448748782,
+      "wrong_certified": 0.0742127142154797
+    },
+    "cover_0.3": {
+      "correct_certified": 0.7257679712740553,
+      "coverage": 0.8038929712740553,
+      "selective_error": 0.0971833350852453,
+      "wrong_certified": 0.078125
+    },
+    "cover_erm": {
+      "correct_certified": 0.22350510078662733,
+      "coverage": 0.2945879863744908,
+      "selective_error": 0.24129594170720986,
+      "wrong_certified": 0.07108288558786346
+    },
+    "cover_zero": {
+      "correct_certified": 0.21725751510043545,
+      "coverage": 0.2883404006882989,
+      "selective_error": 0.24652419646425242,
+      "wrong_certified": 0.07108288558786346
+    },
+    "degrees": {
+      "correct_certified": 0.5953269858828487,
+      "coverage": 0.6875,
+      "selective_error": 0.13406983871585643,
+      "wrong_certified": 0.09217301411715129
+    },
+    "length_two": {
+      "correct_certified": 0.3820783291192583,
+      "coverage": 0.46722130039331367,
+      "selective_error": 0.18223264051185328,
+      "wrong_certified": 0.08514297127405535
+    },
+    "three_erm": {
+      "correct_certified": 0.2102274722573395,
+      "coverage": 0.27428031500210703,
+      "selective_error": 0.23353058619710082,
+      "wrong_certified": 0.06405284274476752
+    },
+    "three_selected": {
+      "correct_certified": 0.6117223714707122,
+      "coverage": 0.6859350856861919,
+      "selective_error": 0.10819203706607194,
+      "wrong_certified": 0.0742127142154797
+    },
+    "unsigned": {
+      "correct_certified": 0.7351574571569041,
+      "coverage": 1.0,
+      "selective_error": 0.26484254284309594,
+      "wrong_certified": 0.26484254284309594
+    }
+  }
+}

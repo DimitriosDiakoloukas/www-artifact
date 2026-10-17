@@ -1,0 +1,4526 @@
+{
+  "consistency": {
+    "published_entries_reproduced": 126,
+    "snapshot": {
+      "shared_inputs": 10,
+      "v7_files_in_v9_lock": 36
+    }
+  },
+  "gate": {
+    "detail": {
+      "Alpha": {
+        "all_h_vs_b": {
+          "accounts": 1130,
+          "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+          "delta_exact": "336151/5219820",
+          "dependence": "shared account in either endpoint role",
+          "gain": 0.06439896394894842,
+          "interval95": [
+            0.011836676838206002,
+            0.11696125105969085
+          ],
+          "queries": 4847,
+          "variance": 0.0007192043843939738
+        },
+        "beats_history_baseline": true,
+        "established_h_vs_f": {
+          "accounts": 535,
+          "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+          "delta_exact": "8531/702364",
+          "dependence": "shared account in either endpoint role",
+          "gain": 0.012146123662374494,
+          "interval95": [
+            -0.00545507905374111,
+            0.029747326378490098
+          ],
+          "queries": 2416,
+          "variance": 8.064705402668254e-05
+        },
+        "primary": false,
+        "stronger_claim": false,
+        "unit": "time6w2"
+      },
+      "OTC": {
+        "all_h_vs_b": {
+          "accounts": 1722,
+          "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+          "delta_exact": "10805/439752",
+          "dependence": "shared account in either endpoint role",
+          "gain": 0.024570667103276392,
+          "interval95": [
+            0.01260007990218882,
+            0.03654125430436396
+          ],
+          "queries": 7119,
+          "variance": 3.730222413602475e-05
+        },
+        "beats_history_baseline": true,
+        "established_h_vs_f": {
+          "accounts": 652,
+          "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+          "delta_exact": "3019/358670",
+          "dependence": "shared account in either endpoint role",
+          "gain": 0.00841720801851284,
+          "interval95": [
+            -0.001042644076636564,
+            0.017877060113662243
+          ],
+          "queries": 3149,
+          "variance": 2.3295525434249624e-05
+        },
+        "primary": false,
+        "stronger_claim": false,
+        "unit": "time7w2"
+      }
+    },
+    "outcome": "failure",
+    "practical_size": "1/50",
+    "primary": {
+      "Alpha": false,
+      "OTC": false
+    },
+    "stronger_claim": {
+      "Alpha": false,
+      "OTC": false
+    }
+  },
+  "lock_sha256": "44a934743e70a5348efbc4f688b799e68b81b2ed47df24c1228522a3b88ddac8",
+  "random": {
+    "random0": {
+      "points": {
+        "tuned": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 100,
+            "classes": {
+              "negative": {
+                "a": 0.9444444444444444,
+                "disagreements": 18,
+                "fallback_routes": 93,
+                "fallback_wins": 1,
+                "p": 0.06060606060606061,
+                "queries": 297,
+                "rich_wins": 17
+              },
+              "positive": {
+                "a": 0.6585365853658537,
+                "disagreements": 82,
+                "fallback_routes": 1961,
+                "fallback_wins": 28,
+                "p": 0.01805769654261176,
+                "queries": 4541,
+                "rich_wins": 54
+              }
+            },
+            "delta": 0.029798832485465387,
+            "delta_exact": "40189/1348677",
+            "fallback_frequency": 0.42455560148821825
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 2276,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "40189/1348677",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.029798832485465384,
+            "interval95": [
+              0.014223609502801864,
+              0.04537405546812891
+            ],
+            "queries": 4838,
+            "variance": 6.31498558966346e-05
+          },
+          "h_vs_r": {
+            "accounts": 2276,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "265073/1348677",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.19654298249321372,
+            "interval95": [
+              0.16913280986462054,
+              0.2239531551218069
+            ],
+            "queries": 4838,
+            "variance": 0.00019558131392217342
+          },
+          "rich_threshold": -0.22329418375188936,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.719797623893638,
+              "cba": 0.719797623893638,
+              "cc": 0.7575444398511781,
+              "certified_negative_recall": 0.6767676767676768,
+              "certified_positive_recall": 0.7628275710195992,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 297,
+              "positives": 4541
+            },
+            "H": {
+              "balanced_accuracy": 0.7495964563791033,
+              "cba": 0.7495964563791033,
+              "cc": 0.7662257131045886,
+              "certified_negative_recall": 0.7306397306397306,
+              "certified_positive_recall": 0.7685531821184761,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 297,
+              "positives": 4541
+            },
+            "R": {
+              "balanced_accuracy": 0.8284047996666363,
+              "cba": 0.5530534738858897,
+              "cc": 0.5095080611823067,
+              "certified_negative_recall": 0.6026936026936027,
+              "certified_positive_recall": 0.5034133450781766,
+              "coverage": 0.5754443985117818,
+              "n": 4838,
+              "negatives": 297,
+              "positives": 4541
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.9386109962794543,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 297,
+              "positives": 4541
+            }
+          }
+        },
+        "zero": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 116,
+            "classes": {
+              "negative": {
+                "a": 0.96,
+                "disagreements": 25,
+                "fallback_routes": 86,
+                "fallback_wins": 1,
+                "p": 0.08417508417508418,
+                "queries": 297,
+                "rich_wins": 24
+              },
+              "positive": {
+                "a": 0.2087912087912088,
+                "disagreements": 91,
+                "fallback_routes": 2334,
+                "fallback_wins": 72,
+                "p": 0.020039638846069147,
+                "queries": 4541,
+                "rich_wins": 19
+              }
+            },
+            "delta": 0.03288481971591419,
+            "delta_exact": "44351/1348677",
+            "fallback_frequency": 0.5002066969822241
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 2276,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "44351/1348677",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.032884819715914185,
+            "interval95": [
+              0.010974257547341597,
+              0.05479538188448677
+            ],
+            "queries": 4838,
+            "variance": 0.00012497146447508668
+          },
+          "h_vs_r": {
+            "accounts": 2276,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "203909/899118",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.22678780760701042,
+            "interval95": [
+              0.20108472893297144,
+              0.25249088628104943
+            ],
+            "queries": 4838,
+            "variance": 0.00017197848113453495
+          },
+          "rich_threshold": 0.0,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.719797623893638,
+              "cba": 0.719797623893638,
+              "cc": 0.7575444398511781,
+              "certified_negative_recall": 0.6767676767676768,
+              "certified_positive_recall": 0.7628275710195992,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 297,
+              "positives": 4541
+            },
+            "H": {
+              "balanced_accuracy": 0.7526824436095522,
+              "cba": 0.7526824436095522,
+              "cc": 0.7513435303844563,
+              "certified_negative_recall": 0.7542087542087542,
+              "certified_positive_recall": 0.7511561330103501,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 297,
+              "positives": 4541
+            },
+            "R": {
+              "balanced_accuracy": 0.8364486085252436,
+              "cba": 0.5258946360025417,
+              "cc": 0.4142207523770153,
+              "certified_negative_recall": 0.6531986531986532,
+              "certified_positive_recall": 0.3985906188064303,
+              "coverage": 0.4997933030177759,
+              "n": 4838,
+              "negatives": 297,
+              "positives": 4541
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.9386109962794543,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 297,
+              "positives": 4541
+            }
+          }
+        }
+      },
+      "published_entries_reproduced": 6,
+      "queries": 4838
+    },
+    "random1": {
+      "points": {
+        "tuned": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 157,
+            "classes": {
+              "negative": {
+                "a": 0.9444444444444444,
+                "disagreements": 18,
+                "fallback_routes": 133,
+                "fallback_wins": 1,
+                "p": 0.056074766355140186,
+                "queries": 321,
+                "rich_wins": 17
+              },
+              "positive": {
+                "a": 0.8920863309352518,
+                "disagreements": 139,
+                "fallback_routes": 2193,
+                "fallback_wins": 15,
+                "p": 0.03077263670577817,
+                "queries": 4517,
+                "rich_wins": 124
+              }
+            },
+            "delta": 0.03698764859923432,
+            "delta_exact": "107261/2899914",
+            "fallback_frequency": 0.48077718065316244
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 2291,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "107261/2899914",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.03698764859923432,
+            "interval95": [
+              0.016097952603171872,
+              0.05787734459529677
+            ],
+            "queries": 4838,
+            "variance": 0.0001135973126816069
+          },
+          "h_vs_r": {
+            "accounts": 2291,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "373417/1449957",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.25753660280960056,
+            "interval95": [
+              0.22054730664519556,
+              0.29452589897400555
+            ],
+            "queries": 4838,
+            "variance": 0.0003561688656839072
+          },
+          "rich_threshold": -0.7815997427885721,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7218576137085445,
+              "cba": 0.7218576137085445,
+              "cc": 0.7724266225713105,
+              "certified_negative_recall": 0.6635514018691588,
+              "certified_positive_recall": 0.7801638255479301,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 321,
+              "positives": 4517
+            },
+            "H": {
+              "balanced_accuracy": 0.7588452623077788,
+              "cba": 0.7588452623077788,
+              "cc": 0.7982637453493179,
+              "certified_negative_recall": 0.7133956386292835,
+              "certified_positive_recall": 0.8042948859862741,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 321,
+              "positives": 4517
+            },
+            "R": {
+              "balanced_accuracy": 0.8057549292841099,
+              "cba": 0.5013086594981783,
+              "cc": 0.4902852418354692,
+              "certified_negative_recall": 0.514018691588785,
+              "certified_positive_recall": 0.4885986274075714,
+              "coverage": 0.5192228193468376,
+              "n": 4838,
+              "negatives": 321,
+              "positives": 4517
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.9336502687060769,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 321,
+              "positives": 4517
+            }
+          }
+        },
+        "zero": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 179,
+            "classes": {
+              "negative": {
+                "a": 1.0,
+                "disagreements": 33,
+                "fallback_routes": 111,
+                "fallback_wins": 0,
+                "p": 0.102803738317757,
+                "queries": 321,
+                "rich_wins": 33
+              },
+              "positive": {
+                "a": 0.1780821917808219,
+                "disagreements": 146,
+                "fallback_routes": 3229,
+                "fallback_wins": 120,
+                "p": 0.032322337834846136,
+                "queries": 4517,
+                "rich_wins": 26
+              }
+            },
+            "delta": 0.04099673300656502,
+            "delta_exact": "39629/966638",
+            "fallback_frequency": 0.6903679206283588
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 2291,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "39629/966638",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.04099673300656502,
+            "interval95": [
+              0.010807981979915032,
+              0.07118548403321501
+            ],
+            "queries": 4838,
+            "variance": 0.00023724338359154505
+          },
+          "h_vs_r": {
+            "accounts": 2291,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "168281/483319",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.34817791148289223,
+            "interval95": [
+              0.3171382044971581,
+              0.37921761846862634
+            ],
+            "queries": 4838,
+            "variance": 0.0002508066478729397
+          },
+          "rich_threshold": 0.0,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7218576137085445,
+              "cba": 0.7218576137085445,
+              "cc": 0.7724266225713105,
+              "certified_negative_recall": 0.6635514018691588,
+              "certified_positive_recall": 0.7801638255479301,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 321,
+              "positives": 4517
+            },
+            "H": {
+              "balanced_accuracy": 0.7628543467151094,
+              "cba": 0.7628543467151094,
+              "cc": 0.7598181066556429,
+              "certified_negative_recall": 0.7663551401869159,
+              "certified_positive_recall": 0.7593535532433031,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 321,
+              "positives": 4517
+            },
+            "R": {
+              "balanced_accuracy": 0.8400787057823094,
+              "cba": 0.41467643523221726,
+              "cc": 0.23935510541546093,
+              "certified_negative_recall": 0.616822429906542,
+              "certified_positive_recall": 0.2125304405578924,
+              "coverage": 0.30963207937164117,
+              "n": 4838,
+              "negatives": 321,
+              "positives": 4517
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.9336502687060769,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 4838,
+              "negatives": 321,
+              "positives": 4517
+            }
+          }
+        }
+      },
+      "published_entries_reproduced": 6,
+      "queries": 4838
+    },
+    "random2": {
+      "points": {
+        "tuned": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 4227,
+            "classes": {
+              "negative": {
+                "a": 0.6172300981461287,
+                "disagreements": 917,
+                "fallback_routes": 379,
+                "fallback_wins": 351,
+                "p": 0.20662460567823343,
+                "queries": 4438,
+                "rich_wins": 566
+              },
+              "positive": {
+                "a": 0.8277945619335347,
+                "disagreements": 3310,
+                "fallback_routes": 554,
+                "fallback_wins": 570,
+                "p": 0.20445981839520663,
+                "queries": 16189,
+                "rich_wins": 2740
+              }
+            },
+            "delta": 0.09124343940693126,
+            "delta_exact": "13111095/143693564",
+            "fallback_frequency": 0.045231977505211615
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 4357,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "13111095/143693564",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.09124343940693128,
+            "interval95": [
+              0.08019932331147907,
+              0.10228755550238348
+            ],
+            "queries": 20627,
+            "variance": 3.1751609485634665e-05
+          },
+          "h_vs_r": {
+            "accounts": 4357,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "1370258/35923391",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.0381438934871154,
+            "interval95": [
+              0.033016354824613264,
+              0.04327143214961754
+            ],
+            "queries": 20627,
+            "variance": 6.84418445248451e-06
+          },
+          "rich_threshold": -0.4394375791872277,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7212488306017658,
+              "cba": 0.7212488306017658,
+              "cc": 0.7412614534348184,
+              "certified_negative_recall": 0.6861198738170347,
+              "certified_positive_recall": 0.756377787386497,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4438,
+              "positives": 16189
+            },
+            "H": {
+              "balanced_accuracy": 0.8124922700086972,
+              "cba": 0.8124922700086972,
+              "cc": 0.856886604935279,
+              "certified_negative_recall": 0.7345651194231636,
+              "certified_positive_recall": 0.8904194205942306,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4438,
+              "positives": 16189
+            },
+            "R": {
+              "balanced_accuracy": 0.809560879149744,
+              "cba": 0.7743483765215817,
+              "cc": 0.8309012459397876,
+              "certified_negative_recall": 0.6750788643533123,
+              "certified_positive_recall": 0.8736178886898511,
+              "coverage": 0.9547680224947884,
+              "n": 20627,
+              "negatives": 4438,
+              "positives": 16189
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.784845105929122,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4438,
+              "positives": 16189
+            }
+          }
+        },
+        "zero": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 4207,
+            "classes": {
+              "negative": {
+                "a": 0.7734457323498419,
+                "disagreements": 949,
+                "fallback_routes": 347,
+                "fallback_wins": 215,
+                "p": 0.2138350608382154,
+                "queries": 4438,
+                "rich_wins": 734
+              },
+              "positive": {
+                "a": 0.7213014119091468,
+                "disagreements": 3258,
+                "fallback_routes": 757,
+                "fallback_wins": 908,
+                "p": 0.20124776082525173,
+                "queries": 16189,
+                "rich_wins": 2350
+              }
+            },
+            "delta": 0.10300869842716129,
+            "delta_exact": "14801687/143693564",
+            "fallback_frequency": 0.05352208270713143
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 4357,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "14801687/143693564",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.10300869842716129,
+            "interval95": [
+              0.09229549819817442,
+              0.11372189865614815
+            ],
+            "queries": 20627,
+            "variance": 2.9877362872687396e-05
+          },
+          "h_vs_r": {
+            "accounts": 4357,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "1240264/35923391",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.03452524846554714,
+            "interval95": [
+              0.030308463670982482,
+              0.03874203326011179
+            ],
+            "queries": 20627,
+            "variance": 4.628781625325017e-06
+          },
+          "rich_threshold": 0.0,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7212488306017658,
+              "cba": 0.7212488306017658,
+              "cc": 0.7412614534348184,
+              "certified_negative_recall": 0.6861198738170347,
+              "certified_positive_recall": 0.756377787386497,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4438,
+              "positives": 16189
+            },
+            "H": {
+              "balanced_accuracy": 0.8242575290289271,
+              "cba": 0.8242575290289271,
+              "cc": 0.8363310224463082,
+              "certified_negative_recall": 0.8030644434429923,
+              "certified_positive_recall": 0.8454506146148619,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4438,
+              "positives": 16189
+            },
+            "R": {
+              "balanced_accuracy": 0.8263033339475107,
+              "cba": 0.78973228056338,
+              "cc": 0.8080670965239735,
+              "certified_negative_recall": 0.7575484452456062,
+              "certified_positive_recall": 0.8219161158811539,
+              "coverage": 0.9464779172928686,
+              "n": 20627,
+              "negatives": 4438,
+              "positives": 16189
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.784845105929122,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4438,
+              "positives": 16189
+            }
+          }
+        }
+      },
+      "published_entries_reproduced": 6,
+      "queries": 20627
+    },
+    "random3": {
+      "points": {
+        "tuned": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 4324,
+            "classes": {
+              "negative": {
+                "a": 0.5879781420765028,
+                "disagreements": 915,
+                "fallback_routes": 353,
+                "fallback_wins": 377,
+                "p": 0.21078092605390464,
+                "queries": 4341,
+                "rich_wins": 538
+              },
+              "positive": {
+                "a": 0.8723965972425931,
+                "disagreements": 3409,
+                "fallback_routes": 616,
+                "fallback_wins": 435,
+                "p": 0.20932088910720864,
+                "queries": 16286,
+                "rich_wins": 2974
+              }
+            },
+            "delta": 0.09649450109470592,
+            "delta_exact": "13643845/141395052",
+            "fallback_frequency": 0.046977262810878946
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 4350,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "13643845/141395052",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.0964945010947059,
+            "interval95": [
+              0.08557492029302743,
+              0.10741408189638438
+            ],
+            "queries": 20627,
+            "variance": 3.1039573883246716e-05
+          },
+          "h_vs_r": {
+            "accounts": 4350,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "5321737/141395052",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.03763736371764975,
+            "interval95": [
+              0.03292800475426709,
+              0.042346722681032414
+            ],
+            "queries": 20627,
+            "variance": 5.7733436387547084e-06
+          },
+          "rich_threshold": -0.47479517761962126,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7120299230838715,
+              "cba": 0.7120299230838715,
+              "cc": 0.7258932467154701,
+              "certified_negative_recall": 0.6880903017737848,
+              "certified_positive_recall": 0.735969544393958,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4341,
+              "positives": 16286
+            },
+            "H": {
+              "balanced_accuracy": 0.8085244241785773,
+              "cba": 0.8085244241785773,
+              "cc": 0.8567896446405197,
+              "certified_negative_recall": 0.7251785302925593,
+              "certified_positive_recall": 0.8918703180645954,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4341,
+              "positives": 16286
+            },
+            "R": {
+              "balanced_accuracy": 0.8044230430354805,
+              "cba": 0.7708870604609276,
+              "cc": 0.8312406069714452,
+              "certified_negative_recall": 0.6666666666666666,
+              "certified_positive_recall": 0.8751074542551885,
+              "coverage": 0.953022737189121,
+              "n": 20627,
+              "negatives": 4341,
+              "positives": 16286
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.7895476802249479,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4341,
+              "positives": 16286
+            }
+          }
+        },
+        "zero": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 4233,
+            "classes": {
+              "negative": {
+                "a": 0.7610921501706485,
+                "disagreements": 879,
+                "fallback_routes": 389,
+                "fallback_wins": 210,
+                "p": 0.20248790601243952,
+                "queries": 4341,
+                "rich_wins": 669
+              },
+              "positive": {
+                "a": 0.7564102564102564,
+                "disagreements": 3354,
+                "fallback_routes": 796,
+                "fallback_wins": 817,
+                "p": 0.20594375537271276,
+                "queries": 16286,
+                "rich_wins": 2537
+              }
+            },
+            "delta": 0.10567409388554841,
+            "delta_exact": "2490299/23565842",
+            "fallback_frequency": 0.05744897464488292
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 4350,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "2490299/23565842",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.10567409388554841,
+            "interval95": [
+              0.09560256777629683,
+              0.11574561999479999
+            ],
+            "queries": 20627,
+            "variance": 2.640549929180483e-05
+          },
+          "h_vs_r": {
+            "accounts": 4350,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "2689537/70697526",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.03804287295711027,
+            "interval95": [
+              0.03367031500924866,
+              0.042415430904971886
+            ],
+            "queries": 20627,
+            "variance": 4.977083941239042e-06
+          },
+          "rich_threshold": 0.0,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7120299230838715,
+              "cba": 0.7120299230838715,
+              "cc": 0.7258932467154701,
+              "certified_negative_recall": 0.6880903017737848,
+              "certified_positive_recall": 0.735969544393958,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4341,
+              "positives": 16286
+            },
+            "H": {
+              "balanced_accuracy": 0.8177040169694199,
+              "cba": 0.8177040169694199,
+              "cc": 0.8315314878557231,
+              "certified_negative_recall": 0.7938263073024648,
+              "certified_positive_recall": 0.8415817266363748,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4341,
+              "positives": 16286
+            },
+            "R": {
+              "balanced_accuracy": 0.818562625515354,
+              "cba": 0.7796611440123096,
+              "cc": 0.8020070781015174,
+              "certified_negative_recall": 0.7410734853720341,
+              "certified_positive_recall": 0.818248802652585,
+              "coverage": 0.942551025355117,
+              "n": 20627,
+              "negatives": 4341,
+              "positives": 16286
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.7895476802249479,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 20627,
+              "negatives": 4341,
+              "positives": 16286
+            }
+          }
+        }
+      },
+      "published_entries_reproduced": 6,
+      "queries": 20627
+    },
+    "random4": {
+      "points": {
+        "tuned": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 195,
+            "classes": {
+              "negative": {
+                "a": 0.6190476190476191,
+                "disagreements": 21,
+                "fallback_routes": 206,
+                "fallback_wins": 8,
+                "p": 0.029453015427769985,
+                "queries": 713,
+                "rich_wins": 13
+              },
+              "positive": {
+                "a": 0.9655172413793104,
+                "disagreements": 174,
+                "fallback_routes": 1539,
+                "fallback_wins": 6,
+                "p": 0.027162035591632844,
+                "queries": 6406,
+                "rich_wins": 168
+              }
+            },
+            "delta": 0.016150707239312372,
+            "delta_exact": "36884/2283739",
+            "fallback_frequency": 0.24511869644613007
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 3463,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "36884/2283739",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.016150707239312376,
+            "interval95": [
+              0.007741463743927158,
+              0.02455995073469759
+            ],
+            "queries": 7119,
+            "variance": 1.8408469142954605e-05
+          },
+          "h_vs_r": {
+            "accounts": 3463,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "57109/397172",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.14378908885822766,
+            "interval95": [
+              0.11977336031927113,
+              0.1678048173971842
+            ],
+            "queries": 7119,
+            "variance": 0.00015013963293055314
+          },
+          "rich_threshold": -0.4890897100243361,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7891622028611851,
+              "cba": 0.7891622028611851,
+              "cc": 0.8201994662171653,
+              "certified_negative_recall": 0.7503506311360448,
+              "certified_positive_recall": 0.8279737745863254,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "H": {
+              "balanced_accuracy": 0.8053129101004974,
+              "cba": 0.8053129101004974,
+              "cc": 0.8436578171091446,
+              "certified_negative_recall": 0.7573632538569425,
+              "certified_positive_recall": 0.8532625663440524,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "R": {
+              "balanced_accuracy": 0.844977687905667,
+              "cba": 0.6615238212422698,
+              "cc": 0.7138643067846607,
+              "certified_negative_recall": 0.5960729312762973,
+              "certified_positive_recall": 0.7269747112082423,
+              "coverage": 0.75488130355387,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.8998454839162804,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            }
+          }
+        },
+        "zero": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 124,
+            "classes": {
+              "negative": {
+                "a": 0.9655172413793104,
+                "disagreements": 29,
+                "fallback_routes": 181,
+                "fallback_wins": 1,
+                "p": 0.04067321178120617,
+                "queries": 713,
+                "rich_wins": 28
+              },
+              "positive": {
+                "a": 0.43157894736842106,
+                "disagreements": 95,
+                "fallback_routes": 2361,
+                "fallback_wins": 54,
+                "p": 0.01482984701842023,
+                "queries": 6406,
+                "rich_wins": 41
+              }
+            },
+            "delta": 0.017919407603057966,
+            "delta_exact": "163693/9134956",
+            "fallback_frequency": 0.35707262255934824
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 3463,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "163693/9134956",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.017919407603057966,
+            "interval95": [
+              0.008660595861020703,
+              0.02717821934509523
+            ],
+            "queries": 7119,
+            "variance": 2.2315895829125946e-05
+          },
+          "h_vs_r": {
+            "accounts": 3463,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "416194/2283739",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.18224236657516468,
+            "interval95": [
+              0.1611042354152215,
+              0.20338049773510786
+            ],
+            "queries": 7119,
+            "variance": 0.00011631534002861526
+          },
+          "rich_threshold": 0.0,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7891622028611851,
+              "cba": 0.7891622028611851,
+              "cc": 0.8201994662171653,
+              "certified_negative_recall": 0.7503506311360448,
+              "certified_positive_recall": 0.8279737745863254,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "H": {
+              "balanced_accuracy": 0.8070816104642431,
+              "cba": 0.8070816104642431,
+              "cc": 0.822166034555415,
+              "certified_negative_recall": 0.788218793828892,
+              "certified_positive_recall": 0.8259444270995941,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "R": {
+              "balanced_accuracy": 0.8594290985090678,
+              "cba": 0.6248392438890784,
+              "cc": 0.5749403006040175,
+              "certified_negative_recall": 0.6872370266479664,
+              "certified_positive_recall": 0.5624414611301904,
+              "coverage": 0.6429273774406518,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.8998454839162804,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            }
+          }
+        }
+      },
+      "published_entries_reproduced": 6,
+      "queries": 7119
+    },
+    "random5": {
+      "points": {
+        "tuned": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 218,
+            "classes": {
+              "negative": {
+                "a": 0.9807692307692307,
+                "disagreements": 52,
+                "fallback_routes": 198,
+                "fallback_wins": 1,
+                "p": 0.0729312762973352,
+                "queries": 713,
+                "rich_wins": 51
+              },
+              "positive": {
+                "a": 0.26506024096385544,
+                "disagreements": 166,
+                "fallback_routes": 2123,
+                "fallback_wins": 122,
+                "p": 0.025913206369029034,
+                "queries": 6406,
+                "rich_wins": 44
+              }
+            },
+            "delta": 0.02897507114429451,
+            "delta_exact": "132343/4567478",
+            "fallback_frequency": 0.32602893664840565
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 3445,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "132343/4567478",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.02897507114429451,
+            "interval95": [
+              0.0029971394243327037,
+              0.05495300286425631
+            ],
+            "queries": 7119,
+            "variance": 0.00017567621259182372
+          },
+          "h_vs_r": {
+            "accounts": 3445,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "383714/2283739",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.168020075849298,
+            "interval95": [
+              0.14534940201717247,
+              0.19069074968142355
+            ],
+            "queries": 7119,
+            "variance": 0.00013379277925195946
+          },
+          "rich_threshold": -0.06628351260193854,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7669571697991758,
+              "cba": 0.7669571697991758,
+              "cc": 0.8172496137097907,
+              "certified_negative_recall": 0.7040673211781207,
+              "certified_positive_recall": 0.829847018420231,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "H": {
+              "balanced_accuracy": 0.7959322409434704,
+              "cba": 0.7959322409434704,
+              "cc": 0.8133164770332912,
+              "certified_negative_recall": 0.7741935483870968,
+              "certified_positive_recall": 0.8176709334998439,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "R": {
+              "balanced_accuracy": 0.8405754773203068,
+              "cba": 0.6279121650941724,
+              "cc": 0.6073886781851383,
+              "certified_negative_recall": 0.6535764375876578,
+              "certified_positive_recall": 0.6022478926006869,
+              "coverage": 0.6739710633515943,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.8998454839162804,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            }
+          }
+        },
+        "zero": {
+          "available": true,
+          "diagnostic": {
+            "certified_disagreements": 229,
+            "classes": {
+              "negative": {
+                "a": 0.9814814814814815,
+                "disagreements": 54,
+                "fallback_routes": 190,
+                "fallback_wins": 1,
+                "p": 0.07573632538569425,
+                "queries": 713,
+                "rich_wins": 53
+              },
+              "positive": {
+                "a": 0.22857142857142856,
+                "disagreements": 175,
+                "fallback_routes": 2249,
+                "fallback_wins": 135,
+                "p": 0.02731813924445832,
+                "queries": 6406,
+                "rich_wins": 40
+              }
+            },
+            "delta": 0.029050714639457485,
+            "delta_exact": "265377/9134956",
+            "fallback_frequency": 0.34260429835651074
+          },
+          "fallback_threshold": 0.0,
+          "h_vs_f": {
+            "accounts": 3445,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "265377/9134956",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.029050714639457485,
+            "interval95": [
+              0.0030776854438528435,
+              0.05502374383506213
+            ],
+            "queries": 7119,
+            "variance": 0.0001756099120369682
+          },
+          "h_vs_r": {
+            "accounts": 3445,
+            "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+            "delta_exact": "394431/2283739",
+            "dependence": "shared account in either endpoint role",
+            "gain": 0.17271281875906136,
+            "interval95": [
+              0.1505799084349397,
+              0.194845729083183
+            ],
+            "queries": 7119,
+            "variance": 0.00012752075247473183
+          },
+          "rich_threshold": 0.0,
+          "systems": {
+            "F": {
+              "balanced_accuracy": 0.7669571697991758,
+              "cba": 0.7669571697991758,
+              "cc": 0.8172496137097907,
+              "certified_negative_recall": 0.7040673211781207,
+              "certified_positive_recall": 0.829847018420231,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "H": {
+              "balanced_accuracy": 0.7960078844386334,
+              "cba": 0.7960078844386334,
+              "cc": 0.8112094395280236,
+              "certified_negative_recall": 0.7769985974754559,
+              "certified_positive_recall": 0.8150171714018108,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "R": {
+              "balanced_accuracy": 0.8407255601450078,
+              "cba": 0.6232950656795719,
+              "cc": 0.5878634639696586,
+              "certified_negative_recall": 0.667601683029453,
+              "certified_positive_recall": 0.5789884483296909,
+              "coverage": 0.6573957016434893,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            },
+            "T": {
+              "balanced_accuracy": 0.5,
+              "cba": 0.5,
+              "cc": 0.8998454839162804,
+              "certified_negative_recall": 0.0,
+              "certified_positive_recall": 1.0,
+              "coverage": 1.0,
+              "n": 7119,
+              "negatives": 713,
+              "positives": 6406
+            }
+          }
+        }
+      },
+      "published_entries_reproduced": 6,
+      "queries": 7119
+    }
+  },
+  "random_network_means": {
+    "Alpha": {
+      "tuned": {
+        "delta_h_vs_f": 0.03339324054234985,
+        "delta_h_vs_r": 0.22703979265140714,
+        "fallback_ba": 0.7208276188010913,
+        "fallback_frequency": 0.45266639107069034,
+        "hybrid_ba": 0.7542208593434411,
+        "rich_cba": 0.527181066692034
+      },
+      "zero": {
+        "delta_h_vs_f": 0.0369407763612396,
+        "delta_h_vs_r": 0.28748285954495134,
+        "fallback_ba": 0.7208276188010913,
+        "fallback_frequency": 0.5952873088052915,
+        "hybrid_ba": 0.7577683951623309,
+        "rich_cba": 0.4702855356173795
+      }
+    },
+    "OTC": {
+      "tuned": {
+        "delta_h_vs_f": 0.022562889191803444,
+        "delta_h_vs_r": 0.15590458235376284,
+        "fallback_ba": 0.7780596863301805,
+        "fallback_frequency": 0.2855738165472679,
+        "hybrid_ba": 0.8006225755219839,
+        "rich_cba": 0.6447179931682211
+      },
+      "zero": {
+        "delta_h_vs_f": 0.023485061121257728,
+        "delta_h_vs_r": 0.17747759266711302,
+        "fallback_ba": 0.7780596863301805,
+        "fallback_frequency": 0.3498384604579295,
+        "hybrid_ba": 0.8015447474514382,
+        "rich_cba": 0.6240671547843252
+      }
+    },
+    "Wiki": {
+      "tuned": {
+        "delta_h_vs_f": 0.09386897025081858,
+        "delta_h_vs_r": 0.03789062860238258,
+        "fallback_ba": 0.7166393768428186,
+        "fallback_frequency": 0.046104620158045284,
+        "hybrid_ba": 0.8105083470936372,
+        "rich_cba": 0.7726177184912546
+      },
+      "zero": {
+        "delta_h_vs_f": 0.10434139615635485,
+        "delta_h_vs_r": 0.036284060711328704,
+        "fallback_ba": 0.7166393768428186,
+        "fallback_frequency": 0.05548552867600717,
+        "hybrid_ba": 0.8209807729991735,
+        "rich_cba": 0.7846967122878448
+      }
+    }
+  },
+  "result_sha256": "5b49951d7708e1378a277656c2897e82b5df462fe443d1c7b1436081f6f0edc5",
+  "selection_sha256": "e6190ea5797b49a9a2e984bdb23c25a0b320be5228d8aba4a30e5fa689af626a",
+  "temporal": {
+    "time6w0": {
+      "audit_seconds": {
+        "definition": "wall-clock seconds of the whole saved per-query record: exact intervals of both stored heads, witness replays, target-only and single-edit audits, one process; not end-to-end latency",
+        "max": 0.2947243209928274,
+        "median": 0.03385292366147041,
+        "p95": 0.13009257186204196,
+        "p99": 0.167279879078269,
+        "quantile_method": "numpy linear",
+        "queries": 4843
+      },
+      "network": "Alpha",
+      "points": {
+        "tuned": {
+          "available": true,
+          "cohorts": {
+            "all": {
+              "diagnostic": {
+                "certified_disagreements": 3129,
+                "classes": {
+                  "negative": {
+                    "a": 0.004291845493562232,
+                    "disagreements": 233,
+                    "fallback_routes": 116,
+                    "fallback_wins": 232,
+                    "p": 0.571078431372549,
+                    "queries": 408,
+                    "rich_wins": 1
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 2896,
+                    "fallback_routes": 1029,
+                    "fallback_wins": 0,
+                    "p": 0.6529875986471252,
+                    "queries": 4435,
+                    "rich_wins": 2896
+                  }
+                },
+                "delta": 0.043405564029444926,
+                "delta_exact": "52361/1206320",
+                "fallback_frequency": 0.2364237043155069
+              },
+              "h_vs_f": {
+                "accounts": 1163,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "52361/1206320",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.043405564029444954,
+                "interval95": [
+                  -0.03832404567275399,
+                  0.1251351737316439
+                ],
+                "queries": 4843,
+                "variance": 0.0017388521949239042
+              },
+              "systems": {
+                "F": {
+                  "balanced_accuracy": 0.5343140018126754,
+                  "cba": 0.5343140018126754,
+                  "cc": 0.24695436712781335,
+                  "certified_negative_recall": 0.8799019607843137,
+                  "certified_positive_recall": 0.1887260428410372,
+                  "coverage": 1.0,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                },
+                "H": {
+                  "balanced_accuracy": 0.5777195658421204,
+                  "cba": 0.5777195658421204,
+                  "cc": 0.7972331199669627,
+                  "certified_negative_recall": 0.3137254901960784,
+                  "certified_positive_recall": 0.8417136414881623,
+                  "coverage": 1.0,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                },
+                "R": {
+                  "balanced_accuracy": 0.5618630766850145,
+                  "cba": 0.4280646926188739,
+                  "cc": 0.7045219905017551,
+                  "certified_negative_recall": 0.09558823529411764,
+                  "certified_positive_recall": 0.7605411499436302,
+                  "coverage": 0.763576295684493,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                },
+                "S": {
+                  "balanced_accuracy": 0.5564383137697018,
+                  "cba": 0.4832996219908482,
+                  "cc": 0.726202766880033,
+                  "certified_negative_recall": 0.19117647058823528,
+                  "certified_positive_recall": 0.7754227733934611,
+                  "coverage": 0.8560809415651456,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.9157546975015486,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                }
+              }
+            },
+            "cold_start": {
+              "diagnostic": {
+                "certified_disagreements": 2930,
+                "classes": {
+                  "negative": {
+                    "a": 0.0,
+                    "disagreements": 226,
+                    "fallback_routes": 5,
+                    "fallback_wins": 226,
+                    "p": 0.8828125,
+                    "queries": 256,
+                    "rich_wins": 0
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 2704,
+                    "fallback_routes": 43,
+                    "fallback_wins": 0,
+                    "p": 0.9147496617050067,
+                    "queries": 2956,
+                    "rich_wins": 2704
+                  }
+                },
+                "delta": 0.015968580852503383,
+                "delta_exact": "3021/189184",
+                "fallback_frequency": 0.014943960149439602
+              },
+              "h_vs_f": {
+                "accounts": 960,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "3021/189184",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.015968580852503356,
+                "interval95": [
+                  -0.02843491701407594,
+                  0.06037207871908265
+                ],
+                "queries": 3212,
+                "variance": 0.0005132609029064236
+              },
+              "systems": {
+                "F": {
+                  "balanced_accuracy": 0.5172662593031123,
+                  "cba": 0.5172662593031123,
+                  "cc": 0.14103362391033625,
+                  "certified_negative_recall": 0.96484375,
+                  "certified_positive_recall": 0.06968876860622462,
+                  "coverage": 1.0,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                },
+                "H": {
+                  "balanced_accuracy": 0.5332348401556157,
+                  "cba": 0.5332348401556157,
+                  "cc": 0.9125155666251556,
+                  "certified_negative_recall": 0.08203125,
+                  "certified_positive_recall": 0.9844384303112313,
+                  "coverage": 1.0,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                },
+                "R": {
+                  "balanced_accuracy": 0.5389858550405954,
+                  "cba": 0.5233000676589986,
+                  "cc": 0.9106475716064757,
+                  "certified_negative_recall": 0.0625,
+                  "certified_positive_recall": 0.9841001353179973,
+                  "coverage": 0.9850560398505604,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                },
+                "S": {
+                  "balanced_accuracy": 0.5332348401556157,
+                  "cba": 0.5332348401556157,
+                  "cc": 0.9125155666251556,
+                  "certified_negative_recall": 0.08203125,
+                  "certified_positive_recall": 0.9844384303112313,
+                  "coverage": 1.0,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.9202988792029888,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                }
+              }
+            },
+            "established": {
+              "diagnostic": {
+                "certified_disagreements": 199,
+                "classes": {
+                  "negative": {
+                    "a": 0.14285714285714285,
+                    "disagreements": 7,
+                    "fallback_routes": 111,
+                    "fallback_wins": 6,
+                    "p": 0.046052631578947366,
+                    "queries": 152,
+                    "rich_wins": 1
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 192,
+                    "fallback_routes": 986,
+                    "fallback_wins": 0,
+                    "p": 0.12981744421906694,
+                    "queries": 1479,
+                    "rich_wins": 192
+                  }
+                },
+                "delta": 0.048461353688480834,
+                "delta_exact": "7263/149872",
+                "fallback_frequency": 0.6725935009196812
+              },
+              "h_vs_f": {
+                "accounts": 444,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "7263/149872",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.04846135368848084,
+                "interval95": [
+                  0.028765754529169893,
+                  0.06815695284779179
+                ],
+                "queries": 1631,
+                "variance": 0.00010098159172096925
+              },
+              "systems": {
+                "F": {
+                  "balanced_accuracy": 0.5817408633144728,
+                  "cba": 0.5817408633144728,
+                  "cc": 0.4555487431023912,
+                  "certified_negative_recall": 0.7368421052631579,
+                  "certified_positive_recall": 0.4266396213657877,
+                  "coverage": 1.0,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                },
+                "H": {
+                  "balanced_accuracy": 0.6302022170029536,
+                  "cba": 0.6302022170029536,
+                  "cc": 0.5702023298589822,
+                  "certified_negative_recall": 0.7039473684210527,
+                  "certified_positive_recall": 0.5564570655848546,
+                  "coverage": 1.0,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                },
+                "R": {
+                  "balanced_accuracy": 0.5989043984199851,
+                  "cba": 0.23252063983488133,
+                  "cc": 0.29858982219497243,
+                  "certified_negative_recall": 0.1513157894736842,
+                  "certified_positive_recall": 0.3137254901960784,
+                  "coverage": 0.3274064990803188,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                },
+                "S": {
+                  "balanced_accuracy": 0.5848835450695705,
+                  "cba": 0.3663370520622042,
+                  "cc": 0.35928877988963825,
+                  "certified_negative_recall": 0.375,
+                  "certified_positive_recall": 0.35767410412440837,
+                  "coverage": 0.5726548129981607,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.9068056407112202,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                }
+              }
+            }
+          },
+          "fallback_threshold": 0.0,
+          "rich_threshold": -2.671235998504753
+        },
+        "zero": {
+          "available": true,
+          "cohorts": {
+            "all": {
+              "diagnostic": {
+                "certified_disagreements": 1076,
+                "classes": {
+                  "negative": {
+                    "a": 0.1643835616438356,
+                    "disagreements": 73,
+                    "fallback_routes": 103,
+                    "fallback_wins": 61,
+                    "p": 0.17892156862745098,
+                    "queries": 408,
+                    "rich_wins": 12
+                  },
+                  "positive": {
+                    "a": 0.9042871385842473,
+                    "disagreements": 1003,
+                    "fallback_routes": 1624,
+                    "fallback_wins": 96,
+                    "p": 0.22615558060879368,
+                    "queries": 4435,
+                    "rich_wins": 907
+                  }
+                },
+                "delta": 0.03138277295134514,
+                "delta_exact": "113573/3618960",
+                "fallback_frequency": 0.3565971505265331
+              },
+              "h_vs_b": {
+                "accounts": 1163,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "14503/603160",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.024045029511240795,
+                "interval95": [
+                  -0.06340210725043913,
+                  0.11149216627292072
+                ],
+                "queries": 4843,
+                "variance": 0.001990650449412911
+              },
+              "h_vs_f": {
+                "accounts": 1163,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "113573/3618960",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.03138277295134514,
+                "interval95": [
+                  -0.006679445808890315,
+                  0.06944499171158058
+                ],
+                "queries": 4843,
+                "variance": 0.00037713081529017764
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5416517452527798,
+                  "cba": 0.5416517452527798,
+                  "cc": 0.7637827792690481,
+                  "certified_negative_recall": 0.27450980392156865,
+                  "certified_positive_recall": 0.808793686583991,
+                  "coverage": 1.0,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                },
+                "F": {
+                  "balanced_accuracy": 0.5343140018126754,
+                  "cba": 0.5343140018126754,
+                  "cc": 0.24695436712781335,
+                  "certified_negative_recall": 0.8799019607843137,
+                  "certified_positive_recall": 0.1887260428410372,
+                  "coverage": 1.0,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                },
+                "H": {
+                  "balanced_accuracy": 0.5656967747640206,
+                  "cba": 0.5656967747640206,
+                  "cc": 0.4042948585587446,
+                  "certified_negative_recall": 0.7598039215686274,
+                  "certified_positive_recall": 0.37158962795941375,
+                  "coverage": 1.0,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                },
+                "R": {
+                  "balanced_accuracy": 0.5840164025023764,
+                  "cba": 0.4016126179896987,
+                  "cc": 0.23828205657650217,
+                  "certified_negative_recall": 0.5980392156862745,
+                  "certified_positive_recall": 0.20518602029312288,
+                  "coverage": 0.6434028494734668,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                },
+                "S": {
+                  "balanced_accuracy": 0.5677056391891593,
+                  "cba": 0.5101396533810818,
+                  "cc": 0.33718769357836054,
+                  "certified_negative_recall": 0.7181372549019608,
+                  "certified_positive_recall": 0.30214205186020293,
+                  "coverage": 0.8944868882923808,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.9157546975015486,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 4843,
+                  "negatives": 408,
+                  "positives": 4435
+                }
+              }
+            },
+            "cold_start": {
+              "diagnostic": {
+                "certified_disagreements": 1067,
+                "classes": {
+                  "negative": {
+                    "a": 0.08955223880597014,
+                    "disagreements": 67,
+                    "fallback_routes": 4,
+                    "fallback_wins": 61,
+                    "p": 0.26171875,
+                    "queries": 256,
+                    "rich_wins": 6
+                  },
+                  "positive": {
+                    "a": 0.907,
+                    "disagreements": 1000,
+                    "fallback_routes": 249,
+                    "fallback_wins": 93,
+                    "p": 0.3382949932341001,
+                    "queries": 2956,
+                    "rich_wins": 907
+                  }
+                },
+                "delta": 0.030264187246278756,
+                "delta_exact": "11451/378368",
+                "fallback_frequency": 0.07876712328767123
+              },
+              "h_vs_f": {
+                "accounts": 960,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "11451/378368",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.030264187246278745,
+                "interval95": [
+                  -0.03664473439033776,
+                  0.09717310888289525
+                ],
+                "queries": 3212,
+                "variance": 0.0011653915878150586
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.9202988792029888,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                },
+                "F": {
+                  "balanced_accuracy": 0.5172662593031123,
+                  "cba": 0.5172662593031123,
+                  "cc": 0.14103362391033625,
+                  "certified_negative_recall": 0.96484375,
+                  "certified_positive_recall": 0.06968876860622462,
+                  "coverage": 1.0,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                },
+                "H": {
+                  "balanced_accuracy": 0.5475304465493911,
+                  "cba": 0.5475304465493911,
+                  "cc": 0.37733499377334995,
+                  "certified_negative_recall": 0.75,
+                  "certified_positive_recall": 0.34506089309878213,
+                  "coverage": 1.0,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                },
+                "R": {
+                  "balanced_accuracy": 0.5567727714817321,
+                  "cba": 0.5268019494248986,
+                  "cc": 0.3424657534246575,
+                  "certified_negative_recall": 0.74609375,
+                  "certified_positive_recall": 0.30751014884979705,
+                  "coverage": 0.9212328767123288,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                },
+                "S": {
+                  "balanced_accuracy": 0.5475304465493911,
+                  "cba": 0.5475304465493911,
+                  "cc": 0.37733499377334995,
+                  "certified_negative_recall": 0.75,
+                  "certified_positive_recall": 0.34506089309878213,
+                  "coverage": 1.0,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.9202988792029888,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 3212,
+                  "negatives": 256,
+                  "positives": 2956
+                }
+              }
+            },
+            "established": {
+              "diagnostic": {
+                "certified_disagreements": 9,
+                "classes": {
+                  "negative": {
+                    "a": 1.0,
+                    "disagreements": 6,
+                    "fallback_routes": 99,
+                    "fallback_wins": 0,
+                    "p": 0.039473684210526314,
+                    "queries": 152,
+                    "rich_wins": 6
+                  },
+                  "positive": {
+                    "a": 0.0,
+                    "disagreements": 3,
+                    "fallback_routes": 1375,
+                    "fallback_wins": 3,
+                    "p": 0.002028397565922921,
+                    "queries": 1479,
+                    "rich_wins": 0
+                  }
+                },
+                "delta": 0.018722643322301696,
+                "delta_exact": "1403/74936",
+                "fallback_frequency": 0.9037400367872471
+              },
+              "h_vs_f": {
+                "accounts": 444,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "1403/74936",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.018722643322301696,
+                "interval95": [
+                  -0.005915336218227537,
+                  0.04336062286283093
+                ],
+                "queries": 1631,
+                "variance": 0.00015802070624040972
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5817408633144728,
+                  "cba": 0.5817408633144728,
+                  "cc": 0.4555487431023912,
+                  "certified_negative_recall": 0.7368421052631579,
+                  "certified_positive_recall": 0.4266396213657877,
+                  "coverage": 1.0,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                },
+                "F": {
+                  "balanced_accuracy": 0.5817408633144728,
+                  "cba": 0.5817408633144728,
+                  "cc": 0.4555487431023912,
+                  "certified_negative_recall": 0.7368421052631579,
+                  "certified_positive_recall": 0.4266396213657877,
+                  "coverage": 1.0,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                },
+                "H": {
+                  "balanced_accuracy": 0.6004635066367745,
+                  "cba": 0.6004635066367745,
+                  "cc": 0.457388105456775,
+                  "certified_negative_recall": 0.7763157894736842,
+                  "certified_positive_recall": 0.42461122379986477,
+                  "coverage": 1.0,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                },
+                "R": {
+                  "balanced_accuracy": 0.6580348564108038,
+                  "cba": 0.17468017152414506,
+                  "cc": 0.03310852237890864,
+                  "certified_negative_recall": 0.34868421052631576,
+                  "certified_positive_recall": 0.000676132521974307,
+                  "coverage": 0.09625996321275292,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                },
+                "S": {
+                  "balanced_accuracy": 0.6118821394256432,
+                  "cba": 0.4404180456211523,
+                  "cc": 0.25812385039852853,
+                  "certified_negative_recall": 0.6644736842105263,
+                  "certified_positive_recall": 0.21636240703177823,
+                  "coverage": 0.6866952789699571,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.9068056407112202,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 1631,
+                  "negatives": 152,
+                  "positives": 1479
+                }
+              }
+            }
+          },
+          "fallback_threshold": 0.0,
+          "rich_threshold": 0.0
+        }
+      },
+      "published_entries_reproduced": 18,
+      "queries": 4843,
+      "window": 0
+    },
+    "time6w1": {
+      "audit_seconds": {
+        "definition": "wall-clock seconds of the whole saved per-query record: exact intervals of both stored heads, witness replays, target-only and single-edit audits, one process; not end-to-end latency",
+        "max": 0.2661146968603134,
+        "median": 0.03539551608264446,
+        "p95": 0.1468885879963635,
+        "p99": 0.19539391063153744,
+        "quantile_method": "numpy linear",
+        "queries": 4857
+      },
+      "network": "Alpha",
+      "points": {
+        "tuned": {
+          "available": false,
+          "fallback_threshold": 0.0,
+          "rich_threshold": null
+        },
+        "zero": {
+          "available": true,
+          "cohorts": {
+            "all": {
+              "diagnostic": {
+                "certified_disagreements": 1188,
+                "classes": {
+                  "negative": {
+                    "a": 0.2833333333333333,
+                    "disagreements": 60,
+                    "fallback_routes": 183,
+                    "fallback_wins": 43,
+                    "p": 0.12931034482758622,
+                    "queries": 464,
+                    "rich_wins": 17
+                  },
+                  "positive": {
+                    "a": 0.7677304964539007,
+                    "disagreements": 1128,
+                    "fallback_routes": 1602,
+                    "fallback_wins": 262,
+                    "p": 0.2567721374914637,
+                    "queries": 4393,
+                    "rich_wins": 866
+                  }
+                },
+                "delta": 0.04072849046680848,
+                "delta_exact": "83019/2038352",
+                "fallback_frequency": 0.36751080914144535
+              },
+              "h_vs_b": {
+                "accounts": 1176,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "5894/127397",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.04626482570233208,
+                "interval95": [
+                  0.029104168860120426,
+                  0.06342548254454372
+                ],
+                "queries": 4857,
+                "variance": 7.666049722301424e-05
+              },
+              "h_vs_f": {
+                "accounts": 1176,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "83019/2038352",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.04072849046680849,
+                "interval95": [
+                  0.008264666759535716,
+                  0.07319231417408126
+                ],
+                "queries": 4857,
+                "variance": 0.00027434886039112954
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5218357771376092,
+                  "cba": 0.4848433930940289,
+                  "cc": 0.355775169857937,
+                  "certified_negative_recall": 0.6443965517241379,
+                  "certified_positive_recall": 0.32529023446391986,
+                  "coverage": 0.9011735639283508,
+                  "n": 4857,
+                  "negatives": 464,
+                  "positives": 4393
+                },
+                "F": {
+                  "balanced_accuracy": 0.4903797283295525,
+                  "cba": 0.4903797283295525,
+                  "cc": 0.29256742845377803,
+                  "certified_negative_recall": 0.7349137931034483,
+                  "certified_positive_recall": 0.24584566355565673,
+                  "coverage": 1.0,
+                  "n": 4857,
+                  "negatives": 464,
+                  "positives": 4393
+                },
+                "H": {
+                  "balanced_accuracy": 0.5311082187963609,
+                  "cba": 0.5311082187963609,
+                  "cc": 0.4115709285567223,
+                  "certified_negative_recall": 0.6788793103448276,
+                  "certified_positive_recall": 0.38333712724789437,
+                  "coverage": 1.0,
+                  "n": 4857,
+                  "negatives": 464,
+                  "positives": 4393
+                },
+                "R": {
+                  "balanced_accuracy": 0.555614045071705,
+                  "cba": 0.3522006993885256,
+                  "cc": 0.2291537986411365,
+                  "certified_negative_recall": 0.5043103448275862,
+                  "certified_positive_recall": 0.20009105394946505,
+                  "coverage": 0.6324891908585547,
+                  "n": 4857,
+                  "negatives": 464,
+                  "positives": 4393
+                },
+                "S": {
+                  "balanced_accuracy": 0.5574238404358031,
+                  "cba": 0.4874464763691453,
+                  "cc": 0.35351039736462836,
+                  "certified_negative_recall": 0.6530172413793104,
+                  "certified_positive_recall": 0.3218757113589802,
+                  "coverage": 0.901585340745316,
+                  "n": 4857,
+                  "negatives": 464,
+                  "positives": 4393
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.9044677784640724,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 4857,
+                  "negatives": 464,
+                  "positives": 4393
+                }
+              }
+            },
+            "cold_start": {
+              "diagnostic": {
+                "certified_disagreements": 1167,
+                "classes": {
+                  "negative": {
+                    "a": 0.14,
+                    "disagreements": 50,
+                    "fallback_routes": 21,
+                    "fallback_wins": 43,
+                    "p": 0.23923444976076555,
+                    "queries": 209,
+                    "rich_wins": 7
+                  },
+                  "positive": {
+                    "a": 0.7752909579230081,
+                    "disagreements": 1117,
+                    "fallback_routes": 459,
+                    "fallback_wins": 251,
+                    "p": 0.3589331619537275,
+                    "queries": 3112,
+                    "rich_wins": 866
+                  }
+                },
+                "delta": 0.012686652070700237,
+                "delta_exact": "16503/1300816",
+                "fallback_frequency": 0.14453477868112014
+              },
+              "h_vs_f": {
+                "accounts": 944,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "16503/1300816",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.01268665207070023,
+                "interval95": [
+                  -0.057328355769232384,
+                  0.08270165991063284
+                ],
+                "queries": 3321,
+                "variance": 0.0012761040926478158
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5521195926249369,
+                  "cba": 0.4868321115361435,
+                  "cc": 0.305931948208371,
+                  "certified_negative_recall": 0.69377990430622,
+                  "certified_positive_recall": 0.27988431876606684,
+                  "coverage": 0.8554652213188798,
+                  "n": 3321,
+                  "negatives": 209,
+                  "positives": 3112
+                },
+                "F": {
+                  "balanced_accuracy": 0.531237315654174,
+                  "cba": 0.531237315654174,
+                  "cc": 0.21348991267690454,
+                  "certified_negative_recall": 0.8947368421052632,
+                  "certified_positive_recall": 0.16773778920308482,
+                  "coverage": 1.0,
+                  "n": 3321,
+                  "negatives": 209,
+                  "positives": 3112
+                },
+                "H": {
+                  "balanced_accuracy": 0.5439239677248743,
+                  "cba": 0.5439239677248743,
+                  "cc": 0.3878349894610057,
+                  "certified_negative_recall": 0.722488038277512,
+                  "certified_positive_recall": 0.3653598971722365,
+                  "coverage": 1.0,
+                  "n": 3321,
+                  "negatives": 209,
+                  "positives": 3112
+                },
+                "R": {
+                  "balanced_accuracy": 0.5521195926249369,
+                  "cba": 0.4868321115361435,
+                  "cc": 0.305931948208371,
+                  "certified_negative_recall": 0.69377990430622,
+                  "certified_positive_recall": 0.27988431876606684,
+                  "coverage": 0.8554652213188798,
+                  "n": 3321,
+                  "negatives": 209,
+                  "positives": 3112
+                },
+                "S": {
+                  "balanced_accuracy": 0.5439239677248743,
+                  "cba": 0.5439239677248743,
+                  "cc": 0.3878349894610057,
+                  "certified_negative_recall": 0.722488038277512,
+                  "certified_positive_recall": 0.3653598971722365,
+                  "coverage": 1.0,
+                  "n": 3321,
+                  "negatives": 209,
+                  "positives": 3112
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.9370671484492623,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 3321,
+                  "negatives": 209,
+                  "positives": 3112
+                }
+              }
+            },
+            "established": {
+              "diagnostic": {
+                "certified_disagreements": 21,
+                "classes": {
+                  "negative": {
+                    "a": 1.0,
+                    "disagreements": 10,
+                    "fallback_routes": 162,
+                    "fallback_wins": 0,
+                    "p": 0.0392156862745098,
+                    "queries": 255,
+                    "rich_wins": 10
+                  },
+                  "positive": {
+                    "a": 0.0,
+                    "disagreements": 11,
+                    "fallback_routes": 1143,
+                    "fallback_wins": 11,
+                    "p": 0.00858704137392662,
+                    "queries": 1281,
+                    "rich_wins": 0
+                  }
+                },
+                "delta": 0.015314322450291592,
+                "delta_exact": "667/43554",
+                "fallback_frequency": 0.849609375
+              },
+              "h_vs_f": {
+                "accounts": 487,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "667/43554",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.01531432245029159,
+                "interval95": [
+                  -0.004015369236163531,
+                  0.03464401413674671
+                ],
+                "queries": 1536,
+                "variance": 9.726434621155165e-05
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5197593791615006,
+                  "cba": 0.5197593791615006,
+                  "cc": 0.4635416666666667,
+                  "certified_negative_recall": 0.6039215686274509,
+                  "certified_positive_recall": 0.43559718969555034,
+                  "coverage": 1.0,
+                  "n": 1536,
+                  "negatives": 255,
+                  "positives": 1281
+                },
+                "F": {
+                  "balanced_accuracy": 0.5197593791615006,
+                  "cba": 0.5197593791615006,
+                  "cc": 0.4635416666666667,
+                  "certified_negative_recall": 0.6039215686274509,
+                  "certified_positive_recall": 0.43559718969555034,
+                  "coverage": 1.0,
+                  "n": 1536,
+                  "negatives": 255,
+                  "positives": 1281
+                },
+                "H": {
+                  "balanced_accuracy": 0.5350737016117922,
+                  "cba": 0.5350737016117922,
+                  "cc": 0.462890625,
+                  "certified_negative_recall": 0.6431372549019608,
+                  "certified_positive_recall": 0.4270101483216237,
+                  "coverage": 1.0,
+                  "n": 1536,
+                  "negatives": 255,
+                  "positives": 1281
+                },
+                "R": {
+                  "balanced_accuracy": 0.6772282683565229,
+                  "cba": 0.1776323644211783,
+                  "cc": 0.06315104166666667,
+                  "certified_negative_recall": 0.34901960784313724,
+                  "certified_positive_recall": 0.00624512099921936,
+                  "coverage": 0.150390625,
+                  "n": 1536,
+                  "negatives": 255,
+                  "positives": 1281
+                },
+                "S": {
+                  "balanced_accuracy": 0.6097074895531983,
+                  "cba": 0.4061578729852597,
+                  "cc": 0.279296875,
+                  "certified_negative_recall": 0.596078431372549,
+                  "certified_positive_recall": 0.21623731459797033,
+                  "coverage": 0.6888020833333334,
+                  "n": 1536,
+                  "negatives": 255,
+                  "positives": 1281
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.833984375,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 1536,
+                  "negatives": 255,
+                  "positives": 1281
+                }
+              }
+            }
+          },
+          "fallback_threshold": 0.0,
+          "rich_threshold": 0.0
+        }
+      },
+      "published_entries_reproduced": 12,
+      "queries": 4857,
+      "window": 1
+    },
+    "time6w2": {
+      "audit_seconds": {
+        "definition": "wall-clock seconds of the whole saved per-query record: exact intervals of both stored heads, witness replays, target-only and single-edit audits, one process; not end-to-end latency",
+        "max": 0.32455004565417767,
+        "median": 0.04002630338072777,
+        "p95": 0.1337083870545029,
+        "p99": 0.20955240182578563,
+        "quantile_method": "numpy linear",
+        "queries": 4847
+      },
+      "network": "Alpha",
+      "points": {
+        "tuned": {
+          "available": true,
+          "cohorts": {
+            "all": {
+              "diagnostic": {
+                "certified_disagreements": 809,
+                "classes": {
+                  "negative": {
+                    "a": 0.10294117647058823,
+                    "disagreements": 68,
+                    "fallback_routes": 280,
+                    "fallback_wins": 61,
+                    "p": 0.11021069692058347,
+                    "queries": 617,
+                    "rich_wins": 7
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 741,
+                    "fallback_routes": 1998,
+                    "fallback_wins": 0,
+                    "p": 0.175177304964539,
+                    "queries": 4230,
+                    "rich_wins": 741
+                  }
+                },
+                "delta": 0.043828522822626066,
+                "delta_exact": "76259/1739940",
+                "fallback_frequency": 0.4699814318134929
+              },
+              "h_vs_f": {
+                "accounts": 1130,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "76259/1739940",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.043828522822626066,
+                "interval95": [
+                  0.015947350408437585,
+                  0.07170969523681454
+                ],
+                "queries": 4847,
+                "variance": 0.00020236056442985407
+              },
+              "systems": {
+                "F": {
+                  "balanced_accuracy": 0.522658061005935,
+                  "cba": 0.522658061005935,
+                  "cc": 0.5159892717144625,
+                  "certified_negative_recall": 0.5316045380875203,
+                  "certified_positive_recall": 0.5137115839243499,
+                  "coverage": 1.0,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                },
+                "H": {
+                  "balanced_accuracy": 0.5664865838285611,
+                  "cba": 0.5664865838285611,
+                  "cc": 0.6577264287187952,
+                  "certified_negative_recall": 0.44408427876823336,
+                  "certified_positive_recall": 0.6888888888888889,
+                  "coverage": 1.0,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                },
+                "R": {
+                  "balanced_accuracy": 0.5516864566211095,
+                  "cba": 0.3024355245966336,
+                  "cc": 0.43243243243243246,
+                  "certified_negative_recall": 0.1280388978930308,
+                  "certified_positive_recall": 0.47683215130023643,
+                  "coverage": 0.5300185681865072,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                },
+                "S": {
+                  "balanced_accuracy": 0.5688416458805093,
+                  "cba": 0.45411738335804686,
+                  "cc": 0.5232102331338973,
+                  "certified_negative_recall": 0.36142625607779577,
+                  "certified_positive_recall": 0.5468085106382978,
+                  "coverage": 0.7751186300804621,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8727047658345368,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                }
+              }
+            },
+            "cold_start": {
+              "diagnostic": {
+                "certified_disagreements": 794,
+                "classes": {
+                  "negative": {
+                    "a": 0.0,
+                    "disagreements": 58,
+                    "fallback_routes": 8,
+                    "fallback_wins": 58,
+                    "p": 0.2078853046594982,
+                    "queries": 279,
+                    "rich_wins": 0
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 736,
+                    "fallback_routes": 95,
+                    "fallback_wins": 0,
+                    "p": 0.3420074349442379,
+                    "queries": 2152,
+                    "rich_wins": 736
+                  }
+                },
+                "delta": 0.06706106514236986,
+                "delta_exact": "5033/75051",
+                "fallback_frequency": 0.04236939531057178
+              },
+              "h_vs_f": {
+                "accounts": 794,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "5033/75051",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.06706106514236986,
+                "interval95": [
+                  0.012896610812878295,
+                  0.12122551947186141
+                ],
+                "queries": 2431,
+                "variance": 0.0007637171839529083
+              },
+              "systems": {
+                "F": {
+                  "balanced_accuracy": 0.4417629345378476,
+                  "cba": 0.4417629345378476,
+                  "cc": 0.5639654463183875,
+                  "certified_negative_recall": 0.2831541218637993,
+                  "certified_positive_recall": 0.6003717472118959,
+                  "coverage": 1.0,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                },
+                "H": {
+                  "balanced_accuracy": 0.5088239996802174,
+                  "cba": 0.5088239996802174,
+                  "cc": 0.8428630193336075,
+                  "certified_negative_recall": 0.07526881720430108,
+                  "certified_positive_recall": 0.9423791821561338,
+                  "coverage": 1.0,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                },
+                "R": {
+                  "balanced_accuracy": 0.5136040825571945,
+                  "cba": 0.4884786678392027,
+                  "cc": 0.8206499382969972,
+                  "certified_negative_recall": 0.05734767025089606,
+                  "certified_positive_recall": 0.9196096654275093,
+                  "coverage": 0.9576306046894282,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                },
+                "S": {
+                  "balanced_accuracy": 0.5088239996802174,
+                  "cba": 0.5088239996802174,
+                  "cc": 0.8428630193336075,
+                  "certified_negative_recall": 0.07526881720430108,
+                  "certified_positive_recall": 0.9423791821561338,
+                  "coverage": 1.0,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8852324146441793,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                }
+              }
+            },
+            "established": {
+              "diagnostic": {
+                "certified_disagreements": 15,
+                "classes": {
+                  "negative": {
+                    "a": 0.7,
+                    "disagreements": 10,
+                    "fallback_routes": 272,
+                    "fallback_wins": 3,
+                    "p": 0.029585798816568046,
+                    "queries": 338,
+                    "rich_wins": 7
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 5,
+                    "fallback_routes": 1903,
+                    "fallback_wins": 0,
+                    "p": 0.002406159769008662,
+                    "queries": 2078,
+                    "rich_wins": 5
+                  }
+                },
+                "delta": 0.00712023964781794,
+                "delta_exact": "5001/702364",
+                "fallback_frequency": 0.9002483443708609
+              },
+              "h_vs_f": {
+                "accounts": 535,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "5001/702364",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.00712023964781794,
+                "interval95": [
+                  -0.010222956715117587,
+                  0.024463436010753466
+                ],
+                "queries": 2416,
+                "variance": 7.830006102447042e-05
+              },
+              "systems": {
+                "F": {
+                  "balanced_accuracy": 0.5803258709159353,
+                  "cba": 0.5803258709159353,
+                  "cc": 0.46771523178807944,
+                  "certified_negative_recall": 0.7366863905325444,
+                  "certified_positive_recall": 0.4239653512993263,
+                  "coverage": 1.0,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                },
+                "H": {
+                  "balanced_accuracy": 0.5874461105637533,
+                  "cba": 0.5874461105637533,
+                  "cc": 0.47144039735099336,
+                  "certified_negative_recall": 0.7485207100591716,
+                  "certified_positive_recall": 0.42637151106833493,
+                  "coverage": 1.0,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                },
+                "R": {
+                  "balanced_accuracy": 0.5785248104971211,
+                  "cba": 0.10233867339442226,
+                  "cc": 0.0418046357615894,
+                  "certified_negative_recall": 0.1863905325443787,
+                  "certified_positive_recall": 0.01828681424446583,
+                  "coverage": 0.09975165562913907,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                },
+                "S": {
+                  "balanced_accuracy": 0.6004151693423923,
+                  "cba": 0.3673921214640842,
+                  "cc": 0.2015728476821192,
+                  "certified_negative_recall": 0.5976331360946746,
+                  "certified_positive_recall": 0.13715110683349374,
+                  "coverage": 0.5488410596026491,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8600993377483444,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                }
+              }
+            }
+          },
+          "fallback_threshold": 0.0,
+          "rich_threshold": -1.0019844418147814
+        },
+        "zero": {
+          "available": true,
+          "cohorts": {
+            "all": {
+              "diagnostic": {
+                "certified_disagreements": 779,
+                "classes": {
+                  "negative": {
+                    "a": 0.7109375,
+                    "disagreements": 128,
+                    "fallback_routes": 251,
+                    "fallback_wins": 37,
+                    "p": 0.20745542949756887,
+                    "queries": 617,
+                    "rich_wins": 91
+                  },
+                  "positive": {
+                    "a": 0.8786482334869432,
+                    "disagreements": 651,
+                    "fallback_routes": 2032,
+                    "fallback_wins": 79,
+                    "p": 0.15390070921985816,
+                    "queries": 4230,
+                    "rich_wins": 572
+                  }
+                },
+                "delta": 0.10203436133813043,
+                "delta_exact": "532601/5219820",
+                "fallback_frequency": 0.471012997730555
+              },
+              "h_vs_b": {
+                "accounts": 1130,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "336151/5219820",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.06439896394894842,
+                "interval95": [
+                  0.011836676838206002,
+                  0.11696125105969085
+                ],
+                "queries": 4847,
+                "variance": 0.0007192043843939738
+              },
+              "h_vs_f": {
+                "accounts": 1130,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "532601/5219820",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.10203436133813043,
+                "interval95": [
+                  0.02579162151807622,
+                  0.17827710115818463
+                ],
+                "queries": 4847,
+                "variance": 0.0015132155898571155
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5602934583951171,
+                  "cba": 0.5602934583951171,
+                  "cc": 0.6771198679595626,
+                  "certified_negative_recall": 0.4035656401944895,
+                  "certified_positive_recall": 0.7170212765957447,
+                  "coverage": 1.0,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                },
+                "F": {
+                  "balanced_accuracy": 0.522658061005935,
+                  "cba": 0.522658061005935,
+                  "cc": 0.5159892717144625,
+                  "certified_negative_recall": 0.5316045380875203,
+                  "certified_positive_recall": 0.5137115839243499,
+                  "coverage": 1.0,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                },
+                "H": {
+                  "balanced_accuracy": 0.6246924223440655,
+                  "cba": 0.6246924223440655,
+                  "cc": 0.6288425830410563,
+                  "certified_negative_recall": 0.6191247974068071,
+                  "certified_positive_recall": 0.6302600472813239,
+                  "coverage": 1.0,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                },
+                "R": {
+                  "balanced_accuracy": 0.6134974002934968,
+                  "cba": 0.3762202528056523,
+                  "cc": 0.3787910047452032,
+                  "certified_negative_recall": 0.3727714748784441,
+                  "certified_positive_recall": 0.3796690307328605,
+                  "coverage": 0.5289870022694451,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                },
+                "S": {
+                  "balanced_accuracy": 0.628932990026476,
+                  "cba": 0.5580962561927423,
+                  "cc": 0.5343511450381679,
+                  "certified_negative_recall": 0.5899513776337115,
+                  "certified_positive_recall": 0.526241134751773,
+                  "coverage": 0.8623891066639158,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8727047658345368,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 4847,
+                  "negatives": 617,
+                  "positives": 4230
+                }
+              }
+            },
+            "cold_start": {
+              "diagnostic": {
+                "certified_disagreements": 758,
+                "classes": {
+                  "negative": {
+                    "a": 0.6864406779661016,
+                    "disagreements": 118,
+                    "fallback_routes": 21,
+                    "fallback_wins": 37,
+                    "p": 0.4229390681003584,
+                    "queries": 279,
+                    "rich_wins": 81
+                  },
+                  "positive": {
+                    "a": 0.89375,
+                    "disagreements": 640,
+                    "fallback_routes": 233,
+                    "fallback_wins": 68,
+                    "p": 0.29739776951672864,
+                    "queries": 2152,
+                    "rich_wins": 572
+                  }
+                },
+                "delta": 0.19595341834219399,
+                "delta_exact": "29413/150102",
+                "fallback_frequency": 0.10448375154257507
+              },
+              "h_vs_f": {
+                "accounts": 794,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "29413/150102",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.19595341834219399,
+                "interval95": [
+                  0.018282585469227453,
+                  0.3736242512151605
+                ],
+                "queries": 2431,
+                "variance": 0.008217431535051488
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8852324146441793,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                },
+                "F": {
+                  "balanced_accuracy": 0.4417629345378476,
+                  "cba": 0.4417629345378476,
+                  "cc": 0.5639654463183875,
+                  "certified_negative_recall": 0.2831541218637993,
+                  "certified_positive_recall": 0.6003717472118959,
+                  "coverage": 1.0,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                },
+                "H": {
+                  "balanced_accuracy": 0.6377163528800416,
+                  "cba": 0.6377163528800416,
+                  "cc": 0.7893870835047305,
+                  "certified_negative_recall": 0.44086021505376344,
+                  "certified_positive_recall": 0.8345724907063197,
+                  "coverage": 1.0,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                },
+                "R": {
+                  "balanced_accuracy": 0.643786391920161,
+                  "cba": 0.590617546734887,
+                  "cc": 0.7087618264088852,
+                  "certified_negative_recall": 0.43727598566308246,
+                  "certified_positive_recall": 0.7439591078066915,
+                  "coverage": 0.895516248457425,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                },
+                "S": {
+                  "balanced_accuracy": 0.6377163528800416,
+                  "cba": 0.6377163528800416,
+                  "cc": 0.7893870835047305,
+                  "certified_negative_recall": 0.44086021505376344,
+                  "certified_positive_recall": 0.8345724907063197,
+                  "coverage": 1.0,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8852324146441793,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 2431,
+                  "negatives": 279,
+                  "positives": 2152
+                }
+              }
+            },
+            "established": {
+              "diagnostic": {
+                "certified_disagreements": 21,
+                "classes": {
+                  "negative": {
+                    "a": 1.0,
+                    "disagreements": 10,
+                    "fallback_routes": 230,
+                    "fallback_wins": 0,
+                    "p": 0.029585798816568046,
+                    "queries": 338,
+                    "rich_wins": 10
+                  },
+                  "positive": {
+                    "a": 0.0,
+                    "disagreements": 11,
+                    "fallback_routes": 1799,
+                    "fallback_wins": 11,
+                    "p": 0.0052935514918190565,
+                    "queries": 2078,
+                    "rich_wins": 0
+                  }
+                },
+                "delta": 0.012146123662374496,
+                "delta_exact": "8531/702364",
+                "fallback_frequency": 0.839817880794702
+              },
+              "h_vs_f": {
+                "accounts": 535,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "8531/702364",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.012146123662374494,
+                "interval95": [
+                  -0.00545507905374111,
+                  0.029747326378490098
+                ],
+                "queries": 2416,
+                "variance": 8.064705402668254e-05
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5803258709159353,
+                  "cba": 0.5803258709159353,
+                  "cc": 0.46771523178807944,
+                  "certified_negative_recall": 0.7366863905325444,
+                  "certified_positive_recall": 0.4239653512993263,
+                  "coverage": 1.0,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                },
+                "F": {
+                  "balanced_accuracy": 0.5803258709159353,
+                  "cba": 0.5803258709159353,
+                  "cc": 0.46771523178807944,
+                  "certified_negative_recall": 0.7366863905325444,
+                  "certified_positive_recall": 0.4239653512993263,
+                  "coverage": 1.0,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                },
+                "H": {
+                  "balanced_accuracy": 0.5924719945783098,
+                  "cba": 0.5924719945783098,
+                  "cc": 0.46730132450331124,
+                  "certified_negative_recall": 0.7662721893491125,
+                  "certified_positive_recall": 0.41867179980750724,
+                  "coverage": 1.0,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                },
+                "R": {
+                  "balanced_accuracy": 0.5878533068323547,
+                  "cba": 0.1609663934939718,
+                  "cc": 0.04677152317880795,
+                  "certified_negative_recall": 0.31952662721893493,
+                  "certified_positive_recall": 0.002406159769008662,
+                  "coverage": 0.160182119205298,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                },
+                "S": {
+                  "balanced_accuracy": 0.6033182224601489,
+                  "cba": 0.45997374580701744,
+                  "cc": 0.2777317880794702,
+                  "certified_negative_recall": 0.7130177514792899,
+                  "certified_positive_recall": 0.20692974013474494,
+                  "coverage": 0.7239238410596026,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8600993377483444,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 2416,
+                  "negatives": 338,
+                  "positives": 2078
+                }
+              }
+            }
+          },
+          "fallback_threshold": 0.0,
+          "rich_threshold": 0.0
+        }
+      },
+      "published_entries_reproduced": 18,
+      "queries": 4847,
+      "window": 2
+    },
+    "time7w0": {
+      "audit_seconds": {
+        "definition": "wall-clock seconds of the whole saved per-query record: exact intervals of both stored heads, witness replays, target-only and single-edit audits, one process; not end-to-end latency",
+        "max": 0.27304703556001186,
+        "median": 0.035448696464300156,
+        "p95": 0.1244143311865627,
+        "p99": 0.23281640568748116,
+        "quantile_method": "numpy linear",
+        "queries": 7118
+      },
+      "network": "OTC",
+      "points": {
+        "tuned": {
+          "available": false,
+          "fallback_threshold": 0.0,
+          "rich_threshold": null
+        },
+        "zero": {
+          "available": true,
+          "cohorts": {
+            "all": {
+              "diagnostic": {
+                "certified_disagreements": 357,
+                "classes": {
+                  "negative": {
+                    "a": 0.9230769230769231,
+                    "disagreements": 78,
+                    "fallback_routes": 397,
+                    "fallback_wins": 6,
+                    "p": 0.0684811237928007,
+                    "queries": 1139,
+                    "rich_wins": 72
+                  },
+                  "positive": {
+                    "a": 0.2724014336917563,
+                    "disagreements": 279,
+                    "fallback_routes": 1622,
+                    "fallback_wins": 203,
+                    "p": 0.04666332162568992,
+                    "queries": 5979,
+                    "rich_wins": 76
+                  }
+                },
+                "delta": 0.0183522780419205,
+                "delta_exact": "249961/13620162",
+                "fallback_frequency": 0.2836470918797415
+              },
+              "h_vs_b": {
+                "accounts": 1641,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "7867/101643",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.0773983451885521,
+                "interval95": [
+                  0.01630822680896117,
+                  0.13848846356814304
+                ],
+                "queries": 7118,
+                "variance": 0.0009715065910710678
+              },
+              "h_vs_f": {
+                "accounts": 1641,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "249961/13620162",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.0183522780419205,
+                "interval95": [
+                  -0.02213164800311513,
+                  0.05883620408695613
+                ],
+                "queries": 7118,
+                "variance": 0.00042664736094288457
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5627692974576954,
+                  "cba": 0.552378818989084,
+                  "cc": 0.7882832256251756,
+                  "certified_negative_recall": 0.2054433713784021,
+                  "certified_positive_recall": 0.8993142665997659,
+                  "coverage": 0.948862039898848,
+                  "n": 7118,
+                  "negatives": 1139,
+                  "positives": 5979
+                },
+                "F": {
+                  "balanced_accuracy": 0.6114248861357156,
+                  "cba": 0.6114248861357156,
+                  "cc": 0.7268895757235179,
+                  "certified_negative_recall": 0.44161545215100967,
+                  "certified_positive_recall": 0.7812343201204215,
+                  "coverage": 1.0,
+                  "n": 7118,
+                  "negatives": 1139,
+                  "positives": 5979
+                },
+                "H": {
+                  "balanced_accuracy": 0.6297771641776361,
+                  "cba": 0.6297771641776361,
+                  "cc": 0.7183197527395335,
+                  "certified_negative_recall": 0.4995610184372256,
+                  "certified_positive_recall": 0.7599933099180465,
+                  "coverage": 1.0,
+                  "n": 7118,
+                  "negatives": 1139,
+                  "positives": 5979
+                },
+                "R": {
+                  "balanced_accuracy": 0.608001725676978,
+                  "cba": 0.4430545686607839,
+                  "cc": 0.5598482719865131,
+                  "certified_negative_recall": 0.2712906057945566,
+                  "certified_positive_recall": 0.6148185315270112,
+                  "coverage": 0.7163529081202585,
+                  "n": 7118,
+                  "negatives": 1139,
+                  "positives": 5979
+                },
+                "S": {
+                  "balanced_accuracy": 0.638954734899629,
+                  "cba": 0.5755475595664721,
+                  "cc": 0.6475133464456307,
+                  "certified_negative_recall": 0.4697102721685689,
+                  "certified_positive_recall": 0.6813848469643753,
+                  "coverage": 0.9099466142174768,
+                  "n": 7118,
+                  "negatives": 1139,
+                  "positives": 5979
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8399831413318348,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 7118,
+                  "negatives": 1139,
+                  "positives": 5979
+                }
+              }
+            },
+            "cold_start": {
+              "diagnostic": {
+                "certified_disagreements": 341,
+                "classes": {
+                  "negative": {
+                    "a": 0.9090909090909091,
+                    "disagreements": 66,
+                    "fallback_routes": 221,
+                    "fallback_wins": 6,
+                    "p": 0.07482993197278912,
+                    "queries": 882,
+                    "rich_wins": 60
+                  },
+                  "positive": {
+                    "a": 0.26181818181818184,
+                    "disagreements": 275,
+                    "fallback_routes": 143,
+                    "fallback_wins": 203,
+                    "p": 0.0654606046179481,
+                    "queries": 4201,
+                    "rich_wins": 72
+                  }
+                },
+                "delta": 0.01502071907077518,
+                "delta_exact": "3092/205849",
+                "fallback_frequency": 0.07161125319693094
+              },
+              "h_vs_f": {
+                "accounts": 1342,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "3092/205849",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.01502071907077518,
+                "interval95": [
+                  -0.03690935206022085,
+                  0.06695079020177121
+                ],
+                "queries": 5083,
+                "variance": 0.0007020073398009318
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5757336418658553,
+                  "cba": 0.5610034539881175,
+                  "cc": 0.7540822349006492,
+                  "certified_negative_recall": 0.2653061224489796,
+                  "certified_positive_recall": 0.8567007855272554,
+                  "coverage": 0.928388746803069,
+                  "n": 5083,
+                  "negatives": 882,
+                  "positives": 4201
+                },
+                "F": {
+                  "balanced_accuracy": 0.666274118946952,
+                  "cba": 0.666274118946952,
+                  "cc": 0.8296281723391697,
+                  "certified_negative_recall": 0.41609977324263037,
+                  "certified_positive_recall": 0.9164484646512735,
+                  "coverage": 1.0,
+                  "n": 5083,
+                  "negatives": 882,
+                  "positives": 4201
+                },
+                "H": {
+                  "balanced_accuracy": 0.6812948380177272,
+                  "cba": 0.6812948380177272,
+                  "cc": 0.8144796380090498,
+                  "certified_negative_recall": 0.47732426303854875,
+                  "certified_positive_recall": 0.8852654129969055,
+                  "coverage": 1.0,
+                  "n": 5083,
+                  "negatives": 882,
+                  "positives": 4201
+                },
+                "R": {
+                  "balanced_accuracy": 0.5757336418658553,
+                  "cba": 0.5610034539881175,
+                  "cc": 0.7540822349006492,
+                  "certified_negative_recall": 0.2653061224489796,
+                  "certified_positive_recall": 0.8567007855272554,
+                  "coverage": 0.928388746803069,
+                  "n": 5083,
+                  "negatives": 882,
+                  "positives": 4201
+                },
+                "S": {
+                  "balanced_accuracy": 0.6812948380177272,
+                  "cba": 0.6812948380177272,
+                  "cc": 0.8144796380090498,
+                  "certified_negative_recall": 0.47732426303854875,
+                  "certified_positive_recall": 0.8852654129969055,
+                  "coverage": 1.0,
+                  "n": 5083,
+                  "negatives": 882,
+                  "positives": 4201
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8264804249458981,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 5083,
+                  "negatives": 882,
+                  "positives": 4201
+                }
+              }
+            },
+            "established": {
+              "diagnostic": {
+                "certified_disagreements": 16,
+                "classes": {
+                  "negative": {
+                    "a": 1.0,
+                    "disagreements": 12,
+                    "fallback_routes": 176,
+                    "fallback_wins": 0,
+                    "p": 0.04669260700389105,
+                    "queries": 257,
+                    "rich_wins": 12
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 4,
+                    "fallback_routes": 1479,
+                    "fallback_wins": 0,
+                    "p": 0.0022497187851518562,
+                    "queries": 1778,
+                    "rich_wins": 4
+                  }
+                },
+                "delta": 0.024471162894521455,
+                "delta_exact": "5591/228473",
+                "fallback_frequency": 0.8132678132678133
+              },
+              "h_vs_f": {
+                "accounts": 611,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "5591/228473",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.024471162894521455,
+                "interval95": [
+                  -0.0070047667754915485,
+                  0.05594709256453446
+                ],
+                "queries": 2035,
+                "variance": 0.0002579057058361454
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8737100737100737,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 2035,
+                  "negatives": 257,
+                  "positives": 1778
+                },
+                "F": {
+                  "balanced_accuracy": 0.4954688300149252,
+                  "cba": 0.4954688300149252,
+                  "cc": 0.4702702702702703,
+                  "certified_negative_recall": 0.5291828793774319,
+                  "certified_positive_recall": 0.46175478065241843,
+                  "coverage": 1.0,
+                  "n": 2035,
+                  "negatives": 257,
+                  "positives": 1778
+                },
+                "H": {
+                  "balanced_accuracy": 0.5199399929094466,
+                  "cba": 0.5199399929094466,
+                  "cc": 0.4781326781326781,
+                  "certified_negative_recall": 0.5758754863813229,
+                  "certified_positive_recall": 0.46400449943757033,
+                  "coverage": 1.0,
+                  "n": 2035,
+                  "negatives": 257,
+                  "positives": 1778
+                },
+                "R": {
+                  "balanced_accuracy": 0.7309539858101395,
+                  "cba": 0.16756794019424615,
+                  "cc": 0.0746928746928747,
+                  "certified_negative_recall": 0.2918287937743191,
+                  "certified_positive_recall": 0.04330708661417323,
+                  "coverage": 0.18673218673218672,
+                  "n": 2035,
+                  "negatives": 257,
+                  "positives": 1778
+                },
+                "S": {
+                  "balanced_accuracy": 0.5540873538667589,
+                  "cba": 0.3216211543595961,
+                  "cc": 0.23046683046683047,
+                  "certified_negative_recall": 0.44357976653696496,
+                  "certified_positive_recall": 0.19966254218222723,
+                  "coverage": 0.6850122850122851,
+                  "n": 2035,
+                  "negatives": 257,
+                  "positives": 1778
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8737100737100737,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 2035,
+                  "negatives": 257,
+                  "positives": 1778
+                }
+              }
+            }
+          },
+          "fallback_threshold": 0.0,
+          "rich_threshold": 0.0
+        }
+      },
+      "published_entries_reproduced": 12,
+      "queries": 7118,
+      "window": 0
+    },
+    "time7w1": {
+      "audit_seconds": {
+        "definition": "wall-clock seconds of the whole saved per-query record: exact intervals of both stored heads, witness replays, target-only and single-edit audits, one process; not end-to-end latency",
+        "max": 0.3133087642490864,
+        "median": 0.04380903299897909,
+        "p95": 0.15997988013550637,
+        "p99": 0.26667631248012186,
+        "quantile_method": "numpy linear",
+        "queries": 7118
+      },
+      "network": "OTC",
+      "points": {
+        "tuned": {
+          "available": false,
+          "fallback_threshold": 0.0,
+          "rich_threshold": null
+        },
+        "zero": {
+          "available": true,
+          "cohorts": {
+            "all": {
+              "diagnostic": {
+                "certified_disagreements": 2557,
+                "classes": {
+                  "negative": {
+                    "a": 0.06267029972752043,
+                    "disagreements": 367,
+                    "fallback_routes": 290,
+                    "fallback_wins": 344,
+                    "p": 0.2435301924353019,
+                    "queries": 1507,
+                    "rich_wins": 23
+                  },
+                  "positive": {
+                    "a": 0.8767123287671232,
+                    "disagreements": 2190,
+                    "fallback_routes": 2407,
+                    "fallback_wins": 270,
+                    "p": 0.3903047585100695,
+                    "queries": 5611,
+                    "rich_wins": 1920
+                  }
+                },
+                "delta": 0.040529628442188104,
+                "delta_exact": "685419/16911554",
+                "fallback_frequency": 0.37889856701320596
+              },
+              "h_vs_b": {
+                "accounts": 1732,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "239770/8455777",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.028355761983789307,
+                "interval95": [
+                  0.017339094679191463,
+                  0.03937242928838715
+                ],
+                "queries": 7118,
+                "variance": 3.159397618591808e-05
+              },
+              "h_vs_f": {
+                "accounts": 1732,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "685419/16911554",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.040529628442188104,
+                "interval95": [
+                  -0.011529214759262135,
+                  0.09258847164363834
+                ],
+                "queries": 7118,
+                "variance": 0.0007054932206675279
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.6358826042834385,
+                  "cba": 0.6004360687373851,
+                  "cc": 0.6149199213262152,
+                  "certified_negative_recall": 0.5753151957531519,
+                  "certified_positive_recall": 0.6255569417216182,
+                  "coverage": 0.93607754987356,
+                  "n": 7118,
+                  "negatives": 1507,
+                  "positives": 5611
+                },
+                "F": {
+                  "balanced_accuracy": 0.5882622022789863,
+                  "cba": 0.5882622022789863,
+                  "cc": 0.4579938184883394,
+                  "certified_negative_recall": 0.814200398142004,
+                  "certified_positive_recall": 0.3623240064159686,
+                  "coverage": 1.0,
+                  "n": 7118,
+                  "negatives": 1507,
+                  "positives": 5611
+                },
+                "H": {
+                  "balanced_accuracy": 0.6287918307211744,
+                  "cba": 0.6287918307211744,
+                  "cc": 0.644703568418095,
+                  "certified_negative_recall": 0.6011944260119443,
+                  "certified_positive_recall": 0.6563892354304046,
+                  "coverage": 1.0,
+                  "n": 7118,
+                  "negatives": 1507,
+                  "positives": 5611
+                },
+                "R": {
+                  "balanced_accuracy": 0.6968213565707799,
+                  "cba": 0.4693893890531881,
+                  "cc": 0.44619275077268894,
+                  "certified_negative_recall": 0.5096217650962177,
+                  "certified_positive_recall": 0.42915701301015863,
+                  "coverage": 0.621101432986794,
+                  "n": 7118,
+                  "negatives": 1507,
+                  "positives": 5611
+                },
+                "S": {
+                  "balanced_accuracy": 0.6440600313844606,
+                  "cba": 0.560838465820468,
+                  "cc": 0.5436920483281821,
+                  "certified_negative_recall": 0.5905773059057731,
+                  "certified_positive_recall": 0.5310996257351631,
+                  "coverage": 0.8693453217195841,
+                  "n": 7118,
+                  "negatives": 1507,
+                  "positives": 5611
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.7882832256251756,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 7118,
+                  "negatives": 1507,
+                  "positives": 5611
+                }
+              }
+            },
+            "cold_start": {
+              "diagnostic": {
+                "certified_disagreements": 2541,
+                "classes": {
+                  "negative": {
+                    "a": 0.030985915492957747,
+                    "disagreements": 355,
+                    "fallback_routes": 79,
+                    "fallback_wins": 344,
+                    "p": 0.29558701082431305,
+                    "queries": 1201,
+                    "rich_wins": 11
+                  },
+                  "positive": {
+                    "a": 0.8774016468435498,
+                    "disagreements": 2186,
+                    "fallback_routes": 376,
+                    "fallback_wins": 268,
+                    "p": 0.6492426492426493,
+                    "queries": 3367,
+                    "rich_wins": 1918
+                  }
+                },
+                "delta": 0.10639077375130664,
+                "delta_exact": "860439/8087534",
+                "fallback_frequency": 0.09960595446584938
+              },
+              "h_vs_f": {
+                "accounts": 1368,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "860439/8087534",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.10639077375130665,
+                "interval95": [
+                  0.03915931422737133,
+                  0.17362223327524196
+                ],
+                "queries": 4568,
+                "variance": 0.001176654328654708
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.6892712908533059,
+                  "cba": 0.6377131768472318,
+                  "cc": 0.6735989492119089,
+                  "certified_negative_recall": 0.5620316402997502,
+                  "certified_positive_recall": 0.7133947133947134,
+                  "coverage": 0.9003940455341506,
+                  "n": 4568,
+                  "negatives": 1201,
+                  "positives": 3367
+                },
+                "F": {
+                  "balanced_accuracy": 0.5682535615924459,
+                  "cba": 0.5682535615924459,
+                  "cc": 0.4290718038528897,
+                  "certified_negative_recall": 0.861781848459617,
+                  "certified_positive_recall": 0.27472527472527475,
+                  "coverage": 1.0,
+                  "n": 4568,
+                  "negatives": 1201,
+                  "positives": 3367
+                },
+                "H": {
+                  "balanced_accuracy": 0.6746443353437525,
+                  "cba": 0.6746443353437525,
+                  "cc": 0.7173817863397548,
+                  "certified_negative_recall": 0.5845129059117402,
+                  "certified_positive_recall": 0.7647757647757648,
+                  "coverage": 1.0,
+                  "n": 4568,
+                  "negatives": 1201,
+                  "positives": 3367
+                },
+                "R": {
+                  "balanced_accuracy": 0.6892712908533059,
+                  "cba": 0.6377131768472318,
+                  "cc": 0.6735989492119089,
+                  "certified_negative_recall": 0.5620316402997502,
+                  "certified_positive_recall": 0.7133947133947134,
+                  "coverage": 0.9003940455341506,
+                  "n": 4568,
+                  "negatives": 1201,
+                  "positives": 3367
+                },
+                "S": {
+                  "balanced_accuracy": 0.6746443353437525,
+                  "cba": 0.6746443353437525,
+                  "cc": 0.7173817863397548,
+                  "certified_negative_recall": 0.5845129059117402,
+                  "certified_positive_recall": 0.7647757647757648,
+                  "coverage": 1.0,
+                  "n": 4568,
+                  "negatives": 1201,
+                  "positives": 3367
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.7370840630472855,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 4568,
+                  "negatives": 1201,
+                  "positives": 3367
+                }
+              }
+            },
+            "established": {
+              "diagnostic": {
+                "certified_disagreements": 16,
+                "classes": {
+                  "negative": {
+                    "a": 1.0,
+                    "disagreements": 12,
+                    "fallback_routes": 211,
+                    "fallback_wins": 0,
+                    "p": 0.0392156862745098,
+                    "queries": 306,
+                    "rich_wins": 12
+                  },
+                  "positive": {
+                    "a": 0.5,
+                    "disagreements": 4,
+                    "fallback_routes": 2031,
+                    "fallback_wins": 2,
+                    "p": 0.0017825311942959,
+                    "queries": 2244,
+                    "rich_wins": 2
+                  }
+                },
+                "delta": 0.0196078431372549,
+                "delta_exact": "1/51",
+                "fallback_frequency": 0.8792156862745099
+              },
+              "h_vs_f": {
+                "accounts": 682,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "1/51",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.0196078431372549,
+                "interval95": [
+                  -0.0004943471908995974,
+                  0.0397100334654094
+                ],
+                "queries": 2550,
+                "variance": 0.00010519390545395213
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.5606060606060606,
+                  "cba": 0.5606060606060606,
+                  "cc": 0.5098039215686274,
+                  "certified_negative_recall": 0.6274509803921569,
+                  "certified_positive_recall": 0.49376114081996436,
+                  "coverage": 1.0,
+                  "n": 2550,
+                  "negatives": 306,
+                  "positives": 2244
+                },
+                "F": {
+                  "balanced_accuracy": 0.5606060606060606,
+                  "cba": 0.5606060606060606,
+                  "cc": 0.5098039215686274,
+                  "certified_negative_recall": 0.6274509803921569,
+                  "certified_positive_recall": 0.49376114081996436,
+                  "coverage": 1.0,
+                  "n": 2550,
+                  "negatives": 306,
+                  "positives": 2244
+                },
+                "H": {
+                  "balanced_accuracy": 0.5802139037433155,
+                  "cba": 0.5802139037433155,
+                  "cc": 0.5145098039215686,
+                  "certified_negative_recall": 0.6666666666666666,
+                  "certified_positive_recall": 0.49376114081996436,
+                  "coverage": 1.0,
+                  "n": 2550,
+                  "negatives": 306,
+                  "positives": 2244
+                },
+                "R": {
+                  "balanced_accuracy": 0.6872400475341652,
+                  "cba": 0.1532976827094474,
+                  "cc": 0.03882352941176471,
+                  "certified_negative_recall": 0.30392156862745096,
+                  "certified_positive_recall": 0.00267379679144385,
+                  "coverage": 0.1207843137254902,
+                  "n": 2550,
+                  "negatives": 306,
+                  "positives": 2244
+                },
+                "S": {
+                  "balanced_accuracy": 0.6232174688057041,
+                  "cba": 0.39743018419489007,
+                  "cc": 0.23254901960784313,
+                  "certified_negative_recall": 0.6143790849673203,
+                  "certified_positive_recall": 0.1804812834224599,
+                  "coverage": 0.6352941176470588,
+                  "n": 2550,
+                  "negatives": 306,
+                  "positives": 2244
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.88,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 2550,
+                  "negatives": 306,
+                  "positives": 2244
+                }
+              }
+            }
+          },
+          "fallback_threshold": 0.0,
+          "rich_threshold": 0.0
+        }
+      },
+      "published_entries_reproduced": 12,
+      "queries": 7118,
+      "window": 1
+    },
+    "time7w2": {
+      "audit_seconds": {
+        "definition": "wall-clock seconds of the whole saved per-query record: exact intervals of both stored heads, witness replays, target-only and single-edit audits, one process; not end-to-end latency",
+        "max": 0.3487317059189081,
+        "median": 0.052014803513884544,
+        "p95": 0.17297846283763646,
+        "p99": 0.30306191135197874,
+        "quantile_method": "numpy linear",
+        "queries": 7119
+      },
+      "network": "OTC",
+      "points": {
+        "tuned": {
+          "available": true,
+          "cohorts": {
+            "all": {
+              "diagnostic": {
+                "certified_disagreements": 1097,
+                "classes": {
+                  "negative": {
+                    "a": 0.05263157894736842,
+                    "disagreements": 133,
+                    "fallback_routes": 346,
+                    "fallback_wins": 126,
+                    "p": 0.12146118721461187,
+                    "queries": 1095,
+                    "rich_wins": 7
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 964,
+                    "fallback_routes": 2664,
+                    "fallback_wins": 0,
+                    "p": 0.1600265604249668,
+                    "queries": 6024,
+                    "rich_wins": 964
+                  }
+                },
+                "delta": 0.025675380669104405,
+                "delta_exact": "9409/366460",
+                "fallback_frequency": 0.42281219272369713
+              },
+              "h_vs_f": {
+                "accounts": 1722,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "9409/366460",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.0256753806691044,
+                "interval95": [
+                  -0.00028405793417608446,
+                  0.05163481927238489
+                ],
+                "queries": 7119,
+                "variance": 0.00017542618157643595
+              },
+              "systems": {
+                "F": {
+                  "balanced_accuracy": 0.5961023485964817,
+                  "cba": 0.5961023485964817,
+                  "cc": 0.6205927798848153,
+                  "certified_negative_recall": 0.5607305936073059,
+                  "certified_positive_recall": 0.6314741035856574,
+                  "coverage": 1.0,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                },
+                "H": {
+                  "balanced_accuracy": 0.621777729265586,
+                  "cba": 0.621777729265586,
+                  "cc": 0.7392892260148898,
+                  "certified_negative_recall": 0.4520547945205479,
+                  "certified_positive_recall": 0.7915006640106241,
+                  "coverage": 1.0,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                },
+                "R": {
+                  "balanced_accuracy": 0.6225483909112409,
+                  "cba": 0.38914069748403646,
+                  "cc": 0.4891136395561174,
+                  "certified_negative_recall": 0.2447488584474886,
+                  "certified_positive_recall": 0.5335325365205843,
+                  "coverage": 0.5771878072763028,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                },
+                "S": {
+                  "balanced_accuracy": 0.627334270225036,
+                  "cba": 0.5088902381342211,
+                  "cc": 0.5798567214496418,
+                  "certified_negative_recall": 0.4063926940639269,
+                  "certified_positive_recall": 0.6113877822045153,
+                  "coverage": 0.7874701503020087,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8461862621154657,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                }
+              }
+            },
+            "cold_start": {
+              "diagnostic": {
+                "certified_disagreements": 1074,
+                "classes": {
+                  "negative": {
+                    "a": 0.0,
+                    "disagreements": 123,
+                    "fallback_routes": 23,
+                    "fallback_wins": 123,
+                    "p": 0.17446808510638298,
+                    "queries": 705,
+                    "rich_wins": 0
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 951,
+                    "fallback_routes": 177,
+                    "fallback_wins": 0,
+                    "p": 0.291271056661562,
+                    "queries": 3265,
+                    "rich_wins": 951
+                  }
+                },
+                "delta": 0.058401485777589524,
+                "delta_exact": "8962/153455",
+                "fallback_frequency": 0.05037783375314862
+              },
+              "h_vs_f": {
+                "accounts": 1338,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "8962/153455",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.05840148577758951,
+                "interval95": [
+                  0.008116245629364562,
+                  0.10868672592581446
+                ],
+                "queries": 3970,
+                "variance": 0.0006582409170034401
+              },
+              "systems": {
+                "F": {
+                  "balanced_accuracy": 0.5823531328402464,
+                  "cba": 0.5823531328402464,
+                  "cc": 0.6423173803526449,
+                  "certified_negative_recall": 0.48936170212765956,
+                  "certified_positive_recall": 0.6753445635528331,
+                  "coverage": 1.0,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                },
+                "H": {
+                  "balanced_accuracy": 0.6407546186178359,
+                  "cba": 0.6407546186178359,
+                  "cc": 0.8508816120906801,
+                  "certified_negative_recall": 0.3148936170212766,
+                  "certified_positive_recall": 0.9666156202143951,
+                  "coverage": 1.0,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                },
+                "R": {
+                  "balanced_accuracy": 0.6386747472114518,
+                  "cba": 0.6119893997154432,
+                  "cc": 0.8163727959697733,
+                  "certified_negative_recall": 0.2950354609929078,
+                  "certified_positive_recall": 0.9289433384379786,
+                  "coverage": 0.9496221662468514,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                },
+                "S": {
+                  "balanced_accuracy": 0.6407546186178359,
+                  "cba": 0.6407546186178359,
+                  "cc": 0.8508816120906801,
+                  "certified_negative_recall": 0.3148936170212766,
+                  "certified_positive_recall": 0.9666156202143951,
+                  "coverage": 1.0,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8224181360201511,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                }
+              }
+            },
+            "established": {
+              "diagnostic": {
+                "certified_disagreements": 23,
+                "classes": {
+                  "negative": {
+                    "a": 0.7,
+                    "disagreements": 10,
+                    "fallback_routes": 323,
+                    "fallback_wins": 3,
+                    "p": 0.02564102564102564,
+                    "queries": 390,
+                    "rich_wins": 7
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 13,
+                    "fallback_routes": 2487,
+                    "fallback_wins": 0,
+                    "p": 0.004711852120333454,
+                    "queries": 2759,
+                    "rich_wins": 13
+                  }
+                },
+                "delta": 0.007484131188371855,
+                "delta_exact": "8053/1076010",
+                "fallback_frequency": 0.8923467767545252
+              },
+              "h_vs_f": {
+                "accounts": 652,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "8053/1076010",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.007484131188371855,
+                "interval95": [
+                  -0.0025837700025878813,
+                  0.017552032379331593
+                ],
+                "queries": 3149,
+                "variance": 2.638649511088939e-05
+              },
+              "systems": {
+                "F": {
+                  "balanced_accuracy": 0.6346507002723023,
+                  "cba": 0.6346507002723023,
+                  "cc": 0.5932041918069229,
+                  "certified_negative_recall": 0.6897435897435897,
+                  "certified_positive_recall": 0.5795578108010149,
+                  "coverage": 1.0,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                },
+                "H": {
+                  "balanced_accuracy": 0.6421348314606742,
+                  "cba": 0.6421348314606742,
+                  "cc": 0.5986027310257225,
+                  "certified_negative_recall": 0.7,
+                  "certified_positive_recall": 0.5842696629213483,
+                  "coverage": 1.0,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                },
+                "R": {
+                  "balanced_accuracy": 0.5984242711498964,
+                  "cba": 0.10972481668385982,
+                  "cc": 0.07653223245474754,
+                  "certified_negative_recall": 0.15384615384615385,
+                  "certified_positive_recall": 0.06560347952156578,
+                  "coverage": 0.10765322324547476,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                },
+                "S": {
+                  "balanced_accuracy": 0.6428643785838422,
+                  "cba": 0.381403053874964,
+                  "cc": 0.2381708478882185,
+                  "certified_negative_recall": 0.5717948717948718,
+                  "certified_positive_recall": 0.19101123595505617,
+                  "coverage": 0.5195300095268339,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8761511590981264,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                }
+              }
+            }
+          },
+          "fallback_threshold": 0.0,
+          "rich_threshold": -0.5191186533062877
+        },
+        "zero": {
+          "available": true,
+          "cohorts": {
+            "all": {
+              "diagnostic": {
+                "certified_disagreements": 1026,
+                "classes": {
+                  "negative": {
+                    "a": 0.2396694214876033,
+                    "disagreements": 121,
+                    "fallback_routes": 377,
+                    "fallback_wins": 92,
+                    "p": 0.11050228310502283,
+                    "queries": 1095,
+                    "rich_wins": 29
+                  },
+                  "positive": {
+                    "a": 0.9756906077348066,
+                    "disagreements": 905,
+                    "fallback_routes": 2847,
+                    "fallback_wins": 22,
+                    "p": 0.1502324037184595,
+                    "queries": 6024,
+                    "rich_wins": 883
+                  }
+                },
+                "delta": 0.04269702013862359,
+                "delta_exact": "62587/1465840",
+                "fallback_frequency": 0.4528725944655148
+              },
+              "h_vs_b": {
+                "accounts": 1722,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "10805/439752",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.024570667103276392,
+                "interval95": [
+                  0.01260007990218882,
+                  0.03654125430436396
+                ],
+                "queries": 7119,
+                "variance": 3.730222413602475e-05
+              },
+              "h_vs_f": {
+                "accounts": 1722,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "62587/1465840",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.042697020138623594,
+                "interval95": [
+                  0.016201347240944467,
+                  0.06919269303630272
+                ],
+                "queries": 7119,
+                "variance": 0.00018274845965261653
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.6329885935709217,
+                  "cba": 0.6142287016318289,
+                  "cc": 0.7037505267593763,
+                  "certified_negative_recall": 0.4849315068493151,
+                  "certified_positive_recall": 0.7435258964143426,
+                  "coverage": 0.9529428290490237,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                },
+                "F": {
+                  "balanced_accuracy": 0.5961023485964817,
+                  "cba": 0.5961023485964817,
+                  "cc": 0.6205927798848153,
+                  "certified_negative_recall": 0.5607305936073059,
+                  "certified_positive_recall": 0.6314741035856574,
+                  "coverage": 1.0,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                },
+                "H": {
+                  "balanced_accuracy": 0.6387993687351052,
+                  "cba": 0.6387993687351052,
+                  "cc": 0.7326871751650512,
+                  "certified_negative_recall": 0.5031963470319635,
+                  "certified_positive_recall": 0.774402390438247,
+                  "coverage": 1.0,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                },
+                "R": {
+                  "balanced_accuracy": 0.6430583601666394,
+                  "cba": 0.3976975659007804,
+                  "cc": 0.460598398651496,
+                  "certified_negative_recall": 0.30684931506849317,
+                  "certified_positive_recall": 0.48854581673306774,
+                  "coverage": 0.5471274055344851,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                },
+                "S": {
+                  "balanced_accuracy": 0.6386295002637851,
+                  "cba": 0.528152913460314,
+                  "cc": 0.577047338109285,
+                  "certified_negative_recall": 0.4575342465753425,
+                  "certified_positive_recall": 0.5987715803452855,
+                  "coverage": 0.8034836353420424,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8461862621154657,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 7119,
+                  "negatives": 1095,
+                  "positives": 6024
+                }
+              }
+            },
+            "cold_start": {
+              "diagnostic": {
+                "certified_disagreements": 1012,
+                "classes": {
+                  "negative": {
+                    "a": 0.1891891891891892,
+                    "disagreements": 111,
+                    "fallback_routes": 64,
+                    "fallback_wins": 90,
+                    "p": 0.1574468085106383,
+                    "queries": 705,
+                    "rich_wins": 21
+                  },
+                  "positive": {
+                    "a": 0.9755826859045506,
+                    "disagreements": 901,
+                    "fallback_routes": 271,
+                    "fallback_wins": 22,
+                    "p": 0.2759571209800919,
+                    "queries": 3265,
+                    "rich_wins": 879
+                  }
+                },
+                "delta": 0.08230425857743312,
+                "delta_exact": "2526/30691",
+                "fallback_frequency": 0.08438287153652393
+              },
+              "h_vs_f": {
+                "accounts": 1338,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "2526/30691",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.08230425857743313,
+                "interval95": [
+                  0.03963765436836414,
+                  0.12497086278650213
+                ],
+                "queries": 3970,
+                "variance": 0.0004738926537300231
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.6596037926427943,
+                  "cba": 0.6268569504632194,
+                  "cc": 0.7914357682619647,
+                  "certified_negative_recall": 0.37163120567375885,
+                  "certified_positive_recall": 0.8820826952526799,
+                  "coverage": 0.9156171284634761,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                },
+                "F": {
+                  "balanced_accuracy": 0.5823531328402464,
+                  "cba": 0.5823531328402464,
+                  "cc": 0.6423173803526449,
+                  "certified_negative_recall": 0.48936170212765956,
+                  "certified_positive_recall": 0.6753445635528331,
+                  "coverage": 1.0,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                },
+                "H": {
+                  "balanced_accuracy": 0.6646573914176794,
+                  "cba": 0.6646573914176794,
+                  "cc": 0.8408060453400503,
+                  "certified_negative_recall": 0.39148936170212767,
+                  "certified_positive_recall": 0.9378254211332312,
+                  "coverage": 1.0,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                },
+                "R": {
+                  "balanced_accuracy": 0.6596037926427943,
+                  "cba": 0.6268569504632194,
+                  "cc": 0.7914357682619647,
+                  "certified_negative_recall": 0.37163120567375885,
+                  "certified_positive_recall": 0.8820826952526799,
+                  "coverage": 0.9156171284634761,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                },
+                "S": {
+                  "balanced_accuracy": 0.6648105307744941,
+                  "cba": 0.6639481715595235,
+                  "cc": 0.8405541561712846,
+                  "certified_negative_recall": 0.3900709219858156,
+                  "certified_positive_recall": 0.9378254211332312,
+                  "coverage": 0.9994962216624685,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8224181360201511,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 3970,
+                  "negatives": 705,
+                  "positives": 3265
+                }
+              }
+            },
+            "established": {
+              "diagnostic": {
+                "certified_disagreements": 14,
+                "classes": {
+                  "negative": {
+                    "a": 0.8,
+                    "disagreements": 10,
+                    "fallback_routes": 313,
+                    "fallback_wins": 2,
+                    "p": 0.02564102564102564,
+                    "queries": 390,
+                    "rich_wins": 8
+                  },
+                  "positive": {
+                    "a": 1.0,
+                    "disagreements": 4,
+                    "fallback_routes": 2576,
+                    "fallback_wins": 0,
+                    "p": 0.0014498006524102935,
+                    "queries": 2759,
+                    "rich_wins": 4
+                  }
+                },
+                "delta": 0.00841720801851284,
+                "delta_exact": "3019/358670",
+                "fallback_frequency": 0.9174341060654176
+              },
+              "h_vs_f": {
+                "accounts": 652,
+                "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+                "delta_exact": "3019/358670",
+                "dependence": "shared account in either endpoint role",
+                "gain": 0.00841720801851284,
+                "interval95": [
+                  -0.001042644076636564,
+                  0.017877060113662243
+                ],
+                "queries": 3149,
+                "variance": 2.3295525434249624e-05
+              },
+              "systems": {
+                "B": {
+                  "balanced_accuracy": 0.6346507002723023,
+                  "cba": 0.6346507002723023,
+                  "cc": 0.5932041918069229,
+                  "certified_negative_recall": 0.6897435897435897,
+                  "certified_positive_recall": 0.5795578108010149,
+                  "coverage": 1.0,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                },
+                "F": {
+                  "balanced_accuracy": 0.6346507002723023,
+                  "cba": 0.6346507002723023,
+                  "cc": 0.5932041918069229,
+                  "certified_negative_recall": 0.6897435897435897,
+                  "certified_positive_recall": 0.5795578108010149,
+                  "coverage": 1.0,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                },
+                "H": {
+                  "balanced_accuracy": 0.6430679082908152,
+                  "cba": 0.6430679082908152,
+                  "cc": 0.596379803112099,
+                  "certified_negative_recall": 0.7051282051282052,
+                  "certified_positive_recall": 0.5810076114534252,
+                  "coverage": 1.0,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                },
+                "R": {
+                  "balanced_accuracy": 0.6192935009897678,
+                  "cba": 0.10628897500952593,
+                  "cc": 0.04350587488091458,
+                  "certified_negative_recall": 0.18974358974358974,
+                  "certified_positive_recall": 0.022834360275462123,
+                  "coverage": 0.08256589393458241,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                },
+                "S": {
+                  "balanced_accuracy": 0.6328235797065083,
+                  "cba": 0.388511259189041,
+                  "cc": 0.2448396316290886,
+                  "certified_negative_recall": 0.5794871794871795,
+                  "certified_positive_recall": 0.1975353388909025,
+                  "coverage": 0.5563671006668783,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                },
+                "T": {
+                  "balanced_accuracy": 0.5,
+                  "cba": 0.5,
+                  "cc": 0.8761511590981264,
+                  "certified_negative_recall": 0.0,
+                  "certified_positive_recall": 1.0,
+                  "coverage": 1.0,
+                  "n": 3149,
+                  "negatives": 390,
+                  "positives": 2759
+                }
+              }
+            }
+          },
+          "fallback_threshold": 0.0,
+          "rich_threshold": 0.0
+        }
+      },
+      "published_entries_reproduced": 18,
+      "queries": 7119,
+      "window": 2
+    }
+  },
+  "test_used_for_selection": false,
+  "uncertainty_scope": "paired dyadic Wald 95%, conditional on fixed fits, selection and graph; disjoint query dyads uncorrelated"
+}

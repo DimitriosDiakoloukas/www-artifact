@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "cases": 6,
+  "positive_ties_included": true,
+  "negative_ties_excluded": true,
+  "class_balance_checked": true
+}

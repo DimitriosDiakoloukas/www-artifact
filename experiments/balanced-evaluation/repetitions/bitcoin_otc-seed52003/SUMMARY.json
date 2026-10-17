@@ -1,0 +1,68 @@
+{
+  "matched_protocol": true,
+  "models": {
+    "ordinary": {
+      "tuned": {
+        "accuracy": 0.9285011939879196,
+        "auc": 0.9442522766393182,
+        "balanced_accuracy": 0.8611811594932697,
+        "cba": 0.41762029286183755,
+        "cc": 0.2827644332069111,
+        "certified_negative_recall": 0.5862552594670407,
+        "certified_positive_recall": 0.24898532625663441,
+        "coverage": 0.3080488832701222,
+        "error": 0.08207934336525308,
+        "n": 7119,
+        "positive_fraction": 0.8998454839162804,
+        "threshold": -0.6475014463369952
+      },
+      "zero": {
+        "accuracy": 0.8841129372102824,
+        "auc": 0.9442522766393182,
+        "balanced_accuracy": 0.8608219897282483,
+        "cba": 0.38375401041887885,
+        "cc": 0.15676359039190899,
+        "certified_negative_recall": 0.667601683029453,
+        "certified_positive_recall": 0.09990633780830471,
+        "coverage": 0.21477735637027673,
+        "error": 0.2701111837802485,
+        "n": 7119,
+        "positive_fraction": 0.8998454839162804,
+        "threshold": 0.0
+      }
+    },
+    "robust": {
+      "tuned": {
+        "accuracy": 0.8894507655569602,
+        "auc": 0.9380464448870909,
+        "balanced_accuracy": 0.8513237502183919,
+        "cba": 0.6082898483583281,
+        "cc": 0.54291333052395,
+        "certified_negative_recall": 0.6900420757363254,
+        "certified_positive_recall": 0.526537620980331,
+        "coverage": 0.6131479140328698,
+        "error": 0.1145475372279496,
+        "n": 7119,
+        "positive_fraction": 0.8998454839162804,
+        "threshold": 0.0
+      },
+      "zero": {
+        "accuracy": 0.8894507655569602,
+        "auc": 0.9380464448870909,
+        "balanced_accuracy": 0.8513237502183919,
+        "cba": 0.6082898483583281,
+        "cc": 0.54291333052395,
+        "certified_negative_recall": 0.6900420757363254,
+        "certified_positive_recall": 0.526537620980331,
+        "coverage": 0.6131479140328698,
+        "error": 0.1145475372279496,
+        "n": 7119,
+        "positive_fraction": 0.8998454839162804,
+        "threshold": 0.0
+      }
+    }
+  },
+  "result_sha256": "bddc28b6806134a4f1228080ec32f8030952b592aab3ed603497fce0e9f62fc2",
+  "seed": 52003,
+  "selected": "three_0.1"
+}

@@ -1,0 +1,10 @@
+{
+  "completed_utc": "2026-10-17T06:26:00Z",
+  "lock_sha256": "ce2ebcbe21ce97c751ee296b61c3331f771401a226e917963e7570491a0eba8f",
+  "model_sha256": "72ba0bc12fa3558aee9b01959b1052b90e0ee628d6cf7a89eb361c11952971b7",
+  "network": "wiki_elec",
+  "result_sha256": "82e0e2591f620da56803998ecc6f5ceb3602e06bef3db367be38b2b082dd98c3",
+  "rows": 3438,
+  "shard_sha256": "8586460d2c8b39eb25c794bb17cc99ced3504dcad52b092776289f52a04da965",
+  "unit": 3
+}

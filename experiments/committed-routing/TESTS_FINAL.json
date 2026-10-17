@@ -1,0 +1,26 @@
+{
+  "adaptive_instances": 188,
+  "adaptive_violations": 26,
+  "committed_revisions": 42072,
+  "decisions": 1600,
+  "dyadic_explicit_sum_comparisons": 120,
+  "instances": 400,
+  "passed": true,
+  "planted_errors_detected": [
+    "route recomputation on revised evidence",
+    "non-strict distrust tie",
+    "single-edit routes credited without account certificates",
+    "unweighted Delta",
+    "disagreement identity with wrong denominators",
+    "reversed history tie order"
+  ],
+  "result_sha256": "4d5153b77edabfa93a9d8de9499601ade8cb84635435bfb378d0e8d9b33e1f7d",
+  "review_core_sha256": "d3bd274ccae87c2c4110b9f310bf0b7b97a74003e9cfae6313f6f4602e699578",
+  "routed_queries": 1600,
+  "single_not_account": 106,
+  "source_sha256": {
+    "routing.py": "22f7423d7b520ba75173243c5674c16a8a74eb27c430ca46d9dfc5cf7014ab1b",
+    "test_routing.py": "0afab23533383aae9bfb6cf3765cc2095496953cb5ed5ef3fec36777cd5eb261"
+  },
+  "wrong_tie_mismatches": 19
+}

@@ -1,0 +1,27 @@
+{
+  "gate_fraction": 0.9435092542857403,
+  "lock_sha256": "58a9c1d32c710405ca66f01b2ffe0f6431e8a47972d2aa714b49015130c295ef",
+  "metrics": {
+    "cover_ordinary": {
+      "accuracy": 0.8449577116013146,
+      "auc": 0.9143376985155268,
+      "balanced_accuracy": 0.8361326155099778,
+      "brier": 0.1136630423100447,
+      "negative_ap": 0.7889452715709757,
+      "positive_ap": 0.9705741537021239,
+      "predicted_negative_fraction": 0.29970593858395317
+    },
+    "three_ordinary": {
+      "accuracy": 0.844620861062809,
+      "auc": 0.9140511259548603,
+      "balanced_accuracy": 0.8354872410358736,
+      "brier": 0.11390815938481443,
+      "negative_ap": 0.7878862436319525,
+      "positive_ap": 0.9705843926397874,
+      "predicted_negative_fraction": 0.2994965450059632
+    }
+  },
+  "result_sha256": "a464ae2cc916f18a5b85015a52a890d80f3ca663d428af075914f4506258628d",
+  "reverse_fraction": 0.10632641727588059,
+  "test_queries": 109841
+}

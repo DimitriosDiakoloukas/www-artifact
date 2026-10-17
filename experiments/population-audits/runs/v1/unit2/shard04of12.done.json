@@ -1,0 +1,14 @@
+{
+  "completed_utc": "2026-10-15T03:55:35Z",
+  "lock_sha256": "63b06d7bda9a28c48a4d36eaed464986b2b70a580cca20c8d0a3c7e678df2452",
+  "network": "wiki_elec",
+  "result_sha256": "98f82acce4665542fb5e1f7e5582223b6cd438b20b22ec42482dd2b4ea7d38c2",
+  "rows": 1719,
+  "seed": 52000,
+  "selected": {
+    "cover_robust": "cover_0.1",
+    "three_robust": "three300_0.1"
+  },
+  "shard_sha256": "8e679580939d6d5944d1e6bf41b17c7d1e2e88d8e71c2a473188eb2742cae998",
+  "unit": 2
+}

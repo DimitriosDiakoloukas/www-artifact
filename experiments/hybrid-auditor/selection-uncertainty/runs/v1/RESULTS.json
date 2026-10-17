@@ -1,0 +1,1385 @@
+{
+  "lock_sha256": "3f49d05173fbcb9e22412ce67fec2d38d1b4ab6a82d829d08d9b5eecf308b7d9",
+  "network_means": {
+    "Alpha": {
+      "cba": {
+        "tuned": {
+          "ordinary": {
+            "auc": 0.9271052955398528,
+            "balanced_accuracy": 0.8238134571783364,
+            "cba": 0.3709396747422853,
+            "cc": 0.26508887970235634,
+            "certified_negative_recall": 0.4918499638125806,
+            "certified_positive_recall": 0.25002938567199
+          },
+          "paired_cba_gain": 0.15624139194974862,
+          "robust": {
+            "auc": 0.9216352248719186,
+            "balanced_accuracy": 0.817079864475373,
+            "cba": 0.5271810666920339,
+            "cc": 0.49989665150888796,
+            "certified_negative_recall": 0.5583561471411939,
+            "certified_positive_recall": 0.49600598624287395
+          }
+        },
+        "zero": {
+          "ordinary": {
+            "auc": 0.9271052955398528,
+            "balanced_accuracy": 0.8501931356817236,
+            "cba": 0.3570458974579831,
+            "cc": 0.11461347664324101,
+            "certified_negative_recall": 0.6348846722678498,
+            "certified_positive_recall": 0.07920712264811634
+          },
+          "paired_cba_gain": 0.11323963815939642,
+          "robust": {
+            "auc": 0.9216352248719186,
+            "balanced_accuracy": 0.8382636571537765,
+            "cba": 0.4702855356173795,
+            "cc": 0.3267879288962381,
+            "certified_negative_recall": 0.6350105415525976,
+            "certified_positive_recall": 0.30556052968216135
+          }
+        }
+      },
+      "cc": {
+        "tuned": {
+          "ordinary": {
+            "auc": 0.9271052955398528,
+            "balanced_accuracy": 0.8244103384182478,
+            "cba": 0.36996167926968515,
+            "cc": 0.28245142620917735,
+            "certified_negative_recall": 0.4699644419270588,
+            "certified_positive_recall": 0.26995891661231153
+          },
+          "paired_cba_gain": 0.15721938742234876,
+          "robust": {
+            "auc": 0.9216352248719186,
+            "balanced_accuracy": 0.817079864475373,
+            "cba": 0.5271810666920339,
+            "cc": 0.49989665150888796,
+            "certified_negative_recall": 0.5583561471411939,
+            "certified_positive_recall": 0.49600598624287395
+          }
+        },
+        "zero": {
+          "ordinary": {
+            "auc": 0.9271052955398528,
+            "balanced_accuracy": 0.8501931356817236,
+            "cba": 0.3570458974579831,
+            "cc": 0.11461347664324101,
+            "certified_negative_recall": 0.6348846722678498,
+            "certified_positive_recall": 0.07920712264811634
+          },
+          "paired_cba_gain": 0.11323963815939642,
+          "robust": {
+            "auc": 0.9216352248719186,
+            "balanced_accuracy": 0.8382636571537765,
+            "cba": 0.4702855356173795,
+            "cc": 0.3267879288962381,
+            "certified_negative_recall": 0.6350105415525976,
+            "certified_positive_recall": 0.30556052968216135
+          }
+        }
+      }
+    },
+    "OTC": {
+      "cba": {
+        "tuned": {
+          "ordinary": {
+            "auc": 0.9402005329855995,
+            "balanced_accuracy": 0.8397236396103057,
+            "cba": 0.47070527761710074,
+            "cc": 0.4237252423093131,
+            "certified_negative_recall": 0.52945301542777,
+            "certified_positive_recall": 0.41195753980643146
+          },
+          "paired_cba_gain": 0.17401271555112036,
+          "robust": {
+            "auc": 0.9336842454413572,
+            "balanced_accuracy": 0.8427765826129868,
+            "cba": 0.6447179931682211,
+            "cc": 0.6606264924848995,
+            "certified_negative_recall": 0.6248246844319776,
+            "certified_positive_recall": 0.6646113019044646
+          }
+        },
+        "zero": {
+          "ordinary": {
+            "auc": 0.9402005329855995,
+            "balanced_accuracy": 0.8595371450065004,
+            "cba": 0.40171797215005745,
+            "cc": 0.20030903216743925,
+            "certified_negative_recall": 0.6535764375876578,
+            "certified_positive_recall": 0.14985950671245707
+          },
+          "paired_cba_gain": 0.22234918263426773,
+          "robust": {
+            "auc": 0.9336842454413572,
+            "balanced_accuracy": 0.8500773293270378,
+            "cba": 0.6240671547843252,
+            "cc": 0.5814018822868381,
+            "certified_negative_recall": 0.6774193548387097,
+            "certified_positive_recall": 0.5707149547299406
+          }
+        }
+      },
+      "cc": {
+        "tuned": {
+          "ordinary": {
+            "auc": 0.9402005329855995,
+            "balanced_accuracy": 0.8397236396103057,
+            "cba": 0.47070527761710074,
+            "cc": 0.4237252423093131,
+            "certified_negative_recall": 0.52945301542777,
+            "certified_positive_recall": 0.41195753980643146
+          },
+          "paired_cba_gain": 0.17401271555112036,
+          "robust": {
+            "auc": 0.9336842454413572,
+            "balanced_accuracy": 0.8427765826129868,
+            "cba": 0.6447179931682211,
+            "cc": 0.6606264924848995,
+            "certified_negative_recall": 0.6248246844319776,
+            "certified_positive_recall": 0.6646113019044646
+          }
+        },
+        "zero": {
+          "ordinary": {
+            "auc": 0.9402005329855995,
+            "balanced_accuracy": 0.8595371450065004,
+            "cba": 0.40171797215005745,
+            "cc": 0.20030903216743925,
+            "certified_negative_recall": 0.6535764375876578,
+            "certified_positive_recall": 0.14985950671245707
+          },
+          "paired_cba_gain": 0.22234918263426773,
+          "robust": {
+            "auc": 0.9336842454413572,
+            "balanced_accuracy": 0.8500773293270378,
+            "cba": 0.6240671547843252,
+            "cc": 0.5814018822868381,
+            "certified_negative_recall": 0.6774193548387097,
+            "certified_positive_recall": 0.5707149547299406
+          }
+        }
+      }
+    },
+    "Wiki": {
+      "cba": {
+        "tuned": {
+          "ordinary": {
+            "auc": 0.9119269886833883,
+            "balanced_accuracy": 0.8242530829685722,
+            "cba": 0.7294727967413156,
+            "cc": 0.7444853832355651,
+            "certified_negative_recall": 0.7036024194307731,
+            "certified_positive_recall": 0.7553431740518581
+          },
+          "paired_cba_gain": 0.05910863539220845,
+          "robust": {
+            "auc": 0.9078856418399461,
+            "balanced_accuracy": 0.8265958101717172,
+            "cba": 0.788581432133524,
+            "cc": 0.7914141658990643,
+            "certified_negative_recall": 0.7836877466798178,
+            "certified_positive_recall": 0.7934751175872304
+          }
+        },
+        "zero": {
+          "ordinary": {
+            "auc": 0.9119269886833883,
+            "balanced_accuracy": 0.827391539165522,
+            "cba": 0.7297516885605181,
+            "cc": 0.7338924710331118,
+            "certified_negative_recall": 0.7225354960961535,
+            "certified_positive_recall": 0.7369678810248828
+          },
+          "paired_cba_gain": 0.05494502372732668,
+          "robust": {
+            "auc": 0.9078856418399461,
+            "balanced_accuracy": 0.8224329797314324,
+            "cba": 0.7846967122878448,
+            "cc": 0.8050370873127455,
+            "certified_negative_recall": 0.7493109653088201,
+            "certified_positive_recall": 0.8200824592668694
+          }
+        }
+      },
+      "cc": {
+        "tuned": {
+          "ordinary": {
+            "auc": 0.9119269886833883,
+            "balanced_accuracy": 0.8108890424013029,
+            "cba": 0.7234889175699268,
+            "cc": 0.7793668492752218,
+            "certified_negative_recall": 0.6262423724490352,
+            "certified_positive_recall": 0.8207354626908183
+          },
+          "paired_cba_gain": 0.049128800921327764,
+          "robust": {
+            "auc": 0.9078856418399461,
+            "balanced_accuracy": 0.8069919610926122,
+            "cba": 0.7726177184912546,
+            "cc": 0.8310709264556164,
+            "certified_negative_recall": 0.6708727655099895,
+            "certified_positive_recall": 0.8743626714725199
+          }
+        },
+        "zero": {
+          "ordinary": {
+            "auc": 0.9119269886833883,
+            "balanced_accuracy": 0.827391539165522,
+            "cba": 0.7297516885605181,
+            "cc": 0.7338924710331118,
+            "certified_negative_recall": 0.7225354960961535,
+            "certified_positive_recall": 0.7369678810248828
+          },
+          "paired_cba_gain": 0.05494502372732668,
+          "robust": {
+            "auc": 0.9078856418399461,
+            "balanced_accuracy": 0.8224329797314324,
+            "cba": 0.7846967122878448,
+            "cc": 0.8050370873127455,
+            "certified_negative_recall": 0.7493109653088201,
+            "certified_positive_recall": 0.8200824592668694
+          }
+        }
+      }
+    }
+  },
+  "result_sha256": "26a2572f9511af81a6464bcc607bc25cbf2066b88bcea8c31dba703a66dad592",
+  "selection_sha256": "7c99b8985dd871e127dda177839c4a1835a839f89eac618c0d7162e9a12f3760",
+  "test_used_for_selection": false,
+  "uncertainty_scope": "per split, conditional on fixed fits, selection and graph; disjoint query dyads uncorrelated",
+  "units": {
+    "random0": {
+      "cba": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.9179412980570484,
+                "auc": 0.9341343405426206,
+                "balanced_accuracy": 0.8445762031976523,
+                "cba": 0.3333793043108172,
+                "cc": 0.15915667631252584,
+                "certified_negative_recall": 0.531986531986532,
+                "certified_positive_recall": 0.1347720766351024,
+                "coverage": 0.19367507234394377,
+                "error": 0.17822838847385272,
+                "n": 4838,
+                "positive_fraction": 0.9386109962794543,
+                "threshold": -0.584878169947336
+              },
+              "robust": {
+                "accuracy": 0.8964448119057462,
+                "auc": 0.9241942288628042,
+                "balanced_accuracy": 0.8284047996666363,
+                "cba": 0.5530534738858897,
+                "cc": 0.5095080611823067,
+                "certified_negative_recall": 0.6026936026936027,
+                "certified_positive_recall": 0.5034133450781766,
+                "coverage": 0.5754443985117818,
+                "error": 0.11458333333333333,
+                "n": 4838,
+                "positive_fraction": 0.9386109962794543,
+                "threshold": -0.22329418375188936
+              }
+            },
+            "paired_cba": {
+              "accounts": 2276,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.21967416957507246,
+              "interval95": [
+                0.19913737531694387,
+                0.24021096383320106
+              ],
+              "queries": 4838,
+              "variance": 0.00010979160211965895
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8656469615543613,
+                "auc": 0.9341343405426206,
+                "balanced_accuracy": 0.8576271412651064,
+                "cba": 0.35497528318492866,
+                "cc": 0.09632079371641174,
+                "certified_negative_recall": 0.6498316498316499,
+                "certified_positive_recall": 0.060118916538207445,
+                "coverage": 0.17341876808598594,
+                "error": 0.4445768772348033,
+                "n": 4838,
+                "positive_fraction": 0.9386109962794543,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8701942951632906,
+                "auc": 0.9241942288628042,
+                "balanced_accuracy": 0.8364486085252436,
+                "cba": 0.5258946360025418,
+                "cc": 0.4142207523770153,
+                "certified_negative_recall": 0.6531986531986532,
+                "certified_positive_recall": 0.3985906188064303,
+                "coverage": 0.4997933030177759,
+                "error": 0.17121588089330025,
+                "n": 4838,
+                "positive_fraction": 0.9386109962794543,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 2276,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.1709193528176131,
+              "interval95": [
+                0.15346502278467158,
+                0.18837368285055464
+              ],
+              "queries": 4838,
+              "variance": 7.930675587557019e-05
+            }
+          }
+        },
+        "selected": "lambda0.1"
+      },
+      "cc": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.9319966928482845,
+                "auc": 0.9341343405426206,
+                "balanced_accuracy": 0.8457699656774751,
+                "cba": 0.3314233133656168,
+                "cc": 0.19388176932616782,
+                "certified_negative_recall": 0.4882154882154882,
+                "certified_positive_recall": 0.17463113851574544,
+                "coverage": 0.2232327408019843,
+                "error": 0.13148148148148148,
+                "n": 4838,
+                "positive_fraction": 0.9386109962794543,
+                "threshold": -0.7718036607352528
+              },
+              "robust": {
+                "accuracy": 0.8964448119057462,
+                "auc": 0.9241942288628042,
+                "balanced_accuracy": 0.8284047996666363,
+                "cba": 0.5530534738858897,
+                "cc": 0.5095080611823067,
+                "certified_negative_recall": 0.6026936026936027,
+                "certified_positive_recall": 0.5034133450781766,
+                "coverage": 0.5754443985117818,
+                "error": 0.11458333333333333,
+                "n": 4838,
+                "positive_fraction": 0.9386109962794543,
+                "threshold": -0.22329418375188936
+              }
+            },
+            "paired_cba": {
+              "accounts": 2276,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.22163016052027285,
+              "interval95": [
+                0.1991981481294338,
+                0.2440621729111119
+              ],
+              "queries": 4838,
+              "variance": 0.000130990647925736
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8656469615543613,
+                "auc": 0.9341343405426206,
+                "balanced_accuracy": 0.8576271412651064,
+                "cba": 0.35497528318492866,
+                "cc": 0.09632079371641174,
+                "certified_negative_recall": 0.6498316498316499,
+                "certified_positive_recall": 0.060118916538207445,
+                "coverage": 0.17341876808598594,
+                "error": 0.4445768772348033,
+                "n": 4838,
+                "positive_fraction": 0.9386109962794543,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8701942951632906,
+                "auc": 0.9241942288628042,
+                "balanced_accuracy": 0.8364486085252436,
+                "cba": 0.5258946360025418,
+                "cc": 0.4142207523770153,
+                "certified_negative_recall": 0.6531986531986532,
+                "certified_positive_recall": 0.3985906188064303,
+                "coverage": 0.4997933030177759,
+                "error": 0.17121588089330025,
+                "n": 4838,
+                "positive_fraction": 0.9386109962794543,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 2276,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.1709193528176131,
+              "interval95": [
+                0.15346502278467158,
+                0.18837368285055464
+              ],
+              "queries": 4838,
+              "variance": 7.930675587557019e-05
+            }
+          }
+        },
+        "selected": "lambda0.1"
+      }
+    },
+    "random1": {
+      "cba": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.9429516329061596,
+                "auc": 0.920076250537085,
+                "balanced_accuracy": 0.8030507111590206,
+                "cba": 0.40850004517375343,
+                "cc": 0.37102108309218684,
+                "certified_negative_recall": 0.4517133956386293,
+                "certified_positive_recall": 0.3652866947088776,
+                "coverage": 0.3902439024390244,
+                "error": 0.04925847457627119,
+                "n": 4838,
+                "positive_fraction": 0.9336502687060769,
+                "threshold": -1.127860899489807
+              },
+              "robust": {
+                "accuracy": 0.9317899958660604,
+                "auc": 0.9190762208810329,
+                "balanced_accuracy": 0.8057549292841097,
+                "cba": 0.5013086594981782,
+                "cc": 0.4902852418354692,
+                "certified_negative_recall": 0.514018691588785,
+                "certified_positive_recall": 0.4885986274075714,
+                "coverage": 0.5192228193468376,
+                "error": 0.05573248407643312,
+                "n": 4838,
+                "positive_fraction": 0.9336502687060769,
+                "threshold": -0.7815997427885721
+              }
+            },
+            "paired_cba": {
+              "accounts": 2291,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.09280861432442479,
+              "interval95": [
+                0.07868564618233179,
+                0.1069315824665178
+              ],
+              "queries": 4838,
+              "variance": 5.192252174306357e-05
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8766019016122365,
+                "auc": 0.920076250537085,
+                "balanced_accuracy": 0.8427591300983408,
+                "cba": 0.35911651173103754,
+                "cc": 0.13290615957007026,
+                "certified_negative_recall": 0.6199376947040498,
+                "certified_positive_recall": 0.09829532875802524,
+                "coverage": 0.2038032244729227,
+                "error": 0.34787018255578095,
+                "n": 4838,
+                "positive_fraction": 0.9336502687060769,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8797023563455973,
+                "auc": 0.9190762208810329,
+                "balanced_accuracy": 0.8400787057823094,
+                "cba": 0.4146764352322172,
+                "cc": 0.23935510541546093,
+                "certified_negative_recall": 0.616822429906542,
+                "certified_positive_recall": 0.2125304405578924,
+                "coverage": 0.30963207937164117,
+                "error": 0.22696929238985314,
+                "n": 4838,
+                "positive_fraction": 0.9336502687060769,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 2291,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.05555992350117969,
+              "interval95": [
+                0.04398074438767665,
+                0.06713910261468274
+              ],
+              "queries": 4838,
+              "variance": 3.49027271151011e-05
+            }
+          }
+        },
+        "selected": "lambda0.03"
+      },
+      "cc": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.9429516329061596,
+                "auc": 0.920076250537085,
+                "balanced_accuracy": 0.8030507111590206,
+                "cba": 0.40850004517375343,
+                "cc": 0.37102108309218684,
+                "certified_negative_recall": 0.4517133956386293,
+                "certified_positive_recall": 0.3652866947088776,
+                "coverage": 0.3902439024390244,
+                "error": 0.04925847457627119,
+                "n": 4838,
+                "positive_fraction": 0.9336502687060769,
+                "threshold": -1.127860899489807
+              },
+              "robust": {
+                "accuracy": 0.9317899958660604,
+                "auc": 0.9190762208810329,
+                "balanced_accuracy": 0.8057549292841097,
+                "cba": 0.5013086594981782,
+                "cc": 0.4902852418354692,
+                "certified_negative_recall": 0.514018691588785,
+                "certified_positive_recall": 0.4885986274075714,
+                "coverage": 0.5192228193468376,
+                "error": 0.05573248407643312,
+                "n": 4838,
+                "positive_fraction": 0.9336502687060769,
+                "threshold": -0.7815997427885721
+              }
+            },
+            "paired_cba": {
+              "accounts": 2291,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.09280861432442479,
+              "interval95": [
+                0.07868564618233179,
+                0.1069315824665178
+              ],
+              "queries": 4838,
+              "variance": 5.192252174306357e-05
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8766019016122365,
+                "auc": 0.920076250537085,
+                "balanced_accuracy": 0.8427591300983408,
+                "cba": 0.35911651173103754,
+                "cc": 0.13290615957007026,
+                "certified_negative_recall": 0.6199376947040498,
+                "certified_positive_recall": 0.09829532875802524,
+                "coverage": 0.2038032244729227,
+                "error": 0.34787018255578095,
+                "n": 4838,
+                "positive_fraction": 0.9336502687060769,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8797023563455973,
+                "auc": 0.9190762208810329,
+                "balanced_accuracy": 0.8400787057823094,
+                "cba": 0.4146764352322172,
+                "cc": 0.23935510541546093,
+                "certified_negative_recall": 0.616822429906542,
+                "certified_positive_recall": 0.2125304405578924,
+                "coverage": 0.30963207937164117,
+                "error": 0.22696929238985314,
+                "n": 4838,
+                "positive_fraction": 0.9336502687060769,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 2291,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.05555992350117969,
+              "interval95": [
+                0.04398074438767665,
+                0.06713910261468274
+              ],
+              "queries": 4838,
+              "variance": 3.49027271151011e-05
+            }
+          }
+        },
+        "selected": "lambda0.03"
+      }
+    },
+    "random2": {
+      "cba": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.837058224657003,
+                "auc": 0.913060288490026,
+                "balanced_accuracy": 0.834288855136198,
+                "cba": 0.7389776274183024,
+                "cc": 0.7352014350123625,
+                "certified_negative_recall": 0.7456061288868859,
+                "certified_positive_recall": 0.7323491259497189,
+                "coverage": 0.8502448247442672,
+                "error": 0.13530619226821758,
+                "n": 20627,
+                "positive_fraction": 0.784845105929122,
+                "threshold": 0.07325744060310202
+              },
+              "robust": {
+                "accuracy": 0.8292044407815,
+                "auc": 0.9085508032913707,
+                "balanced_accuracy": 0.831084578012137,
+                "cba": 0.7943016153458342,
+                "cc": 0.7944441751102923,
+                "certified_negative_recall": 0.7940513744930149,
+                "certified_positive_recall": 0.7945518561986534,
+                "coverage": 0.9441508702186454,
+                "error": 0.1585622593068036,
+                "n": 20627,
+                "positive_fraction": 0.784845105929122,
+                "threshold": 0.17985406411910787
+              }
+            },
+            "paired_cba": {
+              "accounts": 4357,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.055323987927531675,
+              "interval95": [
+                0.04904852121340887,
+                0.06159945464165448
+              ],
+              "queries": 20627,
+              "variance": 1.0251699762578043e-05
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8416153585106899,
+                "auc": 0.913060288490026,
+                "balanced_accuracy": 0.8331031513700919,
+                "cba": 0.7395084723488381,
+                "cc": 0.7441217821302176,
+                "certified_negative_recall": 0.7314105452906715,
+                "certified_positive_recall": 0.7476063994070048,
+                "coverage": 0.856062442429825,
+                "error": 0.13076226073167968,
+                "n": 20627,
+                "positive_fraction": 0.784845105929122,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8389004702574295,
+                "auc": 0.9085508032913707,
+                "balanced_accuracy": 0.8263033339475108,
+                "cba": 0.78973228056338,
+                "cc": 0.8080670965239735,
+                "certified_negative_recall": 0.7575484452456062,
+                "certified_positive_recall": 0.8219161158811539,
+                "coverage": 0.9464779172928686,
+                "error": 0.14623777083440045,
+                "n": 20627,
+                "positive_fraction": 0.784845105929122,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 4357,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.05022380821454188,
+              "interval95": [
+                0.044455219403493756,
+                0.05599239702559
+              ],
+              "queries": 20627,
+              "variance": 8.662494751131229e-06
+            }
+          }
+        },
+        "selected": "lambda0.3"
+      },
+      "cc": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8601347748097155,
+                "auc": 0.913060288490026,
+                "balanced_accuracy": 0.8150522454853998,
+                "cba": 0.7317485214577878,
+                "cc": 0.7846996654869831,
+                "certified_negative_recall": 0.638801261829653,
+                "certified_positive_recall": 0.8246957810859226,
+                "coverage": 0.8792844330246764,
+                "error": 0.10757016044549815,
+                "n": 20627,
+                "positive_fraction": 0.784845105929122,
+                "threshold": -0.5009660488190878
+              },
+              "robust": {
+                "accuracy": 0.8574198865564552,
+                "auc": 0.9085508032913707,
+                "balanced_accuracy": 0.809560879149744,
+                "cba": 0.7743483765215817,
+                "cc": 0.8309012459397876,
+                "certified_negative_recall": 0.6750788643533123,
+                "certified_positive_recall": 0.8736178886898511,
+                "coverage": 0.9547680224947884,
+                "error": 0.12973494465319388,
+                "n": 20627,
+                "positive_fraction": 0.784845105929122,
+                "threshold": -0.4394375791872277
+              }
+            },
+            "paired_cba": {
+              "accounts": 4357,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.04259985506379395,
+              "interval95": [
+                0.03763942330308632,
+                0.04756028682450158
+              ],
+              "queries": 20627,
+              "variance": 6.40534869724073e-06
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8416153585106899,
+                "auc": 0.913060288490026,
+                "balanced_accuracy": 0.8331031513700919,
+                "cba": 0.7395084723488381,
+                "cc": 0.7441217821302176,
+                "certified_negative_recall": 0.7314105452906715,
+                "certified_positive_recall": 0.7476063994070048,
+                "coverage": 0.856062442429825,
+                "error": 0.13076226073167968,
+                "n": 20627,
+                "positive_fraction": 0.784845105929122,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8389004702574295,
+                "auc": 0.9085508032913707,
+                "balanced_accuracy": 0.8263033339475108,
+                "cba": 0.78973228056338,
+                "cc": 0.8080670965239735,
+                "certified_negative_recall": 0.7575484452456062,
+                "certified_positive_recall": 0.8219161158811539,
+                "coverage": 0.9464779172928686,
+                "error": 0.14623777083440045,
+                "n": 20627,
+                "positive_fraction": 0.784845105929122,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 4357,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.05022380821454188,
+              "interval95": [
+                0.044455219403493756,
+                0.05599239702559
+              ],
+              "queries": 20627,
+              "variance": 8.662494751131229e-06
+            }
+          }
+        },
+        "selected": "lambda0.3"
+      }
+    },
+    "random3": {
+      "cba": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.851505308576138,
+                "auc": 0.9107936888767507,
+                "balanced_accuracy": 0.8142173108009465,
+                "cba": 0.7199679660643288,
+                "cc": 0.7537693314587677,
+                "certified_negative_recall": 0.6615987099746602,
+                "certified_positive_recall": 0.7783372221539973,
+                "coverage": 0.8476268967857662,
+                "error": 0.11072981011210249,
+                "n": 20627,
+                "positive_fraction": 0.7895476802249479,
+                "threshold": -0.27396170403821
+              },
+              "robust": {
+                "accuracy": 0.8252775488437485,
+                "auc": 0.9072204803885217,
+                "balanced_accuracy": 0.8221070423312975,
+                "cba": 0.782861248921214,
+                "cc": 0.7883841566878363,
+                "certified_negative_recall": 0.7733241188666206,
+                "certified_positive_recall": 0.7923983789758074,
+                "coverage": 0.9368788481116983,
+                "error": 0.1584993531694696,
+                "n": 20627,
+                "positive_fraction": 0.7895476802249479,
+                "threshold": 0.16314744985550533
+              }
+            },
+            "paired_cba": {
+              "accounts": 4350,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.06289328285688527,
+              "interval95": [
+                0.0563345387212819,
+                0.06945202699248863
+              ],
+              "queries": 20627,
+              "variance": 1.1198122027125785e-05
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8375430261307995,
+                "auc": 0.9107936888767507,
+                "balanced_accuracy": 0.8216799269609519,
+                "cba": 0.7199949047721981,
+                "cc": 0.7236631599360062,
+                "certified_negative_recall": 0.7136604469016355,
+                "certified_positive_recall": 0.7263293626427606,
+                "coverage": 0.8299801231395744,
+                "error": 0.12809579439252336,
+                "n": 20627,
+                "positive_fraction": 0.7895476802249479,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8355553400882338,
+                "auc": 0.9072204803885217,
+                "balanced_accuracy": 0.818562625515354,
+                "cba": 0.7796611440123096,
+                "cc": 0.8020070781015174,
+                "certified_negative_recall": 0.7410734853720341,
+                "certified_positive_recall": 0.818248802652585,
+                "coverage": 0.942551025355117,
+                "error": 0.1491101738504269,
+                "n": 20627,
+                "positive_fraction": 0.7895476802249479,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 4350,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.059666239240111454,
+              "interval95": [
+                0.05377588326766546,
+                0.06555659521255744
+              ],
+              "queries": 20627,
+              "variance": 9.032061802984728e-06
+            }
+          }
+        },
+        "selected": "lambda0.3"
+      },
+      "cc": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8606195762835119,
+                "auc": 0.9107936888767507,
+                "balanced_accuracy": 0.8067258393172061,
+                "cba": 0.7152293136820658,
+                "cc": 0.7740340330634605,
+                "certified_negative_recall": 0.6136834830684175,
+                "certified_positive_recall": 0.8167751442957141,
+                "coverage": 0.8631405439472536,
+                "error": 0.103235228038643,
+                "n": 20627,
+                "positive_fraction": 0.7895476802249479,
+                "threshold": -0.519984752423931
+              },
+              "robust": {
+                "accuracy": 0.8575168468512144,
+                "auc": 0.9072204803885217,
+                "balanced_accuracy": 0.8044230430354804,
+                "cba": 0.7708870604609276,
+                "cc": 0.8312406069714452,
+                "certified_negative_recall": 0.6666666666666666,
+                "certified_positive_recall": 0.8751074542551885,
+                "coverage": 0.953022737189121,
+                "error": 0.1277851256485909,
+                "n": 20627,
+                "positive_fraction": 0.7895476802249479,
+                "threshold": -0.47479517761962126
+              }
+            },
+            "paired_cba": {
+              "accounts": 4350,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.05565774677886182,
+              "interval95": [
+                0.049913146411052656,
+                0.06140234714667099
+              ],
+              "queries": 20627,
+              "variance": 8.590599281725538e-06
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8375430261307995,
+                "auc": 0.9107936888767507,
+                "balanced_accuracy": 0.8216799269609519,
+                "cba": 0.7199949047721981,
+                "cc": 0.7236631599360062,
+                "certified_negative_recall": 0.7136604469016355,
+                "certified_positive_recall": 0.7263293626427606,
+                "coverage": 0.8299801231395744,
+                "error": 0.12809579439252336,
+                "n": 20627,
+                "positive_fraction": 0.7895476802249479,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8355553400882338,
+                "auc": 0.9072204803885217,
+                "balanced_accuracy": 0.818562625515354,
+                "cba": 0.7796611440123096,
+                "cc": 0.8020070781015174,
+                "certified_negative_recall": 0.7410734853720341,
+                "certified_positive_recall": 0.818248802652585,
+                "coverage": 0.942551025355117,
+                "error": 0.1491101738504269,
+                "n": 20627,
+                "positive_fraction": 0.7895476802249479,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 4350,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.059666239240111454,
+              "interval95": [
+                0.05377588326766546,
+                0.06555659521255744
+              ],
+              "queries": 20627,
+              "variance": 9.032061802984728e-06
+            }
+          }
+        },
+        "selected": "lambda0.3"
+      }
+    },
+    "random4": {
+      "cba": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.9449360865290068,
+                "auc": 0.9449767464670875,
+                "balanced_accuracy": 0.8366598591170007,
+                "cba": 0.4938843712000365,
+                "cc": 0.4996488270824554,
+                "certified_negative_recall": 0.48667601683029454,
+                "certified_positive_recall": 0.5010927255697784,
+                "coverage": 0.5180502879617924,
+                "error": 0.03552060737527115,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": -1.2293935538452654
+              },
+              "robust": {
+                "accuracy": 0.9285011939879196,
+                "auc": 0.9375529559200941,
+                "balanced_accuracy": 0.844977687905667,
+                "cba": 0.6615238212422698,
+                "cc": 0.7138643067846607,
+                "certified_negative_recall": 0.5960729312762973,
+                "certified_positive_recall": 0.7269747112082423,
+                "coverage": 0.75488130355387,
+                "error": 0.0543356903609974,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": -0.4890897100243361
+              }
+            },
+            "paired_cba": {
+              "accounts": 3463,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.16763945004223335,
+              "interval95": [
+                0.15232833870547688,
+                0.18295056137898982
+              ],
+              "queries": 7119,
+              "variance": 6.102632913924937e-05
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8877651355527462,
+                "auc": 0.9449767464670875,
+                "balanced_accuracy": 0.8653441789976876,
+                "cba": 0.4024936737516853,
+                "cc": 0.1972187104930468,
+                "certified_negative_recall": 0.6591865357643759,
+                "certified_positive_recall": 0.1458008117389947,
+                "coverage": 0.25719904480966427,
+                "error": 0.23320589841616604,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8928220255653884,
+                "auc": 0.9375529559200941,
+                "balanced_accuracy": 0.8594290985090678,
+                "cba": 0.6248392438890784,
+                "cc": 0.5749403006040175,
+                "certified_negative_recall": 0.6872370266479664,
+                "certified_positive_recall": 0.5624414611301904,
+                "coverage": 0.6429273774406518,
+                "error": 0.10574612191391741,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 3463,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.22234557013739312,
+              "interval95": [
+                0.20345914292026793,
+                0.2412319973545183
+              ],
+              "queries": 7119,
+              "variance": 9.285460281552985e-05
+            }
+          }
+        },
+        "selected": "lambda0.1"
+      },
+      "cc": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.9449360865290068,
+                "auc": 0.9449767464670875,
+                "balanced_accuracy": 0.8366598591170007,
+                "cba": 0.4938843712000365,
+                "cc": 0.4996488270824554,
+                "certified_negative_recall": 0.48667601683029454,
+                "certified_positive_recall": 0.5010927255697784,
+                "coverage": 0.5180502879617924,
+                "error": 0.03552060737527115,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": -1.2293935538452654
+              },
+              "robust": {
+                "accuracy": 0.9285011939879196,
+                "auc": 0.9375529559200941,
+                "balanced_accuracy": 0.844977687905667,
+                "cba": 0.6615238212422698,
+                "cc": 0.7138643067846607,
+                "certified_negative_recall": 0.5960729312762973,
+                "certified_positive_recall": 0.7269747112082423,
+                "coverage": 0.75488130355387,
+                "error": 0.0543356903609974,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": -0.4890897100243361
+              }
+            },
+            "paired_cba": {
+              "accounts": 3463,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.16763945004223335,
+              "interval95": [
+                0.15232833870547688,
+                0.18295056137898982
+              ],
+              "queries": 7119,
+              "variance": 6.102632913924937e-05
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8877651355527462,
+                "auc": 0.9449767464670875,
+                "balanced_accuracy": 0.8653441789976876,
+                "cba": 0.4024936737516853,
+                "cc": 0.1972187104930468,
+                "certified_negative_recall": 0.6591865357643759,
+                "certified_positive_recall": 0.1458008117389947,
+                "coverage": 0.25719904480966427,
+                "error": 0.23320589841616604,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8928220255653884,
+                "auc": 0.9375529559200941,
+                "balanced_accuracy": 0.8594290985090678,
+                "cba": 0.6248392438890784,
+                "cc": 0.5749403006040175,
+                "certified_negative_recall": 0.6872370266479664,
+                "certified_positive_recall": 0.5624414611301904,
+                "coverage": 0.6429273774406518,
+                "error": 0.10574612191391741,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 3463,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.22234557013739312,
+              "interval95": [
+                0.20345914292026793,
+                0.2412319973545183
+              ],
+              "queries": 7119,
+              "variance": 9.285460281552985e-05
+            }
+          }
+        },
+        "selected": "lambda0.1"
+      }
+    },
+    "random5": {
+      "cba": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.9200730439668493,
+                "auc": 0.9354243195041114,
+                "balanced_accuracy": 0.8427874201036107,
+                "cba": 0.447526184034165,
+                "cc": 0.3478016575361708,
+                "certified_negative_recall": 0.5722300140252454,
+                "certified_positive_recall": 0.3228223540430846,
+                "coverage": 0.37392892260148897,
+                "error": 0.06987227648384674,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": -0.5881032248212998
+              },
+              "robust": {
+                "accuracy": 0.89141733389521,
+                "auc": 0.9298155349626204,
+                "balanced_accuracy": 0.8405754773203067,
+                "cba": 0.6279121650941724,
+                "cc": 0.6073886781851383,
+                "certified_negative_recall": 0.6535764375876578,
+                "certified_positive_recall": 0.6022478926006869,
+                "coverage": 0.6739710633515943,
+                "error": 0.09879116298457691,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": -0.06628351260193854
+              }
+            },
+            "paired_cba": {
+              "accounts": 3445,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.1803859810600073,
+              "interval95": [
+                0.15966795400232392,
+                0.2011040081176907
+              ],
+              "queries": 7119,
+              "variance": 0.00011173792696945804
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8814440230369434,
+                "auc": 0.9354243195041114,
+                "balanced_accuracy": 0.853730111015313,
+                "cba": 0.40094227054842957,
+                "cc": 0.20339935384183172,
+                "certified_negative_recall": 0.6479663394109397,
+                "certified_positive_recall": 0.15391820168591944,
+                "coverage": 0.26169405815423513,
+                "error": 0.2227589908749329,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8860795055485321,
+                "auc": 0.9298155349626204,
+                "balanced_accuracy": 0.8407255601450078,
+                "cba": 0.6232950656795719,
+                "cc": 0.5878634639696586,
+                "certified_negative_recall": 0.667601683029453,
+                "certified_positive_recall": 0.5789884483296909,
+                "coverage": 0.6573957016434893,
+                "error": 0.10576923076923077,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 3445,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.2223527951311424,
+              "interval95": [
+                0.20408485247978003,
+                0.24062073778250476
+              ],
+              "queries": 7119,
+              "variance": 8.687265549111453e-05
+            }
+          }
+        },
+        "selected": "lambda0.1"
+      },
+      "cc": {
+        "points": {
+          "tuned": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.9200730439668493,
+                "auc": 0.9354243195041114,
+                "balanced_accuracy": 0.8427874201036107,
+                "cba": 0.447526184034165,
+                "cc": 0.3478016575361708,
+                "certified_negative_recall": 0.5722300140252454,
+                "certified_positive_recall": 0.3228223540430846,
+                "coverage": 0.37392892260148897,
+                "error": 0.06987227648384674,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": -0.5881032248212998
+              },
+              "robust": {
+                "accuracy": 0.89141733389521,
+                "auc": 0.9298155349626204,
+                "balanced_accuracy": 0.8405754773203067,
+                "cba": 0.6279121650941724,
+                "cc": 0.6073886781851383,
+                "certified_negative_recall": 0.6535764375876578,
+                "certified_positive_recall": 0.6022478926006869,
+                "coverage": 0.6739710633515943,
+                "error": 0.09879116298457691,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": -0.06628351260193854
+              }
+            },
+            "paired_cba": {
+              "accounts": 3445,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.1803859810600073,
+              "interval95": [
+                0.15966795400232392,
+                0.2011040081176907
+              ],
+              "queries": 7119,
+              "variance": 0.00011173792696945804
+            }
+          },
+          "zero": {
+            "models": {
+              "ordinary": {
+                "accuracy": 0.8814440230369434,
+                "auc": 0.9354243195041114,
+                "balanced_accuracy": 0.853730111015313,
+                "cba": 0.40094227054842957,
+                "cc": 0.20339935384183172,
+                "certified_negative_recall": 0.6479663394109397,
+                "certified_positive_recall": 0.15391820168591944,
+                "coverage": 0.26169405815423513,
+                "error": 0.2227589908749329,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": 0.0
+              },
+              "robust": {
+                "accuracy": 0.8860795055485321,
+                "auc": 0.9298155349626204,
+                "balanced_accuracy": 0.8407255601450078,
+                "cba": 0.6232950656795719,
+                "cc": 0.5878634639696586,
+                "certified_negative_recall": 0.667601683029453,
+                "certified_positive_recall": 0.5789884483296909,
+                "coverage": 0.6573957016434893,
+                "error": 0.10576923076923077,
+                "n": 7119,
+                "positive_fraction": 0.8998454839162804,
+                "threshold": 0.0
+              }
+            },
+            "paired_cba": {
+              "accounts": 3445,
+              "conditions": "fixed fits, selection and graph; disjoint dyads uncorrelated",
+              "dependence": "shared account in either endpoint role",
+              "gain": 0.2223527951311424,
+              "interval95": [
+                0.20408485247978003,
+                0.24062073778250476
+              ],
+              "queries": 7119,
+              "variance": 8.687265549111453e-05
+            }
+          }
+        },
+        "selected": "lambda0.1"
+      }
+    }
+  }
+}

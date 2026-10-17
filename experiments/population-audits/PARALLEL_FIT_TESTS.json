@@ -1,0 +1,17 @@
+{
+  "queries": 400,
+  "results": {
+    "0.1": {
+      "separation_arrays_equal": 7,
+      "weights_equal": true
+    },
+    "0.3": {
+      "separation_arrays_equal": 7,
+      "weights_equal": true
+    }
+  },
+  "sources": {
+    "scale_robust.py": "fdc85965a3da12b1582b10638ea2e501f4882eeb08fcf9e872e4b7c002c0ac16",
+    "test_parallel_fit.py": "e447ce92fb3e2b99ec32aaa4ef3fb5230b209b98aec2e63197fd4dea466f58e5"
+  }
+}

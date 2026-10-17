@@ -1,0 +1,21 @@
+{
+  "checker_threads": {
+    "MKL_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1"
+  },
+  "machine": "x86_64",
+  "os": "Linux",
+  "packages": {
+    "matplotlib": "3.11.0",
+    "numpy": "2.4.4",
+    "pymupdf": "1.28.0",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.17.1",
+    "torch": "2.8.0+cu128",
+    "torch-geometric": "2.8.0",
+    "torch-geometric-signed-directed": "1.1.1"
+  },
+  "python": "3.12.3",
+  "scope": "Saved-record regeneration in this environment; not a fresh training run or cross-platform claim."
+}

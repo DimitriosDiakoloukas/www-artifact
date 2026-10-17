@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "exhaustive": {
+    "graphs": 120,
+    "assignments": 22050,
+    "minima": 960,
+    "milp_targets": 276,
+    "structural_reciprocal": 276,
+    "numerical_only": 0,
+    "polynomial_checks": 19732,
+    "max_cover": 5
+  },
+  "without_confirmation": {
+    "graphs": 60,
+    "assignments": 12926,
+    "minima": 480,
+    "milp_targets": 116,
+    "structural_reciprocal": 116,
+    "numerical_only": 12,
+    "polynomial_checks": 11712,
+    "max_cover": 5
+  },
+  "planted_errors_detected": {
+    "dropped cubic coupling term": true,
+    "target endpoint sign error": true,
+    "missing reverse-rating term": true,
+    "corrupted product coefficient": true,
+    "cover not conditioned": true,
+    "mis-scaled witness value": true
+  },
+  "sources": {
+    "hybrid.py": "b38c03b93ef959c5f95e2754699fbfea9ca554987c4d944c87c245f51f17359f",
+    "test_hybrid.py": "1ceef10a716d07cf0943be4af4bb6f3068281749a2805249182c5dbfff785bfe",
+    "solver_benchmark.py": "e861832ffa389594c7a765464005a066899034b40a0c226bdf4ed31099cec2c0"
+  }
+}

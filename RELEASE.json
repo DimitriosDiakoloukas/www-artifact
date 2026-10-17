@@ -1,0 +1,9 @@
+{
+  "artifact_revision": "reproducibility-2",
+  "external_inputs": "python fetch_inputs.py",
+  "requirements_sha256": "804a7116b69a59f799ceeb2fb1c25036c3c67a0a787e3c6a34f6738aaeed8cd5",
+  "requires_robust_retraining": false,
+  "title": "Exact Account-Level Audits of Signed Web Graphs",
+  "verification": "python verify.py",
+  "version": "account-audit-v13"
+}

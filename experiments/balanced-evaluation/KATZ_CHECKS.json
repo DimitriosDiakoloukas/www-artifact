@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "counts": {
+    "instances": 300,
+    "threshold_decisions": 910,
+    "matrix_checks": 300,
+    "target_assignments": 14880,
+    "other_issuer_assignments": 2540
+  },
+  "decays": [
+    "1/10",
+    "1/2",
+    "1",
+    "2",
+    "5"
+  ],
+  "planted_errors_detected": {
+    "unpadded_large_decay": true,
+    "reversed_threshold": true
+  },
+  "source_sha256": "1b22eac48bd2768fcbb5c71118fd2f287a3ab5a7891e6704c05eff7767f3296e"
+}

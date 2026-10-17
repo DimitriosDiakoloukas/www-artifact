@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "graphs": 60,
+  "exact_comparisons": 360,
+  "floating_comparisons": 120,
+  "independent_exhaustive_minima": 120
+}

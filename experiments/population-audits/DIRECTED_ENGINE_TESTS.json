@@ -1,0 +1,13 @@
+{
+  "floating": 800,
+  "graphs": 200,
+  "minima": 800,
+  "restricted": 1600,
+  "single": 800,
+  "sources": {
+    "directed.py": "42a1968edf8edfe3a62ca02fdb3b9c5257f147ca15eab80cf83eda2e026a9b58",
+    "test_directed.py": "bd00fc5fd03f4727d7a03b514d4005b74ed9784872bbc13cb095780942a70e88"
+  },
+  "sparse_replays": 30,
+  "states": 11318
+}

@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-10-15T13:03:30Z",
+  "inputs": {
+    "<repo>/experiments/audit-core/common.py": "0048c9ea71e0a4818d886bba1cbdbd37a5e21219a7d14c748b0ed6d381c14b98",
+    "<repo>/experiments/audit-core/cover_learn.py": "3c3dce00dd382f971c1e98158a5fec346aab96d4ec67debcb0a3316a8ecd9d2a",
+    "<repo>/experiments/audit-core/cover_oracle.py": "1c4407a9b8b9bb461aa386f849ee3e9b021247aa397fe69758715cf5e3beb183",
+    "<repo>/experiments/audit-core/dose.py": "962dc3c1436b936f0c0d95268a02c0b23c7638cf393fdd39c407e523dd78c912",
+    "<repo>/experiments/audit-core/feasibility.py": "298c25fda37668fd815162652325577264fb6bb3fc7a71f9817242272848684e",
+    "<repo>/experiments/audit-core/matched_three.py": "cb4d6d77caf13973d9f8be8446c2bc387a87b550680b3559c4d0c8677527356d",
+    "<repo>/experiments/audit-core/matrix.py": "3b1331bf1dcab1316f4d988e6bbe0bdc8226304d156ddf8f7382155fbfa88dc2",
+    "<repo>/experiments/audit-core/oracle.py": "94bc16501ef7b829e1f6f4107f207d354d1a7494b96f5d543322c3aa0bed6689",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit6/DATA.json": "41d5e25c38737d7c161daa67ce922c7fc6b5e8b21680111697884a56655d8669",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit6/graph.npz": "9695e7f3d8bec23fdc3dc8f66c4bb471492b5857fcaa9dc8bea1615cbe74f8bc",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit6/test.npy": "8a374e152138dbb7b6faa81596f742afffcd1a4e527d572a3c729c134b09d1ac",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit6/train.npy": "b03039945ac28228189866e24d692ad378d1ffaf568abb049c86a65aca68eb5b",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit6/val.npy": "6d93ab205a35df6186601704306d5419f98c191cae333019be16acf413a15745",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit7/DATA.json": "faa893c0ae5ffbc60c2db07a05e810f38caf51bc95d5b5829b792d82abb00151",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit7/graph.npz": "cb3ae489b12f31eb1e4bc493db440f3d9700f2016241cf51240fd99232d9af49",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit7/test.npy": "71c213cfb08868b320cbd835c4b820b3685ed87b177f9fff8bee1cba0bf8c90a",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit7/train.npy": "704ef41c6d41f896e816cfbbc9f5e6a1c008858fc310aad6aa82589f22075b74",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit7/val.npy": "2b87bf449e64c9e12f293a1f9fad2874f3a5da495fa9ca3570e6023b0d2160d1",
+    "<repo>/experiments/audit-core/three_query.py": "69f835839a12d105d123b03489fe405907bb4f27a99ce7422abf26e974783102",
+    "<repo>/experiments/audit-core/training_oracle.py": "ae5d46bd10e7cc2edbab62149ba92be5b1b9bc9b67751657489d2f6172bd7c78",
+    "<repo>/experiments/four-step-support/extend.py": "b1d88604051d96706e7f15b1971a23ac3f76b8756f78f06dddb2c1f1e884ae15",
+    "<repo>/experiments/four-step-support/four_walk.py": "a6e0d74ef2692d82c1af5aaaf48d5ecf4f4035e57e3c1f87bb92346fdb49f33f"
+  },
+  "lambdas": [
+    0.0,
+    0.01,
+    0.03,
+    0.1,
+    0.3
+  ],
+  "result_sha256": "f796bd1870ec48e9f278a16acd5997638b74b8af79706796d6a562eeaa1e9079",
+  "sources": {
+    "audit_engine.py": "b6be8b2977700b9862760e52c1d2c64d5d8b3681c2a4be4b0911b5e1c66a10c8",
+    "full_audit.py": "1cfd9c4ce9e62cc1ef232fd6dfb2fb6ea6776d532e74b8f2645a6f356f3297f4",
+    "temporal_audit.py": "fa46e411da545388e2fa97325f2e0e635f160d291084e3fc4af66815a27e2658"
+  },
+  "test_used_for_selection": false
+}

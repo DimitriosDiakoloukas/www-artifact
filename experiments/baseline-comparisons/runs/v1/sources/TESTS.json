@@ -1,0 +1,16 @@
+{
+  "assignments": 2848,
+  "finite_differences": 8348,
+  "graphs": 64,
+  "greedy_witnesses": 128,
+  "minima": 128,
+  "planted_omission_detected": true,
+  "result_sha256": "69d10133ebe6fd3af7c0dc7c5af9f93958cbf86469cde4de1c239e7126a6b31d",
+  "seconds": 4.328953204676509,
+  "sources": {
+    "cheap.py": "eaabd8fe05512d567c02d6207981dd4ddf2a086836985e29280d0a15cfc94844",
+    "test_cheap.py": "0a5a0dc7c017e5609a4829cc6a6283320a20c97b891166903c6b2170c3184f11"
+  },
+  "status": "PASS",
+  "zero_ties": 2
+}

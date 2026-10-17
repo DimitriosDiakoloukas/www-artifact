@@ -1,0 +1,16 @@
+{
+  "arrays": {
+    "test": "cb3640789a6b70ec341b919f09024488324f7d5e332d944b893a5501a8445387",
+    "train": "10ca62a6b3622e6ae23886f407b4f672294dc92d9415c0c7ba291149c716823b",
+    "val": "90882b200bb62e98341cfbe8de341cd8984f8c7355e2bfe944aaf6049b443fba"
+  },
+  "fractions": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "network": "slashdot",
+  "processed_sha256": "bbf04f4472660ea84e29b2ac2eeb86627575e2d50acaf0ee0de08abe482476bc",
+  "result_sha256": "cc048ac85756911593f1cbec100328088710ffa1357f8ec048a16add7e388725",
+  "seed": 52000
+}

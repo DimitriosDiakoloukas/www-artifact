@@ -1,0 +1,10 @@
+{
+  "exact": 194,
+  "graphs": 150,
+  "sound": 106,
+  "sources": {
+    "katz_audit.py": "0e63d0f5e2960d3ec42aeb354b2ceacce31966b9b6f7b2e8d2aa4fa12c66cc0d",
+    "test_katz_audit.py": "bd5453d5b522ec01da7ea22ecea6b06dd93ce8f71fc5fcfadfa0ef8eca1e396b"
+  },
+  "states": 10498
+}

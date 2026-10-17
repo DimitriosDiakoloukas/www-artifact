@@ -1,0 +1,65 @@
+{
+  "arithmetic": "floating separation and optimization; exact certificates evaluated separately",
+  "final_gap_sha256": "cee87b178952ccd2be03c7952078f7a318d3d7a6f2de9656ff729090bcaa2240",
+  "full_floating_objective": 0.23081123693450475,
+  "intercept": -2.142768262000154,
+  "lambda": 0.0,
+  "maximum_separation_gap": 11.850976528097796,
+  "mean_separation_gap": 5.010169571875863,
+  "result_sha256": "a33cece2b8193a9e408b4e4e1bfb78a54ee7b444b4db671a410210fed6964167",
+  "seconds": 1.7561281137168407,
+  "separation_passes": 1,
+  "trace": [
+    {
+      "block": 0,
+      "pool_objective": 0.2311107374143969,
+      "updates": 50
+    },
+    {
+      "block": 1,
+      "pool_objective": 0.23095477675522275,
+      "updates": 100
+    },
+    {
+      "block": 2,
+      "pool_objective": 0.2308710010940608,
+      "updates": 150
+    },
+    {
+      "block": 3,
+      "pool_objective": 0.23083165995219015,
+      "updates": 200
+    },
+    {
+      "block": 4,
+      "pool_objective": 0.23081630013003582,
+      "updates": 250
+    },
+    {
+      "block": 5,
+      "pool_objective": 0.23081128662249545,
+      "updates": 300
+    }
+  ],
+  "updates": 300,
+  "weights": [
+    2.127800320654592,
+    -1.060064035269725,
+    -0.13109124514893672,
+    3.6759640850267696,
+    1.123165154343513,
+    0.9496816854669939,
+    2.9795201674033063,
+    0.0,
+    0.0,
+    0.6582328429152599,
+    -0.5237069575414495,
+    0.03261574959607112,
+    0.18818563028492802,
+    -0.6202764304399783,
+    0.2729077527237956,
+    0.022920012195923514,
+    0.19541975117277816,
+    -0.5226375725645185
+  ]
+}

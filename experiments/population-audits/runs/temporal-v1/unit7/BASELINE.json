@@ -1,0 +1,25 @@
+{
+  "fairness_goodness": {
+    "all": {
+      "accuracy": 0.8519454979631971,
+      "auc": 0.6594969437319217,
+      "balanced_accuracy": 0.5209631792464844,
+      "brier": 0.17781966747508102,
+      "negative_ap": 0.24687025730429452,
+      "positive_ap": 0.9003384754086136,
+      "predicted_negative_fraction": 0.007444865851945498
+    },
+    "seen": {
+      "accuracy": 0.8875833597967608,
+      "auc": 0.6640528433750615,
+      "balanced_accuracy": 0.5516579771563461,
+      "brier": 0.1389892068658316,
+      "negative_ap": 0.3372712808882391,
+      "positive_ap": 0.9137016861393721,
+      "predicted_negative_fraction": 0.014607812003810734
+    }
+  },
+  "iterations": 100,
+  "lock_sha256": "bcbec77a45f3fbcd0b2aa827679c95a74598e52dac5d521576b155fd84724dbd",
+  "result_sha256": "d51d2e63aaa9a6b77ad5d80a76bd2eaa436234e5d7f541b2739bde993495ec39"
+}

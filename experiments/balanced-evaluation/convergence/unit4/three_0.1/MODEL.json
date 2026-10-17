@@ -1,0 +1,95 @@
+{
+  "arithmetic": "floating separation and optimization; exact certificates evaluated separately",
+  "final_gap_sha256": "fd9c80754c5735bd00102db091ace91a5e292f642c417109dfef926be6880bfb",
+  "full_floating_objective": 0.41874751899488877,
+  "intercept": -0.30197553686608813,
+  "lambda": 0.1,
+  "maximum_separation_gap": 6.52811138479592e-14,
+  "mean_separation_gap": -3.1009049494823413e-17,
+  "result_sha256": "07d165dbd48bf2210d13fa787820a3d8855fc3672ca9c04c3dfec4072e9cffe4",
+  "seconds": 278.5512484051287,
+  "separation_passes": 13,
+  "trace": [
+    {
+      "block": 0,
+      "pool_objective": 0.4125763999272929,
+      "updates": 50
+    },
+    {
+      "block": 1,
+      "pool_objective": 0.4184143563174784,
+      "updates": 100
+    },
+    {
+      "block": 2,
+      "pool_objective": 0.4187086031357165,
+      "updates": 150
+    },
+    {
+      "block": 3,
+      "pool_objective": 0.4187478713549457,
+      "updates": 200
+    },
+    {
+      "block": 4,
+      "pool_objective": 0.41874788696855275,
+      "updates": 250
+    },
+    {
+      "block": 5,
+      "pool_objective": 0.4187476925977799,
+      "updates": 300
+    },
+    {
+      "block": 6,
+      "pool_objective": 0.418747594177372,
+      "updates": 350
+    },
+    {
+      "block": 7,
+      "pool_objective": 0.4187475487781995,
+      "updates": 400
+    },
+    {
+      "block": 8,
+      "pool_objective": 0.4187475297595487,
+      "updates": 450
+    },
+    {
+      "block": 9,
+      "pool_objective": 0.4187475223502225,
+      "updates": 500
+    },
+    {
+      "block": 10,
+      "pool_objective": 0.4187475197328482,
+      "updates": 550
+    },
+    {
+      "block": 11,
+      "pool_objective": 0.418747518879128,
+      "updates": 600
+    }
+  ],
+  "updates": 600,
+  "weights": [
+    1.9362536191818538,
+    -0.039644409967671976,
+    -0.061999597254412245,
+    1.3286559938555222,
+    0.5889220001986647,
+    1.0805500654095148,
+    0.0,
+    0.0,
+    0.0,
+    -0.3122443790165732,
+    -0.021325159958933894,
+    0.29284492428647274,
+    -0.24598459936267253,
+    0.0007256712752303726,
+    0.7375523723873886,
+    -0.6546631712012543,
+    -0.017540666244964705,
+    0.05769873768367406
+  ]
+}

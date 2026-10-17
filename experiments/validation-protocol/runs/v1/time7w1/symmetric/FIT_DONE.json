@@ -1,0 +1,11 @@
+{
+  "ordinary_sha256": "e4c581dd64e816af975c0c94e385b1c68833dbfe9c591b1a527a5743b53d1c5e",
+  "result_sha256": "872e2b9b677847c636b48381e464eda3d38585e04408767dbd70092a1866b76e",
+  "strengths": [
+    0.0,
+    0.01,
+    0.03,
+    0.1,
+    0.3
+  ]
+}

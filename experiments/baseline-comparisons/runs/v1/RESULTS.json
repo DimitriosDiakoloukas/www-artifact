@@ -1,0 +1,15 @@
+{
+  "all_saved_minima_match": true,
+  "all_witnesses_replayed": true,
+  "lock_sha256": "acc18362cfffc0586ff62d0cc6d7b5006102959a377b1926f781957ccb4a88a3",
+  "methods": [
+    "bound",
+    "whole",
+    "greedy16",
+    "greedy64",
+    "exact"
+  ],
+  "result_sha256": "38a96c27222274e3d53674de4aaa132ce9f82a84b5eac4be389b5bcbe3c9a7de",
+  "rows": 1536,
+  "shard_sha256": "05a8a241b11897488e5ee718de3ab468f93b9683c72fe6999b9348a7375e9099"
+}

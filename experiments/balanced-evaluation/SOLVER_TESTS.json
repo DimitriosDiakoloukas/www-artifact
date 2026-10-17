@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "graphs": 90,
+  "assignments": 408,
+  "exact_minima": 96,
+  "source_sha256": "4246fb1b4115c405cb5d448b2a7991b0d89da095f7d4a283faebf3571d2213aa",
+  "solver_sha256": "e861832ffa389594c7a765464005a066899034b40a0c226bdf4ed31099cec2c0"
+}

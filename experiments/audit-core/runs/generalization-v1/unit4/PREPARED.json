@@ -1,0 +1,11 @@
+{
+  "arrays": {
+    "B.npz": "5e7c65727af9941dc42f02d51c5a6db4d1e967c0f6f692c4af7390fe3ded70f0",
+    "H.npz": "106144a169dac540fd1ec465ac96e19fe17745a2869a1d59cbf8e64d1423da6d",
+    "features.npz": "1eca76fddd0fa687e09954671c03c09161b61091a502d7fc1b12ab9eb6d38973"
+  },
+  "cases": 757669,
+  "result_sha256": "fc263318610431b4b213a11c7ecc20ccf2b221e91b69349477b67d0ba07e4cfc",
+  "seconds": 253.71788814291358,
+  "terms": 1602698
+}

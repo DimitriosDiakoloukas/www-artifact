@@ -1,0 +1,12 @@
+{
+  "exact": 424,
+  "graphs": 240,
+  "reciprocal": 160,
+  "sound": 56,
+  "sources": {
+    "katz_full.py": "a648155994b283dfd6c34bc12e6e072ac042330e1d522cfb28f8ac98a359edca",
+    "test_katz_full.py": "05b2db0b7594b5068e64edd147ea462b9fc188de54b7070db0023c96fbf94746"
+  },
+  "states": 13790,
+  "ties": 1
+}

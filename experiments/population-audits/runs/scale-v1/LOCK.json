@@ -1,0 +1,28 @@
+{
+  "created_utc": "2026-10-15T03:40:13Z",
+  "inputs": {
+    "<repo>/experiments/audit-core/common.py": "0048c9ea71e0a4818d886bba1cbdbd37a5e21219a7d14c748b0ed6d381c14b98",
+    "<repo>/experiments/audit-core/cover_oracle.py": "1c4407a9b8b9bb461aa386f849ee3e9b021247aa397fe69758715cf5e3beb183",
+    "<repo>/experiments/audit-core/matrix.py": "3b1331bf1dcab1316f4d988e6bbe0bdc8226304d156ddf8f7382155fbfa88dc2",
+    "<repo>/experiments/audit-core/oracle.py": "94bc16501ef7b829e1f6f4107f207d354d1a7494b96f5d543322c3aa0bed6689",
+    "<repo>/experiments/four-step-support/extend.py": "b1d88604051d96706e7f15b1971a23ac3f76b8756f78f06dddb2c1f1e884ae15",
+    "<repo>/experiments/four-step-support/four_walk.py": "a6e0d74ef2692d82c1af5aaaf48d5ecf4f4035e57e3c1f87bb92346fdb49f33f"
+  },
+  "oracle_seconds_cap": 120,
+  "processed_sha256": {
+    "epinions": "a13333a97de40bd7830caedd96d9c37d2e430847ea05326fd212fc6eaa0a6d73",
+    "slashdot": "bbf04f4472660ea84e29b2ac2eeb86627575e2d50acaf0ee0de08abe482476bc"
+  },
+  "query_alarm_seconds": 900,
+  "result_sha256": "24528893b15b600b0d44355738cbc8f37491e853a2d53e1cef3614a40b343860",
+  "sample": 2000,
+  "seed": 52000,
+  "sources": {
+    "ENGINE_TESTS.json": "9757f204684f30c40fc61d02dd5702fc83f19f796fcf4e1ae8cce4da2bfc678b",
+    "audit_engine.py": "b6be8b2977700b9862760e52c1d2c64d5d8b3681c2a4be4b0911b5e1c66a10c8",
+    "full_audit.py": "1cfd9c4ce9e62cc1ef232fd6dfb2fb6ea6776d532e74b8f2645a6f356f3297f4",
+    "scale_audit.py": "a85acc3526723fde603e271646bb7782687d5ea134055a54d3d526ec182dab60",
+    "test_audit_engine.py": "b7e96ce91778c972708feac0d6f23248180f6b92019384a3ae32a7159f87ab63"
+  },
+  "test_used_for_selection": false
+}

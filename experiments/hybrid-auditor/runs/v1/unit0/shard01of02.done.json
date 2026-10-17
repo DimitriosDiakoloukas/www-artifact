@@ -1,0 +1,10 @@
+{
+  "completed_utc": "2026-10-17T05:54:01Z",
+  "lock_sha256": "ce2ebcbe21ce97c751ee296b61c3331f771401a226e917963e7570491a0eba8f",
+  "model_sha256": "77d7a002351c0f5f96b8adfb3b74f9cca92972122f160ef29b0ff60f6f386d1f",
+  "network": "bitcoin_alpha",
+  "result_sha256": "502a40bdd6ed566fd3441169acb4dabd7cf6ee74a56c164bceea93388a4fbaa8",
+  "rows": 2419,
+  "shard_sha256": "c1296852edda552a103baa0f5226e8b04110518f0c1ab568ac6b104223d3af25",
+  "unit": 0
+}

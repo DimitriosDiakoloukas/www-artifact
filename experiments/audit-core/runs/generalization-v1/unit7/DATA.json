@@ -1,0 +1,47 @@
+{
+  "arrays": {
+    "graph.npz": "cb3ae489b12f31eb1e4bc493db440f3d9700f2016241cf51240fd99232d9af49",
+    "sample.npz": "84b80440adda8d02bb1032e0447530ecb61ee1b7b722bb4a057efc2228fdc9a8",
+    "test.npy": "71c213cfb08868b320cbd835c4b820b3685ed87b177f9fff8bee1cba0bf8c90a",
+    "test_seen.npy": "503097bc5c36149295c74f516a61de6b5770482d55f535cda1751a11fd2ae3e2",
+    "train.npy": "704ef41c6d41f896e816cfbbc9f5e6a1c008858fc310aad6aa82589f22075b74",
+    "val.npy": "2b87bf449e64c9e12f293a1f9fad2874f3a5da495fa9ca3570e6023b0d2160d1",
+    "validation_seen.npy": "3df028603c3cfeac30568601b74bc7ddb6131fb3afb5d345dd4418eb777e2a44"
+  },
+  "discarded_self_rows": 0,
+  "duplicate_ordered_rows": 0,
+  "first_nonzero_per_pair": true,
+  "kind": "temporal",
+  "lock_sha256": "e875807efee5502dcab0acfe1f3d9cde572a674ecd7f000784e35b267a7fc125",
+  "n": 5881,
+  "network": "bitcoin_otc",
+  "neutral_rows": 0,
+  "populations": {
+    "test": {
+      "all": 7119,
+      "all_prevalence": 0.8461862621154657,
+      "cold_start": 5622,
+      "seen": 1497,
+      "seen_prevalence": 0.8376753507014028
+    },
+    "validation": {
+      "all": 7118,
+      "all_prevalence": 0.8399831413318348,
+      "cold_start": 5083,
+      "seen": 2035,
+      "seen_prevalence": 0.8737100737100737
+    }
+  },
+  "raw_rows": 35592,
+  "raw_sha256": "6424ac981dad3a019f697fc1b9fcd85c19d8d9f039797758e9ffb6fea100c373",
+  "records": 35592,
+  "result_sha256": "bfae7d45d983cc0c843ff7b49518cdcc3662ebe1c2da8ab597450185f6f2ea9b",
+  "seed": 52004,
+  "time_boundaries": [
+    "1365874124.33604",
+    "1382721422.92466"
+  ],
+  "timestamp_comparisons": "exact decimal",
+  "training_seen_accounts": 3915,
+  "unit": 7
+}

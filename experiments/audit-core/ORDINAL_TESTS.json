@@ -1,0 +1,7 @@
+{
+  "checks": 480,
+  "result_sha256": "a23577cb817fd385e64833ed77df8b2238e4a771a7a56f518f694507ff6d9218",
+  "scope": "small-graph exact reference; no production ordinal learner",
+  "source_sha256": "3cb14e2eced85e0d8d80fcd6bee6bdab2ea01e974209c96ad155d4b9aa1f5e0d",
+  "states": 5784
+}

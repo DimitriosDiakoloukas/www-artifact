@@ -1,0 +1,12 @@
+{
+  "data_sha256": "a5b3b107f8b0e1ce335a7c885c8332cf0ef28a958d7b7256c9af9709f54e54bc",
+  "lock_sha256": "d2e4840f7a3fb1e073c58cda107ef9d5433096ed6554fb6c4de4365a2661e630",
+  "network": "wiki_elec",
+  "result_sha256": "34a9c6882b44abd9eeb7479afd995f39c9c53051a90a6fb40d33656915dcaaf4",
+  "seconds": 0.10721606947481632,
+  "seed": 52001,
+  "temporal": false,
+  "test": 20627,
+  "training": 8000,
+  "validation": 20625
+}

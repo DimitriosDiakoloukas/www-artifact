@@ -1,0 +1,18 @@
+{
+  "M1_detected": 51,
+  "M2_detected": 51,
+  "M3_detected": 10,
+  "M4_detected": 81,
+  "M5_horizon_three_not_additive": 152,
+  "assignments": 482592,
+  "horizon_two_minima": 300,
+  "instances_records": 120,
+  "instances_target": 120,
+  "katz_decisions": 2655,
+  "nonbipartite": 97,
+  "passed": true,
+  "result_sha256": "654a32970eb52834fa793d82ed5594f3afe9f2e783d720b3df44d8c4f0e9c982",
+  "seconds": 52.389800073578954,
+  "seed": 20261019,
+  "source_sha256": "2fe8d246767491993924b106d57aec87e8d97cfef0343474760b3ca6f67abcd8"
+}

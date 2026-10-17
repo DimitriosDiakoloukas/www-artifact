@@ -1,0 +1,14 @@
+{
+  "completed_utc": "2026-10-15T03:59:32Z",
+  "lock_sha256": "63b06d7bda9a28c48a4d36eaed464986b2b70a580cca20c8d0a3c7e678df2452",
+  "network": "bitcoin_alpha",
+  "result_sha256": "fc8d91ad4547bb00ca184168400c4121f031a9b00a34df8fedd5d274e9f8b1f7",
+  "rows": 1209,
+  "seed": 52001,
+  "selected": {
+    "cover_robust": "cover_0.03",
+    "three_robust": "three300_0.03"
+  },
+  "shard_sha256": "ae8459798a2b6430158261ee3c6a6b3265cbbef317013425774631e585a14a85",
+  "unit": 1
+}

@@ -1,0 +1,68 @@
+{
+  "matched_protocol": true,
+  "models": {
+    "ordinary": {
+      "tuned": {
+        "accuracy": 0.854504024047319,
+        "auc": 0.911484305257259,
+        "balanced_accuracy": 0.8142614649645123,
+        "cba": 0.7208116974084752,
+        "cc": 0.760787355764569,
+        "certified_negative_recall": 0.6513593785697966,
+        "certified_positive_recall": 0.7902640162471537,
+        "coverage": 0.8532434791040434,
+        "error": 0.10835842945621911,
+        "n": 20626,
+        "positive_fraction": 0.7877921070493552,
+        "threshold": -0.38695013679614365
+      },
+      "zero": {
+        "accuracy": 0.8356928148938233,
+        "auc": 0.911484305257259,
+        "balanced_accuracy": 0.8246067211981327,
+        "cba": 0.7204507465656873,
+        "cc": 0.7201105400950257,
+        "certified_negative_recall": 0.7210418094585332,
+        "certified_positive_recall": 0.7198596836728414,
+        "coverage": 0.8280810627363522,
+        "error": 0.1303864168618267,
+        "n": 20626,
+        "positive_fraction": 0.7877921070493552,
+        "threshold": 0.0
+      }
+    },
+    "robust": {
+      "tuned": {
+        "accuracy": 0.8537767865800446,
+        "auc": 0.9081045573701356,
+        "balanced_accuracy": 0.8136329733610925,
+        "cba": 0.7773928141628104,
+        "cc": 0.8246872878890721,
+        "certified_negative_recall": 0.6952250399817227,
+        "certified_positive_recall": 0.859560588343898,
+        "coverage": 0.950596334723165,
+        "error": 0.13245269546590505,
+        "n": 20626,
+        "positive_fraction": 0.7877921070493552,
+        "threshold": -0.3219642280266066
+      },
+      "zero": {
+        "accuracy": 0.8355958498981868,
+        "auc": 0.9081045573701356,
+        "balanced_accuracy": 0.8196208991852618,
+        "cba": 0.7855587830202391,
+        "cc": 0.8048094637835741,
+        "certified_negative_recall": 0.7521133196253141,
+        "certified_positive_recall": 0.819004246415164,
+        "coverage": 0.9459904974304276,
+        "error": 0.14924149241492415,
+        "n": 20626,
+        "positive_fraction": 0.7877921070493552,
+        "threshold": 0.0
+      }
+    }
+  },
+  "result_sha256": "777a66c9bedab0f9da30f52174a833226be76c068c53d1fd82507715da6bb194",
+  "seed": 52004,
+  "selected": "three_0.3"
+}

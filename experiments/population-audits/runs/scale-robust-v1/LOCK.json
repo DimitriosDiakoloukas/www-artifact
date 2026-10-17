@@ -1,0 +1,37 @@
+{
+  "created_utc": "2026-10-15T13:10:53Z",
+  "inputs": {
+    "<repo>/experiments/audit-core/common.py": "0048c9ea71e0a4818d886bba1cbdbd37a5e21219a7d14c748b0ed6d381c14b98",
+    "<repo>/experiments/audit-core/cover_oracle.py": "1c4407a9b8b9bb461aa386f849ee3e9b021247aa397fe69758715cf5e3beb183",
+    "<repo>/experiments/audit-core/feasibility.py": "298c25fda37668fd815162652325577264fb6bb3fc7a71f9817242272848684e",
+    "<repo>/experiments/audit-core/matched_three.py": "cb4d6d77caf13973d9f8be8446c2bc387a87b550680b3559c4d0c8677527356d",
+    "<repo>/experiments/audit-core/matrix.py": "3b1331bf1dcab1316f4d988e6bbe0bdc8226304d156ddf8f7382155fbfa88dc2",
+    "<repo>/experiments/audit-core/oracle.py": "94bc16501ef7b829e1f6f4107f207d354d1a7494b96f5d543322c3aa0bed6689",
+    "<repo>/experiments/audit-core/three_query.py": "69f835839a12d105d123b03489fe405907bb4f27a99ce7422abf26e974783102",
+    "<repo>/experiments/audit-core/training_oracle.py": "ae5d46bd10e7cc2edbab62149ba92be5b1b9bc9b67751657489d2f6172bd7c78",
+    "<repo>/experiments/population-audits/runs/scale-v1/LOCK.json": "58a9c1d32c710405ca66f01b2ffe0f6431e8a47972d2aa714b49015130c295ef",
+    "<repo>/experiments/population-audits/runs/scale-v1/epinions/FULL_TEST.json": "f812d94748145adf8efc10fa24666c24f61ced2ac9fbd5ff011820c3b54ad600",
+    "<repo>/experiments/population-audits/runs/scale-v1/epinions/MODELS.json": "aaff2e77c52888fbd890246223370b7b68e867c09d8004d33f4201826338ef8c",
+    "<repo>/experiments/population-audits/runs/scale-v1/epinions/training.npz": "e699fad84e5a76ff6de6fb05270523862558665f5fa633d8d82aa57d15931545",
+    "<repo>/experiments/population-audits/runs/scale-v1/slashdot/FULL_TEST.json": "aae7e64cea84bdc679922cb0644b3f47173efc08e15f4ce5ea83fe05041875b1",
+    "<repo>/experiments/population-audits/runs/scale-v1/slashdot/MODELS.json": "f92e27b81ab1f8fa7923a63a3b997849d37b35dec8831b03103b2943de33815d",
+    "<repo>/experiments/population-audits/runs/scale-v1/slashdot/training.npz": "fb87ad4041d75ebc08b322b673b9013ae0e53e64b123cdb7326c03562fddb1d4"
+  },
+  "lambdas": [
+    0.0,
+    0.01,
+    0.03,
+    0.1,
+    0.3
+  ],
+  "result_sha256": "9a45fb23713f66f7b3fe6584fb9c6679936e09721ff490658d152561fdee088d",
+  "sources": {
+    "audit_engine.py": "b6be8b2977700b9862760e52c1d2c64d5d8b3681c2a4be4b0911b5e1c66a10c8",
+    "full_audit.py": "1cfd9c4ce9e62cc1ef232fd6dfb2fb6ea6776d532e74b8f2645a6f356f3297f4",
+    "scale_audit.py": "a85acc3526723fde603e271646bb7782687d5ea134055a54d3d526ec182dab60",
+    "scale_robust.py": "fdc85965a3da12b1582b10638ea2e501f4882eeb08fcf9e872e4b7c002c0ac16",
+    "temporal_audit.py": "fa46e411da545388e2fa97325f2e0e635f160d291084e3fc4af66815a27e2658"
+  },
+  "test_used_for_selection": false,
+  "validation_sample": 2000
+}

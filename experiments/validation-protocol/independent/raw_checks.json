@@ -1,0 +1,78 @@
+{
+  "raw_sha256": "3a178611b9c2f39c9a0dc75936f28557317f1733319b49da4838232b3757cd76",
+  "queries": [
+    {
+      "position": 21,
+      "reverse": true,
+      "gate": true,
+      "kappa": 1,
+      "target_records": 9,
+      "target_brute_states": 512,
+      "feature_max_error": 0.0,
+      "point_exact": true,
+      "both_margins_match": true,
+      "witnesses_replayed": true
+    },
+    {
+      "position": 95,
+      "reverse": true,
+      "gate": false,
+      "kappa": ">12",
+      "target_records": 143,
+      "target_brute_states": 0,
+      "feature_max_error": 0.0,
+      "point_exact": true,
+      "both_margins_match": true,
+      "witnesses_replayed": true
+    },
+    {
+      "position": 11,
+      "reverse": false,
+      "gate": true,
+      "kappa": null,
+      "target_records": 3,
+      "target_brute_states": 8,
+      "feature_max_error": 0.0,
+      "point_exact": true,
+      "both_margins_match": true,
+      "witnesses_replayed": true
+    },
+    {
+      "position": 4,
+      "reverse": true,
+      "gate": false,
+      "kappa": 9,
+      "target_records": 40,
+      "target_brute_states": 0,
+      "feature_max_error": 0.0,
+      "point_exact": true,
+      "both_margins_match": true,
+      "witnesses_replayed": true
+    },
+    {
+      "position": 13,
+      "reverse": true,
+      "gate": true,
+      "kappa": 0,
+      "target_records": 6,
+      "target_brute_states": 64,
+      "feature_max_error": 0.0,
+      "point_exact": true,
+      "both_margins_match": true,
+      "witnesses_replayed": true
+    },
+    {
+      "position": 14,
+      "reverse": false,
+      "gate": true,
+      "kappa": null,
+      "target_records": 2,
+      "target_brute_states": 4,
+      "feature_max_error": 0.0,
+      "point_exact": true,
+      "both_margins_match": true,
+      "witnesses_replayed": true
+    }
+  ],
+  "seconds": 1.18
+}

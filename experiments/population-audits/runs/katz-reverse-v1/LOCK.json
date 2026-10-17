@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-15T21:03:22Z",
+  "inputs": {
+    "<repo>/experiments/four-step-support/four_walk.py": "a6e0d74ef2692d82c1af5aaaf48d5ecf4f4035e57e3c1f87bb92346fdb49f33f",
+    "<repo>/experiments/four-step-support/runs/v1/unit4/split/test.npy": "1245ccf82ca72e3d74f02a13b26276b7c4e4172c8141e9d560256125a7c28513",
+    "<repo>/experiments/four-step-support/runs/v1/unit4/split/train.npy": "4adf9182d797027176235c43567c9ba69df9306c7f623de385220fe52b061920",
+    "<repo>/experiments/four-step-support/runs/v1/unit4/split/val.npy": "83124c72d95d145b04bdfbc634e10a1fffca7b4dc38e294db53ccc3d67e229e2",
+    "<repo>/experiments/four-step-support/runs/v1/unit5/split/test.npy": "952d675176477c02706ba01acdc96c7cf99dcb3e892b0e0fd7bc9da28cc4edc4",
+    "<repo>/experiments/four-step-support/runs/v1/unit5/split/train.npy": "ab8e3177603c191963a872a483817bbcfc3bfff401124405414700a5b044269f",
+    "<repo>/experiments/four-step-support/runs/v1/unit5/split/val.npy": "b19ff63b491f4d7c20fa61cf967f254c63daa789b8631da3fb5f57b238507206",
+    "<repo>/experiments/population-audits/runs/katz-full-v1/unit0/MODEL.json": "be81822d41c75e7791240d92afbc54433d5d4ffd233084d6c054744088cf5934",
+    "<repo>/experiments/population-audits/runs/katz-full-v1/unit1/MODEL.json": "69867a0eecfcfbdde24ef1cad44a3582920d76684b78abfd9af8c9f33b8f8c46",
+    "<repo>/experiments/population-audits/runs/katz-full-v1/unit2/MODEL.json": "be63b2af27058d5cf6b35c96372715e21fa99ecc6c14ee2380eda6ae1d2d2c9f",
+    "<repo>/experiments/population-audits/runs/katz-full-v1/unit3/MODEL.json": "fd0aee89868ae8f5201427b78e3503e429f16875349300bcd86f56f58fd9acb3",
+    "<repo>/experiments/population-audits/runs/katz-full-v1/unit4/MODEL.json": "4b10153148eb8560f43d0731368e894e44a03af950400f1ce9cf9ba5d326ef60",
+    "<repo>/experiments/population-audits/runs/katz-full-v1/unit5/MODEL.json": "41ed41c9d0ca74e97789e5f60e7a526a921a45949e3e227e05f8d00a3b4bb111",
+    "<repo>/experiments/population-audits/runs/katz-v1/unit0/MODEL.json": "29e1c3c165dfc9529bcc94dce06b230aeec5aa671a75af9987a6d13231647f24",
+    "<repo>/experiments/population-audits/runs/katz-v1/unit1/MODEL.json": "295bea1ed4048e024ac663f2868a557e3db02560c49368dc01f3cc7c37d1b56d",
+    "<repo>/experiments/population-audits/runs/katz-v1/unit2/MODEL.json": "f69e396fdd02d6ffeeb580960fa7604960a8d02ad7b82bdefaeaddbf5020eb3b",
+    "<repo>/experiments/population-audits/runs/katz-v1/unit3/MODEL.json": "4022d99bc54a8d1982ebb5065a24897860e35aaa6ebb5619db29729a18c3b29b",
+    "<repo>/experiments/population-audits/runs/katz-v1/unit4/MODEL.json": "c9e7c2dd7582a1b6a7a286a41c88692fead9744b0fdfaaf1c0b58a8b48e5adcb",
+    "<repo>/experiments/population-audits/runs/katz-v1/unit5/MODEL.json": "10cc6e0d59ad711889dcec25c9ef885e966a95e52b510294a3db03a6d6f47d9b",
+    "<store>/splits/directed_bitcoin_alpha/seed52000/test.npy": "d28816cc979f9d68f60ac7487d83e5d6b7763509a8733880cc6d28e35f5123ab",
+    "<store>/splits/directed_bitcoin_alpha/seed52000/train.npy": "f7e0d82603fa973968bfa67dfe9e046279910291a746702fe495a4fe5a4e8a86",
+    "<store>/splits/directed_bitcoin_alpha/seed52000/val.npy": "496f3b01aa15c2e8d49bfc82f55fb9e8a22860ffaff1d45047c4270be4f46ef7",
+    "<store>/splits/directed_bitcoin_alpha/seed52001/test.npy": "aa64927b86ceae0135eed7949dd45c74c8523a6375932cabc389d57b568f1a83",
+    "<store>/splits/directed_bitcoin_alpha/seed52001/train.npy": "574b50b1c744a4d229bce47eafee5ef8ed6788fba9c6eff468c91719e3c30f73",
+    "<store>/splits/directed_bitcoin_alpha/seed52001/val.npy": "d8f30859bc4d55a431e733cdde4962f57399c64ab7017e4099d6fc914ab90546",
+    "<store>/splits/directed_wiki_elec/seed52000/test.npy": "8773ba62428d7f647783c73cd2b95d846bb3fb1ea9d1e5b37734f4344b661486",
+    "<store>/splits/directed_wiki_elec/seed52000/train.npy": "21eee31bd216c9cf8394ff911dc550ac3e206fcb5cec469dded98ce64a23ff19",
+    "<store>/splits/directed_wiki_elec/seed52000/val.npy": "f3e0ff76018aab8c246b3e77f0f2cce3ca7daff4899dc4934c0a7bbe8d68af30",
+    "<store>/splits/directed_wiki_elec/seed52001/test.npy": "d1a0dcefa3155f3e395b2a9a30c2a59fa569222321992b823df978fe2efd4731",
+    "<store>/splits/directed_wiki_elec/seed52001/train.npy": "615e425b3be143ab4794eefd0c34201da31f756b9d2390939b0ae50ba1603b11",
+    "<store>/splits/directed_wiki_elec/seed52001/val.npy": "11c76429623f850cbc86de85dc96c7ee92f3fa506b2c12d4cc04bd0c7f96504c"
+  },
+  "result_sha256": "9691bc984424942dab24d8356eb6c02e54aa688dee3ab2265426210e7e521a87",
+  "sources": {
+    "full_audit.py": "1cfd9c4ce9e62cc1ef232fd6dfb2fb6ea6776d532e74b8f2645a6f356f3297f4",
+    "katz_audit.py": "0e63d0f5e2960d3ec42aeb354b2ceacce31966b9b6f7b2e8d2aa4fa12c66cc0d",
+    "katz_reverse.py": "75a1a1590f839e38ba6d5167d5d399202900dc128e64b59ce984080ac9668cc9"
+  }
+}

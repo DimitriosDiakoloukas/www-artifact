@@ -1,0 +1,103 @@
+{
+  "created_utc": "2026-10-15T16:56:00Z",
+  "inputs": {
+    "<repo>/experiments/audit-core/common.py": "0048c9ea71e0a4818d886bba1cbdbd37a5e21219a7d14c748b0ed6d381c14b98",
+    "<repo>/experiments/audit-core/cover_oracle.py": "1c4407a9b8b9bb461aa386f849ee3e9b021247aa397fe69758715cf5e3beb183",
+    "<repo>/experiments/audit-core/feasibility.py": "298c25fda37668fd815162652325577264fb6bb3fc7a71f9817242272848684e",
+    "<repo>/experiments/audit-core/matched_three.py": "cb4d6d77caf13973d9f8be8446c2bc387a87b550680b3559c4d0c8677527356d",
+    "<repo>/experiments/audit-core/matrix.py": "3b1331bf1dcab1316f4d988e6bbe0bdc8226304d156ddf8f7382155fbfa88dc2",
+    "<repo>/experiments/audit-core/oracle.py": "94bc16501ef7b829e1f6f4107f207d354d1a7494b96f5d543322c3aa0bed6689",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit0/PREPARED.json": "4a137670dea71373080a4ead9c02f9bdbb1d35397ffceb1c876e0568d1b6d2ee",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit0/features.npz": "d76405de1b1f515c0c2160316b32b9138c581d8fae5328a8a764de4f1df32015",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit0/graph.npz": "f58a0f6185193e8cfb0c1b38502bb08d6ef2bcf9a758b4fbcd9251b8742068e8",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit0/sample.npz": "afa221739f72501b609da4036f0a965068fae12b3a940fe51c38d394db25fd0a",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit0/test.npy": "35211254243a1c208f29e491cce251b7861551b8a2e031d560786ae8cd868e9d",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit0/test_features.npz": "e2a03df7dfd9994332c6d50707d3383b6ea06d76e785c70f28002c6e92997be9",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit0/train.npy": "4dbbe23f086ad8048dcf1e81524f17319ceba71148e61a4e8d50fbc17ad383de",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit0/val.npy": "c5fd5f34fe4f65da02ee06a7898851f05e85adb37ddd3e47ec683ca589aff5d8",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit1/PREPARED.json": "eabc9285793650c5bb837738359a0dc40525b90b280aa9ba4cbaeecd7d47ea86",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit1/features.npz": "5d995a389eb03ab0883893014269bbeb0aa3ec337f254a0dcf35e255b7065b9d",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit1/graph.npz": "f58a0f6185193e8cfb0c1b38502bb08d6ef2bcf9a758b4fbcd9251b8742068e8",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit1/sample.npz": "46fe860e6e5724f6097d57abcfa9b7fbea87e27efcaa340b5b0e437b6370c1f1",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit1/test.npy": "6357af0e6e890205284b287b003f893917da9e9ea9be545e0554997ee1abaa99",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit1/test_features.npz": "45255935b11f92c987f3f280ccd0baac69600a17fc242475eba30b4f663e3d9a",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit1/train.npy": "ee99e6d016d76ff65d201b87fc42de8ae3c91876e85e41fa92c8d47f72e6b1c1",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit1/val.npy": "dca983a924e2cde55af390f7ebe306477ef85a0ae229f94b144aee7a8de8fcfc",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit2/PREPARED.json": "dab5206438e1b2f4113fd46dc431c628a5b78f90d1330dc373ef3376f99126a0",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit2/features.npz": "cc7ed7344474970b30c0adfd30bfef275c4458937800ee0c28d4de558b0f4d29",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit2/graph.npz": "b6c7a733629951f01de5e774ab99996caa7f4b059f70533b9a1317c1f06d548f",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit2/sample.npz": "742e7f78354ec116aaf5a86fc42b67498dec1f1218a5e42cb4bc32b3e2685635",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit2/test.npy": "34a3c4becce90c64644144102f288680b74a33ee17532486e69810798bb5557d",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit2/test_features.npz": "7d1e5ec55d2e579b42ec3fd5eeb0114c272ce98f3dff39fe1a7623ae83049336",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit2/train.npy": "c88405d4f1ec5add56b9ed4dad0223dc6bd0826d689cba8c04cd3a678c24099f",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit2/val.npy": "173dd38166e52fbc39441e372d1d64ce0f0f6d56bcdccc9fe13b4f19885779d8",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit3/PREPARED.json": "1c6b789fcba6b8f90cb30b57af87a2d2e9f4dce284f2a0bd58f57bebc361a52c",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit3/features.npz": "8869919d41e2b97f37e9117721d0873a55f751d65daab6f2691d7e5b1cba5664",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit3/graph.npz": "b6c7a733629951f01de5e774ab99996caa7f4b059f70533b9a1317c1f06d548f",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit3/sample.npz": "f23fa881a8d40f4fb82dd8be5548d77af8a45e6c1b7489d4e9d48deac818140c",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit3/test.npy": "22c5ccbe6a3c831a64f445364f7a0387ae7234a1bfd5223cde8ddcd61612053f",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit3/test_features.npz": "11b841eaa361dbc9dcc4456f681a063f2c7d9913d452494192274fc03b021aa7",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit3/train.npy": "1ce7a253b49d10c952af2aa86b0c2aa7c683164bb5bccb8e82e578674607923f",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit3/val.npy": "d3cad56924341bf04b2412f035083ac348078dfa01ff37a892c827aa8cb02d7b",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit4/PREPARED.json": "1baf33935f944e3afc55b2876c81573f893410da28c3cd3f78c12a356b8c0276",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit4/features.npz": "1eca76fddd0fa687e09954671c03c09161b61091a502d7fc1b12ab9eb6d38973",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit4/graph.npz": "c52daf10b692bf7fb3fb89b50bdd29322a9fc42d699ef43280997917e6b16380",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit4/sample.npz": "a70152a5f614cef06c662c6f70756d2040e57fe9b5255c7c2fdbb89796ce26d0",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit4/test.npy": "3354c9c915071e0d9458e2bb7a1768c7a6f1d339fec9eb4f9687789a6374e080",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit4/test_features.npz": "82fbe29ce5fb5b6eba70af5d850e529d705df4496a9cb71a252bc1436e072a94",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit4/train.npy": "742b4e02e0064ca393930b4c34ef18a6ff9319399af172c85cb94889c11598ea",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit4/val.npy": "1cf826df759a34ddd94cb932f18af37acf5b279161f745a874d6567ae448f888",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit5/PREPARED.json": "1cc943961b250b913a6c877f75a95dc824319fb1f61f55a10e28e4c8e696a872",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit5/features.npz": "8e86c016fb2a61e575e463ddf50be962fd99ed13a501d415c5f528397baf1320",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit5/graph.npz": "c52daf10b692bf7fb3fb89b50bdd29322a9fc42d699ef43280997917e6b16380",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit5/sample.npz": "6c5fe00115c736dc86202ee33c1bf794a49e15a1d60bd30c1e166be9a6d3440e",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit5/test.npy": "ff91606a93d83bc7fbb6b0938b2714209876f95095219a59daf7ce122f712ec7",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit5/test_features.npz": "048043fd23952241bc714fb84e23c515774d0d1adf479df99630fc2fcaa934d5",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit5/train.npy": "aaf5189bbf88fb6ebacdd692e96b16d15aa68353b30a964a9b860192c2c23253",
+    "<repo>/experiments/audit-core/runs/generalization-v1/unit5/val.npy": "001ec04091d054bb11548eb6f6ebef8846b7280e9cffa6453da2e8a79847c22c",
+    "<repo>/experiments/audit-core/three_query.py": "69f835839a12d105d123b03489fe405907bb4f27a99ce7422abf26e974783102",
+    "<repo>/experiments/audit-core/training_oracle.py": "ae5d46bd10e7cc2edbab62149ba92be5b1b9bc9b67751657489d2f6172bd7c78"
+  },
+  "lambdas": [
+    0.0,
+    0.01,
+    0.03,
+    0.1,
+    0.3
+  ],
+  "result_sha256": "0f0919f329af3ee343a64b500221f916508fdc10bd73f52e898ac6cf3d1ee08a",
+  "sources": {
+    "audit_engine.py": "b6be8b2977700b9862760e52c1d2c64d5d8b3681c2a4be4b0911b5e1c66a10c8",
+    "full_audit.py": "1cfd9c4ce9e62cc1ef232fd6dfb2fb6ea6776d532e74b8f2645a6f356f3297f4",
+    "refits.py": "4851652b05fe75a358e8858cf5c5730f49003c28a20bc225683ea3589545dc70",
+    "scale_robust.py": "fdc85965a3da12b1582b10638ea2e501f4882eeb08fcf9e872e4b7c002c0ac16",
+    "temporal_audit.py": "fa46e411da545388e2fa97325f2e0e635f160d291084e3fc4af66815a27e2658"
+  },
+  "test_used_for_selection": false,
+  "units": {
+    "0": [
+      "bitcoin_alpha",
+      52002
+    ],
+    "1": [
+      "bitcoin_alpha",
+      52003
+    ],
+    "2": [
+      "wiki_elec",
+      52002
+    ],
+    "3": [
+      "wiki_elec",
+      52003
+    ],
+    "4": [
+      "bitcoin_otc",
+      52002
+    ],
+    "5": [
+      "bitcoin_otc",
+      52003
+    ]
+  }
+}

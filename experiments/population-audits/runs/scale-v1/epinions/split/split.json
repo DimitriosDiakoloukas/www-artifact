@@ -1,0 +1,16 @@
+{
+  "arrays": {
+    "test": "523dde2cbd594617827a39ee3f4f936486e8551c1331b02da88a22e63e3dcf62",
+    "train": "7ce8da8722729c54b0ebcfeccd08ae0f66aab708bc9bc772479f4cf0f8470bbe",
+    "val": "757c6e442003ebbfc738d5b9c406fa6d9f6041bc78da5e518978caed650ab5de"
+  },
+  "fractions": [
+    0.6,
+    0.2,
+    0.2
+  ],
+  "network": "epinions",
+  "processed_sha256": "a13333a97de40bd7830caedd96d9c37d2e430847ea05326fd212fc6eaa0a6d73",
+  "result_sha256": "9f73020707d9f0112484beefde55d8551b5eb023dac9f7d9d0857a2485c13327",
+  "seed": 52000
+}

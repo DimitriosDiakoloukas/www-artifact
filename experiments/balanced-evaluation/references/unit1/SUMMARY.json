@@ -1,0 +1,59 @@
+{
+  "network": "bitcoin_alpha",
+  "split_seed": 52001,
+  "unit": 1,
+  "matched_training_queries": 8000,
+  "folds": 5,
+  "validation_queries": 4837,
+  "test_queries": 4838,
+  "query_exclusion": true,
+  "test_used_for_selection": false,
+  "classical": {
+    "C": 0.1,
+    "validation": {
+      "auc": 0.9312099398858981,
+      "balanced_accuracy": 0.8692307692307693,
+      "accuracy": 0.8798842257597684,
+      "threshold": -0.06245490655465191
+    },
+    "test": {
+      "auc": 0.906702405657547,
+      "balanced_accuracy": 0.8340378369841313,
+      "accuracy": 0.8900372054568003,
+      "threshold": -0.06245490655465191
+    }
+  },
+  "neural_protocol": {
+    "architecture": "author RIDGE SGCN, four layers, width 64",
+    "adaptation": "class-balanced binary sign loss on the same fold-excluded 8000 queries",
+    "inputs": "fixed-basis unsigned neighborhood projection and log degrees",
+    "learning_rates": [
+      0.001,
+      0.01
+    ],
+    "weight_decays": [
+      0.0001,
+      0.001
+    ],
+    "maximum_epochs": 200,
+    "validation_every": 10,
+    "patience_checks": 6
+  },
+  "neural": {
+    "validation": {
+      "auc": 0.8902902324156681,
+      "balanced_accuracy": 0.8278209595282766,
+      "accuracy": 0.8265453793673765,
+      "threshold": 0.48767762184143076
+    },
+    "test": {
+      "auc": 0.8861335198216223,
+      "balanced_accuracy": 0.8070684165116621,
+      "accuracy": 0.8261678379495659,
+      "threshold": 0.48767762184143076
+    },
+    "config": "lr0.001-wd0.0001"
+  },
+  "source_sha256": "be5a04abbfe65824b46ac8a43d040a1e6ef047b6a9d575be02d48618b2a97dff",
+  "external_source_sha256": "6ae34e171e5518ba726c0debff5cf9dc5af6308731c1b692b47a80e8cc885b1a"
+}

@@ -1,0 +1,31 @@
+{
+  "created_utc": "2026-10-16T15:22:53Z",
+  "result_sha256": "caa3362d7a3f1d60adb5655b88fcd298321293c4462e44dd889313def5d6d4c7",
+  "selections": {
+    "random0/lambda0": "b0ff01cf091470e10c542c88f336c53aae34e31ecf3581e63c658e722124ef5f",
+    "random0/protected": "800447a6404030c701a4d8ccee8690b0c02ce1b0ad94839842d4b8a961c85f1d",
+    "random0/unsigned": "5ffe2d34beca1a9b1c5fc135b401a42b7e919c35960992d4b7042a0a56a3d992",
+    "random1/lambda0": "30c993f8e3282757535308ab613f4a117f8f1eefcbbee6825df402f372ca2b67",
+    "random1/protected": "b81f44a377b91c053707c50082229f1c3a24d8d90f35f3800d9d8fecc5a6845e",
+    "random1/unsigned": "d6e25f12d8ff70e9ec4910335fd36a9976e7467d9f70535932f2adc42583eec1",
+    "random2/lambda0": "a8062b780c091224052cd0f060934783663a4bcbb3b5ec8647911e7f46d37a24",
+    "random2/protected": "01689b67eb99caf6ee208d8a9f7b35056e723c72813c6088e4bda3436baa4bb4",
+    "random2/unsigned": "f65d0ce12cbe9c6ef3978161e208b263a7ec69bf8970b8a35b67cac8aeb37932",
+    "random3/lambda0": "687d5ac8cd47ae5200e103a10cbcefe61f101763d72c173ba2863d692700b856",
+    "random3/protected": "2cc8470107f940572f950805ebad3db0f7aedef48ae4569960d7e39959c7a511",
+    "random3/unsigned": "fd713482506fd688c440c7dcecc0486d28c0873ffc64af79a41898d00a0fbdf6",
+    "random4/lambda0": "1404e7707ebdf32ec716d3c3c2b130786aa4014482885881274289c200e3e91c",
+    "random4/protected": "6c31ff4d166c42c1155052da740166e07f9ac38e1605beb73cc4379a957b9632",
+    "random4/unsigned": "6ad4343ca2a3b5fc5d206659bf673b3604187c27707fd04ec0fa4deff694e2b7",
+    "random5/lambda0": "68912530cd73b7d20bfd5b83e17955371d39647122bc3912ae08300566e62c3c",
+    "random5/protected": "47d8e6266038e9d9cd2f107e40ae4f361e249151b4277a9433bba148a7c1fd0d",
+    "random5/unsigned": "b35a162dcd4dd440fd5862da46594bb0997aefd27b00affa4f84c3803a238e2f",
+    "time6w0/protected": "abf7a64b57001dcc3961b020b76ce0607699201dd18c8515957a80156ae0321f",
+    "time6w1/protected": "d9c375b285d25aa6ca80e0e78444ed84cc62c9144d9c3f9b4e90220d42abb313",
+    "time6w2/protected": "3651896ecb6a2ea6ccabc6dc07bf27a1e3005832818f320f94beb346de819cc9",
+    "time7w0/protected": "c674fd235392f54358a5e0c01715dcdedec87eb089aead33803959a56afbb095",
+    "time7w1/protected": "ce366da41702af0ac2fff0b176edb87fad154523f2981eb6b8a8ae22b7d72f9c",
+    "time7w2/protected": "7f6014dc1aaae653e1a86599347695a2beb7ded0b1d62003dfb376d87659c7e4"
+  },
+  "test_records_before": 0
+}

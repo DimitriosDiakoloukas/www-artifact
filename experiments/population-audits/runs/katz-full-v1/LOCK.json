@@ -1,0 +1,47 @@
+{
+  "alarm_seconds": 120,
+  "betas": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5
+  ],
+  "cap": 12,
+  "created_utc": "2026-10-15T20:11:00Z",
+  "inputs": {
+    "<repo>/experiments/audit-core/common.py": "0048c9ea71e0a4818d886bba1cbdbd37a5e21219a7d14c748b0ed6d381c14b98",
+    "<repo>/experiments/audit-core/cover_oracle.py": "1c4407a9b8b9bb461aa386f849ee3e9b021247aa397fe69758715cf5e3beb183",
+    "<repo>/experiments/audit-core/oracle.py": "94bc16501ef7b829e1f6f4107f207d354d1a7494b96f5d543322c3aa0bed6689",
+    "<repo>/experiments/four-step-support/four_walk.py": "a6e0d74ef2692d82c1af5aaaf48d5ecf4f4035e57e3c1f87bb92346fdb49f33f",
+    "<repo>/experiments/four-step-support/runs/v1/unit4/split/test.npy": "1245ccf82ca72e3d74f02a13b26276b7c4e4172c8141e9d560256125a7c28513",
+    "<repo>/experiments/four-step-support/runs/v1/unit4/split/train.npy": "4adf9182d797027176235c43567c9ba69df9306c7f623de385220fe52b061920",
+    "<repo>/experiments/four-step-support/runs/v1/unit4/split/val.npy": "83124c72d95d145b04bdfbc634e10a1fffca7b4dc38e294db53ccc3d67e229e2",
+    "<repo>/experiments/four-step-support/runs/v1/unit5/split/test.npy": "952d675176477c02706ba01acdc96c7cf99dcb3e892b0e0fd7bc9da28cc4edc4",
+    "<repo>/experiments/four-step-support/runs/v1/unit5/split/train.npy": "ab8e3177603c191963a872a483817bbcfc3bfff401124405414700a5b044269f",
+    "<repo>/experiments/four-step-support/runs/v1/unit5/split/val.npy": "b19ff63b491f4d7c20fa61cf967f254c63daa789b8631da3fb5f57b238507206",
+    "<store>/splits/directed_bitcoin_alpha/seed52000/test.npy": "d28816cc979f9d68f60ac7487d83e5d6b7763509a8733880cc6d28e35f5123ab",
+    "<store>/splits/directed_bitcoin_alpha/seed52000/train.npy": "f7e0d82603fa973968bfa67dfe9e046279910291a746702fe495a4fe5a4e8a86",
+    "<store>/splits/directed_bitcoin_alpha/seed52000/val.npy": "496f3b01aa15c2e8d49bfc82f55fb9e8a22860ffaff1d45047c4270be4f46ef7",
+    "<store>/splits/directed_bitcoin_alpha/seed52001/test.npy": "aa64927b86ceae0135eed7949dd45c74c8523a6375932cabc389d57b568f1a83",
+    "<store>/splits/directed_bitcoin_alpha/seed52001/train.npy": "574b50b1c744a4d229bce47eafee5ef8ed6788fba9c6eff468c91719e3c30f73",
+    "<store>/splits/directed_bitcoin_alpha/seed52001/val.npy": "d8f30859bc4d55a431e733cdde4962f57399c64ab7017e4099d6fc914ab90546",
+    "<store>/splits/directed_wiki_elec/seed52000/test.npy": "8773ba62428d7f647783c73cd2b95d846bb3fb1ea9d1e5b37734f4344b661486",
+    "<store>/splits/directed_wiki_elec/seed52000/train.npy": "21eee31bd216c9cf8394ff911dc550ac3e206fcb5cec469dded98ce64a23ff19",
+    "<store>/splits/directed_wiki_elec/seed52000/val.npy": "f3e0ff76018aab8c246b3e77f0f2cce3ca7daff4899dc4934c0a7bbe8d68af30",
+    "<store>/splits/directed_wiki_elec/seed52001/test.npy": "d1a0dcefa3155f3e395b2a9a30c2a59fa569222321992b823df978fe2efd4731",
+    "<store>/splits/directed_wiki_elec/seed52001/train.npy": "615e425b3be143ab4794eefd0c34201da31f756b9d2390939b0ae50ba1603b11",
+    "<store>/splits/directed_wiki_elec/seed52001/val.npy": "11c76429623f850cbc86de85dc96c7ee92f3fa506b2c12d4cc04bd0c7f96504c"
+  },
+  "result_sha256": "c1a1ea3bb776c3479def7547e4f5b31c06787c4b21166f90a1fdebf0778e9afd",
+  "sources": {
+    "KATZ_FULL_TESTS.json": "65a045c81e2e11154d654d5e00a37549e71e56ba1082dafcad9f82d3627de573",
+    "audit_engine.py": "b6be8b2977700b9862760e52c1d2c64d5d8b3681c2a4be4b0911b5e1c66a10c8",
+    "full_audit.py": "1cfd9c4ce9e62cc1ef232fd6dfb2fb6ea6776d532e74b8f2645a6f356f3297f4",
+    "katz_audit.py": "0e63d0f5e2960d3ec42aeb354b2ceacce31966b9b6f7b2e8d2aa4fa12c66cc0d",
+    "katz_full.py": "a648155994b283dfd6c34bc12e6e072ac042330e1d522cfb28f8ac98a359edca",
+    "test_katz_full.py": "05b2db0b7594b5068e64edd147ea462b9fc188de54b7070db0023c96fbf94746"
+  },
+  "test_used_for_selection": false
+}

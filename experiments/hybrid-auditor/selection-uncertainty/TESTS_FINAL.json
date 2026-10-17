@@ -1,0 +1,20 @@
+{
+  "dyadic_explicit_sum_comparisons": 280,
+  "exact_tie_thresholds": 3,
+  "passed": true,
+  "planted_errors_detected": [
+    "omit cross-role shared accounts",
+    "double-count reciprocal dyads",
+    "omit class balance",
+    "use a nonpositive tie for certification"
+  ],
+  "result_sha256": "32b739dc35d392fa5a02ce46dc3b0b0b79160a7a6f8586f7693cdc5bb302d43f",
+  "selection_objectives_checked": [
+    "cc",
+    "cba"
+  ],
+  "source_sha256": {
+    "core.py": "d3bd274ccae87c2c4110b9f310bf0b7b97a74003e9cfae6313f6f4602e699578",
+    "test_core.py": "1128190872a3b1cd075ec102ce320cb9aca51266439912a925f417668ba8c6e9"
+  }
+}

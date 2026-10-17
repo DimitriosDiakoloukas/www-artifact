@@ -1,0 +1,18 @@
+{
+  "assignments": 18954,
+  "floating_checks": 1080,
+  "global_minima": 1080,
+  "graphs": 180,
+  "invariant_assignments": 1337,
+  "missing_compensation_mutation_detected": true,
+  "restricted_minima": 3240,
+  "result_sha256": "6f99070b894d37bbc3ff20aa3117f38124db7e05b39310405a012596ddd47164",
+  "seconds": 4.94678108766675,
+  "single_minima": 1080,
+  "sources": {
+    "models.py": "aa50400705420c5bd8eacb7ff7505c59d53390ff5a902c2062f4760c748bfe76",
+    "test_models.py": "57263218699796d7a883bdbdea42f7a3ddac9556e3b53e6d008a1d826b76d675"
+  },
+  "ties": 31,
+  "witnesses": 1080
+}

@@ -1,0 +1,30 @@
+{
+  "networks": {
+    "bitcoin_alpha": {
+      "both_signs": 0,
+      "ordered_pairs": 24186,
+      "repeated_pairs": 0
+    },
+    "bitcoin_otc": {
+      "both_signs": 0,
+      "ordered_pairs": 35592,
+      "repeated_pairs": 0
+    },
+    "epinions": {
+      "both_signs": 0,
+      "ordered_pairs": 840799,
+      "repeated_pairs": 0
+    },
+    "slashdot": {
+      "both_signs": 0,
+      "ordered_pairs": 549202,
+      "repeated_pairs": 0
+    },
+    "wiki_elec": {
+      "both_signs": 612,
+      "ordered_pairs": 103689,
+      "repeated_pairs": 3106
+    }
+  },
+  "source_sha256": "4a74e7159e8b0a68cff330e8160154695fc9643b900ce2c886167e90cbc615ae"
+}

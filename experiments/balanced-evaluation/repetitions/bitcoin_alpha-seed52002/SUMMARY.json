@@ -1,0 +1,42 @@
+{
+  "matched_protocol": true,
+  "models": {
+    "ordinary": {
+      "tuned": null,
+      "zero": {
+        "accuracy": 0.8571723852831749,
+        "auc": 0.9110371692325335,
+        "balanced_accuracy": 0.840515610217597,
+        "cba": 0.3678134227803102,
+        "cc": 0.1107895824720959,
+        "certified_negative_recall": 0.6623376623376623,
+        "certified_positive_recall": 0.07328918322295806,
+        "coverage": 0.18871434477056634,
+        "error": 0.4129244249726177,
+        "n": 4838,
+        "positive_fraction": 0.9363373294749897,
+        "threshold": 0.0
+      }
+    },
+    "robust": {
+      "tuned": null,
+      "zero": {
+        "accuracy": 0.8571723852831749,
+        "auc": 0.9110371692325335,
+        "balanced_accuracy": 0.840515610217597,
+        "cba": 0.3678134227803102,
+        "cc": 0.1107895824720959,
+        "certified_negative_recall": 0.6623376623376623,
+        "certified_positive_recall": 0.07328918322295806,
+        "coverage": 0.18871434477056634,
+        "error": 0.4129244249726177,
+        "n": 4838,
+        "positive_fraction": 0.9363373294749897,
+        "threshold": 0.0
+      }
+    }
+  },
+  "result_sha256": "1b9a6c476794e1d23d8b01a9eccb745527b48e2bdf0c9b2665a8f8c29c4275fc",
+  "seed": 52002,
+  "selected": "three_ordinary"
+}

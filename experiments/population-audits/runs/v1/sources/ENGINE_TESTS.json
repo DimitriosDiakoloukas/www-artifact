@@ -1,0 +1,11 @@
+{
+  "global_minima": 960,
+  "graphs": 160,
+  "restricted_minima": 2880,
+  "single_minima": 960,
+  "sources": {
+    "audit_engine.py": "b6be8b2977700b9862760e52c1d2c64d5d8b3681c2a4be4b0911b5e1c66a10c8",
+    "test_audit_engine.py": "b7e96ce91778c972708feac0d6f23248180f6b92019384a3ae32a7159f87ab63"
+  },
+  "states": 23670
+}

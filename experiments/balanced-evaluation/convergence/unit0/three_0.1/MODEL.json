@@ -1,0 +1,95 @@
+{
+  "arithmetic": "floating separation and optimization; exact certificates evaluated separately",
+  "final_gap_sha256": "3ae7ab0ee09832822ec91ffe5e684f7f4ebb6a3cc3835a61e595cbb56c88a37f",
+  "full_floating_objective": 0.4827296256001536,
+  "intercept": -0.33219638920639327,
+  "lambda": 0.1,
+  "maximum_separation_gap": 4.440892098500626e-14,
+  "mean_separation_gap": 3.1046346049556914e-17,
+  "result_sha256": "e4d3856eb1a61917b1343c293d5fd1d0157b47b1c6560d3139442162cc1add06",
+  "seconds": 194.8105673082173,
+  "separation_passes": 13,
+  "trace": [
+    {
+      "block": 0,
+      "pool_objective": 0.4719948776637235,
+      "updates": 50
+    },
+    {
+      "block": 1,
+      "pool_objective": 0.4821582174941308,
+      "updates": 100
+    },
+    {
+      "block": 2,
+      "pool_objective": 0.48276299840400605,
+      "updates": 150
+    },
+    {
+      "block": 3,
+      "pool_objective": 0.48277938738917575,
+      "updates": 200
+    },
+    {
+      "block": 4,
+      "pool_objective": 0.4827548239644682,
+      "updates": 250
+    },
+    {
+      "block": 5,
+      "pool_objective": 0.4827403001276829,
+      "updates": 300
+    },
+    {
+      "block": 6,
+      "pool_objective": 0.48273373569551753,
+      "updates": 350
+    },
+    {
+      "block": 7,
+      "pool_objective": 0.48273106430564766,
+      "updates": 400
+    },
+    {
+      "block": 8,
+      "pool_objective": 0.4827300803538074,
+      "updates": 450
+    },
+    {
+      "block": 9,
+      "pool_objective": 0.4827297521943299,
+      "updates": 500
+    },
+    {
+      "block": 10,
+      "pool_objective": 0.4827296530134743,
+      "updates": 550
+    },
+    {
+      "block": 11,
+      "pool_objective": 0.4827296258504514,
+      "updates": 600
+    }
+  ],
+  "updates": 600,
+  "weights": [
+    1.9733759458233113,
+    0.2655310493550254,
+    -0.06050395010368566,
+    1.6248870424612374,
+    0.3986310162389052,
+    1.0710694440556747,
+    0.0,
+    0.0,
+    0.0,
+    -0.6429924469550444,
+    0.22731086790866648,
+    0.4293029676297874,
+    -0.46424926694158397,
+    -0.20189686772766513,
+    0.5252712218384294,
+    -0.18512631607518465,
+    0.18348148058142374,
+    -0.28772078019100905
+  ]
+}

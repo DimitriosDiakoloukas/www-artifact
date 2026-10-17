@@ -1,0 +1,11 @@
+{
+  "status": "failed diagnostic pilot retained",
+  "query": "Alpha, first split, test position 2596",
+  "issue": "Unscaled small Katz coefficients allowed a HiGHS optimal status and zero relative gap at a suboptimal exactly replayed objective.",
+  "structural_exact_margin": "-9316677613934637708379/900719925474099200000000",
+  "unscaled_highs_witness_margin": "-1863259862313187717343/180143985094819840000000",
+  "unscaled_highs_relative_gap": 0.0,
+  "correction": "Scale the parity objective to its exact integer coefficient lattice. This preserves all minimizers. Rerun the unchanged frozen query sample and compare exactly replayed objectives whenever both procedures resolve the optimum.",
+  "previous_completed_queries": "SOLVER_real_pilot.jsonl",
+  "source_of_record": "Exact disagreement raised by the benchmark assertion before the numerical amendment. The failed query was never included as a successful final comparison."
+}

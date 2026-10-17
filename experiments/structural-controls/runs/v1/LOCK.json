@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-16T18:43:41Z",
+  "inputs": {
+    "experiments/population-audits/runs/v1/LOCK.json": "63b06d7bda9a28c48a4d36eaed464986b2b70a580cca20c8d0a3c7e678df2452",
+    "experiments/protected-source/SUMMARY.json": "d71acc3cad43aeb4c70ec76dd97a2b08ccdec55bf1e238e5ac950429790c0b39",
+    "experiments/protected-source/runs/v1/LOCK.json": "d1f31d4ffdf529e7f329db76d58ae71996408bfbe868cba9930fdfda63dadb43",
+    "experiments/protected-source/runs/v1/SELECTIONS.json": "34449d18c8b8b61a8ba571571b1afa05add2a49c4b881694c2afeaef289d24b9",
+    "experiments/validation-protocol/SUMMARY.json": "434164b997541b19cec9cd49333ad3482bcf915a5ef6e51466de29b267ab015d",
+    "experiments/validation-protocol/runs/v1/LOCK.json": "d2e4840f7a3fb1e073c58cda107ef9d5433096ed6554fb6c4de4365a2661e630"
+  },
+  "result_sha256": "6444b78b1444de8fe90e437f916d64d19e338e63917290b81d8bfa096e124b61",
+  "sources": {
+    "TESTS.json": "0e358b7dbe215ea2076f4cd42dc52156f8f2220a71ec4dad298471121e5649ae",
+    "analysis.py": "7ae9a47a70ff0d26af4421cd36c34c7e1fb118b9341364550d32a85792dcf965",
+    "coalition.py": "2fe8d246767491993924b106d57aec87e8d97cfef0343474760b3ca6f67abcd8"
+  },
+  "test_used_for_selection": false
+}

@@ -1,0 +1,6 @@
+{
+  "graphs": 400,
+  "second_difference_checks": 3647,
+  "source_sha256": "a86379d45c3e9ac4b745db989a33350eb9eecac7b7a62d30aa7aadb028af088e",
+  "symmetric_controls_nonaffine": 200
+}

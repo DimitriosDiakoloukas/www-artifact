@@ -1,0 +1,181 @@
+{
+  "candidates": [
+    "T",
+    "F",
+    "R"
+  ],
+  "lock_sha256": "44a934743e70a5348efbc4f688b799e68b81b2ed47df24c1228522a3b88ddac8",
+  "result_sha256": "c203a1bf6f16dde7976ada642fca2cbe2cca616c6a6af054261cf01214e2cd03",
+  "test_used_for_selection": false,
+  "threshold": 0.0,
+  "units": {
+    "time6w0": {
+      "choices": {
+        "cold_start": {
+          "choice": "T",
+          "positives": 580,
+          "queries": 617,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "2272/5365",
+            "R": "1889/4292",
+            "T": "1/2"
+          }
+        },
+        "established": {
+          "choice": "F",
+          "positives": 533,
+          "queries": 598,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "3247/5330",
+            "R": "397/2665",
+            "T": "1/2"
+          }
+        }
+      },
+      "validation_head": "lambda0.0",
+      "validation_queries": 1215
+    },
+    "time6w1": {
+      "choices": {
+        "cold_start": {
+          "choice": "R",
+          "positives": 527,
+          "queries": 620,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "659/1581",
+            "R": "2165/3162",
+            "T": "1/2"
+          }
+        },
+        "established": {
+          "choice": "F",
+          "positives": 519,
+          "queries": 563,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "799/1384",
+            "R": "5/22",
+            "T": "1/2"
+          }
+        }
+      },
+      "validation_head": "ordinary",
+      "validation_queries": 1183
+    },
+    "time6w2": {
+      "choices": {
+        "cold_start": {
+          "choice": "T",
+          "positives": 543,
+          "queries": 554,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "2800/5973",
+            "R": "888/1991",
+            "T": "1/2"
+          }
+        },
+        "established": {
+          "choice": "F",
+          "positives": 584,
+          "queries": 666,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "1501/2993",
+            "R": "4357/23944",
+            "T": "1/2"
+          }
+        }
+      },
+      "validation_head": "lambda0.0",
+      "validation_queries": 1220
+    },
+    "time7w0": {
+      "choices": {
+        "cold_start": {
+          "choice": "R",
+          "positives": 1043,
+          "queries": 1185,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "13409/21158",
+            "R": "95031/148106",
+            "T": "1/2"
+          }
+        },
+        "established": {
+          "choice": "T",
+          "positives": 560,
+          "queries": 595,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "111/224",
+            "R": "97/560",
+            "T": "1/2"
+          }
+        }
+      },
+      "validation_head": "lambda0.03",
+      "validation_queries": 1780
+    },
+    "time7w1": {
+      "choices": {
+        "cold_start": {
+          "choice": "R",
+          "positives": 797,
+          "queries": 867,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "5113/11158",
+            "R": "29837/55790",
+            "T": "1/2"
+          }
+        },
+        "established": {
+          "choice": "F",
+          "positives": 844,
+          "queries": 913,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "34223/58236",
+            "R": "16949/116472",
+            "T": "1/2"
+          }
+        }
+      },
+      "validation_head": "ordinary",
+      "validation_queries": 1780
+    },
+    "time7w2": {
+      "choices": {
+        "cold_start": {
+          "choice": "R",
+          "positives": 669,
+          "queries": 732,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "2924/4683",
+            "R": "6221/9366",
+            "T": "1/2"
+          }
+        },
+        "established": {
+          "choice": "F",
+          "positives": 942,
+          "queries": 1048,
+          "reason": "best validation certified BA",
+          "scores": {
+            "F": "11471/16642",
+            "R": "2831/16642",
+            "T": "1/2"
+          }
+        }
+      },
+      "validation_head": "lambda0.0",
+      "validation_queries": 1780
+    }
+  }
+}

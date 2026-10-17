@@ -1,0 +1,13 @@
+{
+  "graphs": 70,
+  "global_minima": 280,
+  "restricted_minima": 560,
+  "single_minima": 280,
+  "witness_replays": 1120,
+  "states": 5368,
+  "ties": 7,
+  "directed_target_invariance": 572,
+  "hardness_instances": 30,
+  "mutation_detected": true,
+  "seconds": 1.784
+}

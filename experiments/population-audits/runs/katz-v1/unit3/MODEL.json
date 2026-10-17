@@ -1,0 +1,16 @@
+{
+  "beta": 0.02,
+  "lock_sha256": "61c73fead829d7a52dfafa1a860f03aa50c2871a61110db7d047a672724f3da7",
+  "result_sha256": "662a29bda7fb52ad7a37d3a8b064c6fcac6dfa869572dc0282b6f240bd3f74f2",
+  "test_used_for_selection": false,
+  "threshold": 0.00101456,
+  "validation_auc": {
+    "0.01": 0.800920247479113,
+    "0.02": 0.8041069385841892,
+    "0.05": 0.8006530346950929,
+    "0.1": 0.7973419782484029,
+    "0.2": 0.7950788877435312,
+    "0.5": 0.7935262371426443
+  },
+  "validation_balanced_accuracy": 0.7321970078165414
+}

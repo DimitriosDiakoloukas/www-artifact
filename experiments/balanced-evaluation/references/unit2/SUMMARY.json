@@ -1,0 +1,59 @@
+{
+  "network": "wiki_elec",
+  "split_seed": 52000,
+  "unit": 2,
+  "matched_training_queries": 8000,
+  "folds": 5,
+  "validation_queries": 20625,
+  "test_queries": 20627,
+  "query_exclusion": true,
+  "test_used_for_selection": false,
+  "classical": {
+    "C": 0.1,
+    "validation": {
+      "auc": 0.9098074487647241,
+      "balanced_accuracy": 0.8298586324386446,
+      "accuracy": 0.8209939393939394,
+      "threshold": 0.26459805759917426
+    },
+    "test": {
+      "auc": 0.9115029605640514,
+      "balanced_accuracy": 0.8309987495334168,
+      "accuracy": 0.8214960973481359,
+      "threshold": 0.26459805759917426
+    }
+  },
+  "neural_protocol": {
+    "architecture": "author RIDGE SGCN, four layers, width 64",
+    "adaptation": "class-balanced binary sign loss on the same fold-excluded 8000 queries",
+    "inputs": "fixed-basis unsigned neighborhood projection and log degrees",
+    "learning_rates": [
+      0.001,
+      0.01
+    ],
+    "weight_decays": [
+      0.0001,
+      0.001
+    ],
+    "maximum_epochs": 200,
+    "validation_every": 10,
+    "patience_checks": 6
+  },
+  "neural": {
+    "validation": {
+      "auc": 0.8845252104887562,
+      "balanced_accuracy": 0.8037525858870936,
+      "accuracy": 0.7963636363636364,
+      "threshold": -0.22746791839599598
+    },
+    "test": {
+      "auc": 0.8850662720008811,
+      "balanced_accuracy": 0.8024333852558629,
+      "accuracy": 0.7978377854268677,
+      "threshold": -0.22746791839599598
+    },
+    "config": "lr0.001-wd0.001"
+  },
+  "source_sha256": "be5a04abbfe65824b46ac8a43d040a1e6ef047b6a9d575be02d48618b2a97dff",
+  "external_source_sha256": "6ae34e171e5518ba726c0debff5cf9dc5af6308731c1b692b47a80e8cc885b1a"
+}

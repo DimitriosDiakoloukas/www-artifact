@@ -1,0 +1,129 @@
+{
+  "anchor_auc": 0.9478366398261799,
+  "best_ordinary_balanced_accuracy": 0.8716627644402447,
+  "eligible": [
+    "three_0.0",
+    "three_0.01",
+    "three_0.03",
+    "three_0.1"
+  ],
+  "result_sha256": "c1d0561aef58f091481fa3c0bf0ccb6c0234a0ce02752252371fb8a3cb6ac215",
+  "selected": "three_0.1",
+  "test_used_for_selection": false,
+  "thresholds": {
+    "ordinary": {
+      "accuracy": 0.9367888748419722,
+      "auc": 0.9461998503331597,
+      "balanced_accuracy": 0.8520755874467266,
+      "cba": 0.47403151148182876,
+      "cc": 0.43812333192864167,
+      "certified_negative_recall": 0.5189340813464236,
+      "certified_positive_recall": 0.42912894161723386,
+      "coverage": 0.4583508919792106,
+      "error": 0.04413116763714373,
+      "n": 7119,
+      "positive_fraction": 0.8998454839162804,
+      "threshold": -0.8410446823805356
+    },
+    "robust": {
+      "accuracy": 0.918527883129653,
+      "auc": 0.9423292241363833,
+      "balanced_accuracy": 0.8568859007093192,
+      "cba": 0.637382927733861,
+      "cc": 0.6491080207894367,
+      "certified_negative_recall": 0.6227208976157083,
+      "certified_positive_recall": 0.6520449578520138,
+      "coverage": 0.6941986234021632,
+      "error": 0.06495346013759612,
+      "n": 7119,
+      "positive_fraction": 0.8998454839162804,
+      "threshold": -0.27110465012797363
+    }
+  },
+  "validation_rates": {
+    "three_0.0": {
+      "accuracy": 0.8954909397387274,
+      "auc": 0.9460860019468074,
+      "balanced_accuracy": 0.8696370294503881,
+      "cba": 0.403914260780238,
+      "cc": 0.2143559488692232,
+      "certified_negative_recall": 0.6409537166900421,
+      "certified_positive_recall": 0.16687480487043396,
+      "coverage": 0.26492484899564545,
+      "error": 0.19088016967126192,
+      "n": 7119,
+      "positive_fraction": 0.8998454839162804,
+      "threshold": 0.0
+    },
+    "three_0.01": {
+      "accuracy": 0.8963337547408344,
+      "auc": 0.9460621375735143,
+      "balanced_accuracy": 0.8701053404088646,
+      "cba": 0.4391840529937966,
+      "cc": 0.268857985672145,
+      "certified_negative_recall": 0.6521739130434783,
+      "certified_positive_recall": 0.22619419294411489,
+      "coverage": 0.32097204663576345,
+      "error": 0.16236323851203502,
+      "n": 7119,
+      "positive_fraction": 0.8998454839162804,
+      "threshold": 0.0
+    },
+    "three_0.03": {
+      "accuracy": 0.8985812614131198,
+      "auc": 0.9455835364724252,
+      "balanced_accuracy": 0.8701077487401143,
+      "cba": 0.4939740268042889,
+      "cc": 0.36521983424638294,
+      "certified_negative_recall": 0.6549789621318373,
+      "certified_positive_recall": 0.33296909147674053,
+      "coverage": 0.4191599943812333,
+      "error": 0.128686327077748,
+      "n": 7119,
+      "positive_fraction": 0.8998454839162804,
+      "threshold": 0.0
+    },
+    "three_0.1": {
+      "accuracy": 0.899283607248209,
+      "auc": 0.9423292241363833,
+      "balanced_accuracy": 0.8617730616326997,
+      "cba": 0.6194608928603487,
+      "cc": 0.5719904480966428,
+      "certified_negative_recall": 0.6788218793828892,
+      "certified_positive_recall": 0.5600999063378083,
+      "coverage": 0.63393735075151,
+      "error": 0.09771770440948371,
+      "n": 7119,
+      "positive_fraction": 0.8998454839162804,
+      "threshold": 0.0
+    },
+    "three_0.3": {
+      "accuracy": 0.8916982722292457,
+      "auc": 0.9316977553039117,
+      "balanced_accuracy": 0.8525725794409957,
+      "cba": 0.7260447669370274,
+      "cc": 0.7312824834948729,
+      "certified_negative_recall": 0.7194950911640954,
+      "certified_positive_recall": 0.7325944427099594,
+      "coverage": 0.816125860373648,
+      "error": 0.10395869191049914,
+      "n": 7119,
+      "positive_fraction": 0.8998454839162804,
+      "threshold": 0.0
+    },
+    "three_ordinary": {
+      "accuracy": 0.895771878072763,
+      "auc": 0.9461998503331597,
+      "balanced_accuracy": 0.8716627644402447,
+      "cba": 0.4052399376636297,
+      "cc": 0.21562017137238376,
+      "certified_negative_recall": 0.6423562412342216,
+      "certified_positive_recall": 0.16812363409303777,
+      "coverage": 0.2664700098328417,
+      "error": 0.1908276225619399,
+      "n": 7119,
+      "positive_fraction": 0.8998454839162804,
+      "threshold": 0.0
+    }
+  }
+}

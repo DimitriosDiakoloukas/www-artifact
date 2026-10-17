@@ -1,0 +1,31 @@
+{
+  "assignments": 5268,
+  "auditor": "population-audits/audit_engine.py QueryAudit.minimum",
+  "auditor_minima": 320,
+  "auditor_strict_attacks": 308,
+  "columns": [
+    0,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17
+  ],
+  "exact_score_checks": 160,
+  "feature_function": "four-step-support/extend.py features",
+  "graphs": 160,
+  "invariance_checks": 4644,
+  "mutation_source_incoming_detected": 1454,
+  "mutation_target_outgoing_detected": 631,
+  "passed": true,
+  "planted_target_excluded_detected": 133,
+  "planted_unprotected_source_detected": 63,
+  "reciprocal_graphs": 119,
+  "result_sha256": "888a16fa8821e276ef5da98890bb4a291c11f82e0b409c7e90d41094efb5c401",
+  "seconds": 13.383167063817382,
+  "seed": 20261018
+}

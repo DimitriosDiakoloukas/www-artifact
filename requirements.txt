@@ -1,0 +1,7 @@
+# Python 3.12. Exact dependency versions for the supplied code.
+torch==2.8.0
+torch-geometric==2.8.0
+torch-geometric-signed-directed==1.1.1
+numpy==2.4.4
+scipy==1.17.1
+scikit-learn==1.9.0

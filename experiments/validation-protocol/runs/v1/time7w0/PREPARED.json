@@ -1,0 +1,12 @@
+{
+  "data_sha256": "9ebd208c4c69fccbf5c925294f611c27174efd9c211c2d07a1c9f8d1ef88b7a7",
+  "lock_sha256": "d2e4840f7a3fb1e073c58cda107ef9d5433096ed6554fb6c4de4365a2661e630",
+  "network": "bitcoin_otc",
+  "result_sha256": "943917e6e3e4b2fbe56aba2acda60cf24176bee2f52cdbf66a232022d8897ac5",
+  "seconds": 14.32677098363638,
+  "seed": 71070,
+  "temporal": true,
+  "test": 7118,
+  "training": 8000,
+  "validation": 1780
+}
